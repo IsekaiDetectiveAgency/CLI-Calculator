@@ -106,7 +106,6 @@
             "outbounds": [
                 "URL-TEST",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
-                "🇫🇮 FI | 🟢 | vless | @dnsforyou | 1",
                 "🇮🇷 IR | 🟢 | vless | @filter_breaker | 99",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
@@ -136,7 +135,6 @@
             "type": "urltest",
             "outbounds": [
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
-                "🇫🇮 FI | 🟢 | vless | @dnsforyou | 1",
                 "🇮🇷 IR | 🟢 | vless | @filter_breaker | 99",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
@@ -205,29 +203,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Telegram:"
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🟢 | vless | @dnsforyou | 1",
-            "type": "vless",
-            "server": "online-chat.webboosterpro.co.uk",
-            "server_port": 443,
-            "uuid": "92a5f2d3-0ce7-471f-8871-362ffc5478f0",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.fastly.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "QxGoAQpy2zri2JRkXmPfESKjAMHpsrJPmjbkJuZCz3U",
-                    "short_id": "1eaf5214"
-                }
             }
         },
         {

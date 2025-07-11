@@ -18,7 +18,6 @@ dns:
 
 proxies:
   - {"name":"❔ XX | 🟢 | vless | @custom_14 | 7","type":"vless","server":"usa-join.outline-vpn.fun","port":443,"uuid":"fc6395b9-8060-41b2-82f1-a55419093fe9","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"grpc-opts":{"grpc-service-name":"Telegram:"},"reality-opts":{"public-key":"U79mwBYXYzaNs1L57EDyJNC5p8HSrQYx1GDnBdttgmw"}}
-  - {"name":"🇫🇮 FI | 🟢 | vless | @dnsforyou | 1","type":"vless","server":"online-chat.webboosterpro.co.uk","port":443,"uuid":"92a5f2d3-0ce7-471f-8871-362ffc5478f0","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"www.fastly.com","reality-opts":{"public-key":"QxGoAQpy2zri2JRkXmPfESKjAMHpsrJPmjbkJuZCz3U","short-id":"1eaf5214"}}
   - {"name":"🇮🇹 IT | 🟢 | vless | @fastkanfig | 12","type":"vless","server":"turboo-server-bot.aftabz.com","port":8080,"uuid":"92c79723-eb54-4c48-bb81-83423a0e6440","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"tgju.org","reality-opts":{"public-key":"zLBoalJcQIgIUcegIx0_cCEBvAMJxIbotJA6y50CVHg","short-id":"3bf4f5"}}
   - {"name":"❔ XX | 🟢 | vless | @filter5050 | 2","type":"vless","server":"Filter5050.nabxcsjghjs2004.shop","port":27940,"uuid":"2fb8383b-2b12-463e-a20d-674c36d9b7d3","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"servername":"cdn.discordapp.com","reality-opts":{"public-key":"NY4vf2xmEysVkOcgDnGASs9E_kJS1QxqRo7uFSzwh3g","short-id":"a7cf4983"}}
   - {"name":"🇮🇷 IR | 🟢 | vless | @filter_breaker | 99","type":"vless","server":"dl.soundhub.me","port":7000,"uuid":"212f3cb2-7bac-4321-a0a8-3a10896290fe","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"www.unpkg.com","reality-opts":{"public-key":"ioE61VC3V30U7IdRmQ3bjhOq2ij9tPhVIgAD4JZ4YRY","short-id":"0b5922be64fc5713"}}
@@ -70,7 +69,6 @@ proxy-groups:
     tolerance: 50 
     proxies:
       - '❔ XX | 🟢 | vless | @custom_14 | 7'
-      - '🇫🇮 FI | 🟢 | vless | @dnsforyou | 1'
       - '🇮🇹 IT | 🟢 | vless | @fastkanfig | 12'
       - '❔ XX | 🟢 | vless | @filter5050 | 2'
       - '🇮🇷 IR | 🟢 | vless | @filter_breaker | 99'
@@ -98,7 +96,6 @@ proxy-groups:
     interval: 300
     proxies:
       - '❔ XX | 🟢 | vless | @custom_14 | 7'
-      - '🇫🇮 FI | 🟢 | vless | @dnsforyou | 1'
       - '🇮🇹 IT | 🟢 | vless | @fastkanfig | 12'
       - '❔ XX | 🟢 | vless | @filter5050 | 2'
       - '🇮🇷 IR | 🟢 | vless | @filter_breaker | 99'
@@ -124,7 +121,6 @@ proxy-groups:
     type: select
     proxies:
       - '❔ XX | 🟢 | vless | @custom_14 | 7'
-      - '🇫🇮 FI | 🟢 | vless | @dnsforyou | 1'
       - '🇮🇹 IT | 🟢 | vless | @fastkanfig | 12'
       - '❔ XX | 🟢 | vless | @filter5050 | 2'
       - '🇮🇷 IR | 🟢 | vless | @filter_breaker | 99'
