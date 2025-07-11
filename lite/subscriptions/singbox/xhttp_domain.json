@@ -115,8 +115,8 @@
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 4",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "❔ XX | 🟢 | vless | @freakconfig2 | 7",
-                "🇺🇸 US | 🔴 | vless | @hooshemasnui | 3",
-                "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 17"
+                "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 17",
+                "🇺🇸 US | 🔴 | vless | @v2ry_proxy | 13"
             ]
         },
         {
@@ -133,8 +133,8 @@
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 4",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "❔ XX | 🟢 | vless | @freakconfig2 | 7",
-                "🇺🇸 US | 🔴 | vless | @hooshemasnui | 3",
-                "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 17"
+                "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 17",
+                "🇺🇸 US | 🔴 | vless | @v2ry_proxy | 13"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -270,20 +270,20 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @hooshemasnui | 3",
-            "type": "vless",
-            "server": "test.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "5a11a94b-2f23-4c44-927d-c8167e2b0c60",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 17",
             "type": "vless",
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @v2ry_proxy | 13",
+            "type": "vless",
+            "server": "speedtest.net",
+            "server_port": 80,
+            "uuid": "4dd5e5d7-8b91-4bdf-8c8b-ea18d6476416",
             "flow": "",
             "packet_encoding": "xudp"
         }
