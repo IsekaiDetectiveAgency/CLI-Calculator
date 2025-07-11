@@ -111,13 +111,12 @@
                 "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 16",
                 "🇺🇸 US | 🔴 | vless | @hooshemasnui | 4",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 12",
+                "🇺🇸 US | 🔴 | vless | @lranonline_new | 17",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇺🇸 US | 🔴 | vless | @srcvpn | 30",
-                "🇺🇸 US | 🔴 | vless | @trueproxy | 5",
-                "🇹🇷 TR | 🟢 | vless | @vmesc | 16"
+                "🇺🇸 US | 🔴 | vless | @trueproxy | 5"
             ]
         },
         {
@@ -130,13 +129,12 @@
                 "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 16",
                 "🇺🇸 US | 🔴 | vless | @hooshemasnui | 4",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 12",
+                "🇺🇸 US | 🔴 | vless | @lranonline_new | 17",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇺🇸 US | 🔴 | vless | @srcvpn | 30",
-                "🇺🇸 US | 🔴 | vless | @trueproxy | 5",
-                "🇹🇷 TR | 🟢 | vless | @vmesc | 16"
+                "🇺🇸 US | 🔴 | vless | @trueproxy | 5"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -213,6 +211,15 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇺🇸 US | 🔴 | vless | @lranonline_new | 17",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "259923b6-756d-4b33-9ea9-73e55378018a",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
             "type": "vless",
             "server": "49.13.199.174",
@@ -277,15 +284,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @srcvpn | 30",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "259923b6-756d-4b33-9ea9-73e55378018a",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🔴 | vless | @trueproxy | 5",
             "type": "vless",
             "server": "151.101.67.8",
@@ -293,29 +291,6 @@
             "uuid": "8088c605-e0c2-4774-9ee4-7fa7e47b6112",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇹🇷 TR | 🟢 | vless | @vmesc | 16",
-            "type": "vless",
-            "server": "46.31.76.3",
-            "server_port": 80,
-            "uuid": "295afac4-e906-4e08-b1ce-524177c7ecb1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "oTX6mQJYxkmmdF7Rq_stAKX_hYoOMXGaWmoblFl2zgo",
-                    "short_id": "5942e2"
-                }
-            }
         }
     ],
     "route": {
