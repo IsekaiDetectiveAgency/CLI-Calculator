@@ -115,6 +115,7 @@
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "❔ XX | 🟢 | vless | @freakconfig2 | 7",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 17",
+                "🇩🇪 DE | 🟢 | vless | @vaslvip | 16",
                 "🇺🇸 US | 🔴 | vless | @zedping | 0"
             ]
         },
@@ -132,6 +133,7 @@
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "❔ XX | 🟢 | vless | @freakconfig2 | 7",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 17",
+                "🇩🇪 DE | 🟢 | vless | @vaslvip | 16",
                 "🇺🇸 US | 🔴 | vless | @zedping | 0"
             ],
             "url": "https://www.gstatic.com/generate_204",
@@ -252,6 +254,29 @@
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @vaslvip | 16",
+            "type": "vless",
+            "server": "test-lets-wildcard.spotifycdn.org",
+            "server_port": 443,
+            "uuid": "06f5a7cb-3842-49d0-a498-d4165c0eb956",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MvHAa605zfOrBe-SDP6_ytTmotBw39f6OefvXn2DZhk",
+                    "short_id": "7f2798f9"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @zedping | 0",

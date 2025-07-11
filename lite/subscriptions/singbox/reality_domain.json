@@ -122,7 +122,8 @@
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11",
-                "🇷🇺 RU | 🟢 | vless | @vaslvip | 17",
+                "🇩🇪 DE | 🟢 | vless | @vaslvip | 16",
+                "🇩🇪 DE | 🟢 | vless | @vmess_ir | 18",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 15",
@@ -152,7 +153,8 @@
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11",
-                "🇷🇺 RU | 🟢 | vless | @vaslvip | 17",
+                "🇩🇪 DE | 🟢 | vless | @vaslvip | 16",
+                "🇩🇪 DE | 🟢 | vless | @vmess_ir | 18",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 15",
@@ -604,16 +606,39 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🟢 | vless | @vaslvip | 17",
+            "tag": "🇩🇪 DE | 🟢 | vless | @vaslvip | 16",
             "type": "vless",
-            "server": "Russiatest-Tap.servers807.ir",
-            "server_port": 13796,
-            "uuid": "b646e0d6-137b-49e1-90bc-3b9ad8a6484a",
+            "server": "test-lets-wildcard.spotifycdn.org",
+            "server_port": 443,
+            "uuid": "06f5a7cb-3842-49d0-a498-d4165c0eb956",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "tgju.org",
+                "server_name": "www.tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MvHAa605zfOrBe-SDP6_ytTmotBw39f6OefvXn2DZhk",
+                    "short_id": "7f2798f9"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @vmess_ir | 18",
+            "type": "vless",
+            "server": "it.panelmarzban.com",
+            "server_port": 3037,
+            "uuid": "a0a3e34d-87e4-4ff3-b04a-875c85325d62",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -621,8 +646,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "AIUUKeq08usIla0uv-NTp5wVe4TMb3VkXWDLoutlFnM",
-                    "short_id": "a3ac"
+                    "public_key": "21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI",
+                    "short_id": ""
                 }
             }
         },
