@@ -109,13 +109,13 @@
                 "🇺🇸 US | 🔴 | vless | @configscenter | 4",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
+                "🇫🇮 FI | 🟢 | vless | @dnsforyou | 1",
                 "🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 9",
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 6",
-                "🇺🇸 US | 🔴 | vless | @father_vpn | 5",
+                "🇺🇸 US | 🔴 | vless | @father_vpn | 4",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "❔ XX | 🟢 | vless | @freakconfig2 | 7",
                 "🇺🇸 US | 🔴 | vless | @hooshemasnui | 3",
-                "🇫🇮 FI | 🟢 | vless | @meli_proxyy | 17",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 17"
             ]
         },
@@ -127,13 +127,13 @@
                 "🇺🇸 US | 🔴 | vless | @configscenter | 4",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
+                "🇫🇮 FI | 🟢 | vless | @dnsforyou | 1",
                 "🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 9",
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 6",
-                "🇺🇸 US | 🔴 | vless | @father_vpn | 5",
+                "🇺🇸 US | 🔴 | vless | @father_vpn | 4",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "❔ XX | 🟢 | vless | @freakconfig2 | 7",
                 "🇺🇸 US | 🔴 | vless | @hooshemasnui | 3",
-                "🇫🇮 FI | 🟢 | vless | @meli_proxyy | 17",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 17"
             ],
             "url": "https://www.gstatic.com/generate_204",
@@ -193,6 +193,29 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇫🇮 FI | 🟢 | vless | @dnsforyou | 1",
+            "type": "vless",
+            "server": "online-chat.webboosterpro.co.uk",
+            "server_port": 443,
+            "uuid": "92a5f2d3-0ce7-471f-8871-362ffc5478f0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.fastly.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "QxGoAQpy2zri2JRkXmPfESKjAMHpsrJPmjbkJuZCz3U",
+                    "short_id": "1eaf5214"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 9",
             "type": "vless",
             "server": "germany.fast.hosting-ip.com",
@@ -211,7 +234,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @father_vpn | 5",
+            "tag": "🇺🇸 US | 🔴 | vless | @father_vpn | 4",
             "type": "vless",
             "server": "server2.ultra-irancell.com",
             "server_port": 80,
@@ -254,29 +277,6 @@
             "uuid": "5a11a94b-2f23-4c44-927d-c8167e2b0c60",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇫🇮 FI | 🟢 | vless | @meli_proxyy | 17",
-            "type": "vless",
-            "server": "online-chat.webboosterpro.co.uk",
-            "server_port": 443,
-            "uuid": "92a5f2d3-0ce7-471f-8871-362ffc5478f0",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.fastly.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "QxGoAQpy2zri2JRkXmPfESKjAMHpsrJPmjbkJuZCz3U",
-                    "short_id": "1eaf5214"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 17",
