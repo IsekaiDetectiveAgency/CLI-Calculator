@@ -116,7 +116,8 @@
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "❔ XX | 🟢 | vless | @freakconfig2 | 7",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 17",
-                "🇺🇸 US | 🔴 | vless | @v2ry_proxy | 13"
+                "🇺🇸 US | 🔴 | vless | @v2ry_proxy | 13",
+                "🇳🇱 NL | 🟢 | vless | @vistav2ray | 15"
             ]
         },
         {
@@ -134,7 +135,8 @@
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "❔ XX | 🟢 | vless | @freakconfig2 | 7",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 17",
-                "🇺🇸 US | 🔴 | vless | @v2ry_proxy | 13"
+                "🇺🇸 US | 🔴 | vless | @v2ry_proxy | 13",
+                "🇳🇱 NL | 🟢 | vless | @vistav2ray | 15"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -286,6 +288,24 @@
             "uuid": "4dd5e5d7-8b91-4bdf-8c8b-ea18d6476416",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | vless | @vistav2ray | 15",
+            "type": "vless",
+            "server": "statue.lnmarketplace.net",
+            "server_port": 443,
+            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "statue.lnmarketplace.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         }
     ],
     "route": {

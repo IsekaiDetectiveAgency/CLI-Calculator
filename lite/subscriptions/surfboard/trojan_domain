@@ -11,14 +11,13 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2 = trojan, production.tj.ojan.workers.dev, 443, password = 9yu6m5okr, skip-cert-verify = false
 ❔ XX | 🟢 | trojan | @maradona_vpn | 8 = trojan, maradona_vpn.history-paint.art, 443, password = Maradona_vpn, skip-cert-verify = false
-🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15 = trojan, ru2.asc-sam.ir, 443, password = IM4e0ZQNPU, skip-cert-verify = false
 🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6 = trojan, de1.test3.net, 443, password = b8841c50-c3ad-11ee-9be0-1239d0255272, skip-cert-verify = false
 🇨🇳 CN | 🟢 | trojan | @zdyz2 | 12 = trojan, f10011.flyflylflyflysbs.sbs, 19949, password = 9c3c38d0-8637-4c94-a790-61f3202a943a, skip-cert-verify = true
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2, ❔ XX | 🟢 | trojan | @maradona_vpn | 8, 🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15, 🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6, 🇨🇳 CN | 🟢 | trojan | @zdyz2 | 12
-PSG-AUTO = url-test, 🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2, ❔ XX | 🟢 | trojan | @maradona_vpn | 8, 🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15, 🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6, 🇨🇳 CN | 🟢 | trojan | @zdyz2 | 12
-PSG-FALLBACK = fallback, 🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2, ❔ XX | 🟢 | trojan | @maradona_vpn | 8, 🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15, 🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6, 🇨🇳 CN | 🟢 | trojan | @zdyz2 | 12
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2, ❔ XX | 🟢 | trojan | @maradona_vpn | 8, 🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6, 🇨🇳 CN | 🟢 | trojan | @zdyz2 | 12
+PSG-AUTO = url-test, 🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2, ❔ XX | 🟢 | trojan | @maradona_vpn | 8, 🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6, 🇨🇳 CN | 🟢 | trojan | @zdyz2 | 12
+PSG-FALLBACK = fallback, 🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2, ❔ XX | 🟢 | trojan | @maradona_vpn | 8, 🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6, 🇨🇳 CN | 🟢 | trojan | @zdyz2 | 12
 
 [Rule]
 GEOIP,IR,DIRECT
