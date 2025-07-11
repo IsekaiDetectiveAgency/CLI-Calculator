@@ -109,6 +109,7 @@
                 "🇺🇸 US | 🟢 | trojan | @kurdistan_vpn_perfectt | 5",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
+                "🇺🇸 US | 🟢 | trojan | @v2rayweb | 16",
                 "🇨🇳 CN | 🟢 | trojan | @zdyz2 | 12",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 15",
                 "🇳🇱 NL | 🔴 | trojan | @hacknashid | 2",
@@ -118,7 +119,7 @@
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇫🇷 FR | 🟢 | trojan | @v2ray_extractor | 19",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
-                "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14",
+                "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ]
         },
@@ -130,6 +131,7 @@
                 "🇺🇸 US | 🟢 | trojan | @kurdistan_vpn_perfectt | 5",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
+                "🇺🇸 US | 🟢 | trojan | @v2rayweb | 16",
                 "🇨🇳 CN | 🟢 | trojan | @zdyz2 | 12",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 15",
                 "🇳🇱 NL | 🔴 | trojan | @hacknashid | 2",
@@ -139,7 +141,7 @@
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇫🇷 FR | 🟢 | trojan | @v2ray_extractor | 19",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
-                "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14",
+                "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ],
             "url": "https://www.gstatic.com/generate_204",
@@ -237,6 +239,22 @@
             "tls": {
                 "enabled": true,
                 "server_name": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | trojan | @v2rayweb | 16",
+            "type": "trojan",
+            "server": "download2hkt.windowsupdate.lol",
+            "server_port": 443,
+            "password": "af4d2493-9156-4514-9f6b-ee5d1a1e4713",
+            "tls": {
+                "enabled": true,
+                "server_name": "download2hkt.windowsupdate.lol",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -396,9 +414,9 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14",
+            "tag": "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14",
             "type": "trojan",
-            "server": "63.177.166.9",
+            "server": "13.36.253.184",
             "server_port": 22223,
             "password": "telegram-id-v2rayvpnchannel",
             "tls": {
