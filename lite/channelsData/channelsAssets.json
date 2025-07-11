@@ -307,8 +307,9 @@
     "config_proxy": {
         "types": [
             "vless",
+            "trojan",
             "vmess",
-            "trojan"
+            "ss"
         ],
         "title": "Proxy | V2ray | Config | Vpn | Hiddify | Nekobox | Segaro | پروکسی | فیلترشکن | ایرانسل | همراه اول | رایتل | سامانتل | مخابرات|",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/config_proxy.jpg"
@@ -1151,7 +1152,8 @@
         "types": [
             "vless",
             "trojan",
-            "ss"
+            "ss",
+            "vmess"
         ],
         "title": "🕊 Hope Net",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/hope_net.jpg"
@@ -1228,9 +1230,9 @@
     },
     "ip_cf_config": {
         "types": [
-            "ss",
             "trojan",
             "vless",
+            "ss",
             "vmess"
         ],
         "title": "IP_CF | V2ray Config Pool",
@@ -2278,8 +2280,7 @@
     },
     "proxy_mtproto_vpns_free": {
         "types": [
-            "vless",
-            "ss"
+            "vless"
         ],
         "title": "VPNs Proxy Mtproto",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/proxy_mtproto_vpns_free.jpg"
@@ -2843,10 +2844,10 @@
     },
     "v2ray_free_conf": {
         "types": [
-            "vless",
-            "ss",
             "vmess",
-            "trojan"
+            "trojan",
+            "ss",
+            "vless"
         ],
         "title": "🌍 V2Ray Free Config 🇮🇷",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ray_free_conf.jpg"
@@ -2969,8 +2970,7 @@
     },
     "v2rayfree": {
         "types": [
-            "vless",
-            "ss"
+            "vless"
         ],
         "title": "VPNs Proxy Mtproto",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayfree.jpg"
@@ -3390,8 +3390,8 @@
     },
     "vaslvip": {
         "types": [
-            "ss",
             "vless",
+            "ss",
             "trojan",
             "vmess"
         ],
@@ -3472,8 +3472,8 @@
     },
     "vistav2ray": {
         "types": [
-            "ss",
-            "vless"
+            "vless",
+            "ss"
         ],
         "title": "Vista Pc (It _ja)",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vistav2ray.jpg"
@@ -3898,13 +3898,6 @@
         "title": "WomanLifeFreedomVPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/womanlifefreedomvpn.jpg"
     },
-    "wxgmrjdcc": {
-        "types": [
-            "vless"
-        ],
-        "title": "每日节点存储",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/wxgmrjdcc.jpg"
-    },
     "x4azadi": {
         "types": [
             "vless",
@@ -4008,14 +4001,6 @@
         ],
         "title": "V2SHOP | v2rayNG فیلترشکن وی پی ان ویتوری",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/zerov2shop.jpg"
-    },
-    "zibanabz": {
-        "types": [
-            "ss",
-            "vless"
-        ],
-        "title": "کانفیگ V2ray",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/zibanabz.jpg"
     },
     "zvpnn": {
         "types": [

@@ -114,6 +114,7 @@
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 5",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "❔ XX | 🟢 | vless | @freakconfig2 | 7",
+                "🇩🇪 DE | 🟢 | vless | @proxy_mtproto_vpns_free | 8",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 17",
                 "🇺🇸 US | 🔴 | vless | @zedping | 0"
             ]
@@ -131,6 +132,7 @@
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 5",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "❔ XX | 🟢 | vless | @freakconfig2 | 7",
+                "🇩🇪 DE | 🟢 | vless | @proxy_mtproto_vpns_free | 8",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 17",
                 "🇺🇸 US | 🔴 | vless | @zedping | 0"
             ],
@@ -241,6 +243,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @proxy_mtproto_vpns_free | 8",
+            "type": "vless",
+            "server": "vip1.proxystore11.news",
+            "server_port": 2052,
+            "uuid": "22477fe4-249e-4c18-8986-74b0f1f0657e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "vultr.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-4S95rjoZIG_AeUxIlwedx89e7C_X4jnePY3RsiF4io",
+                    "short_id": "f8fcb589"
                 }
             }
         },
