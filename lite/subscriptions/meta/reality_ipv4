@@ -17,6 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
+  - {"name":"🇳🇱 NL | 🟢 | vless | @antifilterjadid | 3","type":"vless","server":"62.212.70.55","port":10977,"uuid":"3067b1d9-93aa-4519-9e65-0e44f81f0ab4","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"git-scm.com","reality-opts":{"public-key":"-CHFA9oR0WyPNheGuCqmI_y21X6m9ZKXWkOuholNT3Y"}}
   - {"name":"🇫🇷 FR | 🟢 | vless | @configasli | 6","type":"vless","server":"172.232.33.18","port":443,"uuid":"fe48773b-df06-409a-bc61-117cd8fb1eb7","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"ftp.debian.org","reality-opts":{"public-key":"PTlW40u-tHGDlObhSKFN4tntrfHLgNPlHqg1oYqyY1o","short-id":"b5ecd44d"}}
   - {"name":"🇦🇪 AE | 🟢 | vless | @darkfiilter | 2","type":"vless","server":"51.112.101.2","port":3040,"uuid":"b44067d6-8476-4135-9807-5fc1819e533c","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"refersion.com","reality-opts":{"public-key":"21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI"}}
   - {"name":"🇳🇱 NL | 🟢 | vless | @expressvpn_420 | 14","type":"vless","server":"62.212.70.94","port":2025,"uuid":"f6e4491f-59b6-4b9a-982b-4b7e05509f96","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"tgju.org","reality-opts":{"public-key":"Q1a6ooyct6J0bZRpJD02S6PLMOl0HaLWT2ECyMAwQgw","short-id":"e9"}}
@@ -36,7 +37,6 @@ proxies:
   - {"name":"🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2","type":"vless","server":"128.140.35.236","port":50713,"uuid":"dab8ab46-5071-4d95-ac9b-bb469d6599fc","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"nobitex.ir","reality-opts":{"public-key":"03oIukhEmNzMAGZWqcNLAHHjcVX0jLqRSa3ocMuskQY","short-id":"88417bc4"}}
   - {"name":"🇩🇪 DE | 🟢 | vless | @vipv2rey | 39","type":"vless","server":"143.244.207.133","port":46217,"uuid":"835607d0-6d60-444e-bc0b-ebc9cd9594ad","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"yahoo.com","reality-opts":{"public-key":"Qdg7LVP5VmLr7xzv556ry5RNc3QaeAj4TwOUxndA23M","short-id":"e3f89b63"}}
   - {"name":"🇩🇪 DE | 🟢 | vless | @vpn451 | 9","type":"vless","server":"80.71.157.175","port":8443,"uuid":"0cefb59c-407d-4b09-87fc-fa8b0680f4f5","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"DEDUso.su","flow":"xtls-rprx-vision","reality-opts":{"public-key":"I4ckWGs37sBXSBq3lGP79HqOhZ1eOjqaikCsDJXTaw0","short-id":"a4eed13ebbf2f9d2"}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @vpnaloo | 12","type":"vless","server":"198.89.125.185","port":29380,"uuid":"172663dd-119d-4377-8f8f-d9c165037793","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"yahoo.com","reality-opts":{"public-key":"AqP0j7-muP7ik0-CM91y4-OA2bbffC6p75Z6D-it-ho","short-id":"6287b533dabc"}}
   - {"name":"🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0","type":"vless","server":"91.99.148.251","port":3184,"uuid":"2e655095-7f4e-428d-9c7e-eb2278e153a8","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"www.chess.com","grpc-opts":{"grpc-service-name":"chessgame"},"reality-opts":{"public-key":"hLNxB1vjLv1XhgKvh99s9_0f6qHw50Mrf8B109Hd21I"}}
   - {"name":"🇩🇪 DE | 🟢 | vless | @vpnvg | 14","type":"vless","server":"49.13.74.158","port":22069,"uuid":"4c6fcb3d-334c-46ab-a62b-c8e56d7f776b","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"greenpepper.ir","grpc-opts":{"grpc-service-name":"--------------telegram:funza--------------telegram:funza--------------telegram:funza--------------telegram:funza--------------telegram:funza--------------telegram:funza--------------telegram:funza--------------telegram:funza--------------telegram:funza--------------telegram:funza--------------"},"reality-opts":{"public-key":"VeRff9ggzWtCJTGoMbOlqQ15cr1V3fu7jWpfONeV53c","short-id":"c052cef8"}}
   - {"name":"🇩🇪 DE | 🟢 | vless | @x4azadi | 14","type":"vless","server":"188.245.59.222","port":55555,"uuid":"e2d151dc-443d-47c8-b6b0-cef1bc7836fc","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"stackoverflow.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"iN6Mxm-XgB9_nfgRHxdE3QX9XJpAY-EHv-EtvAIkYx4","short-id":"ea83a8b0"}}
@@ -70,6 +70,7 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
+      - '🇳🇱 NL | 🟢 | vless | @antifilterjadid | 3'
       - '🇫🇷 FR | 🟢 | vless | @configasli | 6'
       - '🇦🇪 AE | 🟢 | vless | @darkfiilter | 2'
       - '🇳🇱 NL | 🟢 | vless | @expressvpn_420 | 14'
@@ -89,7 +90,6 @@ proxy-groups:
       - '🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2'
       - '🇩🇪 DE | 🟢 | vless | @vipv2rey | 39'
       - '🇩🇪 DE | 🟢 | vless | @vpn451 | 9'
-      - '🇺🇸 US | 🟢 | vless | @vpnaloo | 12'
       - '🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0'
       - '🇩🇪 DE | 🟢 | vless | @vpnvg | 14'
       - '🇩🇪 DE | 🟢 | vless | @x4azadi | 14'
@@ -99,6 +99,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - '🇳🇱 NL | 🟢 | vless | @antifilterjadid | 3'
       - '🇫🇷 FR | 🟢 | vless | @configasli | 6'
       - '🇦🇪 AE | 🟢 | vless | @darkfiilter | 2'
       - '🇳🇱 NL | 🟢 | vless | @expressvpn_420 | 14'
@@ -118,7 +119,6 @@ proxy-groups:
       - '🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2'
       - '🇩🇪 DE | 🟢 | vless | @vipv2rey | 39'
       - '🇩🇪 DE | 🟢 | vless | @vpn451 | 9'
-      - '🇺🇸 US | 🟢 | vless | @vpnaloo | 12'
       - '🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0'
       - '🇩🇪 DE | 🟢 | vless | @vpnvg | 14'
       - '🇩🇪 DE | 🟢 | vless | @x4azadi | 14'
@@ -126,6 +126,7 @@ proxy-groups:
   - name: All-Proxies
     type: select
     proxies:
+      - '🇳🇱 NL | 🟢 | vless | @antifilterjadid | 3'
       - '🇫🇷 FR | 🟢 | vless | @configasli | 6'
       - '🇦🇪 AE | 🟢 | vless | @darkfiilter | 2'
       - '🇳🇱 NL | 🟢 | vless | @expressvpn_420 | 14'
@@ -145,7 +146,6 @@ proxy-groups:
       - '🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2'
       - '🇩🇪 DE | 🟢 | vless | @vipv2rey | 39'
       - '🇩🇪 DE | 🟢 | vless | @vpn451 | 9'
-      - '🇺🇸 US | 🟢 | vless | @vpnaloo | 12'
       - '🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0'
       - '🇩🇪 DE | 🟢 | vless | @vpnvg | 14'
       - '🇩🇪 DE | 🟢 | vless | @x4azadi | 14'

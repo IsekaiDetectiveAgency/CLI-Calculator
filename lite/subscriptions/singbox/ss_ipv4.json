@@ -105,10 +105,10 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧 GB | 🟢 | ss | @antifilterjadid | 2",
                 "🇸🇬 SG | 🟢 | ss | @argo_vpn1 | 6",
                 "🇦🇹 AT | 🟢 | ss | @arv2ra | 7",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
+                "🇬🇧 GB | 🟢 | ss | @elfv2ray | 5",
                 "🇳🇱 NL | 🟢 | ss | @free1ss | 15",
                 "🇬🇧 GB | 🟢 | ss | @injectormconf | 39",
                 "🇩🇪 DE | 🟢 | ss | @jiedianf | 9",
@@ -144,10 +144,10 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧 GB | 🟢 | ss | @antifilterjadid | 2",
                 "🇸🇬 SG | 🟢 | ss | @argo_vpn1 | 6",
                 "🇦🇹 AT | 🟢 | ss | @arv2ra | 7",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
+                "🇬🇧 GB | 🟢 | ss | @elfv2ray | 5",
                 "🇳🇱 NL | 🟢 | ss | @free1ss | 15",
                 "🇬🇧 GB | 🟢 | ss | @injectormconf | 39",
                 "🇩🇪 DE | 🟢 | ss | @jiedianf | 9",
@@ -199,14 +199,6 @@
             "type": "dns"
         },
         {
-            "tag": "🇬🇧 GB | 🟢 | ss | @antifilterjadid | 2",
-            "type": "shadowsocks",
-            "server": "74.177.199.135",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c"
-        },
-        {
             "tag": "🇸🇬 SG | 🟢 | ss | @argo_vpn1 | 6",
             "type": "shadowsocks",
             "server": "175.41.157.91",
@@ -231,12 +223,20 @@
             "password": "WstuSnlu4ieA9M0L"
         },
         {
+            "tag": "🇬🇧 GB | 🟢 | ss | @elfv2ray | 5",
+            "type": "shadowsocks",
+            "server": "74.177.199.135",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c"
+        },
+        {
             "tag": "🇳🇱 NL | 🟢 | ss | @free1ss | 15",
             "type": "shadowsocks",
-            "server": "193.29.139.160",
+            "server": "193.29.139.175",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
-            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            "password": "1RWwXhwfAB5gAEozU4G2Pg"
         },
         {
             "tag": "🇬🇧 GB | 🟢 | ss | @injectormconf | 39",

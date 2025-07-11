@@ -120,13 +120,11 @@
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
                 "❔ XX | 🟢 | vless | @public504 | 11",
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
-                "🇦🇪 AE | 🟢 | vless | @v2rayng_fars | 10",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
-                "🇩🇪 DE | 🟢 | vless | @vpnplusee_free | 17",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 15",
                 "❔ XX | 🟢 | vless | @vpnwlf | 10",
                 "🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0"
@@ -151,13 +149,11 @@
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
                 "❔ XX | 🟢 | vless | @public504 | 11",
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
-                "🇦🇪 AE | 🟢 | vless | @v2rayng_fars | 10",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
-                "🇩🇪 DE | 🟢 | vless | @vpnplusee_free | 17",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 15",
                 "❔ XX | 🟢 | vless | @vpnwlf | 10",
                 "🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0"
@@ -556,29 +552,6 @@
             }
         },
         {
-            "tag": "🇦🇪 AE | 🟢 | vless | @v2rayng_fars | 10",
-            "type": "vless",
-            "server": "taiger.raheaiande.ir",
-            "server_port": 38505,
-            "uuid": "815757b8-48a3-42bf-b14b-5cbb8098d429",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "aparat.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "edge"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "yp0Rd8oO1S6p1AZqPebAO-Z1uBElliZPu7LUqlhge3k",
-                    "short_id": "74d7d521be"
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
             "type": "vless",
             "server": "site.felinefreedom.site",
@@ -694,29 +667,6 @@
                     "enabled": true,
                     "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
                     "short_id": "fd1dff03520d8f56"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @vpnplusee_free | 17",
-            "type": "vless",
-            "server": "vip1.proxystore11.news",
-            "server_port": 2052,
-            "uuid": "22477fe4-249e-4c18-8986-74b0f1f0657e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vultr.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "-4S95rjoZIG_AeUxIlwedx89e7C_X4jnePY3RsiF4io",
-                    "short_id": "f8fcb589"
                 }
             }
         },
