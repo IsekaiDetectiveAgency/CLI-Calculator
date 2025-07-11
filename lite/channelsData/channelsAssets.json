@@ -307,9 +307,8 @@
     "config_proxy": {
         "types": [
             "vless",
-            "ss",
-            "trojan",
-            "vmess"
+            "vmess",
+            "trojan"
         ],
         "title": "Proxy | V2ray | Config | Vpn | Hiddify | Nekobox | Segaro | پروکسی | فیلترشکن | ایرانسل | همراه اول | رایتل | سامانتل | مخابرات|",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/config_proxy.jpg"
@@ -1229,10 +1228,10 @@
     },
     "ip_cf_config": {
         "types": [
-            "vless",
-            "vmess",
             "ss",
-            "trojan"
+            "trojan",
+            "vless",
+            "vmess"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
@@ -2187,8 +2186,8 @@
     },
     "pistachiovpn": {
         "types": [
-            "vless",
-            "vmess"
+            "vmess",
+            "vless"
         ],
         "title": "PistachioVpn | فیلتر شکن",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/pistachiovpn.jpg"
@@ -2818,8 +2817,8 @@
     },
     "v2ray_collector": {
         "types": [
-            "vless",
             "trojan",
+            "vless",
             "hy2",
             "hysteria"
         ],
@@ -3287,7 +3286,9 @@
     },
     "v2rayweb": {
         "types": [
-            "vless"
+            "vless",
+            "trojan",
+            "vmess"
         ],
         "title": "V2ray | VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"
@@ -3993,13 +3994,6 @@
         ],
         "title": "⚡𝒁𝑬𝑫 𝑽𝑷𝑵",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/zed_vpn.jpg"
-    },
-    "zede_filteri": {
-        "types": [
-            "vless"
-        ],
-        "title": "کلاینت|آرگو|هیدیفای|v2ray",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/zede_filteri.jpg"
     },
     "zedping": {
         "types": [

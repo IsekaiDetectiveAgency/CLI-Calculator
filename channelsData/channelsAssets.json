@@ -365,9 +365,8 @@
     "config_proxy": {
         "types": [
             "vless",
-            "ss",
-            "trojan",
-            "vmess"
+            "vmess",
+            "trojan"
         ],
         "title": "Proxy | V2ray | Config | Vpn | Hiddify | Nekobox | Segaro | پروکسی | فیلترشکن | ایرانسل | همراه اول | رایتل | سامانتل | مخابرات|",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/config_proxy.jpg"
@@ -448,6 +447,7 @@
     "configshubplus": {
         "types": [
             "vless",
+            "trojan",
             "ss"
         ],
         "title": "𝘾𝙤𝙣𝙛𝙞𝙜𝙨𝙃𝙪𝙗🔮",
@@ -764,9 +764,9 @@
     },
     "entrynet": {
         "types": [
+            "ss",
             "vless",
-            "trojan",
-            "ss"
+            "trojan"
         ],
         "title": ".::entryNET::. Free v2ray vpn &amp; proxy | وی پی ان و پروکسی رایگان",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/entrynet.jpg"
@@ -1497,10 +1497,10 @@
     },
     "ip_cf_config": {
         "types": [
-            "vmess",
             "ss",
+            "trojan",
             "vless",
-            "trojan"
+            "vmess"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
@@ -2543,8 +2543,8 @@
     },
     "pistachiovpn": {
         "types": [
-            "vless",
-            "vmess"
+            "vmess",
+            "vless"
         ],
         "title": "PistachioVpn | فیلتر شکن",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/pistachiovpn.jpg"
@@ -2640,13 +2640,6 @@
         ],
         "title": "VPNs Proxy Mtproto",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/proxy_mtproto_vpns_free.jpg"
-    },
-    "proxy_n1": {
-        "types": [
-            "vless"
-        ],
-        "title": "اینترنت آزاد | 𝗽𝗿𝗼𝘅𝘆 𝗻1",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/proxy_n1.jpg"
     },
     "proxy_net_meli": {
         "types": [
@@ -2917,14 +2910,6 @@
         ],
         "title": "VIP SERVER",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/server444.jpg"
-    },
-    "server_housing03": {
-        "types": [
-            "ss",
-            "vless"
-        ],
-        "title": "سرور رایگان| v2rayng هیدیفای",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/server_housing03.jpg"
     },
     "server_nekobox": {
         "types": [
@@ -3435,8 +3420,8 @@
     },
     "v2ray_collector": {
         "types": [
-            "vless",
             "trojan",
+            "vless",
             "hy2",
             "hysteria"
         ],
@@ -3756,13 +3741,6 @@
         "title": "v2rayng 2",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayng_my2.jpg"
     },
-    "v2rayng_o": {
-        "types": [
-            "vless"
-        ],
-        "title": "📍V2rayamir📍",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayng_o.jpg"
-    },
     "v2rayng_v2_ray": {
         "types": [
             "vmess"
@@ -4073,7 +4051,9 @@
     },
     "v2rayweb": {
         "types": [
-            "vless"
+            "vless",
+            "trojan",
+            "vmess"
         ],
         "title": "V2ray | VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"
@@ -4499,14 +4479,6 @@
         ],
         "title": "VPN OCEAN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vpn_ocean.jpg"
-    },
-    "vpn_proxy_v2ry": {
-        "types": [
-            "vless",
-            "vmess"
-        ],
-        "title": "Securit_y_Breach",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vpn_proxy_v2ry.jpg"
     },
     "vpn_storm": {
         "types": [
@@ -4985,13 +4957,6 @@
         "title": "白嫖のHome｜节点｜VPN｜订阅｜资源分享",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/zdyz2.jpg"
     },
-    "zede_filteri": {
-        "types": [
-            "vless"
-        ],
-        "title": "کلاینت|آرگو|هیدیفای|v2ray",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/zede_filteri.jpg"
-    },
     "zedping": {
         "types": [
             "vless"
@@ -5001,9 +4966,9 @@
     },
     "zerobaipiao": {
         "types": [
-            "trojan",
             "vmess",
-            "ss"
+            "ss",
+            "trojan"
         ],
         "title": "免费节点 🏆【1小时前更新】",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/zerobaipiao.jpg"
