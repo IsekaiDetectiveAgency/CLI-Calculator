@@ -119,7 +119,6 @@
                 "🇫🇮 FI | 🔴 | vmess | @freeshadowsock | 4",
                 "🇺🇸 US | 🔴 | vmess | @freev2rays | 19",
                 "🇩🇪 DE | 🔴 | vmess | @freevmess | 4",
-                "🇺🇸 US | 🔴 | vmess | @ip_cf_config | 14",
                 "🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 13",
                 "🇺🇸 US | 🔴 | vmess | @iran_mehr_vpn | 17",
                 "🇺🇸 US | 🟢 | vmess | @iranvpnet | 0",
@@ -146,7 +145,6 @@
                 "🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 4",
                 "🇺🇸 US | 🔴 | vmess | @tawanaclub | 2",
                 "🇳🇱 NL | 🟢 | vmess | @tehranfreevpn | 7",
-                "🇮🇷 IR | 🔴 | vmess | @v2pedia | 27",
                 "🇩🇪 DE | 🔴 | vmess | @v2ray4win | 7",
                 "🇺🇸 US | 🟢 | vmess | @v2ray_fd | 0",
                 "❔ XX | 🔴 | vmess | @v2ray_n | 19",
@@ -159,7 +157,7 @@
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0",
                 "🇫🇷 FR | 🟢 | vmess | @vmessprotocol | 3",
-                "🇵🇱 PL | 🟢 | vmess | @vpnfail_v2ray | 18",
+                "🇩🇪 DE | 🟢 | vmess | @vpnfail_v2ray | 19",
                 "🇺🇸 US | 🔴 | vmess | @vpngate_config | 18",
                 "🇺🇸 US | 🟢 | vmess | @vpnv2rayonline | 10",
                 "🇩🇪 DE | 🔴 | vmess | @vpnzamin | 3"
@@ -183,7 +181,6 @@
                 "🇫🇮 FI | 🔴 | vmess | @freeshadowsock | 4",
                 "🇺🇸 US | 🔴 | vmess | @freev2rays | 19",
                 "🇩🇪 DE | 🔴 | vmess | @freevmess | 4",
-                "🇺🇸 US | 🔴 | vmess | @ip_cf_config | 14",
                 "🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 13",
                 "🇺🇸 US | 🔴 | vmess | @iran_mehr_vpn | 17",
                 "🇺🇸 US | 🟢 | vmess | @iranvpnet | 0",
@@ -210,7 +207,6 @@
                 "🇨🇳 CN | 🔴 | vmess | @sharecentrepro | 4",
                 "🇺🇸 US | 🔴 | vmess | @tawanaclub | 2",
                 "🇳🇱 NL | 🟢 | vmess | @tehranfreevpn | 7",
-                "🇮🇷 IR | 🔴 | vmess | @v2pedia | 27",
                 "🇩🇪 DE | 🔴 | vmess | @v2ray4win | 7",
                 "🇺🇸 US | 🟢 | vmess | @v2ray_fd | 0",
                 "❔ XX | 🔴 | vmess | @v2ray_n | 19",
@@ -223,7 +219,7 @@
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0",
                 "🇫🇷 FR | 🟢 | vmess | @vmessprotocol | 3",
-                "🇵🇱 PL | 🟢 | vmess | @vpnfail_v2ray | 18",
+                "🇩🇪 DE | 🟢 | vmess | @vpnfail_v2ray | 19",
                 "🇺🇸 US | 🔴 | vmess | @vpngate_config | 18",
                 "🇺🇸 US | 🟢 | vmess | @vpnv2rayonline | 10",
                 "🇩🇪 DE | 🔴 | vmess | @vpnzamin | 3"
@@ -452,22 +448,6 @@
             "transport": {
                 "type": "ws",
                 "path": "/telegram-id-@privatevpns",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vmess | @ip_cf_config | 14",
-            "type": "vmess",
-            "server": "sssccvfbgh.4444926.xyz",
-            "server_port": 80,
-            "uuid": "f898ffcb-6417-4373-9640-0b66091e8206",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/GnJ3bBxV91uFkYtuzXyJ5XNeH1R1",
                 "headers": {
                     "Host": ""
                 }
@@ -861,15 +841,6 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vmess | @v2pedia | 27",
-            "type": "vmess",
-            "server": "0.numberfive.sbs",
-            "server_port": 80,
-            "uuid": "4e259c24-53d1-4db4-bc01-5c74cea872a6",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
             "tag": "🇩🇪 DE | 🔴 | vmess | @v2ray4win | 7",
             "type": "vmess",
             "server": "91.107.160.240",
@@ -1049,9 +1020,9 @@
             "alter_id": 0
         },
         {
-            "tag": "🇵🇱 PL | 🟢 | vmess | @vpnfail_v2ray | 18",
+            "tag": "🇩🇪 DE | 🟢 | vmess | @vpnfail_v2ray | 19",
             "type": "vmess",
-            "server": "146.59.55.50",
+            "server": "57.129.25.22",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",

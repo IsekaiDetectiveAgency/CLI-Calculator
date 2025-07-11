@@ -105,6 +105,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇬🇧 GB | 🔴 | vless | @NamiraNet | 68",
                 "🇺🇸 US | 🔴 | vless | @alo_v2rayng | 0",
                 "🇩🇪 DE | 🟢 | vless | @antifilterjadid | 1",
                 "🇩🇪 DE | 🔴 | vless | @argotaz | 0",
@@ -196,7 +197,6 @@
                 "❔ XX | 🔴 | vless | @miov2ray | 11",
                 "❔ XX | 🔴 | vless | @miyanbor_vpn | 0",
                 "🇩🇪 DE | 🔴 | vless | @moon_ping | 0",
-                "🇩🇪 DE | 🔴 | vless | @mowjproxy | 5",
                 "❔ XX | 🟢 | vless | @mrvpn1403 | 4",
                 "❔ XX | 🟢 | vless | @mt_team_iran | 4",
                 "❔ XX | 🔴 | vless | @mtpv2ray | 8",
@@ -255,6 +255,7 @@
                 "❔ XX | 🟢 | vless | @v2rayvpnclub | 20",
                 "🇺🇸 US | 🟢 | vless | @v2rayy_vpn13 | 12",
                 "🇮🇷 IR | 🔴 | vless | @v2rez | 3",
+                "🇫🇷 FR | 🟢 | vless | @v2source | 19",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
@@ -277,7 +278,6 @@
                 "❔ XX | 🟢 | vless | @vpnwlf | 10",
                 "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
                 "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
-                "🇺🇸 US | 🟢 | vless | @wxgmrjdcc | 17",
                 "🇮🇷 IR | 🔴 | vless | @xixv2ray | 5",
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
                 "❔ XX | 🟢 | vless | @xrayzxn | 6",
@@ -291,6 +291,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇬🇧 GB | 🔴 | vless | @NamiraNet | 68",
                 "🇺🇸 US | 🔴 | vless | @alo_v2rayng | 0",
                 "🇩🇪 DE | 🟢 | vless | @antifilterjadid | 1",
                 "🇩🇪 DE | 🔴 | vless | @argotaz | 0",
@@ -382,7 +383,6 @@
                 "❔ XX | 🔴 | vless | @miov2ray | 11",
                 "❔ XX | 🔴 | vless | @miyanbor_vpn | 0",
                 "🇩🇪 DE | 🔴 | vless | @moon_ping | 0",
-                "🇩🇪 DE | 🔴 | vless | @mowjproxy | 5",
                 "❔ XX | 🟢 | vless | @mrvpn1403 | 4",
                 "❔ XX | 🟢 | vless | @mt_team_iran | 4",
                 "❔ XX | 🔴 | vless | @mtpv2ray | 8",
@@ -441,6 +441,7 @@
                 "❔ XX | 🟢 | vless | @v2rayvpnclub | 20",
                 "🇺🇸 US | 🟢 | vless | @v2rayy_vpn13 | 12",
                 "🇮🇷 IR | 🔴 | vless | @v2rez | 3",
+                "🇫🇷 FR | 🟢 | vless | @v2source | 19",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
                 "❔ XX | 🔴 | vless | @vipvpn_v2ray | 10",
@@ -463,7 +464,6 @@
                 "❔ XX | 🟢 | vless | @vpnwlf | 10",
                 "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
                 "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
-                "🇺🇸 US | 🟢 | vless | @wxgmrjdcc | 17",
                 "🇮🇷 IR | 🔴 | vless | @xixv2ray | 5",
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
                 "❔ XX | 🟢 | vless | @xrayzxn | 6",
@@ -491,6 +491,15 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraNet | 68",
+            "type": "vless",
+            "server": "4.zeus40.ir",
+            "server_port": 4444,
+            "uuid": "36af5106-2f6e-4889-8221-65b4d4115d9a",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @alo_v2rayng | 0",
@@ -1925,15 +1934,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @mowjproxy | 5",
-            "type": "vless",
-            "server": "00064.mutee.com.tr",
-            "server_port": 4471,
-            "uuid": "9c6ae346-c50f-47cb-891a-4e5ac5981e7e",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "❔ XX | 🟢 | vless | @mrvpn1403 | 4",
             "type": "vless",
             "server": "mrvpn1403.rightel001.chaghooosazi.shop",
@@ -2989,6 +2989,31 @@
             }
         },
         {
+            "tag": "🇫🇷 FR | 🟢 | vless | @v2source | 19",
+            "type": "vless",
+            "server": "all.4qwertyuiopasdfghjklzxcvbnmmnbvcxzlkjhgfdsapoiuytrewq1234567890.com",
+            "server_port": 443,
+            "uuid": "c4cd9656-81a7-4342-9c0f-959ad333acae",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "de2radin.4qwertyuiopasdfghjklzxcvbnmmnbvcxzlkjhgfdsapoiuytrewq1234567890.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws?ed=2560",
+                "headers": {
+                    "Host": "de2radin.4qwertyuiopasdfghjklzxcvbnmmnbvcxzlkjhgfdsapoiuytrewq1234567890.com"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
             "type": "vless",
             "server": "www.parsvds.ir",
@@ -3355,31 +3380,6 @@
             "uuid": "WomanLifeFreedomVPN",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @wxgmrjdcc | 17",
-            "type": "vless",
-            "server": "www.meter.net",
-            "server_port": 443,
-            "uuid": "1b368bf6-5aac-413c-a77c-229fb984d5ae",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "mAXNetvIpAp-cLOuD76.netKh3.siTe",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkws?ed=2560",
-                "headers": {
-                    "Host": "mAXNetvIpAp-cLOuD76.netKh3.siTe"
-                }
-            }
         },
         {
             "tag": "🇮🇷 IR | 🔴 | vless | @xixv2ray | 5",
