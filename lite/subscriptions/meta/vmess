@@ -21,6 +21,7 @@ proxies:
   - {"name":"❔ XX | 🔴 | vmess | @armodchannel | 62","type":"vmess","server":"asia.artunnel57.host","port":80,"cipher":"auto","uuid":"65e44501-defd-4609-a4e3-7028dc417b50","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess-ntls","headers":{"Host":"asia.artunnel57.host"}}}
   - {"name":"❔ XX | 🔴 | vmess | @bluevpn111 | 2","type":"vmess","server":"discord.noonetry.shop","port":35165,"cipher":"auto","uuid":"73d9dbf6-6202-4b19-8670-02a3b47e7785","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇮🇷 IR | 🔴 | vmess | @club_profsor | 15","type":"vmess","server":"bluevpn2.bibak.bz","port":3030,"cipher":"auto","uuid":"20c86f6d-4e65-4477-93e6-4b11cf1fd09d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 US | 🔴 | vmess | @config_proxy | 100","type":"vmess","server":"www.hdmoli.com","port":80,"cipher":"auto","uuid":"2f38f848-a899-4c87-9807-207a41615e3c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/rongseven?ed=2048","headers":{"Host":"fr.freeyyds.dpdns.org"}}}
   - {"name":"❔ XX | 🔴 | vmess | @configforvpn | 9","type":"vmess","server":"shahinnet-freenetcdn.melodyshopone2.ir","port":8080,"cipher":"auto","uuid":"96588912-3bcb-491c-8ce3-7a965bbec07f","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"sog.shahinnet.shop"}}}
   - {"name":"🇫🇷 FR | 🟢 | vmess | @configsstore | 7","type":"vmess","server":"193.187.175.111","port":8080,"cipher":"auto","uuid":"d874fd01-76ec-4aec-bc2e-c7d0f6a104e6","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"google.com"}}}
   - {"name":"❔ XX | 🔴 | vmess | @dailyv2ray | 30","type":"vmess","server":"tr.gamecentervip.site","port":443,"cipher":"auto","uuid":"d49e2bf0-c652-4a72-b153-b122ab2f23d6","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
@@ -59,6 +60,7 @@ proxies:
   - {"name":"🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13","type":"vmess","server":"144.48.81.134","port":443,"cipher":"auto","uuid":"73ed2e06-4833-4626-9746-b056668a2101","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0","type":"vmess","server":"176.120.17.67","port":42270,"cipher":"auto","uuid":"3c0f9cf4-6a0c-42f3-a6de-89c79d4af8e3","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇫🇷 FR | 🟢 | vmess | @vmessprotocol | 3","type":"vmess","server":"193.233.133.59","port":33,"cipher":"auto","uuid":"0dc0d22c-68e5-440a-9465-97cad8d1cf33","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 US | 🔴 | vmess | @vpnfail_v2ray | 15","type":"vmess","server":"198.2.218.216","port":44883,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 
 rule-providers:
   ir_domains:
@@ -93,6 +95,7 @@ proxy-groups:
       - '❔ XX | 🔴 | vmess | @armodchannel | 62'
       - '❔ XX | 🔴 | vmess | @bluevpn111 | 2'
       - '🇮🇷 IR | 🔴 | vmess | @club_profsor | 15'
+      - '🇺🇸 US | 🔴 | vmess | @config_proxy | 100'
       - '❔ XX | 🔴 | vmess | @configforvpn | 9'
       - '🇫🇷 FR | 🟢 | vmess | @configsstore | 7'
       - '❔ XX | 🔴 | vmess | @dailyv2ray | 30'
@@ -131,6 +134,7 @@ proxy-groups:
       - '🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13'
       - '🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0'
       - '🇫🇷 FR | 🟢 | vmess | @vmessprotocol | 3'
+      - '🇺🇸 US | 🔴 | vmess | @vpnfail_v2ray | 15'
 
   - name: 📉 Fallback
     type: fallback
@@ -141,6 +145,7 @@ proxy-groups:
       - '❔ XX | 🔴 | vmess | @armodchannel | 62'
       - '❔ XX | 🔴 | vmess | @bluevpn111 | 2'
       - '🇮🇷 IR | 🔴 | vmess | @club_profsor | 15'
+      - '🇺🇸 US | 🔴 | vmess | @config_proxy | 100'
       - '❔ XX | 🔴 | vmess | @configforvpn | 9'
       - '🇫🇷 FR | 🟢 | vmess | @configsstore | 7'
       - '❔ XX | 🔴 | vmess | @dailyv2ray | 30'
@@ -179,6 +184,7 @@ proxy-groups:
       - '🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13'
       - '🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0'
       - '🇫🇷 FR | 🟢 | vmess | @vmessprotocol | 3'
+      - '🇺🇸 US | 🔴 | vmess | @vpnfail_v2ray | 15'
       
   - name: All-Proxies
     type: select
@@ -187,6 +193,7 @@ proxy-groups:
       - '❔ XX | 🔴 | vmess | @armodchannel | 62'
       - '❔ XX | 🔴 | vmess | @bluevpn111 | 2'
       - '🇮🇷 IR | 🔴 | vmess | @club_profsor | 15'
+      - '🇺🇸 US | 🔴 | vmess | @config_proxy | 100'
       - '❔ XX | 🔴 | vmess | @configforvpn | 9'
       - '🇫🇷 FR | 🟢 | vmess | @configsstore | 7'
       - '❔ XX | 🔴 | vmess | @dailyv2ray | 30'
@@ -225,6 +232,7 @@ proxy-groups:
       - '🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13'
       - '🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0'
       - '🇫🇷 FR | 🟢 | vmess | @vmessprotocol | 3'
+      - '🇺🇸 US | 🔴 | vmess | @vpnfail_v2ray | 15'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

@@ -113,6 +113,8 @@
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 12",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
+                "🇺🇸 US | 🔴 | vless | @proxy_hiddfy | 3",
+                "🇺🇸 US | 🔴 | vless | @proxy_mtproto_vpns_free | 13",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇺🇸 US | 🔴 | vless | @srcvpn | 30",
@@ -123,10 +125,12 @@
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 9",
-                "🇺🇸 US | 🔴 | vless | @fastshovpn | 7",
+                "🇺🇸 US | 🔴 | vless | @fastshovpn | 6",
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 5",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "❔ XX | 🟢 | vless | @freakconfig2 | 7",
+                "🇺🇸 US | 🔴 | vless | @hooshemasnui | 3",
+                "🇫🇮 FI | 🟢 | vless | @meli_proxyy | 17",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 17"
             ]
         },
@@ -142,6 +146,8 @@
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 12",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
+                "🇺🇸 US | 🔴 | vless | @proxy_hiddfy | 3",
+                "🇺🇸 US | 🔴 | vless | @proxy_mtproto_vpns_free | 13",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇺🇸 US | 🔴 | vless | @srcvpn | 30",
@@ -152,10 +158,12 @@
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 9",
-                "🇺🇸 US | 🔴 | vless | @fastshovpn | 7",
+                "🇺🇸 US | 🔴 | vless | @fastshovpn | 6",
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 5",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "❔ XX | 🟢 | vless | @freakconfig2 | 7",
+                "🇺🇸 US | 🔴 | vless | @hooshemasnui | 3",
+                "🇫🇮 FI | 🟢 | vless | @meli_proxyy | 17",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 17"
             ],
             "url": "https://www.gstatic.com/generate_204",
@@ -265,6 +273,24 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇺🇸 US | 🔴 | vless | @proxy_hiddfy | 3",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "259923b6-756d-4b33-9ea9-73e55378018a",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @proxy_mtproto_vpns_free | 13",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "23f340e3-1709-40e2-b4ec-c42cd57a05dd",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
             "type": "vless",
             "server": "147.182.183.207",
@@ -369,7 +395,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @fastshovpn | 7",
+            "tag": "🇺🇸 US | 🔴 | vless | @fastshovpn | 6",
             "type": "vless",
             "server": "FASTSHOVPNTELEGRAM.fast.hosting-ip.com",
             "server_port": 80,
@@ -410,6 +436,38 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @hooshemasnui | 3",
+            "type": "vless",
+            "server": "test.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "5a11a94b-2f23-4c44-927d-c8167e2b0c60",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇫🇮 FI | 🟢 | vless | @meli_proxyy | 17",
+            "type": "vless",
+            "server": "online-chat.webboosterpro.co.uk",
+            "server_port": 443,
+            "uuid": "92a5f2d3-0ce7-471f-8871-362ffc5478f0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.fastly.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "QxGoAQpy2zri2JRkXmPfESKjAMHpsrJPmjbkJuZCz3U",
+                    "short_id": "1eaf5214"
                 }
             }
         },
