@@ -109,10 +109,10 @@
                 "🇺🇸 US | 🟢 | trojan | @kurdistan_vpn_perfectt | 5",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
-                "🇺🇸 US | 🟢 | trojan | @v2rayweb | 16",
                 "🇨🇳 CN | 🟢 | trojan | @zdyz2 | 12",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 15",
                 "🇳🇱 NL | 🔴 | trojan | @hacknashid | 2",
+                "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 17",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 16",
                 "🇫🇷 FR | 🟢 | trojan | @privatevpns | 15",
@@ -120,6 +120,7 @@
                 "🇫🇷 FR | 🟢 | trojan | @v2ray_extractor | 19",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14",
+                "🇺🇸 US | 🔴 | trojan | @v2rayweb | 10",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ]
         },
@@ -131,10 +132,10 @@
                 "🇺🇸 US | 🟢 | trojan | @kurdistan_vpn_perfectt | 5",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
-                "🇺🇸 US | 🟢 | trojan | @v2rayweb | 16",
                 "🇨🇳 CN | 🟢 | trojan | @zdyz2 | 12",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 15",
                 "🇳🇱 NL | 🔴 | trojan | @hacknashid | 2",
+                "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 17",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 16",
                 "🇫🇷 FR | 🟢 | trojan | @privatevpns | 15",
@@ -142,6 +143,7 @@
                 "🇫🇷 FR | 🟢 | trojan | @v2ray_extractor | 19",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14",
+                "🇺🇸 US | 🔴 | trojan | @v2rayweb | 10",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ],
             "url": "https://www.gstatic.com/generate_204",
@@ -247,22 +249,6 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | trojan | @v2rayweb | 16",
-            "type": "trojan",
-            "server": "download2hkt.windowsupdate.lol",
-            "server_port": 443,
-            "password": "af4d2493-9156-4514-9f6b-ee5d1a1e4713",
-            "tls": {
-                "enabled": true,
-                "server_name": "download2hkt.windowsupdate.lol",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🇨🇳 CN | 🟢 | trojan | @zdyz2 | 12",
             "type": "trojan",
             "server": "f10011.flyflylflyflysbs.sbs",
@@ -281,7 +267,7 @@
         {
             "tag": "🇫🇷 FR | 🟢 | trojan | @directvpn | 15",
             "type": "trojan",
-            "server": "13.36.253.184",
+            "server": "35.181.247.254",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "tls": {
@@ -307,6 +293,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 17",
+            "type": "trojan",
+            "server": "104.21.75.120",
+            "server_port": 2053,
+            "password": "100b5163-fbb8-425d-9621-44d119555aa4",
+            "tls": {
+                "enabled": true,
+                "server_name": "MaHSA2.cffoRm.SitE",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/trWCuRIwSn9S6fDZGE/c2hpcmVuLnlhZW1pa28uZ2dmZi5uZXQ=",
+                "headers": {
+                    "Host": "MaHSA2.cffoRm.SitE"
                 }
             }
         },
@@ -352,7 +361,7 @@
         {
             "tag": "🇫🇷 FR | 🟢 | trojan | @privatevpns | 15",
             "type": "trojan",
-            "server": "13.36.253.184",
+            "server": "35.181.247.254",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "tls": {
@@ -416,12 +425,28 @@
         {
             "tag": "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14",
             "type": "trojan",
-            "server": "13.36.253.184",
+            "server": "35.181.247.254",
             "server_port": 22223,
             "password": "telegram-id-v2rayvpnchannel",
             "tls": {
                 "enabled": true,
                 "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | trojan | @v2rayweb | 10",
+            "type": "trojan",
+            "server": "54.234.215.155",
+            "server_port": 443,
+            "password": "3763495982449565696",
+            "tls": {
+                "enabled": true,
+                "server_name": "measured-moth.treefrog761.one",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
