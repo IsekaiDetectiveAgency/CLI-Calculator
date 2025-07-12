@@ -352,7 +352,6 @@
     "config_proxy": {
         "types": [
             "vless",
-            "trojan",
             "vmess"
         ],
         "title": "Proxy | V2ray | Config | Vpn | Hiddify | Nekobox | Segaro | پروکسی | فیلترشکن | ایرانسل | همراه اول | رایتل | سامانتل | مخابرات|",
@@ -433,8 +432,9 @@
     },
     "configshubplus": {
         "types": [
-            "vless",
             "vmess",
+            "vless",
+            "ss",
             "trojan"
         ],
         "title": "𝘾𝙤𝙣𝙛𝙞𝙜𝙨𝙃𝙪𝙗🔮",
@@ -498,8 +498,8 @@
     },
     "connect_sho": {
         "types": [
-            "ss",
-            "vless"
+            "vless",
+            "ss"
         ],
         "title": "نت ملی | اینترانت",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/connect_sho.jpg"
@@ -748,9 +748,9 @@
     },
     "entrynet": {
         "types": [
-            "trojan",
             "vless",
-            "ss"
+            "ss",
+            "trojan"
         ],
         "title": ".::entryNET::. Free v2ray vpn &amp; proxy | وی پی ان و پروکسی رایگان",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/entrynet.jpg"
@@ -1372,10 +1372,9 @@
     },
     "hope_net": {
         "types": [
-            "trojan",
             "vless",
             "ss",
-            "vmess"
+            "trojan"
         ],
         "title": "🕊 Hope Net",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/hope_net.jpg"
@@ -1453,9 +1452,9 @@
     "ip_cf_config": {
         "types": [
             "ss",
-            "trojan",
+            "vless",
             "vmess",
-            "vless"
+            "trojan"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
@@ -2125,9 +2124,8 @@
     },
     "mowjproxy": {
         "types": [
-            "ss",
-            "vmess",
-            "vless"
+            "vless",
+            "vmess"
         ],
         "title": "Mowj Proxy",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/mowjproxy.jpg"
@@ -3354,9 +3352,8 @@
     },
     "v2ray_extractor": {
         "types": [
-            "ss",
             "vless",
-            "trojan"
+            "ss"
         ],
         "title": "V2ray Extractor",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ray_extractor.jpg"
@@ -3378,9 +3375,8 @@
     },
     "v2ray_free_conf": {
         "types": [
-            "vmess",
-            "vless",
             "ss",
+            "vmess",
             "trojan"
         ],
         "title": "🌍 V2Ray Free Config 🇮🇷",
@@ -3449,7 +3445,8 @@
     },
     "v2ray_tz": {
         "types": [
-            "vless"
+            "vless",
+            "ss"
         ],
         "title": "V2RayTz,",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ray_tz.jpg"
