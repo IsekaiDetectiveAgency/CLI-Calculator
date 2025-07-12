@@ -114,8 +114,9 @@
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 4",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "❔ XX | 🟢 | vless | @freakconfig2 | 7",
-                "🇺🇸 US | 🔴 | vless | @meli_proxyy | 44",
-                "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16"
+                "🇳🇱 NL | 🟢 | vless | @manzariyeh_rasht | 16",
+                "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
+                "🇺🇸 US | 🔴 | vless | @vpnv2rayngv | 15"
             ]
         },
         {
@@ -131,8 +132,9 @@
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 4",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "❔ XX | 🟢 | vless | @freakconfig2 | 7",
-                "🇺🇸 US | 🔴 | vless | @meli_proxyy | 44",
-                "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16"
+                "🇳🇱 NL | 🟢 | vless | @manzariyeh_rasht | 16",
+                "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
+                "🇺🇸 US | 🔴 | vless | @vpnv2rayngv | 15"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -245,13 +247,22 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @meli_proxyy | 44",
+            "tag": "🇳🇱 NL | 🟢 | vless | @manzariyeh_rasht | 16",
             "type": "vless",
-            "server": "speedtestcustom.com",
-            "server_port": 80,
-            "uuid": "44f2c910-07a4-478e-861b-aed3d0750980",
+            "server": "statue.lnmarketplace.net",
+            "server_port": 443,
+            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "statue.lnmarketplace.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
@@ -259,6 +270,15 @@
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @vpnv2rayngv | 15",
+            "type": "vless",
+            "server": "speedtestcustom.com",
+            "server_port": 80,
+            "uuid": "44f2c910-07a4-478e-861b-aed3d0750980",
             "flow": "",
             "packet_encoding": "xudp"
         }
