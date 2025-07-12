@@ -108,7 +108,6 @@
                 "🇬🇧 GB | 🟢 | ss | @Fr33C0nfig | 55",
                 "🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 24",
                 "❔ XX | 🟢 | ss | @chestertm | 12",
-                "🇨🇭 CH | 🟢 | ss | @meli_proxyy | 45",
                 "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 4",
                 "🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0",
                 "❔ XX | 🟢 | ss | @outlines_vpn | 5",
@@ -118,7 +117,8 @@
                 "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
                 "🇬🇧 GB | 🟢 | ss | @v2rayport | 13",
                 "❔ XX | 🟢 | ss | @v2raytel | 2",
-                "❔ XX | 🟢 | ss | @vpidiamond | 9"
+                "❔ XX | 🟢 | ss | @vpidiamond | 9",
+                "🇨🇭 CH | 🟢 | ss | @vpnv2rayngv | 15"
             ]
         },
         {
@@ -128,7 +128,6 @@
                 "🇬🇧 GB | 🟢 | ss | @Fr33C0nfig | 55",
                 "🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 24",
                 "❔ XX | 🟢 | ss | @chestertm | 12",
-                "🇨🇭 CH | 🟢 | ss | @meli_proxyy | 45",
                 "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 4",
                 "🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0",
                 "❔ XX | 🟢 | ss | @outlines_vpn | 5",
@@ -138,7 +137,8 @@
                 "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
                 "🇬🇧 GB | 🟢 | ss | @v2rayport | 13",
                 "❔ XX | 🟢 | ss | @v2raytel | 2",
-                "❔ XX | 🟢 | ss | @vpidiamond | 9"
+                "❔ XX | 🟢 | ss | @vpidiamond | 9",
+                "🇨🇭 CH | 🟢 | ss | @vpnv2rayngv | 15"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -183,14 +183,6 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "W74XFALLLuw6m5IA"
-        },
-        {
-            "tag": "🇨🇭 CH | 🟢 | ss | @meli_proxyy | 45",
-            "type": "shadowsocks",
-            "server": "h110vpnch.outlinekeys.net",
-            "server_port": 4248,
-            "method": "chacha20-ietf-poly1305",
-            "password": "SasawZo4g7WaqlK3a2mCol"
         },
         {
             "tag": "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 4",
@@ -271,6 +263,14 @@
             "server_port": 23377,
             "method": "aes-256-gcm",
             "password": "4cY4N/FWyfZ1r21mu4oj/L5E6WHN9b8VAeitl+Mk7CQ="
+        },
+        {
+            "tag": "🇨🇭 CH | 🟢 | ss | @vpnv2rayngv | 15",
+            "type": "shadowsocks",
+            "server": "h110vpnch.outlinekeys.net",
+            "server_port": 4248,
+            "method": "chacha20-ietf-poly1305",
+            "password": "SasawZo4g7WaqlK3a2mCol"
         }
     ],
     "route": {
