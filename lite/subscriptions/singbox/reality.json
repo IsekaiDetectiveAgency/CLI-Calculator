@@ -140,16 +140,16 @@
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
                 "❔ XX | 🟢 | vless | @mt_team_iran | 4",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
-                "🇩🇪 DE | 🟢 | vless | @orange_vpns | 16",
+                "🇩🇪 DE | 🟢 | vless | @orange_vpns | 15",
                 "❔ XX | 🟢 | vless | @proxy_iranv2 | 3",
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
                 "❔ XX | 🟢 | vless | @public504 | 11",
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
-                "🇦🇲 AM | 🟢 | vless | @v2rayng_fars | 15",
+                "🇩🇪 DE | 🟢 | vless | @v2aryng_vpn | 8",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11",
-                "🇩🇪 DE | 🟢 | vless | @vmess_ir | 18",
+                "🇩🇪 DE | 🟢 | vless | @vmess_ir | 17",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 15",
@@ -197,16 +197,16 @@
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
                 "❔ XX | 🟢 | vless | @mt_team_iran | 4",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
-                "🇩🇪 DE | 🟢 | vless | @orange_vpns | 16",
+                "🇩🇪 DE | 🟢 | vless | @orange_vpns | 15",
                 "❔ XX | 🟢 | vless | @proxy_iranv2 | 3",
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
                 "❔ XX | 🟢 | vless | @public504 | 11",
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
-                "🇦🇲 AM | 🟢 | vless | @v2rayng_fars | 15",
+                "🇩🇪 DE | 🟢 | vless | @v2aryng_vpn | 8",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11",
-                "🇩🇪 DE | 🟢 | vless | @vmess_ir | 18",
+                "🇩🇪 DE | 🟢 | vless | @vmess_ir | 17",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 15",
@@ -1091,7 +1091,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @orange_vpns | 16",
+            "tag": "🇩🇪 DE | 🟢 | vless | @orange_vpns | 15",
             "type": "vless",
             "server": "parrot-love.ir",
             "server_port": 2028,
@@ -1214,26 +1214,30 @@
             }
         },
         {
-            "tag": "🇦🇲 AM | 🟢 | vless | @v2rayng_fars | 15",
+            "tag": "🇩🇪 DE | 🟢 | vless | @v2aryng_vpn | 8",
             "type": "vless",
-            "server": "am2.aparat-movies-download.ir",
-            "server_port": 4450,
-            "uuid": "3e19f4d9-4c47-4f4d-8c65-98608f9b47b8",
+            "server": "parrot-love.ir",
+            "server_port": 2025,
+            "uuid": "417e0f23-34b1-45c6-803d-4b596c502672",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "zhaket.com",
+                "server_name": "journalofbigdata.springeropen.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "safari"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic",
+                    "public_key": "fhNhrO00QDSDI1CBmJY8RwK9t-zFmTjERgbgqcj8NTI",
                     "short_id": ""
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "sadf2341sad"
             }
         },
         {
@@ -1310,7 +1314,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @vmess_ir | 18",
+            "tag": "🇩🇪 DE | 🟢 | vless | @vmess_ir | 17",
             "type": "vless",
             "server": "it.panelmarzban.com",
             "server_port": 3037,
