@@ -115,7 +115,6 @@
                 "🇩🇪 DE | 🟢 | trojan | @v2rayng_fast | 2",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14",
-                "🇺🇸 US | 🟢 | trojan | @v2rayweb | 11",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ]
         },
@@ -133,7 +132,6 @@
                 "🇩🇪 DE | 🟢 | trojan | @v2rayng_fast | 2",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14",
-                "🇺🇸 US | 🟢 | trojan | @v2rayweb | 11",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ],
             "url": "https://www.gstatic.com/generate_204",
@@ -320,29 +318,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | trojan | @v2rayweb | 11",
-            "type": "trojan",
-            "server": "104.17.148.22",
-            "server_port": 80,
-            "password": "redfree8",
-            "tls": {
-                "enabled": true,
-                "server_name": "varzesh3.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/trLwW5jwrnymnOdqki?ed=2560",
-                "headers": {
-                    "Host": "varzesh3.com"
                 }
             }
         },

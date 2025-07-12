@@ -32,7 +32,6 @@ proxies:
   - {"name":"🇩🇪 DE | 🟢 | trojan | @v2rayng_fast | 2","type":"trojan","server":"104.248.18.1","port":1935,"password":"6gZh2JbfhQ","skip-cert-verify":false}
   - {"name":"🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45","type":"trojan","server":"104.149.155.13","port":443,"password":"79c935c0-27dc-4383-b307-dcac1b8e5509","skip-cert-verify":false}
   - {"name":"🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14","type":"trojan","server":"3.70.103.84","port":22223,"password":"telegram-id-v2rayvpnchannel","skip-cert-verify":false}
-  - {"name":"🇺🇸 US | 🟢 | trojan | @v2rayweb | 11","type":"trojan","server":"104.17.148.22","port":80,"password":"redfree8","skip-cert-verify":false}
   - {"name":"🇺🇸 US | 🟢 | trojan | @webhube | 4","type":"trojan","server":"15.204.175.111","port":2083,"password":"t2WqbIW2JE","skip-cert-verify":false}
 
 rule-providers:
@@ -79,7 +78,6 @@ proxy-groups:
       - '🇩🇪 DE | 🟢 | trojan | @v2rayng_fast | 2'
       - '🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45'
       - '🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14'
-      - '🇺🇸 US | 🟢 | trojan | @v2rayweb | 11'
       - '🇺🇸 US | 🟢 | trojan | @webhube | 4'
 
   - name: 📉 Fallback
@@ -102,7 +100,6 @@ proxy-groups:
       - '🇩🇪 DE | 🟢 | trojan | @v2rayng_fast | 2'
       - '🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45'
       - '🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14'
-      - '🇺🇸 US | 🟢 | trojan | @v2rayweb | 11'
       - '🇺🇸 US | 🟢 | trojan | @webhube | 4'
       
   - name: All-Proxies
@@ -123,7 +120,6 @@ proxy-groups:
       - '🇩🇪 DE | 🟢 | trojan | @v2rayng_fast | 2'
       - '🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45'
       - '🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14'
-      - '🇺🇸 US | 🟢 | trojan | @v2rayweb | 11'
       - '🇺🇸 US | 🟢 | trojan | @webhube | 4'
 
 rules:
