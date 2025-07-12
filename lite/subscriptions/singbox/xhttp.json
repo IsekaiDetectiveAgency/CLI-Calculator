@@ -107,7 +107,7 @@
                 "URL-TEST",
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 14",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 19",
-                "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 9",
+                "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 11",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 9",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
@@ -124,7 +124,8 @@
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 4",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "❔ XX | 🟢 | vless | @freakconfig2 | 7",
-                "🇺🇸 US | 🔴 | vless | @mowjproxy | 6",
+                "🇺🇸 US | 🔴 | vless | @netmellianti | 17",
+                "🇺🇸 US | 🔴 | vless | @proxy_hiddfy | 4",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16"
             ]
         },
@@ -134,7 +135,7 @@
             "outbounds": [
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 14",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 19",
-                "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 9",
+                "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 11",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 9",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
@@ -151,7 +152,8 @@
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 4",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "❔ XX | 🟢 | vless | @freakconfig2 | 7",
-                "🇺🇸 US | 🔴 | vless | @mowjproxy | 6",
+                "🇺🇸 US | 🔴 | vless | @netmellianti | 17",
+                "🇺🇸 US | 🔴 | vless | @proxy_hiddfy | 4",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16"
             ],
             "url": "https://www.gstatic.com/generate_204",
@@ -193,7 +195,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 9",
+            "tag": "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 11",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
@@ -383,11 +385,20 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @mowjproxy | 6",
+            "tag": "🇺🇸 US | 🔴 | vless | @netmellianti | 17",
             "type": "vless",
             "server": "speedtestcustom.com",
             "server_port": 80,
             "uuid": "44f2c910-07a4-478e-861b-aed3d0750980",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @proxy_hiddfy | 4",
+            "type": "vless",
+            "server": "voip.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "a0b71588-19e7-43b3-b300-f9a33c4c603e",
             "flow": "",
             "packet_encoding": "xudp"
         },
