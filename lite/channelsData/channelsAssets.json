@@ -299,8 +299,8 @@
     },
     "config_proxy": {
         "types": [
-            "vmess",
             "vless",
+            "vmess",
             "ss",
             "trojan"
         ],
@@ -481,10 +481,9 @@
     },
     "deamnet_proxy": {
         "types": [
-            "vless",
             "ss",
-            "vmess",
-            "trojan"
+            "vless",
+            "vmess"
         ],
         "title": "DeamNet_proxy",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/deamnet_proxy.jpg"
@@ -794,8 +793,8 @@
     },
     "free1ss": {
         "types": [
-            "ss",
-            "vless"
+            "vless",
+            "ss"
         ],
         "title": "🍊Aperto Shadowsocks Outline Vless VPN 🍊",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/free1ss.jpg"
@@ -819,7 +818,6 @@
     },
     "free_outline_keys": {
         "types": [
-            "vless",
             "ss"
         ],
         "title": "FREE Outline VPN keys",
@@ -1111,7 +1109,8 @@
         "types": [
             "trojan",
             "ss",
-            "vless"
+            "vless",
+            "vmess"
         ],
         "title": "🕊 Hope Net",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/hope_net.jpg"
@@ -1190,8 +1189,8 @@
         "types": [
             "trojan",
             "vless",
-            "vmess",
-            "ss"
+            "ss",
+            "vmess"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
@@ -1588,8 +1587,7 @@
     },
     "mahan_ping": {
         "types": [
-            "vless",
-            "ss"
+            "vless"
         ],
         "title": "𝗺𝗮𝗵𝗮𝗻 𝗽𝗶𝗻𝗴 | ماهان پینگ",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/mahan_ping.jpg"
@@ -1628,8 +1626,8 @@
     },
     "manzariyeh_rasht": {
         "types": [
-            "vless",
-            "ss"
+            "ss",
+            "vless"
         ],
         "title": "🌲🌲منظریه نگـو بهشت رشت بگـو🌴🌴",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/manzariyeh_rasht.jpg"
@@ -1685,13 +1683,6 @@
         ],
         "title": "MehduoX VPN کانفیگ رایگان",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/mehduox_vpn.jpg"
-    },
-    "mehrosaboran": {
-        "types": [
-            "vless"
-        ],
-        "title": "پروکسی و v2rayمهربانی",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/mehrosaboran.jpg"
     },
     "meli_proxyy": {
         "types": [
@@ -2215,7 +2206,8 @@
     },
     "proxy_mtproto_vpns_free": {
         "types": [
-            "vless"
+            "vless",
+            "ss"
         ],
         "title": "VPNs Proxy Mtproto",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/proxy_mtproto_vpns_free.jpg"
@@ -2727,8 +2719,8 @@
     },
     "v2ray_free_conf": {
         "types": [
-            "vmess",
             "vless",
+            "vmess",
             "ss",
             "trojan"
         ],
@@ -2846,7 +2838,8 @@
     },
     "v2rayfree": {
         "types": [
-            "vless"
+            "vless",
+            "ss"
         ],
         "title": "VPNs Proxy Mtproto",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayfree.jpg"
@@ -2886,7 +2879,6 @@
     },
     "v2rayng_fast": {
         "types": [
-            "trojan",
             "vless"
         ],
         "title": "کانفینگ انجکتور | آرگو | V2rayng",
@@ -3283,8 +3275,8 @@
     },
     "vistav2ray": {
         "types": [
-            "vless",
             "ss",
+            "vless",
             "vmess"
         ],
         "title": "Vista Pc (It _ja)",
