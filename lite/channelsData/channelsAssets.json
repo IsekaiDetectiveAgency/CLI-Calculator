@@ -151,8 +151,8 @@
     },
     "avaalvpn": {
         "types": [
-            "vless",
-            "vmess"
+            "vmess",
+            "vless"
         ],
         "title": "Avaal Service",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/avaalvpn.jpg"
@@ -298,9 +298,9 @@
     },
     "config_proxy": {
         "types": [
-            "trojan",
             "vless",
-            "vmess"
+            "vmess",
+            "ss"
         ],
         "title": "Proxy | V2ray | Config | Vpn | Hiddify | Nekobox | Segaro | پروکسی | فیلترشکن | ایرانسل | همراه اول | رایتل | سامانتل | مخابرات|",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/config_proxy.jpg"
@@ -939,9 +939,9 @@
     },
     "freevpnatm": {
         "types": [
-            "vmess",
+            "vless",
             "trojan",
-            "vless"
+            "vmess"
         ],
         "title": "科學上网 free configs",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/freevpnatm.jpg"
@@ -1123,8 +1123,9 @@
     "hope_net": {
         "types": [
             "vless",
+            "trojan",
             "ss",
-            "trojan"
+            "vmess"
         ],
         "title": "🕊 Hope Net",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/hope_net.jpg"
@@ -1201,10 +1202,10 @@
     },
     "ip_cf_config": {
         "types": [
+            "vmess",
             "vless",
-            "ss",
             "trojan",
-            "vmess"
+            "ss"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
@@ -1944,8 +1945,8 @@
     },
     "netmellianti": {
         "types": [
-            "vless",
-            "vmess"
+            "vmess",
+            "vless"
         ],
         "title": "VPN | V2rayNG | نت ملی",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/netmellianti.jpg"
@@ -2725,15 +2726,6 @@
         "title": "پروکسی/فیلترشکنv2ray",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ray_83.jpg"
     },
-    "v2ray_collector": {
-        "types": [
-            "hysteria",
-            "vless",
-            "trojan"
-        ],
-        "title": "V2rayCollector",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ray_collector.jpg"
-    },
     "v2ray_extractor": {
         "types": [
             "vless",
@@ -2751,9 +2743,9 @@
     },
     "v2ray_free_conf": {
         "types": [
+            "trojan",
             "ss",
             "vmess",
-            "trojan",
             "vless"
         ],
         "title": "🌍 V2Ray Free Config 🇮🇷",
@@ -2902,9 +2894,9 @@
     },
     "v2rayng_fars": {
         "types": [
-            "ss",
             "vless",
-            "vmess"
+            "vmess",
+            "ss"
         ],
         "title": "v2rayng fars",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayng_fars.jpg"
@@ -3036,8 +3028,7 @@
     },
     "v2rayngvpn_1": {
         "types": [
-            "vless",
-            "vmess"
+            "vless"
         ],
         "title": "سرور کانفیگ|v2ray🌍",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayngvpn_1.jpg"
@@ -3163,8 +3154,7 @@
     },
     "v2rayweb": {
         "types": [
-            "vless",
-            "trojan"
+            "vless"
         ],
         "title": "V2ray | VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"
@@ -3358,8 +3348,8 @@
     },
     "vmess_ir": {
         "types": [
-            "vless",
-            "ss"
+            "ss",
+            "vless"
         ],
         "title": "🚀سرور رایگان و اختصاصی vmess_ir🚀",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vmess_ir.jpg"

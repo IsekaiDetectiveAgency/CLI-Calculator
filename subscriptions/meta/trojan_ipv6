@@ -1,0 +1,74 @@
+mixed-port: 7890
+allow-lan: true
+mode: rule
+log-level: error
+ipv6: true
+external-controller: 127.0.0.1:9090
+profile:
+  store-selected: true
+  store-fake-ip: true
+dns:
+  enable: true
+  ipv6: true
+  default-nameserver: [1.1.1.1, 8.8.8.8]
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  use-hosts: true
+  nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
+
+proxies:
+  - {"name":"❔ XX | 🔴 | trojan | @freevpnatm | 12","type":"trojan","server":"[2606:4700:3030::6815:2001]","port":443,"password":"f69b7304-9bea-4740-a555-797514012a53","skip-cert-verify":false}
+
+rule-providers:
+  ir_domains:
+    type: http
+    behavior: domain
+    url: "https://github.com/bootmortis/iran-clash-rules/releases/latest/download/ir.txt"
+    path: ./ruleset/ir.txt
+    interval: 86400
+  ir_cidr:
+    type: http
+    behavior: ipcidr
+    url: "https://github.com/bootmortis/iran-clash-rules/releases/latest/download/ircidr.txt"
+    path: ./ruleset/ircidr.txt
+    interval: 86400
+
+proxy-groups:
+  - name: 🚀 PROXY
+    type: select
+    proxies:
+      - ♻️ AUTO
+      - 📉 Fallback
+      - DIRECT
+      - All-Proxies
+
+  - name: ♻️ AUTO
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50 
+    proxies:
+      - '❔ XX | 🔴 | trojan | @freevpnatm | 12'
+
+  - name: 📉 Fallback
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - '❔ XX | 🔴 | trojan | @freevpnatm | 12'
+      
+  - name: All-Proxies
+    type: select
+    proxies:
+      - '❔ XX | 🔴 | trojan | @freevpnatm | 12'
+
+rules:
+  - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
+  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+  - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve  # Clash Fake-IP range
+  - RULE-SET,ir_domains,DIRECT
+  - RULE-SET,ir_cidr,DIRECT
+  - GEOIP,IR,DIRECT
+  - MATCH,🚀 PROXY
