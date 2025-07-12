@@ -105,6 +105,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇮🇷 IR | 🔴 | vless | @NamiraNet | 68",
                 "🇺🇸 US | 🔴 | vless | @alo_v2rayng | 0",
                 "🇩🇪 DE | 🔴 | vless | @argotaz | 0",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
@@ -125,7 +126,7 @@
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇺🇸 US | 🔴 | vless | @custom_v2ray | 5",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
-                "🇮🇷 IR | 🔴 | vless | @darkma3ter24 | 13",
+                "🇺🇸 US | 🔴 | vless | @darkma3ter24 | 13",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇮🇷 IR | 🔴 | vless | @easy_free_vpn | 2",
                 "🇩🇪 DE | 🔴 | vless | @ehsawn8 | 4",
@@ -227,7 +228,6 @@
                 "🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 17",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 8",
-                "🇮🇷 IR | 🔴 | vless | @v2rayng_fars | 8",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "🇺🇸 US | 🔴 | vless | @v2rayng_o | 6",
                 "🇺🇸 US | 🔴 | vless | @v2rayngalpha | 6",
@@ -263,7 +263,6 @@
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 15",
                 "❔ XX | 🔴 | vless | @vpnv2rayng90 | 0",
-                "🇺🇸 US | 🟢 | vless | @vpnv2raytop | 8",
                 "❔ XX | 🟢 | vless | @vpnwlf | 10",
                 "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
                 "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
@@ -278,6 +277,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇮🇷 IR | 🔴 | vless | @NamiraNet | 68",
                 "🇺🇸 US | 🔴 | vless | @alo_v2rayng | 0",
                 "🇩🇪 DE | 🔴 | vless | @argotaz | 0",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
@@ -298,7 +298,7 @@
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇺🇸 US | 🔴 | vless | @custom_v2ray | 5",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
-                "🇮🇷 IR | 🔴 | vless | @darkma3ter24 | 13",
+                "🇺🇸 US | 🔴 | vless | @darkma3ter24 | 13",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇮🇷 IR | 🔴 | vless | @easy_free_vpn | 2",
                 "🇩🇪 DE | 🔴 | vless | @ehsawn8 | 4",
@@ -400,7 +400,6 @@
                 "🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 17",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 8",
-                "🇮🇷 IR | 🔴 | vless | @v2rayng_fars | 8",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "🇺🇸 US | 🔴 | vless | @v2rayng_o | 6",
                 "🇺🇸 US | 🔴 | vless | @v2rayngalpha | 6",
@@ -436,7 +435,6 @@
                 "🇮🇹 IT | 🔴 | vless | @vpnfree_irann | 5",
                 "🇫🇮 FI | 🟢 | vless | @vpnstorefast | 15",
                 "❔ XX | 🔴 | vless | @vpnv2rayng90 | 0",
-                "🇺🇸 US | 🟢 | vless | @vpnv2raytop | 8",
                 "❔ XX | 🟢 | vless | @vpnwlf | 10",
                 "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
                 "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
@@ -465,6 +463,15 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇮🇷 IR | 🔴 | vless | @NamiraNet | 68",
+            "type": "vless",
+            "server": "gr1.nspay.top",
+            "server_port": 35500,
+            "uuid": "1608302b-42f9-4513-89dc-0fb4664d763d",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @alo_v2rayng | 0",
@@ -777,7 +784,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @darkma3ter24 | 13",
+            "tag": "🇺🇸 US | 🔴 | vless | @darkma3ter24 | 13",
             "type": "vless",
             "server": "www.parspack.com",
             "server_port": 8080,
@@ -2441,22 +2448,6 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @v2rayng_fars | 8",
-            "type": "vless",
-            "server": "sshtamizdind81.ivy-net.ir",
-            "server_port": 2064,
-            "uuid": "01c00374-3deb-40f7-a3dd-fc449c9412e7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/lklklkopkpwqkepoqwejdiojqowijedopjqwepdijqwedjpqwoejopjdwjlklklkopkpwqkepoqwejdiojqowijedopjqwepdijqwedjpqwoejopjdwjlklklkopkpwqkepoqwejdiojqowijedopjqwepdijqwedjpqwoejopjdwjlklklkopkpwqkepoqwejdiojqowijedopjqwepdijqwedjpqwoejopjdwjlklklkopkpwqkepoqwejdiojqowijedopjqwepdijqwedjpqwoejopjdwjlklklkopkpwqkepoqwejdiojqowijedopjqwepdijqwedjpqwoejopjdwjlklklkopkpwqkepoqwejdiojqowijedopjqwepdijqwedjpqwoejopjdwjlklklkopkpwqkepoqwejdiojqowijedopjqwepdijqwedjpqwoejopjdwj?ed=4096",
-                "headers": {
-                    "Host": "sshtamizdind81.ivy-net.ir"
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
             "type": "vless",
             "server": "site.felinefreedom.site",
@@ -3086,31 +3077,6 @@
             "uuid": "0eab9ab8-d0f0-4823-8af9-d1f95db842e8",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @vpnv2raytop | 8",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "6bcb4f37-bba7-4ae0-afac-d43195c72c12",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "my.digikala.dynv6.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2560",
-                "headers": {
-                    "Host": "my.digikala.dynv6.net"
-                }
-            }
         },
         {
             "tag": "❔ XX | 🟢 | vless | @vpnwlf | 10",
