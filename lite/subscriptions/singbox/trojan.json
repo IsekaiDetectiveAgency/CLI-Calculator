@@ -106,20 +106,21 @@
             "outbounds": [
                 "URL-TEST",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
-                "🇩🇪 DE | 🔴 | trojan | @hope_net | 19",
                 "🇺🇸 US | 🟢 | trojan | @kurdistan_vpn_perfectt | 5",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
                 "🇨🇳 CN | 🟢 | trojan | @zdyz2 | 12",
-                "🇫🇷 FR | 🟢 | trojan | @directvpn | 15",
+                "🇩🇪 DE | 🟢 | trojan | @directvpn | 15",
                 "🇩🇪 DE | 🟢 | trojan | @freakconfig | 6",
                 "🇳🇱 NL | 🔴 | trojan | @hacknashid | 2",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 16",
-                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 15",
+                "🇩🇪 DE | 🟢 | trojan | @privatevpns | 15",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
+                "🇩🇪 DE | 🟢 | trojan | @v2rayng_fast | 2",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
-                "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14",
+                "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14",
+                "🇺🇸 US | 🟢 | trojan | @v2rayweb | 11",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ]
         },
@@ -128,20 +129,21 @@
             "type": "urltest",
             "outbounds": [
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
-                "🇩🇪 DE | 🔴 | trojan | @hope_net | 19",
                 "🇺🇸 US | 🟢 | trojan | @kurdistan_vpn_perfectt | 5",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6",
                 "🇨🇳 CN | 🟢 | trojan | @zdyz2 | 12",
-                "🇫🇷 FR | 🟢 | trojan | @directvpn | 15",
+                "🇩🇪 DE | 🟢 | trojan | @directvpn | 15",
                 "🇩🇪 DE | 🟢 | trojan | @freakconfig | 6",
                 "🇳🇱 NL | 🔴 | trojan | @hacknashid | 2",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 16",
-                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 15",
+                "🇩🇪 DE | 🟢 | trojan | @privatevpns | 15",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
+                "🇩🇪 DE | 🟢 | trojan | @v2rayng_fast | 2",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
-                "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14",
+                "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14",
+                "🇺🇸 US | 🟢 | trojan | @v2rayweb | 11",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ],
             "url": "https://www.gstatic.com/generate_204",
@@ -184,22 +186,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "production.tj.ojan.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | trojan | @hope_net | 19",
-            "type": "trojan",
-            "server": "golden-krill.treefrog761.one",
-            "server_port": 443,
-            "password": "3763495894587285504",
-            "tls": {
-                "enabled": true,
-                "server_name": "golden-krill.treefrog761.one",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },
@@ -279,9 +265,9 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @directvpn | 15",
+            "tag": "🇩🇪 DE | 🟢 | trojan | @directvpn | 15",
             "type": "trojan",
-            "server": "35.181.247.254",
+            "server": "3.70.103.84",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "tls": {
@@ -366,9 +352,9 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @privatevpns | 15",
+            "tag": "🇩🇪 DE | 🟢 | trojan | @privatevpns | 15",
             "type": "trojan",
-            "server": "35.181.247.254",
+            "server": "3.70.103.84",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "tls": {
@@ -398,6 +384,22 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🟢 | trojan | @v2rayng_fast | 2",
+            "type": "trojan",
+            "server": "104.248.18.1",
+            "server_port": 1935,
+            "password": "6gZh2JbfhQ",
+            "tls": {
+                "enabled": true,
+                "server_name": "x1-germany-digitalocean-v2.devefun.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
             "type": "trojan",
             "server": "104.149.155.13",
@@ -414,9 +416,9 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14",
+            "tag": "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14",
             "type": "trojan",
-            "server": "35.181.247.254",
+            "server": "3.70.103.84",
             "server_port": 22223,
             "password": "telegram-id-v2rayvpnchannel",
             "tls": {
@@ -426,6 +428,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | trojan | @v2rayweb | 11",
+            "type": "trojan",
+            "server": "104.17.148.22",
+            "server_port": 80,
+            "password": "redfree8",
+            "tls": {
+                "enabled": true,
+                "server_name": "varzesh3.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/trLwW5jwrnymnOdqki?ed=2560",
+                "headers": {
+                    "Host": "varzesh3.com"
                 }
             }
         },

@@ -113,7 +113,6 @@
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇺🇸 US | 🔴 | vless | @srcvpn | 28",
                 "🇺🇸 US | 🔴 | vless | @trueproxy | 5",
                 "🇺🇸 US | 🔴 | vless | @v2raymelliii | 6",
                 "🇺🇸 US | 🔴 | vless | @blueshekan | 2",
@@ -126,6 +125,8 @@
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "❔ XX | 🟢 | vless | @freakconfig2 | 7",
                 "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 10",
+                "🇺🇸 US | 🔴 | vless | @mowjproxy | 5",
+                "🇺🇸 US | 🔴 | vless | @proxy_mtproto_vpns_free | 14",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 17",
                 "🇺🇸 US | 🔴 | vless | @vmesc | 17"
             ]
@@ -142,7 +143,6 @@
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇺🇸 US | 🔴 | vless | @srcvpn | 28",
                 "🇺🇸 US | 🔴 | vless | @trueproxy | 5",
                 "🇺🇸 US | 🔴 | vless | @v2raymelliii | 6",
                 "🇺🇸 US | 🔴 | vless | @blueshekan | 2",
@@ -155,6 +155,8 @@
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "❔ XX | 🟢 | vless | @freakconfig2 | 7",
                 "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 10",
+                "🇺🇸 US | 🔴 | vless | @mowjproxy | 5",
+                "🇺🇸 US | 🔴 | vless | @proxy_mtproto_vpns_free | 14",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 17",
                 "🇺🇸 US | 🔴 | vless | @vmesc | 17"
             ],
@@ -279,15 +281,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @srcvpn | 28",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "259923b6-756d-4b33-9ea9-73e55378018a",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🔴 | vless | @trueproxy | 5",
             "type": "vless",
             "server": "151.101.67.8",
@@ -401,6 +394,24 @@
             "server": "test.fast.hosting-ip.com",
             "server_port": 80,
             "uuid": "d4185486-d969-4ba6-b937-253a84bf892c",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @mowjproxy | 5",
+            "type": "vless",
+            "server": "vpconnect.ahadbala.ir",
+            "server_port": 80,
+            "uuid": "316caa7e-71d0-4bb1-8dba-6e8a16f7198a",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @proxy_mtproto_vpns_free | 14",
+            "type": "vless",
+            "server": "vpconnect.ahadbala.ir",
+            "server_port": 80,
+            "uuid": "316caa7e-71d0-4bb1-8dba-6e8a16f7198a",
             "flow": "",
             "packet_encoding": "xudp"
         },
