@@ -18,6 +18,7 @@ dns:
 
 proxies:
   - {"name":"🇬🇧 GB | 🟢 | ss | @Fr33C0nfig | 55","type":"ss","server":"admin.c4.webramz.co","port":443,"password":"69MUii7VDwMqh7Hz","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 25","type":"ss","server":"rusrv.vpnsparta.pro","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
   - {"name":"❔ XX | 🟢 | ss | @chestertm | 12","type":"ss","server":"freakconfig94.usecharge.ir","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 4","type":"ss","server":"series-a2-mec.varzesh360.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0","type":"ss","server":"admin.c2.webramz.co","port":443,"password":"WstuSnlu4ieA9M0L","cipher":"chacha20-ietf-poly1305"}
@@ -60,6 +61,7 @@ proxy-groups:
     tolerance: 50 
     proxies:
       - '🇬🇧 GB | 🟢 | ss | @Fr33C0nfig | 55'
+      - '🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 25'
       - '❔ XX | 🟢 | ss | @chestertm | 12'
       - '🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 4'
       - '🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0'
@@ -78,6 +80,7 @@ proxy-groups:
     interval: 300
     proxies:
       - '🇬🇧 GB | 🟢 | ss | @Fr33C0nfig | 55'
+      - '🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 25'
       - '❔ XX | 🟢 | ss | @chestertm | 12'
       - '🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 4'
       - '🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0'
@@ -94,6 +97,7 @@ proxy-groups:
     type: select
     proxies:
       - '🇬🇧 GB | 🟢 | ss | @Fr33C0nfig | 55'
+      - '🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 25'
       - '❔ XX | 🟢 | ss | @chestertm | 12'
       - '🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 4'
       - '🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0'
