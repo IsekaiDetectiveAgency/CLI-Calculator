@@ -28,8 +28,8 @@ proxies:
   - {"name":"🇬🇧 GB | 🟢 | ss | @v2raybe | 6","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @v2rayport | 13","type":"ss","server":"admin.c1.webramz.co","port":443,"password":"1xO2cqPazqjGfCfd","cipher":"chacha20-ietf-poly1305"}
   - {"name":"❔ XX | 🟢 | ss | @v2raytel | 2","type":"ss","server":"2FreakConfig.usecharge.ir","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇷🇺 RU | 🟢 | ss | @vmess_ir | 17","type":"ss","server":"ct.uigame.space","port":2024,"password":"33LpoU8X/xHnCD+cbNe+7p0pK/JngDLM+5+RILrxyfVFRW/niKz5Eu0rWyVcDho=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"❔ XX | 🟢 | ss | @vpidiamond | 9","type":"ss","server":"nationalvpn1.nightwolf.shop","port":23377,"password":"4cY4N/FWyfZ1r21mu4oj/L5E6WHN9b8VAeitl+Mk7CQ=","cipher":"aes-256-gcm"}
+  - {"name":"🇬🇧 GB | 🟢 | ss | @vpnaloo | 13","type":"ss","server":"Peweza2.digipedia.shop","port":443,"password":"WstuSnlu4ieA9M0L","cipher":"chacha20-ietf-poly1305"}
 
 rule-providers:
   ir_domains:
@@ -71,8 +71,8 @@ proxy-groups:
       - '🇬🇧 GB | 🟢 | ss | @v2raybe | 6'
       - '🇬🇧 GB | 🟢 | ss | @v2rayport | 13'
       - '❔ XX | 🟢 | ss | @v2raytel | 2'
-      - '🇷🇺 RU | 🟢 | ss | @vmess_ir | 17'
       - '❔ XX | 🟢 | ss | @vpidiamond | 9'
+      - '🇬🇧 GB | 🟢 | ss | @vpnaloo | 13'
 
   - name: 📉 Fallback
     type: fallback
@@ -90,8 +90,8 @@ proxy-groups:
       - '🇬🇧 GB | 🟢 | ss | @v2raybe | 6'
       - '🇬🇧 GB | 🟢 | ss | @v2rayport | 13'
       - '❔ XX | 🟢 | ss | @v2raytel | 2'
-      - '🇷🇺 RU | 🟢 | ss | @vmess_ir | 17'
       - '❔ XX | 🟢 | ss | @vpidiamond | 9'
+      - '🇬🇧 GB | 🟢 | ss | @vpnaloo | 13'
       
   - name: All-Proxies
     type: select
@@ -107,8 +107,8 @@ proxy-groups:
       - '🇬🇧 GB | 🟢 | ss | @v2raybe | 6'
       - '🇬🇧 GB | 🟢 | ss | @v2rayport | 13'
       - '❔ XX | 🟢 | ss | @v2raytel | 2'
-      - '🇷🇺 RU | 🟢 | ss | @vmess_ir | 17'
       - '❔ XX | 🟢 | ss | @vpidiamond | 9'
+      - '🇬🇧 GB | 🟢 | ss | @vpnaloo | 13'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

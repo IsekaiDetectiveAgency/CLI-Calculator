@@ -116,8 +116,8 @@
                 "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
                 "🇬🇧 GB | 🟢 | ss | @v2rayport | 13",
                 "❔ XX | 🟢 | ss | @v2raytel | 2",
-                "🇷🇺 RU | 🟢 | ss | @vmess_ir | 17",
-                "❔ XX | 🟢 | ss | @vpidiamond | 9"
+                "❔ XX | 🟢 | ss | @vpidiamond | 9",
+                "🇬🇧 GB | 🟢 | ss | @vpnaloo | 13"
             ]
         },
         {
@@ -135,8 +135,8 @@
                 "🇬🇧 GB | 🟢 | ss | @v2raybe | 6",
                 "🇬🇧 GB | 🟢 | ss | @v2rayport | 13",
                 "❔ XX | 🟢 | ss | @v2raytel | 2",
-                "🇷🇺 RU | 🟢 | ss | @vmess_ir | 17",
-                "❔ XX | 🟢 | ss | @vpidiamond | 9"
+                "❔ XX | 🟢 | ss | @vpidiamond | 9",
+                "🇬🇧 GB | 🟢 | ss | @vpnaloo | 13"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -247,20 +247,20 @@
             "password": "W74XFALLLuw6m5IA"
         },
         {
-            "tag": "🇷🇺 RU | 🟢 | ss | @vmess_ir | 17",
-            "type": "shadowsocks",
-            "server": "ct.uigame.space",
-            "server_port": 2024,
-            "method": "chacha20-ietf-poly1305",
-            "password": "33LpoU8X/xHnCD+cbNe+7p0pK/JngDLM+5+RILrxyfVFRW/niKz5Eu0rWyVcDho="
-        },
-        {
             "tag": "❔ XX | 🟢 | ss | @vpidiamond | 9",
             "type": "shadowsocks",
             "server": "nationalvpn1.nightwolf.shop",
             "server_port": 23377,
             "method": "aes-256-gcm",
             "password": "4cY4N/FWyfZ1r21mu4oj/L5E6WHN9b8VAeitl+Mk7CQ="
+        },
+        {
+            "tag": "🇬🇧 GB | 🟢 | ss | @vpnaloo | 13",
+            "type": "shadowsocks",
+            "server": "Peweza2.digipedia.shop",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "WstuSnlu4ieA9M0L"
         }
     ],
     "route": {
