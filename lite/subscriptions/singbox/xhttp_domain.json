@@ -115,9 +115,11 @@
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 5",
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 3",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
+                "🇩🇪 DE | 🔴 | vless | @v2ray_free_conf | 19",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
-                "🇺🇸 US | 🔴 | vless | @vistav2ray | 16"
+                "🇺🇸 US | 🔴 | vless | @vistav2ray | 16",
+                "🇩🇪 DE | 🔴 | vless | @vpnplusee_free | 17"
             ]
         },
         {
@@ -134,9 +136,11 @@
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 5",
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 3",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
+                "🇩🇪 DE | 🔴 | vless | @v2ray_free_conf | 19",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
-                "🇺🇸 US | 🔴 | vless | @vistav2ray | 16"
+                "🇺🇸 US | 🔴 | vless | @vistav2ray | 16",
+                "🇩🇪 DE | 🔴 | vless | @vpnplusee_free | 17"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -249,6 +253,15 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇩🇪 DE | 🔴 | vless | @v2ray_free_conf | 19",
+            "type": "vless",
+            "server": "speedy.mooo.info",
+            "server_port": 80,
+            "uuid": "57407bda-8552-441b-816f-d7a320d1d49b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
             "type": "vless",
             "server": "viop.fast.hosting-ip.com",
@@ -281,6 +294,15 @@
             "server": "speedtestcustom.com",
             "server_port": 80,
             "uuid": "44f2c910-07a4-478e-861b-aed3d0750980",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vless | @vpnplusee_free | 17",
+            "type": "vless",
+            "server": "speedy.mooo.info",
+            "server_port": 80,
+            "uuid": "57407bda-8552-441b-816f-d7a320d1d49b",
             "flow": "",
             "packet_encoding": "xudp"
         }
