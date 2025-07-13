@@ -110,16 +110,16 @@
                 "🇩🇪 DE | 🟢 | trojan | @freakconfig | 6",
                 "🇺🇸 US | 🟢 | trojan | @freevpnatm | 16",
                 "🇳🇱 NL | 🔴 | trojan | @hacknashid | 2",
-                "🇮🇪 IE | 🟢 | trojan | @hope_net | 19",
+                "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 14",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 16",
                 "🇩🇪 DE | 🟢 | trojan | @privatevpns | 15",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14",
-                "🇫🇷 FR | 🟢 | trojan | @vaynora | 12",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
+                "🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 19",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8"
             ]
         },
@@ -132,16 +132,16 @@
                 "🇩🇪 DE | 🟢 | trojan | @freakconfig | 6",
                 "🇺🇸 US | 🟢 | trojan | @freevpnatm | 16",
                 "🇳🇱 NL | 🔴 | trojan | @hacknashid | 2",
-                "🇮🇪 IE | 🟢 | trojan | @hope_net | 19",
+                "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 14",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 16",
                 "🇩🇪 DE | 🟢 | trojan | @privatevpns | 15",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14",
-                "🇫🇷 FR | 🟢 | trojan | @vaynora | 12",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
+                "🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 19",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8"
             ],
             "url": "https://www.gstatic.com/generate_204",
@@ -243,14 +243,14 @@
             }
         },
         {
-            "tag": "🇮🇪 IE | 🟢 | trojan | @hope_net | 19",
+            "tag": "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 14",
             "type": "trojan",
-            "server": "52.213.14.4",
-            "server_port": 22222,
-            "password": "telegram-id-v2rayvpnchannel",
+            "server": "198.23.229.250",
+            "server_port": 443,
+            "password": "2ee85121-31de-4581-a492-eb00f606e392",
             "tls": {
                 "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
+                "server_name": "rc6.freeguard.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -362,22 +362,6 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @vaynora | 12",
-            "type": "trojan",
-            "server": "13.37.30.32",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🟢 | trojan | @webhube | 4",
             "type": "trojan",
             "server": "15.204.175.111",
@@ -420,6 +404,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "production.tj.ojan.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 19",
+            "type": "trojan",
+            "server": "www.whatismyip.com",
+            "server_port": 443,
+            "password": "vip",
+            "tls": {
+                "enabled": true,
+                "server_name": "heihu880.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "heihu880.pages.dev"
                 }
             }
         },
