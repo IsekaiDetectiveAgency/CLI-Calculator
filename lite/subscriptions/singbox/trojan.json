@@ -110,17 +110,17 @@
                 "🇩🇪 DE | 🟢 | trojan | @freakconfig | 6",
                 "🇺🇸 US | 🟢 | trojan | @freevpnatm | 16",
                 "🇳🇱 NL | 🔴 | trojan | @hacknashid | 2",
+                "🇮🇪 IE | 🟢 | trojan | @hope_net | 19",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 16",
                 "🇩🇪 DE | 🟢 | trojan | @privatevpns | 15",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14",
-                "🇫🇷 FR | 🟢 | trojan | @vaynora | 13",
+                "🇫🇷 FR | 🟢 | trojan | @vaynora | 12",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
-                "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇺🇸 US | 🔴 | trojan | @v2source | 19"
+                "❔ XX | 🟢 | trojan | @maradona_vpn | 8"
             ]
         },
         {
@@ -132,17 +132,17 @@
                 "🇩🇪 DE | 🟢 | trojan | @freakconfig | 6",
                 "🇺🇸 US | 🟢 | trojan | @freevpnatm | 16",
                 "🇳🇱 NL | 🔴 | trojan | @hacknashid | 2",
+                "🇮🇪 IE | 🟢 | trojan | @hope_net | 19",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 16",
                 "🇩🇪 DE | 🟢 | trojan | @privatevpns | 15",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14",
-                "🇫🇷 FR | 🟢 | trojan | @vaynora | 13",
+                "🇫🇷 FR | 🟢 | trojan | @vaynora | 12",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
-                "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇺🇸 US | 🔴 | trojan | @v2source | 19"
+                "❔ XX | 🟢 | trojan | @maradona_vpn | 8"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -174,7 +174,7 @@
         {
             "tag": "🇩🇪 DE | 🟢 | trojan | @directvpn | 15",
             "type": "trojan",
-            "server": "3.74.220.92",
+            "server": "52.58.208.200",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "tls": {
@@ -243,6 +243,22 @@
             }
         },
         {
+            "tag": "🇮🇪 IE | 🟢 | trojan | @hope_net | 19",
+            "type": "trojan",
+            "server": "52.213.14.4",
+            "server_port": 22222,
+            "password": "telegram-id-v2rayvpnchannel",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
             "type": "trojan",
             "server": "146.190.87.238",
@@ -284,7 +300,7 @@
         {
             "tag": "🇩🇪 DE | 🟢 | trojan | @privatevpns | 15",
             "type": "trojan",
-            "server": "3.74.220.92",
+            "server": "52.58.208.200",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "tls": {
@@ -332,7 +348,7 @@
         {
             "tag": "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14",
             "type": "trojan",
-            "server": "3.74.220.92",
+            "server": "52.58.208.200",
             "server_port": 22223,
             "password": "telegram-id-v2rayvpnchannel",
             "tls": {
@@ -346,7 +362,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @vaynora | 13",
+            "tag": "🇫🇷 FR | 🟢 | trojan | @vaynora | 12",
             "type": "trojan",
             "server": "13.37.30.32",
             "server_port": 22222,
@@ -425,22 +441,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "grpc20337"
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | trojan | @v2source | 19",
-            "type": "trojan",
-            "server": "sage.ns.cloudflare.com",
-            "server_port": 443,
-            "password": "Aimer",
-            "tls": {
-                "enabled": true,
-                "server_name": "ngepx.ambercc.filegear-sg.me",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             }
         }
     ],
