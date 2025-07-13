@@ -116,6 +116,7 @@
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "❔ XX | 🟢 | vless | @freakconfig2 | 7",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
+                "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 19",
                 "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 9",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 9",
@@ -123,8 +124,7 @@
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇺🇸 US | 🔴 | vless | @v2raymelliii | 6",
-                "🇺🇸 US | 🔴 | vless | @vpnplusee_free | 16"
+                "🇺🇸 US | 🔴 | vless | @v2rayopen | 9"
             ]
         },
         {
@@ -142,6 +142,7 @@
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
                 "❔ XX | 🟢 | vless | @freakconfig2 | 7",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
+                "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
                 "🇺🇸 US | 🔴 | vless | @canfing_vpn | 19",
                 "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 9",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 9",
@@ -149,8 +150,7 @@
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇺🇸 US | 🔴 | vless | @v2raymelliii | 6",
-                "🇺🇸 US | 🔴 | vless | @vpnplusee_free | 16"
+                "🇺🇸 US | 🔴 | vless | @v2rayopen | 9"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -281,6 +281,24 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
+            "type": "vless",
+            "server": "statue.lnmarketplace.net",
+            "server_port": 443,
+            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "statue.lnmarketplace.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔴 | vless | @canfing_vpn | 19",
             "type": "vless",
             "server": "151.101.3.8",
@@ -372,20 +390,11 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @v2raymelliii | 6",
+            "tag": "🇺🇸 US | 🔴 | vless | @v2rayopen | 9",
             "type": "vless",
-            "server": "151.101.3.8",
+            "server": "151.101.67.8",
             "server_port": 80,
-            "uuid": "c8b98685-35a8-413d-8184-d844322ecc4a",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @vpnplusee_free | 16",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "29091907-ea23-474b-a1ae-58b0a3996ed6",
+            "uuid": "acf4558d-eb3d-424b-d6e7-7f4191a2eddb",
             "flow": "",
             "packet_encoding": "xudp"
         }
