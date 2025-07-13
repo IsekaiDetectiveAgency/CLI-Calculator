@@ -33,7 +33,6 @@ proxies:
   - {"name":"❔ XX | 🔴 | vless | @vpn_matin_best1 | 1","type":"vless","server":"[2a01:4f8:1c1e:5d54::1]","port":33892,"uuid":"3700cc9f-b8c0-4ada-a45d-9913835d3cc2","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"❔ XX | 🟢 | vless | @vpnvg | 10","type":"vless","server":"[2a01:4f8:1c17:cadc::1]","port":2083,"uuid":"5a0beb93-56ae-4390-b5c2-8ed92f5f591d","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"servername":"www.speedtest.net","grpc-opts":{"grpc-service-name":"@Digiv2ray"},"reality-opts":{"public-key":"Qa9ePuwo1TY2uVN8143Sh3YAiVqdDj9VIZcQK20DTzc","short-id":"5654bc18"}}
   - {"name":"❔ XX | 🟢 | vless | @yekoyekvpn | 0","type":"vless","server":"[::ffff:3207:55dd]","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"tEstBp.fIBiDOB9775921.woRkeRS.DEV","ws-opts":{"path":"/xUnw05Z6MV3NG29U?ed=2560","headers":{"Host":"testbp.fibidob9775921.workers.dev"}}}
-  - {"name":"❔ XX | 🔴 | vless | @zilv2ray_service | 9","type":"vless","server":"[2a01:7e0:0:151:1fff:ffff:ffff:2224]","port":2087,"uuid":"d3cc4545-0896-4245-8f29-fcc5dd928512","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -80,7 +79,6 @@ proxy-groups:
       - '❔ XX | 🔴 | vless | @vpn_matin_best1 | 1'
       - '❔ XX | 🟢 | vless | @vpnvg | 10'
       - '❔ XX | 🟢 | vless | @yekoyekvpn | 0'
-      - '❔ XX | 🔴 | vless | @zilv2ray_service | 9'
 
   - name: 📉 Fallback
     type: fallback
@@ -103,7 +101,6 @@ proxy-groups:
       - '❔ XX | 🔴 | vless | @vpn_matin_best1 | 1'
       - '❔ XX | 🟢 | vless | @vpnvg | 10'
       - '❔ XX | 🟢 | vless | @yekoyekvpn | 0'
-      - '❔ XX | 🔴 | vless | @zilv2ray_service | 9'
       
   - name: All-Proxies
     type: select
@@ -124,7 +121,6 @@ proxy-groups:
       - '❔ XX | 🔴 | vless | @vpn_matin_best1 | 1'
       - '❔ XX | 🟢 | vless | @vpnvg | 10'
       - '❔ XX | 🟢 | vless | @yekoyekvpn | 0'
-      - '❔ XX | 🔴 | vless | @zilv2ray_service | 9'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

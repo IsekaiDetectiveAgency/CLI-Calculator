@@ -17,6 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
+  - {"name":"🇳🇱 NL | 🟢 | ss | @NamiraNet | 66","type":"ss","server":"194.87.216.189","port":443,"password":"Ib9hxFZxUH4m","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪 DE | 🟢 | ss | @argo_vpn1 | 0","type":"ss","server":"81.19.141.45","port":443,"password":"lyW4LuDWJgHDAnC3ZDZtsV","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇸🇬 SG | 🟢 | ss | @argo_vpn1 | 3","type":"ss","server":"188.166.235.86","port":64763,"password":"m1nbWHjcjNHJo8XiYDohV8","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇯🇵 JP | 🟢 | ss | @argo_vpn1 | 4","type":"ss","server":"54.238.207.188","port":8313,"password":"ljqdalu13..","cipher":"chacha20-ietf-poly1305"}
@@ -33,21 +34,22 @@ proxies:
   - {"name":"🇸🇪 SE | 🟢 | ss | @freakconfig1 | 1","type":"ss","server":"45.8.147.65","port":37219,"password":"ETt8vY8HbPwOfk21c3i13h","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @free1_vpn | 7","type":"ss","server":"172.187.105.25","port":443,"password":"1xO2cqPazqjGfCfd","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸 US | 🟢 | ss | @free1_vpn | 10","type":"ss","server":"45.87.175.35","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱 NL | 🟢 | ss | @free1ss | 11","type":"ss","server":"194.87.216.189","port":443,"password":"Ib9hxFZxUH4m","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪 DE | 🟢 | ss | @free1ss | 15","type":"ss","server":"81.19.141.45","port":443,"password":"Tq881Jz0QHbFE5Zn0iYbra","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 DE | 🟢 | ss | @free1ss | 14","type":"ss","server":"81.19.141.45","port":443,"password":"Tq881Jz0QHbFE5Zn0iYbra","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱 NL | 🟢 | ss | @free1ss | 15","type":"ss","server":"193.29.139.144","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇱🇻 LV | 🟢 | ss | @freeconfigsplus | 18","type":"ss","server":"216.173.70.187","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪 DE | 🟢 | ss | @freev2raym | 8","type":"ss","server":"91.107.141.0","port":43486,"password":"7vlJpFVhEpKh/VTTCvOab8eEoJo+MeXJpj9CDxLYm9o=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇳🇱 NL | 🟢 | ss | @freevirgoolnet | 6","type":"ss","server":"89.23.103.21","port":51584,"password":"oYQ8JwEldYn4KT2gfZ6eNl","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇷 FR | 🟢 | ss | @freevirgoolnet | 7","type":"ss","server":"86.104.74.243","port":14255,"password":"fDDmH4QefmWqMJ8UURZrGh","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪 DE | 🟢 | ss | @hackmodvpnservers | 2","type":"ss","server":"51.116.225.223","port":443,"password":"9b3b33c24f203e40","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @injectormconf | 39","type":"ss","server":"51.142.171.150","port":49499,"password":"kTjlLxrncKx4i2HIjxfA3M","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🟢 | ss | @ip_cf_config | 14","type":"ss","server":"45.87.175.164","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @ir_netproxy | 12","type":"ss","server":"51.105.36.101","port":13928,"password":"2gxDsKmZRuz4wRCKyXJdJl","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪 DE | 🟢 | ss | @jiedianf | 9","type":"ss","server":"138.124.115.157","port":1080,"password":"M-nffO40KlclwbCX9CV1DQ","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧 GB | 🟢 | ss | @key_outline | 15","type":"ss","server":"78.129.140.11","port":443,"password":"uDk6Sn45YXIJ4pDGDUqy3i","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🟢 | ss | @key_outline | 16","type":"ss","server":"104.192.227.162","port":443,"password":"nYmjFqpGQ95anyS1WG2dmU","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇫🇷 FR | 🟢 | ss | @key_outline | 17","type":"ss","server":"62.210.88.22","port":443,"password":"G7493nCPEXN9i3uPw3wV4J","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧 GB | 🟢 | ss | @key_outline | 18","type":"ss","server":"78.129.140.11","port":443,"password":"mn2sdYVM72aPk4cfMupZKt","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🟢 | ss | @key_outline | 19","type":"ss","server":"104.192.227.162","port":443,"password":"aU4eTmjQ46NvvCAQcLf6mJ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🟢 | ss | @key_outline | 15","type":"ss","server":"104.192.227.162","port":443,"password":"nYmjFqpGQ95anyS1WG2dmU","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇷 FR | 🟢 | ss | @key_outline | 16","type":"ss","server":"62.210.88.22","port":443,"password":"G7493nCPEXN9i3uPw3wV4J","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧 GB | 🟢 | ss | @key_outline | 17","type":"ss","server":"78.129.140.11","port":443,"password":"mn2sdYVM72aPk4cfMupZKt","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🟢 | ss | @key_outline | 18","type":"ss","server":"104.192.227.162","port":443,"password":"aU4eTmjQ46NvvCAQcLf6mJ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇷 FR | 🟢 | ss | @key_outline | 19","type":"ss","server":"62.210.88.22","port":443,"password":"E7rra7VwlSx87SLEsqd0Gu","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇯🇵 JP | 🟢 | ss | @lranonline_new | 0","type":"ss","server":"54.238.207.188","port":8319,"password":"ljqdalu13..","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸 US | 🟢 | ss | @manzariyeh_rasht | 9","type":"ss","server":"45.87.175.167","port":8080,"password":"QCXDxuDlTTMD7jtgHUjIoj","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @megavpn_link | 14","type":"ss","server":"85.210.120.237","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
@@ -63,10 +65,10 @@ proxies:
   - {"name":"🇳🇱 NL | 🟢 | ss | @netfreedom0 | 17","type":"ss","server":"151.242.251.131","port":8080,"password":"QCXDxuDlTTMD7jtgHUjIoj","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @novinology | 16","type":"ss","server":"13.87.74.71","port":14564,"password":"Q1qlRknoN9PwGeExWVyTKg","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @ntconfig | 2","type":"ss","server":"74.177.202.58","port":443,"password":"69MUii7VDwMqh7Hz","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪 DE | 🟢 | ss | @outlineopenkey | 5","type":"ss","server":"81.19.141.45","port":443,"password":"7ESGPjz22c2ghHUeJs7vg3","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @outlineopenkey | 6","type":"ss","server":"89.185.84.185","port":443,"password":"2Ed2RUWLHbQ0xcRCV6opCS","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇪🇸 ES | 🟢 | ss | @outlineopenkey | 7","type":"ss","server":"194.87.45.189","port":443,"password":"jeKIiRQPRkxU1ekjUhHOUb","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @outlineopenkey | 8","type":"ss","server":"89.185.84.185","port":443,"password":"JN7tG9Ikqo6MAmivZuJijz","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧 GB | 🟢 | ss | @outlineopenkey | 10","type":"ss","server":"89.185.84.185","port":443,"password":"a8GGeKmIE6FOrbTYQvQB0g","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇱🇹 LT | 🟢 | ss | @outlinereleasedkey | 15","type":"ss","server":"78.153.131.96","port":443,"password":"7jvHHF5SaFob","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇹🇷 TR | 🟢 | ss | @outlinereleasedkey | 16","type":"ss","server":"62.133.63.212","port":57456,"password":"c40641c1f89e7acb","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇱🇻 LV | 🟢 | ss | @outlinereleasedkey | 18","type":"ss","server":"216.173.70.187","port":57456,"password":"a58fa62b4944ddbf","cipher":"chacha20-ietf-poly1305"}
@@ -84,7 +86,6 @@ proxies:
   - {"name":"🇩🇪 DE | 🟢 | ss | @shadowsocksserv | 0","type":"ss","server":"167.86.116.89","port":443,"password":"srt1xudOe3tF","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪 DE | 🟢 | ss | @shadowsocksserv | 1","type":"ss","server":"178.18.244.2","port":443,"password":"97OnDEZYGja4","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇦 CA | 🟢 | ss | @shadowsocksserv | 2","type":"ss","server":"38.111.114.246","port":9102,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸 US | 🟢 | ss | @sifev2ray | 6","type":"ss","server":"69.50.95.251","port":9098,"password":"ksjfuw!sop#","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸 US | 🟢 | ss | @slamvpn | 1","type":"ss","server":"45.87.175.178","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪 DE | 🟢 | ss | @srv2ray | 0","type":"ss","server":"5.182.87.210","port":35961,"password":"wDZtxfIk3UhacKHrho7lxw","cipher":"aes-256-gcm"}
   - {"name":"🇫🇮 FI | 🟢 | ss | @strongprotocol | 6","type":"ss","server":"77.91.70.76","port":443,"password":"fmoQqzLS7Q26VXvEuz4VUs","cipher":"chacha20-ietf-poly1305"}
@@ -99,11 +100,12 @@ proxies:
   - {"name":"🇺🇸 US | 🟢 | ss | @v2rayngalpha | 3","type":"ss","server":"205.134.180.150","port":443,"password":"5cp9Z3iWnJZ2","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪 DE | 🟢 | ss | @v2rayngalpha | 4","type":"ss","server":"185.177.229.245","port":1866,"password":"oXGp1+ihlfKg826H","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇳🇱 NL | 🟢 | ss | @v2rayngalpha | 5","type":"ss","server":"89.23.103.125","port":42090,"password":"uQS5ntVqC00sSKkeNzUiD3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱 NL | 🟢 | ss | @v2rayngb | 14","type":"ss","server":"40.113.153.173","port":45160,"password":"kQpaDJdFPnltYcbBYF4KtK","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪 DE | 🟢 | ss | @v2rayngn | 13","type":"ss","server":"45.63.116.235","port":8313,"password":"ljqdalu13..","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧 GB | 🟢 | ss | @v2rayngrit | 14","type":"ss","server":"172.165.94.205","port":443,"password":"1xO2cqPazqjGfCfd","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧 GB | 🟢 | ss | @v2rayngrit | 13","type":"ss","server":"172.165.94.205","port":443,"password":"1xO2cqPazqjGfCfd","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇦 CA | 🟢 | ss | @v2rayngvvpn | 24","type":"ss","server":"64.74.163.130","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇮🇸 IS | 🟢 | ss | @v2rayngvvpn | 25","type":"ss","server":"89.221.224.166","port":8388,"password":"ODMwZWIz","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇰🇷 KR | 🟢 | ss | @v2source | 18","type":"ss","server":"203.32.26.81","port":19028,"password":"1928aa4d6e3c8df3","cipher":"aes-256-gcm"}
+  - {"name":"🇳🇱 NL | 🟢 | ss | @v2source | 19","type":"ss","server":"45.158.171.110","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇹🇷 TR | 🟢 | ss | @v_2ray1 | 11","type":"ss","server":"45.89.52.197","port":32058,"password":"Fgltbpm6cD9eHSFhKI6maC","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪 DE | 🟢 | ss | @v_2ray1 | 12","type":"ss","server":"94.131.111.32","port":8388,"password":"NGQzMzQz","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇵🇱 PL | 🟢 | ss | @vipufovpn | 15","type":"ss","server":"54.36.174.181","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
@@ -153,6 +155,7 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
+      - '🇳🇱 NL | 🟢 | ss | @NamiraNet | 66'
       - '🇩🇪 DE | 🟢 | ss | @argo_vpn1 | 0'
       - '🇸🇬 SG | 🟢 | ss | @argo_vpn1 | 3'
       - '🇯🇵 JP | 🟢 | ss | @argo_vpn1 | 4'
@@ -169,21 +172,22 @@ proxy-groups:
       - '🇸🇪 SE | 🟢 | ss | @freakconfig1 | 1'
       - '🇬🇧 GB | 🟢 | ss | @free1_vpn | 7'
       - '🇺🇸 US | 🟢 | ss | @free1_vpn | 10'
-      - '🇳🇱 NL | 🟢 | ss | @free1ss | 11'
-      - '🇩🇪 DE | 🟢 | ss | @free1ss | 15'
+      - '🇩🇪 DE | 🟢 | ss | @free1ss | 14'
+      - '🇳🇱 NL | 🟢 | ss | @free1ss | 15'
       - '🇱🇻 LV | 🟢 | ss | @freeconfigsplus | 18'
       - '🇩🇪 DE | 🟢 | ss | @freev2raym | 8'
       - '🇳🇱 NL | 🟢 | ss | @freevirgoolnet | 6'
       - '🇫🇷 FR | 🟢 | ss | @freevirgoolnet | 7'
       - '🇩🇪 DE | 🟢 | ss | @hackmodvpnservers | 2'
       - '🇬🇧 GB | 🟢 | ss | @injectormconf | 39'
+      - '🇺🇸 US | 🟢 | ss | @ip_cf_config | 14'
       - '🇬🇧 GB | 🟢 | ss | @ir_netproxy | 12'
       - '🇩🇪 DE | 🟢 | ss | @jiedianf | 9'
-      - '🇬🇧 GB | 🟢 | ss | @key_outline | 15'
-      - '🇺🇸 US | 🟢 | ss | @key_outline | 16'
-      - '🇫🇷 FR | 🟢 | ss | @key_outline | 17'
-      - '🇬🇧 GB | 🟢 | ss | @key_outline | 18'
-      - '🇺🇸 US | 🟢 | ss | @key_outline | 19'
+      - '🇺🇸 US | 🟢 | ss | @key_outline | 15'
+      - '🇫🇷 FR | 🟢 | ss | @key_outline | 16'
+      - '🇬🇧 GB | 🟢 | ss | @key_outline | 17'
+      - '🇺🇸 US | 🟢 | ss | @key_outline | 18'
+      - '🇫🇷 FR | 🟢 | ss | @key_outline | 19'
       - '🇯🇵 JP | 🟢 | ss | @lranonline_new | 0'
       - '🇺🇸 US | 🟢 | ss | @manzariyeh_rasht | 9'
       - '🇬🇧 GB | 🟢 | ss | @megavpn_link | 14'
@@ -199,10 +203,10 @@ proxy-groups:
       - '🇳🇱 NL | 🟢 | ss | @netfreedom0 | 17'
       - '🇬🇧 GB | 🟢 | ss | @novinology | 16'
       - '🇬🇧 GB | 🟢 | ss | @ntconfig | 2'
-      - '🇩🇪 DE | 🟢 | ss | @outlineopenkey | 5'
       - '🇬🇧 GB | 🟢 | ss | @outlineopenkey | 6'
       - '🇪🇸 ES | 🟢 | ss | @outlineopenkey | 7'
       - '🇬🇧 GB | 🟢 | ss | @outlineopenkey | 8'
+      - '🇬🇧 GB | 🟢 | ss | @outlineopenkey | 10'
       - '🇱🇹 LT | 🟢 | ss | @outlinereleasedkey | 15'
       - '🇹🇷 TR | 🟢 | ss | @outlinereleasedkey | 16'
       - '🇱🇻 LV | 🟢 | ss | @outlinereleasedkey | 18'
@@ -220,7 +224,6 @@ proxy-groups:
       - '🇩🇪 DE | 🟢 | ss | @shadowsocksserv | 0'
       - '🇩🇪 DE | 🟢 | ss | @shadowsocksserv | 1'
       - '🇨🇦 CA | 🟢 | ss | @shadowsocksserv | 2'
-      - '🇺🇸 US | 🟢 | ss | @sifev2ray | 6'
       - '🇺🇸 US | 🟢 | ss | @slamvpn | 1'
       - '🇩🇪 DE | 🟢 | ss | @srv2ray | 0'
       - '🇫🇮 FI | 🟢 | ss | @strongprotocol | 6'
@@ -235,11 +238,12 @@ proxy-groups:
       - '🇺🇸 US | 🟢 | ss | @v2rayngalpha | 3'
       - '🇩🇪 DE | 🟢 | ss | @v2rayngalpha | 4'
       - '🇳🇱 NL | 🟢 | ss | @v2rayngalpha | 5'
-      - '🇳🇱 NL | 🟢 | ss | @v2rayngb | 14'
       - '🇩🇪 DE | 🟢 | ss | @v2rayngn | 13'
-      - '🇬🇧 GB | 🟢 | ss | @v2rayngrit | 14'
+      - '🇬🇧 GB | 🟢 | ss | @v2rayngrit | 13'
       - '🇨🇦 CA | 🟢 | ss | @v2rayngvvpn | 24'
       - '🇮🇸 IS | 🟢 | ss | @v2rayngvvpn | 25'
+      - '🇰🇷 KR | 🟢 | ss | @v2source | 18'
+      - '🇳🇱 NL | 🟢 | ss | @v2source | 19'
       - '🇹🇷 TR | 🟢 | ss | @v_2ray1 | 11'
       - '🇩🇪 DE | 🟢 | ss | @v_2ray1 | 12'
       - '🇵🇱 PL | 🟢 | ss | @vipufovpn | 15'
@@ -265,6 +269,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - '🇳🇱 NL | 🟢 | ss | @NamiraNet | 66'
       - '🇩🇪 DE | 🟢 | ss | @argo_vpn1 | 0'
       - '🇸🇬 SG | 🟢 | ss | @argo_vpn1 | 3'
       - '🇯🇵 JP | 🟢 | ss | @argo_vpn1 | 4'
@@ -281,21 +286,22 @@ proxy-groups:
       - '🇸🇪 SE | 🟢 | ss | @freakconfig1 | 1'
       - '🇬🇧 GB | 🟢 | ss | @free1_vpn | 7'
       - '🇺🇸 US | 🟢 | ss | @free1_vpn | 10'
-      - '🇳🇱 NL | 🟢 | ss | @free1ss | 11'
-      - '🇩🇪 DE | 🟢 | ss | @free1ss | 15'
+      - '🇩🇪 DE | 🟢 | ss | @free1ss | 14'
+      - '🇳🇱 NL | 🟢 | ss | @free1ss | 15'
       - '🇱🇻 LV | 🟢 | ss | @freeconfigsplus | 18'
       - '🇩🇪 DE | 🟢 | ss | @freev2raym | 8'
       - '🇳🇱 NL | 🟢 | ss | @freevirgoolnet | 6'
       - '🇫🇷 FR | 🟢 | ss | @freevirgoolnet | 7'
       - '🇩🇪 DE | 🟢 | ss | @hackmodvpnservers | 2'
       - '🇬🇧 GB | 🟢 | ss | @injectormconf | 39'
+      - '🇺🇸 US | 🟢 | ss | @ip_cf_config | 14'
       - '🇬🇧 GB | 🟢 | ss | @ir_netproxy | 12'
       - '🇩🇪 DE | 🟢 | ss | @jiedianf | 9'
-      - '🇬🇧 GB | 🟢 | ss | @key_outline | 15'
-      - '🇺🇸 US | 🟢 | ss | @key_outline | 16'
-      - '🇫🇷 FR | 🟢 | ss | @key_outline | 17'
-      - '🇬🇧 GB | 🟢 | ss | @key_outline | 18'
-      - '🇺🇸 US | 🟢 | ss | @key_outline | 19'
+      - '🇺🇸 US | 🟢 | ss | @key_outline | 15'
+      - '🇫🇷 FR | 🟢 | ss | @key_outline | 16'
+      - '🇬🇧 GB | 🟢 | ss | @key_outline | 17'
+      - '🇺🇸 US | 🟢 | ss | @key_outline | 18'
+      - '🇫🇷 FR | 🟢 | ss | @key_outline | 19'
       - '🇯🇵 JP | 🟢 | ss | @lranonline_new | 0'
       - '🇺🇸 US | 🟢 | ss | @manzariyeh_rasht | 9'
       - '🇬🇧 GB | 🟢 | ss | @megavpn_link | 14'
@@ -311,10 +317,10 @@ proxy-groups:
       - '🇳🇱 NL | 🟢 | ss | @netfreedom0 | 17'
       - '🇬🇧 GB | 🟢 | ss | @novinology | 16'
       - '🇬🇧 GB | 🟢 | ss | @ntconfig | 2'
-      - '🇩🇪 DE | 🟢 | ss | @outlineopenkey | 5'
       - '🇬🇧 GB | 🟢 | ss | @outlineopenkey | 6'
       - '🇪🇸 ES | 🟢 | ss | @outlineopenkey | 7'
       - '🇬🇧 GB | 🟢 | ss | @outlineopenkey | 8'
+      - '🇬🇧 GB | 🟢 | ss | @outlineopenkey | 10'
       - '🇱🇹 LT | 🟢 | ss | @outlinereleasedkey | 15'
       - '🇹🇷 TR | 🟢 | ss | @outlinereleasedkey | 16'
       - '🇱🇻 LV | 🟢 | ss | @outlinereleasedkey | 18'
@@ -332,7 +338,6 @@ proxy-groups:
       - '🇩🇪 DE | 🟢 | ss | @shadowsocksserv | 0'
       - '🇩🇪 DE | 🟢 | ss | @shadowsocksserv | 1'
       - '🇨🇦 CA | 🟢 | ss | @shadowsocksserv | 2'
-      - '🇺🇸 US | 🟢 | ss | @sifev2ray | 6'
       - '🇺🇸 US | 🟢 | ss | @slamvpn | 1'
       - '🇩🇪 DE | 🟢 | ss | @srv2ray | 0'
       - '🇫🇮 FI | 🟢 | ss | @strongprotocol | 6'
@@ -347,11 +352,12 @@ proxy-groups:
       - '🇺🇸 US | 🟢 | ss | @v2rayngalpha | 3'
       - '🇩🇪 DE | 🟢 | ss | @v2rayngalpha | 4'
       - '🇳🇱 NL | 🟢 | ss | @v2rayngalpha | 5'
-      - '🇳🇱 NL | 🟢 | ss | @v2rayngb | 14'
       - '🇩🇪 DE | 🟢 | ss | @v2rayngn | 13'
-      - '🇬🇧 GB | 🟢 | ss | @v2rayngrit | 14'
+      - '🇬🇧 GB | 🟢 | ss | @v2rayngrit | 13'
       - '🇨🇦 CA | 🟢 | ss | @v2rayngvvpn | 24'
       - '🇮🇸 IS | 🟢 | ss | @v2rayngvvpn | 25'
+      - '🇰🇷 KR | 🟢 | ss | @v2source | 18'
+      - '🇳🇱 NL | 🟢 | ss | @v2source | 19'
       - '🇹🇷 TR | 🟢 | ss | @v_2ray1 | 11'
       - '🇩🇪 DE | 🟢 | ss | @v_2ray1 | 12'
       - '🇵🇱 PL | 🟢 | ss | @vipufovpn | 15'
@@ -375,6 +381,7 @@ proxy-groups:
   - name: All-Proxies
     type: select
     proxies:
+      - '🇳🇱 NL | 🟢 | ss | @NamiraNet | 66'
       - '🇩🇪 DE | 🟢 | ss | @argo_vpn1 | 0'
       - '🇸🇬 SG | 🟢 | ss | @argo_vpn1 | 3'
       - '🇯🇵 JP | 🟢 | ss | @argo_vpn1 | 4'
@@ -391,21 +398,22 @@ proxy-groups:
       - '🇸🇪 SE | 🟢 | ss | @freakconfig1 | 1'
       - '🇬🇧 GB | 🟢 | ss | @free1_vpn | 7'
       - '🇺🇸 US | 🟢 | ss | @free1_vpn | 10'
-      - '🇳🇱 NL | 🟢 | ss | @free1ss | 11'
-      - '🇩🇪 DE | 🟢 | ss | @free1ss | 15'
+      - '🇩🇪 DE | 🟢 | ss | @free1ss | 14'
+      - '🇳🇱 NL | 🟢 | ss | @free1ss | 15'
       - '🇱🇻 LV | 🟢 | ss | @freeconfigsplus | 18'
       - '🇩🇪 DE | 🟢 | ss | @freev2raym | 8'
       - '🇳🇱 NL | 🟢 | ss | @freevirgoolnet | 6'
       - '🇫🇷 FR | 🟢 | ss | @freevirgoolnet | 7'
       - '🇩🇪 DE | 🟢 | ss | @hackmodvpnservers | 2'
       - '🇬🇧 GB | 🟢 | ss | @injectormconf | 39'
+      - '🇺🇸 US | 🟢 | ss | @ip_cf_config | 14'
       - '🇬🇧 GB | 🟢 | ss | @ir_netproxy | 12'
       - '🇩🇪 DE | 🟢 | ss | @jiedianf | 9'
-      - '🇬🇧 GB | 🟢 | ss | @key_outline | 15'
-      - '🇺🇸 US | 🟢 | ss | @key_outline | 16'
-      - '🇫🇷 FR | 🟢 | ss | @key_outline | 17'
-      - '🇬🇧 GB | 🟢 | ss | @key_outline | 18'
-      - '🇺🇸 US | 🟢 | ss | @key_outline | 19'
+      - '🇺🇸 US | 🟢 | ss | @key_outline | 15'
+      - '🇫🇷 FR | 🟢 | ss | @key_outline | 16'
+      - '🇬🇧 GB | 🟢 | ss | @key_outline | 17'
+      - '🇺🇸 US | 🟢 | ss | @key_outline | 18'
+      - '🇫🇷 FR | 🟢 | ss | @key_outline | 19'
       - '🇯🇵 JP | 🟢 | ss | @lranonline_new | 0'
       - '🇺🇸 US | 🟢 | ss | @manzariyeh_rasht | 9'
       - '🇬🇧 GB | 🟢 | ss | @megavpn_link | 14'
@@ -421,10 +429,10 @@ proxy-groups:
       - '🇳🇱 NL | 🟢 | ss | @netfreedom0 | 17'
       - '🇬🇧 GB | 🟢 | ss | @novinology | 16'
       - '🇬🇧 GB | 🟢 | ss | @ntconfig | 2'
-      - '🇩🇪 DE | 🟢 | ss | @outlineopenkey | 5'
       - '🇬🇧 GB | 🟢 | ss | @outlineopenkey | 6'
       - '🇪🇸 ES | 🟢 | ss | @outlineopenkey | 7'
       - '🇬🇧 GB | 🟢 | ss | @outlineopenkey | 8'
+      - '🇬🇧 GB | 🟢 | ss | @outlineopenkey | 10'
       - '🇱🇹 LT | 🟢 | ss | @outlinereleasedkey | 15'
       - '🇹🇷 TR | 🟢 | ss | @outlinereleasedkey | 16'
       - '🇱🇻 LV | 🟢 | ss | @outlinereleasedkey | 18'
@@ -442,7 +450,6 @@ proxy-groups:
       - '🇩🇪 DE | 🟢 | ss | @shadowsocksserv | 0'
       - '🇩🇪 DE | 🟢 | ss | @shadowsocksserv | 1'
       - '🇨🇦 CA | 🟢 | ss | @shadowsocksserv | 2'
-      - '🇺🇸 US | 🟢 | ss | @sifev2ray | 6'
       - '🇺🇸 US | 🟢 | ss | @slamvpn | 1'
       - '🇩🇪 DE | 🟢 | ss | @srv2ray | 0'
       - '🇫🇮 FI | 🟢 | ss | @strongprotocol | 6'
@@ -457,11 +464,12 @@ proxy-groups:
       - '🇺🇸 US | 🟢 | ss | @v2rayngalpha | 3'
       - '🇩🇪 DE | 🟢 | ss | @v2rayngalpha | 4'
       - '🇳🇱 NL | 🟢 | ss | @v2rayngalpha | 5'
-      - '🇳🇱 NL | 🟢 | ss | @v2rayngb | 14'
       - '🇩🇪 DE | 🟢 | ss | @v2rayngn | 13'
-      - '🇬🇧 GB | 🟢 | ss | @v2rayngrit | 14'
+      - '🇬🇧 GB | 🟢 | ss | @v2rayngrit | 13'
       - '🇨🇦 CA | 🟢 | ss | @v2rayngvvpn | 24'
       - '🇮🇸 IS | 🟢 | ss | @v2rayngvvpn | 25'
+      - '🇰🇷 KR | 🟢 | ss | @v2source | 18'
+      - '🇳🇱 NL | 🟢 | ss | @v2source | 19'
       - '🇹🇷 TR | 🟢 | ss | @v_2ray1 | 11'
       - '🇩🇪 DE | 🟢 | ss | @v_2ray1 | 12'
       - '🇵🇱 PL | 🟢 | ss | @vipufovpn | 15'
