@@ -107,12 +107,14 @@
                 "URL-TEST",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
+                "🇹🇷 TR | 🟢 | vless | @getconfigir | 19",
                 "🇩🇪 DE | 🟢 | vless | @info_2it_channel | 14",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "❔ XX | 🟢 | vless | @iseqaro | 4",
                 "❔ XX | 🟢 | vless | @itv2ray | 29",
                 "🇮🇹 IT | 🟢 | vless | @khalaa_vpn | 1",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
+                "🇩🇪 DE | 🟢 | vless | @meli_proxyy | 21",
                 "❔ XX | 🟢 | vless | @mt_team_iran | 4",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "🇩🇪 DE | 🟢 | vless | @outline_ir | 17",
@@ -125,6 +127,7 @@
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
+                "🇩🇪 DE | 🟢 | vless | @vpnplusee_free | 15",
                 "🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0"
             ]
         },
@@ -134,12 +137,14 @@
             "outbounds": [
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
+                "🇹🇷 TR | 🟢 | vless | @getconfigir | 19",
                 "🇩🇪 DE | 🟢 | vless | @info_2it_channel | 14",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "❔ XX | 🟢 | vless | @iseqaro | 4",
                 "❔ XX | 🟢 | vless | @itv2ray | 29",
                 "🇮🇹 IT | 🟢 | vless | @khalaa_vpn | 1",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
+                "🇩🇪 DE | 🟢 | vless | @meli_proxyy | 21",
                 "❔ XX | 🟢 | vless | @mt_team_iran | 4",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "🇩🇪 DE | 🟢 | vless | @outline_ir | 17",
@@ -152,6 +157,7 @@
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
+                "🇩🇪 DE | 🟢 | vless | @vpnplusee_free | 15",
                 "🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0"
             ],
             "url": "https://www.gstatic.com/generate_204",
@@ -226,6 +232,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@FsV2ray"
+            }
+        },
+        {
+            "tag": "🇹🇷 TR | 🟢 | vless | @getconfigir | 19",
+            "type": "vless",
+            "server": "path.mashti.my",
+            "server_port": 7893,
+            "uuid": "32f9754e-b916-4d0b-b402-13dcff55bd36",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4wQM_RBIjAR27D6Vou1QZfa1mF2gw8SDEDiwoEd3Cxo",
+                    "short_id": ""
+                }
             }
         },
         {
@@ -372,6 +401,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Hossien"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @meli_proxyy | 21",
+            "type": "vless",
+            "server": "balanced-de.irancdngame.com",
+            "server_port": 2012,
+            "uuid": "62a494cb-127f-4d46-9eca-73a104cd1829",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.pcmag.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "I9RNJ9pJ1WzWsYnRFk7u1XWsFhWBS03iUDjQXwWsERY",
+                    "short_id": ""
+                }
             }
         },
         {
@@ -663,6 +715,29 @@
                     "enabled": true,
                     "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
                     "short_id": "fd1dff03520d8f56"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @vpnplusee_free | 15",
+            "type": "vless",
+            "server": "ca.panelmarzban.com",
+            "server_port": 3041,
+            "uuid": "dcbde77d-07b9-4c53-8542-60b6ff019c2d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI",
+                    "short_id": ""
                 }
             }
         },
