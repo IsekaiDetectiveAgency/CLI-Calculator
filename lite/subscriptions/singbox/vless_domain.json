@@ -105,11 +105,10 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇷 IR | 🔴 | vless | @NamiraNet | 69",
                 "🇺🇸 US | 🔴 | vless | @alo_v2rayng | 0",
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 14",
                 "🇩🇪 DE | 🔴 | vless | @argotaz | 0",
-                "🇨🇦 CA | 🔴 | vless | @artemis_vpn_free | 1",
+                "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "🇺🇸 US | 🔴 | vless | @aryoovpn | 4",
                 "🇮🇷 IR | 🔴 | vless | @asak_vpn | 11",
                 "🇺🇸 US | 🔴 | vless | @befreewithus | 1",
@@ -152,7 +151,6 @@
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
                 "❔ XX | 🟢 | vless | @garnet_free | 11",
                 "❔ XX | 🔴 | vless | @ge2ray | 4",
-                "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
                 "❔ XX | 🟢 | vless | @god_server7 | 1",
                 "🇺🇸 US | 🔴 | vless | @goldenshiinevpn | 11",
                 "🇮🇷 IR | 🔴 | vless | @golf_vpn | 14",
@@ -261,25 +259,23 @@
                 "🇺🇸 US | 🟢 | vless | @vpnkanfik | 3",
                 "🇮🇷 IR | 🔴 | vless | @vpnod | 17",
                 "❔ XX | 🔴 | vless | @vpnv2rayng90 | 0",
-                "❔ XX | 🟢 | vless | @vpnwlf | 10",
                 "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
                 "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
                 "❔ XX | 🟢 | vless | @xrayzxn | 6",
                 "🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0",
                 "❔ XX | 🔴 | vless | @yuproxytelegram | 0",
-                "🇮🇷 IR | 🔴 | vless | @zvpnn | 7"
+                "🇫🇷 FR | 🔴 | vless | @zvpnn | 7"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇷 IR | 🔴 | vless | @NamiraNet | 69",
                 "🇺🇸 US | 🔴 | vless | @alo_v2rayng | 0",
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 14",
                 "🇩🇪 DE | 🔴 | vless | @argotaz | 0",
-                "🇨🇦 CA | 🔴 | vless | @artemis_vpn_free | 1",
+                "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
                 "🇺🇸 US | 🔴 | vless | @aryoovpn | 4",
                 "🇮🇷 IR | 🔴 | vless | @asak_vpn | 11",
                 "🇺🇸 US | 🔴 | vless | @befreewithus | 1",
@@ -322,7 +318,6 @@
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
                 "❔ XX | 🟢 | vless | @garnet_free | 11",
                 "❔ XX | 🔴 | vless | @ge2ray | 4",
-                "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
                 "❔ XX | 🟢 | vless | @god_server7 | 1",
                 "🇺🇸 US | 🔴 | vless | @goldenshiinevpn | 11",
                 "🇮🇷 IR | 🔴 | vless | @golf_vpn | 14",
@@ -431,14 +426,13 @@
                 "🇺🇸 US | 🟢 | vless | @vpnkanfik | 3",
                 "🇮🇷 IR | 🔴 | vless | @vpnod | 17",
                 "❔ XX | 🔴 | vless | @vpnv2rayng90 | 0",
-                "❔ XX | 🟢 | vless | @vpnwlf | 10",
                 "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
                 "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
                 "❔ XX | 🟢 | vless | @xrayzxn | 6",
                 "🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0",
                 "❔ XX | 🔴 | vless | @yuproxytelegram | 0",
-                "🇮🇷 IR | 🔴 | vless | @zvpnn | 7"
+                "🇫🇷 FR | 🔴 | vless | @zvpnn | 7"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -459,24 +453,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇮🇷 IR | 🔴 | vless | @NamiraNet | 69",
-            "type": "vless",
-            "server": "ir2.aghnano.com",
-            "server_port": 443,
-            "uuid": "b4d29888-cfa5-4a58-888a-f46b9222c723",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ir2.aghnano.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @alo_v2rayng | 0",
@@ -513,7 +489,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇨🇦 CA | 🔴 | vless | @artemis_vpn_free | 1",
+            "tag": "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
             "type": "vless",
             "server": "Artemis.sbs",
             "server_port": 80,
@@ -1180,31 +1156,6 @@
             "uuid": "b52a81f3-7167-4064-9d09-d54fccf273bd",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
-            "type": "vless",
-            "server": "zula.ir",
-            "server_port": 2087,
-            "uuid": "554e89e9-5d47-408a-ee92-2fa8506bc78c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "Hopev2.hopebook75zulawu.online",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512",
-                "headers": {
-                    "Host": "Hopev2.hopebook75zulawu.online"
-                }
-            }
         },
         {
             "tag": "❔ XX | 🟢 | vless | @god_server7 | 1",
@@ -3062,29 +3013,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🟢 | vless | @vpnwlf | 10",
-            "type": "vless",
-            "server": "WLF-V-P-N-ID2.dnsfree.one",
-            "server_port": 443,
-            "uuid": "---WLFVPN---",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "GAUjNf1wQnDm5ziCGqRmb3yVfU9bg_UPwZ2_QU4JWRU",
-                    "short_id": "6bb85179e30d4fc2"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
             "type": "vless",
             "server": "www.speedtest.net",
@@ -3193,7 +3121,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @zvpnn | 7",
+            "tag": "🇫🇷 FR | 🔴 | vless | @zvpnn | 7",
             "type": "vless",
             "server": "power.dlmoviz.ir",
             "server_port": 2020,
