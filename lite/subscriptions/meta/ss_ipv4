@@ -17,12 +17,11 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇯🇵 JP | 🟢 | ss | @argo_vpn1 | 25","type":"ss","server":"54.238.207.188","port":8313,"password":"ljqdalu13..","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇦🇹 AT | 🟢 | ss | @arv2ra | 7","type":"ss","server":"45.138.74.160","port":7261,"password":"pZvwP17Nlz2z6jsYnVgZgf","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @bislullproxy | 18","type":"ss","server":"4.250.60.151","port":443,"password":"WstuSnlu4ieA9M0L","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸 US | 🟢 | ss | @dnsforyou | 2","type":"ss","server":"23.177.185.63","port":49454,"password":"6qsUiT6fbV8JzhXbyChyf0","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸 US | 🟢 | ss | @free1_vpn | 10","type":"ss","server":"45.87.175.35","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰 HK | 🟢 | ss | @free1ss | 17","type":"ss","server":"212.192.15.124","port":40109,"password":"82888bb98615435b","cipher":"aes-256-gcm"}
+  - {"name":"🇸🇬 SG | 🟢 | ss | @free1ss | 16","type":"ss","server":"167.172.89.195","port":8575,"password":"uewxc4bF87Gb2hJWtbMyt1","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇱🇻 LV | 🟢 | ss | @freeconfigsplus | 18","type":"ss","server":"216.173.70.187","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @injectormconf | 39","type":"ss","server":"51.142.171.150","port":49499,"password":"kTjlLxrncKx4i2HIjxfA3M","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪 DE | 🟢 | ss | @jiedianf | 9","type":"ss","server":"138.124.115.157","port":1080,"password":"M-nffO40KlclwbCX9CV1DQ","cipher":"chacha20-ietf-poly1305"}
@@ -75,12 +74,11 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇯🇵 JP | 🟢 | ss | @argo_vpn1 | 25'
       - '🇦🇹 AT | 🟢 | ss | @arv2ra | 7'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
       - '🇺🇸 US | 🟢 | ss | @dnsforyou | 2'
       - '🇺🇸 US | 🟢 | ss | @free1_vpn | 10'
-      - '🇭🇰 HK | 🟢 | ss | @free1ss | 17'
+      - '🇸🇬 SG | 🟢 | ss | @free1ss | 16'
       - '🇱🇻 LV | 🟢 | ss | @freeconfigsplus | 18'
       - '🇬🇧 GB | 🟢 | ss | @injectormconf | 39'
       - '🇩🇪 DE | 🟢 | ss | @jiedianf | 9'
@@ -109,12 +107,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇯🇵 JP | 🟢 | ss | @argo_vpn1 | 25'
       - '🇦🇹 AT | 🟢 | ss | @arv2ra | 7'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
       - '🇺🇸 US | 🟢 | ss | @dnsforyou | 2'
       - '🇺🇸 US | 🟢 | ss | @free1_vpn | 10'
-      - '🇭🇰 HK | 🟢 | ss | @free1ss | 17'
+      - '🇸🇬 SG | 🟢 | ss | @free1ss | 16'
       - '🇱🇻 LV | 🟢 | ss | @freeconfigsplus | 18'
       - '🇬🇧 GB | 🟢 | ss | @injectormconf | 39'
       - '🇩🇪 DE | 🟢 | ss | @jiedianf | 9'
@@ -141,12 +138,11 @@ proxy-groups:
   - name: All-Proxies
     type: select
     proxies:
-      - '🇯🇵 JP | 🟢 | ss | @argo_vpn1 | 25'
       - '🇦🇹 AT | 🟢 | ss | @arv2ra | 7'
       - '🇬🇧 GB | 🟢 | ss | @bislullproxy | 18'
       - '🇺🇸 US | 🟢 | ss | @dnsforyou | 2'
       - '🇺🇸 US | 🟢 | ss | @free1_vpn | 10'
-      - '🇭🇰 HK | 🟢 | ss | @free1ss | 17'
+      - '🇸🇬 SG | 🟢 | ss | @free1ss | 16'
       - '🇱🇻 LV | 🟢 | ss | @freeconfigsplus | 18'
       - '🇬🇧 GB | 🟢 | ss | @injectormconf | 39'
       - '🇩🇪 DE | 🟢 | ss | @jiedianf | 9'
