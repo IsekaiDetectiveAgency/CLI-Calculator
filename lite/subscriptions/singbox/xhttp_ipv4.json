@@ -105,28 +105,24 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 11",
+                "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 10",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 9",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
-                "🇳🇱 NL | 🟢 | vless | @mowjproxy | 6",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
-                "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇺🇸 US | 🔴 | vless | @summertimeus | 15"
+                "🇺🇸 US | 🔴 | vless | @qeshmserver | 12"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 11",
+                "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 10",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 9",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
-                "🇳🇱 NL | 🟢 | vless | @mowjproxy | 6",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
-                "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇺🇸 US | 🔴 | vless | @summertimeus | 15"
+                "🇺🇸 US | 🔴 | vless | @qeshmserver | 12"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -149,7 +145,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 11",
+            "tag": "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 10",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
@@ -199,24 +195,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @mowjproxy | 6",
-            "type": "vless",
-            "server": "206.71.158.10",
-            "server_port": 443,
-            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "statue.lnmarketplace.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
             "type": "vless",
             "server": "147.182.183.207",
@@ -245,15 +223,6 @@
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "qeshmserver",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @summertimeus | 15",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "01c83d31-8215-4f85-b94b-8c64a92a040a",
             "flow": "",
             "packet_encoding": "xudp"
         }

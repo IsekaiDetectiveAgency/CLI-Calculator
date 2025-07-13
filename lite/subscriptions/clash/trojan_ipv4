@@ -17,6 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
+  - {"name":"🇺🇸 US | 🔴 | trojan | @bored_vpn | 9","type":"trojan","server":"62.60.176.240","port":36557,"password":"@bored_vpn@bored_vpn@bored_vpn@bored_vpn@bored_vpn@bored_vpn","skip-cert-verify":false}
   - {"name":"🇫🇷 FR | 🟢 | trojan | @directvpn | 17","type":"trojan","server":"13.37.30.32","port":22223,"password":"telegram-id-directvpn","skip-cert-verify":false}
   - {"name":"🇩🇪 DE | 🟢 | trojan | @freakconfig | 6","type":"trojan","server":"18.199.233.194","port":22223,"password":"telegram-id-directvpn","skip-cert-verify":false}
   - {"name":"🇺🇸 US | 🟢 | trojan | @freevpnatm | 16","type":"trojan","server":"104.21.94.69","port":443,"password":"13e26f64-2e0c-4461-92cd-d83294cc18f0","skip-cert-verify":false}
@@ -58,6 +59,7 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
+      - '🇺🇸 US | 🔴 | trojan | @bored_vpn | 9'
       - '🇫🇷 FR | 🟢 | trojan | @directvpn | 17'
       - '🇩🇪 DE | 🟢 | trojan | @freakconfig | 6'
       - '🇺🇸 US | 🟢 | trojan | @freevpnatm | 16'
@@ -75,6 +77,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - '🇺🇸 US | 🔴 | trojan | @bored_vpn | 9'
       - '🇫🇷 FR | 🟢 | trojan | @directvpn | 17'
       - '🇩🇪 DE | 🟢 | trojan | @freakconfig | 6'
       - '🇺🇸 US | 🟢 | trojan | @freevpnatm | 16'
@@ -90,6 +93,7 @@ proxy-groups:
   - name: All-Proxies
     type: select
     proxies:
+      - '🇺🇸 US | 🔴 | trojan | @bored_vpn | 9'
       - '🇫🇷 FR | 🟢 | trojan | @directvpn | 17'
       - '🇩🇪 DE | 🟢 | trojan | @freakconfig | 6'
       - '🇺🇸 US | 🟢 | trojan | @freevpnatm | 16'

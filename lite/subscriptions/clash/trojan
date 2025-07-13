@@ -17,8 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2","type":"trojan","server":"production.tj.ojan.workers.dev","port":443,"password":"9yu6m5okr","skip-cert-verify":false}
-  - {"name":"❔ XX | 🟢 | trojan | @maradona_vpn | 8","type":"trojan","server":"maradona_vpn.history-paint.art","port":443,"password":"Maradona_vpn","skip-cert-verify":false}
+  - {"name":"🇺🇸 US | 🔴 | trojan | @bored_vpn | 9","type":"trojan","server":"62.60.176.240","port":36557,"password":"@bored_vpn@bored_vpn@bored_vpn@bored_vpn@bored_vpn@bored_vpn","skip-cert-verify":false}
   - {"name":"🇫🇷 FR | 🟢 | trojan | @directvpn | 17","type":"trojan","server":"13.37.30.32","port":22223,"password":"telegram-id-directvpn","skip-cert-verify":false}
   - {"name":"🇩🇪 DE | 🟢 | trojan | @freakconfig | 6","type":"trojan","server":"18.199.233.194","port":22223,"password":"telegram-id-directvpn","skip-cert-verify":false}
   - {"name":"🇺🇸 US | 🟢 | trojan | @freevpnatm | 16","type":"trojan","server":"104.21.94.69","port":443,"password":"13e26f64-2e0c-4461-92cd-d83294cc18f0","skip-cert-verify":false}
@@ -30,6 +29,8 @@ proxies:
   - {"name":"🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45","type":"trojan","server":"104.149.155.13","port":443,"password":"79c935c0-27dc-4383-b307-dcac1b8e5509","skip-cert-verify":false}
   - {"name":"🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 15","type":"trojan","server":"13.37.30.32","port":22223,"password":"telegram-id-v2rayvpnchannel","skip-cert-verify":false}
   - {"name":"🇺🇸 US | 🟢 | trojan | @webhube | 4","type":"trojan","server":"15.204.175.111","port":2083,"password":"t2WqbIW2JE","skip-cert-verify":false}
+  - {"name":"🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2","type":"trojan","server":"production.tj.ojan.workers.dev","port":443,"password":"9yu6m5okr","skip-cert-verify":false}
+  - {"name":"❔ XX | 🟢 | trojan | @maradona_vpn | 8","type":"trojan","server":"maradona_vpn.history-paint.art","port":443,"password":"Maradona_vpn","skip-cert-verify":false}
 
 rule-providers:
   ir_domains:
@@ -60,8 +61,7 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2'
-      - '❔ XX | 🟢 | trojan | @maradona_vpn | 8'
+      - '🇺🇸 US | 🔴 | trojan | @bored_vpn | 9'
       - '🇫🇷 FR | 🟢 | trojan | @directvpn | 17'
       - '🇩🇪 DE | 🟢 | trojan | @freakconfig | 6'
       - '🇺🇸 US | 🟢 | trojan | @freevpnatm | 16'
@@ -73,14 +73,15 @@ proxy-groups:
       - '🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45'
       - '🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 15'
       - '🇺🇸 US | 🟢 | trojan | @webhube | 4'
+      - '🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2'
+      - '❔ XX | 🟢 | trojan | @maradona_vpn | 8'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2'
-      - '❔ XX | 🟢 | trojan | @maradona_vpn | 8'
+      - '🇺🇸 US | 🔴 | trojan | @bored_vpn | 9'
       - '🇫🇷 FR | 🟢 | trojan | @directvpn | 17'
       - '🇩🇪 DE | 🟢 | trojan | @freakconfig | 6'
       - '🇺🇸 US | 🟢 | trojan | @freevpnatm | 16'
@@ -92,12 +93,13 @@ proxy-groups:
       - '🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45'
       - '🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 15'
       - '🇺🇸 US | 🟢 | trojan | @webhube | 4'
+      - '🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2'
+      - '❔ XX | 🟢 | trojan | @maradona_vpn | 8'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2'
-      - '❔ XX | 🟢 | trojan | @maradona_vpn | 8'
+      - '🇺🇸 US | 🔴 | trojan | @bored_vpn | 9'
       - '🇫🇷 FR | 🟢 | trojan | @directvpn | 17'
       - '🇩🇪 DE | 🟢 | trojan | @freakconfig | 6'
       - '🇺🇸 US | 🟢 | trojan | @freevpnatm | 16'
@@ -109,6 +111,8 @@ proxy-groups:
       - '🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45'
       - '🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 15'
       - '🇺🇸 US | 🟢 | trojan | @webhube | 4'
+      - '🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2'
+      - '❔ XX | 🟢 | trojan | @maradona_vpn | 8'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
