@@ -427,8 +427,7 @@
     "configshubplus": {
         "types": [
             "vless",
-            "ss",
-            "trojan"
+            "ss"
         ],
         "title": "𝘾𝙤𝙣𝙛𝙞𝙜𝙨𝙃𝙪𝙗🔮",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/configshubplus.jpg"
@@ -489,7 +488,8 @@
     },
     "connect_sho": {
         "types": [
-            "vless"
+            "vless",
+            "trojan"
         ],
         "title": "نت ملی | اینترانت",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/connect_sho.jpg"
@@ -1411,10 +1411,10 @@
     },
     "ip_cf_config": {
         "types": [
-            "vless",
-            "ss",
             "trojan",
-            "vmess"
+            "ss",
+            "vmess",
+            "vless"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
@@ -2060,8 +2060,8 @@
     },
     "mowjproxy": {
         "types": [
-            "vless",
-            "vmess"
+            "vmess",
+            "vless"
         ],
         "title": "Mowj Proxy",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/mowjproxy.jpg"
@@ -2398,8 +2398,8 @@
     },
     "parsproxy_ir": {
         "types": [
-            "vless",
             "ss",
+            "vless",
             "trojan"
         ],
         "title": "Pars proxy | پروکسی کانفیگ",
@@ -2564,7 +2564,6 @@
     },
     "proxygodratmand": {
         "types": [
-            "ss",
             "vless"
         ],
         "title": "Vpn /فیلترشکن",
@@ -3179,13 +3178,6 @@
         "title": "پروکسی پرسرعت تلگرام, vmess, vless, shadowsocks, outline",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ray4win.jpg"
     },
-    "v2ray_83": {
-        "types": [
-            "vless"
-        ],
-        "title": "پروکسی/فیلترشکنv2ray",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ray_83.jpg"
-    },
     "v2ray_collector": {
         "types": [
             "vless",
@@ -3224,9 +3216,9 @@
     "v2ray_free_conf": {
         "types": [
             "vmess",
-            "trojan",
             "ss",
-            "vless"
+            "vless",
+            "trojan"
         ],
         "title": "🌍 V2Ray Free Config 🇮🇷",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ray_free_conf.jpg"
@@ -3282,20 +3274,11 @@
         "title": "V2rayn servers",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ray_sub.jpg"
     },
-    "v2ray_team": {
+    "v2ray_tz": {
         "types": [
             "vless",
             "ss",
-            "vmess",
             "trojan"
-        ],
-        "title": "وی پی ان - پروکسی | V2ray Team",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ray_team.jpg"
-    },
-    "v2ray_tz": {
-        "types": [
-            "ss",
-            "vless"
         ],
         "title": "V2RayTz,",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ray_tz.jpg"
@@ -3334,7 +3317,8 @@
     "v2raych": {
         "types": [
             "vless",
-            "ss"
+            "trojan",
+            "vmess"
         ],
         "title": "V2rayChallenge: V2RAY VPN Configs &amp; MTProto Proxies Free | پروکسی وی پی ان VPN رایگان وی تو ری چالش",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2raych.jpg"
@@ -3588,8 +3572,8 @@
     },
     "v2rayopen": {
         "types": [
-            "vless",
-            "vmess"
+            "vmess",
+            "vless"
         ],
         "title": "🛡️ اکانت های رایگان V2RAY",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayopen.jpg"
@@ -3682,8 +3666,7 @@
     },
     "v2rayweb": {
         "types": [
-            "vless",
-            "trojan"
+            "vless"
         ],
         "title": "V2ray | VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"
@@ -3942,8 +3925,8 @@
     "vmesskhodam": {
         "types": [
             "vless",
-            "vmess",
-            "ss"
+            "ss",
+            "vmess"
         ],
         "title": "Vmesskhodam",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vmesskhodam.jpg"
@@ -4324,13 +4307,6 @@
         ],
         "title": "Free Vpn | Proxy | V2Ray | فیلترشکن رایگان | پروکسی",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/x4azadi.jpg"
-    },
-    "xiv2ray": {
-        "types": [
-            "vless"
-        ],
-        "title": "𝐱𝐢𝐯𝟐𝐫𝐚𝐲 𝐜𝐨𝐧𝐟𝐢𝐠",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/xiv2ray.jpg"
     },
     "xivpn": {
         "types": [
