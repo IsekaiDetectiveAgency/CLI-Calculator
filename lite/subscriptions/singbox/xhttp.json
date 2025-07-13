@@ -112,14 +112,16 @@
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 9",
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 5",
-                "🇺🇸 US | 🔴 | vless | @father_vpn | 4",
+                "🇺🇸 US | 🔴 | vless | @father_vpn | 3",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
+                "🇺🇸 US | 🔴 | vless | @getconfigir | 17",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
-                "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 9",
+                "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 11",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 9",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
+                "🇳🇱 NL | 🟢 | vless | @mowjproxy | 6",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇺🇸 US | 🔴 | vless | @summertimeus | 15"
@@ -136,14 +138,16 @@
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 9",
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 5",
-                "🇺🇸 US | 🔴 | vless | @father_vpn | 4",
+                "🇺🇸 US | 🔴 | vless | @father_vpn | 3",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
+                "🇺🇸 US | 🔴 | vless | @getconfigir | 17",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
-                "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 9",
+                "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 11",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 9",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
+                "🇳🇱 NL | 🟢 | vless | @mowjproxy | 6",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇺🇸 US | 🔴 | vless | @summertimeus | 15"
@@ -232,7 +236,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @father_vpn | 4",
+            "tag": "🇺🇸 US | 🔴 | vless | @father_vpn | 3",
             "type": "vless",
             "server": "server2.ultra-irancell.com",
             "server_port": 80,
@@ -246,6 +250,15 @@
             "server": "speedtest.net",
             "server_port": 80,
             "uuid": "bf3c99e7-68b4-4bad-b110-ebaf2ecab772",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @getconfigir | 17",
+            "type": "vless",
+            "server": "fas2.pokerad.top",
+            "server_port": 80,
+            "uuid": "1d845272-528e-4d76-a721-9de31bf1326f",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -277,7 +290,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 9",
+            "tag": "🇺🇸 US | 🔴 | vless | @ghalagyann2 | 11",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
@@ -325,6 +338,24 @@
             "uuid": "936f64b8-4045-4cb1-80ea-54315ea40709",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | vless | @mowjproxy | 6",
+            "type": "vless",
+            "server": "206.71.158.10",
+            "server_port": 443,
+            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "statue.lnmarketplace.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",

@@ -113,9 +113,7 @@
                 "🇺🇸 US | 🟢 | vless | @filtershekan_channel | 10",
                 "🇬🇧 GB | 🟢 | vless | @fire_vpn_channel | 1",
                 "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
-                "🇩🇪 DE | 🟢 | vless | @getconfigir | 18",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
-                "🇺🇸 US | 🟢 | vless | @hope_net | 19",
                 "🇫🇷 FR | 🟢 | vless | @ip_ramzi | 11",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
@@ -125,6 +123,7 @@
                 "🇹🇷 TR | 🟢 | vless | @sinavm | 1",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
                 "🇳🇱 NL | 🟢 | vless | @v2rayngninja | 8",
+                "🇧🇷 BR | 🟢 | vless | @v2rayweb | 19",
                 "🇩🇪 DE | 🟢 | vless | @v2ry_proxy | 12",
                 "🇩🇪 DE | 🟢 | vless | @vip_vpn_2022 | 6",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
@@ -152,6 +151,7 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngvpn_1 | 9",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11",
+                "🇩🇪 DE | 🟢 | vless | @vistav2ray | 16",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
                 "🇩🇪 DE | 🟢 | vless | @vpn_ioss | 16",
@@ -171,9 +171,7 @@
                 "🇺🇸 US | 🟢 | vless | @filtershekan_channel | 10",
                 "🇬🇧 GB | 🟢 | vless | @fire_vpn_channel | 1",
                 "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
-                "🇩🇪 DE | 🟢 | vless | @getconfigir | 18",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
-                "🇺🇸 US | 🟢 | vless | @hope_net | 19",
                 "🇫🇷 FR | 🟢 | vless | @ip_ramzi | 11",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
@@ -183,6 +181,7 @@
                 "🇹🇷 TR | 🟢 | vless | @sinavm | 1",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
                 "🇳🇱 NL | 🟢 | vless | @v2rayngninja | 8",
+                "🇧🇷 BR | 🟢 | vless | @v2rayweb | 19",
                 "🇩🇪 DE | 🟢 | vless | @v2ry_proxy | 12",
                 "🇩🇪 DE | 🟢 | vless | @vip_vpn_2022 | 6",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
@@ -210,6 +209,7 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngvpn_1 | 9",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11",
+                "🇩🇪 DE | 🟢 | vless | @vistav2ray | 16",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
                 "🇩🇪 DE | 🟢 | vless | @vpn_ioss | 16",
@@ -433,33 +433,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @getconfigir | 18",
-            "type": "vless",
-            "server": "91.107.180.100",
-            "server_port": 443,
-            "uuid": "4e4a22ba-7a59-4a6f-9af4-2f9705fc4745",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zula.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "eZs1Yn6wbXV2RPT47_szgepN6lNKseOb9nprDMrpNmE",
-                    "short_id": "f3"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@SobyV2ray"
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
             "type": "vless",
             "server": "55.55.55.55",
@@ -479,29 +452,6 @@
                     "enabled": true,
                     "public_key": "YqHW8a4iAc1SZYpTrFVoOQg1F3yAdX1tWXuROZUCsEU",
                     "short_id": "6ba85179e30d4fc2"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @hope_net | 19",
-            "type": "vless",
-            "server": "44.244.124.138",
-            "server_port": 443,
-            "uuid": "100a18b8-bab3-4c42-96ec-6b96691d6a0f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "CgiGam2CJMM33Tb7ZEBHt52pztMD7SQ9sqdfDZro-0Y",
-                    "short_id": ""
                 }
             }
         },
@@ -725,6 +675,29 @@
                     "www.speedtest.net"
                 ],
                 "path": "/"
+            }
+        },
+        {
+            "tag": "🇧🇷 BR | 🟢 | vless | @v2rayweb | 19",
+            "type": "vless",
+            "server": "172.233.20.133",
+            "server_port": 10001,
+            "uuid": "07ccdc51-52f5-47f8-8524-2149ea380063",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "AMz6hSd2yvrcg1cOe2PPSTX1w6pLWlb_UT-uRHoG1BI",
+                    "short_id": "1a24af87"
+                }
             }
         },
         {
@@ -1389,6 +1362,29 @@
                     "enabled": true,
                     "public_key": "21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @vistav2ray | 16",
+            "type": "vless",
+            "server": "bmi.raheaiande.ir",
+            "server_port": 1001,
+            "uuid": "faa98229-a17c-4ea6-d6b5-1b040cb9fa26",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ea.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "edge"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "wOXPafr4Gl6wXtw8c8T2juUCauBi25GVAfe4SMc4VEM",
+                    "short_id": "c7bc4d"
                 }
             }
         },
