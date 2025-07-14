@@ -11,13 +11,12 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇺🇸 US | 🔴 | trojan | @bored_vpn | 11 = trojan, 62.60.176.240, 36557, password = T9xcEjdUWx, skip-cert-verify = false
 🇩🇪 DE | 🟢 | trojan | @directvpn | 13 = trojan, 3.74.102.227, 22223, password = telegram-id-directvpn, skip-cert-verify = false
-🇩🇪 DE | 🟢 | trojan | @freakconfig | 6 = trojan, 18.199.233.194, 22223, password = telegram-id-directvpn, skip-cert-verify = false
 🇺🇸 US | 🟢 | trojan | @freevpnatm | 16 = trojan, 172.67.219.196, 443, password = 4b33b482-25bc-49e4-b866-878c914d945a, skip-cert-verify = false
 🇳🇱 NL | 🔴 | trojan | @hacknashid | 2 = trojan, 46.8.231.225, 443, password = pSmgPrAHHh, skip-cert-verify = false
-🇦🇲 AM | 🔴 | trojan | @hope_net | 19 = trojan, 188.164.159.25, 2053, password = Aimer, skip-cert-verify = true
 🇺🇸 US | 🔴 | trojan | @icv2ray | 6 = trojan, 62.60.176.240, 36557, password = gDFMs8QUem, skip-cert-verify = false
 🇸🇬 SG | 🟢 | trojan | @mpmehi | 0 = trojan, 146.190.87.238, 443, password = oZAugtgF5T, skip-cert-verify = false
 🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 16 = trojan, 176.32.39.29, 443, password = 8OXD5VVt8s, skip-cert-verify = false
+🇺🇸 US | 🟢 | trojan | @outlinev2rayng | 16 = trojan, 172.67.181.173, 443, password = f282b878-8711-45a1-8c69-5564172123c1, skip-cert-verify = false
 🇩🇪 DE | 🟢 | trojan | @privatevpns | 13 = trojan, 3.74.102.227, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
 🇫🇷 FR | 🟢 | trojan | @proxyfn | 18 = trojan, 51.91.11.29, 80, password = 598c19f3-a48e-47cd-8451-1ba04ea094d0, skip-cert-verify = false
 🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45 = trojan, 104.149.155.13, 443, password = 79c935c0-27dc-4383-b307-dcac1b8e5509, skip-cert-verify = false
@@ -25,9 +24,9 @@ DIRECT = direct
 🇺🇸 US | 🟢 | trojan | @webhube | 4 = trojan, 15.204.175.111, 2083, password = t2WqbIW2JE, skip-cert-verify = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🔴 | trojan | @bored_vpn | 11, 🇩🇪 DE | 🟢 | trojan | @directvpn | 13, 🇩🇪 DE | 🟢 | trojan | @freakconfig | 6, 🇺🇸 US | 🟢 | trojan | @freevpnatm | 16, 🇳🇱 NL | 🔴 | trojan | @hacknashid | 2, 🇦🇲 AM | 🔴 | trojan | @hope_net | 19, 🇺🇸 US | 🔴 | trojan | @icv2ray | 6, 🇸🇬 SG | 🟢 | trojan | @mpmehi | 0, 🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 16, 🇩🇪 DE | 🟢 | trojan | @privatevpns | 13, 🇫🇷 FR | 🟢 | trojan | @proxyfn | 18, 🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45, 🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14, 🇺🇸 US | 🟢 | trojan | @webhube | 4
-PSG-AUTO = url-test, 🇺🇸 US | 🔴 | trojan | @bored_vpn | 11, 🇩🇪 DE | 🟢 | trojan | @directvpn | 13, 🇩🇪 DE | 🟢 | trojan | @freakconfig | 6, 🇺🇸 US | 🟢 | trojan | @freevpnatm | 16, 🇳🇱 NL | 🔴 | trojan | @hacknashid | 2, 🇦🇲 AM | 🔴 | trojan | @hope_net | 19, 🇺🇸 US | 🔴 | trojan | @icv2ray | 6, 🇸🇬 SG | 🟢 | trojan | @mpmehi | 0, 🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 16, 🇩🇪 DE | 🟢 | trojan | @privatevpns | 13, 🇫🇷 FR | 🟢 | trojan | @proxyfn | 18, 🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45, 🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14, 🇺🇸 US | 🟢 | trojan | @webhube | 4
-PSG-FALLBACK = fallback, 🇺🇸 US | 🔴 | trojan | @bored_vpn | 11, 🇩🇪 DE | 🟢 | trojan | @directvpn | 13, 🇩🇪 DE | 🟢 | trojan | @freakconfig | 6, 🇺🇸 US | 🟢 | trojan | @freevpnatm | 16, 🇳🇱 NL | 🔴 | trojan | @hacknashid | 2, 🇦🇲 AM | 🔴 | trojan | @hope_net | 19, 🇺🇸 US | 🔴 | trojan | @icv2ray | 6, 🇸🇬 SG | 🟢 | trojan | @mpmehi | 0, 🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 16, 🇩🇪 DE | 🟢 | trojan | @privatevpns | 13, 🇫🇷 FR | 🟢 | trojan | @proxyfn | 18, 🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45, 🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14, 🇺🇸 US | 🟢 | trojan | @webhube | 4
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🔴 | trojan | @bored_vpn | 11, 🇩🇪 DE | 🟢 | trojan | @directvpn | 13, 🇺🇸 US | 🟢 | trojan | @freevpnatm | 16, 🇳🇱 NL | 🔴 | trojan | @hacknashid | 2, 🇺🇸 US | 🔴 | trojan | @icv2ray | 6, 🇸🇬 SG | 🟢 | trojan | @mpmehi | 0, 🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 16, 🇺🇸 US | 🟢 | trojan | @outlinev2rayng | 16, 🇩🇪 DE | 🟢 | trojan | @privatevpns | 13, 🇫🇷 FR | 🟢 | trojan | @proxyfn | 18, 🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45, 🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14, 🇺🇸 US | 🟢 | trojan | @webhube | 4
+PSG-AUTO = url-test, 🇺🇸 US | 🔴 | trojan | @bored_vpn | 11, 🇩🇪 DE | 🟢 | trojan | @directvpn | 13, 🇺🇸 US | 🟢 | trojan | @freevpnatm | 16, 🇳🇱 NL | 🔴 | trojan | @hacknashid | 2, 🇺🇸 US | 🔴 | trojan | @icv2ray | 6, 🇸🇬 SG | 🟢 | trojan | @mpmehi | 0, 🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 16, 🇺🇸 US | 🟢 | trojan | @outlinev2rayng | 16, 🇩🇪 DE | 🟢 | trojan | @privatevpns | 13, 🇫🇷 FR | 🟢 | trojan | @proxyfn | 18, 🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45, 🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14, 🇺🇸 US | 🟢 | trojan | @webhube | 4
+PSG-FALLBACK = fallback, 🇺🇸 US | 🔴 | trojan | @bored_vpn | 11, 🇩🇪 DE | 🟢 | trojan | @directvpn | 13, 🇺🇸 US | 🟢 | trojan | @freevpnatm | 16, 🇳🇱 NL | 🔴 | trojan | @hacknashid | 2, 🇺🇸 US | 🔴 | trojan | @icv2ray | 6, 🇸🇬 SG | 🟢 | trojan | @mpmehi | 0, 🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 16, 🇺🇸 US | 🟢 | trojan | @outlinev2rayng | 16, 🇩🇪 DE | 🟢 | trojan | @privatevpns | 13, 🇫🇷 FR | 🟢 | trojan | @proxyfn | 18, 🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45, 🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14, 🇺🇸 US | 🟢 | trojan | @webhube | 4
 
 [Rule]
 GEOIP,IR,DIRECT

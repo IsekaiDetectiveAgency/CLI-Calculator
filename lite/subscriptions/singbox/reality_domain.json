@@ -119,10 +119,11 @@
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
                 "❔ XX | 🟢 | vless | @public504 | 11",
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
-                "🇳🇱 NL | 🟢 | vless | @v2ray_free_conf | 19",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
+                "🇳🇱 NL | 🟢 | vless | @v2rayngvpn_1 | 9",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11",
+                "🇩🇪 DE | 🟢 | vless | @vaynora | 11",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
                 "🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0"
@@ -146,10 +147,11 @@
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
                 "❔ XX | 🟢 | vless | @public504 | 11",
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
-                "🇳🇱 NL | 🟢 | vless | @v2ray_free_conf | 19",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
+                "🇳🇱 NL | 🟢 | vless | @v2rayngvpn_1 | 9",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11",
+                "🇩🇪 DE | 🟢 | vless | @vaynora | 11",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
                 "🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0"
@@ -525,29 +527,6 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @v2ray_free_conf | 19",
-            "type": "vless",
-            "server": "poseidex.house0of1nyxora.top",
-            "server_port": 2096,
-            "uuid": "32622124-139e-4eab-8fb8-faaf021acd3f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "jM7JL3cp1HdLpEuvRDGJlzI-zUXW_6z8FkQBqimt4BE",
-                    "short_id": "88dfa714"
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
             "type": "vless",
             "server": "site.felinefreedom.site",
@@ -598,11 +577,57 @@
             }
         },
         {
+            "tag": "🇳🇱 NL | 🟢 | vless | @v2rayngvpn_1 | 9",
+            "type": "vless",
+            "server": "poseidex.house0of1nyxora.top",
+            "server_port": 2096,
+            "uuid": "32622124-139e-4eab-8fb8-faaf021acd3f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "jM7JL3cp1HdLpEuvRDGJlzI-zUXW_6z8FkQBqimt4BE",
+                    "short_id": "88dfa714"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11",
             "type": "vless",
             "server": "de1.marzban-locations.com",
             "server_port": 3030,
             "uuid": "3d1622e6-7ac5-4715-b635-7bd542e0a70b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @vaynora | 11",
+            "type": "vless",
+            "server": "al.panelmarzban.com",
+            "server_port": 3044,
+            "uuid": "dcbde77d-07b9-4c53-8542-60b6ff019c2d",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
