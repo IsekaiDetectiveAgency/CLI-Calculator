@@ -122,11 +122,10 @@
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇩🇪 DE | 🟢 | vless | @noviin_tel | 1",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
-                "🇳🇱 NL | 🟢 | vless | @v2ray_free_conf | 19",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
                 "🇺🇸 US | 🟢 | vless | @v2ray_sub | 8",
                 "🇳🇱 NL | 🟢 | vless | @v2rayngninja | 8",
-                "🇳🇱 NL | 🟢 | vless | @v2rayopen | 7",
+                "🇳🇱 NL | 🟢 | vless | @v2rayopen | 6",
                 "🇩🇪 DE | 🟢 | vless | @vip_vpn_2022 | 6",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
@@ -148,7 +147,7 @@
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
                 "❔ XX | 🟢 | vless | @public504 | 11",
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
-                "🇩🇪 DE | 🟢 | vless | @v2rayng_fars | 16",
+                "🇩🇪 DE | 🟢 | vless | @v2rayng_fars | 17",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngvpn_1 | 6",
@@ -180,11 +179,10 @@
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇩🇪 DE | 🟢 | vless | @noviin_tel | 1",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
-                "🇳🇱 NL | 🟢 | vless | @v2ray_free_conf | 19",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
                 "🇺🇸 US | 🟢 | vless | @v2ray_sub | 8",
                 "🇳🇱 NL | 🟢 | vless | @v2rayngninja | 8",
-                "🇳🇱 NL | 🟢 | vless | @v2rayopen | 7",
+                "🇳🇱 NL | 🟢 | vless | @v2rayopen | 6",
                 "🇩🇪 DE | 🟢 | vless | @vip_vpn_2022 | 6",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
@@ -206,7 +204,7 @@
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
                 "❔ XX | 🟢 | vless | @public504 | 11",
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
-                "🇩🇪 DE | 🟢 | vless | @v2rayng_fars | 16",
+                "🇩🇪 DE | 🟢 | vless | @v2rayng_fars | 17",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngvpn_1 | 6",
@@ -656,29 +654,6 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @v2ray_free_conf | 19",
-            "type": "vless",
-            "server": "145.249.115.53",
-            "server_port": 443,
-            "uuid": "e2403833-1d63-441b-be27-d2d309eecb65",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "pingless.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "random"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "L8K_jdU-miVJuEf0lu9wCA8LMgHpOQjYLYVjzNEbRBA",
-                    "short_id": "6622dfef0c43"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
             "type": "vless",
             "server": "168.119.184.138",
@@ -759,7 +734,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @v2rayopen | 7",
+            "tag": "🇳🇱 NL | 🟢 | vless | @v2rayopen | 6",
             "type": "vless",
             "server": "62.212.70.94",
             "server_port": 2090,
@@ -1305,7 +1280,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayng_fars | 16",
+            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayng_fars | 17",
             "type": "vless",
             "server": "vip1.proxystore11.news",
             "server_port": 2052,

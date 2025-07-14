@@ -17,7 +17,6 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇭🇰 HK | 🟢 | trojan | @NamiraNet | 46","type":"trojan","server":"pt.mjt000.com","port":443,"password":"84587c21-9938-42fc-a4b0-4f72dd72b7aa","skip-cert-verify":true}
   - {"name":"❔ XX | 🟢 | trojan | @armodchannel | 59","type":"trojan","server":"asia.artunnel57.host","port":443,"password":"fa9b326c-ca6f-4bb2-88f5-a163b404fcf8","skip-cert-verify":false}
   - {"name":"❔ XX | 🔴 | trojan | @armodchannel | 60","type":"trojan","server":"asia.artunnel57.host","port":80,"password":"fa9b326c-ca6f-4bb2-88f5-a163b404fcf8","skip-cert-verify":false}
   - {"name":"🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2","type":"trojan","server":"production.tj.ojan.workers.dev","port":443,"password":"9yu6m5okr","skip-cert-verify":false}
@@ -25,7 +24,6 @@ proxies:
   - {"name":"🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 19","type":"trojan","server":"www.whatismyip.com","port":443,"password":"vip","skip-cert-verify":false}
   - {"name":"❔ XX | 🟢 | trojan | @fati_ffx | 1","type":"trojan","server":"t3.teslacdn2.live","port":443,"password":"e1c12e6f-a555-4ff8-b071-1e09dd5d91e6","skip-cert-verify":false}
   - {"name":"🇺🇸 US | 🟢 | trojan | @hopev2ray | 1","type":"trojan","server":"usa.test3.net","port":443,"password":"7cf2d310-489f-11f0-8746-1239d0255272","skip-cert-verify":false}
-  - {"name":"🇭🇰 HK | 🟢 | trojan | @ip_cf_config | 10","type":"trojan","server":"v01.gutingting.com","port":30002,"password":"1957909a-4f2a-4d9c-99ad-119d45f052c1","skip-cert-verify":false}
   - {"name":"❔ XX | 🟢 | trojan | @iraniv2ray | 3","type":"trojan","server":"lllliraniv2rayllll.norooz.shop","port":2083,"password":"BWDcALS5TU","skip-cert-verify":false}
   - {"name":"❔ XX | 🟢 | trojan | @jiedianf | 5","type":"trojan","server":"e312e558-sxusg0-t3f7qr-141tv.cu.plebai.net","port":15229,"password":"bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b","skip-cert-verify":true}
   - {"name":"❔ XX | 🟢 | trojan | @maradona_vpn | 4","type":"trojan","server":"maradona_vpn.history-paint.art","port":443,"password":"maradona_vpn","skip-cert-verify":false}
@@ -70,7 +68,6 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇭🇰 HK | 🟢 | trojan | @NamiraNet | 46'
       - '❔ XX | 🟢 | trojan | @armodchannel | 59'
       - '❔ XX | 🔴 | trojan | @armodchannel | 60'
       - '🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2'
@@ -78,7 +75,6 @@ proxy-groups:
       - '🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 19'
       - '❔ XX | 🟢 | trojan | @fati_ffx | 1'
       - '🇺🇸 US | 🟢 | trojan | @hopev2ray | 1'
-      - '🇭🇰 HK | 🟢 | trojan | @ip_cf_config | 10'
       - '❔ XX | 🟢 | trojan | @iraniv2ray | 3'
       - '❔ XX | 🟢 | trojan | @jiedianf | 5'
       - '❔ XX | 🟢 | trojan | @maradona_vpn | 4'
@@ -99,7 +95,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇭🇰 HK | 🟢 | trojan | @NamiraNet | 46'
       - '❔ XX | 🟢 | trojan | @armodchannel | 59'
       - '❔ XX | 🔴 | trojan | @armodchannel | 60'
       - '🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2'
@@ -107,7 +102,6 @@ proxy-groups:
       - '🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 19'
       - '❔ XX | 🟢 | trojan | @fati_ffx | 1'
       - '🇺🇸 US | 🟢 | trojan | @hopev2ray | 1'
-      - '🇭🇰 HK | 🟢 | trojan | @ip_cf_config | 10'
       - '❔ XX | 🟢 | trojan | @iraniv2ray | 3'
       - '❔ XX | 🟢 | trojan | @jiedianf | 5'
       - '❔ XX | 🟢 | trojan | @maradona_vpn | 4'
@@ -126,7 +120,6 @@ proxy-groups:
   - name: All-Proxies
     type: select
     proxies:
-      - '🇭🇰 HK | 🟢 | trojan | @NamiraNet | 46'
       - '❔ XX | 🟢 | trojan | @armodchannel | 59'
       - '❔ XX | 🔴 | trojan | @armodchannel | 60'
       - '🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2'
@@ -134,7 +127,6 @@ proxy-groups:
       - '🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 19'
       - '❔ XX | 🟢 | trojan | @fati_ffx | 1'
       - '🇺🇸 US | 🟢 | trojan | @hopev2ray | 1'
-      - '🇭🇰 HK | 🟢 | trojan | @ip_cf_config | 10'
       - '❔ XX | 🟢 | trojan | @iraniv2ray | 3'
       - '❔ XX | 🟢 | trojan | @jiedianf | 5'
       - '❔ XX | 🟢 | trojan | @maradona_vpn | 4'
