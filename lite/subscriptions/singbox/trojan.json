@@ -105,21 +105,20 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🔴 | trojan | @bored_vpn | 10",
+                "🇺🇸 US | 🔴 | trojan | @bored_vpn | 9",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 17",
                 "🇳🇱 NL | 🔴 | trojan | @hacknashid | 2",
                 "🇺🇸 US | 🔴 | trojan | @icv2ray | 6",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 16",
-                "🇺🇸 US | 🟢 | trojan | @outlinev2rayng | 15",
                 "🇫🇷 FR | 🟢 | trojan | @privatevpns | 17",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
+                "🇺🇸 US | 🟢 | trojan | @server_nekobox | 16",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 19",
-                "❔ XX | 🔴 | trojan | @ip_cf_config | 16",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8"
             ]
         },
@@ -127,21 +126,20 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🔴 | trojan | @bored_vpn | 10",
+                "🇺🇸 US | 🔴 | trojan | @bored_vpn | 9",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 17",
                 "🇳🇱 NL | 🔴 | trojan | @hacknashid | 2",
                 "🇺🇸 US | 🔴 | trojan | @icv2ray | 6",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 16",
-                "🇺🇸 US | 🟢 | trojan | @outlinev2rayng | 15",
                 "🇫🇷 FR | 🟢 | trojan | @privatevpns | 17",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
+                "🇺🇸 US | 🟢 | trojan | @server_nekobox | 16",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 19",
-                "❔ XX | 🔴 | trojan | @ip_cf_config | 16",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8"
             ],
             "url": "https://www.gstatic.com/generate_204",
@@ -165,7 +163,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | trojan | @bored_vpn | 10",
+            "tag": "🇺🇸 US | 🔴 | trojan | @bored_vpn | 9",
             "type": "trojan",
             "server": "62.60.176.240",
             "server_port": 36557,
@@ -250,29 +248,6 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | trojan | @outlinev2rayng | 15",
-            "type": "trojan",
-            "server": "172.67.181.173",
-            "server_port": 443,
-            "password": "f282b878-8711-45a1-8c69-5564172123c1",
-            "tls": {
-                "enabled": true,
-                "server_name": "vpn.stupidworld.web.id",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Stupid-World/103.106.228.126-2053",
-                "headers": {
-                    "Host": "vpn.stupidworld.web.id"
-                }
-            }
-        },
-        {
             "tag": "🇫🇷 FR | 🟢 | trojan | @privatevpns | 17",
             "type": "trojan",
             "server": "51.44.36.244",
@@ -301,6 +276,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | trojan | @server_nekobox | 16",
+            "type": "trojan",
+            "server": "172.67.181.173",
+            "server_port": 443,
+            "password": "f282b878-8711-45a1-8c69-5564172123c1",
+            "tls": {
+                "enabled": true,
+                "server_name": "vpn.stupidworld.web.id",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Stupid-World/103.106.228.126-2053",
+                "headers": {
+                    "Host": "vpn.stupidworld.web.id"
                 }
             }
         },
@@ -404,13 +402,6 @@
                     "Host": "heihu880.pages.dev"
                 }
             }
-        },
-        {
-            "tag": "❔ XX | 🔴 | trojan | @ip_cf_config | 16",
-            "type": "trojan",
-            "server": "13c2c931-swin40-swy6li-tni2.cu.plebai.net",
-            "server_port": 15229,
-            "password": "5e2f888c-68ef-11ef-96ca-f23c9164ca5d"
         },
         {
             "tag": "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
