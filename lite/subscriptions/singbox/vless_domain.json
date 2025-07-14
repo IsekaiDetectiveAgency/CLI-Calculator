@@ -229,6 +229,7 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 8",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
+                "🇩🇪 DE | 🟢 | vless | @v2rayng_fars | 16",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "🇺🇸 US | 🔴 | vless | @v2rayng_o | 6",
                 "🇺🇸 US | 🔴 | vless | @v2rayngalpha | 6",
@@ -241,6 +242,7 @@
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "❔ XX | 🔴 | vless | @v2rayturbo | 8",
+                "🇷🇺 RU | 🔴 | vless | @v2rayweb | 15",
                 "🇺🇸 US | 🟢 | vless | @v2rayy_vpn13 | 12",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vaynora | 12",
@@ -392,6 +394,7 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 8",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
+                "🇩🇪 DE | 🟢 | vless | @v2rayng_fars | 16",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "🇺🇸 US | 🔴 | vless | @v2rayng_o | 6",
                 "🇺🇸 US | 🔴 | vless | @v2rayngalpha | 6",
@@ -404,6 +407,7 @@
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "❔ XX | 🔴 | vless | @v2rayturbo | 8",
+                "🇷🇺 RU | 🔴 | vless | @v2rayweb | 15",
                 "🇺🇸 US | 🟢 | vless | @v2rayy_vpn13 | 12",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vaynora | 12",
@@ -2466,6 +2470,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayng_fars | 16",
+            "type": "vless",
+            "server": "vip1.proxystore11.news",
+            "server_port": 2052,
+            "uuid": "a3aef958-6961-464c-b1a9-b09b0f9cd1f7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "vultr.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "-4S95rjoZIG_AeUxIlwedx89e7C_X4jnePY3RsiF4io",
+                    "short_id": "f8fcb589"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
             "type": "vless",
             "server": "site.felinefreedom.site",
@@ -2719,6 +2746,15 @@
             "server": "sw.mrchange.store",
             "server_port": 17081,
             "uuid": "43330370-6687-48c3-ee7e-56c96853e07b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇷🇺 RU | 🔴 | vless | @v2rayweb | 15",
+            "type": "vless",
+            "server": "gervip.midnight1.top",
+            "server_port": 300,
+            "uuid": "9b76e072-4c99-459a-ba9d-53479a665110",
             "flow": "",
             "packet_encoding": "xudp"
         },
