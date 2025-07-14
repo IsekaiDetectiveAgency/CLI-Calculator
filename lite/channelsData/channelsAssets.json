@@ -1046,10 +1046,10 @@
     },
     "hope_net": {
         "types": [
-            "vless",
-            "trojan",
             "ss",
-            "vmess"
+            "vmess",
+            "trojan",
+            "vless"
         ],
         "title": "🕊 Hope Net",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/hope_net.jpg"
@@ -1127,10 +1127,10 @@
     },
     "ip_cf_config": {
         "types": [
+            "ss",
             "vmess",
-            "vless",
             "trojan",
-            "ss"
+            "vless"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
@@ -2111,6 +2111,7 @@
     "proxy_mtproto_vpns_free": {
         "types": [
             "vless",
+            "ss",
             "vmess"
         ],
         "title": "VPNs Proxy Mtproto",
@@ -2560,8 +2561,8 @@
     "v2ray_free_conf": {
         "types": [
             "ss",
-            "vless",
             "vmess",
+            "vless",
             "trojan"
         ],
         "title": "🌍 V2Ray Free Config 🇮🇷",
@@ -2671,6 +2672,7 @@
     "v2rayfree": {
         "types": [
             "vless",
+            "ss",
             "vmess"
         ],
         "title": "VPNs Proxy Mtproto",
@@ -2842,8 +2844,8 @@
     },
     "v2rayopen": {
         "types": [
-            "vmess",
-            "vless"
+            "vless",
+            "vmess"
         ],
         "title": "🛡️ اکانت های رایگان V2RAY",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayopen.jpg"
@@ -2913,7 +2915,8 @@
     },
     "v2rayweb": {
         "types": [
-            "vless"
+            "vless",
+            "trojan"
         ],
         "title": "V2ray | VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"
@@ -3080,8 +3083,8 @@
     },
     "vmess_ir": {
         "types": [
-            "ss",
-            "vless"
+            "vless",
+            "ss"
         ],
         "title": "🚀سرور رایگان و اختصاصی vmess_ir🚀",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vmess_ir.jpg"
