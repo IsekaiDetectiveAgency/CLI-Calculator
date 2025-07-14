@@ -122,9 +122,10 @@
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇩🇪 DE | 🟢 | vless | @v2rayngvpn_1 | 8",
+                "🇩🇪 DE | 🟢 | vless | @v2rayngvpn_1 | 6",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
+                "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
                 "🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0"
             ]
         },
@@ -149,9 +150,10 @@
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇩🇪 DE | 🟢 | vless | @v2rayngvpn_1 | 8",
+                "🇩🇪 DE | 🟢 | vless | @v2rayngvpn_1 | 6",
                 "🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
+                "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
                 "🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0"
             ],
             "url": "https://www.gstatic.com/generate_204",
@@ -602,7 +604,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayngvpn_1 | 8",
+            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayngvpn_1 | 6",
             "type": "vless",
             "server": "server1.fergalvpnmod.com",
             "server_port": 28338,
@@ -671,6 +673,29 @@
                     "enabled": true,
                     "public_key": "XEpHiKs6YbcMrBR4YTRXLlIlO5RfGcVUUcbt4KZc7TY",
                     "short_id": "d90b293e"
+                }
+            }
+        },
+        {
+            "tag": "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
+            "type": "vless",
+            "server": "ARM.CROCODILESERVER.IR",
+            "server_port": 443,
+            "uuid": "32932937-b85f-40be-ae02-997ea5b0b62a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "app.hubspot.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
+                    "short_id": "fd1dff03520d8f56"
                 }
             }
         },
