@@ -109,11 +109,12 @@
                 "🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 19",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇩🇪 DE | 🟢 | trojan | @directvpn | 16",
+                "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 15",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
                 "🇩🇪 DE | 🟢 | trojan | @privatevpns | 16",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
-                "🇺🇸 US | 🟢 | trojan | @server_nekobox | 16",
+                "🇫🇷 FR | 🟢 | trojan | @v2ray_free_conf | 19",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 15",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
@@ -127,11 +128,12 @@
                 "🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 19",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇩🇪 DE | 🟢 | trojan | @directvpn | 16",
+                "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 15",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
                 "🇩🇪 DE | 🟢 | trojan | @privatevpns | 16",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
-                "🇺🇸 US | 🟢 | trojan | @server_nekobox | 16",
+                "🇫🇷 FR | 🟢 | trojan | @v2ray_free_conf | 19",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 15",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
@@ -225,12 +227,28 @@
         {
             "tag": "🇩🇪 DE | 🟢 | trojan | @directvpn | 16",
             "type": "trojan",
-            "server": "18.192.94.201",
+            "server": "3.73.54.252",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "tls": {
                 "enabled": true,
                 "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 15",
+            "type": "trojan",
+            "server": "35.155.4.93",
+            "server_port": 443,
+            "password": "3723507166611775488",
+            "tls": {
+                "enabled": true,
+                "server_name": "usable-toad.treefrog761.one",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -280,7 +298,7 @@
         {
             "tag": "🇩🇪 DE | 🟢 | trojan | @privatevpns | 16",
             "type": "trojan",
-            "server": "18.192.94.201",
+            "server": "3.73.54.252",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "tls": {
@@ -310,25 +328,18 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | trojan | @server_nekobox | 16",
+            "tag": "🇫🇷 FR | 🟢 | trojan | @v2ray_free_conf | 19",
             "type": "trojan",
-            "server": "172.67.181.173",
-            "server_port": 443,
-            "password": "f282b878-8711-45a1-8c69-5564172123c1",
+            "server": "13.37.140.67",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
             "tls": {
                 "enabled": true,
-                "server_name": "vpn.stupidworld.web.id",
+                "server_name": "trojan.burgerip.co.uk",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Stupid-World/103.106.228.126-2053",
-                "headers": {
-                    "Host": "vpn.stupidworld.web.id"
                 }
             }
         },
@@ -351,7 +362,7 @@
         {
             "tag": "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 15",
             "type": "trojan",
-            "server": "18.192.94.201",
+            "server": "3.73.54.252",
             "server_port": 22223,
             "password": "telegram-id-v2rayvpnchannel",
             "tls": {
