@@ -37,7 +37,6 @@ proxies:
   - {"name":"🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11","type":"vless","server":"de1.marzban-locations.com","port":3030,"uuid":"3d1622e6-7ac5-4715-b635-7bd542e0a70b","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"refersion.com","reality-opts":{"public-key":"21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI"}}
   - {"name":"❔ XX | 🟢 | vless | @vp22ray | 10","type":"vless","server":"German.vp22ray.site","port":40130,"uuid":"eb7f17f3-4715-4b2d-87e5-39d12b1c962c","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"Seed.cloudflare.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"XEpHiKs6YbcMrBR4YTRXLlIlO5RfGcVUUcbt4KZc7TY","short-id":"d90b293e"}}
   - {"name":"🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12","type":"vless","server":"ARM.CROCODILESERVER.IR","port":443,"uuid":"32932937-b85f-40be-ae02-997ea5b0b62a","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"app.hubspot.com","reality-opts":{"public-key":"YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E","short-id":"fd1dff03520d8f56"}}
-  - {"name":"🇫🇮 FI | 🟢 | vless | @vpnplusee_free | 17","type":"vless","server":"oxg8.aivideosurfers.com","port":5555,"uuid":"4b7e41a7-0c05-442a-9c92-28c37afc3eab","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"tgju.org","reality-opts":{"public-key":"K0iITauuYEqIayR3IB5Ny8MVKyORDJ65rUSHc3tLe1E","short-id":"42c0b628ba6a42a9"}}
   - {"name":"🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0","type":"vless","server":"static.50.146.62.46.clients.your-server.de","port":443,"uuid":"95b0f8b6-8373-4398-893f-782af287e2fe","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"www.speedtest.net","grpc-opts":{"grpc-service-name":"0VTuTCdLL8WUYSwaz2OnC5y"},"reality-opts":{"public-key":"L4ja73hdU_P-euK_ikOs623oM4u3PpDS5IwzXOrCjnE","short-id":"15cf0914947a4379"}}
 
 rule-providers:
@@ -89,7 +88,6 @@ proxy-groups:
       - '🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11'
       - '❔ XX | 🟢 | vless | @vp22ray | 10'
       - '🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12'
-      - '🇫🇮 FI | 🟢 | vless | @vpnplusee_free | 17'
       - '🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0'
 
   - name: 📉 Fallback
@@ -117,7 +115,6 @@ proxy-groups:
       - '🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11'
       - '❔ XX | 🟢 | vless | @vp22ray | 10'
       - '🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12'
-      - '🇫🇮 FI | 🟢 | vless | @vpnplusee_free | 17'
       - '🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0'
       
   - name: All-Proxies
@@ -143,7 +140,6 @@ proxy-groups:
       - '🇩🇪 DE | 🟢 | vless | @v2rayprotocol | 11'
       - '❔ XX | 🟢 | vless | @vp22ray | 10'
       - '🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12'
-      - '🇫🇮 FI | 🟢 | vless | @vpnplusee_free | 17'
       - '🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0'
 
 rules:
