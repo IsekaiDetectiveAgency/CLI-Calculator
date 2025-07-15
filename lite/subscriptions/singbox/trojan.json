@@ -109,6 +109,7 @@
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 16",
+                "🇩🇪 DE | 🔴 | trojan | @hope_net | 19",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
                 "🇫🇷 FR | 🟢 | trojan | @privatevpns | 16",
@@ -126,6 +127,7 @@
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 16",
+                "🇩🇪 DE | 🔴 | trojan | @hope_net | 19",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
                 "🇫🇷 FR | 🟢 | trojan | @privatevpns | 16",
@@ -213,6 +215,22 @@
             "tls": {
                 "enabled": true,
                 "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | trojan | @hope_net | 19",
+            "type": "trojan",
+            "server": "165.22.74.230",
+            "server_port": 443,
+            "password": "4732adfa16c6450bbef87264e41332db",
+            "tls": {
+                "enabled": true,
+                "server_name": "nextstepcareer.online",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
