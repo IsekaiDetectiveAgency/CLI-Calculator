@@ -105,22 +105,20 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇳 CN | 🟢 | trojan | @NamiraNet | 66",
+                "🇯🇵 JP | 🔴 | trojan | @NamiraNet | 69",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 19",
-                "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇩🇪 DE | 🔴 | trojan | @v2rayweb | 17"
+                "❔ XX | 🟢 | trojan | @maradona_vpn | 8"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇳 CN | 🟢 | trojan | @NamiraNet | 66",
+                "🇯🇵 JP | 🔴 | trojan | @NamiraNet | 69",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 19",
-                "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇩🇪 DE | 🔴 | trojan | @v2rayweb | 17"
+                "❔ XX | 🟢 | trojan | @maradona_vpn | 8"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -143,20 +141,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇳 CN | 🟢 | trojan | @NamiraNet | 66",
+            "tag": "🇯🇵 JP | 🔴 | trojan | @NamiraNet | 69",
             "type": "trojan",
-            "server": "official.tokyometropolis.chernigov.ua",
-            "server_port": 2053,
-            "password": "96983eb4-c8f1-316e-ab00-500014ed3d8b",
-            "tls": {
-                "enabled": true,
-                "server_name": "official.tokyometropolis.chernigov.ua",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "server": "ss.usalink.xyz",
+            "server_port": 13205,
+            "password": "6a60356a-0875-40d9-81f3-3ef82cede767"
         },
         {
             "tag": "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
@@ -223,13 +212,6 @@
                 "type": "grpc",
                 "service_name": "grpc20337"
             }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | trojan | @v2rayweb | 17",
-            "type": "trojan",
-            "server": "gerxyz.bm04.xyz",
-            "server_port": 2053,
-            "password": "94cf288d-f764-4ce9-a547-a7228144f056"
         }
     ],
     "route": {
