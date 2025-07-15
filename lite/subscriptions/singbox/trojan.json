@@ -109,6 +109,7 @@
                 "🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 19",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇩🇪 DE | 🟢 | trojan | @directvpn | 14",
+                "🇸🇪 SE | 🟢 | trojan | @hope_net | 19",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
                 "🇩🇪 DE | 🟢 | trojan | @privatevpns | 14",
@@ -127,6 +128,7 @@
                 "🇺🇸 US | 🟢 | trojan | @deamnet_proxy | 19",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇩🇪 DE | 🟢 | trojan | @directvpn | 14",
+                "🇸🇪 SE | 🟢 | trojan | @hope_net | 19",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
                 "🇩🇪 DE | 🟢 | trojan | @privatevpns | 14",
@@ -227,6 +229,22 @@
             "type": "trojan",
             "server": "18.157.66.125",
             "server_port": 22223,
+            "password": "telegram-id-directvpn",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪 SE | 🟢 | trojan | @hope_net | 19",
+            "type": "trojan",
+            "server": "13.61.80.145",
+            "server_port": 22222,
             "password": "telegram-id-directvpn",
             "tls": {
                 "enabled": true,
