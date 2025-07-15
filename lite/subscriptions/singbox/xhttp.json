@@ -109,9 +109,9 @@
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 8",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
+                "🇳🇱 NL | 🟢 | vless | @mowjproxy | 5",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇮🇹 IT | 🔴 | vless | @vaslvip | 17",
                 "🇺🇸 US | 🔴 | vless | @blueshekan | 2",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 4",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
@@ -122,11 +122,13 @@
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 4",
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 3",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
-                "🇺🇸 US | 🔴 | vless | @freakconfig | 7",
+                "🇺🇸 US | 🔴 | vless | @freakconfig | 6",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 4",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
+                "🇮🇹 IT | 🟢 | vless | @v2rayweb | 19",
+                "🇳🇱 NL | 🟢 | vless | @vaslvip | 17",
                 "🇺🇸 US | 🔴 | vless | @vmess_ir | 16"
             ]
         },
@@ -138,9 +140,9 @@
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 8",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
+                "🇳🇱 NL | 🟢 | vless | @mowjproxy | 5",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇮🇹 IT | 🔴 | vless | @vaslvip | 17",
                 "🇺🇸 US | 🔴 | vless | @blueshekan | 2",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 4",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
@@ -151,11 +153,13 @@
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 4",
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 3",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
-                "🇺🇸 US | 🔴 | vless | @freakconfig | 7",
+                "🇺🇸 US | 🔴 | vless | @freakconfig | 6",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 4",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
+                "🇮🇹 IT | 🟢 | vless | @v2rayweb | 19",
+                "🇳🇱 NL | 🟢 | vless | @vaslvip | 17",
                 "🇺🇸 US | 🔴 | vless | @vmess_ir | 16"
             ],
             "url": "https://www.gstatic.com/generate_204",
@@ -229,6 +233,29 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇳🇱 NL | 🟢 | vless | @mowjproxy | 5",
+            "type": "vless",
+            "server": "159.223.212.67",
+            "server_port": 32930,
+            "uuid": "007f360b-dabb-450c-9161-39e6b85319a5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "l7dXkTAD4x_lKTq84oFQvr_7Alm2TqlAGBrRvJe6YEs",
+                    "short_id": "71a309"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
             "type": "vless",
             "server": "147.182.183.207",
@@ -257,15 +284,6 @@
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "qeshmserver",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇮🇹 IT | 🔴 | vless | @vaslvip | 17",
-            "type": "vless",
-            "server": "151.101.242.172",
-            "server_port": 80,
-            "uuid": "c3cbc7f0-4775-4493-a15e-1c3e7dbe07d5",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -360,7 +378,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @freakconfig | 7",
+            "tag": "🇺🇸 US | 🔴 | vless | @freakconfig | 6",
             "type": "vless",
             "server": "Speedtest.net",
             "server_port": 80,
@@ -419,6 +437,52 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇹 IT | 🟢 | vless | @v2rayweb | 19",
+            "type": "vless",
+            "server": "wwwwww.mohsen.com.it.studentcp.ir",
+            "server_port": 16532,
+            "uuid": "e36781b3-3dd9-2ba6-b912-2995b1262150",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "7BDmup4-19PSCfrsZQEco7md0-j-34qWEA-wmDgYuHc",
+                    "short_id": "327f5a20cef62bbb"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | vless | @vaslvip | 17",
+            "type": "vless",
+            "server": "v2raybluecrystal3.3dfigures.ir",
+            "server_port": 80,
+            "uuid": "e5c3ce9a-91a7-45f0-a526-2d01c028e9cb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MAbdiAkVVSZWyXEn8FUdSU0XiWyZRUAd-nU3ShX3TRw",
+                    "short_id": "ebfef96e18"
                 }
             }
         },
