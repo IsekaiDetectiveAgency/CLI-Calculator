@@ -61,7 +61,7 @@ proxies:
   - {"name":"❔ XX | 🟢 | vless | @mtpv2ray | 7","type":"vless","server":"day.mtpmio.com","port":443,"uuid":"20cf1bfb-c5ad-4a5f-85bf-ec14e89b1406","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"duckduckgo.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"KrOQ6UIhM_AXIEJZ31FsIXRbtN7TtFBykqmnnFECkEM","short-id":"1d72e9f5ba"}}
   - {"name":"🇳🇱 NL | 🟢 | vless | @nn_vpn | 2","type":"vless","server":"Sadaf.Netherlands.mehrdadsadaf.com","port":80,"uuid":"59acb90b-fb9d-433b-a2f0-c039cf23dfc7","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"dash.cloudflare.com","grpc-opts":{"grpc-service-name":"@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar"},"reality-opts":{"public-key":"5VdWpwWeApKlGJoi50efzxiPjBruG4Rqi6ku0IDxwgc","short-id":"3bbf56e2"}}
   - {"name":"🇳🇱 NL | 🟢 | vless | @nn_vpn | 3","type":"vless","server":"Sadaf.Melorin.mehrdadsadaf.com","port":80,"uuid":"b8debe38-3858-4a7e-9bfc-ee090ac7597b","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"dash.cloudflare.com","grpc-opts":{"grpc-service-name":"@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar,@Mehrdad_Zargar"},"reality-opts":{"public-key":"U27aXgEDWdrPwlPOLK3XGi5MzTtnYicnSHhbtBUyKBY","short-id":"73c901c5"}}
-  - {"name":"❔ XX | 🟢 | vless | @outlinev2rayng | 11","type":"vless","server":"fxs.samiion73.ir","port":8080,"uuid":"199ff20d-9bb4-423a-b759-e538392a27b6","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"www.chatgpt.com","reality-opts":{"public-key":"TcTr1oUPAg6fEwLl8NdVInMRQOb-74dRRxh6gwbZVkw","short-id":"a3f994823291"}}
+  - {"name":"❔ XX | 🟢 | vless | @outlinev2rayng | 10","type":"vless","server":"fxs.samiion73.ir","port":8080,"uuid":"199ff20d-9bb4-423a-b759-e538392a27b6","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"www.chatgpt.com","reality-opts":{"public-key":"TcTr1oUPAg6fEwLl8NdVInMRQOb-74dRRxh6gwbZVkw","short-id":"a3f994823291"}}
   - {"name":"❔ XX | 🟢 | vless | @persian_proxy6 | 2","type":"vless","server":"iran.nikirani.sfree.persianmemberiranmember.shop","port":8881,"uuid":"bf9a82b2-00dc-45b6-8615-47d2a72c6c96","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"servername":"ghbi.ir","reality-opts":{"public-key":"-8EeqVrZ8S9R4yAoTrUx6F85-9bw7O-Hz_bYzcY0xBA","short-id":"64c204e5"}}
   - {"name":"❔ XX | 🟢 | vless | @persian_proxy6 | 3","type":"vless","server":"iran.nikirani.sfree.persianmemberiranmember.shop","port":8443,"uuid":"06f73c30-b767-492f-ad4f-50226053aa4f","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"tuyaeu.com","reality-opts":{"public-key":"g2n6BaJw9Wfs7PqXVkodEAeaCCXKgxtJ2N0qAzKDCgw","short-id":"c22ed49b"}}
   - {"name":"❔ XX | 🟢 | vless | @proxy_iranv2 | 3","type":"vless","server":"vpncustomize.cam","port":443,"uuid":"4fd0c05c-3d20-4512-9628-0eeade38d4c4","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"servername":"www.iranserver.com","grpc-opts":{"grpc-service-name":"@VPNCUSTOMIZE"},"reality-opts":{"public-key":"55xH-tqPd6c0VZpbwlxRxhmfvp9lVUtp45CDJLpcw2I","short-id":"6b0541cd"}}
@@ -182,7 +182,7 @@ proxy-groups:
       - '❔ XX | 🟢 | vless | @mtpv2ray | 7'
       - '🇳🇱 NL | 🟢 | vless | @nn_vpn | 2'
       - '🇳🇱 NL | 🟢 | vless | @nn_vpn | 3'
-      - '❔ XX | 🟢 | vless | @outlinev2rayng | 11'
+      - '❔ XX | 🟢 | vless | @outlinev2rayng | 10'
       - '❔ XX | 🟢 | vless | @persian_proxy6 | 2'
       - '❔ XX | 🟢 | vless | @persian_proxy6 | 3'
       - '❔ XX | 🟢 | vless | @proxy_iranv2 | 3'
@@ -279,7 +279,7 @@ proxy-groups:
       - '❔ XX | 🟢 | vless | @mtpv2ray | 7'
       - '🇳🇱 NL | 🟢 | vless | @nn_vpn | 2'
       - '🇳🇱 NL | 🟢 | vless | @nn_vpn | 3'
-      - '❔ XX | 🟢 | vless | @outlinev2rayng | 11'
+      - '❔ XX | 🟢 | vless | @outlinev2rayng | 10'
       - '❔ XX | 🟢 | vless | @persian_proxy6 | 2'
       - '❔ XX | 🟢 | vless | @persian_proxy6 | 3'
       - '❔ XX | 🟢 | vless | @proxy_iranv2 | 3'
@@ -374,7 +374,7 @@ proxy-groups:
       - '❔ XX | 🟢 | vless | @mtpv2ray | 7'
       - '🇳🇱 NL | 🟢 | vless | @nn_vpn | 2'
       - '🇳🇱 NL | 🟢 | vless | @nn_vpn | 3'
-      - '❔ XX | 🟢 | vless | @outlinev2rayng | 11'
+      - '❔ XX | 🟢 | vless | @outlinev2rayng | 10'
       - '❔ XX | 🟢 | vless | @persian_proxy6 | 2'
       - '❔ XX | 🟢 | vless | @persian_proxy6 | 3'
       - '❔ XX | 🟢 | vless | @proxy_iranv2 | 3'
