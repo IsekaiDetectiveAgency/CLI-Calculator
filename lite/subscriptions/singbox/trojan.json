@@ -106,15 +106,15 @@
             "outbounds": [
                 "URL-TEST",
                 "🇯🇵 JP | 🔴 | trojan | @NamiraNet | 69",
-                "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
+                "🇨🇦 CA | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇫🇷 FR | 🟢 | trojan | @directvpn | 14",
+                "🇫🇷 FR | 🟢 | trojan | @directvpn | 16",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
-                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 14",
+                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 16",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇩🇪 DE | 🟢 | trojan | @v2ray_extractor | 19",
-                "🇫🇷 FR | 🟢 | trojan | @v2ray_free_conf | 19",
+                "🇩🇪 DE | 🟢 | trojan | @v2ray_free_conf | 19",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 15",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
@@ -125,15 +125,15 @@
             "type": "urltest",
             "outbounds": [
                 "🇯🇵 JP | 🔴 | trojan | @NamiraNet | 69",
-                "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
+                "🇨🇦 CA | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇫🇷 FR | 🟢 | trojan | @directvpn | 14",
+                "🇫🇷 FR | 🟢 | trojan | @directvpn | 16",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
-                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 14",
+                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 16",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇩🇪 DE | 🟢 | trojan | @v2ray_extractor | 19",
-                "🇫🇷 FR | 🟢 | trojan | @v2ray_free_conf | 19",
+                "🇩🇪 DE | 🟢 | trojan | @v2ray_free_conf | 19",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 15",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
@@ -166,7 +166,7 @@
             "password": "6a60356a-0875-40d9-81f3-3ef82cede767"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
+            "tag": "🇨🇦 CA | 🟢 | trojan | @cryptoguardvpn | 2",
             "type": "trojan",
             "server": "production.tj.ojan.workers.dev",
             "server_port": 443,
@@ -209,7 +209,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @directvpn | 14",
+            "tag": "🇫🇷 FR | 🟢 | trojan | @directvpn | 16",
             "type": "trojan",
             "server": "35.181.120.43",
             "server_port": 22223,
@@ -264,7 +264,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @privatevpns | 14",
+            "tag": "🇫🇷 FR | 🟢 | trojan | @privatevpns | 16",
             "type": "trojan",
             "server": "35.181.120.43",
             "server_port": 22222,
@@ -312,11 +312,11 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @v2ray_free_conf | 19",
+            "tag": "🇩🇪 DE | 🟢 | trojan | @v2ray_free_conf | 19",
             "type": "trojan",
-            "server": "35.180.106.215",
-            "server_port": 22223,
-            "password": "telegram-id-directvpn",
+            "server": "3.74.102.227",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
             "tls": {
                 "enabled": true,
                 "server_name": "trojan.burgerip.co.uk",
