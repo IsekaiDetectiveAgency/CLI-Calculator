@@ -153,9 +153,8 @@
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0",
                 "🇫🇷 FR | 🟢 | vmess | @vmessprotocol | 3",
-                "🇺🇸 US | 🔴 | vmess | @vpnfail_v2ray | 17",
+                "🇩🇪 DE | 🟢 | vmess | @vpnfail_v2ray | 18",
                 "🇺🇸 US | 🔴 | vmess | @vpngate_config | 18",
-                "🇩🇪 DE | 🔴 | vmess | @vpnod | 18",
                 "🇺🇸 US | 🟢 | vmess | @vpnv2rayonline | 10",
                 "🇩🇪 DE | 🔴 | vmess | @vpnzamin | 3"
             ]
@@ -212,9 +211,8 @@
                 "🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13",
                 "🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0",
                 "🇫🇷 FR | 🟢 | vmess | @vmessprotocol | 3",
-                "🇺🇸 US | 🔴 | vmess | @vpnfail_v2ray | 17",
+                "🇩🇪 DE | 🟢 | vmess | @vpnfail_v2ray | 18",
                 "🇺🇸 US | 🔴 | vmess | @vpngate_config | 18",
-                "🇩🇪 DE | 🔴 | vmess | @vpnod | 18",
                 "🇺🇸 US | 🟢 | vmess | @vpnv2rayonline | 10",
                 "🇩🇪 DE | 🔴 | vmess | @vpnzamin | 3"
             ],
@@ -975,16 +973,16 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @vpnfail_v2ray | 17",
+            "tag": "🇩🇪 DE | 🟢 | vmess | @vpnfail_v2ray | 18",
             "type": "vmess",
-            "server": "vc.fly.dev",
+            "server": "57.129.25.22",
             "server_port": 443,
-            "uuid": "35379219-6535-4f2e-a4fe-3e44f61e0eee",
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 32,
+            "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "vc.fly.dev",
+                "server_name": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -993,9 +991,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/vc",
+                "path": "/linkvws",
                 "headers": {
-                    "Host": "vc.fly.dev"
+                    "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
                 }
             }
         },
@@ -1005,15 +1003,6 @@
             "server": "5.78.103.249",
             "server_port": 3389,
             "uuid": "9c050a86-d612-48f1-ec32-e573df08a1b7",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | vmess | @vpnod | 18",
-            "type": "vmess",
-            "server": "panel1.ipyar.org",
-            "server_port": 42684,
-            "uuid": "c4bd9eba-8aea-4d5e-a2ee-b5de65ac14e1",
             "security": "auto",
             "alter_id": 0
         },

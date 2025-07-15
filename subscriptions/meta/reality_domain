@@ -100,7 +100,7 @@ proxies:
   - {"name":"🇫🇷 FR | 🟢 | vless | @vpn_bal0uch | 0","type":"vless","server":"Netherlanddddd.mehrdadsadaf.com","port":7594,"uuid":"2a219df1-a04b-4424-bfd2-cb37aeb10b2c","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"dash.cloudflare.com","grpc-opts":{"grpc-service-name":"7594vless"},"reality-opts":{"public-key":"AZSptdvlWvvmKWEDTY56UsIcnTP8nGCafvPEQOozrxw","short-id":"765e8e700426816c"}}
   - {"name":"❔ XX | 🟢 | vless | @vpnbigbang | 7","type":"vless","server":"vpnbigbang1.ddns.net","port":18923,"uuid":"8802bcc7-97a3-4f0e-8b92-0813ca10095f","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"ea.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"FdMFSpgEwT0nhczf37d-Z8gFgJtwyV4C_pJlnOTScUA","short-id":"a1"}}
   - {"name":"❔ XX | 🟢 | vless | @vpnbigbang | 8","type":"vless","server":"vpnbigbang.ddns.net","port":18923,"uuid":"8802bcc7-97a3-4f0e-8b92-0813ca10095f","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"ea.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"FdMFSpgEwT0nhczf37d-Z8gFgJtwyV4C_pJlnOTScUA","short-id":"a1"}}
-  - {"name":"🇳🇱 NL | 🟢 | vless | @vpnod | 16","type":"vless","server":"nl1.cowjuice.me","port":443,"uuid":"d4d0e4a4-630c-4439-b8da-f8dd80490648","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"nu.nl","flow":"xtls-rprx-vision","reality-opts":{"public-key":"O9DMPpwicRcMofaplcvpQStNRogPS_HJY0s5_4EaKQc"}}
+  - {"name":"🇳🇱 NL | 🟢 | vless | @vpnod | 15","type":"vless","server":"nl1.cowjuice.me","port":443,"uuid":"d4d0e4a4-630c-4439-b8da-f8dd80490648","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"nu.nl","flow":"xtls-rprx-vision","reality-opts":{"public-key":"O9DMPpwicRcMofaplcvpQStNRogPS_HJY0s5_4EaKQc"}}
   - {"name":"❔ XX | 🟢 | vless | @webshecan | 9","type":"vless","server":"webshecan.webredirect.org","port":2087,"uuid":"f6b91664-0903-4063-8e15-dba1bc9ee9a2","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"www.speedtest.net","flow":"xtls-rprx-vision","reality-opts":{"public-key":"2M6UwPCIFyRuf41xzoiHRo_5DUDNBs8lfe-sK3c8-Dw","short-id":"53242a95"}}
   - {"name":"❔ XX | 🟢 | vless | @webshecan | 10","type":"vless","server":"webshecan.webredirect.org","port":2083,"uuid":"89eeb27d-1a8c-4d84-9ca4-75d614d19900","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"www.theverge.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"TTyvgA7WXFTrzGfnc3n2thNNEcWc_GWReVsvs5Gd9D4","short-id":"7f321171"}}
   - {"name":"❔ XX | 🟢 | vless | @webshecan | 11","type":"vless","server":"webshecan.webredirect.org","port":2087,"uuid":"8f646a01-2cc1-4270-ad43-f87e157e4d44","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"www.speedtest.net","flow":"xtls-rprx-vision","reality-opts":{"public-key":"2M6UwPCIFyRuf41xzoiHRo_5DUDNBs8lfe-sK3c8-Dw","short-id":"53242a95"}}
@@ -218,7 +218,7 @@ proxy-groups:
       - '🇫🇷 FR | 🟢 | vless | @vpn_bal0uch | 0'
       - '❔ XX | 🟢 | vless | @vpnbigbang | 7'
       - '❔ XX | 🟢 | vless | @vpnbigbang | 8'
-      - '🇳🇱 NL | 🟢 | vless | @vpnod | 16'
+      - '🇳🇱 NL | 🟢 | vless | @vpnod | 15'
       - '❔ XX | 🟢 | vless | @webshecan | 9'
       - '❔ XX | 🟢 | vless | @webshecan | 10'
       - '❔ XX | 🟢 | vless | @webshecan | 11'
@@ -312,7 +312,7 @@ proxy-groups:
       - '🇫🇷 FR | 🟢 | vless | @vpn_bal0uch | 0'
       - '❔ XX | 🟢 | vless | @vpnbigbang | 7'
       - '❔ XX | 🟢 | vless | @vpnbigbang | 8'
-      - '🇳🇱 NL | 🟢 | vless | @vpnod | 16'
+      - '🇳🇱 NL | 🟢 | vless | @vpnod | 15'
       - '❔ XX | 🟢 | vless | @webshecan | 9'
       - '❔ XX | 🟢 | vless | @webshecan | 10'
       - '❔ XX | 🟢 | vless | @webshecan | 11'
@@ -404,7 +404,7 @@ proxy-groups:
       - '🇫🇷 FR | 🟢 | vless | @vpn_bal0uch | 0'
       - '❔ XX | 🟢 | vless | @vpnbigbang | 7'
       - '❔ XX | 🟢 | vless | @vpnbigbang | 8'
-      - '🇳🇱 NL | 🟢 | vless | @vpnod | 16'
+      - '🇳🇱 NL | 🟢 | vless | @vpnod | 15'
       - '❔ XX | 🟢 | vless | @webshecan | 9'
       - '❔ XX | 🟢 | vless | @webshecan | 10'
       - '❔ XX | 🟢 | vless | @webshecan | 11'
