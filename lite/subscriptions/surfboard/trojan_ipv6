@@ -1,0 +1,21 @@
+#!MANAGED-CONFIG https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/surfboard/trojan_ipv6 interval=3600 strict=false
+
+[General]
+loglevel = notify
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+ipv6 = true
+dns-server = system, 223.5.5.5
+enhanced-mode-by-rule = true
+
+[Proxy]
+DIRECT = direct
+❔ XX | 🔴 | trojan | @freevpnatm | 17 = trojan, [2606:4700:3031::ac43:b16d], 443, password = 2d068083-2cb0-4ae3-a44a-6fc82f3039cc, skip-cert-verify = false
+
+[Proxy Group]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🔴 | trojan | @freevpnatm | 17
+PSG-AUTO = url-test, ❔ XX | 🔴 | trojan | @freevpnatm | 17
+PSG-FALLBACK = fallback, ❔ XX | 🔴 | trojan | @freevpnatm | 17
+
+[Rule]
+GEOIP,IR,DIRECT
+FINAL,PSG-MANUAL
