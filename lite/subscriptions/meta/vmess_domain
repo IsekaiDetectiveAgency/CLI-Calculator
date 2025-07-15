@@ -57,7 +57,6 @@ proxies:
   - {"name":"🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13","type":"vmess","server":"144.48.81.134","port":443,"cipher":"auto","uuid":"73ed2e06-4833-4626-9746-b056668a2101","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0","type":"vmess","server":"176.120.17.67","port":42270,"cipher":"auto","uuid":"3c0f9cf4-6a0c-42f3-a6de-89c79d4af8e3","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇫🇷 FR | 🟢 | vmess | @vmessprotocol | 3","type":"vmess","server":"193.233.133.59","port":33,"cipher":"auto","uuid":"0dc0d22c-68e5-440a-9465-97cad8d1cf33","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇮🇳 IN | 🔴 | vmess | @vpnfail_v2ray | 16","type":"vmess","server":"94.136.185.230","port":10534,"cipher":"auto","uuid":"b01c7ef9-33ec-41f6-bfbf-77ddc4d21649","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 
 rule-providers:
   ir_domains:
@@ -128,7 +127,6 @@ proxy-groups:
       - '🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13'
       - '🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0'
       - '🇫🇷 FR | 🟢 | vmess | @vmessprotocol | 3'
-      - '🇮🇳 IN | 🔴 | vmess | @vpnfail_v2ray | 16'
 
   - name: 📉 Fallback
     type: fallback
@@ -175,7 +173,6 @@ proxy-groups:
       - '🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13'
       - '🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0'
       - '🇫🇷 FR | 🟢 | vmess | @vmessprotocol | 3'
-      - '🇮🇳 IN | 🔴 | vmess | @vpnfail_v2ray | 16'
       
   - name: All-Proxies
     type: select
@@ -220,7 +217,6 @@ proxy-groups:
       - '🇨🇭 CH | 🔴 | vmess | @v2rayzone | 13'
       - '🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0'
       - '🇫🇷 FR | 🟢 | vmess | @vmessprotocol | 3'
-      - '🇮🇳 IN | 🔴 | vmess | @vpnfail_v2ray | 16'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

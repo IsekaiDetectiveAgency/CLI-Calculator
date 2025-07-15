@@ -105,7 +105,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🟢 | vless | @NamiraNet | 68",
                 "🇺🇸 US | 🔴 | vless | @alo_v2rayng | 0",
                 "🇮🇳 IN | 🟢 | vless | @argo_vpn1 | 3",
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 14",
@@ -130,7 +129,7 @@
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇺🇸 US | 🔴 | vless | @custom_v2ray | 5",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
-                "🇺🇸 US | 🔴 | vless | @darkma3ter24 | 13",
+                "🇮🇷 IR | 🔴 | vless | @darkma3ter24 | 13",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇮🇷 IR | 🔴 | vless | @easy_free_vpn | 2",
                 "🇩🇪 DE | 🔴 | vless | @ehsawn8 | 4",
@@ -212,7 +211,6 @@
                 "❔ XX | 🟢 | vless | @proxy_confiingir | 3",
                 "❔ XX | 🟢 | vless | @proxy_iranv2 | 3",
                 "🇮🇷 IR | 🔴 | vless | @proxy_kuto | 0",
-                "🇩🇪 DE | 🟢 | vless | @proxy_mtproto_vpns_free | 9",
                 "🇺🇸 US | 🔴 | vless | @proxy_n1 | 6",
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
                 "❔ XX | 🟢 | vless | @public504 | 11",
@@ -265,14 +263,13 @@
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
                 "❔ XX | 🟢 | vless | @xrayzxn | 6",
                 "🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0",
-                "🇫🇷 FR | 🔴 | vless | @zvpnn | 7"
+                "🇮🇷 IR | 🔴 | vless | @zvpnn | 7"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraNet | 68",
                 "🇺🇸 US | 🔴 | vless | @alo_v2rayng | 0",
                 "🇮🇳 IN | 🟢 | vless | @argo_vpn1 | 3",
                 "🇺🇸 US | 🔴 | vless | @argooo_vpn | 14",
@@ -297,7 +294,7 @@
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇺🇸 US | 🔴 | vless | @custom_v2ray | 5",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
-                "🇺🇸 US | 🔴 | vless | @darkma3ter24 | 13",
+                "🇮🇷 IR | 🔴 | vless | @darkma3ter24 | 13",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇮🇷 IR | 🔴 | vless | @easy_free_vpn | 2",
                 "🇩🇪 DE | 🔴 | vless | @ehsawn8 | 4",
@@ -379,7 +376,6 @@
                 "❔ XX | 🟢 | vless | @proxy_confiingir | 3",
                 "❔ XX | 🟢 | vless | @proxy_iranv2 | 3",
                 "🇮🇷 IR | 🔴 | vless | @proxy_kuto | 0",
-                "🇩🇪 DE | 🟢 | vless | @proxy_mtproto_vpns_free | 9",
                 "🇺🇸 US | 🔴 | vless | @proxy_n1 | 6",
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
                 "❔ XX | 🟢 | vless | @public504 | 11",
@@ -432,7 +428,7 @@
                 "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
                 "❔ XX | 🟢 | vless | @xrayzxn | 6",
                 "🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0",
-                "🇫🇷 FR | 🔴 | vless | @zvpnn | 7"
+                "🇮🇷 IR | 🔴 | vless | @zvpnn | 7"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -453,31 +449,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraNet | 68",
-            "type": "vless",
-            "server": "openai.com",
-            "server_port": 443,
-            "uuid": "101e6a7d-7d10-4859-a626-8a76daab4547",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "nkAnG2rEpLACE.airlineSHoma.Com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2560",
-                "headers": {
-                    "Host": "nkAnG2rEpLACE.airlineSHoma.Com"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @alo_v2rayng | 0",
@@ -847,7 +818,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @darkma3ter24 | 13",
+            "tag": "🇮🇷 IR | 🔴 | vless | @darkma3ter24 | 13",
             "type": "vless",
             "server": "www.parspack.com",
             "server_port": 8080,
@@ -2190,29 +2161,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @proxy_mtproto_vpns_free | 9",
-            "type": "vless",
-            "server": "real-all3-2.sdcards.ir",
-            "server_port": 8501,
-            "uuid": "ac37eb9c-0db8-4056-8f61-e8db4e2da35e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "OJ0wA5wp55uZdD16dutlTZvx1x-rbMMXmiO9D_MMCHI",
-                    "short_id": "e701a013553059ba"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🔴 | vless | @proxy_n1 | 6",
             "type": "vless",
             "server": "www.zula.ir",
@@ -3155,7 +3103,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔴 | vless | @zvpnn | 7",
+            "tag": "🇮🇷 IR | 🔴 | vless | @zvpnn | 7",
             "type": "vless",
             "server": "power.dlmoviz.ir",
             "server_port": 2020,

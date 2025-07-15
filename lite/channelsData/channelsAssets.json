@@ -10,6 +10,7 @@
     },
     "NamiraNet": {
         "types": [
+            "ss",
             "trojan",
             "vless",
             "vmess"
@@ -290,9 +291,9 @@
     },
     "club_profsor": {
         "types": [
-            "vmess",
             "vless",
-            "ss"
+            "ss",
+            "vmess"
         ],
         "title": "VPN | Professor Club",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/club_profsor.jpg"
@@ -1041,9 +1042,9 @@
     "hope_net": {
         "types": [
             "vless",
+            "vmess",
             "ss",
-            "trojan",
-            "vmess"
+            "trojan"
         ],
         "title": "🕊 Hope Net",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/hope_net.jpg"
@@ -2102,9 +2103,8 @@
     },
     "proxy_mtproto_vpns_free": {
         "types": [
-            "vmess",
-            "ss",
-            "vless"
+            "vless",
+            "ss"
         ],
         "title": "VPNs Proxy Mtproto",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/proxy_mtproto_vpns_free.jpg"
@@ -2663,9 +2663,8 @@
     },
     "v2rayfree": {
         "types": [
-            "vmess",
-            "ss",
-            "vless"
+            "vless",
+            "ss"
         ],
         "title": "VPNs Proxy Mtproto",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayfree.jpg"
@@ -2907,7 +2906,8 @@
     },
     "v2rayweb": {
         "types": [
-            "vless"
+            "vless",
+            "trojan"
         ],
         "title": "V2ray | VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"
