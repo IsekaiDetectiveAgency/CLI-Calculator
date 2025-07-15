@@ -111,8 +111,7 @@
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇮🇹 IT | 🔴 | vless | @vaslvip | 16",
-                "🇺🇸 US | 🔴 | vless | @vistav2ray | 17"
+                "🇮🇹 IT | 🔴 | vless | @vaslvip | 16"
             ]
         },
         {
@@ -125,8 +124,7 @@
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇮🇹 IT | 🔴 | vless | @vaslvip | 16",
-                "🇺🇸 US | 🔴 | vless | @vistav2ray | 17"
+                "🇮🇹 IT | 🔴 | vless | @vaslvip | 16"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -247,24 +245,6 @@
             "uuid": "c3cbc7f0-4775-4493-a15e-1c3e7dbe07d5",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @vistav2ray | 17",
-            "type": "vless",
-            "server": "45.63.92.206",
-            "server_port": 443,
-            "uuid": "7197f7d0-0fd2-40d4-83ad-d2755a4f91b3",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "45.63.92.206",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         }
     ],
     "route": {

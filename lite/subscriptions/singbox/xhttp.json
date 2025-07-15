@@ -121,15 +121,13 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "🇺🇸 US | 🔴 | vless | @v2raying | 14",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
-                "🇮🇹 IT | 🟢 | vless | @v2rayweb | 10",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 12",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 8",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇮🇹 IT | 🔴 | vless | @vaslvip | 16",
-                "🇺🇸 US | 🔴 | vless | @vistav2ray | 17"
+                "🇮🇹 IT | 🔴 | vless | @vaslvip | 16"
             ]
         },
         {
@@ -152,15 +150,13 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "🇺🇸 US | 🔴 | vless | @v2raying | 14",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
-                "🇮🇹 IT | 🟢 | vless | @v2rayweb | 10",
                 "🇺🇸 US | 🔴 | vless | @fastkanfig | 12",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 8",
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇮🇹 IT | 🔴 | vless | @vaslvip | 16",
-                "🇺🇸 US | 🔴 | vless | @vistav2ray | 17"
+                "🇮🇹 IT | 🔴 | vless | @vaslvip | 16"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -345,29 +341,6 @@
             }
         },
         {
-            "tag": "🇮🇹 IT | 🟢 | vless | @v2rayweb | 10",
-            "type": "vless",
-            "server": "wwwwww.mohsen.com.it.studentcp.ir",
-            "server_port": 16532,
-            "uuid": "3e2b1d35-7f3f-24e4-21c2-306bcbabc290",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "7BDmup4-19PSCfrsZQEco7md0-j-34qWEA-wmDgYuHc",
-                    "short_id": "327f5a20cef62bbb"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🔴 | vless | @fastkanfig | 12",
             "type": "vless",
             "server": "216.22.5.96",
@@ -466,24 +439,6 @@
             "uuid": "c3cbc7f0-4775-4493-a15e-1c3e7dbe07d5",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @vistav2ray | 17",
-            "type": "vless",
-            "server": "45.63.92.206",
-            "server_port": 443,
-            "uuid": "7197f7d0-0fd2-40d4-83ad-d2755a4f91b3",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "45.63.92.206",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         }
     ],
     "route": {
