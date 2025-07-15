@@ -108,13 +108,13 @@
                 "🇯🇵 JP | 🔴 | trojan | @NamiraNet | 69",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇫🇷 FR | 🟢 | trojan | @directvpn | 16",
-                "🇺🇸 US | 🔴 | trojan | @hope_net | 19",
+                "🇫🇷 FR | 🟢 | trojan | @directvpn | 14",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
-                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 16",
+                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 14",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇩🇪 DE | 🟢 | trojan | @v2ray_extractor | 19",
+                "🇫🇷 FR | 🟢 | trojan | @v2ray_free_conf | 19",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 15",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
@@ -127,13 +127,13 @@
                 "🇯🇵 JP | 🔴 | trojan | @NamiraNet | 69",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇫🇷 FR | 🟢 | trojan | @directvpn | 16",
-                "🇺🇸 US | 🔴 | trojan | @hope_net | 19",
+                "🇫🇷 FR | 🟢 | trojan | @directvpn | 14",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
-                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 16",
+                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 14",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇩🇪 DE | 🟢 | trojan | @v2ray_extractor | 19",
+                "🇫🇷 FR | 🟢 | trojan | @v2ray_free_conf | 19",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 15",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
@@ -209,9 +209,9 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @directvpn | 16",
+            "tag": "🇫🇷 FR | 🟢 | trojan | @directvpn | 14",
             "type": "trojan",
-            "server": "13.36.56.86",
+            "server": "35.181.120.43",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "tls": {
@@ -223,13 +223,6 @@
                     "fingerprint": "chrome"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | trojan | @hope_net | 19",
-            "type": "trojan",
-            "server": "167.68.4.10",
-            "server_port": 2096,
-            "password": "Aimer"
         },
         {
             "tag": "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
@@ -271,9 +264,9 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @privatevpns | 16",
+            "tag": "🇫🇷 FR | 🟢 | trojan | @privatevpns | 14",
             "type": "trojan",
-            "server": "13.36.56.86",
+            "server": "35.181.120.43",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "tls": {
@@ -319,6 +312,22 @@
             }
         },
         {
+            "tag": "🇫🇷 FR | 🟢 | trojan | @v2ray_free_conf | 19",
+            "type": "trojan",
+            "server": "35.180.106.215",
+            "server_port": 22223,
+            "password": "telegram-id-directvpn",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
             "type": "trojan",
             "server": "104.149.155.13",
@@ -337,7 +346,7 @@
         {
             "tag": "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 15",
             "type": "trojan",
-            "server": "13.36.56.86",
+            "server": "35.181.120.43",
             "server_port": 22223,
             "password": "telegram-id-v2rayvpnchannel",
             "tls": {

@@ -133,7 +133,6 @@
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
                 "🇩🇪 DE | 🟢 | vless | @vpnvg | 14",
                 "🇩🇪 DE | 🟢 | vless | @x4azadi | 14",
-                "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
@@ -153,7 +152,6 @@
                 "🇩🇪 DE | 🟢 | vless | @vmess_ir | 16",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
-                "🇩🇪 DE | 🟢 | vless | @vpnplusee_free | 18",
                 "🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0",
                 "❔ XX | 🟢 | vless | @kesslervpn | 2"
             ]
@@ -190,7 +188,6 @@
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
                 "🇩🇪 DE | 🟢 | vless | @vpnvg | 14",
                 "🇩🇪 DE | 🟢 | vless | @x4azadi | 14",
-                "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
@@ -210,7 +207,6 @@
                 "🇩🇪 DE | 🟢 | vless | @vmess_ir | 16",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
-                "🇩🇪 DE | 🟢 | vless | @vpnplusee_free | 18",
                 "🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0",
                 "❔ XX | 🟢 | vless | @kesslervpn | 2"
             ],
@@ -930,29 +926,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @zerov2shop | 1",
-            "type": "vless",
-            "server": "91.99.97.7",
-            "server_port": 32279,
-            "uuid": "7b5d75e9-2a58-4f82-f2d6-fa2b9355c9da",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "YTLvKt0zlbz5RI_m147go0PMsEa3WdhlQ-tqJKkeNHQ",
-                    "short_id": "353e"
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🟢 | vless | @custom_14 | 7",
             "type": "vless",
             "server": "usa-join.outline-vpn.fun",
@@ -1422,29 +1395,6 @@
                     "enabled": true,
                     "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
                     "short_id": "fd1dff03520d8f56"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @vpnplusee_free | 18",
-            "type": "vless",
-            "server": "vip1.proxystore11.news",
-            "server_port": 2052,
-            "uuid": "a3aef958-6961-464c-b1a9-b09b0f9cd1f7",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vultr.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "-4S95rjoZIG_AeUxIlwedx89e7C_X4jnePY3RsiF4io",
-                    "short_id": "f8fcb589"
                 }
             }
         },
