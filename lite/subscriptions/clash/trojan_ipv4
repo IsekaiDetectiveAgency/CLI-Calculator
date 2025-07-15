@@ -18,6 +18,7 @@ dns:
 
 proxies:
   - {"name":"🇫🇷 FR | 🟢 | trojan | @directvpn | 17","type":"trojan","server":"15.236.121.218","port":22223,"password":"telegram-id-directvpn","skip-cert-verify":false}
+  - {"name":"🇺🇸 US | 🟢 | trojan | @hope_net | 19","type":"trojan","server":"69.48.218.10","port":443,"password":"NISHIKUITAN111","skip-cert-verify":false}
   - {"name":"🇸🇬 SG | 🟢 | trojan | @mpmehi | 0","type":"trojan","server":"146.190.87.238","port":443,"password":"oZAugtgF5T","skip-cert-verify":false}
   - {"name":"🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15","type":"trojan","server":"176.32.39.29","port":443,"password":"8OXD5VVt8s","skip-cert-verify":false}
   - {"name":"🇫🇷 FR | 🟢 | trojan | @privatevpns | 17","type":"trojan","server":"15.236.121.218","port":22222,"password":"telegram-id-privatevpns","skip-cert-verify":false}
@@ -57,6 +58,7 @@ proxy-groups:
     tolerance: 50 
     proxies:
       - '🇫🇷 FR | 🟢 | trojan | @directvpn | 17'
+      - '🇺🇸 US | 🟢 | trojan | @hope_net | 19'
       - '🇸🇬 SG | 🟢 | trojan | @mpmehi | 0'
       - '🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15'
       - '🇫🇷 FR | 🟢 | trojan | @privatevpns | 17'
@@ -72,6 +74,7 @@ proxy-groups:
     interval: 300
     proxies:
       - '🇫🇷 FR | 🟢 | trojan | @directvpn | 17'
+      - '🇺🇸 US | 🟢 | trojan | @hope_net | 19'
       - '🇸🇬 SG | 🟢 | trojan | @mpmehi | 0'
       - '🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15'
       - '🇫🇷 FR | 🟢 | trojan | @privatevpns | 17'
@@ -85,6 +88,7 @@ proxy-groups:
     type: select
     proxies:
       - '🇫🇷 FR | 🟢 | trojan | @directvpn | 17'
+      - '🇺🇸 US | 🟢 | trojan | @hope_net | 19'
       - '🇸🇬 SG | 🟢 | trojan | @mpmehi | 0'
       - '🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15'
       - '🇫🇷 FR | 🟢 | trojan | @privatevpns | 17'

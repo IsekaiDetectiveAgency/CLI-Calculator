@@ -34,7 +34,7 @@ proxies:
   - {"name":"🇩🇪 DE | 🟢 | vless | @outline_ir | 14","type":"vless","server":"5.75.197.120","port":2025,"uuid":"54b4c039-7be6-448f-b704-820251b079db","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"www.cloudflare.com","grpc-opts":{"grpc-service-name":"Telegram : @PouRia_Cheat"},"reality-opts":{"public-key":"AUNIYov4R2TvNmC0cF0NiKWYGqzikosOu4g2wcCALlw","short-id":"8d9c20be72b4"}}
   - {"name":"🇺🇸 US | 🟢 | vless | @proxygrizzly | 0","type":"vless","server":"147.182.183.207","port":443,"uuid":"e7be1334-6a1d-47c0-8c9a-c7a5b8575499","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"yahoo.com","reality-opts":{"public-key":"z--KbBlQtkBgTcrtdBJeGeCymIrLdaUDwkb44pAp6nY","short-id":"4c"}}
   - {"name":"🇩🇪 DE | 🟢 | vless | @prrofile_purple | 127","type":"vless","server":"91.107.163.43","port":42370,"uuid":"87724fb4-12e0-4c70-9c2c-19fbd323133a","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"yahoo.com","grpc-opts":{"grpc-service-name":"@ZedBaz_vpn"},"reality-opts":{"public-key":"xSfwwBYg9e6BdXVgmH8pRW83SgKOocyvGcw57xSeHTk","short-id":"479f4834"}}
-  - {"name":"🇮🇪 IE | 🟢 | vless | @v2aryng_vpn | 9","type":"vless","server":"34.247.254.247","port":50768,"uuid":"c7e4c202-cfdf-44df-85a7-a9e7b4545a74","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"servername":"jetbrains.com","reality-opts":{"public-key":"7kUu70kwGDQ65WQHCBXcQ-KLQa5V8VVxX3zMML7hSlQ","short-id":"4e78519d"}}
+  - {"name":"🇳🇱 NL | 🟢 | vless | @v2ray_free_conf | 19","type":"vless","server":"85.234.65.120","port":443,"uuid":"fdc0229d-2037-48c4-94d3-496e67cce5d8","tls":true,"network":"tcp","client-fingerprint":null,"udp":true,"servername":"github.com","reality-opts":{"public-key":"307pppp6s7XwguGbsjY3xaJPIubgj_D8zNJT5SmtsVA","short-id":"f90c"}}
   - {"name":"🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8","type":"vless","server":"168.119.184.138","port":25093,"uuid":"243418d0-bf94-4710-8311-7507778a4cc2","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"servername":"joinv_2rayngvpn.v2rayvpn2.sbs","grpc-opts":{"grpc-service-name":"@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn-@V_2rayngVpn"},"reality-opts":{"public-key":"Y6NKkoTdEh7XQpLP0NrLTpwEWyEyL3E7PouAC4ShTXY","short-id":"48d69fd8"}}
   - {"name":"🇺🇸 US | 🟢 | vless | @v2ray_sub | 8","type":"vless","server":"198.23.206.26","port":59814,"uuid":"1759f2bb-ab83-450b-a89b-4b24c0eea75b","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"yahoo.com","reality-opts":{"public-key":"aWooxptTQgQjHO1JDxB8axAo8jzLWJdOSE6322B7wWY","short-id":"a0209e22"}}
   - {"name":"🇩🇪 DE | 🟢 | vless | @v2rayng_fars | 17","type":"vless","server":"91.107.180.100","port":443,"uuid":"394b8d98-1b04-460d-b163-cd965e25ca51","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"zula.ir","grpc-opts":{"grpc-service-name":"@SobyV2ray"},"reality-opts":{"public-key":"eZs1Yn6wbXV2RPT47_szgepN6lNKseOb9nprDMrpNmE","short-id":"f3"}}
@@ -92,7 +92,7 @@ proxy-groups:
       - '🇩🇪 DE | 🟢 | vless | @outline_ir | 14'
       - '🇺🇸 US | 🟢 | vless | @proxygrizzly | 0'
       - '🇩🇪 DE | 🟢 | vless | @prrofile_purple | 127'
-      - '🇮🇪 IE | 🟢 | vless | @v2aryng_vpn | 9'
+      - '🇳🇱 NL | 🟢 | vless | @v2ray_free_conf | 19'
       - '🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8'
       - '🇺🇸 US | 🟢 | vless | @v2ray_sub | 8'
       - '🇩🇪 DE | 🟢 | vless | @v2rayng_fars | 17'
@@ -126,7 +126,7 @@ proxy-groups:
       - '🇩🇪 DE | 🟢 | vless | @outline_ir | 14'
       - '🇺🇸 US | 🟢 | vless | @proxygrizzly | 0'
       - '🇩🇪 DE | 🟢 | vless | @prrofile_purple | 127'
-      - '🇮🇪 IE | 🟢 | vless | @v2aryng_vpn | 9'
+      - '🇳🇱 NL | 🟢 | vless | @v2ray_free_conf | 19'
       - '🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8'
       - '🇺🇸 US | 🟢 | vless | @v2ray_sub | 8'
       - '🇩🇪 DE | 🟢 | vless | @v2rayng_fars | 17'
@@ -158,7 +158,7 @@ proxy-groups:
       - '🇩🇪 DE | 🟢 | vless | @outline_ir | 14'
       - '🇺🇸 US | 🟢 | vless | @proxygrizzly | 0'
       - '🇩🇪 DE | 🟢 | vless | @prrofile_purple | 127'
-      - '🇮🇪 IE | 🟢 | vless | @v2aryng_vpn | 9'
+      - '🇳🇱 NL | 🟢 | vless | @v2ray_free_conf | 19'
       - '🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8'
       - '🇺🇸 US | 🟢 | vless | @v2ray_sub | 8'
       - '🇩🇪 DE | 🟢 | vless | @v2rayng_fars | 17'
