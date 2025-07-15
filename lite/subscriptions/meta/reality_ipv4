@@ -17,7 +17,6 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇨🇿 CZ | 🟢 | vless | @bored_vpn | 9","type":"vless","server":"194.182.79.182","port":29706,"uuid":"c8da575a-b3ab-4949-985c-d151335b5301","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"sourceforge.net","grpc-opts":{"grpc-service-name":"Join-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"},"reality-opts":{"public-key":"9EHYRTmUgCJodNs5L4wTxoxniVtvsXFonfQ1H72LqRQ","short-id":"ef8dfc4f801d89"}}
   - {"name":"🇫🇷 FR | 🟢 | vless | @configasli | 6","type":"vless","server":"172.232.33.18","port":443,"uuid":"fe48773b-df06-409a-bc61-117cd8fb1eb7","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"ftp.debian.org","reality-opts":{"public-key":"PTlW40u-tHGDlObhSKFN4tntrfHLgNPlHqg1oYqyY1o","short-id":"b5ecd44d"}}
   - {"name":"🇦🇪 AE | 🟢 | vless | @darkfiilter | 2","type":"vless","server":"51.112.101.2","port":3040,"uuid":"b44067d6-8476-4135-9807-5fc1819e533c","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"refersion.com","reality-opts":{"public-key":"21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI"}}
   - {"name":"🇨🇿 CZ | 🟢 | vless | @dnsforyou | 5","type":"vless","server":"194.182.79.72","port":32826,"uuid":"2dc62e43-90f5-4d72-815b-c64b40d19088","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"sourceforge.net","grpc-opts":{"grpc-service-name":"Join-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON"},"reality-opts":{"public-key":"viVxJfUpCBYia6ZwmuHkuS19C1ARC3OCaaRG9VvOIhg","short-id":"e8f24f79"}}
@@ -70,7 +69,6 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇨🇿 CZ | 🟢 | vless | @bored_vpn | 9'
       - '🇫🇷 FR | 🟢 | vless | @configasli | 6'
       - '🇦🇪 AE | 🟢 | vless | @darkfiilter | 2'
       - '🇨🇿 CZ | 🟢 | vless | @dnsforyou | 5'
@@ -99,7 +97,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇨🇿 CZ | 🟢 | vless | @bored_vpn | 9'
       - '🇫🇷 FR | 🟢 | vless | @configasli | 6'
       - '🇦🇪 AE | 🟢 | vless | @darkfiilter | 2'
       - '🇨🇿 CZ | 🟢 | vless | @dnsforyou | 5'
@@ -126,7 +123,6 @@ proxy-groups:
   - name: All-Proxies
     type: select
     proxies:
-      - '🇨🇿 CZ | 🟢 | vless | @bored_vpn | 9'
       - '🇫🇷 FR | 🟢 | vless | @configasli | 6'
       - '🇦🇪 AE | 🟢 | vless | @darkfiilter | 2'
       - '🇨🇿 CZ | 🟢 | vless | @dnsforyou | 5'

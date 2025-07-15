@@ -10,13 +10,13 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇯🇵 JP | 🔴 | trojan | @NamiraNet | 69 = trojan, ss.usalink.xyz, 13205, password = 6a60356a-0875-40d9-81f3-3ef82cede767, skip-cert-verify = false
-🇨🇦 CA | 🟢 | trojan | @cryptoguardvpn | 2 = trojan, production.tj.ojan.workers.dev, 443, password = 9yu6m5okr, skip-cert-verify = false
+🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2 = trojan, production.tj.ojan.workers.dev, 443, password = 9yu6m5okr, skip-cert-verify = false
 ❔ XX | 🟢 | trojan | @maradona_vpn | 8 = trojan, maradona_vpn.history-paint.art, 443, password = Maradona_vpn, skip-cert-verify = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇯🇵 JP | 🔴 | trojan | @NamiraNet | 69, 🇨🇦 CA | 🟢 | trojan | @cryptoguardvpn | 2, ❔ XX | 🟢 | trojan | @maradona_vpn | 8
-PSG-AUTO = url-test, 🇯🇵 JP | 🔴 | trojan | @NamiraNet | 69, 🇨🇦 CA | 🟢 | trojan | @cryptoguardvpn | 2, ❔ XX | 🟢 | trojan | @maradona_vpn | 8
-PSG-FALLBACK = fallback, 🇯🇵 JP | 🔴 | trojan | @NamiraNet | 69, 🇨🇦 CA | 🟢 | trojan | @cryptoguardvpn | 2, ❔ XX | 🟢 | trojan | @maradona_vpn | 8
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇯🇵 JP | 🔴 | trojan | @NamiraNet | 69, 🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2, ❔ XX | 🟢 | trojan | @maradona_vpn | 8
+PSG-AUTO = url-test, 🇯🇵 JP | 🔴 | trojan | @NamiraNet | 69, 🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2, ❔ XX | 🟢 | trojan | @maradona_vpn | 8
+PSG-FALLBACK = fallback, 🇯🇵 JP | 🔴 | trojan | @NamiraNet | 69, 🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2, ❔ XX | 🟢 | trojan | @maradona_vpn | 8
 
 [Rule]
 GEOIP,IR,DIRECT
