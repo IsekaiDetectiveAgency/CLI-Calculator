@@ -121,6 +121,7 @@
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇩🇪 DE | 🟢 | vless | @noviin_tel | 1",
+                "🇳🇱 NL | 🟢 | vless | @proxy_mtproto_vpns_free | 12",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
                 "🇺🇸 US | 🟢 | vless | @v2ray_sub | 8",
@@ -147,7 +148,6 @@
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
                 "❔ XX | 🟢 | vless | @public504 | 11",
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
-                "🇩🇪 DE | 🟢 | vless | @v2rayng_fars | 17",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngvpn_1 | 6",
@@ -178,6 +178,7 @@
                 "🇩🇪 DE | 🟢 | vless | @mehduox_vpn | 2",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇩🇪 DE | 🟢 | vless | @noviin_tel | 1",
+                "🇳🇱 NL | 🟢 | vless | @proxy_mtproto_vpns_free | 12",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
                 "🇺🇸 US | 🟢 | vless | @v2ray_sub | 8",
@@ -204,7 +205,6 @@
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
                 "❔ XX | 🟢 | vless | @public504 | 11",
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
-                "🇩🇪 DE | 🟢 | vless | @v2rayng_fars | 17",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngvpn_1 | 6",
@@ -628,6 +628,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@SobyV2ray"
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | vless | @proxy_mtproto_vpns_free | 12",
+            "type": "vless",
+            "server": "91.198.77.59",
+            "server_port": 442,
+            "uuid": "6d38c5fa-a240-458c-a4e3-fa440c5f71b7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "rond.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "TboeQVKuOKk7y5dpDtjvBF58HyUjJ9PODF6tXlsqWHY",
+                    "short_id": ""
+                }
             }
         },
         {
@@ -1276,29 +1299,6 @@
                     "enabled": true,
                     "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
                     "short_id": "ea1058117be12087"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayng_fars | 17",
-            "type": "vless",
-            "server": "vip1.proxystore11.news",
-            "server_port": 2052,
-            "uuid": "a3aef958-6961-464c-b1a9-b09b0f9cd1f7",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vultr.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "-4S95rjoZIG_AeUxIlwedx89e7C_X4jnePY3RsiF4io",
-                    "short_id": "f8fcb589"
                 }
             }
         },
