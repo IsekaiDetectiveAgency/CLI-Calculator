@@ -679,14 +679,6 @@
         "title": "Flash Proxies",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/flash_proxies.jpg"
     },
-    "fnet00": {
-        "types": [
-            "vless",
-            "vmess"
-        ],
-        "title": "🗽 FNET00 | همه چیز آزاد 🤍",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/fnet00.jpg"
-    },
     "freakconfig": {
         "types": [
             "vmess",
@@ -823,8 +815,7 @@
     "freevirgoolnet": {
         "types": [
             "ss",
-            "vless",
-            "vmess"
+            "vless"
         ],
         "title": "🚀 Free VirgoolNet",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/freevirgoolnet.jpg"
@@ -991,20 +982,12 @@
     },
     "hope_net": {
         "types": [
-            "vless",
             "ss",
-            "vmess"
+            "vless",
+            "trojan"
         ],
         "title": "🕊 Hope Net",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/hope_net.jpg"
-    },
-    "hopev2ray": {
-        "types": [
-            "trojan",
-            "vless"
-        ],
-        "title": "𝐇𝐨𝐩𝐞 𝐯𝟐𝐫𝐚𝐲",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/hopev2ray.jpg"
     },
     "hormozvpn": {
         "types": [
@@ -1040,7 +1023,8 @@
     },
     "info_2it_channel": {
         "types": [
-            "vless"
+            "vless",
+            "ss"
         ],
         "title": "2IT | اینترنت آزاد",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/info_2it_channel.jpg"
@@ -2462,8 +2446,8 @@
     },
     "v2ray_free_conf": {
         "types": [
-            "ss",
             "vless",
+            "ss",
             "trojan",
             "vmess"
         ],
@@ -2795,7 +2779,9 @@
     },
     "v2rayweb": {
         "types": [
-            "vless"
+            "vmess",
+            "vless",
+            "trojan"
         ],
         "title": "V2ray | VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"
@@ -2819,6 +2805,7 @@
     },
     "v2source": {
         "types": [
+            "ss",
             "vless"
         ],
         "title": "Free V2ray",
