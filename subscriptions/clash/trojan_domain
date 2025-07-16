@@ -17,14 +17,10 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇸🇬 SG | 🟢 | trojan | @NamiraNet | 65","type":"trojan","server":"sg.liangyuandian.top","port":443,"password":"b341f309-7e2b-45c4-a316-9e23037e3711","skip-cert-verify":true}
-  - {"name":"🇸🇬 SG | 🟢 | trojan | @NamiraNet | 66","type":"trojan","server":"jp.liangyuandian.top","port":443,"password":"cc55e294-b76f-425a-9301-c18afbecaa22","skip-cert-verify":true}
-  - {"name":"🇸🇬 SG | 🟢 | trojan | @NamiraNet | 67","type":"trojan","server":"de.liangyuandian.top","port":443,"password":"176196e4-7cf7-4561-87a9-21a1b4e344be","skip-cert-verify":true}
   - {"name":"❔ XX | 🟢 | trojan | @armodchannel | 59","type":"trojan","server":"asia.artunnel57.host","port":443,"password":"fa9b326c-ca6f-4bb2-88f5-a163b404fcf8","skip-cert-verify":false}
   - {"name":"❔ XX | 🔴 | trojan | @armodchannel | 60","type":"trojan","server":"asia.artunnel57.host","port":80,"password":"fa9b326c-ca6f-4bb2-88f5-a163b404fcf8","skip-cert-verify":false}
   - {"name":"🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2","type":"trojan","server":"production.tj.ojan.workers.dev","port":443,"password":"9yu6m5okr","skip-cert-verify":false}
   - {"name":"❔ XX | 🟢 | trojan | @fati_ffx | 1","type":"trojan","server":"t3.teslacdn2.live","port":443,"password":"e1c12e6f-a555-4ff8-b071-1e09dd5d91e6","skip-cert-verify":false}
-  - {"name":"🇸🇬 SG | 🔴 | trojan | @hope_net | 19","type":"trojan","server":"in01.trojanyyds.xyz","port":443,"password":"243eab52-9ac1-405c-887c-eb112c0985b8","skip-cert-verify":false}
   - {"name":"🇺🇸 US | 🟢 | trojan | @hopev2ray | 1","type":"trojan","server":"usa.test3.net","port":443,"password":"7cf2d310-489f-11f0-8746-1239d0255272","skip-cert-verify":false}
   - {"name":"❔ XX | 🟢 | trojan | @iraniv2ray | 3","type":"trojan","server":"lllliraniv2rayllll.norooz.shop","port":2083,"password":"BWDcALS5TU","skip-cert-verify":false}
   - {"name":"❔ XX | 🟢 | trojan | @jiedianf | 4","type":"trojan","server":"e312e558-sxusg0-t3f7qr-141tv.cu.plebai.net","port":15229,"password":"bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b","skip-cert-verify":true}
@@ -33,7 +29,6 @@ proxies:
   - {"name":"❔ XX | 🟢 | trojan | @maradona_vpn | 7","type":"trojan","server":"maradona_vpn10.history-paint.art","port":443,"password":"maradona_vpn","skip-cert-verify":false}
   - {"name":"❔ XX | 🟢 | trojan | @maradona_vpn | 8","type":"trojan","server":"maradona_vpn.history-paint.art","port":443,"password":"Maradona_vpn","skip-cert-verify":false}
   - {"name":"❔ XX | 🟢 | trojan | @mtpv2ray | 5","type":"trojan","server":"box.mtpmio.sbs","port":37024,"password":"VZlHU01v6p","skip-cert-verify":false}
-  - {"name":"🇫🇷 FR | 🟢 | trojan | @netmellianti | 12","type":"trojan","server":"x5-france-scaleway-v2.devefun.org","port":1935,"password":"DHvyBZAYmM","skip-cert-verify":false}
   - {"name":"🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 13","type":"trojan","server":"ru2.asc-sam.ir","port":443,"password":"AdPYCBfMUM","skip-cert-verify":false}
   - {"name":"🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 14","type":"trojan","server":"ru2.asc-sam.ir","port":443,"password":"IM4e0ZQNPU","skip-cert-verify":false}
   - {"name":"🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3","type":"trojan","server":"chatbuzzteambhm.chatbuzzt7150.workers.dev","port":443,"password":"c7f9b8f0-bfdb-11ee-a15c-1239d0255272","skip-cert-verify":false}
@@ -72,14 +67,10 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇸🇬 SG | 🟢 | trojan | @NamiraNet | 65'
-      - '🇸🇬 SG | 🟢 | trojan | @NamiraNet | 66'
-      - '🇸🇬 SG | 🟢 | trojan | @NamiraNet | 67'
       - '❔ XX | 🟢 | trojan | @armodchannel | 59'
       - '❔ XX | 🔴 | trojan | @armodchannel | 60'
       - '🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2'
       - '❔ XX | 🟢 | trojan | @fati_ffx | 1'
-      - '🇸🇬 SG | 🔴 | trojan | @hope_net | 19'
       - '🇺🇸 US | 🟢 | trojan | @hopev2ray | 1'
       - '❔ XX | 🟢 | trojan | @iraniv2ray | 3'
       - '❔ XX | 🟢 | trojan | @jiedianf | 4'
@@ -88,7 +79,6 @@ proxy-groups:
       - '❔ XX | 🟢 | trojan | @maradona_vpn | 7'
       - '❔ XX | 🟢 | trojan | @maradona_vpn | 8'
       - '❔ XX | 🟢 | trojan | @mtpv2ray | 5'
-      - '🇫🇷 FR | 🟢 | trojan | @netmellianti | 12'
       - '🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 13'
       - '🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 14'
       - '🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3'
@@ -103,14 +93,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇸🇬 SG | 🟢 | trojan | @NamiraNet | 65'
-      - '🇸🇬 SG | 🟢 | trojan | @NamiraNet | 66'
-      - '🇸🇬 SG | 🟢 | trojan | @NamiraNet | 67'
       - '❔ XX | 🟢 | trojan | @armodchannel | 59'
       - '❔ XX | 🔴 | trojan | @armodchannel | 60'
       - '🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2'
       - '❔ XX | 🟢 | trojan | @fati_ffx | 1'
-      - '🇸🇬 SG | 🔴 | trojan | @hope_net | 19'
       - '🇺🇸 US | 🟢 | trojan | @hopev2ray | 1'
       - '❔ XX | 🟢 | trojan | @iraniv2ray | 3'
       - '❔ XX | 🟢 | trojan | @jiedianf | 4'
@@ -119,7 +105,6 @@ proxy-groups:
       - '❔ XX | 🟢 | trojan | @maradona_vpn | 7'
       - '❔ XX | 🟢 | trojan | @maradona_vpn | 8'
       - '❔ XX | 🟢 | trojan | @mtpv2ray | 5'
-      - '🇫🇷 FR | 🟢 | trojan | @netmellianti | 12'
       - '🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 13'
       - '🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 14'
       - '🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3'
@@ -132,14 +117,10 @@ proxy-groups:
   - name: All-Proxies
     type: select
     proxies:
-      - '🇸🇬 SG | 🟢 | trojan | @NamiraNet | 65'
-      - '🇸🇬 SG | 🟢 | trojan | @NamiraNet | 66'
-      - '🇸🇬 SG | 🟢 | trojan | @NamiraNet | 67'
       - '❔ XX | 🟢 | trojan | @armodchannel | 59'
       - '❔ XX | 🔴 | trojan | @armodchannel | 60'
       - '🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2'
       - '❔ XX | 🟢 | trojan | @fati_ffx | 1'
-      - '🇸🇬 SG | 🔴 | trojan | @hope_net | 19'
       - '🇺🇸 US | 🟢 | trojan | @hopev2ray | 1'
       - '❔ XX | 🟢 | trojan | @iraniv2ray | 3'
       - '❔ XX | 🟢 | trojan | @jiedianf | 4'
@@ -148,7 +129,6 @@ proxy-groups:
       - '❔ XX | 🟢 | trojan | @maradona_vpn | 7'
       - '❔ XX | 🟢 | trojan | @maradona_vpn | 8'
       - '❔ XX | 🟢 | trojan | @mtpv2ray | 5'
-      - '🇫🇷 FR | 🟢 | trojan | @netmellianti | 12'
       - '🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 13'
       - '🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 14'
       - '🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3'

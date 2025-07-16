@@ -106,7 +106,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇺🇸 US | 🔴 | vless | @blueshekan | 2",
-                "🇺🇸 US | 🔴 | vless | @configscenter | 4",
+                "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇺🇸 US | 🔴 | vless | @elfv2ray | 4",
@@ -115,11 +115,10 @@
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 4",
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 3",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
-                "Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=lake10.global.ssl.fastly.net&type=xhttp#🇺🇸 US | 🔴 | vless | @getconfigir | 19",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 3",
-                "🇺🇸 US | 🔴 | vless | @meli_proxyy | 21",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
-                "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 5"
+                "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
+                "🇺🇸 US | 🔴 | vless | @vpnv2rayngv | 19"
             ]
         },
         {
@@ -127,7 +126,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇺🇸 US | 🔴 | vless | @blueshekan | 2",
-                "🇺🇸 US | 🔴 | vless | @configscenter | 4",
+                "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇺🇸 US | 🔴 | vless | @elfv2ray | 4",
@@ -136,11 +135,10 @@
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 4",
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 3",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
-                "Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=lake10.global.ssl.fastly.net&type=xhttp#🇺🇸 US | 🔴 | vless | @getconfigir | 19",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 3",
-                "🇺🇸 US | 🔴 | vless | @meli_proxyy | 21",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
-                "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 5"
+                "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
+                "🇺🇸 US | 🔴 | vless | @vpnv2rayngv | 19"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -172,7 +170,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @configscenter | 4",
+            "tag": "🇺🇸 US | 🔴 | vless | @configscenter | 2",
             "type": "vless",
             "server": "2sudo.winapp3.ir",
             "server_port": 80,
@@ -253,29 +251,11 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=lake10.global.ssl.fastly.net&type=xhttp#🇺🇸 US | 🔴 | vless | @getconfigir | 19",
-            "type": "vless",
-            "server": "speedtestcustom.com",
-            "server_port": 80,
-            "uuid": "c95e1271-871f-44ad-bbe9-e05d028d3d40",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇩🇪 DE | 🔴 | vless | @iseqaro | 3",
             "type": "vless",
             "server": "s5.1dnt.k-l.cloud",
             "server_port": 80,
             "uuid": "f353fbf3-b6a1-4524-b916-f65bc077511f",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @meli_proxyy | 21",
-            "type": "vless",
-            "server": "fast1.beraghsa.ir",
-            "server_port": 80,
-            "uuid": "SANRU",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -289,7 +269,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 5",
+            "tag": "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
             "type": "vless",
             "server": "statue.lnmarketplace.net",
             "server_port": 443,
@@ -305,6 +285,15 @@
                     "fingerprint": "chrome"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @vpnv2rayngv | 19",
+            "type": "vless",
+            "server": "fast1.beraghsa.ir",
+            "server_port": 80,
+            "uuid": "SANRU",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
