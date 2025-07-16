@@ -105,18 +105,19 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇬 SG | 🟢 | trojan | @NamiraNet | 64",
+                "🇸🇬 SG | 🟢 | trojan | @NamiraNet | 69",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇫🇷 FR | 🟢 | trojan | @directvpn | 15",
+                "🇭🇰 HK | 🟢 | trojan | @v2rayweb | 19",
+                "🇸🇬 SG | 🟢 | trojan | @v2source | 19",
+                "🇫🇷 FR | 🟢 | trojan | @directvpn | 13",
                 "🇺🇸 US | 🟢 | trojan | @dnsforyou | 8",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
-                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 15",
+                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 13",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
-                "🇩🇪 DE | 🟢 | trojan | @v2ray_free_conf | 19",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
-                "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14",
+                "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 15",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ]
         },
@@ -124,18 +125,19 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇬 SG | 🟢 | trojan | @NamiraNet | 64",
+                "🇸🇬 SG | 🟢 | trojan | @NamiraNet | 69",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇫🇷 FR | 🟢 | trojan | @directvpn | 15",
+                "🇭🇰 HK | 🟢 | trojan | @v2rayweb | 19",
+                "🇸🇬 SG | 🟢 | trojan | @v2source | 19",
+                "🇫🇷 FR | 🟢 | trojan | @directvpn | 13",
                 "🇺🇸 US | 🟢 | trojan | @dnsforyou | 8",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
-                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 15",
+                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 13",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
-                "🇩🇪 DE | 🟢 | trojan | @v2ray_free_conf | 19",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
-                "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14",
+                "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 15",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ],
             "url": "https://www.gstatic.com/generate_204",
@@ -159,14 +161,14 @@
             "type": "dns"
         },
         {
-            "tag": "🇸🇬 SG | 🟢 | trojan | @NamiraNet | 64",
+            "tag": "🇸🇬 SG | 🟢 | trojan | @NamiraNet | 69",
             "type": "trojan",
-            "server": "usa.liangyuandian.top",
+            "server": "ap.liangyuandian.top",
             "server_port": 443,
-            "password": "58dcd460-65df-47b1-b062-517df30bef29",
+            "password": "51c44c4e-f8c2-4419-a52b-b4b7bd915078",
             "tls": {
                 "enabled": true,
-                "server_name": "usa.liangyuandian.top",
+                "server_name": "ap.liangyuandian.top",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -218,9 +220,41 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @directvpn | 15",
+            "tag": "🇭🇰 HK | 🟢 | trojan | @v2rayweb | 19",
             "type": "trojan",
-            "server": "52.47.136.181",
+            "server": "ni.mjt000.com",
+            "server_port": 443,
+            "password": "172b2279-f7f5-4542-ab6c-9e96ad7dd5be",
+            "tls": {
+                "enabled": true,
+                "server_name": "ni.mjt000.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇬 SG | 🟢 | trojan | @v2source | 19",
+            "type": "trojan",
+            "server": "uk.liangyuandian.top",
+            "server_port": 443,
+            "password": "ceaea123-1b4b-469b-8358-bcd5f5529305",
+            "tls": {
+                "enabled": true,
+                "server_name": "uk.liangyuandian.top",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🟢 | trojan | @directvpn | 13",
+            "type": "trojan",
+            "server": "13.38.215.131",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "tls": {
@@ -296,9 +330,9 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @privatevpns | 15",
+            "tag": "🇫🇷 FR | 🟢 | trojan | @privatevpns | 13",
             "type": "trojan",
-            "server": "52.47.136.181",
+            "server": "13.38.215.131",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "tls": {
@@ -328,22 +362,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | trojan | @v2ray_free_conf | 19",
-            "type": "trojan",
-            "server": "104.248.18.1",
-            "server_port": 1935,
-            "password": "6gZh2JbfhQ",
-            "tls": {
-                "enabled": true,
-                "server_name": "x1-germany-digitalocean-v2.devefun.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
             "type": "trojan",
             "server": "104.149.155.13",
@@ -360,9 +378,9 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14",
+            "tag": "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 15",
             "type": "trojan",
-            "server": "52.47.136.181",
+            "server": "13.38.215.131",
             "server_port": 22223,
             "password": "telegram-id-v2rayvpnchannel",
             "tls": {

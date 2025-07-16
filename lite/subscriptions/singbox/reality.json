@@ -112,6 +112,7 @@
                 "🇬🇧 GB | 🟢 | vless | @fire_vpn_channel | 1",
                 "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
+                "🇩🇪 DE | 🟢 | vless | @hope_net | 19",
                 "🇫🇷 FR | 🟢 | vless | @ip_ramzi | 11",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
                 "🇷🇺 RU | 🟢 | vless | @kanfig_majani | 16",
@@ -119,6 +120,7 @@
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇨🇿 CZ | 🟢 | vless | @prrofile_purple | 130",
+                "🇺🇸 US | 🟢 | vless | @selinc | 10",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
                 "🇳🇱 NL | 🟢 | vless | @v2aryng_vpn | 10",
                 "🇨🇿 CZ | 🟢 | vless | @v2pedia | 20",
@@ -144,7 +146,7 @@
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
+                "🇩🇪 DE | 🟢 | vless | @v2rayngrit | 15",
                 "🇩🇪 DE | 🟢 | vless | @vmess_ir | 17",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
@@ -163,6 +165,7 @@
                 "🇬🇧 GB | 🟢 | vless | @fire_vpn_channel | 1",
                 "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
+                "🇩🇪 DE | 🟢 | vless | @hope_net | 19",
                 "🇫🇷 FR | 🟢 | vless | @ip_ramzi | 11",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
                 "🇷🇺 RU | 🟢 | vless | @kanfig_majani | 16",
@@ -170,6 +173,7 @@
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇨🇿 CZ | 🟢 | vless | @prrofile_purple | 130",
+                "🇺🇸 US | 🟢 | vless | @selinc | 10",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
                 "🇳🇱 NL | 🟢 | vless | @v2aryng_vpn | 10",
                 "🇨🇿 CZ | 🟢 | vless | @v2pedia | 20",
@@ -195,7 +199,7 @@
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
+                "🇩🇪 DE | 🟢 | vless | @v2rayngrit | 15",
                 "🇩🇪 DE | 🟢 | vless | @vmess_ir | 17",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
@@ -388,6 +392,33 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🟢 | vless | @hope_net | 19",
+            "type": "vless",
+            "server": "62.60.216.210",
+            "server_port": 443,
+            "uuid": "9d7a5d98-2d17-4f43-b342-eb5962774842",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "russia.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LoNYZgZ6WvqA2qkrVwkz4RHWnjoFTzw4h59F0GeAqh0",
+                    "short_id": "05a6d4aa5e314637"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "djshdgduuxdhgsgstXxCxshcV"
+            }
+        },
+        {
             "tag": "🇫🇷 FR | 🟢 | vless | @ip_ramzi | 11",
             "type": "vless",
             "server": "188.165.122.11",
@@ -554,6 +585,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Join-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @selinc | 10",
+            "type": "vless",
+            "server": "103.175.79.10",
+            "server_port": 443,
+            "uuid": "49ed01ad-3bb4-204f-b0ff-a58f658fd618",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "speed.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI",
+                    "short_id": ""
+                }
             }
         },
         {
@@ -1191,7 +1245,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
+            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayngrit | 15",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,
