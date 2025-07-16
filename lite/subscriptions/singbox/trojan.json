@@ -107,13 +107,11 @@
                 "URL-TEST",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇫🇷 FR | 🟢 | trojan | @netmellianti | 15",
-                "🇩🇪 DE | 🟢 | trojan | @directvpn | 16",
+                "🇩🇪 DE | 🟢 | trojan | @directvpn | 14",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
-                "🇩🇪 DE | 🟢 | trojan | @privatevpns | 16",
+                "🇩🇪 DE | 🟢 | trojan | @privatevpns | 14",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
-                "🇩🇪 DE | 🟢 | trojan | @v2ray_free_conf | 19",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 15",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
@@ -125,13 +123,11 @@
             "outbounds": [
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇫🇷 FR | 🟢 | trojan | @netmellianti | 15",
-                "🇩🇪 DE | 🟢 | trojan | @directvpn | 16",
+                "🇩🇪 DE | 🟢 | trojan | @directvpn | 14",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
-                "🇩🇪 DE | 🟢 | trojan | @privatevpns | 16",
+                "🇩🇪 DE | 🟢 | trojan | @privatevpns | 14",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
-                "🇩🇪 DE | 🟢 | trojan | @v2ray_free_conf | 19",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 15",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
@@ -200,25 +196,9 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @netmellianti | 15",
+            "tag": "🇩🇪 DE | 🟢 | trojan | @directvpn | 14",
             "type": "trojan",
-            "server": "x5-france-scaleway-v2.devefun.org",
-            "server_port": 1935,
-            "password": "DHvyBZAYmM",
-            "tls": {
-                "enabled": true,
-                "server_name": "x5-france-scaleway-v2.devefun.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | trojan | @directvpn | 16",
-            "type": "trojan",
-            "server": "3.78.31.242",
+            "server": "3.76.156.12",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "tls": {
@@ -271,9 +251,9 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | trojan | @privatevpns | 16",
+            "tag": "🇩🇪 DE | 🟢 | trojan | @privatevpns | 14",
             "type": "trojan",
-            "server": "3.78.31.242",
+            "server": "3.76.156.12",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "tls": {
@@ -303,22 +283,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | trojan | @v2ray_free_conf | 19",
-            "type": "trojan",
-            "server": "3.74.102.227",
-            "server_port": 22223,
-            "password": "telegram-id-directvpn",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
             "type": "trojan",
             "server": "104.149.155.13",
@@ -337,7 +301,7 @@
         {
             "tag": "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 15",
             "type": "trojan",
-            "server": "3.78.31.242",
+            "server": "3.76.156.12",
             "server_port": 22223,
             "password": "telegram-id-v2rayvpnchannel",
             "tls": {

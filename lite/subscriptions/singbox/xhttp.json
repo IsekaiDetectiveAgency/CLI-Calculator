@@ -115,7 +115,8 @@
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 4",
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 3",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
-                "🇨🇭 CH | 🔴 | vless | @iseqaro | 4",
+                "🇨🇭 CH | 🔴 | vless | @iseqaro | 3",
+                "🇺🇸 US | 🟢 | vless | @mowjproxy | 3",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 7",
@@ -141,7 +142,8 @@
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 4",
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 3",
                 "🇺🇸 US | 🔴 | vless | @fnet00 | 9",
-                "🇨🇭 CH | 🔴 | vless | @iseqaro | 4",
+                "🇨🇭 CH | 🔴 | vless | @iseqaro | 3",
+                "🇺🇸 US | 🟢 | vless | @mowjproxy | 3",
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
                 "🇺🇸 US | 🔴 | vless | @irv2rey | 7",
@@ -263,13 +265,31 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇨🇭 CH | 🔴 | vless | @iseqaro | 4",
+            "tag": "🇨🇭 CH | 🔴 | vless | @iseqaro | 3",
             "type": "vless",
             "server": "s4.1dnt.k-l.cloud",
             "server_port": 80,
             "uuid": "f353fbf3-b6a1-4524-b916-f65bc077511f",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @mowjproxy | 3",
+            "type": "vless",
+            "server": "Aule.Manwe.ir",
+            "server_port": 443,
+            "uuid": "bdf79d37-877b-4727-b45a-5ba235a01a24",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Varda.Manwe.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
