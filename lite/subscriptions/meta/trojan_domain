@@ -17,11 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇸🇬 SG | 🟢 | trojan | @NamiraNet | 69","type":"trojan","server":"ap.liangyuandian.top","port":443,"password":"51c44c4e-f8c2-4419-a52b-b4b7bd915078","skip-cert-verify":true}
   - {"name":"🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2","type":"trojan","server":"production.tj.ojan.workers.dev","port":443,"password":"9yu6m5okr","skip-cert-verify":false}
   - {"name":"❔ XX | 🟢 | trojan | @maradona_vpn | 8","type":"trojan","server":"maradona_vpn.history-paint.art","port":443,"password":"Maradona_vpn","skip-cert-verify":false}
-  - {"name":"🇭🇰 HK | 🟢 | trojan | @v2rayweb | 19","type":"trojan","server":"ni.mjt000.com","port":443,"password":"172b2279-f7f5-4542-ab6c-9e96ad7dd5be","skip-cert-verify":true}
-  - {"name":"🇸🇬 SG | 🟢 | trojan | @v2source | 19","type":"trojan","server":"uk.liangyuandian.top","port":443,"password":"ceaea123-1b4b-469b-8358-bcd5f5529305","skip-cert-verify":true}
 
 rule-providers:
   ir_domains:
@@ -52,31 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇸🇬 SG | 🟢 | trojan | @NamiraNet | 69'
       - '🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2'
       - '❔ XX | 🟢 | trojan | @maradona_vpn | 8'
-      - '🇭🇰 HK | 🟢 | trojan | @v2rayweb | 19'
-      - '🇸🇬 SG | 🟢 | trojan | @v2source | 19'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇸🇬 SG | 🟢 | trojan | @NamiraNet | 69'
       - '🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2'
       - '❔ XX | 🟢 | trojan | @maradona_vpn | 8'
-      - '🇭🇰 HK | 🟢 | trojan | @v2rayweb | 19'
-      - '🇸🇬 SG | 🟢 | trojan | @v2source | 19'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇸🇬 SG | 🟢 | trojan | @NamiraNet | 69'
       - '🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2'
       - '❔ XX | 🟢 | trojan | @maradona_vpn | 8'
-      - '🇭🇰 HK | 🟢 | trojan | @v2rayweb | 19'
-      - '🇸🇬 SG | 🟢 | trojan | @v2source | 19'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
