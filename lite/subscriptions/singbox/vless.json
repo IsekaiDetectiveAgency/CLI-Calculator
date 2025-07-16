@@ -144,7 +144,7 @@
                 "🇮🇷 IR | 🔴 | vless | @goldenvpn_v2rayy | 3",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇺🇸 US | 🔴 | vless | @hiddify_f | 1",
-                "🏳️  | 🟢 | vless | @hope_net | 19",
+                "🇺🇸 US | 🔴 | vless | @hope_net | 19",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇮🇷 IR | 🔴 | vless | @hoshmasnoiyfarsi | 13",
                 "🇺🇸 US | 🔴 | vless | @icv2ray | 9",
@@ -361,6 +361,7 @@
                 "🇩🇪 DE | 🟢 | vless | @v2rayngvpn_1 | 6",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "❔ XX | 🔴 | vless | @v2rayturbo | 8",
+                "🇺🇸 US | 🟢 | vless | @v2rayweb | 18",
                 "🇺🇸 US | 🟢 | vless | @v2rayy_vpn13 | 12",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
@@ -433,7 +434,7 @@
                 "🇮🇷 IR | 🔴 | vless | @goldenvpn_v2rayy | 3",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇺🇸 US | 🔴 | vless | @hiddify_f | 1",
-                "🏳️  | 🟢 | vless | @hope_net | 19",
+                "🇺🇸 US | 🔴 | vless | @hope_net | 19",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 3",
                 "🇮🇷 IR | 🔴 | vless | @hoshmasnoiyfarsi | 13",
                 "🇺🇸 US | 🔴 | vless | @icv2ray | 9",
@@ -650,6 +651,7 @@
                 "🇩🇪 DE | 🟢 | vless | @v2rayngvpn_1 | 6",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "❔ XX | 🔴 | vless | @v2rayturbo | 8",
+                "🇺🇸 US | 🟢 | vless | @v2rayweb | 18",
                 "🇺🇸 US | 🟢 | vless | @v2rayy_vpn13 | 12",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
@@ -1404,20 +1406,18 @@
             }
         },
         {
-            "tag": "🏳️  | 🟢 | vless | @hope_net | 19",
+            "tag": "🇺🇸 US | 🔴 | vless | @hope_net | 19",
             "type": "vless",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "cabbaca-baac-baac-bacd-bbbbacacacca",
+            "server": "172.67.155.146",
+            "server_port": 8880,
+            "uuid": "2737560d-1867-47fa-aa80-351c36d771c7",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "127.0.0.1",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "172.67.155.146"
                 }
             }
         },
@@ -5132,6 +5132,31 @@
             "uuid": "43330370-6687-48c3-ee7e-56c96853e07b",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @v2rayweb | 18",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "289a4e03-317f-4bf8-97d3-e33200df6a2b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "SimOwEBSitEsPEEDtEst.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/8DBpLq5GSEtdR3Da/MTM1LjE4MS4xNjguMzA",
+                "headers": {
+                    "Host": "SimOwEBSitEsPEEDtEst.ir"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @v2rayy_vpn13 | 12",

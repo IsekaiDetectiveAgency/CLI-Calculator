@@ -239,6 +239,7 @@
                 "🇩🇪 DE | 🟢 | vless | @v2rayngvpn_1 | 6",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "❔ XX | 🔴 | vless | @v2rayturbo | 8",
+                "🇺🇸 US | 🟢 | vless | @v2rayweb | 18",
                 "🇺🇸 US | 🟢 | vless | @v2rayy_vpn13 | 12",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
@@ -400,6 +401,7 @@
                 "🇩🇪 DE | 🟢 | vless | @v2rayngvpn_1 | 6",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "❔ XX | 🔴 | vless | @v2rayturbo | 8",
+                "🇺🇸 US | 🟢 | vless | @v2rayweb | 18",
                 "🇺🇸 US | 🟢 | vless | @v2rayy_vpn13 | 12",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
@@ -2676,6 +2678,31 @@
             "uuid": "43330370-6687-48c3-ee7e-56c96853e07b",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @v2rayweb | 18",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "289a4e03-317f-4bf8-97d3-e33200df6a2b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "SimOwEBSitEsPEEDtEst.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/8DBpLq5GSEtdR3Da/MTM1LjE4MS4xNjguMzA",
+                "headers": {
+                    "Host": "SimOwEBSitEsPEEDtEst.ir"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @v2rayy_vpn13 | 12",
