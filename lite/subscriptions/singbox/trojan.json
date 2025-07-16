@@ -105,7 +105,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇯🇵 JP | 🔴 | trojan | @NamiraNet | 69",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 16",
@@ -115,16 +114,14 @@
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 15",
-                "🇺🇸 US | 🔴 | trojan | @v2rayweb | 17",
-                "🇺🇸 US | 🟢 | trojan | @webhube | 4",
-                "❔ XX | 🔴 | trojan | @freevpnatm | 15"
+                "🇭🇰 HK | 🔴 | trojan | @v2rayweb | 18",
+                "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇯🇵 JP | 🔴 | trojan | @NamiraNet | 69",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 16",
@@ -134,9 +131,8 @@
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 15",
-                "🇺🇸 US | 🔴 | trojan | @v2rayweb | 17",
-                "🇺🇸 US | 🟢 | trojan | @webhube | 4",
-                "❔ XX | 🔴 | trojan | @freevpnatm | 15"
+                "🇭🇰 HK | 🔴 | trojan | @v2rayweb | 18",
+                "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -157,13 +153,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇯🇵 JP | 🔴 | trojan | @NamiraNet | 69",
-            "type": "trojan",
-            "server": "ss.usalink.xyz",
-            "server_port": 13205,
-            "password": "6a60356a-0875-40d9-81f3-3ef82cede767"
         },
         {
             "tag": "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
@@ -328,10 +317,10 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | trojan | @v2rayweb | 17",
+            "tag": "🇭🇰 HK | 🔴 | trojan | @v2rayweb | 18",
             "type": "trojan",
-            "server": "54.176.205.20",
-            "server_port": 80,
+            "server": "27.50.49.156",
+            "server_port": 2096,
             "password": "Aimer"
         },
         {
@@ -354,29 +343,6 @@
                 "path": "/linkvws",
                 "headers": {
                     "Host": "usa-vp-111.mETIkaPPs.cOm"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔴 | trojan | @freevpnatm | 15",
-            "type": "trojan",
-            "server": "[2606:4700:3030::6815:2001]",
-            "server_port": 443,
-            "password": "f108e0e2-5f12-42b6-9e67-1b2f073ffb2b",
-            "tls": {
-                "enabled": true,
-                "server_name": "[2606:4700:3030::6815:2001]",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "[2606:4700:3030::6815:2001]"
                 }
             }
         }

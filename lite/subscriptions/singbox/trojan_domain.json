@@ -105,7 +105,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇯🇵 JP | 🔴 | trojan | @NamiraNet | 69",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8"
             ]
@@ -114,7 +113,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇯🇵 JP | 🔴 | trojan | @NamiraNet | 69",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8"
             ],
@@ -137,13 +135,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇯🇵 JP | 🔴 | trojan | @NamiraNet | 69",
-            "type": "trojan",
-            "server": "ss.usalink.xyz",
-            "server_port": 13205,
-            "password": "6a60356a-0875-40d9-81f3-3ef82cede767"
         },
         {
             "tag": "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
