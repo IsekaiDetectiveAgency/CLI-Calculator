@@ -109,14 +109,15 @@
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 16",
-                "🇩🇪 DE | 🔴 | trojan | @hope_net | 19",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
                 "🇫🇷 FR | 🟢 | trojan | @privatevpns | 16",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 15",
-                "🇺🇸 US | 🟢 | trojan | @webhube | 4"
+                "🇺🇸 US | 🔴 | trojan | @v2rayweb | 17",
+                "🇺🇸 US | 🟢 | trojan | @webhube | 4",
+                "❔ XX | 🔴 | trojan | @freevpnatm | 15"
             ]
         },
         {
@@ -127,14 +128,15 @@
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 16",
-                "🇩🇪 DE | 🔴 | trojan | @hope_net | 19",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
                 "🇫🇷 FR | 🟢 | trojan | @privatevpns | 16",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 15",
-                "🇺🇸 US | 🟢 | trojan | @webhube | 4"
+                "🇺🇸 US | 🔴 | trojan | @v2rayweb | 17",
+                "🇺🇸 US | 🟢 | trojan | @webhube | 4",
+                "❔ XX | 🔴 | trojan | @freevpnatm | 15"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -215,22 +217,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | trojan | @hope_net | 19",
-            "type": "trojan",
-            "server": "165.22.74.230",
-            "server_port": 443,
-            "password": "4732adfa16c6450bbef87264e41332db",
-            "tls": {
-                "enabled": true,
-                "server_name": "nextstepcareer.online",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -342,6 +328,13 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🔴 | trojan | @v2rayweb | 17",
+            "type": "trojan",
+            "server": "54.176.205.20",
+            "server_port": 80,
+            "password": "Aimer"
+        },
+        {
             "tag": "🇺🇸 US | 🟢 | trojan | @webhube | 4",
             "type": "trojan",
             "server": "15.204.175.111",
@@ -361,6 +354,29 @@
                 "path": "/linkvws",
                 "headers": {
                     "Host": "usa-vp-111.mETIkaPPs.cOm"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔴 | trojan | @freevpnatm | 15",
+            "type": "trojan",
+            "server": "[2606:4700:3030::6815:2001]",
+            "server_port": 443,
+            "password": "f108e0e2-5f12-42b6-9e67-1b2f073ffb2b",
+            "tls": {
+                "enabled": true,
+                "server_name": "[2606:4700:3030::6815:2001]",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "[2606:4700:3030::6815:2001]"
                 }
             }
         }
