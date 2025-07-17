@@ -105,12 +105,12 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇷 GR | 🟢 | ss | @NamiraNet | 68",
                 "🇳🇱 NL | 🟢 | ss | @ai_duet | 8",
                 "🇰🇷 KR | 🟢 | ss | @argo_vpn1 | 7",
                 "🇦🇹 AT | 🟢 | ss | @arv2ra | 7",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇺🇸 US | 🟢 | ss | @customvpnserver | 27",
+                "🇦🇹 AT | 🟢 | ss | @free1ss | 17",
                 "🇫🇷 FR | 🟢 | ss | @freevirgoolnet | 7",
                 "🇬🇧 GB | 🟢 | ss | @info_2it_channel | 13",
                 "🇬🇧 GB | 🟢 | ss | @injectormconf | 39",
@@ -127,8 +127,8 @@
                 "🇸🇪 SE | 🟢 | ss | @shadowsockskeys | 17",
                 "🇳🇱 NL | 🟢 | ss | @summertimeus | 14",
                 "🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7",
-                "🇸🇮 SI | 🟢 | ss | @v2ray_free_conf | 19",
                 "🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27",
+                "🇭🇰 HK | 🟢 | ss | @v2source | 19",
                 "🇵🇱 PL | 🟢 | ss | @vipufovpn | 19",
                 "🇺🇸 US | 🟢 | ss | @vmessiranproxy | 19",
                 "🇫🇷 FR | 🟢 | ss | @vpnfreeaccounts | 15",
@@ -153,12 +153,12 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇷 GR | 🟢 | ss | @NamiraNet | 68",
                 "🇳🇱 NL | 🟢 | ss | @ai_duet | 8",
                 "🇰🇷 KR | 🟢 | ss | @argo_vpn1 | 7",
                 "🇦🇹 AT | 🟢 | ss | @arv2ra | 7",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇺🇸 US | 🟢 | ss | @customvpnserver | 27",
+                "🇦🇹 AT | 🟢 | ss | @free1ss | 17",
                 "🇫🇷 FR | 🟢 | ss | @freevirgoolnet | 7",
                 "🇬🇧 GB | 🟢 | ss | @info_2it_channel | 13",
                 "🇬🇧 GB | 🟢 | ss | @injectormconf | 39",
@@ -175,8 +175,8 @@
                 "🇸🇪 SE | 🟢 | ss | @shadowsockskeys | 17",
                 "🇳🇱 NL | 🟢 | ss | @summertimeus | 14",
                 "🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7",
-                "🇸🇮 SI | 🟢 | ss | @v2ray_free_conf | 19",
                 "🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27",
+                "🇭🇰 HK | 🟢 | ss | @v2source | 19",
                 "🇵🇱 PL | 🟢 | ss | @vipufovpn | 19",
                 "🇺🇸 US | 🟢 | ss | @vmessiranproxy | 19",
                 "🇫🇷 FR | 🟢 | ss | @vpnfreeaccounts | 15",
@@ -217,14 +217,6 @@
             "type": "dns"
         },
         {
-            "tag": "🇬🇷 GR | 🟢 | ss | @NamiraNet | 68",
-            "type": "shadowsocks",
-            "server": "192.71.166.102",
-            "server_port": 990,
-            "method": "chacha20-ietf-poly1305",
-            "password": "f8f7aCzcPKbsF8p3"
-        },
-        {
             "tag": "🇳🇱 NL | 🟢 | ss | @ai_duet | 8",
             "type": "shadowsocks",
             "server": "194.87.216.189",
@@ -263,6 +255,14 @@
             "server_port": 8443,
             "method": "chacha20-ietf-poly1305",
             "password": "OUERiyxvrzTJi5kftx980G"
+        },
+        {
+            "tag": "🇦🇹 AT | 🟢 | ss | @free1ss | 17",
+            "type": "shadowsocks",
+            "server": "95.163.176.37",
+            "server_port": 8506,
+            "method": "chacha20-ietf-poly1305",
+            "password": "eUh4lSpi7nOYj0vSrqLUh0"
         },
         {
             "tag": "🇫🇷 FR | 🟢 | ss | @freevirgoolnet | 7",
@@ -393,20 +393,20 @@
             "password": "427395387a9379ca"
         },
         {
-            "tag": "🇸🇮 SI | 🟢 | ss | @v2ray_free_conf | 19",
-            "type": "shadowsocks",
-            "server": "192.71.244.150",
-            "server_port": 990,
-            "method": "chacha20-ietf-poly1305",
-            "password": "f8f7aCzcPKbsF8p3"
-        },
-        {
             "tag": "🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27",
             "type": "shadowsocks",
             "server": "94.131.123.147",
             "server_port": 7383,
             "method": "chacha20-ietf-poly1305",
             "password": "eSHEdJz96rqNkOCAzd5Csv"
+        },
+        {
+            "tag": "🇭🇰 HK | 🟢 | ss | @v2source | 19",
+            "type": "shadowsocks",
+            "server": "212.192.15.124",
+            "server_port": 40109,
+            "method": "aes-256-gcm",
+            "password": "82888bb98615435b"
         },
         {
             "tag": "🇵🇱 PL | 🟢 | ss | @vipufovpn | 19",
