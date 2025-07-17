@@ -127,10 +127,10 @@
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇺🇸 US | 🔴 | vless | @custom_v2ray | 5",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
-                "🇮🇷 IR | 🔴 | vless | @darkma3ter24 | 13",
+                "🇺🇸 US | 🔴 | vless | @darkma3ter24 | 13",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇮🇷 IR | 🔴 | vless | @easy_free_vpn | 2",
-                "🇩🇪 DE | 🔴 | vless | @ehsawn8 | 4",
+                "🇩🇪 DE | 🔴 | vless | @ehsawn8 | 3",
                 "❔ XX | 🟢 | vless | @eleutheriavpn | 1",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 4",
                 "🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 9",
@@ -198,6 +198,7 @@
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "🇩🇪 DE | 🔴 | vless | @nofilter_v2rayng | 7",
                 "🇺🇸 US | 🟢 | vless | @ohvpn | 17",
+                "🇺🇸 US | 🟢 | vless | @outline_ir | 17",
                 "❔ XX | 🔴 | vless | @proxy48 | 14",
                 "❔ XX | 🟢 | vless | @proxy_confiingir | 3",
                 "❔ XX | 🟢 | vless | @proxy_iranv2 | 3",
@@ -250,7 +251,7 @@
                 "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
                 "❔ XX | 🟢 | vless | @xrayzxn | 6",
                 "🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0",
-                "🇮🇷 IR | 🔴 | vless | @zvpnn | 7"
+                "🇫🇷 FR | 🔴 | vless | @zvpnn | 7"
             ]
         },
         {
@@ -279,10 +280,10 @@
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇺🇸 US | 🔴 | vless | @custom_v2ray | 5",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
-                "🇮🇷 IR | 🔴 | vless | @darkma3ter24 | 13",
+                "🇺🇸 US | 🔴 | vless | @darkma3ter24 | 13",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇮🇷 IR | 🔴 | vless | @easy_free_vpn | 2",
-                "🇩🇪 DE | 🔴 | vless | @ehsawn8 | 4",
+                "🇩🇪 DE | 🔴 | vless | @ehsawn8 | 3",
                 "❔ XX | 🟢 | vless | @eleutheriavpn | 1",
                 "🇺🇸 US | 🟢 | vless | @elfv2ray | 4",
                 "🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 9",
@@ -350,6 +351,7 @@
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "🇩🇪 DE | 🔴 | vless | @nofilter_v2rayng | 7",
                 "🇺🇸 US | 🟢 | vless | @ohvpn | 17",
+                "🇺🇸 US | 🟢 | vless | @outline_ir | 17",
                 "❔ XX | 🔴 | vless | @proxy48 | 14",
                 "❔ XX | 🟢 | vless | @proxy_confiingir | 3",
                 "❔ XX | 🟢 | vless | @proxy_iranv2 | 3",
@@ -402,7 +404,7 @@
                 "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
                 "❔ XX | 🟢 | vless | @xrayzxn | 6",
                 "🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0",
-                "🇮🇷 IR | 🔴 | vless | @zvpnn | 7"
+                "🇫🇷 FR | 🔴 | vless | @zvpnn | 7"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -769,7 +771,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @darkma3ter24 | 13",
+            "tag": "🇺🇸 US | 🔴 | vless | @darkma3ter24 | 13",
             "type": "vless",
             "server": "www.parspack.com",
             "server_port": 8080,
@@ -803,7 +805,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @ehsawn8 | 4",
+            "tag": "🇩🇪 DE | 🔴 | vless | @ehsawn8 | 3",
             "type": "vless",
             "server": "de-vip.digitalldns.net",
             "server_port": 8080,
@@ -1929,6 +1931,24 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🟢 | vless | @outline_ir | 17",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "4e0a435a-65d6-4e4e-a4ed-dfa8bdd732f5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "auto.tas-bazi.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔴 | vless | @proxy48 | 14",
             "type": "vless",
             "server": "www.forcepower.monster",
@@ -2841,7 +2861,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @zvpnn | 7",
+            "tag": "🇫🇷 FR | 🔴 | vless | @zvpnn | 7",
             "type": "vless",
             "server": "power.dlmoviz.ir",
             "server_port": 2020,
