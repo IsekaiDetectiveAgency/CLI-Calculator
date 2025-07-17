@@ -106,6 +106,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
+                "🇺🇸 US | 🔴 | vless | @NamiraNet | 65",
                 "🇺🇸 US | 🔴 | vless | @airdroplandcod | 5",
                 "🇬🇧 GB | 🔴 | vless | @aminaqafarzane | 16",
                 "🇩🇪 DE | 🔴 | vless | @amirinventor2010 | 2",
@@ -141,7 +142,6 @@
                 "🇮🇷 IR | 🔴 | vless | @goldenvpn_v2rayy | 3",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇺🇸 US | 🔴 | vless | @hiddify_f | 1",
-                "🏳️  | 🟢 | vless | @hope_net | 19",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 2",
                 "🇮🇷 IR | 🔴 | vless | @hoshmasnoiyfarsi | 13",
                 "🇺🇸 US | 🔴 | vless | @icv2ray | 10",
@@ -208,7 +208,7 @@
                 "🇩🇪 DE | 🔴 | vless | @v2rayopen | 13",
                 "🇫🇮 FI | 🔴 | vless | @v2rayprotocol | 12",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
-                "Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#🇺🇸 US | 🔴 | vless | @v2rayweb | 17",
+                "🇺🇸 US | 🔴 | vless | @v2source | 19",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
@@ -234,6 +234,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
+                "🇺🇸 US | 🔴 | vless | @NamiraNet | 65",
                 "🇺🇸 US | 🔴 | vless | @airdroplandcod | 5",
                 "🇬🇧 GB | 🔴 | vless | @aminaqafarzane | 16",
                 "🇩🇪 DE | 🔴 | vless | @amirinventor2010 | 2",
@@ -269,7 +270,6 @@
                 "🇮🇷 IR | 🔴 | vless | @goldenvpn_v2rayy | 3",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇺🇸 US | 🔴 | vless | @hiddify_f | 1",
-                "🏳️  | 🟢 | vless | @hope_net | 19",
                 "🇮🇷 IR | 🔴 | vless | @hormozvpn | 2",
                 "🇮🇷 IR | 🔴 | vless | @hoshmasnoiyfarsi | 13",
                 "🇺🇸 US | 🔴 | vless | @icv2ray | 10",
@@ -336,7 +336,7 @@
                 "🇩🇪 DE | 🔴 | vless | @v2rayopen | 13",
                 "🇫🇮 FI | 🔴 | vless | @v2rayprotocol | 12",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
-                "Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#🇺🇸 US | 🔴 | vless | @v2rayweb | 17",
+                "🇺🇸 US | 🔴 | vless | @v2source | 19",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
@@ -384,6 +384,22 @@
             "uuid": "a804bb53-7504-4f06-96d8-ff56fb71539d",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraNet | 65",
+            "type": "vless",
+            "server": "188.114.98.94",
+            "server_port": 8880,
+            "uuid": "89780139-39db-4ae9-adc5-00d9da4bb8b3",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "188.114.98.94"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @airdroplandcod | 5",
@@ -1020,24 +1036,6 @@
                 "path": "/ViraV2ray/?ed=2560",
                 "headers": {
                     "Host": "199.232.193.57"
-                }
-            }
-        },
-        {
-            "tag": "🏳️  | 🟢 | vless | @hope_net | 19",
-            "type": "vless",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "baaccba-acab-cbaa-bcda-cabbbacccbaa",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "127.0.0.1",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },
@@ -2170,13 +2168,20 @@
             }
         },
         {
-            "tag": "Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI---Join---MARAMBASHI?ed=2560&security=none&encryption=none&host=vngsupply.ip-ddns.com&type=ws#🇺🇸 US | 🔴 | vless | @v2rayweb | 17",
+            "tag": "🇺🇸 US | 🔴 | vless | @v2source | 19",
             "type": "vless",
-            "server": "104.16.85.3",
+            "server": "104.16.69.162",
             "server_port": 8880,
             "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net",
+                "headers": {
+                    "Host": "104.16.69.162"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
