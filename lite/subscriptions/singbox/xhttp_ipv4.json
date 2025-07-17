@@ -105,6 +105,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇺🇸 US | 🟢 | vless | @hope_net | 19",
                 "🇳🇱 NL | 🟢 | vless | @irv2rey | 8",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
@@ -118,6 +119,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇺🇸 US | 🟢 | vless | @hope_net | 19",
                 "🇳🇱 NL | 🟢 | vless | @irv2rey | 8",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
@@ -145,6 +147,24 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @hope_net | 19",
+            "type": "vless",
+            "server": "104.17.147.22",
+            "server_port": 2083,
+            "uuid": "011d10db-1401-4573-b7b0-ba45ad4da4d4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "01941d0e-91b8-787a-8437-909be7e77f1c.kiava.live",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇳🇱 NL | 🟢 | vless | @irv2rey | 8",
