@@ -118,7 +118,7 @@
                 "🇷🇺 RU | 🟢 | vless | @kanfig_majani | 16",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
-                "🇨🇿 CZ | 🟢 | vless | @prrofile_purple | 130",
+                "🇨🇿 CZ | 🟢 | vless | @prrofile_purple | 125",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
                 "🇨🇿 CZ | 🟢 | vless | @v2pedia | 20",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
@@ -137,7 +137,6 @@
                 "🇮🇹 IT | 🟢 | vless | @khalaa_vpn | 1",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
                 "❔ XX | 🟢 | vless | @mt_team_iran | 4",
-                "🇩🇪 DE | 🟢 | vless | @netmellianti | 17",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @proxy_iranv2 | 3",
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
@@ -169,7 +168,7 @@
                 "🇷🇺 RU | 🟢 | vless | @kanfig_majani | 16",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
-                "🇨🇿 CZ | 🟢 | vless | @prrofile_purple | 130",
+                "🇨🇿 CZ | 🟢 | vless | @prrofile_purple | 125",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
                 "🇨🇿 CZ | 🟢 | vless | @v2pedia | 20",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
@@ -188,7 +187,6 @@
                 "🇮🇹 IT | 🟢 | vless | @khalaa_vpn | 1",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
                 "❔ XX | 🟢 | vless | @mt_team_iran | 4",
-                "🇩🇪 DE | 🟢 | vless | @netmellianti | 17",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @proxy_iranv2 | 3",
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
@@ -530,7 +528,7 @@
             }
         },
         {
-            "tag": "🇨🇿 CZ | 🟢 | vless | @prrofile_purple | 130",
+            "tag": "🇨🇿 CZ | 🟢 | vless | @prrofile_purple | 125",
             "type": "vless",
             "server": "194.182.79.64",
             "server_port": 14073,
@@ -1015,29 +1013,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "MT_TEAM_IRAN_MT_TEAM_IRAN_MT_TEAM_IRAN_MT_TEAM_IRAN_MT_TEAM_IRAN_MT_TEAM_IRAN_MT_TEAM_IRAN_MT_TEAM_IRAN"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @netmellianti | 17",
-            "type": "vless",
-            "server": "specxtech.ticketdatabase.info",
-            "server_port": 15416,
-            "uuid": "9c28e484-55ed-4756-a6dc-64a9ec7141da",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "xxlEy493Vsha05CKs_07jt2MFaxLejTx4Ab1xFNAlno",
-                    "short_id": "1ed94ed9"
-                }
             }
         },
         {
