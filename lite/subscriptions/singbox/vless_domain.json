@@ -105,7 +105,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🔴 | vless | @NamiraNet | 69",
                 "🇺🇸 US | 🔴 | vless | @alo_v2rayng | 0",
                 "🇩🇪 DE | 🔴 | vless | @argotaz | 0",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
@@ -141,7 +140,7 @@
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 2",
                 "❔ XX | 🟢 | vless | @flash_proxies | 0",
                 "🇺🇸 US | 🔴 | vless | @freakconfig1 | 2",
-                "🇺🇸 US | 🔴 | vless | @free1_vpn | 11",
+                "🇺🇸 US | 🔴 | vless | @free1_vpn | 12",
                 "🇺🇸 US | 🟢 | vless | @free_vpn_for_all_of_us | 19",
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "❔ XX | 🟢 | vless | @freev2raym | 10",
@@ -209,7 +208,7 @@
                 "❔ XX | 🔴 | vless | @realvpnmaster | 14",
                 "❔ XX | 🔴 | vless | @red2ray | 13",
                 "🇺🇸 US | 🔴 | vless | @rez1vpn | 1",
-                "🇮🇷 IR | 🔴 | vless | @server444 | 0",
+                "🇮🇷 IR | 🔴 | vless | @selinc | 9",
                 "🇺🇸 US | 🟢 | vless | @shadowsocksshop | 0",
                 "🇺🇸 US | 🔴 | vless | @shahedtec | 4",
                 "🇮🇷 IR | 🔴 | vless | @tobevasl | 16",
@@ -249,7 +248,6 @@
                 "❔ XX | 🔴 | vless | @vpnv2rayng90 | 0",
                 "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
                 "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
-                "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
                 "❔ XX | 🟢 | vless | @xrayzxn | 6",
                 "🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0",
                 "🇮🇷 IR | 🔴 | vless | @zvpnn | 7"
@@ -259,7 +257,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vless | @NamiraNet | 69",
                 "🇺🇸 US | 🔴 | vless | @alo_v2rayng | 0",
                 "🇩🇪 DE | 🔴 | vless | @argotaz | 0",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
@@ -295,7 +292,7 @@
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 2",
                 "❔ XX | 🟢 | vless | @flash_proxies | 0",
                 "🇺🇸 US | 🔴 | vless | @freakconfig1 | 2",
-                "🇺🇸 US | 🔴 | vless | @free1_vpn | 11",
+                "🇺🇸 US | 🔴 | vless | @free1_vpn | 12",
                 "🇺🇸 US | 🟢 | vless | @free_vpn_for_all_of_us | 19",
                 "❔ XX | 🔴 | vless | @freedom_config | 9",
                 "❔ XX | 🟢 | vless | @freev2raym | 10",
@@ -363,7 +360,7 @@
                 "❔ XX | 🔴 | vless | @realvpnmaster | 14",
                 "❔ XX | 🔴 | vless | @red2ray | 13",
                 "🇺🇸 US | 🔴 | vless | @rez1vpn | 1",
-                "🇮🇷 IR | 🔴 | vless | @server444 | 0",
+                "🇮🇷 IR | 🔴 | vless | @selinc | 9",
                 "🇺🇸 US | 🟢 | vless | @shadowsocksshop | 0",
                 "🇺🇸 US | 🔴 | vless | @shahedtec | 4",
                 "🇮🇷 IR | 🔴 | vless | @tobevasl | 16",
@@ -403,7 +400,6 @@
                 "❔ XX | 🔴 | vless | @vpnv2rayng90 | 0",
                 "🇺🇸 US | 🟢 | vless | @wbrovers | 0",
                 "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
-                "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
                 "❔ XX | 🟢 | vless | @xrayzxn | 6",
                 "🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0",
                 "🇮🇷 IR | 🔴 | vless | @zvpnn | 7"
@@ -427,22 +423,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraNet | 69",
-            "type": "vless",
-            "server": "GRumpY-bUIldinG.seOToOLSfoRYou.cO.Uk",
-            "server_port": 80,
-            "uuid": "935c990a-9bcc-484b-86a2-2a402f9ad1d4",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "GRumpY-bUIldinG.seOToOLSfoRYou.cO.Uk"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @alo_v2rayng | 0",
@@ -965,7 +945,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @free1_vpn | 11",
+            "tag": "🇺🇸 US | 🔴 | vless | @free1_vpn | 12",
             "type": "vless",
             "server": "www.speedtest.net.cdn.cloudflare.net",
             "server_port": 80,
@@ -2129,20 +2109,13 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @server444 | 0",
+            "tag": "🇮🇷 IR | 🔴 | vless | @selinc | 9",
             "type": "vless",
-            "server": "maskunlimit51.royalmt.life",
-            "server_port": 65041,
-            "uuid": "b1500629-5d35-459d-afe9-7835d2e1e556",
+            "server": "finland.a1mshop2.xyz",
+            "server_port": 11662,
+            "uuid": "85ad8b72-7a9e-4603-abd2-1c5a553f9b4a",
             "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "maskunlimit51.royalmt.life"
-                }
-            }
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @shadowsocksshop | 0",
@@ -2817,22 +2790,6 @@
             "uuid": "WomanLifeFreedomVPN",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇮🇷 IR | 🔴 | vless | @xnxv2ray | 14",
-            "type": "vless",
-            "server": "cert.ir",
-            "server_port": 80,
-            "uuid": "8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "cert.ir"
-                }
-            }
         },
         {
             "tag": "❔ XX | 🟢 | vless | @xrayzxn | 6",
