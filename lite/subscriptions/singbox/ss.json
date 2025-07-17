@@ -106,7 +106,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇳🇱 NL | 🟢 | ss | @ai_duet | 8",
-                "🇰🇷 KR | 🟢 | ss | @argo_vpn1 | 7",
+                "🇦🇹 AT | 🟢 | ss | @argo_vpn1 | 7",
                 "🇦🇹 AT | 🟢 | ss | @arv2ra | 7",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇺🇸 US | 🟢 | ss | @customvpnserver | 27",
@@ -114,7 +114,7 @@
                 "🇫🇷 FR | 🟢 | ss | @freevirgoolnet | 7",
                 "🇬🇧 GB | 🟢 | ss | @info_2it_channel | 13",
                 "🇬🇧 GB | 🟢 | ss | @injectormconf | 39",
-                "🇳🇱 NL | 🟢 | ss | @jiedianf | 8",
+                "🇳🇱 NL | 🟢 | ss | @jiedianf | 7",
                 "🇫🇷 FR | 🟢 | ss | @key_outline | 19",
                 "🇨🇾 CY | 🟢 | ss | @kingofilter | 7",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",
@@ -133,6 +133,7 @@
                 "🇦🇲 AM | 🟢 | ss | @vpnod | 18",
                 "❔ XX | 🟢 | ss | @chestertm | 12",
                 "🇩🇪 DE | 🟢 | ss | @freakconfig | 8",
+                "🇬🇧 GB | 🟢 | ss | @ip_cf_config | 9",
                 "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 2",
                 "🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0",
                 "❔ XX | 🟢 | ss | @outlines_vpn | 5",
@@ -151,7 +152,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇳🇱 NL | 🟢 | ss | @ai_duet | 8",
-                "🇰🇷 KR | 🟢 | ss | @argo_vpn1 | 7",
+                "🇦🇹 AT | 🟢 | ss | @argo_vpn1 | 7",
                 "🇦🇹 AT | 🟢 | ss | @arv2ra | 7",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇺🇸 US | 🟢 | ss | @customvpnserver | 27",
@@ -159,7 +160,7 @@
                 "🇫🇷 FR | 🟢 | ss | @freevirgoolnet | 7",
                 "🇬🇧 GB | 🟢 | ss | @info_2it_channel | 13",
                 "🇬🇧 GB | 🟢 | ss | @injectormconf | 39",
-                "🇳🇱 NL | 🟢 | ss | @jiedianf | 8",
+                "🇳🇱 NL | 🟢 | ss | @jiedianf | 7",
                 "🇫🇷 FR | 🟢 | ss | @key_outline | 19",
                 "🇨🇾 CY | 🟢 | ss | @kingofilter | 7",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 14",
@@ -178,6 +179,7 @@
                 "🇦🇲 AM | 🟢 | ss | @vpnod | 18",
                 "❔ XX | 🟢 | ss | @chestertm | 12",
                 "🇩🇪 DE | 🟢 | ss | @freakconfig | 8",
+                "🇬🇧 GB | 🟢 | ss | @ip_cf_config | 9",
                 "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 2",
                 "🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0",
                 "❔ XX | 🟢 | ss | @outlines_vpn | 5",
@@ -219,12 +221,12 @@
             "password": "Ib9hxFZxUH4m"
         },
         {
-            "tag": "🇰🇷 KR | 🟢 | ss | @argo_vpn1 | 7",
+            "tag": "🇦🇹 AT | 🟢 | ss | @argo_vpn1 | 7",
             "type": "shadowsocks",
-            "server": "220.124.31.130",
-            "server_port": 19378,
-            "method": "aes-256-gcm",
-            "password": "NiznLvoIuy"
+            "server": "95.163.176.37",
+            "server_port": 8506,
+            "method": "chacha20-ietf-poly1305",
+            "password": "eUh4lSpi7nOYj0vSrqLUh0"
         },
         {
             "tag": "🇦🇹 AT | 🟢 | ss | @arv2ra | 7",
@@ -283,7 +285,7 @@
             "password": "kTjlLxrncKx4i2HIjxfA3M"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | ss | @jiedianf | 8",
+            "tag": "🇳🇱 NL | 🟢 | ss | @jiedianf | 7",
             "type": "shadowsocks",
             "server": "194.87.216.121",
             "server_port": 443,
@@ -433,6 +435,14 @@
             "server_port": 5904,
             "method": "chacha20-ietf-poly1305",
             "password": "5TZnwPb23pQS39lIucspJw"
+        },
+        {
+            "tag": "🇬🇧 GB | 🟢 | ss | @ip_cf_config | 9",
+            "type": "shadowsocks",
+            "server": "series-a2.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "mps3FwmDjLrWaOVg"
         },
         {
             "tag": "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 2",
