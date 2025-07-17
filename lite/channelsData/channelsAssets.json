@@ -672,7 +672,6 @@
     },
     "freakconfig": {
         "types": [
-            "vmess",
             "vless",
             "trojan",
             "ss"
@@ -965,8 +964,10 @@
     },
     "hope_net": {
         "types": [
+            "vless",
             "ss",
-            "vless"
+            "trojan",
+            "vmess"
         ],
         "title": "🕊 Hope Net",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/hope_net.jpg"
@@ -1590,8 +1591,7 @@
     },
     "mowjproxy": {
         "types": [
-            "vless",
-            "vmess"
+            "vless"
         ],
         "title": "Mowj Proxy",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/mowjproxy.jpg"
@@ -1858,8 +1858,8 @@
     },
     "outline_ir": {
         "types": [
-            "ss",
-            "vless"
+            "vless",
+            "ss"
         ],
         "title": "سرور اوتلاین ا سرور V2ray",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/outline_ir.jpg"
@@ -2145,8 +2145,8 @@
     },
     "selinc": {
         "types": [
-            "vless",
-            "ss"
+            "ss",
+            "vless"
         ],
         "title": "فیلترشکنV2rayng",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/selinc.jpg"
@@ -2748,8 +2748,8 @@
     },
     "v2rayweb": {
         "types": [
-            "vmess",
-            "vless"
+            "vless",
+            "vmess"
         ],
         "title": "V2ray | VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"

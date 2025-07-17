@@ -111,7 +111,9 @@
                 "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
                 "🇬🇧 GB | 🟢 | vless | @fire_vpn_channel | 1",
                 "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
+                "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
+                "🇫🇷 FR | 🟢 | vless | @hope_net | 20",
                 "🇫🇷 FR | 🟢 | vless | @ip_ramzi | 11",
                 "🇳🇱 NL | 🟢 | vless | @irv2rey | 8",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
@@ -142,7 +144,9 @@
                 "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
                 "🇬🇧 GB | 🟢 | vless | @fire_vpn_channel | 1",
                 "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
+                "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
+                "🇫🇷 FR | 🟢 | vless | @hope_net | 20",
                 "🇫🇷 FR | 🟢 | vless | @ip_ramzi | 11",
                 "🇳🇱 NL | 🟢 | vless | @irv2rey | 8",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
@@ -325,6 +329,29 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
+            "type": "vless",
+            "server": "198.23.206.26",
+            "server_port": 59814,
+            "uuid": "1759f2bb-ab83-450b-a89b-4b24c0eea75b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "aWooxptTQgQjHO1JDxB8axAo8jzLWJdOSE6322B7wWY",
+                    "short_id": "a0209e22"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
             "type": "vless",
             "server": "55.55.55.55",
@@ -344,6 +371,29 @@
                     "enabled": true,
                     "public_key": "YqHW8a4iAc1SZYpTrFVoOQg1F3yAdX1tWXuROZUCsEU",
                     "short_id": "6ba85179e30d4fc2"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🟢 | vless | @hope_net | 20",
+            "type": "vless",
+            "server": "185.255.112.175",
+            "server_port": 5600,
+            "uuid": "2bbaf73f-434a-414f-b4f0-2520a2c5155e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "y6JSkggQ",
+                    "short_id": ""
                 }
             }
         },
