@@ -109,7 +109,8 @@
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
-                "🇺🇸 US | 🔴 | vless | @qeshmserver | 12"
+                "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
+                "🇺🇸 US | 🔴 | vless | @v2source | 19"
             ]
         },
         {
@@ -120,7 +121,8 @@
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
-                "🇺🇸 US | 🔴 | vless | @qeshmserver | 12"
+                "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
+                "🇺🇸 US | 🔴 | vless | @v2source | 19"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -207,6 +209,15 @@
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "qeshmserver",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @v2source | 19",
+            "type": "vless",
+            "server": "151.101.67.8",
+            "server_port": 80,
+            "uuid": "124b3799-aa8e-4d7a-ad7e-a474ecf4b159",
             "flow": "",
             "packet_encoding": "xudp"
         }
