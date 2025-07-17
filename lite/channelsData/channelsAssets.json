@@ -389,13 +389,6 @@
         "title": "فیلترشکن/پروکسی/کانفیگ /HTTP_custom/v2ray",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/custom_v2ray.jpg"
     },
-    "customizev2ray": {
-        "types": [
-            "vless"
-        ],
-        "title": "CUSTOMIZE | V2ray",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/customizev2ray.jpg"
-    },
     "customvpnserver": {
         "types": [
             "vless",
@@ -836,9 +829,9 @@
     },
     "freevpnatm": {
         "types": [
-            "vmess",
             "trojan",
-            "vless"
+            "vless",
+            "vmess"
         ],
         "title": "科學上网 free configs",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/freevpnatm.jpg"
@@ -974,9 +967,8 @@
     "hope_net": {
         "types": [
             "vless",
-            "vmess",
-            "ss",
-            "trojan"
+            "trojan",
+            "ss"
         ],
         "title": "🕊 Hope Net",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/hope_net.jpg"
@@ -1506,14 +1498,6 @@
         "title": "Mega VPN - VPN ⚪️",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/megavpn_link.jpg"
     },
-    "mehduox_vpn": {
-        "types": [
-            "vless",
-            "vmess"
-        ],
-        "title": "MehduoX VPN کانفیگ رایگان",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/mehduox_vpn.jpg"
-    },
     "meli_proxyy": {
         "types": [
             "vless",
@@ -1607,8 +1591,8 @@
     },
     "mowjproxy": {
         "types": [
-            "vless",
-            "vmess"
+            "vmess",
+            "vless"
         ],
         "title": "Mowj Proxy",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/mowjproxy.jpg"
@@ -1745,7 +1729,6 @@
     },
     "netmellianti": {
         "types": [
-            "vmess",
             "vless",
             "trojan"
         ],
@@ -2771,8 +2754,7 @@
     },
     "v2rayweb": {
         "types": [
-            "vless",
-            "trojan"
+            "vless"
         ],
         "title": "V2ray | VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"
@@ -2796,8 +2778,8 @@
     },
     "v2source": {
         "types": [
-            "ss",
             "vless",
+            "ss",
             "trojan"
         ],
         "title": "Free V2ray",
@@ -2835,7 +2817,6 @@
     },
     "vaslvip": {
         "types": [
-            "ss",
             "vless"
         ],
         "title": "دور زدن نت ملی/همیشه وصل بمون/کانفیک رایگان",
