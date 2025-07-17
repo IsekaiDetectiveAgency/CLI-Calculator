@@ -689,15 +689,16 @@
     },
     "free1_vpn": {
         "types": [
-            "ss",
-            "vless"
+            "vless",
+            "ss"
         ],
         "title": "Free_VPN √ v2ray √ NapsternetV √ custom √ injector √",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/free1_vpn.jpg"
     },
     "free1ss": {
         "types": [
-            "ss"
+            "ss",
+            "vless"
         ],
         "title": "🍊Aperto Shadowsocks Outline Vless VPN 🍊",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/free1ss.jpg"
@@ -721,7 +722,8 @@
     },
     "free_outline_keys": {
         "types": [
-            "ss"
+            "ss",
+            "vless"
         ],
         "title": "FREE Outline VPN keys",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/free_outline_keys.jpg"
@@ -965,8 +967,7 @@
     },
     "hope_net": {
         "types": [
-            "vless",
-            "ss"
+            "vless"
         ],
         "title": "🕊 Hope Net",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/hope_net.jpg"
@@ -1591,8 +1592,8 @@
     },
     "mowjproxy": {
         "types": [
-            "vless",
             "ss",
+            "vless",
             "vmess"
         ],
         "title": "Mowj Proxy",
@@ -1890,7 +1891,6 @@
     "outlinev2rayng": {
         "types": [
             "vless",
-            "ss",
             "vmess"
         ],
         "title": "پروکسی تله کد | فیلترشکن رایگان V2ray - Outline",
@@ -2426,7 +2426,6 @@
     "v2ray_free_conf": {
         "types": [
             "vmess",
-            "vless",
             "ss",
             "trojan"
         ],
@@ -2750,8 +2749,7 @@
     },
     "v2rayweb": {
         "types": [
-            "vless",
-            "trojan"
+            "vless"
         ],
         "title": "V2ray | VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"
@@ -3009,14 +3007,6 @@
         "title": "رفع فیلتر | پروکسی",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vpnaloo.jpg"
     },
-    "vpncostume": {
-        "types": [
-            "vless",
-            "vmess"
-        ],
-        "title": "V2rayNG",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vpncostume.jpg"
-    },
     "vpnfail_v2ray": {
         "types": [
             "vmess"
@@ -3124,8 +3114,8 @@
     },
     "vpnv2rayngv": {
         "types": [
-            "vless",
             "ss",
+            "vless",
             "trojan"
         ],
         "title": "کانفینگ پروکسی وی توری نت ملی اسکوئید گیم خرید سرورفیلترشکن بازی مرکب وی پی ان اسکویید گیم ایران vpn v2rayNG vmess vless proxy",

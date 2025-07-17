@@ -112,7 +112,6 @@
                 "🇬🇧 GB | 🟢 | vless | @fire_vpn_channel | 1",
                 "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
-                "🇸🇪 SE | 🟢 | vless | @icv2ray | 10",
                 "🇫🇷 FR | 🟢 | vless | @ip_ramzi | 11",
                 "🇳🇱 NL | 🟢 | vless | @irv2rey | 8",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
@@ -133,7 +132,6 @@
                 "🇩🇪 DE | 🟢 | vless | @x4azadi | 14",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
-                "🇬🇧 GB | 🟢 | vless | @getconfigir | 19",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "❔ XX | 🟢 | vless | @itv2ray | 29",
                 "🇮🇹 IT | 🟢 | vless | @khalaa_vpn | 1",
@@ -164,7 +162,6 @@
                 "🇬🇧 GB | 🟢 | vless | @fire_vpn_channel | 1",
                 "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
-                "🇸🇪 SE | 🟢 | vless | @icv2ray | 10",
                 "🇫🇷 FR | 🟢 | vless | @ip_ramzi | 11",
                 "🇳🇱 NL | 🟢 | vless | @irv2rey | 8",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
@@ -185,7 +182,6 @@
                 "🇩🇪 DE | 🟢 | vless | @x4azadi | 14",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
-                "🇬🇧 GB | 🟢 | vless | @getconfigir | 19",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "❔ XX | 🟢 | vless | @itv2ray | 29",
                 "🇮🇹 IT | 🟢 | vless | @khalaa_vpn | 1",
@@ -386,29 +382,6 @@
                     "enabled": true,
                     "public_key": "YqHW8a4iAc1SZYpTrFVoOQg1F3yAdX1tWXuROZUCsEU",
                     "short_id": "6ba85179e30d4fc2"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪 SE | 🟢 | vless | @icv2ray | 10",
-            "type": "vless",
-            "server": "192.109.200.254",
-            "server_port": 443,
-            "uuid": "86f90371-59d6-44e2-ab00-94c5ab16d2bc",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "torah.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "NPYS2vq3gQlU2h9EzaL-_93PIEpHLEHDSo8eYWCjw3o",
-                    "short_id": "8f64b0695b3b46de"
                 }
             }
         },
@@ -913,29 +886,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@FsV2ray"
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🟢 | vless | @getconfigir | 19",
-            "type": "vless",
-            "server": "www.telewebion.com.uk.studentcp.ir",
-            "server_port": 22049,
-            "uuid": "42de51a3-0380-71d7-039c-62c268c37b4b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "5sAAbRXQgEeQYjH1U652zr7c6azVN3a9KVVCWrzJ7mc",
-                    "short_id": "da1a52f306950def"
-                }
             }
         },
         {

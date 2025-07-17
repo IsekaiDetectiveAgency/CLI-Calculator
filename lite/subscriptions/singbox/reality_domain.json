@@ -107,7 +107,6 @@
                 "URL-TEST",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
-                "🇬🇧 GB | 🟢 | vless | @getconfigir | 19",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "❔ XX | 🟢 | vless | @itv2ray | 29",
                 "🇮🇹 IT | 🟢 | vless | @khalaa_vpn | 1",
@@ -132,7 +131,6 @@
             "outbounds": [
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
-                "🇬🇧 GB | 🟢 | vless | @getconfigir | 19",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "❔ XX | 🟢 | vless | @itv2ray | 29",
                 "🇮🇹 IT | 🟢 | vless | @khalaa_vpn | 1",
@@ -222,29 +220,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@FsV2ray"
-            }
-        },
-        {
-            "tag": "🇬🇧 GB | 🟢 | vless | @getconfigir | 19",
-            "type": "vless",
-            "server": "www.telewebion.com.uk.studentcp.ir",
-            "server_port": 22049,
-            "uuid": "42de51a3-0380-71d7-039c-62c268c37b4b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "5sAAbRXQgEeQYjH1U652zr7c6azVN3a9KVVCWrzJ7mc",
-                    "short_id": "da1a52f306950def"
-                }
             }
         },
         {
