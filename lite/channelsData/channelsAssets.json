@@ -975,6 +975,8 @@
     "hope_net": {
         "types": [
             "vless",
+            "trojan",
+            "vmess",
             "ss"
         ],
         "title": "🕊 Hope Net",
@@ -1606,8 +1608,8 @@
     },
     "mowjproxy": {
         "types": [
-            "vless",
-            "vmess"
+            "vmess",
+            "vless"
         ],
         "title": "Mowj Proxy",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/mowjproxy.jpg"
@@ -2437,9 +2439,9 @@
     },
     "v2ray_free_conf": {
         "types": [
-            "vless",
-            "vmess",
             "trojan",
+            "vmess",
+            "vless",
             "ss"
         ],
         "title": "🌍 V2Ray Free Config 🇮🇷",
@@ -2794,9 +2796,8 @@
     },
     "v2source": {
         "types": [
-            "vless",
             "ss",
-            "trojan"
+            "vless"
         ],
         "title": "Free V2ray",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2source.jpg"
