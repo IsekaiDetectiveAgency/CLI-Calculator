@@ -823,9 +823,10 @@
     },
     "freevpnatm": {
         "types": [
-            "vmess",
             "trojan",
-            "vless"
+            "vless",
+            "vmess",
+            "hy2"
         ],
         "title": "科學上网 free configs",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/freevpnatm.jpg"
@@ -960,10 +961,10 @@
     },
     "hope_net": {
         "types": [
-            "trojan",
             "vless",
-            "vmess",
-            "ss"
+            "ss",
+            "trojan",
+            "vmess"
         ],
         "title": "🕊 Hope Net",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/hope_net.jpg"
@@ -1588,9 +1589,9 @@
     },
     "mowjproxy": {
         "types": [
+            "ss",
             "vless",
-            "vmess",
-            "ss"
+            "vmess"
         ],
         "title": "Mowj Proxy",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/mowjproxy.jpg"

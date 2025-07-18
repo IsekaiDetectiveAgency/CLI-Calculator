@@ -110,8 +110,7 @@
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇹🇷 TR | 🟢 | vless | @vaslvip | 11",
-                "🇺🇸 US | 🔴 | vless | @vpnaloo | 16"
+                "🇹🇷 TR | 🟢 | vless | @vaslvip | 12"
             ]
         },
         {
@@ -123,8 +122,7 @@
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇹🇷 TR | 🟢 | vless | @vaslvip | 11",
-                "🇺🇸 US | 🔴 | vless | @vpnaloo | 16"
+                "🇹🇷 TR | 🟢 | vless | @vaslvip | 12"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -229,7 +227,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇹🇷 TR | 🟢 | vless | @vaslvip | 11",
+            "tag": "🇹🇷 TR | 🟢 | vless | @vaslvip | 12",
             "type": "vless",
             "server": "46.31.79.119",
             "server_port": 80,
@@ -248,24 +246,6 @@
                     "enabled": true,
                     "public_key": "rFRgOG1YES2qi6d1xyihs21ourOyv7xRi9MnLd-3x1U",
                     "short_id": "d99c"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @vpnaloo | 16",
-            "type": "vless",
-            "server": "172.237.147.79",
-            "server_port": 443,
-            "uuid": "a409d129-70fe-4bc4-906b-73985847e6ab",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "172.237.147.79",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         }
