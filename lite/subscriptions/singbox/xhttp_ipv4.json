@@ -105,26 +105,24 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇳🇱 NL | 🟢 | vless | @getconfigir | 19",
                 "🇳🇱 NL | 🟢 | vless | @irv2rey | 8",
+                "🇳🇱 NL | 🟢 | vless | @lranonline_new | 12",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
-                "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇹🇷 TR | 🟢 | vless | @vaslvip | 12"
+                "🇺🇸 US | 🔴 | vless | @qeshmserver | 12"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇳🇱 NL | 🟢 | vless | @getconfigir | 19",
                 "🇳🇱 NL | 🟢 | vless | @irv2rey | 8",
+                "🇳🇱 NL | 🟢 | vless | @lranonline_new | 12",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
-                "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇹🇷 TR | 🟢 | vless | @vaslvip | 12"
+                "🇺🇸 US | 🔴 | vless | @qeshmserver | 12"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -147,29 +145,6 @@
             "type": "dns"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @getconfigir | 19",
-            "type": "vless",
-            "server": "212.107.12.77",
-            "server_port": 11676,
-            "uuid": "4945bf8a-bde4-4d25-9004-ac8d947b951b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com:443",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "LRRHR_xkAaA1sfRggwMUtiE4KcZKBaUnS_SGSSTTERA",
-                    "short_id": "a92c028967"
-                }
-            }
-        },
-        {
             "tag": "🇳🇱 NL | 🟢 | vless | @irv2rey | 8",
             "type": "vless",
             "server": "77.110.103.21",
@@ -189,6 +164,29 @@
                     "enabled": true,
                     "public_key": "MCx8u0S8L-ugMhcNC-u2WteqvI_oaM9_0-5jP6atIx4",
                     "short_id": "19dc3c81"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | vless | @lranonline_new | 12",
+            "type": "vless",
+            "server": "212.107.12.77",
+            "server_port": 11676,
+            "uuid": "4945bf8a-bde4-4d25-9004-ac8d947b951b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com:443",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LRRHR_xkAaA1sfRggwMUtiE4KcZKBaUnS_SGSSTTERA",
+                    "short_id": "a92c028967"
                 }
             }
         },
@@ -250,29 +248,6 @@
             "uuid": "qeshmserver",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇹🇷 TR | 🟢 | vless | @vaslvip | 12",
-            "type": "vless",
-            "server": "46.31.79.119",
-            "server_port": 80,
-            "uuid": "0517b463-2302-48d5-9b50-8dd2e0e1d638",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "rFRgOG1YES2qi6d1xyihs21ourOyv7xRi9MnLd-3x1U",
-                    "short_id": "d99c"
-                }
-            }
         }
     ],
     "route": {
