@@ -110,7 +110,6 @@
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇳🇱 NL | 🟢 | vless | @summertimeus | 15",
                 "🇹🇷 TR | 🟢 | vless | @vaslvip | 12"
             ]
         },
@@ -123,7 +122,6 @@
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇳🇱 NL | 🟢 | vless | @summertimeus | 15",
                 "🇹🇷 TR | 🟢 | vless | @vaslvip | 12"
             ],
             "url": "https://www.gstatic.com/generate_204",
@@ -227,29 +225,6 @@
             "uuid": "qeshmserver",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇳🇱 NL | 🟢 | vless | @summertimeus | 15",
-            "type": "vless",
-            "server": "77.110.103.21",
-            "server_port": 50810,
-            "uuid": "72059c29-a302-4bbd-a67a-ed0119fb754e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zhaket.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "MCx8u0S8L-ugMhcNC-u2WteqvI_oaM9_0-5jP6atIx4",
-                    "short_id": "19dc3c81"
-                }
-            }
         },
         {
             "tag": "🇹🇷 TR | 🟢 | vless | @vaslvip | 12",
