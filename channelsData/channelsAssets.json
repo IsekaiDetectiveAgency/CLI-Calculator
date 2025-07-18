@@ -303,10 +303,9 @@
     },
     "config_proxy": {
         "types": [
-            "vless",
             "vmess",
-            "ss",
-            "trojan"
+            "vless",
+            "ss"
         ],
         "title": "Proxy | V2ray | Config | Vpn | Hiddify | Nekobox | Segaro | پروکسی | فیلترشکن | ایرانسل | همراه اول | رایتل | سامانتل | مخابرات|",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/config_proxy.jpg"
@@ -667,10 +666,10 @@
     },
     "entrynet": {
         "types": [
-            "trojan",
-            "vmess",
             "vless",
-            "ss"
+            "trojan",
+            "ss",
+            "vmess"
         ],
         "title": ".::entryNET::. Free v2ray vpn &amp; proxy | وی پی ان و پروکسی رایگان",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/entrynet.jpg"
@@ -1232,8 +1231,8 @@
     },
     "hope_net": {
         "types": [
-            "vmess",
             "vless",
+            "vmess",
             "ss",
             "trojan"
         ],
@@ -1851,8 +1850,8 @@
     },
     "meli_proxyy": {
         "types": [
-            "ss",
             "vless",
+            "ss",
             "vmess"
         ],
         "title": "کانفیگ وی تو ری ویتوری نیم بها پروکسی فیلترشکن رایگان خرید سرور وی پی ان ترید سیسکو آیپی ثابت vpn v2rayng vless vmess l2tp cisco",
@@ -2983,9 +2982,9 @@
     },
     "v2ray_free_conf": {
         "types": [
+            "ss",
             "vmess",
-            "trojan",
-            "ss"
+            "trojan"
         ],
         "title": "🌍 V2Ray Free Config 🇮🇷",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ray_free_conf.jpg"
@@ -3073,9 +3072,10 @@
     },
     "v2raych": {
         "types": [
-            "ss",
             "vless",
-            "vmess"
+            "vmess",
+            "trojan",
+            "ss"
         ],
         "title": "V2rayChallenge: V2RAY VPN Configs &amp; MTProto Proxies Free | پروکسی وی پی ان VPN رایگان وی تو ری چالش",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2raych.jpg"
@@ -3387,9 +3387,7 @@
     },
     "v2rayweb": {
         "types": [
-            "vless",
-            "trojan",
-            "vmess"
+            "vless"
         ],
         "title": "V2ray | VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"
@@ -3839,14 +3837,6 @@
         "title": "VPNTwitt | V2ray سرور کانفیگ‌",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vpntwitt.jpg"
     },
-    "vpnv2rayonline": {
-        "types": [
-            "vless",
-            "vmess"
-        ],
-        "title": "Vpn v2rayNG",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vpnv2rayonline.jpg"
-    },
     "vpnv2raytop": {
         "types": [
             "vless",
@@ -3930,15 +3920,6 @@
         ],
         "title": "XpnTm | فیلترشکن",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/xpnteam.jpg"
-    },
-    "xrayzxn": {
-        "types": [
-            "trojan",
-            "vless",
-            "vmess"
-        ],
-        "title": "V2raymg",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/xrayzxn.jpg"
     },
     "xsv2ray": {
         "types": [
