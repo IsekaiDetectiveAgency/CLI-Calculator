@@ -186,7 +186,6 @@
                 "❔ XX | 🔴 | vless | @miov2ray | 11",
                 "❔ XX | 🔴 | vless | @miyanbor_vpn | 0",
                 "🇩🇪 DE | 🔴 | vless | @moon_ping | 0",
-                "🇳🇱 NL | 🟢 | vless | @mowjproxy | 4",
                 "❔ XX | 🟢 | vless | @mrvpn1403 | 4",
                 "❔ XX | 🟢 | vless | @mt_team_iran | 4",
                 "🇩🇪 DE | 🔴 | vless | @mtproxy22_v2ray | 50",
@@ -223,6 +222,7 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 8",
                 "🇺🇸 US | 🔴 | vless | @v2raying | 16",
+                "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
                 "🇺🇸 US | 🔴 | vless | @v2rayng_fars | 19",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "🇺🇸 US | 🔴 | vless | @v2rayng_o | 6",
@@ -230,7 +230,7 @@
                 "🇮🇷 IR | 🟢 | vless | @v2rayngc | 18",
                 "❔ XX | 🟢 | vless | @v2rayngchaannel | 9",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇸🇬 SG | 🟢 | vless | @v2rayngrit | 15",
+                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "❔ XX | 🔴 | vless | @v2rayturbo | 8",
                 "🇺🇸 US | 🟢 | vless | @v2rayy_vpn13 | 12",
@@ -336,7 +336,6 @@
                 "❔ XX | 🔴 | vless | @miov2ray | 11",
                 "❔ XX | 🔴 | vless | @miyanbor_vpn | 0",
                 "🇩🇪 DE | 🔴 | vless | @moon_ping | 0",
-                "🇳🇱 NL | 🟢 | vless | @mowjproxy | 4",
                 "❔ XX | 🟢 | vless | @mrvpn1403 | 4",
                 "❔ XX | 🟢 | vless | @mt_team_iran | 4",
                 "🇩🇪 DE | 🔴 | vless | @mtproxy22_v2ray | 50",
@@ -373,6 +372,7 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_vmes | 16",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 8",
                 "🇺🇸 US | 🔴 | vless | @v2raying | 16",
+                "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
                 "🇺🇸 US | 🔴 | vless | @v2rayng_fars | 19",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "🇺🇸 US | 🔴 | vless | @v2rayng_o | 6",
@@ -380,7 +380,7 @@
                 "🇮🇷 IR | 🟢 | vless | @v2rayngc | 18",
                 "❔ XX | 🟢 | vless | @v2rayngchaannel | 9",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇸🇬 SG | 🟢 | vless | @v2rayngrit | 15",
+                "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "❔ XX | 🔴 | vless | @v2rayturbo | 8",
                 "🇺🇸 US | 🟢 | vless | @v2rayy_vpn13 | 12",
@@ -1692,24 +1692,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @mowjproxy | 4",
-            "type": "vless",
-            "server": "statue.lnmarketplace.net",
-            "server_port": 443,
-            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "statue.lnmarketplace.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🟢 | vless | @mrvpn1403 | 4",
             "type": "vless",
             "server": "mrvpn1403.rightel001.chaghooosazi.shop",
@@ -2347,6 +2329,24 @@
             }
         },
         {
+            "tag": "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
+            "type": "vless",
+            "server": "statue.lnmarketplace.net",
+            "server_port": 443,
+            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "statue.lnmarketplace.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔴 | vless | @v2rayng_fars | 19",
             "type": "vless",
             "server": "DeEp-RAdIo.SEOtOoLSForYou.CO.UK",
@@ -2495,7 +2495,7 @@
             }
         },
         {
-            "tag": "🇸🇬 SG | 🟢 | vless | @v2rayngrit | 15",
+            "tag": "🇺🇸 US | 🟢 | vless | @v2rayngrit | 15",
             "type": "vless",
             "server": "amazon-4.cristiano.name.ng",
             "server_port": 443,
