@@ -114,13 +114,11 @@
                 "🇫🇷 FR | 🟢 | vless | @ip_ramzi | 11",
                 "🇦🇪 AE | 🟢 | vless | @irv2rey | 5",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
-                "🇷🇺 RU | 🟢 | vless | @kanfig_majani | 16",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
                 "🇳🇱 NL | 🟢 | vless | @v2rayngninja | 8",
-                "🇳🇱 NL | 🟢 | vless | @v2source | 19",
                 "🇩🇪 DE | 🟢 | vless | @v2trayproxy | 12",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
@@ -143,13 +141,11 @@
                 "🇫🇷 FR | 🟢 | vless | @ip_ramzi | 11",
                 "🇦🇪 AE | 🟢 | vless | @irv2rey | 5",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
-                "🇷🇺 RU | 🟢 | vless | @kanfig_majani | 16",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
                 "🇳🇱 NL | 🟢 | vless | @v2rayngninja | 8",
-                "🇳🇱 NL | 🟢 | vless | @v2source | 19",
                 "🇩🇪 DE | 🟢 | vless | @v2trayproxy | 12",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
@@ -402,29 +398,6 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🟢 | vless | @kanfig_majani | 16",
-            "type": "vless",
-            "server": "103.71.23.210",
-            "server_port": 443,
-            "uuid": "3225893e-09d0-4822-a19a-04fb39066d22",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ya.ru",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": null
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Lb1Gi0VcVuytLf_gb846u7iKkHVywpG8IC9wdZslwUA",
-                    "short_id": "102707ab31571a93"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
             "type": "vless",
             "server": "188.245.61.146",
@@ -552,33 +525,6 @@
                     "www.speedtest.net"
                 ],
                 "path": "/"
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🟢 | vless | @v2source | 19",
-            "type": "vless",
-            "server": "146.190.17.238",
-            "server_port": 25126,
-            "uuid": "bab6b157-a6e8-4756-a485-dcb4ca476eb9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "cloudflare.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "AtKTc84OxbQltdeNKIgGRpUBmO1nKRCyqV6OuZmGIik",
-                    "short_id": "1e"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@FergalVpnMod"
             }
         },
         {

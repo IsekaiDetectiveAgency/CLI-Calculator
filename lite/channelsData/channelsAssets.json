@@ -989,10 +989,10 @@
     },
     "ip_cf_config": {
         "types": [
-            "vmess",
-            "trojan",
             "vless",
-            "ss"
+            "ss",
+            "vmess",
+            "trojan"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
@@ -2372,9 +2372,10 @@
     },
     "v2ray_free_conf": {
         "types": [
+            "vless",
             "vmess",
             "ss",
-            "vless"
+            "trojan"
         ],
         "title": "🌍 V2Ray Free Config 🇮🇷",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ray_free_conf.jpg"
@@ -2422,13 +2423,6 @@
         ],
         "title": "@v2ray_swhil",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ray_swhil.jpg"
-    },
-    "v2ray_vmes": {
-        "types": [
-            "vless"
-        ],
-        "title": "v2ray",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ray_vmes.jpg"
     },
     "v2ray_youtube": {
         "types": [
@@ -2667,9 +2661,7 @@
     },
     "v2rayweb": {
         "types": [
-            "vless",
-            "vmess",
-            "trojan"
+            "vless"
         ],
         "title": "V2ray | VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"
@@ -2694,6 +2686,7 @@
     "v2source": {
         "types": [
             "vless",
+            "trojan",
             "ss"
         ],
         "title": "Free V2ray",
@@ -2731,7 +2724,8 @@
     },
     "vaslvip": {
         "types": [
-            "vless"
+            "vless",
+            "ss"
         ],
         "title": "دور زدن نت ملی/همیشه وصل بمون/کانفیک رایگان",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vaslvip.jpg"
@@ -2801,7 +2795,8 @@
     },
     "vmess_ir": {
         "types": [
-            "vless"
+            "vless",
+            "ss"
         ],
         "title": "🚀سرور رایگان و اختصاصی vmess_ir🚀",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vmess_ir.jpg"
@@ -2876,10 +2871,9 @@
     },
     "vpn_ioss": {
         "types": [
+            "vmess",
             "vless",
-            "ss",
-            "trojan",
-            "vmess"
+            "ss"
         ],
         "title": "کانفیگ سرور V2rayng🔐",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vpn_ioss.jpg"

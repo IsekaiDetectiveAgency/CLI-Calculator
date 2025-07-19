@@ -9,12 +9,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-❔ XX | 🔴 | trojan | @freevpnatm | 10 = trojan, [2606:4700:3030::6815:4001], 443, password = 2d068083-2cb0-4ae3-a44a-6fc82f3039cc, skip-cert-verify = false
+❔ XX | 🟢 | trojan | @freevpnatm | 13 = trojan, [2606:4700:3033::ac43:a181], 443, password = 662e38ba-8427-4955-94aa-76f5347a0ce8, skip-cert-verify = false
+❔ XX | 🔴 | trojan | @freevpnatm | 14 = trojan, [2606:4700:3030::6815:429d], 443, password = 662e38ba-8427-4955-94aa-76f5347a0ce8, skip-cert-verify = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🔴 | trojan | @freevpnatm | 10
-PSG-AUTO = url-test, ❔ XX | 🔴 | trojan | @freevpnatm | 10
-PSG-FALLBACK = fallback, ❔ XX | 🔴 | trojan | @freevpnatm | 10
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🟢 | trojan | @freevpnatm | 13, ❔ XX | 🔴 | trojan | @freevpnatm | 14
+PSG-AUTO = url-test, ❔ XX | 🟢 | trojan | @freevpnatm | 13, ❔ XX | 🔴 | trojan | @freevpnatm | 14
+PSG-FALLBACK = fallback, ❔ XX | 🟢 | trojan | @freevpnatm | 13, ❔ XX | 🔴 | trojan | @freevpnatm | 14
 
 [Rule]
 GEOIP,IR,DIRECT
