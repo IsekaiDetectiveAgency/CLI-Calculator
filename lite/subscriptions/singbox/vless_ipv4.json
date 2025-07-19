@@ -129,7 +129,7 @@
                 "🇺🇸 US | 🔴 | vless | @filterk0sh | 16",
                 "🇩🇪 DE | 🔴 | vless | @filtershkan2 | 4",
                 "🇬🇧 GB | 🟢 | vless | @fire_vpn_channel | 1",
-                "🇷🇺 RU | 🟢 | vless | @free1_vpn | 7",
+                "🇷🇺 RU | 🟢 | vless | @free1_vpn | 8",
                 "🇸🇪 SE | 🔴 | vless | @free_vip3 | 6",
                 "🇺🇸 US | 🔴 | vless | @freev2flyng | 17",
                 "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
@@ -200,6 +200,7 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_youtube | 12",
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 14",
                 "🇳🇱 NL | 🟢 | vless | @v2rayngninja | 8",
+                "🇺🇸 US | 🟢 | vless | @v2rayopen | 9",
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
@@ -208,9 +209,7 @@
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇺🇸 US | 🔴 | vless | @vistav2ray | 16",
-                "🇫🇷 FR | 🟢 | vless | @vlessconfig | 16",
-                "🇩🇪 DE | 🔴 | vless | @vmess_ir | 19",
-                "🇩🇪 DE | 🟢 | vless | @vpn451 | 11",
+                "🇩🇪 DE | 🟢 | vless | @vlessconfig | 14",
                 "🇮🇷 IR | 🔴 | vless | @vpn_arta | 3",
                 "🇺🇸 US | 🟢 | vless | @vpn_ioss | 18",
                 "🇺🇸 US | 🟢 | vless | @vpn_ocean | 1",
@@ -253,7 +252,7 @@
                 "🇺🇸 US | 🔴 | vless | @filterk0sh | 16",
                 "🇩🇪 DE | 🔴 | vless | @filtershkan2 | 4",
                 "🇬🇧 GB | 🟢 | vless | @fire_vpn_channel | 1",
-                "🇷🇺 RU | 🟢 | vless | @free1_vpn | 7",
+                "🇷🇺 RU | 🟢 | vless | @free1_vpn | 8",
                 "🇸🇪 SE | 🔴 | vless | @free_vip3 | 6",
                 "🇺🇸 US | 🔴 | vless | @freev2flyng | 17",
                 "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
@@ -324,6 +323,7 @@
                 "🇺🇸 US | 🔴 | vless | @v2ray_youtube | 12",
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 14",
                 "🇳🇱 NL | 🟢 | vless | @v2rayngninja | 8",
+                "🇺🇸 US | 🟢 | vless | @v2rayopen | 9",
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
@@ -332,9 +332,7 @@
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇺🇸 US | 🔴 | vless | @vistav2ray | 16",
-                "🇫🇷 FR | 🟢 | vless | @vlessconfig | 16",
-                "🇩🇪 DE | 🔴 | vless | @vmess_ir | 19",
-                "🇩🇪 DE | 🟢 | vless | @vpn451 | 11",
+                "🇩🇪 DE | 🟢 | vless | @vlessconfig | 14",
                 "🇮🇷 IR | 🔴 | vless | @vpn_arta | 3",
                 "🇺🇸 US | 🟢 | vless | @vpn_ioss | 18",
                 "🇺🇸 US | 🟢 | vless | @vpn_ocean | 1",
@@ -781,7 +779,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🟢 | vless | @free1_vpn | 7",
+            "tag": "🇷🇺 RU | 🟢 | vless | @free1_vpn | 8",
             "type": "vless",
             "server": "213.183.41.63",
             "server_port": 443,
@@ -899,18 +897,25 @@
         {
             "tag": "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
             "type": "vless",
-            "server": "104.21.48.1",
-            "server_port": 2083,
-            "uuid": "c4e6a6ef-d782-4a12-a38a-906a61ee5bc1",
+            "server": "104.16.243.59",
+            "server_port": 443,
+            "uuid": "75fde681-ec64-4654-86fa-30732e8e179c",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "cho.chonon.sbs",
+                "server_name": "NGINX.NSCl.IR",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/assets",
+                "headers": {
+                    "Host": "NGINX.NSCl.IR"
                 }
             }
         },
@@ -2054,6 +2059,24 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🟢 | vless | @v2rayopen | 9",
+            "type": "vless",
+            "server": "104.21.48.1",
+            "server_port": 2083,
+            "uuid": "c4e6a6ef-d782-4a12-a38a-906a61ee5bc1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cho.chonon.sbs",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
             "type": "vless",
             "server": "172.235.165.34",
@@ -2188,9 +2211,9 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | vless | @vlessconfig | 16",
+            "tag": "🇩🇪 DE | 🟢 | vless | @vlessconfig | 14",
             "type": "vless",
-            "server": "13.39.238.208",
+            "server": "18.194.118.31",
             "server_port": 22224,
             "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
@@ -2209,38 +2232,6 @@
                 "path": "/telegram-channel-vlessconfig",
                 "headers": {
                     "Host": "trojan.burgerip.co.uk"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | vless | @vmess_ir | 19",
-            "type": "vless",
-            "server": "5.75.202.170",
-            "server_port": 2052,
-            "uuid": "0f2a843c-bbfb-4a94-bc6a-9110ddc7e947",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @vpn451 | 11",
-            "type": "vless",
-            "server": "80.71.157.175",
-            "server_port": 8443,
-            "uuid": "8a2a95af-8d31-40e0-aaf0-f4b99ed8ae59",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "DEDUso.su",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "I4ckWGs37sBXSBq3lGP79HqOhZ1eOjqaikCsDJXTaw0",
-                    "short_id": "a4eed13ebbf2f9d2"
                 }
             }
         },
