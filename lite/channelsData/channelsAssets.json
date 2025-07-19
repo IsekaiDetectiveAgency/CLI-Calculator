@@ -990,10 +990,10 @@
     },
     "ip_cf_config": {
         "types": [
-            "trojan",
             "ss",
             "vless",
-            "vmess"
+            "vmess",
+            "trojan"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
@@ -1541,8 +1541,8 @@
     "mowjproxy": {
         "types": [
             "vless",
-            "vmess",
-            "ss"
+            "ss",
+            "vmess"
         ],
         "title": "Mowj Proxy",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/mowjproxy.jpg"
@@ -2373,9 +2373,10 @@
     },
     "v2ray_free_conf": {
         "types": [
-            "vmess",
             "ss",
-            "trojan"
+            "vmess",
+            "trojan",
+            "vless"
         ],
         "title": "🌍 V2Ray Free Config 🇮🇷",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ray_free_conf.jpg"
@@ -2628,14 +2629,6 @@
         "title": "Quick v2ray",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayshop_m.jpg"
     },
-    "v2raytel": {
-        "types": [
-            "vless",
-            "ss"
-        ],
-        "title": "MCI NET ( همراه اول پروکسی)",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2raytel.jpg"
-    },
     "v2rayturbo": {
         "types": [
             "vless",
@@ -2661,7 +2654,8 @@
     },
     "v2rayweb": {
         "types": [
-            "vless"
+            "vless",
+            "trojan"
         ],
         "title": "V2ray | VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"
@@ -2963,14 +2957,6 @@
         "title": "VPNHOUSE 🏠 | Internet | Proxy | Freedom",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vpnhouse_official.jpg"
     },
-    "vpnkanfik": {
-        "types": [
-            "vless",
-            "ss"
-        ],
-        "title": "کانال پروکسی و کانفیگ سرعتی",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vpnkanfik.jpg"
-    },
     "vpnmeg": {
         "types": [
             "vless"
@@ -3133,9 +3119,8 @@
     },
     "zdyz2": {
         "types": [
-            "hy2",
-            "vmess",
-            "trojan"
+            "trojan",
+            "vmess"
         ],
         "title": "白嫖のHome｜节点｜VPN｜订阅｜资源分享",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/zdyz2.jpg"
