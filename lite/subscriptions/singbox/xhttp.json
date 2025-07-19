@@ -105,7 +105,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 19",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
@@ -114,7 +113,7 @@
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 2",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 3",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
-                "🇩🇪 DE | 🟢 | vless | @getconfigir | 18",
+                "🇫🇮 FI | 🟢 | vless | @v2rayweb | 11",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
@@ -125,7 +124,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 19",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
@@ -134,7 +132,7 @@
                 "🇺🇸 US | 🔴 | vless | @father_vpn | 2",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 3",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
-                "🇩🇪 DE | 🟢 | vless | @getconfigir | 18",
+                "🇫🇮 FI | 🟢 | vless | @v2rayweb | 11",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
@@ -159,29 +157,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @canfing_vpn | 19",
-            "type": "vless",
-            "server": "de6rt.samsungmarketshop.ir",
-            "server_port": 2083,
-            "uuid": "bf989dce-7af7-423b-a499-71da71cdcef1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "53XOEMg4ftOAn_gSdlNndT5Xrfj4PB5J-YKOZoqTODk",
-                    "short_id": "aeba"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @configscenter | 2",
@@ -265,16 +240,16 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @getconfigir | 18",
+            "tag": "🇫🇮 FI | 🟢 | vless | @v2rayweb | 11",
             "type": "vless",
-            "server": "91.107.254.202",
-            "server_port": 2096,
-            "uuid": "6064efe5-2bc4-4694-933c-d3fe05e73da4",
+            "server": "online-chat.webboosterpro.co.uk",
+            "server_port": 443,
+            "uuid": "f72e4aa8-36c2-4dd6-b19d-dfe6be679e44",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "firebase.googleapis.com",
+                "server_name": "www.fastly.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -282,8 +257,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "sPEQ8mlkuJQsGrMZux2g9EmXKztuXHwnyORJPwwznDQ",
-                    "short_id": "a0e13102"
+                    "public_key": "QxGoAQpy2zri2JRkXmPfESKjAMHpsrJPmjbkJuZCz3U",
+                    "short_id": "1eaf5214"
                 }
             }
         },
