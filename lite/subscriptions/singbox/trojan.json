@@ -116,7 +116,7 @@
                 "🇫🇷 FR | 🟢 | trojan | @v2ray_extractor | 19",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11",
-                "🇺🇸 US | 🟢 | trojan | @v2source | 19",
+                "🇺🇸 US | 🟢 | trojan | @v2rayweb | 17",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ]
         },
@@ -135,7 +135,7 @@
                 "🇫🇷 FR | 🟢 | trojan | @v2ray_extractor | 19",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11",
-                "🇺🇸 US | 🟢 | trojan | @v2source | 19",
+                "🇺🇸 US | 🟢 | trojan | @v2rayweb | 17",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ],
             "url": "https://www.gstatic.com/generate_204",
@@ -360,14 +360,14 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | trojan | @v2source | 19",
+            "tag": "🇺🇸 US | 🟢 | trojan | @v2rayweb | 17",
             "type": "trojan",
-            "server": "104.19.251.164",
-            "server_port": 443,
-            "password": "blue2024",
+            "server": "104.25.197.102",
+            "server_port": 8443,
+            "password": "AQYZMBIoZd",
             "tls": {
                 "enabled": true,
-                "server_name": "hb.lii2010.us.kg",
+                "server_name": "cdn65667.boshrachoice.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -376,9 +376,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/?ed=2048",
                 "headers": {
-                    "Host": "hb.lii2010.us.kg"
+                    "Host": "cdn65667.boshrachoice.ir"
                 }
             }
         },
