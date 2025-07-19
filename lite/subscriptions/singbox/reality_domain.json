@@ -123,8 +123,7 @@
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇺🇦 UA | 🟢 | vless | @v2rayweb | 17",
-                "🇩🇪 DE | 🟢 | vless | @v2source | 18",
+                "🇳🇱 NL | 🟢 | vless | @v2rayweb | 17",
                 "🇩🇪 DE | 🟢 | vless | @v2trayproxy | 13",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
@@ -153,8 +152,7 @@
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇺🇦 UA | 🟢 | vless | @v2rayweb | 17",
-                "🇩🇪 DE | 🟢 | vless | @v2source | 18",
+                "🇳🇱 NL | 🟢 | vless | @v2rayweb | 17",
                 "🇩🇪 DE | 🟢 | vless | @v2trayproxy | 13",
                 "❔ XX | 🟢 | vless | @vp22ray | 10",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
@@ -627,48 +625,25 @@
             }
         },
         {
-            "tag": "🇺🇦 UA | 🟢 | vless | @v2rayweb | 17",
+            "tag": "🇳🇱 NL | 🟢 | vless | @v2rayweb | 17",
             "type": "vless",
-            "server": "flower.mahi-yar.com",
-            "server_port": 7893,
-            "uuid": "25fff2dd-728f-45f7-9741-8fec20de619f",
+            "server": "freevpn01.v2raytun.top",
+            "server_port": 443,
+            "uuid": "id8133491769",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "refersion.com",
+                "server_name": "vk.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "random"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "4wQM_RBIjAR27D6Vou1QZfa1mF2gw8SDEDiwoEd3Cxo",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @v2source | 18",
-            "type": "vless",
-            "server": "real-all2.sdcards1.ir",
-            "server_port": 8502,
-            "uuid": "04b95b53-a8b6-4ffb-96ff-81bf6ac9f98e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "OJ0wA5wp55uZdD16dutlTZvx1x-rbMMXmiO9D_MMCHI",
-                    "short_id": "e701a013553059ba"
+                    "public_key": "d0tsZKr6Y7rdsppLOpkgxZfeRsYigwjE6v-qNqYdAQE",
+                    "short_id": "acd56b"
                 }
             }
         },
