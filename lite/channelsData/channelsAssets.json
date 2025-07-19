@@ -640,8 +640,8 @@
     },
     "freakconfig": {
         "types": [
-            "vless",
             "trojan",
+            "vless",
             "ss"
         ],
         "title": "سرور کانفیگ کانفینگ رایگان",
@@ -796,9 +796,9 @@
     },
     "freevpnatm": {
         "types": [
-            "vmess",
+            "trojan",
             "vless",
-            "trojan"
+            "vmess"
         ],
         "title": "科學上网 free configs",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/freevpnatm.jpg"
@@ -1540,7 +1540,8 @@
     "mowjproxy": {
         "types": [
             "vmess",
-            "vless"
+            "vless",
+            "ss"
         ],
         "title": "Mowj Proxy",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/mowjproxy.jpg"
@@ -1836,7 +1837,6 @@
     },
     "outlinev2rayng": {
         "types": [
-            "vmess",
             "vless",
             "ss"
         ],
@@ -2394,15 +2394,6 @@
         "title": "Quick vpn",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ray_iran88.jpg"
     },
-    "v2ray_n": {
-        "types": [
-            "vless",
-            "vmess",
-            "trojan"
-        ],
-        "title": "سرور v2ray - کانفیگ - vpn - کاستوم - پروکسی - vmess",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ray_n.jpg"
-    },
     "v2ray_reality_new": {
         "types": [
             "vless"
@@ -2676,9 +2667,9 @@
     },
     "v2rayweb": {
         "types": [
-            "trojan",
             "vless",
-            "vmess"
+            "vmess",
+            "trojan"
         ],
         "title": "V2ray | VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"
@@ -2796,7 +2787,6 @@
     },
     "vistav2ray": {
         "types": [
-            "ss",
             "vless"
         ],
         "title": "Vista Pc (It _ja)",

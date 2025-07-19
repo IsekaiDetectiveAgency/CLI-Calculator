@@ -17,7 +17,6 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇭🇰 HK | 🟢 | trojan | @NamiraNet | 60","type":"trojan","server":"ni.mjt000.com","port":443,"password":"172b2279-f7f5-4542-ab6c-9e96ad7dd5be","skip-cert-verify":false}
   - {"name":"🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2","type":"trojan","server":"production.tj.ojan.workers.dev","port":443,"password":"9yu6m5okr","skip-cert-verify":false}
   - {"name":"❔ XX | 🟢 | trojan | @maradona_vpn | 8","type":"trojan","server":"maradona_vpn.history-paint.art","port":443,"password":"Maradona_vpn","skip-cert-verify":false}
 
@@ -50,7 +49,6 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇭🇰 HK | 🟢 | trojan | @NamiraNet | 60'
       - '🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2'
       - '❔ XX | 🟢 | trojan | @maradona_vpn | 8'
 
@@ -59,14 +57,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇭🇰 HK | 🟢 | trojan | @NamiraNet | 60'
       - '🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2'
       - '❔ XX | 🟢 | trojan | @maradona_vpn | 8'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇭🇰 HK | 🟢 | trojan | @NamiraNet | 60'
       - '🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2'
       - '❔ XX | 🟢 | trojan | @maradona_vpn | 8'
 
