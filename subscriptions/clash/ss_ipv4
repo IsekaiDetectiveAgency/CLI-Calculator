@@ -17,6 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
+  - {"name":"🇬🇧 GB | 🟢 | ss | @NamiraNet | 63","type":"ss","server":"131.145.120.47","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇳🇱 NL | 🟢 | ss | @ai_duet | 8","type":"ss","server":"194.87.216.189","port":443,"password":"Ib9hxFZxUH4m","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇷 FR | 🟢 | ss | @argo_vpn1 | 9","type":"ss","server":"77.105.166.12","port":8594,"password":"mSQiuT5jR17nyWgcXOPrTW","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇱🇻 LV | 🟢 | ss | @argo_vpn1 | 10","type":"ss","server":"216.173.70.187","port":57456,"password":"a58fa62b4944ddbf","cipher":"chacha20-ietf-poly1305"}
@@ -38,6 +39,7 @@ proxies:
   - {"name":"🇨🇦 CA | 🟢 | ss | @free1ss | 11","type":"ss","server":"142.4.216.225","port":80,"password":"JIhN6rBKkaEboLNXVSv5rq","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇦🇹 AT | 🟢 | ss | @free1ss | 12","type":"ss","server":"152.53.2.128","port":34045,"password":"TG:@Enkelte_notif&&TG:@Notif_Chat","cipher":"aes-256-gcm"}
   - {"name":"🇦🇹 AT | 🟢 | ss | @free1ss | 13","type":"ss","server":"95.163.176.37","port":8506,"password":"eUh4lSpi7nOYj0vSrqLUh0","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱 NL | 🟢 | ss | @free1ss | 15","type":"ss","server":"194.87.31.68","port":443,"password":"R2UGad61FGO5","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪 DE | 🟢 | ss | @freeiranianv2rey | 14","type":"ss","server":"62.60.216.61","port":1080,"password":"foKeqDOV9NCiDMMWTiDOoQ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪 DE | 🟢 | ss | @freev2raym | 8","type":"ss","server":"91.107.141.0","port":43486,"password":"7vlJpFVhEpKh/VTTCvOab8eEoJo+MeXJpj9CDxLYm9o=","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇳🇱 NL | 🟢 | ss | @freevirgoolnet | 6","type":"ss","server":"89.23.103.21","port":51584,"password":"oYQ8JwEldYn4KT2gfZ6eNl","cipher":"chacha20-ietf-poly1305"}
@@ -76,7 +78,7 @@ proxies:
   - {"name":"🇭🇰 HK | 🟢 | ss | @outlinereleasedkey | 18","type":"ss","server":"212.192.15.124","port":40109,"password":"82888bb98615435b","cipher":"aes-256-gcm"}
   - {"name":"🇺🇸 US | 🟢 | ss | @outlinev2rayng | 10","type":"ss","server":"45.87.175.167","port":8080,"password":"QCXDxuDlTTMD7jtgHUjIoj","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸 US | 🟢 | ss | @outlinev2rayng | 11","type":"ss","server":"45.87.175.178","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🟢 | ss | @proxy_mtproto_vpns_free | 16","type":"ss","server":"45.87.175.190","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🟢 | ss | @proxy_mtproto_vpns_free | 13","type":"ss","server":"45.87.175.190","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇳🇱 NL | 🟢 | ss | @proxy_net_meli | 5","type":"ss","server":"91.232.105.253","port":9101,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
   - {"name":"🇫🇷 FR | 🟢 | ss | @proxy_net_meli | 6","type":"ss","server":"163.172.110.153","port":809,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇸🇪 SE | 🟢 | ss | @proxy_net_meli | 7","type":"ss","server":"196.196.156.122","port":809,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
@@ -107,7 +109,6 @@ proxies:
   - {"name":"🇩🇪 DE | 🟢 | ss | @vpnfreeaccounts | 14","type":"ss","server":"194.233.165.55","port":80,"password":"aFzkJJi4N6ILVSsSUzpoP4","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇷 FR | 🟢 | ss | @vpnfreeaccounts | 15","type":"ss","server":"172.232.45.24","port":80,"password":"t9tgJFwwla72eL9W61t8yB","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸 US | 🟢 | ss | @vpngate_config | 17","type":"ss","server":"135.148.67.88","port":2087,"password":"a9dIXhPAuSDCKUPU","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱 NL | 🟢 | ss | @vpnkanfik | 6","type":"ss","server":"194.87.31.68","port":443,"password":"R2UGad61FGO5","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇳🇱 NL | 🟢 | ss | @vpnkanfik | 7","type":"ss","server":"45.158.171.136","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
 
 rule-providers:
@@ -139,6 +140,7 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
+      - '🇬🇧 GB | 🟢 | ss | @NamiraNet | 63'
       - '🇳🇱 NL | 🟢 | ss | @ai_duet | 8'
       - '🇫🇷 FR | 🟢 | ss | @argo_vpn1 | 9'
       - '🇱🇻 LV | 🟢 | ss | @argo_vpn1 | 10'
@@ -160,6 +162,7 @@ proxy-groups:
       - '🇨🇦 CA | 🟢 | ss | @free1ss | 11'
       - '🇦🇹 AT | 🟢 | ss | @free1ss | 12'
       - '🇦🇹 AT | 🟢 | ss | @free1ss | 13'
+      - '🇳🇱 NL | 🟢 | ss | @free1ss | 15'
       - '🇩🇪 DE | 🟢 | ss | @freeiranianv2rey | 14'
       - '🇩🇪 DE | 🟢 | ss | @freev2raym | 8'
       - '🇳🇱 NL | 🟢 | ss | @freevirgoolnet | 6'
@@ -198,7 +201,7 @@ proxy-groups:
       - '🇭🇰 HK | 🟢 | ss | @outlinereleasedkey | 18'
       - '🇺🇸 US | 🟢 | ss | @outlinev2rayng | 10'
       - '🇺🇸 US | 🟢 | ss | @outlinev2rayng | 11'
-      - '🇺🇸 US | 🟢 | ss | @proxy_mtproto_vpns_free | 16'
+      - '🇺🇸 US | 🟢 | ss | @proxy_mtproto_vpns_free | 13'
       - '🇳🇱 NL | 🟢 | ss | @proxy_net_meli | 5'
       - '🇫🇷 FR | 🟢 | ss | @proxy_net_meli | 6'
       - '🇸🇪 SE | 🟢 | ss | @proxy_net_meli | 7'
@@ -229,7 +232,6 @@ proxy-groups:
       - '🇩🇪 DE | 🟢 | ss | @vpnfreeaccounts | 14'
       - '🇫🇷 FR | 🟢 | ss | @vpnfreeaccounts | 15'
       - '🇺🇸 US | 🟢 | ss | @vpngate_config | 17'
-      - '🇳🇱 NL | 🟢 | ss | @vpnkanfik | 6'
       - '🇳🇱 NL | 🟢 | ss | @vpnkanfik | 7'
 
   - name: 📉 Fallback
@@ -237,6 +239,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - '🇬🇧 GB | 🟢 | ss | @NamiraNet | 63'
       - '🇳🇱 NL | 🟢 | ss | @ai_duet | 8'
       - '🇫🇷 FR | 🟢 | ss | @argo_vpn1 | 9'
       - '🇱🇻 LV | 🟢 | ss | @argo_vpn1 | 10'
@@ -258,6 +261,7 @@ proxy-groups:
       - '🇨🇦 CA | 🟢 | ss | @free1ss | 11'
       - '🇦🇹 AT | 🟢 | ss | @free1ss | 12'
       - '🇦🇹 AT | 🟢 | ss | @free1ss | 13'
+      - '🇳🇱 NL | 🟢 | ss | @free1ss | 15'
       - '🇩🇪 DE | 🟢 | ss | @freeiranianv2rey | 14'
       - '🇩🇪 DE | 🟢 | ss | @freev2raym | 8'
       - '🇳🇱 NL | 🟢 | ss | @freevirgoolnet | 6'
@@ -296,7 +300,7 @@ proxy-groups:
       - '🇭🇰 HK | 🟢 | ss | @outlinereleasedkey | 18'
       - '🇺🇸 US | 🟢 | ss | @outlinev2rayng | 10'
       - '🇺🇸 US | 🟢 | ss | @outlinev2rayng | 11'
-      - '🇺🇸 US | 🟢 | ss | @proxy_mtproto_vpns_free | 16'
+      - '🇺🇸 US | 🟢 | ss | @proxy_mtproto_vpns_free | 13'
       - '🇳🇱 NL | 🟢 | ss | @proxy_net_meli | 5'
       - '🇫🇷 FR | 🟢 | ss | @proxy_net_meli | 6'
       - '🇸🇪 SE | 🟢 | ss | @proxy_net_meli | 7'
@@ -327,12 +331,12 @@ proxy-groups:
       - '🇩🇪 DE | 🟢 | ss | @vpnfreeaccounts | 14'
       - '🇫🇷 FR | 🟢 | ss | @vpnfreeaccounts | 15'
       - '🇺🇸 US | 🟢 | ss | @vpngate_config | 17'
-      - '🇳🇱 NL | 🟢 | ss | @vpnkanfik | 6'
       - '🇳🇱 NL | 🟢 | ss | @vpnkanfik | 7'
       
   - name: All-Proxies
     type: select
     proxies:
+      - '🇬🇧 GB | 🟢 | ss | @NamiraNet | 63'
       - '🇳🇱 NL | 🟢 | ss | @ai_duet | 8'
       - '🇫🇷 FR | 🟢 | ss | @argo_vpn1 | 9'
       - '🇱🇻 LV | 🟢 | ss | @argo_vpn1 | 10'
@@ -354,6 +358,7 @@ proxy-groups:
       - '🇨🇦 CA | 🟢 | ss | @free1ss | 11'
       - '🇦🇹 AT | 🟢 | ss | @free1ss | 12'
       - '🇦🇹 AT | 🟢 | ss | @free1ss | 13'
+      - '🇳🇱 NL | 🟢 | ss | @free1ss | 15'
       - '🇩🇪 DE | 🟢 | ss | @freeiranianv2rey | 14'
       - '🇩🇪 DE | 🟢 | ss | @freev2raym | 8'
       - '🇳🇱 NL | 🟢 | ss | @freevirgoolnet | 6'
@@ -392,7 +397,7 @@ proxy-groups:
       - '🇭🇰 HK | 🟢 | ss | @outlinereleasedkey | 18'
       - '🇺🇸 US | 🟢 | ss | @outlinev2rayng | 10'
       - '🇺🇸 US | 🟢 | ss | @outlinev2rayng | 11'
-      - '🇺🇸 US | 🟢 | ss | @proxy_mtproto_vpns_free | 16'
+      - '🇺🇸 US | 🟢 | ss | @proxy_mtproto_vpns_free | 13'
       - '🇳🇱 NL | 🟢 | ss | @proxy_net_meli | 5'
       - '🇫🇷 FR | 🟢 | ss | @proxy_net_meli | 6'
       - '🇸🇪 SE | 🟢 | ss | @proxy_net_meli | 7'
@@ -423,7 +428,6 @@ proxy-groups:
       - '🇩🇪 DE | 🟢 | ss | @vpnfreeaccounts | 14'
       - '🇫🇷 FR | 🟢 | ss | @vpnfreeaccounts | 15'
       - '🇺🇸 US | 🟢 | ss | @vpngate_config | 17'
-      - '🇳🇱 NL | 🟢 | ss | @vpnkanfik | 6'
       - '🇳🇱 NL | 🟢 | ss | @vpnkanfik | 7'
 
 rules:
