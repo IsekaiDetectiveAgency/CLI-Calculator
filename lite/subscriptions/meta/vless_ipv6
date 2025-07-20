@@ -17,6 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
+  - {"name":"❔ XX | 🔴 | vless | @freevpnatm | 19","type":"vless","server":"[2606:4700:3035::ac43:a232]","port":443,"uuid":"e4cbe8b8-37db-4aaa-8469-b84f34c51ebc","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":""}}}
   - {"name":"❔ XX | 🔴 | vless | @freevv2rayng | 10","type":"vless","server":"[2a12:5940:1527::2]","port":443,"uuid":"78d743e4-1519-4770-aa84-ca0d6de0cc80","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"❔ XX | 🔴 | vless | @internet_nor | 2","type":"vless","server":"[2a01:4f8:c010:13e4::1]","port":443,"uuid":"f9196fa1-ba9f-4f31-98a5-3565476caafe","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"❔ XX | 🔴 | vless | @v2ryngfree | 10","type":"vless","server":"[2a05:f480:1000:0300:5400:04ff:fef0:6bd0]","port":2053,"uuid":"1c7f075c-0021-4f4b-8fbd-326672770d61","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/@v2ryngfree@v2ryngfree@v2ryngfree","headers":{"Host":"speedtest.net"}}}
@@ -51,6 +52,7 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
+      - '❔ XX | 🔴 | vless | @freevpnatm | 19'
       - '❔ XX | 🔴 | vless | @freevv2rayng | 10'
       - '❔ XX | 🔴 | vless | @internet_nor | 2'
       - '❔ XX | 🔴 | vless | @v2ryngfree | 10'
@@ -61,6 +63,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - '❔ XX | 🔴 | vless | @freevpnatm | 19'
       - '❔ XX | 🔴 | vless | @freevv2rayng | 10'
       - '❔ XX | 🔴 | vless | @internet_nor | 2'
       - '❔ XX | 🔴 | vless | @v2ryngfree | 10'
@@ -69,6 +72,7 @@ proxy-groups:
   - name: All-Proxies
     type: select
     proxies:
+      - '❔ XX | 🔴 | vless | @freevpnatm | 19'
       - '❔ XX | 🔴 | vless | @freevv2rayng | 10'
       - '❔ XX | 🔴 | vless | @internet_nor | 2'
       - '❔ XX | 🔴 | vless | @v2ryngfree | 10'
