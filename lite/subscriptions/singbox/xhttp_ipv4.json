@@ -106,6 +106,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 26",
+                "🇹🇷 TR | 🟢 | vless | @getconfigir | 19",
                 "🇳🇱 NL | 🟢 | vless | @lranonline_new | 3",
                 "🇳🇱 NL | 🔴 | vless | @minovpnch | 13",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
@@ -120,6 +121,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 26",
+                "🇹🇷 TR | 🟢 | vless | @getconfigir | 19",
                 "🇳🇱 NL | 🟢 | vless | @lranonline_new | 3",
                 "🇳🇱 NL | 🔴 | vless | @minovpnch | 13",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
@@ -168,6 +170,29 @@
                     "enabled": true,
                     "public_key": "4Xu_jqRD-mbhEwNyntlz_6zU4VhsE0-QWCxAbhEL_H4",
                     "short_id": "7ab467"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷 TR | 🟢 | vless | @getconfigir | 19",
+            "type": "vless",
+            "server": "5.133.102.59",
+            "server_port": 80,
+            "uuid": "4d86fbab-d15f-4e7f-8ac7-3b4d90568444",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "6xEqt7g9Q7zJD8rtAzA_8rODvZ9ZJwlv3uOH1cXujzI",
+                    "short_id": "43"
                 }
             }
         },

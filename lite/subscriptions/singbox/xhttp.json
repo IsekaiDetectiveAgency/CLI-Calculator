@@ -110,13 +110,12 @@
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 9",
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 5",
-                "🇺🇸 US | 🔴 | vless | @father_vpn | 1",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 3",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
                 "🇫🇮 FI | 🟢 | vless | @v2trayproxy | 13",
-                "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
                 "🇭🇰 HK | 🟢 | vless | @vpnaloo | 16",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 26",
+                "🇹🇷 TR | 🟢 | vless | @getconfigir | 19",
                 "🇳🇱 NL | 🟢 | vless | @lranonline_new | 3",
                 "🇳🇱 NL | 🔴 | vless | @minovpnch | 13",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
@@ -135,13 +134,12 @@
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 9",
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 5",
-                "🇺🇸 US | 🔴 | vless | @father_vpn | 1",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 3",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
                 "🇫🇮 FI | 🟢 | vless | @v2trayproxy | 13",
-                "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
                 "🇭🇰 HK | 🟢 | vless | @vpnaloo | 16",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 26",
+                "🇹🇷 TR | 🟢 | vless | @getconfigir | 19",
                 "🇳🇱 NL | 🟢 | vless | @lranonline_new | 3",
                 "🇳🇱 NL | 🔴 | vless | @minovpnch | 13",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
@@ -216,15 +214,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @father_vpn | 1",
-            "type": "vless",
-            "server": "server2.ultra-irancell.com",
-            "server_port": 80,
-            "uuid": "a707317c-2236-41c0-9c00-63e866401b25",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇩🇪 DE | 🔴 | vless | @iseqaro | 3",
             "type": "vless",
             "server": "s5.1dnt.k-l.cloud",
@@ -275,15 +264,6 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @vmess_ir | 18",
-            "type": "vless",
-            "server": "speedtestcustom.com",
-            "server_port": 80,
-            "uuid": "c95e1271-871f-44ad-bbe9-e05d028d3d40",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇭🇰 HK | 🟢 | vless | @vpnaloo | 16",
             "type": "vless",
             "server": "ko1.xservers.ir",
@@ -326,6 +306,29 @@
                     "enabled": true,
                     "public_key": "4Xu_jqRD-mbhEwNyntlz_6zU4VhsE0-QWCxAbhEL_H4",
                     "short_id": "7ab467"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷 TR | 🟢 | vless | @getconfigir | 19",
+            "type": "vless",
+            "server": "5.133.102.59",
+            "server_port": 80,
+            "uuid": "4d86fbab-d15f-4e7f-8ac7-3b4d90568444",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "journalofbigdata.springeropen.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "6xEqt7g9Q7zJD8rtAzA_8rODvZ9ZJwlv3uOH1cXujzI",
+                    "short_id": "43"
                 }
             }
         },

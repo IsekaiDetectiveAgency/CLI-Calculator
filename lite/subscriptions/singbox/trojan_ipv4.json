@@ -107,12 +107,14 @@
                 "URL-TEST",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 16",
                 "🇺🇸 US | 🟢 | trojan | @freevpnatm | 16",
+                "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 15",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
                 "🇫🇷 FR | 🟢 | trojan | @privatevpns | 16",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11",
+                "🇭🇰 HK | 🟢 | trojan | @v2source | 18",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ]
         },
@@ -122,12 +124,14 @@
             "outbounds": [
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 16",
                 "🇺🇸 US | 🟢 | trojan | @freevpnatm | 16",
+                "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 15",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
                 "🇫🇷 FR | 🟢 | trojan | @privatevpns | 16",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11",
+                "🇭🇰 HK | 🟢 | trojan | @v2source | 18",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ],
             "url": "https://www.gstatic.com/generate_204",
@@ -153,7 +157,7 @@
         {
             "tag": "🇫🇷 FR | 🟢 | trojan | @directvpn | 16",
             "type": "trojan",
-            "server": "15.237.167.76",
+            "server": "15.237.91.60",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "tls": {
@@ -184,6 +188,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "XmTzATQPJv9ROgWK0XsfKF93"
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 15",
+            "type": "trojan",
+            "server": "104.25.165.81",
+            "server_port": 8443,
+            "password": "123456",
+            "tls": {
+                "enabled": true,
+                "server_name": "top-azx.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Az1.vpn.33.TOP/?ed=2560",
+                "headers": {
+                    "Host": "top-azx.pages.dev"
+                }
             }
         },
         {
@@ -228,7 +255,7 @@
         {
             "tag": "🇫🇷 FR | 🟢 | trojan | @privatevpns | 16",
             "type": "trojan",
-            "server": "15.237.167.76",
+            "server": "15.237.91.60",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "tls": {
@@ -276,7 +303,7 @@
         {
             "tag": "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11",
             "type": "trojan",
-            "server": "15.237.167.76",
+            "server": "15.237.91.60",
             "server_port": 22223,
             "password": "telegram-id-v2rayvpnchannel",
             "tls": {
@@ -286,6 +313,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🟢 | trojan | @v2source | 18",
+            "type": "trojan",
+            "server": "192.131.142.161",
+            "server_port": 46639,
+            "password": "ttfang",
+            "tls": {
+                "enabled": true,
+                "server_name": "ttfang.fange.me",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "ttfang.fange.me"
                 }
             }
         },
