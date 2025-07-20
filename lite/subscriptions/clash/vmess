@@ -17,7 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3","type":"vmess","server":"tu.shoptx.sbs","port":15400,"cipher":"auto","uuid":"cc660614-1172-4988-9647-3846502d0e4f","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇭🇰 HK | 🔴 | vmess | @NamiraNet | 68","type":"vmess","server":"212.192.15.177","port":20521,"cipher":"auto","uuid":"0390d4bd-ba0e-4b87-8653-b33ea2f3e483","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":""}}}
+  - {"name":"🇮🇷 IR | 🔴 | vmess | @angus_vpn | 0","type":"vmess","server":"tu.shoptx.sbs","port":15400,"cipher":"auto","uuid":"cc660614-1172-4988-9647-3846502d0e4f","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"❔ XX | 🔴 | vmess | @armodchannel | 62","type":"vmess","server":"asia.artunnel57.host","port":80,"cipher":"auto","uuid":"65e44501-defd-4609-a4e3-7028dc417b50","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess-ntls","headers":{"Host":"asia.artunnel57.host"}}}
   - {"name":"❔ XX | 🔴 | vmess | @bluevpn111 | 2","type":"vmess","server":"discord.noonetry.shop","port":35165,"cipher":"auto","uuid":"73d9dbf6-6202-4b19-8670-02a3b47e7785","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"❔ XX | 🔴 | vmess | @configforvpn | 9","type":"vmess","server":"shahinnet-freenetcdn.melodyshopone2.ir","port":8080,"cipher":"auto","uuid":"96588912-3bcb-491c-8ce3-7a965bbec07f","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"sog.shahinnet.shop"}}}
@@ -85,7 +86,8 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3'
+      - '🇭🇰 HK | 🔴 | vmess | @NamiraNet | 68'
+      - '🇮🇷 IR | 🔴 | vmess | @angus_vpn | 0'
       - '❔ XX | 🔴 | vmess | @armodchannel | 62'
       - '❔ XX | 🔴 | vmess | @bluevpn111 | 2'
       - '❔ XX | 🔴 | vmess | @configforvpn | 9'
@@ -129,7 +131,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3'
+      - '🇭🇰 HK | 🔴 | vmess | @NamiraNet | 68'
+      - '🇮🇷 IR | 🔴 | vmess | @angus_vpn | 0'
       - '❔ XX | 🔴 | vmess | @armodchannel | 62'
       - '❔ XX | 🔴 | vmess | @bluevpn111 | 2'
       - '❔ XX | 🔴 | vmess | @configforvpn | 9'
@@ -171,7 +174,8 @@ proxy-groups:
   - name: All-Proxies
     type: select
     proxies:
-      - '🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3'
+      - '🇭🇰 HK | 🔴 | vmess | @NamiraNet | 68'
+      - '🇮🇷 IR | 🔴 | vmess | @angus_vpn | 0'
       - '❔ XX | 🔴 | vmess | @armodchannel | 62'
       - '❔ XX | 🔴 | vmess | @bluevpn111 | 2'
       - '❔ XX | 🔴 | vmess | @configforvpn | 9'

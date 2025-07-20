@@ -108,6 +108,7 @@
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
+                "🇩🇪 DE | 🟢 | vless | @getconfigir | 19",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "❔ XX | 🟢 | vless | @itv2ray | 29",
                 "🇩🇪 DE | 🟢 | vless | @kesslervpn | 2",
@@ -135,6 +136,7 @@
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
+                "🇩🇪 DE | 🟢 | vless | @getconfigir | 19",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "❔ XX | 🟢 | vless | @itv2ray | 29",
                 "🇩🇪 DE | 🟢 | vless | @kesslervpn | 2",
@@ -249,6 +251,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@FsV2ray"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @getconfigir | 19",
+            "type": "vless",
+            "server": "zn.boshrachoice.ir",
+            "server_port": 4433,
+            "uuid": "5b72e595-de09-4192-8b94-f46bbe0f0bd2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IUk4LR6VI6CnvLMY_ks1KdOHvB1_byMvQM3gZfuU5S0",
+                    "short_id": "6762f9cf85154ca2"
+                }
             }
         },
         {

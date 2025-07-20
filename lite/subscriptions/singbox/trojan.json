@@ -107,15 +107,14 @@
                 "URL-TEST",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇩🇪 DE | 🟢 | trojan | @directvpn | 12",
-                "🇺🇸 US | 🟢 | trojan | @dnsforyou | 8",
+                "🇫🇷 FR | 🟢 | trojan | @directvpn | 16",
                 "🇺🇸 US | 🟢 | trojan | @freevpnatm | 16",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
-                "🇩🇪 DE | 🟢 | trojan | @privatevpns | 12",
+                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 16",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
-                "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 11",
+                "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ]
         },
@@ -125,15 +124,14 @@
             "outbounds": [
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇩🇪 DE | 🟢 | trojan | @directvpn | 12",
-                "🇺🇸 US | 🟢 | trojan | @dnsforyou | 8",
+                "🇫🇷 FR | 🟢 | trojan | @directvpn | 16",
                 "🇺🇸 US | 🟢 | trojan | @freevpnatm | 16",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
-                "🇩🇪 DE | 🟢 | trojan | @privatevpns | 12",
+                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 16",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
-                "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 11",
+                "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ],
             "url": "https://www.gstatic.com/generate_204",
@@ -200,9 +198,9 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | trojan | @directvpn | 12",
+            "tag": "🇫🇷 FR | 🟢 | trojan | @directvpn | 16",
             "type": "trojan",
-            "server": "3.64.91.90",
+            "server": "15.237.167.76",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "tls": {
@@ -212,29 +210,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | trojan | @dnsforyou | 8",
-            "type": "trojan",
-            "server": "172.67.181.173",
-            "server_port": 443,
-            "password": "f282b878-8711-45a1-8c69-5564172123c1",
-            "tls": {
-                "enabled": true,
-                "server_name": "vpn.stupidworld.web.id",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Tel-@V2ray_Alpha",
-                "headers": {
-                    "Host": "vpn.stupidworld.web.id"
                 }
             }
         },
@@ -298,9 +273,9 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | trojan | @privatevpns | 12",
+            "tag": "🇫🇷 FR | 🟢 | trojan | @privatevpns | 16",
             "type": "trojan",
-            "server": "3.64.91.90",
+            "server": "15.237.167.76",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "tls": {
@@ -346,9 +321,9 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 11",
+            "tag": "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11",
             "type": "trojan",
-            "server": "3.64.91.90",
+            "server": "15.237.167.76",
             "server_port": 22223,
             "password": "telegram-id-v2rayvpnchannel",
             "tls": {
