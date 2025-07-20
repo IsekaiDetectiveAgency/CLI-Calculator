@@ -17,6 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
+  - {"name":"❔ XX | 🟢 | vless | @NamiraNet | 59","type":"vless","server":"[::ffff:3207:55dd]","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"tEstBp.fIBiDOB9775921.woRkeRS.DEV","ws-opts":{"path":"/xUnw05Z6MV3NG29U?ed=2560","headers":{"Host":"testbp.fibidob9775921.workers.dev"}}}
   - {"name":"❔ XX | 🟢 | vless | @deli_servers | 1","type":"vless","server":"[2a01:4f8:c012:81c0::1]","port":1,"uuid":"d3927fcb-1dd4-4a84-af91-75196dcc0ee9","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"servername":"4dsply.com","grpc-opts":{"grpc-service-name":"/tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers"},"reality-opts":{"public-key":"L6AkyAVesPEg-yz5o4-2yeTCBYACZW5OWnPBVaS-OnQ","short-id":"bbcb1cf7"}}
   - {"name":"❔ XX | 🟢 | vless | @fire_vpn_channel | 0","type":"vless","server":"[2a00:7c80:0000:0192:aaa1:bbb3:1bb8:f32e]","port":443,"uuid":"ac864844-c86b-4ac5-bbe9-50fcc05123f2","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"srhrforall.org","flow":"xtls-rprx-vision","reality-opts":{"public-key":"Uu4tcBEWuNn0SKnDk2Jy_o5Te2VA76M68hMlVYj9kiQ","short-id":"6412"}}
   - {"name":"❔ XX | 🔴 | vless | @freevv2rayng | 6","type":"vless","server":"[2a12:5940:1527::2]","port":443,"uuid":"8bfbdbb1-9126-4372-96a1-5547d629559f","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
@@ -61,6 +62,7 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
+      - '❔ XX | 🟢 | vless | @NamiraNet | 59'
       - '❔ XX | 🟢 | vless | @deli_servers | 1'
       - '❔ XX | 🟢 | vless | @fire_vpn_channel | 0'
       - '❔ XX | 🔴 | vless | @freevv2rayng | 6'
@@ -81,6 +83,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - '❔ XX | 🟢 | vless | @NamiraNet | 59'
       - '❔ XX | 🟢 | vless | @deli_servers | 1'
       - '❔ XX | 🟢 | vless | @fire_vpn_channel | 0'
       - '❔ XX | 🔴 | vless | @freevv2rayng | 6'
@@ -99,6 +102,7 @@ proxy-groups:
   - name: All-Proxies
     type: select
     proxies:
+      - '❔ XX | 🟢 | vless | @NamiraNet | 59'
       - '❔ XX | 🟢 | vless | @deli_servers | 1'
       - '❔ XX | 🟢 | vless | @fire_vpn_channel | 0'
       - '❔ XX | 🔴 | vless | @freevv2rayng | 6'

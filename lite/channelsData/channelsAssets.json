@@ -984,9 +984,9 @@
     },
     "ip_cf_config": {
         "types": [
+            "vless",
             "vmess",
             "ss",
-            "vless",
             "trojan"
         ],
         "title": "IP_CF | V2ray Config Pool",
@@ -1217,8 +1217,8 @@
     },
     "kingofilter": {
         "types": [
-            "vless",
-            "ss"
+            "ss",
+            "vless"
         ],
         "title": "خدمات کینگو فیلتر | فیلترشکن رایگان",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/kingofilter.jpg"
@@ -1802,8 +1802,8 @@
     },
     "outline_ir": {
         "types": [
-            "ss",
-            "vless"
+            "vless",
+            "ss"
         ],
         "title": "سرور اوتلاین ا سرور V2ray",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/outline_ir.jpg"
@@ -1833,7 +1833,8 @@
         "types": [
             "vless",
             "ss",
-            "vmess"
+            "vmess",
+            "trojan"
         ],
         "title": "پروکسی تله کد | فیلترشکن رایگان V2ray - Outline",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/outlinev2rayng.jpg"
@@ -2634,7 +2635,7 @@
     "v2rayweb": {
         "types": [
             "vless",
-            "vmess"
+            "trojan"
         ],
         "title": "V2ray | VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"
@@ -2658,8 +2659,8 @@
     },
     "v2source": {
         "types": [
-            "vless",
-            "trojan"
+            "ss",
+            "vless"
         ],
         "title": "Free V2ray",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2source.jpg"
