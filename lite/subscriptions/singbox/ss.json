@@ -105,12 +105,13 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇳🇱 NL | 🟢 | ss | @NamiraNet | 68",
                 "🇳🇱 NL | 🟢 | ss | @ai_duet | 8",
-                "🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 7",
                 "🇦🇹 AT | 🟢 | ss | @arv2ra | 7",
                 "🇸🇪 SE | 🟢 | ss | @azarbayjab1 | 7",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇵🇹 PT | 🟢 | ss | @filtershekan_channel | 12",
+                "🇫🇮 FI | 🟢 | ss | @free1ss | 14",
                 "🇫🇷 FR | 🟢 | ss | @freevirgoolnet | 7",
                 "🇬🇧 GB | 🟢 | ss | @injectormconf | 39",
                 "🇳🇱 NL | 🟢 | ss | @jiedianf | 7",
@@ -126,8 +127,6 @@
                 "🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7",
                 "🇺🇸 US | 🟢 | ss | @v2rayngrit | 15",
                 "🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27",
-                "🇫🇷 FR | 🟢 | ss | @v2source | 19",
-                "🇳🇱 NL | 🟢 | ss | @vaslvip | 13",
                 "🇺🇸 US | 🟢 | ss | @vmessiranproxy | 19",
                 "🇫🇷 FR | 🟢 | ss | @vpnfreeaccounts | 15",
                 "❔ XX | 🟢 | ss | @chestertm | 19",
@@ -146,12 +145,13 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇳🇱 NL | 🟢 | ss | @NamiraNet | 68",
                 "🇳🇱 NL | 🟢 | ss | @ai_duet | 8",
-                "🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 7",
                 "🇦🇹 AT | 🟢 | ss | @arv2ra | 7",
                 "🇸🇪 SE | 🟢 | ss | @azarbayjab1 | 7",
                 "🇬🇧 GB | 🟢 | ss | @bislullproxy | 18",
                 "🇵🇹 PT | 🟢 | ss | @filtershekan_channel | 12",
+                "🇫🇮 FI | 🟢 | ss | @free1ss | 14",
                 "🇫🇷 FR | 🟢 | ss | @freevirgoolnet | 7",
                 "🇬🇧 GB | 🟢 | ss | @injectormconf | 39",
                 "🇳🇱 NL | 🟢 | ss | @jiedianf | 7",
@@ -167,8 +167,6 @@
                 "🇫🇷 FR | 🟢 | ss | @tm_vpn_ogrysy | 7",
                 "🇺🇸 US | 🟢 | ss | @v2rayngrit | 15",
                 "🇹🇷 TR | 🟢 | ss | @v2rayngvvpn | 27",
-                "🇫🇷 FR | 🟢 | ss | @v2source | 19",
-                "🇳🇱 NL | 🟢 | ss | @vaslvip | 13",
                 "🇺🇸 US | 🟢 | ss | @vmessiranproxy | 19",
                 "🇫🇷 FR | 🟢 | ss | @vpnfreeaccounts | 15",
                 "❔ XX | 🟢 | ss | @chestertm | 19",
@@ -203,20 +201,20 @@
             "type": "dns"
         },
         {
+            "tag": "🇳🇱 NL | 🟢 | ss | @NamiraNet | 68",
+            "type": "shadowsocks",
+            "server": "147.45.114.160",
+            "server_port": 45651,
+            "method": "chacha20-ietf-poly1305",
+            "password": "M8QlxO4xR2Aor3nI4nnojF"
+        },
+        {
             "tag": "🇳🇱 NL | 🟢 | ss | @ai_duet | 8",
             "type": "shadowsocks",
             "server": "194.87.216.189",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "Ib9hxFZxUH4m"
-        },
-        {
-            "tag": "🇫🇮 FI | 🟢 | ss | @argo_vpn1 | 7",
-            "type": "shadowsocks",
-            "server": "83.147.216.70",
-            "server_port": 64519,
-            "method": "chacha20-ietf-poly1305",
-            "password": "UlT89D0rvcr05tKft1NB5a"
         },
         {
             "tag": "🇦🇹 AT | 🟢 | ss | @arv2ra | 7",
@@ -249,6 +247,14 @@
             "server_port": 990,
             "method": "chacha20-ietf-poly1305",
             "password": "f8f7aCzcPKbsF8p3"
+        },
+        {
+            "tag": "🇫🇮 FI | 🟢 | ss | @free1ss | 14",
+            "type": "shadowsocks",
+            "server": "83.147.216.70",
+            "server_port": 64519,
+            "method": "chacha20-ietf-poly1305",
+            "password": "UlT89D0rvcr05tKft1NB5a"
         },
         {
             "tag": "🇫🇷 FR | 🟢 | ss | @freevirgoolnet | 7",
@@ -369,22 +375,6 @@
             "server_port": 7383,
             "method": "chacha20-ietf-poly1305",
             "password": "eSHEdJz96rqNkOCAzd5Csv"
-        },
-        {
-            "tag": "🇫🇷 FR | 🟢 | ss | @v2source | 19",
-            "type": "shadowsocks",
-            "server": "77.105.166.12",
-            "server_port": 8594,
-            "method": "chacha20-ietf-poly1305",
-            "password": "mSQiuT5jR17nyWgcXOPrTW"
-        },
-        {
-            "tag": "🇳🇱 NL | 🟢 | ss | @vaslvip | 13",
-            "type": "shadowsocks",
-            "server": "213.109.147.242",
-            "server_port": 62685,
-            "method": "chacha20-ietf-poly1305",
-            "password": "VpKABcOpNNA0l5G2AVOmw8"
         },
         {
             "tag": "🇺🇸 US | 🟢 | ss | @vmessiranproxy | 19",
