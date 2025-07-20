@@ -119,7 +119,7 @@
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 11",
-                "🇫🇮 FI | 🔴 | vless | @v2rayweb | 17"
+                "🇺🇸 US | 🟢 | vless | @vmess_ir | 18"
             ]
         },
         {
@@ -140,7 +140,7 @@
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 11",
-                "🇫🇮 FI | 🔴 | vless | @v2rayweb | 17"
+                "🇺🇸 US | 🟢 | vless | @vmess_ir | 18"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -349,13 +349,22 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔴 | vless | @v2rayweb | 17",
+            "tag": "🇺🇸 US | 🟢 | vless | @vmess_ir | 18",
             "type": "vless",
-            "server": "65.108.247.56",
-            "server_port": 80,
-            "uuid": "joinshotoV2rayNGFreee",
+            "server": "104.21.48.1",
+            "server_port": 2083,
+            "uuid": "c4e6a6ef-d782-4a12-a38a-906a61ee5bc1",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cho.chonon.sbs",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         }
     ],
     "route": {

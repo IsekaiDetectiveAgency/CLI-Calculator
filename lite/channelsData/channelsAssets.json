@@ -625,13 +625,6 @@
         "title": "VPN v2ray",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/filtershkan2.jpg"
     },
-    "fire_vpn_channel": {
-        "types": [
-            "vless"
-        ],
-        "title": "FireVPN",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/fire_vpn_channel.jpg"
-    },
     "flash_proxies": {
         "types": [
             "vless"
@@ -798,9 +791,9 @@
     },
     "freevpnatm": {
         "types": [
+            "trojan",
             "vless",
-            "vmess",
-            "trojan"
+            "vmess"
         ],
         "title": "科學上网 free configs",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/freevpnatm.jpg"
@@ -991,10 +984,10 @@
     },
     "ip_cf_config": {
         "types": [
-            "vmess",
-            "vless",
             "trojan",
-            "ss"
+            "vmess",
+            "ss",
+            "vless"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
