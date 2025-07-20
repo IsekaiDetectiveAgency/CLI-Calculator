@@ -35,7 +35,6 @@ proxies:
   - {"name":"❔ XX | 🟢 | vless | @v2rayngconfings | 17","type":"vless","server":"618-Join.V2RayTz.sbs","port":8080,"uuid":"42873f71-9718-4f3d-9907-de43001e2284","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"www.speedtest.net","grpc-opts":{"grpc-service-name":"@LIGHTNING6"},"reality-opts":{"public-key":"4OTfR6IQ_6Z-5EiAi08sSfUjZtC30c2x6jl9BE9KFwg","short-id":"356dc0"}}
   - {"name":"🇫🇮 FI | 🟢 | vless | @v2trayproxy | 13","type":"vless","server":"online-chat.webboosterpro.co.uk","port":443,"uuid":"f72e4aa8-36c2-4dd6-b19d-dfe6be679e44","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"www.fastly.com","reality-opts":{"public-key":"QxGoAQpy2zri2JRkXmPfESKjAMHpsrJPmjbkJuZCz3U","short-id":"1eaf5214"}}
   - {"name":"🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12","type":"vless","server":"ARM.CROCODILESERVER.IR","port":443,"uuid":"32932937-b85f-40be-ae02-997ea5b0b62a","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"app.hubspot.com","reality-opts":{"public-key":"YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E","short-id":"fd1dff03520d8f56"}}
-  - {"name":"🇭🇰 HK | 🟢 | vless | @vpnaloo | 15","type":"vless","server":"ko1.xservers.ir","port":81,"uuid":"ce02ef89-4a22-40d3-a962-9a8e12c252fe","tls":true,"network":"xhttp","client-fingerprint":"firefox","udp":true,"servername":"tgju.org","reality-opts":{"public-key":"A-8wmBnGrz4ny7CB9Zfnjz66cbS83uOMdH61CsI-rm8","short-id":"200de4ca48fb1731"}}
   - {"name":"🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0","type":"vless","server":"static.50.146.62.46.clients.your-server.de","port":443,"uuid":"95b0f8b6-8373-4398-893f-782af287e2fe","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"www.speedtest.net","grpc-opts":{"grpc-service-name":"0VTuTCdLL8WUYSwaz2OnC5y"},"reality-opts":{"public-key":"L4ja73hdU_P-euK_ikOs623oM4u3PpDS5IwzXOrCjnE","short-id":"15cf0914947a4379"}}
 
 rule-providers:
@@ -85,7 +84,6 @@ proxy-groups:
       - '❔ XX | 🟢 | vless | @v2rayngconfings | 17'
       - '🇫🇮 FI | 🟢 | vless | @v2trayproxy | 13'
       - '🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12'
-      - '🇭🇰 HK | 🟢 | vless | @vpnaloo | 15'
       - '🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0'
 
   - name: 📉 Fallback
@@ -111,7 +109,6 @@ proxy-groups:
       - '❔ XX | 🟢 | vless | @v2rayngconfings | 17'
       - '🇫🇮 FI | 🟢 | vless | @v2trayproxy | 13'
       - '🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12'
-      - '🇭🇰 HK | 🟢 | vless | @vpnaloo | 15'
       - '🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0'
       
   - name: All-Proxies
@@ -135,7 +132,6 @@ proxy-groups:
       - '❔ XX | 🟢 | vless | @v2rayngconfings | 17'
       - '🇫🇮 FI | 🟢 | vless | @v2trayproxy | 13'
       - '🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12'
-      - '🇭🇰 HK | 🟢 | vless | @vpnaloo | 15'
       - '🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0'
 
 rules:

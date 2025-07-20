@@ -105,8 +105,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🟢 | trojan | @NamiraNet | 66",
+                "🇺🇸 US | 🟢 | trojan | @NamiraNet | 65",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 16",
+                "🇺🇸 US | 🟢 | trojan | @freakconfig | 11",
                 "🇺🇸 US | 🟢 | trojan | @freevpnatm | 16",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
@@ -116,7 +117,6 @@
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
-                "❔ XX | 🔴 | trojan | @ip_cf_config | 13",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8"
             ]
         },
@@ -124,8 +124,9 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🟢 | trojan | @NamiraNet | 66",
+                "🇺🇸 US | 🟢 | trojan | @NamiraNet | 65",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 16",
+                "🇺🇸 US | 🟢 | trojan | @freakconfig | 11",
                 "🇺🇸 US | 🟢 | trojan | @freevpnatm | 16",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
@@ -135,7 +136,6 @@
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
-                "❔ XX | 🔴 | trojan | @ip_cf_config | 13",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8"
             ],
             "url": "https://www.gstatic.com/generate_204",
@@ -159,7 +159,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | trojan | @NamiraNet | 66",
+            "tag": "🇺🇸 US | 🟢 | trojan | @NamiraNet | 65",
             "type": "trojan",
             "server": "74.63.241.25",
             "server_port": 443,
@@ -187,6 +187,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | trojan | @freakconfig | 11",
+            "type": "trojan",
+            "server": "104.17.148.22",
+            "server_port": 443,
+            "password": "ZU)0ryc$VSrG",
+            "tls": {
+                "enabled": true,
+                "server_name": "uk2WbO0iKx3IyI4i9WjdYU6Y-O28ET7o.pagEs.DeV",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/trg2dhGAnG15ULOP7i?ed=2560",
+                "headers": {
+                    "Host": "uk2WbO0iKx3IyI4i9WjdYU6Y-O28ET7o.pagEs.DeV"
                 }
             }
         },
@@ -358,13 +381,6 @@
                     "Host": "production.tj.ojan.workers.dev"
                 }
             }
-        },
-        {
-            "tag": "❔ XX | 🔴 | trojan | @ip_cf_config | 13",
-            "type": "trojan",
-            "server": "391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net",
-            "server_port": 15229,
-            "password": "60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d"
         },
         {
             "tag": "❔ XX | 🟢 | trojan | @maradona_vpn | 8",

@@ -124,7 +124,6 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇫🇮 FI | 🟢 | vless | @v2trayproxy | 13",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
-                "🇭🇰 HK | 🟢 | vless | @vpnaloo | 15",
                 "🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0"
             ]
         },
@@ -151,7 +150,6 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇫🇮 FI | 🟢 | vless | @v2trayproxy | 13",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
-                "🇭🇰 HK | 🟢 | vless | @vpnaloo | 15",
                 "🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0"
             ],
             "url": "https://www.gstatic.com/generate_204",
@@ -640,29 +638,6 @@
                     "enabled": true,
                     "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
                     "short_id": "fd1dff03520d8f56"
-                }
-            }
-        },
-        {
-            "tag": "🇭🇰 HK | 🟢 | vless | @vpnaloo | 15",
-            "type": "vless",
-            "server": "ko1.xservers.ir",
-            "server_port": 81,
-            "uuid": "ce02ef89-4a22-40d3-a962-9a8e12c252fe",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "A-8wmBnGrz4ny7CB9Zfnjz66cbS83uOMdH61CsI-rm8",
-                    "short_id": "200de4ca48fb1731"
                 }
             }
         },

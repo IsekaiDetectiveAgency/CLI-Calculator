@@ -17,8 +17,9 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🟢 | trojan | @NamiraNet | 66","type":"trojan","server":"74.63.241.25","port":443,"password":"4863e1b2-ec2f-4c71-b862-ce533028e57e","skip-cert-verify":true}
+  - {"name":"🇺🇸 US | 🟢 | trojan | @NamiraNet | 65","type":"trojan","server":"74.63.241.25","port":443,"password":"4863e1b2-ec2f-4c71-b862-ce533028e57e","skip-cert-verify":true}
   - {"name":"🇫🇷 FR | 🟢 | trojan | @directvpn | 16","type":"trojan","server":"15.237.91.60","port":22223,"password":"telegram-id-directvpn","skip-cert-verify":false}
+  - {"name":"🇺🇸 US | 🟢 | trojan | @freakconfig | 11","type":"trojan","server":"104.17.148.22","port":443,"password":"ZU)0ryc$VSrG","skip-cert-verify":false}
   - {"name":"🇺🇸 US | 🟢 | trojan | @freevpnatm | 16","type":"trojan","server":"172.67.131.76","port":443,"password":"ffcf7ec1-3e09-4821-b3d9-b426a107b73b","skip-cert-verify":false}
   - {"name":"🇸🇬 SG | 🟢 | trojan | @mpmehi | 0","type":"trojan","server":"146.190.87.238","port":443,"password":"oZAugtgF5T","skip-cert-verify":false}
   - {"name":"🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15","type":"trojan","server":"176.32.39.29","port":443,"password":"8OXD5VVt8s","skip-cert-verify":false}
@@ -57,8 +58,9 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🟢 | trojan | @NamiraNet | 66'
+      - '🇺🇸 US | 🟢 | trojan | @NamiraNet | 65'
       - '🇫🇷 FR | 🟢 | trojan | @directvpn | 16'
+      - '🇺🇸 US | 🟢 | trojan | @freakconfig | 11'
       - '🇺🇸 US | 🟢 | trojan | @freevpnatm | 16'
       - '🇸🇬 SG | 🟢 | trojan | @mpmehi | 0'
       - '🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15'
@@ -73,8 +75,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🟢 | trojan | @NamiraNet | 66'
+      - '🇺🇸 US | 🟢 | trojan | @NamiraNet | 65'
       - '🇫🇷 FR | 🟢 | trojan | @directvpn | 16'
+      - '🇺🇸 US | 🟢 | trojan | @freakconfig | 11'
       - '🇺🇸 US | 🟢 | trojan | @freevpnatm | 16'
       - '🇸🇬 SG | 🟢 | trojan | @mpmehi | 0'
       - '🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15'
@@ -87,8 +90,9 @@ proxy-groups:
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🟢 | trojan | @NamiraNet | 66'
+      - '🇺🇸 US | 🟢 | trojan | @NamiraNet | 65'
       - '🇫🇷 FR | 🟢 | trojan | @directvpn | 16'
+      - '🇺🇸 US | 🟢 | trojan | @freakconfig | 11'
       - '🇺🇸 US | 🟢 | trojan | @freevpnatm | 16'
       - '🇸🇬 SG | 🟢 | trojan | @mpmehi | 0'
       - '🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15'
