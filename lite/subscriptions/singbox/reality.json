@@ -124,14 +124,13 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇫🇮 FI | 🟢 | vless | @v2trayproxy | 13",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
-                "🇭🇰 HK | 🟢 | vless | @vpnaloo | 16",
+                "🇭🇰 HK | 🟢 | vless | @vpnaloo | 15",
                 "🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0",
                 "🇫🇷 FR | 🟢 | vless | @configasli | 6",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 26",
                 "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
                 "🇷🇺 RU | 🟢 | vless | @free1_vpn | 7",
                 "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
-                "🇹🇷 TR | 🟢 | vless | @getconfigir | 19",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇫🇷 FR | 🟢 | vless | @ip_ramzi | 11",
                 "🇦🇪 AE | 🟢 | vless | @irv2rey | 6",
@@ -175,14 +174,13 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇫🇮 FI | 🟢 | vless | @v2trayproxy | 13",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
-                "🇭🇰 HK | 🟢 | vless | @vpnaloo | 16",
+                "🇭🇰 HK | 🟢 | vless | @vpnaloo | 15",
                 "🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0",
                 "🇫🇷 FR | 🟢 | vless | @configasli | 6",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 26",
                 "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
                 "🇷🇺 RU | 🟢 | vless | @free1_vpn | 7",
                 "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
-                "🇹🇷 TR | 🟢 | vless | @getconfigir | 19",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
                 "🇫🇷 FR | 🟢 | vless | @ip_ramzi | 11",
                 "🇦🇪 AE | 🟢 | vless | @irv2rey | 6",
@@ -692,7 +690,7 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🟢 | vless | @vpnaloo | 16",
+            "tag": "🇭🇰 HK | 🟢 | vless | @vpnaloo | 15",
             "type": "vless",
             "server": "ko1.xservers.ir",
             "server_port": 81,
@@ -861,29 +859,6 @@
                     "enabled": true,
                     "public_key": "GGlKs0cQDaQoDkiDlpeIWE-h0K3ohsHr7u9B3A9GODU",
                     "short_id": "17ce7de25d262bbe"
-                }
-            }
-        },
-        {
-            "tag": "🇹🇷 TR | 🟢 | vless | @getconfigir | 19",
-            "type": "vless",
-            "server": "5.133.102.59",
-            "server_port": 80,
-            "uuid": "4d86fbab-d15f-4e7f-8ac7-3b4d90568444",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "6xEqt7g9Q7zJD8rtAzA_8rODvZ9ZJwlv3uOH1cXujzI",
-                    "short_id": "43"
                 }
             }
         },
