@@ -579,8 +579,8 @@
     },
     "father_vpn": {
         "types": [
-            "vless",
-            "vmess"
+            "vmess",
+            "vless"
         ],
         "title": "Father vpn | Proxy | V2rayNg",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/father_vpn.jpg"
@@ -984,9 +984,9 @@
     "ip_cf_config": {
         "types": [
             "ss",
-            "trojan",
+            "vless",
             "vmess",
-            "vless"
+            "trojan"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
@@ -1172,9 +1172,9 @@
     },
     "kanfig_majani": {
         "types": [
-            "vless",
             "ss",
-            "vmess"
+            "vmess",
+            "vless"
         ],
         "title": "کانفیگ رایگان | کانفیگ مجانی",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/kanfig_majani.jpg"
@@ -2633,7 +2633,8 @@
     },
     "v2rayweb": {
         "types": [
-            "vless"
+            "vless",
+            "vmess"
         ],
         "title": "V2ray | VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"
@@ -2658,7 +2659,8 @@
     "v2source": {
         "types": [
             "vless",
-            "ss"
+            "ss",
+            "trojan"
         ],
         "title": "Free V2ray",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2source.jpg"
@@ -2975,8 +2977,8 @@
     },
     "vpnv2rayngv": {
         "types": [
-            "ss",
             "vless",
+            "ss",
             "vmess"
         ],
         "title": "کانفینگ پروکسی وی توری نت ملی اسکوئید گیم خرید سرورفیلترشکن بازی مرکب وی پی ان اسکویید گیم ایران vpn v2rayNG vmess vless proxy",

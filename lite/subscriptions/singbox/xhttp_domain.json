@@ -110,8 +110,9 @@
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 9",
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 5",
-                "🇺🇸 US | 🔴 | vless | @father_vpn | 2",
+                "🇺🇸 US | 🔴 | vless | @father_vpn | 1",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 3",
+                "🇩🇪 DE | 🟢 | vless | @mowjproxy | 6",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
                 "🇫🇮 FI | 🟢 | vless | @v2trayproxy | 13"
             ]
@@ -125,8 +126,9 @@
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 9",
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 5",
-                "🇺🇸 US | 🔴 | vless | @father_vpn | 2",
+                "🇺🇸 US | 🔴 | vless | @father_vpn | 1",
                 "🇩🇪 DE | 🔴 | vless | @iseqaro | 3",
+                "🇩🇪 DE | 🟢 | vless | @mowjproxy | 6",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
                 "🇫🇮 FI | 🟢 | vless | @v2trayproxy | 13"
             ],
@@ -196,7 +198,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @father_vpn | 2",
+            "tag": "🇺🇸 US | 🔴 | vless | @father_vpn | 1",
             "type": "vless",
             "server": "server2.ultra-irancell.com",
             "server_port": 80,
@@ -212,6 +214,29 @@
             "uuid": "f353fbf3-b6a1-4524-b916-f65bc077511f",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @mowjproxy | 6",
+            "type": "vless",
+            "server": "de1.xservers.ir",
+            "server_port": 8585,
+            "uuid": "ce02ef89-4a22-40d3-a962-9a8e12c252fe",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "A-8wmBnGrz4ny7CB9Zfnjz66cbS83uOMdH61CsI-rm8",
+                    "short_id": "200de4ca48fb1731"
+                }
+            }
         },
         {
             "tag": "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
