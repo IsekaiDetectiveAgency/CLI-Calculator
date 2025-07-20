@@ -107,16 +107,14 @@
                 "URL-TEST",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇫🇷 FR | 🟢 | trojan | @directvpn | 14",
+                "🇫🇷 FR | 🟢 | trojan | @directvpn | 13",
                 "🇺🇸 US | 🟢 | trojan | @freevpnatm | 16",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
-                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 14",
+                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 13",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
-                "🇺🇸 US | 🟢 | trojan | @v2rayweb | 14",
-                "🇺🇸 US | 🟢 | trojan | @v2source | 19",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ]
         },
@@ -126,16 +124,14 @@
             "outbounds": [
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇫🇷 FR | 🟢 | trojan | @directvpn | 14",
+                "🇫🇷 FR | 🟢 | trojan | @directvpn | 13",
                 "🇺🇸 US | 🟢 | trojan | @freevpnatm | 16",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
-                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 14",
+                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 13",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
-                "🇺🇸 US | 🟢 | trojan | @v2rayweb | 14",
-                "🇺🇸 US | 🟢 | trojan | @v2source | 19",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ],
             "url": "https://www.gstatic.com/generate_204",
@@ -202,9 +198,9 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @directvpn | 14",
+            "tag": "🇫🇷 FR | 🟢 | trojan | @directvpn | 13",
             "type": "trojan",
-            "server": "13.38.160.98",
+            "server": "15.188.128.163",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "tls": {
@@ -277,9 +273,9 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @privatevpns | 14",
+            "tag": "🇫🇷 FR | 🟢 | trojan | @privatevpns | 13",
             "type": "trojan",
-            "server": "13.38.160.98",
+            "server": "15.188.128.163",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "tls": {
@@ -327,44 +323,12 @@
         {
             "tag": "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
             "type": "trojan",
-            "server": "13.38.160.98",
+            "server": "15.188.128.163",
             "server_port": 22223,
             "password": "telegram-id-v2rayvpnchannel",
             "tls": {
                 "enabled": true,
                 "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | trojan | @v2rayweb | 14",
-            "type": "trojan",
-            "server": "15.204.234.166",
-            "server_port": 443,
-            "password": "fc685880-dffe-11ef-8ac5-1239d0255272",
-            "tls": {
-                "enabled": true,
-                "server_name": "usa.test3.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | trojan | @v2source | 19",
-            "type": "trojan",
-            "server": "15.197.162.184",
-            "server_port": 443,
-            "password": "7778e684-f435-4166-bf9e-0256cb28bf10",
-            "tls": {
-                "enabled": true,
-                "server_name": "download2hkt.windowsupdate.lol",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
