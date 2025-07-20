@@ -105,6 +105,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇩🇪 DE | 🔴 | vmess | @NamiraNet | 68",
                 "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3",
                 "❔ XX | 🔴 | vmess | @armodchannel | 62",
                 "❔ XX | 🔴 | vmess | @bluevpn111 | 2",
@@ -117,7 +118,6 @@
                 "🇫🇮 FI | 🔴 | vmess | @freeshadowsock | 4",
                 "🇺🇸 US | 🔴 | vmess | @freev2rays | 19",
                 "🇩🇪 DE | 🔴 | vmess | @freevmess | 4",
-                "🇸🇬 SG | 🔴 | vmess | @ip_cf_config | 14",
                 "🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 13",
                 "🇺🇸 US | 🔴 | vmess | @iran_mehr_vpn | 17",
                 "🇺🇸 US | 🟢 | vmess | @iranvpnet | 0",
@@ -163,6 +163,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇩🇪 DE | 🔴 | vmess | @NamiraNet | 68",
                 "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3",
                 "❔ XX | 🔴 | vmess | @armodchannel | 62",
                 "❔ XX | 🔴 | vmess | @bluevpn111 | 2",
@@ -175,7 +176,6 @@
                 "🇫🇮 FI | 🔴 | vmess | @freeshadowsock | 4",
                 "🇺🇸 US | 🔴 | vmess | @freev2rays | 19",
                 "🇩🇪 DE | 🔴 | vmess | @freevmess | 4",
-                "🇸🇬 SG | 🔴 | vmess | @ip_cf_config | 14",
                 "🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 13",
                 "🇺🇸 US | 🔴 | vmess | @iran_mehr_vpn | 17",
                 "🇺🇸 US | 🟢 | vmess | @iranvpnet | 0",
@@ -235,6 +235,15 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vmess | @NamiraNet | 68",
+            "type": "vmess",
+            "server": "panel1.ipyar.org",
+            "server_port": 42684,
+            "uuid": "c4bd9eba-8aea-4d5e-a2ee-b5de65ac14e1",
+            "security": "auto",
+            "alter_id": 0
         },
         {
             "tag": "🇮🇷 IR | 🔴 | vmess | @angus_vpn | 3",
@@ -424,22 +433,6 @@
             "transport": {
                 "type": "ws",
                 "path": "/telegram-id-@privatevpns",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇸🇬 SG | 🔴 | vmess | @ip_cf_config | 14",
-            "type": "vmess",
-            "server": "8.214.33.158",
-            "server_port": 80,
-            "uuid": "cb81e6ab-1d83-4ac1-f0ad-ae5c2a7c29ef",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
                 "headers": {
                     "Host": ""
                 }
@@ -937,7 +930,7 @@
         {
             "tag": "🇩🇪 DE | 🟢 | vmess | @vpnfail_v2ray | 14",
             "type": "vmess",
-            "server": "57.129.25.25",
+            "server": "57.129.24.124",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",

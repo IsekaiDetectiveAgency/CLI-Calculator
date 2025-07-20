@@ -109,11 +109,11 @@
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 14",
                 "🇺🇸 US | 🟢 | trojan | @dnsforyou | 8",
+                "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 15",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
                 "🇫🇷 FR | 🟢 | trojan | @privatevpns | 14",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
-                "🇫🇷 FR | 🟢 | trojan | @v2ray_extractor | 19",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
@@ -127,11 +127,11 @@
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 14",
                 "🇺🇸 US | 🟢 | trojan | @dnsforyou | 8",
+                "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 15",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
                 "🇫🇷 FR | 🟢 | trojan | @privatevpns | 14",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
-                "🇫🇷 FR | 🟢 | trojan | @v2ray_extractor | 19",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
@@ -239,6 +239,29 @@
             }
         },
         {
+            "tag": "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 15",
+            "type": "trojan",
+            "server": "104.25.165.81",
+            "server_port": 8443,
+            "password": "123456",
+            "tls": {
+                "enabled": true,
+                "server_name": "top-azx.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Az1.vpn.33.TOP/?ed=2560",
+                "headers": {
+                    "Host": "top-azx.pages.dev"
+                }
+            }
+        },
+        {
             "tag": "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
             "type": "trojan",
             "server": "146.190.87.238",
@@ -302,22 +325,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "speedtest.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @v2ray_extractor | 19",
-            "type": "trojan",
-            "server": "35.181.156.239",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
