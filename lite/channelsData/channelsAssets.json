@@ -10,7 +10,6 @@
     "NamiraNet": {
         "types": [
             "ss",
-            "trojan",
             "vless",
             "vmess"
         ],
@@ -982,10 +981,10 @@
     },
     "ip_cf_config": {
         "types": [
-            "ss",
+            "trojan",
             "vless",
             "vmess",
-            "trojan"
+            "ss"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
@@ -2437,7 +2436,6 @@
     "v2raying": {
         "types": [
             "vless",
-            "vmess",
             "ss"
         ],
         "title": "v2rayNG_VPN",
@@ -2632,8 +2630,7 @@
     },
     "v2rayweb": {
         "types": [
-            "vless",
-            "trojan"
+            "vless"
         ],
         "title": "V2ray | VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"
@@ -2658,7 +2655,6 @@
     "v2source": {
         "types": [
             "vless",
-            "trojan",
             "ss"
         ],
         "title": "Free V2ray",
@@ -2877,7 +2873,6 @@
     },
     "vpnaloo": {
         "types": [
-            "ss",
             "vless",
             "trojan"
         ],

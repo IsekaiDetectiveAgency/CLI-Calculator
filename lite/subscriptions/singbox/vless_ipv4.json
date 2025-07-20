@@ -106,6 +106,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
+                "🇺🇸 US | 🔴 | vless | @NamiraNet | 68",
                 "🇺🇸 US | 🔴 | vless | @airdroplandcod | 5",
                 "🇩🇪 DE | 🔴 | vless | @amirinventor2010 | 1",
                 "🇮🇷 IR | 🔴 | vless | @ansel_team | 1",
@@ -162,7 +163,7 @@
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇳🇱 NL | 🔴 | vless | @minovpnch | 13",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
-                "🇺🇸 US | 🔴 | vless | @mowjproxy | 6",
+                "🇸🇪 SE | 🔴 | vless | @mowjproxy | 5",
                 "🇺🇸 US | 🔴 | vless | @mpproxy | 13",
                 "🇺🇸 US | 🔴 | vless | @mr_vpn123 | 7",
                 "🇺🇸 US | 🟢 | vless | @mt_proxy | 7",
@@ -201,9 +202,9 @@
                 "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 11",
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 14",
                 "🇳🇱 NL | 🟢 | vless | @v2rayngninja | 8",
+                "🇨🇿 CZ | 🟢 | vless | @v2rayopen | 10",
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
-                "🇺🇸 US | 🔴 | vless | @v2source | 19",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
@@ -227,6 +228,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
+                "🇺🇸 US | 🔴 | vless | @NamiraNet | 68",
                 "🇺🇸 US | 🔴 | vless | @airdroplandcod | 5",
                 "🇩🇪 DE | 🔴 | vless | @amirinventor2010 | 1",
                 "🇮🇷 IR | 🔴 | vless | @ansel_team | 1",
@@ -283,7 +285,7 @@
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇳🇱 NL | 🔴 | vless | @minovpnch | 13",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
-                "🇺🇸 US | 🔴 | vless | @mowjproxy | 6",
+                "🇸🇪 SE | 🔴 | vless | @mowjproxy | 5",
                 "🇺🇸 US | 🔴 | vless | @mpproxy | 13",
                 "🇺🇸 US | 🔴 | vless | @mr_vpn123 | 7",
                 "🇺🇸 US | 🟢 | vless | @mt_proxy | 7",
@@ -322,9 +324,9 @@
                 "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 11",
                 "🇫🇮 FI | 🔴 | vless | @v2rayngn | 14",
                 "🇳🇱 NL | 🟢 | vless | @v2rayngninja | 8",
+                "🇨🇿 CZ | 🟢 | vless | @v2rayopen | 10",
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
-                "🇺🇸 US | 🔴 | vless | @v2source | 19",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
@@ -370,6 +372,22 @@
             "uuid": "a804bb53-7504-4f06-96d8-ff56fb71539d",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraNet | 68",
+            "type": "vless",
+            "server": "104.21.112.1",
+            "server_port": 8080,
+            "uuid": "17034eef-9472-45cc-bca5-a71f90e36244",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/@unlimiteddev----@unlimiteddev-----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimiteddev----@unlimitedev----@vmessorg----@unlimiteddev----@unlimiteddev?ed",
+                "headers": {
+                    "Host": "104.21.112.1"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @airdroplandcod | 5",
@@ -1344,11 +1362,11 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @mowjproxy | 6",
+            "tag": "🇸🇪 SE | 🔴 | vless | @mowjproxy | 5",
             "type": "vless",
-            "server": "104.24.0.137",
-            "server_port": 8080,
-            "uuid": "cbfbc5e3-4b53-4854-931e-c9ac61719636",
+            "server": "77.221.141.115",
+            "server_port": 11989,
+            "uuid": "7da31075-af5e-413a-bb38-3b9a62e9a179",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -2021,6 +2039,33 @@
             }
         },
         {
+            "tag": "🇨🇿 CZ | 🟢 | vless | @v2rayopen | 10",
+            "type": "vless",
+            "server": "194.182.79.142",
+            "server_port": 11745,
+            "uuid": "f278037e-ce36-4634-9b4d-fca93e345a35",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "hgaeyKQWo1Cf0fDhXVD2AZKI6DfOhBhjsSSfccW7ADo",
+                    "short_id": "26a52325"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Join-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
+            }
+        },
+        {
             "tag": "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
             "type": "vless",
             "server": "172.235.165.34",
@@ -2042,22 +2087,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "116.202.177.190"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @v2source | 19",
-            "type": "vless",
-            "server": "172.67.65.158",
-            "server_port": 8880,
-            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/Etb1L6YUdZFZuTOr?ed=2560/?JOKERRVPN_BIA_CHANEL@JOKERRVPN",
-                "headers": {
-                    "Host": "172.67.65.158"
                 }
             }
         },
