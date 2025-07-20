@@ -17,6 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
+  - {"name":"🇳🇱 NL | 🟢 | trojan | @NamiraNet | 53","type":"trojan","server":"82.192.82.226","port":443,"password":"4863e1b2-ec2f-4c71-b862-ce533028e57e","skip-cert-verify":true}
+  - {"name":"🇺🇸 US | 🔴 | trojan | @NamiraNet | 55","type":"trojan","server":"172.67.149.124","port":443,"password":"52701795-3c3b-46b4-b7cf-c5978b3a4cf2","skip-cert-verify":false}
   - {"name":"🇯🇵 JP | 🟢 | trojan | @awlix_ir | 9","type":"trojan","server":"35.77.216.3","port":443,"password":"CXCu72eya8wFeRySSFpDz3CN6jBYac5OIl3q0gSl8xZOADY3EK94pxZanDA3RT","skip-cert-verify":true}
   - {"name":"🇫🇷 FR | 🟢 | trojan | @directvpn | 10","type":"trojan","server":"13.39.238.208","port":22223,"password":"telegram-id-directvpn","skip-cert-verify":false}
   - {"name":"🇩🇪 DE | 🟢 | trojan | @directvpn | 11","type":"trojan","server":"18.194.118.31","port":22223,"password":"telegram-id-directvpn","skip-cert-verify":false}
@@ -24,11 +26,11 @@ proxies:
   - {"name":"🇫🇷 FR | 🟢 | trojan | @directvpn | 13","type":"trojan","server":"51.44.197.229","port":22223,"password":"telegram-id-directvpn","skip-cert-verify":false}
   - {"name":"🇫🇷 FR | 🟢 | trojan | @directvpn | 14","type":"trojan","server":"35.180.162.247","port":22223,"password":"telegram-id-directvpn","skip-cert-verify":false}
   - {"name":"🇺🇸 US | 🟢 | trojan | @dnsforyou | 8","type":"trojan","server":"172.67.181.173","port":443,"password":"f282b878-8711-45a1-8c69-5564172123c1","skip-cert-verify":false}
-  - {"name":"🇺🇸 US | 🔴 | trojan | @entrynet | 19","type":"trojan","server":"172.67.70.100","port":443,"password":"blue2024","skip-cert-verify":true}
+  - {"name":"🇩🇪 DE | 🟢 | trojan | @entrynet | 19","type":"trojan","server":"63.176.186.43","port":22222,"password":"telegram-id-privatevpns","skip-cert-verify":false}
   - {"name":"🇩🇪 DE | 🔴 | trojan | @freev2raym | 7","type":"trojan","server":"91.107.141.0","port":23825,"password":"ziIjOlyGbM","skip-cert-verify":false}
   - {"name":"🇳🇱 NL | 🔴 | trojan | @hacknashid | 1","type":"trojan","server":"46.8.231.225","port":443,"password":"pSmgPrAHHh","skip-cert-verify":false}
-  - {"name":"🇺🇸 US | 🔴 | trojan | @hope_net | 19","type":"trojan","server":"108.162.195.199","port":443,"password":"blue2024","skip-cert-verify":false}
-  - {"name":"🇺🇸 US | 🟢 | trojan | @ip_cf_config | 7","type":"trojan","server":"104.25.165.81","port":8443,"password":"123456","skip-cert-verify":false}
+  - {"name":"🇭🇰 HK | 🔴 | trojan | @hope_net | 17","type":"trojan","server":"18.166.211.137","port":49089,"password":"aa6ddd2f-d1cf-4a52-ba1b-2640c41a7856","skip-cert-verify":false}
+  - {"name":"🇺🇸 US | 🟢 | trojan | @ip_cf_config | 9","type":"trojan","server":"198.23.229.250","port":443,"password":"2ee85121-31de-4581-a492-eb00f606e392","skip-cert-verify":false}
   - {"name":"🇫🇷 FR | 🟢 | trojan | @jiedianf | 5","type":"trojan","server":"15.236.173.146","port":22222,"password":"telegram-id-privatevpns","skip-cert-verify":true}
   - {"name":"🇺🇸 US | 🟢 | trojan | @kurdistan_vpn_perfectt | 6","type":"trojan","server":"172.67.181.173","port":443,"password":"f282b878-8711-45a1-8c69-5564172123c1","skip-cert-verify":false}
   - {"name":"🇩🇪 DE | 🟢 | trojan | @mafiav2ray | 13","type":"trojan","server":"3.126.113.178","port":22222,"password":"telegram-id-privatevpns","skip-cert-verify":false}
@@ -41,7 +43,8 @@ proxies:
   - {"name":"🇫🇷 FR | 🟢 | trojan | @privatevpns | 13","type":"trojan","server":"51.44.197.229","port":22222,"password":"telegram-id-privatevpns","skip-cert-verify":false}
   - {"name":"🇫🇷 FR | 🟢 | trojan | @privatevpns | 14","type":"trojan","server":"35.180.162.247","port":22222,"password":"telegram-id-privatevpns","skip-cert-verify":false}
   - {"name":"🇫🇮 FI | 🔴 | trojan | @v2ray_collector | 38","type":"trojan","server":"65.109.179.105","port":444,"password":"5YauIFGqU5","skip-cert-verify":false}
-  - {"name":"🇫🇷 FR | 🟢 | trojan | @v2ray_free_conf | 18","type":"trojan","server":"35.181.156.239","port":22222,"password":"telegram-id-privatevpns","skip-cert-verify":false}
+  - {"name":"🇫🇷 FR | 🟢 | trojan | @v2ray_free_conf | 15","type":"trojan","server":"35.181.156.239","port":22222,"password":"telegram-id-privatevpns","skip-cert-verify":false}
+  - {"name":"🇺🇸 US | 🔴 | trojan | @v2raych | 19","type":"trojan","server":"172.64.35.159","port":443,"password":"blue2024","skip-cert-verify":false}
   - {"name":"🇩🇪 DE | 🟢 | trojan | @v2rayngconfig | 42","type":"trojan","server":"146.19.215.81","port":443,"password":"769c2da7-add3-42e8-a03c-07be9fcf483c","skip-cert-verify":false}
   - {"name":"🇨🇦 CA | 🟢 | trojan | @v2rayngconfig | 43","type":"trojan","server":"15.222.9.61","port":22222,"password":"telegram-id-directvpn","skip-cert-verify":false}
   - {"name":"🇫🇷 FR | 🟢 | trojan | @v2rayngconfig | 44","type":"trojan","server":"51.91.11.29","port":80,"password":"e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad","skip-cert-verify":false}
@@ -82,6 +85,8 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
+      - '🇳🇱 NL | 🟢 | trojan | @NamiraNet | 53'
+      - '🇺🇸 US | 🔴 | trojan | @NamiraNet | 55'
       - '🇯🇵 JP | 🟢 | trojan | @awlix_ir | 9'
       - '🇫🇷 FR | 🟢 | trojan | @directvpn | 10'
       - '🇩🇪 DE | 🟢 | trojan | @directvpn | 11'
@@ -89,11 +94,11 @@ proxy-groups:
       - '🇫🇷 FR | 🟢 | trojan | @directvpn | 13'
       - '🇫🇷 FR | 🟢 | trojan | @directvpn | 14'
       - '🇺🇸 US | 🟢 | trojan | @dnsforyou | 8'
-      - '🇺🇸 US | 🔴 | trojan | @entrynet | 19'
+      - '🇩🇪 DE | 🟢 | trojan | @entrynet | 19'
       - '🇩🇪 DE | 🔴 | trojan | @freev2raym | 7'
       - '🇳🇱 NL | 🔴 | trojan | @hacknashid | 1'
-      - '🇺🇸 US | 🔴 | trojan | @hope_net | 19'
-      - '🇺🇸 US | 🟢 | trojan | @ip_cf_config | 7'
+      - '🇭🇰 HK | 🔴 | trojan | @hope_net | 17'
+      - '🇺🇸 US | 🟢 | trojan | @ip_cf_config | 9'
       - '🇫🇷 FR | 🟢 | trojan | @jiedianf | 5'
       - '🇺🇸 US | 🟢 | trojan | @kurdistan_vpn_perfectt | 6'
       - '🇩🇪 DE | 🟢 | trojan | @mafiav2ray | 13'
@@ -106,7 +111,8 @@ proxy-groups:
       - '🇫🇷 FR | 🟢 | trojan | @privatevpns | 13'
       - '🇫🇷 FR | 🟢 | trojan | @privatevpns | 14'
       - '🇫🇮 FI | 🔴 | trojan | @v2ray_collector | 38'
-      - '🇫🇷 FR | 🟢 | trojan | @v2ray_free_conf | 18'
+      - '🇫🇷 FR | 🟢 | trojan | @v2ray_free_conf | 15'
+      - '🇺🇸 US | 🔴 | trojan | @v2raych | 19'
       - '🇩🇪 DE | 🟢 | trojan | @v2rayngconfig | 42'
       - '🇨🇦 CA | 🟢 | trojan | @v2rayngconfig | 43'
       - '🇫🇷 FR | 🟢 | trojan | @v2rayngconfig | 44'
@@ -123,6 +129,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - '🇳🇱 NL | 🟢 | trojan | @NamiraNet | 53'
+      - '🇺🇸 US | 🔴 | trojan | @NamiraNet | 55'
       - '🇯🇵 JP | 🟢 | trojan | @awlix_ir | 9'
       - '🇫🇷 FR | 🟢 | trojan | @directvpn | 10'
       - '🇩🇪 DE | 🟢 | trojan | @directvpn | 11'
@@ -130,11 +138,11 @@ proxy-groups:
       - '🇫🇷 FR | 🟢 | trojan | @directvpn | 13'
       - '🇫🇷 FR | 🟢 | trojan | @directvpn | 14'
       - '🇺🇸 US | 🟢 | trojan | @dnsforyou | 8'
-      - '🇺🇸 US | 🔴 | trojan | @entrynet | 19'
+      - '🇩🇪 DE | 🟢 | trojan | @entrynet | 19'
       - '🇩🇪 DE | 🔴 | trojan | @freev2raym | 7'
       - '🇳🇱 NL | 🔴 | trojan | @hacknashid | 1'
-      - '🇺🇸 US | 🔴 | trojan | @hope_net | 19'
-      - '🇺🇸 US | 🟢 | trojan | @ip_cf_config | 7'
+      - '🇭🇰 HK | 🔴 | trojan | @hope_net | 17'
+      - '🇺🇸 US | 🟢 | trojan | @ip_cf_config | 9'
       - '🇫🇷 FR | 🟢 | trojan | @jiedianf | 5'
       - '🇺🇸 US | 🟢 | trojan | @kurdistan_vpn_perfectt | 6'
       - '🇩🇪 DE | 🟢 | trojan | @mafiav2ray | 13'
@@ -147,7 +155,8 @@ proxy-groups:
       - '🇫🇷 FR | 🟢 | trojan | @privatevpns | 13'
       - '🇫🇷 FR | 🟢 | trojan | @privatevpns | 14'
       - '🇫🇮 FI | 🔴 | trojan | @v2ray_collector | 38'
-      - '🇫🇷 FR | 🟢 | trojan | @v2ray_free_conf | 18'
+      - '🇫🇷 FR | 🟢 | trojan | @v2ray_free_conf | 15'
+      - '🇺🇸 US | 🔴 | trojan | @v2raych | 19'
       - '🇩🇪 DE | 🟢 | trojan | @v2rayngconfig | 42'
       - '🇨🇦 CA | 🟢 | trojan | @v2rayngconfig | 43'
       - '🇫🇷 FR | 🟢 | trojan | @v2rayngconfig | 44'
@@ -162,6 +171,8 @@ proxy-groups:
   - name: All-Proxies
     type: select
     proxies:
+      - '🇳🇱 NL | 🟢 | trojan | @NamiraNet | 53'
+      - '🇺🇸 US | 🔴 | trojan | @NamiraNet | 55'
       - '🇯🇵 JP | 🟢 | trojan | @awlix_ir | 9'
       - '🇫🇷 FR | 🟢 | trojan | @directvpn | 10'
       - '🇩🇪 DE | 🟢 | trojan | @directvpn | 11'
@@ -169,11 +180,11 @@ proxy-groups:
       - '🇫🇷 FR | 🟢 | trojan | @directvpn | 13'
       - '🇫🇷 FR | 🟢 | trojan | @directvpn | 14'
       - '🇺🇸 US | 🟢 | trojan | @dnsforyou | 8'
-      - '🇺🇸 US | 🔴 | trojan | @entrynet | 19'
+      - '🇩🇪 DE | 🟢 | trojan | @entrynet | 19'
       - '🇩🇪 DE | 🔴 | trojan | @freev2raym | 7'
       - '🇳🇱 NL | 🔴 | trojan | @hacknashid | 1'
-      - '🇺🇸 US | 🔴 | trojan | @hope_net | 19'
-      - '🇺🇸 US | 🟢 | trojan | @ip_cf_config | 7'
+      - '🇭🇰 HK | 🔴 | trojan | @hope_net | 17'
+      - '🇺🇸 US | 🟢 | trojan | @ip_cf_config | 9'
       - '🇫🇷 FR | 🟢 | trojan | @jiedianf | 5'
       - '🇺🇸 US | 🟢 | trojan | @kurdistan_vpn_perfectt | 6'
       - '🇩🇪 DE | 🟢 | trojan | @mafiav2ray | 13'
@@ -186,7 +197,8 @@ proxy-groups:
       - '🇫🇷 FR | 🟢 | trojan | @privatevpns | 13'
       - '🇫🇷 FR | 🟢 | trojan | @privatevpns | 14'
       - '🇫🇮 FI | 🔴 | trojan | @v2ray_collector | 38'
-      - '🇫🇷 FR | 🟢 | trojan | @v2ray_free_conf | 18'
+      - '🇫🇷 FR | 🟢 | trojan | @v2ray_free_conf | 15'
+      - '🇺🇸 US | 🔴 | trojan | @v2raych | 19'
       - '🇩🇪 DE | 🟢 | trojan | @v2rayngconfig | 42'
       - '🇨🇦 CA | 🟢 | trojan | @v2rayngconfig | 43'
       - '🇫🇷 FR | 🟢 | trojan | @v2rayngconfig | 44'

@@ -105,8 +105,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇮 FI | 🟢 | ss | @NamiraNet | 61",
                 "❔ XX | 🟢 | ss | @chestertm | 12",
+                "🇩🇪 DE | 🟢 | ss | @ip_cf_config | 14",
                 "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 2",
                 "🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0",
                 "❔ XX | 🟢 | ss | @outlines_vpn | 5",
@@ -122,8 +122,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇮 FI | 🟢 | ss | @NamiraNet | 61",
                 "❔ XX | 🟢 | ss | @chestertm | 12",
+                "🇩🇪 DE | 🟢 | ss | @ip_cf_config | 14",
                 "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 2",
                 "🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0",
                 "❔ XX | 🟢 | ss | @outlines_vpn | 5",
@@ -155,20 +155,20 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇮 FI | 🟢 | ss | @NamiraNet | 61",
-            "type": "shadowsocks",
-            "server": "rusrv.vpnsparta.pro",
-            "server_port": 57456,
-            "method": "chacha20-ietf-poly1305",
-            "password": "360e21d21977dc11"
-        },
-        {
             "tag": "❔ XX | 🟢 | ss | @chestertm | 12",
             "type": "shadowsocks",
             "server": "freakconfig94.usecharge.ir",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "W74XFALLLuw6m5IA"
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | ss | @ip_cf_config | 14",
+            "type": "shadowsocks",
+            "server": "fin.outlinebot1.ru",
+            "server_port": 5904,
+            "method": "chacha20-ietf-poly1305",
+            "password": "5TZnwPb23pQS39lIucspJw"
         },
         {
             "tag": "🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 2",
