@@ -124,6 +124,7 @@
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇩🇪 DE | 🟢 | vless | @vpn451 | 11",
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
+                "🇷🇺 RU | 🟢 | vless | @vpnod | 18",
                 "🇩🇪 DE | 🟢 | vless | @vpnvg | 14",
                 "🇩🇪 DE | 🟢 | vless | @x4azadi | 14",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
@@ -169,6 +170,7 @@
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇩🇪 DE | 🟢 | vless | @vpn451 | 11",
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
+                "🇷🇺 RU | 🟢 | vless | @vpnod | 18",
                 "🇩🇪 DE | 🟢 | vless | @vpnvg | 14",
                 "🇩🇪 DE | 🟢 | vless | @x4azadi | 14",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
@@ -680,6 +682,33 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "chessgame"
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🟢 | vless | @vpnod | 18",
+            "type": "vless",
+            "server": "213.183.41.63",
+            "server_port": 443,
+            "uuid": "3c631fef-c28c-4dfe-aacc-9e67ace7d5b3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "skyroom.online",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "9tNnOU3bIHtyZfWaPv1J1ns78jDfzCdh6dRLjhQGlX8",
+                    "short_id": "1f"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "free"
             }
         },
         {

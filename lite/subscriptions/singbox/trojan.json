@@ -105,8 +105,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
-                "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
+                "🇳🇱 NL | 🟢 | trojan | @NamiraNet | 68",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 14",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
@@ -114,15 +113,17 @@
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
-                "🇺🇸 US | 🟢 | trojan | @webhube | 4"
+                "🇺🇸 US | 🟢 | trojan | @webhube | 4",
+                "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
+                "🇳🇱 NL | 🔴 | trojan | @ip_cf_config | 17",
+                "❔ XX | 🟢 | trojan | @maradona_vpn | 8"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
-                "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
+                "🇳🇱 NL | 🟢 | trojan | @NamiraNet | 68",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 14",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
@@ -130,7 +131,10 @@
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
-                "🇺🇸 US | 🟢 | trojan | @webhube | 4"
+                "🇺🇸 US | 🟢 | trojan | @webhube | 4",
+                "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
+                "🇳🇱 NL | 🔴 | trojan | @ip_cf_config | 17",
+                "❔ XX | 🟢 | trojan | @maradona_vpn | 8"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -153,46 +157,19 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
+            "tag": "🇳🇱 NL | 🟢 | trojan | @NamiraNet | 68",
             "type": "trojan",
-            "server": "production.tj.ojan.workers.dev",
+            "server": "82.192.82.226",
             "server_port": 443,
-            "password": "9yu6m5okr",
+            "password": "4863e1b2-ec2f-4c71-b862-ce533028e57e",
             "tls": {
                 "enabled": true,
-                "server_name": "production.tj.ojan.workers.dev",
+                "server_name": "trus.moonfree.top",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "production.tj.ojan.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-            "type": "trojan",
-            "server": "maradona_vpn.history-paint.art",
-            "server_port": 443,
-            "password": "Maradona_vpn",
-            "tls": {
-                "enabled": true,
-                "server_name": "teo.history-paint.art",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "grpc20337"
             }
         },
         {
@@ -335,6 +312,65 @@
                 "headers": {
                     "Host": "usa-vp-111.mETIkaPPs.cOm"
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
+            "type": "trojan",
+            "server": "production.tj.ojan.workers.dev",
+            "server_port": 443,
+            "password": "9yu6m5okr",
+            "tls": {
+                "enabled": true,
+                "server_name": "production.tj.ojan.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "production.tj.ojan.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔴 | trojan | @ip_cf_config | 17",
+            "type": "trojan",
+            "server": "stirring-parakeet.shiner427.skin",
+            "server_port": 443,
+            "password": "74260628090146500",
+            "tls": {
+                "enabled": true,
+                "server_name": "stirring-parakeet.shiner427.skin",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
+            "type": "trojan",
+            "server": "maradona_vpn.history-paint.art",
+            "server_port": 443,
+            "password": "Maradona_vpn",
+            "tls": {
+                "enabled": true,
+                "server_name": "teo.history-paint.art",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "grpc20337"
             }
         }
     ],
