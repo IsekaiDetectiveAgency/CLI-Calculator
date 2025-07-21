@@ -116,6 +116,7 @@
                 "🇩🇪 DE | 🔴 | vless | @lranonline_new | 21",
                 "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
+                "🇳🇱 NL | 🟢 | vless | @mowjproxy | 3",
                 "🇩🇪 DE | 🔴 | vless | @orange_vpns | 14",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
@@ -139,6 +140,7 @@
                 "🇩🇪 DE | 🔴 | vless | @lranonline_new | 21",
                 "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
+                "🇳🇱 NL | 🟢 | vless | @mowjproxy | 3",
                 "🇩🇪 DE | 🔴 | vless | @orange_vpns | 14",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
@@ -278,6 +280,29 @@
             "uuid": "936f64b8-4045-4cb1-80ea-54315ea40709",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | vless | @mowjproxy | 3",
+            "type": "vless",
+            "server": "62.212.70.229",
+            "server_port": 80,
+            "uuid": "c256ce5f-9b2b-43a0-946a-cceeadf0d5b0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ea.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tGORZqRxnUHzC46UYNRlydnkDlbA06OlkhPFZrxeLCE",
+                    "short_id": "3df4"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔴 | vless | @orange_vpns | 14",

@@ -9,9 +9,7 @@
     },
     "NamiraNet": {
         "types": [
-            "ss",
-            "vless",
-            "vmess"
+            "vless"
         ],
         "title": "‌NamiraNet / نامیرا نت",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/NamiraNet.jpg"
@@ -974,10 +972,10 @@
     },
     "ip_cf_config": {
         "types": [
-            "vmess",
             "ss",
             "vless",
-            "trojan"
+            "trojan",
+            "vmess"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
@@ -1866,14 +1864,6 @@
         "title": "pro-chanel",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/pro_chaneel.jpg"
     },
-    "prooxyk": {
-        "types": [
-            "vless",
-            "vmess"
-        ],
-        "title": "پروکسی - V2ray",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/prooxyk.jpg"
-    },
     "proxie": {
         "types": [
             "vless"
@@ -2604,7 +2594,8 @@
     "v2rayweb": {
         "types": [
             "vless",
-            "vmess"
+            "vmess",
+            "trojan"
         ],
         "title": "V2ray | VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"
