@@ -106,7 +106,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 26",
-                "🇺🇸 US | 🔴 | vless | @getconfigir | 19",
+                "🇳🇱 NL | 🟢 | vless | @lranonline_new | 8",
                 "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
@@ -120,7 +120,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 26",
-                "🇺🇸 US | 🔴 | vless | @getconfigir | 19",
+                "🇳🇱 NL | 🟢 | vless | @lranonline_new | 8",
                 "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
@@ -172,13 +172,27 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @getconfigir | 19",
+            "tag": "🇳🇱 NL | 🟢 | vless | @lranonline_new | 8",
             "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "40ea915d-c8e7-49a3-8f2f-a319cc3d08f8",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "45.150.33.157",
+            "server_port": 50810,
+            "uuid": "79de9b1e-d75e-4962-bbd8-42e9a6702033",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J0pRUeUHMS_olwz0xLOMJxIxe-DhsCZA3qnAMRC4zTg",
+                    "short_id": "aa60a00122200b76"
+                }
+            }
         },
         {
             "tag": "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
