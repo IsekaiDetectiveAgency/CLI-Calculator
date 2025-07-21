@@ -149,6 +149,7 @@
                 "❔ XX | 🔴 | vless | @goodbyefiltering | 7",
                 "🇮🇷 IR | 🔴 | vless | @guard_revil | 3",
                 "🇺🇸 US | 🔴 | vless | @info_2it_channel | 12",
+                "❔ XX | 🟢 | vless | @ip_cf_config | 15",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "❔ XX | 🟢 | vless | @iranbaxvpn | 8",
                 "🇷🇺 RU | 🔴 | vless | @iranbfilter | 6",
@@ -192,7 +193,7 @@
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "🇩🇪 DE | 🔴 | vless | @nofilter_v2rayng | 7",
                 "🇺🇸 US | 🟢 | vless | @ohvpn | 17",
-                "🇺🇸 US | 🔴 | vless | @outlinev2rayng | 19",
+                "🇺🇸 US | 🟢 | vless | @outlinev2rayng | 19",
                 "❔ XX | 🔴 | vless | @proxy48 | 14",
                 "❔ XX | 🟢 | vless | @proxy_confiingir | 3",
                 "❔ XX | 🟢 | vless | @proxy_iranv2 | 3",
@@ -236,7 +237,7 @@
                 "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
                 "❔ XX | 🟢 | vless | @xrayzxn | 6",
                 "🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0",
-                "🇮🇷 IR | 🔴 | vless | @zvpnn | 7"
+                "🇫🇷 FR | 🔴 | vless | @zvpnn | 7"
             ]
         },
         {
@@ -287,6 +288,7 @@
                 "❔ XX | 🔴 | vless | @goodbyefiltering | 7",
                 "🇮🇷 IR | 🔴 | vless | @guard_revil | 3",
                 "🇺🇸 US | 🔴 | vless | @info_2it_channel | 12",
+                "❔ XX | 🟢 | vless | @ip_cf_config | 15",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "❔ XX | 🟢 | vless | @iranbaxvpn | 8",
                 "🇷🇺 RU | 🔴 | vless | @iranbfilter | 6",
@@ -330,7 +332,7 @@
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "🇩🇪 DE | 🔴 | vless | @nofilter_v2rayng | 7",
                 "🇺🇸 US | 🟢 | vless | @ohvpn | 17",
-                "🇺🇸 US | 🔴 | vless | @outlinev2rayng | 19",
+                "🇺🇸 US | 🟢 | vless | @outlinev2rayng | 19",
                 "❔ XX | 🔴 | vless | @proxy48 | 14",
                 "❔ XX | 🟢 | vless | @proxy_confiingir | 3",
                 "❔ XX | 🟢 | vless | @proxy_iranv2 | 3",
@@ -374,7 +376,7 @@
                 "🇺🇸 US | 🔴 | vless | @womanlifefreedomvpn | 16",
                 "❔ XX | 🟢 | vless | @xrayzxn | 6",
                 "🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0",
-                "🇮🇷 IR | 🔴 | vless | @zvpnn | 7"
+                "🇫🇷 FR | 🔴 | vless | @zvpnn | 7"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -1076,6 +1078,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "OBEDiENT-detAiL.SEOTOOlSFOrYou.co.uk"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🟢 | vless | @ip_cf_config | 15",
+            "type": "vless",
+            "server": "WLF-V-P-N-ID2.dnsfree.one",
+            "server_port": 443,
+            "uuid": "---WLFVPN---",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "GAUjNf1wQnDm5ziCGqRmb3yVfU9bg_UPwZ2_QU4JWRU",
+                    "short_id": "6bb85179e30d4fc2"
                 }
             }
         },
@@ -1829,18 +1854,27 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @outlinev2rayng | 19",
+            "tag": "🇺🇸 US | 🟢 | vless | @outlinev2rayng | 19",
             "type": "vless",
-            "server": "hopeful-appointment.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "491e4f76-42f0-43a7-a987-25072a68d5e4",
+            "server": "web.xhamster.biz.id",
+            "server_port": 443,
+            "uuid": "aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "web.xhamster.biz.id",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/Free-CF-Proxy-AT4",
                 "headers": {
-                    "Host": "hopeful-appointment.seotoolsforyou.co.uk"
+                    "Host": "web.xhamster.biz.id"
                 }
             }
         },
@@ -2628,7 +2662,7 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @zvpnn | 7",
+            "tag": "🇫🇷 FR | 🔴 | vless | @zvpnn | 7",
             "type": "vless",
             "server": "power.dlmoviz.ir",
             "server_port": 2020,
