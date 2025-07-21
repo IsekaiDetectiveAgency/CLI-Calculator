@@ -11,13 +11,12 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2 = trojan, production.tj.ojan.workers.dev, 443, password = 9yu6m5okr, skip-cert-verify = false
 ❔ XX | 🟢 | trojan | @maradona_vpn | 8 = trojan, maradona_vpn.history-paint.art, 443, password = Maradona_vpn, skip-cert-verify = false
-🇩🇪 DE | 🔴 | trojan | @v2rayweb | 19 = trojan, gerxyz.bm04.xyz, 2053, password = 94cf288d-f764-4ce9-a547-a7228144f056, skip-cert-verify = false
 🇮🇷 IR | 🟢 | trojan | @vaslvip | 13 = trojan, iranpet.dtpetshop.com, 443, password = cSbZXtsrr3, skip-cert-verify = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2, ❔ XX | 🟢 | trojan | @maradona_vpn | 8, 🇩🇪 DE | 🔴 | trojan | @v2rayweb | 19, 🇮🇷 IR | 🟢 | trojan | @vaslvip | 13
-PSG-AUTO = url-test, 🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2, ❔ XX | 🟢 | trojan | @maradona_vpn | 8, 🇩🇪 DE | 🔴 | trojan | @v2rayweb | 19, 🇮🇷 IR | 🟢 | trojan | @vaslvip | 13
-PSG-FALLBACK = fallback, 🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2, ❔ XX | 🟢 | trojan | @maradona_vpn | 8, 🇩🇪 DE | 🔴 | trojan | @v2rayweb | 19, 🇮🇷 IR | 🟢 | trojan | @vaslvip | 13
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2, ❔ XX | 🟢 | trojan | @maradona_vpn | 8, 🇮🇷 IR | 🟢 | trojan | @vaslvip | 13
+PSG-AUTO = url-test, 🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2, ❔ XX | 🟢 | trojan | @maradona_vpn | 8, 🇮🇷 IR | 🟢 | trojan | @vaslvip | 13
+PSG-FALLBACK = fallback, 🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2, ❔ XX | 🟢 | trojan | @maradona_vpn | 8, 🇮🇷 IR | 🟢 | trojan | @vaslvip | 13
 
 [Rule]
 GEOIP,IR,DIRECT
