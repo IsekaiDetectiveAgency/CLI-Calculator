@@ -107,7 +107,6 @@
                 "URL-TEST",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇮🇷 IR | 🟢 | trojan | @vaslvip | 13",
                 "🇩🇪 DE | 🟢 | trojan | @directvpn | 13",
                 "🇺🇸 US | 🟢 | trojan | @freevpnatm | 15",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
@@ -125,7 +124,6 @@
             "outbounds": [
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇮🇷 IR | 🟢 | trojan | @vaslvip | 13",
                 "🇩🇪 DE | 🟢 | trojan | @directvpn | 13",
                 "🇺🇸 US | 🟢 | trojan | @freevpnatm | 15",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
@@ -197,22 +195,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "grpc20337"
-            }
-        },
-        {
-            "tag": "🇮🇷 IR | 🟢 | trojan | @vaslvip | 13",
-            "type": "trojan",
-            "server": "iranpet.dtpetshop.com",
-            "server_port": 443,
-            "password": "cSbZXtsrr3",
-            "tls": {
-                "enabled": true,
-                "server_name": "iranpet.dtpetshop.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             }
         },
         {

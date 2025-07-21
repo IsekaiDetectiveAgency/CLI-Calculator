@@ -106,8 +106,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
-                "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇮🇷 IR | 🟢 | trojan | @vaslvip | 13"
+                "❔ XX | 🟢 | trojan | @maradona_vpn | 8"
             ]
         },
         {
@@ -115,8 +114,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
-                "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇮🇷 IR | 🟢 | trojan | @vaslvip | 13"
+                "❔ XX | 🟢 | trojan | @maradona_vpn | 8"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -179,22 +177,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "grpc20337"
-            }
-        },
-        {
-            "tag": "🇮🇷 IR | 🟢 | trojan | @vaslvip | 13",
-            "type": "trojan",
-            "server": "iranpet.dtpetshop.com",
-            "server_port": 443,
-            "password": "cSbZXtsrr3",
-            "tls": {
-                "enabled": true,
-                "server_name": "iranpet.dtpetshop.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             }
         }
     ],
