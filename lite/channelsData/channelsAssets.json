@@ -984,10 +984,10 @@
     },
     "ip_cf_config": {
         "types": [
-            "vless",
-            "trojan",
             "vmess",
-            "ss"
+            "ss",
+            "vless",
+            "trojan"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
@@ -1534,7 +1534,6 @@
     },
     "mowjproxy": {
         "types": [
-            "vless",
             "vmess",
             "ss"
         ],
@@ -2340,8 +2339,8 @@
     },
     "v2ray_extractor": {
         "types": [
-            "vless",
             "ss",
+            "vless",
             "trojan"
         ],
         "title": "V2ray Extractor",

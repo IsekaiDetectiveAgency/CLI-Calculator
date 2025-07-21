@@ -106,6 +106,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
+                "🇺🇸 US | 🔴 | vless | @NamiraNet | 68",
                 "🇺🇸 US | 🔴 | vless | @airdroplandcod | 5",
                 "🇩🇪 DE | 🔴 | vless | @amirinventor2010 | 1",
                 "🇮🇷 IR | 🔴 | vless | @ansel_team | 1",
@@ -135,7 +136,7 @@
                 "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
                 "🇮🇷 IR | 🔴 | vless | @freevpn3327 | 6",
                 "🇺🇸 US | 🟢 | vless | @gervpn | 0",
-                "🇩🇪 DE | 🔴 | vless | @getconfigir | 19",
+                "🇺🇸 US | 🔴 | vless | @getconfigir | 19",
                 "🇮🇷 IR | 🔴 | vless | @ghotb_scarf | 9",
                 "🇮🇷 IR | 🔴 | vless | @goldenvpn_v2rayy | 3",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
@@ -206,7 +207,7 @@
                 "🇨🇿 CZ | 🟢 | vless | @v2rayopen | 9",
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
+                "🇺🇸 US | 🔴 | vless | @v2rayweb | 17",
                 "🇺🇸 US | 🟢 | vless | @v2source | 19",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
@@ -233,6 +234,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
+                "🇺🇸 US | 🔴 | vless | @NamiraNet | 68",
                 "🇺🇸 US | 🔴 | vless | @airdroplandcod | 5",
                 "🇩🇪 DE | 🔴 | vless | @amirinventor2010 | 1",
                 "🇮🇷 IR | 🔴 | vless | @ansel_team | 1",
@@ -262,7 +264,7 @@
                 "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
                 "🇮🇷 IR | 🔴 | vless | @freevpn3327 | 6",
                 "🇺🇸 US | 🟢 | vless | @gervpn | 0",
-                "🇩🇪 DE | 🔴 | vless | @getconfigir | 19",
+                "🇺🇸 US | 🔴 | vless | @getconfigir | 19",
                 "🇮🇷 IR | 🔴 | vless | @ghotb_scarf | 9",
                 "🇮🇷 IR | 🔴 | vless | @goldenvpn_v2rayy | 3",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
@@ -333,7 +335,7 @@
                 "🇨🇿 CZ | 🟢 | vless | @v2rayopen | 9",
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
+                "🇺🇸 US | 🔴 | vless | @v2rayweb | 17",
                 "🇺🇸 US | 🟢 | vless | @v2source | 19",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
@@ -382,6 +384,22 @@
             "uuid": "a804bb53-7504-4f06-96d8-ff56fb71539d",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraNet | 68",
+            "type": "vless",
+            "server": "162.159.244.47",
+            "server_port": 8880,
+            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/1ycR2zb3KeELWRha?ed=2560",
+                "headers": {
+                    "Host": "162.159.244.47"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @airdroplandcod | 5",
@@ -887,13 +905,20 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @getconfigir | 19",
+            "tag": "🇺🇸 US | 🔴 | vless | @getconfigir | 19",
             "type": "vless",
-            "server": "91.107.158.165",
-            "server_port": 57727,
-            "uuid": "ff1a7e82-4789-4259-b183-a219f145aa81",
+            "server": "172.67.141.140",
+            "server_port": 8880,
+            "uuid": "7e948e09-fa6f-4b8e-8c5d-181fa15fbec5",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/QaaLdIiGgWNoIxOF?ed=2560",
+                "headers": {
+                    "Host": "172.67.141.140"
+                }
+            }
         },
         {
             "tag": "🇮🇷 IR | 🔴 | vless | @ghotb_scarf | 9",
@@ -1586,7 +1611,7 @@
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 443,
-            "uuid": "c53e7b0c-bd46-4b36-ad14-14d1bf895bce",
+            "uuid": "edf78ca5-7ccb-44d4-88e6-b5bfb00499f2",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
@@ -2123,18 +2148,18 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
+            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 17",
             "type": "vless",
-            "server": "151.101.0.155",
-            "server_port": 80,
-            "uuid": "27bbb35d-017e-44b9-896c-6e210ab88418",
+            "server": "172.67.65.158",
+            "server_port": 8880,
+            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/@vmessorg----@vmessorg-----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg?ed=2480",
+                "path": "/Etb1L6YUdZFZuTOr?ed=2560",
                 "headers": {
-                    "Host": "151.101.0.155"
+                    "Host": "172.67.65.158"
                 }
             }
         },

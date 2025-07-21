@@ -212,11 +212,10 @@
                 "🇺🇸 US | 🟢 | vless | @v2logy | 10",
                 "❔ XX | 🔴 | vless | @v2raxx | 9",
                 "❔ XX | 🔴 | vless | @v2ray03 | 3",
-                "🇩🇪 DE | 🟢 | vless | @v2ray_extractor | 19",
                 "🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 8",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
-                "🇮🇷 IR | 🔴 | vless | @v2rayng_fars | 19",
+                "🇺🇸 US | 🔴 | vless | @v2rayng_fars | 19",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "🇺🇸 US | 🔴 | vless | @v2rayng_o | 6",
                 "🇮🇷 IR | 🟢 | vless | @v2rayngc | 18",
@@ -352,11 +351,10 @@
                 "🇺🇸 US | 🟢 | vless | @v2logy | 10",
                 "❔ XX | 🔴 | vless | @v2raxx | 9",
                 "❔ XX | 🔴 | vless | @v2ray03 | 3",
-                "🇩🇪 DE | 🟢 | vless | @v2ray_extractor | 19",
                 "🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 8",
                 "🇳🇱 NL | 🟢 | vless | @v2raymelliii | 6",
-                "🇮🇷 IR | 🔴 | vless | @v2rayng_fars | 19",
+                "🇺🇸 US | 🔴 | vless | @v2rayng_fars | 19",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "🇺🇸 US | 🔴 | vless | @v2rayng_o | 6",
                 "🇮🇷 IR | 🟢 | vless | @v2rayngc | 18",
@@ -2178,29 +2176,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @v2ray_extractor | 19",
-            "type": "vless",
-            "server": "vip1.proxystore11.news",
-            "server_port": 10358,
-            "uuid": "92c7897a-6494-4719-aefd-aea8280314ce",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zula.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "axD7U8DCmchSVZemN_DTRYdnNZ141CxTSkTabDdzNEk",
-                    "short_id": "b373044d"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8",
             "type": "vless",
             "server": "discord.com",
@@ -2269,13 +2244,20 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @v2rayng_fars | 19",
+            "tag": "🇺🇸 US | 🔴 | vless | @v2rayng_fars | 19",
             "type": "vless",
-            "server": "tunel-finland.katolvpn.sbs",
-            "server_port": 2020,
-            "uuid": "2a1c8a24-b17e-4dab-b2db-5d9c0c7013db",
+            "server": "cdn39030.marzban-l.ir",
+            "server_port": 8080,
+            "uuid": "9fb80a5f-f898-476f-8504-4cf36a1d69c7",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2048",
+                "headers": {
+                    "Host": "cdn39030.marzban-l.ir"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
