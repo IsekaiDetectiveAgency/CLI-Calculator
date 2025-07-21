@@ -105,38 +105,38 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
-                "❔ XX | 🔴 | trojan | @ip_cf_config | 14",
-                "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇮🇷 IR | 🟢 | trojan | @vaslvip | 13",
-                "🇫🇷 FR | 🟢 | trojan | @directvpn | 15",
+                "🇺🇸 US | 🟢 | trojan | @NamiraNet | 69",
+                "🇫🇷 FR | 🟢 | trojan | @directvpn | 16",
                 "🇺🇸 US | 🟢 | trojan | @freevpnatm | 15",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
-                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 15",
+                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 16",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 12",
-                "🇺🇸 US | 🟢 | trojan | @webhube | 4"
+                "🇺🇸 US | 🟢 | trojan | @webhube | 4",
+                "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
+                "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
+                "🇮🇷 IR | 🟢 | trojan | @vaslvip | 13"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
-                "❔ XX | 🔴 | trojan | @ip_cf_config | 14",
-                "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇮🇷 IR | 🟢 | trojan | @vaslvip | 13",
-                "🇫🇷 FR | 🟢 | trojan | @directvpn | 15",
+                "🇺🇸 US | 🟢 | trojan | @NamiraNet | 69",
+                "🇫🇷 FR | 🟢 | trojan | @directvpn | 16",
                 "🇺🇸 US | 🟢 | trojan | @freevpnatm | 15",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
-                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 15",
+                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 16",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 12",
-                "🇺🇸 US | 🟢 | trojan | @webhube | 4"
+                "🇺🇸 US | 🟢 | trojan | @webhube | 4",
+                "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
+                "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
+                "🇮🇷 IR | 🟢 | trojan | @vaslvip | 13"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -159,64 +159,14 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
+            "tag": "🇺🇸 US | 🟢 | trojan | @NamiraNet | 69",
             "type": "trojan",
-            "server": "production.tj.ojan.workers.dev",
+            "server": "74.63.241.23",
             "server_port": 443,
-            "password": "9yu6m5okr",
+            "password": "4863e1b2-ec2f-4c71-b862-ce533028e57e",
             "tls": {
                 "enabled": true,
-                "server_name": "production.tj.ojan.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "production.tj.ojan.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔴 | trojan | @ip_cf_config | 14",
-            "type": "trojan",
-            "server": "13c2c931-swin40-swy6li-tni2.cu.plebai.net",
-            "server_port": 15229,
-            "password": "5e2f888c-68ef-11ef-96ca-f23c9164ca5d"
-        },
-        {
-            "tag": "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-            "type": "trojan",
-            "server": "maradona_vpn.history-paint.art",
-            "server_port": 443,
-            "password": "Maradona_vpn",
-            "tls": {
-                "enabled": true,
-                "server_name": "teo.history-paint.art",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "grpc20337"
-            }
-        },
-        {
-            "tag": "🇮🇷 IR | 🟢 | trojan | @vaslvip | 13",
-            "type": "trojan",
-            "server": "iranpet.dtpetshop.com",
-            "server_port": 443,
-            "password": "cSbZXtsrr3",
-            "tls": {
-                "enabled": true,
-                "server_name": "iranpet.dtpetshop.com",
+                "server_name": "trus.moonfree.top",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -225,9 +175,9 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @directvpn | 15",
+            "tag": "🇫🇷 FR | 🟢 | trojan | @directvpn | 16",
             "type": "trojan",
-            "server": "52.47.143.163",
+            "server": "15.237.98.61",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "tls": {
@@ -303,9 +253,9 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @privatevpns | 15",
+            "tag": "🇫🇷 FR | 🟢 | trojan | @privatevpns | 16",
             "type": "trojan",
-            "server": "52.47.143.163",
+            "server": "15.237.98.61",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "tls": {
@@ -353,7 +303,7 @@
         {
             "tag": "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 12",
             "type": "trojan",
-            "server": "52.47.143.163",
+            "server": "15.237.98.61",
             "server_port": 22223,
             "password": "telegram-id-v2rayvpnchannel",
             "tls": {
@@ -386,6 +336,65 @@
                 "path": "/linkvws",
                 "headers": {
                     "Host": "usa-vp-111.mETIkaPPs.cOm"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
+            "type": "trojan",
+            "server": "production.tj.ojan.workers.dev",
+            "server_port": 443,
+            "password": "9yu6m5okr",
+            "tls": {
+                "enabled": true,
+                "server_name": "production.tj.ojan.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "production.tj.ojan.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
+            "type": "trojan",
+            "server": "maradona_vpn.history-paint.art",
+            "server_port": 443,
+            "password": "Maradona_vpn",
+            "tls": {
+                "enabled": true,
+                "server_name": "teo.history-paint.art",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "grpc20337"
+            }
+        },
+        {
+            "tag": "🇮🇷 IR | 🟢 | trojan | @vaslvip | 13",
+            "type": "trojan",
+            "server": "iranpet.dtpetshop.com",
+            "server_port": 443,
+            "password": "cSbZXtsrr3",
+            "tls": {
+                "enabled": true,
+                "server_name": "iranpet.dtpetshop.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         }
