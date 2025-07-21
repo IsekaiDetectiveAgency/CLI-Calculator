@@ -107,13 +107,14 @@
                 "URL-TEST",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇫🇷 FR | 🟢 | trojan | @directvpn | 14",
-                "🇷🇺 RU | 🟢 | trojan | @ip_cf_config | 14",
+                "🇮🇷 IR | 🟢 | trojan | @vaslvip | 13",
+                "🇫🇷 FR | 🟢 | trojan | @directvpn | 12",
+                "🇫🇷 FR | 🟢 | trojan | @ip_cf_config | 14",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
-                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 14",
-                "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
+                "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
+                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 12",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
-                "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
+                "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ]
         },
@@ -123,13 +124,14 @@
             "outbounds": [
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇫🇷 FR | 🟢 | trojan | @directvpn | 14",
-                "🇷🇺 RU | 🟢 | trojan | @ip_cf_config | 14",
+                "🇮🇷 IR | 🟢 | trojan | @vaslvip | 13",
+                "🇫🇷 FR | 🟢 | trojan | @directvpn | 12",
+                "🇫🇷 FR | 🟢 | trojan | @ip_cf_config | 14",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
-                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 14",
-                "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
+                "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
+                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 12",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
-                "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
+                "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ],
             "url": "https://www.gstatic.com/generate_204",
@@ -196,7 +198,23 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @directvpn | 14",
+            "tag": "🇮🇷 IR | 🟢 | trojan | @vaslvip | 13",
+            "type": "trojan",
+            "server": "iranpet.dtpetshop.com",
+            "server_port": 443,
+            "password": "cSbZXtsrr3",
+            "tls": {
+                "enabled": true,
+                "server_name": "iranpet.dtpetshop.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🟢 | trojan | @directvpn | 12",
             "type": "trojan",
             "server": "15.188.128.163",
             "server_port": 22223,
@@ -212,14 +230,14 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🟢 | trojan | @ip_cf_config | 14",
+            "tag": "🇫🇷 FR | 🟢 | trojan | @ip_cf_config | 14",
             "type": "trojan",
-            "server": "176.32.39.29",
-            "server_port": 443,
-            "password": "8OXD5VVt8s",
+            "server": "51.91.11.29",
+            "server_port": 80,
+            "password": "598c19f3-a48e-47cd-8451-1ba04ea094d0",
             "tls": {
                 "enabled": true,
-                "server_name": "journalofbigdata.springeropen.com",
+                "server_name": "speedtest.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -251,14 +269,14 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @privatevpns | 14",
+            "tag": "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
             "type": "trojan",
-            "server": "15.188.128.163",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
+            "server": "176.32.39.29",
+            "server_port": 443,
+            "password": "8OXD5VVt8s",
             "tls": {
                 "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
+                "server_name": "journalofbigdata.springeropen.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -267,14 +285,14 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
+            "tag": "🇫🇷 FR | 🟢 | trojan | @privatevpns | 12",
             "type": "trojan",
-            "server": "51.91.11.29",
-            "server_port": 80,
-            "password": "598c19f3-a48e-47cd-8451-1ba04ea094d0",
+            "server": "15.188.128.163",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
             "tls": {
                 "enabled": true,
-                "server_name": "speedtest.net",
+                "server_name": "trojan.burgerip.co.uk",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -299,7 +317,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
+            "tag": "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11",
             "type": "trojan",
             "server": "15.188.128.163",
             "server_port": 22223,
