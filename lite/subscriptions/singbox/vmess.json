@@ -118,7 +118,7 @@
                 "🇩🇪 DE | 🔴 | vmess | @freevmess | 4",
                 "🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 13",
                 "🇺🇸 US | 🔴 | vmess | @iran_mehr_vpn | 17",
-                "🇺🇸 US | 🟢 | vmess | @iranvpnet | 0",
+                "🇨🇦 CA | 🟢 | vmess | @iranvpnet | 0",
                 "❔ XX | 🔴 | vmess | @jedal_vpn | 4",
                 "🇮🇷 IR | 🔴 | vmess | @jetupnet | 1",
                 "🇬🇧 GB | 🔴 | vmess | @khoneproxy | 14",
@@ -146,6 +146,7 @@
                 "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 5",
                 "🇩🇪 DE | 🔴 | vmess | @v2rayngvpnn | 18",
                 "🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0",
+                "🇺🇸 US | 🔴 | vmess | @vpnfail_v2ray | 18",
                 "🇺🇸 US | 🔴 | vmess | @vpngate_config | 18",
                 "🇺🇸 US | 🟢 | vmess | @vpnv2rayonline | 10",
                 "🇩🇪 DE | 🔴 | vmess | @vpnzamin | 3"
@@ -168,7 +169,7 @@
                 "🇩🇪 DE | 🔴 | vmess | @freevmess | 4",
                 "🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 13",
                 "🇺🇸 US | 🔴 | vmess | @iran_mehr_vpn | 17",
-                "🇺🇸 US | 🟢 | vmess | @iranvpnet | 0",
+                "🇨🇦 CA | 🟢 | vmess | @iranvpnet | 0",
                 "❔ XX | 🔴 | vmess | @jedal_vpn | 4",
                 "🇮🇷 IR | 🔴 | vmess | @jetupnet | 1",
                 "🇬🇧 GB | 🔴 | vmess | @khoneproxy | 14",
@@ -196,6 +197,7 @@
                 "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 5",
                 "🇩🇪 DE | 🔴 | vmess | @v2rayngvpnn | 18",
                 "🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0",
+                "🇺🇸 US | 🔴 | vmess | @vpnfail_v2ray | 18",
                 "🇺🇸 US | 🔴 | vmess | @vpngate_config | 18",
                 "🇺🇸 US | 🟢 | vmess | @vpnv2rayonline | 10",
                 "🇩🇪 DE | 🔴 | vmess | @vpnzamin | 3"
@@ -407,7 +409,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vmess | @iranvpnet | 0",
+            "tag": "🇨🇦 CA | 🟢 | vmess | @iranvpnet | 0",
             "type": "vmess",
             "server": "mute-math-d64e.0e503992ad7026.WOrKERs.deV",
             "server_port": 443,
@@ -808,6 +810,31 @@
             "uuid": "3c0f9cf4-6a0c-42f3-a6de-89c79d4af8e3",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vmess | @vpnfail_v2ray | 18",
+            "type": "vmess",
+            "server": "vc.fly.dev",
+            "server_port": 443,
+            "uuid": "35379219-6535-4f2e-a4fe-3e44f61e0eee",
+            "security": "auto",
+            "alter_id": 32,
+            "tls": {
+                "enabled": true,
+                "server_name": "vc.fly.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/vc",
+                "headers": {
+                    "Host": "vc.fly.dev"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vmess | @vpngate_config | 18",
