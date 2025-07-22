@@ -108,6 +108,7 @@
                 "🇩🇪 DE | 🟢 | vless | @configasli | 7",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
+                "🇺🇸 US | 🟢 | vless | @getconfigir | 16",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "❔ XX | 🟢 | vless | @itv2ray | 29",
                 "🇩🇪 DE | 🟢 | vless | @kesslervpn | 2",
@@ -121,7 +122,6 @@
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 19",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
                 "🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 26",
@@ -131,7 +131,6 @@
                 "🇫🇷 FR | 🟢 | vless | @ip_ramzi | 11",
                 "🇦🇪 AE | 🟢 | vless | @irv2rey | 6",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
-                "🇳🇱 NL | 🟢 | vless | @lranonline_new | 6",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
@@ -155,6 +154,7 @@
                 "🇩🇪 DE | 🟢 | vless | @configasli | 7",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
+                "🇺🇸 US | 🟢 | vless | @getconfigir | 16",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "❔ XX | 🟢 | vless | @itv2ray | 29",
                 "🇩🇪 DE | 🟢 | vless | @kesslervpn | 2",
@@ -168,7 +168,6 @@
                 "❔ XX | 🟢 | vless | @torang_vpn | 16",
                 "❔ XX | 🟢 | vless | @v2rayng_my2 | 1",
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
-                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 19",
                 "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
                 "🇫🇮 FI | 🟢 | vless | @xyzquantvpn | 0",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 26",
@@ -178,7 +177,6 @@
                 "🇫🇷 FR | 🟢 | vless | @ip_ramzi | 11",
                 "🇦🇪 AE | 🟢 | vless | @irv2rey | 6",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
-                "🇳🇱 NL | 🟢 | vless | @lranonline_new | 6",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
@@ -289,6 +287,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@FsV2ray"
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @getconfigir | 16",
+            "type": "vless",
+            "server": "usa.node.gozarino.com",
+            "server_port": 11000,
+            "uuid": "2174e415-e3c0-48be-8f39-beed9fe7c0d1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
+                    "short_id": ""
+                }
             }
         },
         {
@@ -615,29 +636,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayweb | 19",
-            "type": "vless",
-            "server": "vpn_proxy_channel_vpn_proxy_channel.hohod.ir",
-            "server_port": 443,
-            "uuid": "1584806e-f63d-4f9b-a0b3-abe64b35a09c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vpn_proxy_channel_vpn_proxy_channel.hohod.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "GpgfsA-U8Y8M3LRcTfsaBViDtp2VlN5riSLLZ2kxEiQ",
-                    "short_id": "974a74bf"
-                }
-            }
-        },
-        {
             "tag": "🇦🇲 AM | 🟢 | vless | @vpn_accounti | 12",
             "type": "vless",
             "server": "ARM.CROCODILESERVER.IR",
@@ -857,29 +855,6 @@
                     "enabled": true,
                     "public_key": "OItbKB3XzCXKysSNBIUZ7fDAfASACK_ucLrU6NAAFAU",
                     "short_id": "a98a22e2"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🟢 | vless | @lranonline_new | 6",
-            "type": "vless",
-            "server": "45.150.33.157",
-            "server_port": 50810,
-            "uuid": "88903270-dc79-4dc2-9ce8-3c230eca3cf6",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "zhaket.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "J0pRUeUHMS_olwz0xLOMJxIxe-DhsCZA3qnAMRC4zTg",
-                    "short_id": "aa60a00122200b76"
                 }
             }
         },

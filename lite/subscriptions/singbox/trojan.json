@@ -106,14 +106,16 @@
             "outbounds": [
                 "URL-TEST",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
+                "❔ XX | 🔴 | trojan | @ip_cf_config | 15",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇩🇪 DE | 🟢 | trojan | @directvpn | 11",
+                "🇫🇷 FR | 🟢 | trojan | @directvpn | 15",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
-                "🇩🇪 DE | 🟢 | trojan | @privatevpns | 11",
+                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 15",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
-                "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 11",
+                "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11",
+                "🇺🇸 US | 🟢 | trojan | @v2rayweb | 19",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ]
         },
@@ -122,14 +124,16 @@
             "type": "urltest",
             "outbounds": [
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
+                "❔ XX | 🔴 | trojan | @ip_cf_config | 15",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇩🇪 DE | 🟢 | trojan | @directvpn | 11",
+                "🇫🇷 FR | 🟢 | trojan | @directvpn | 15",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
-                "🇩🇪 DE | 🟢 | trojan | @privatevpns | 11",
+                "🇫🇷 FR | 🟢 | trojan | @privatevpns | 15",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
-                "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 11",
+                "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11",
+                "🇺🇸 US | 🟢 | trojan | @v2rayweb | 19",
                 "🇺🇸 US | 🟢 | trojan | @webhube | 4"
             ],
             "url": "https://www.gstatic.com/generate_204",
@@ -176,6 +180,13 @@
             }
         },
         {
+            "tag": "❔ XX | 🔴 | trojan | @ip_cf_config | 15",
+            "type": "trojan",
+            "server": "391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net",
+            "server_port": 15229,
+            "password": "60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d"
+        },
+        {
             "tag": "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
             "type": "trojan",
             "server": "maradona_vpn.history-paint.art",
@@ -196,9 +207,9 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | trojan | @directvpn | 11",
+            "tag": "🇫🇷 FR | 🟢 | trojan | @directvpn | 15",
             "type": "trojan",
-            "server": "3.68.1.93",
+            "server": "15.188.178.145",
             "server_port": 22223,
             "password": "telegram-id-directvpn",
             "tls": {
@@ -251,9 +262,9 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | trojan | @privatevpns | 11",
+            "tag": "🇫🇷 FR | 🟢 | trojan | @privatevpns | 15",
             "type": "trojan",
-            "server": "3.68.1.93",
+            "server": "15.188.178.145",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "tls": {
@@ -299,14 +310,30 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 11",
+            "tag": "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 11",
             "type": "trojan",
-            "server": "3.68.1.93",
+            "server": "15.188.178.145",
             "server_port": 22223,
             "password": "telegram-id-v2rayvpnchannel",
             "tls": {
                 "enabled": true,
                 "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | trojan | @v2rayweb | 19",
+            "type": "trojan",
+            "server": "172.66.47.33",
+            "server_port": 443,
+            "password": "bba5ce00-09e4-4fce-8d26-35db5b4e38d4",
+            "tls": {
+                "enabled": true,
+                "server_name": "cfpage-39t.pages.dev",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
