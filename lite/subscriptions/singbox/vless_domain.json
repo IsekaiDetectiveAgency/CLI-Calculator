@@ -117,6 +117,7 @@
                 "❔ XX | 🔴 | vless | @ch_a2l | 5",
                 "🇺🇸 US | 🔴 | vless | @config_proxy_ir | 18",
                 "❔ XX | 🟢 | vless | @config_vip7 | 3",
+                "🇩🇪 DE | 🟢 | vless | @configasli | 7",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "❔ XX | 🔴 | vless | @confingv2raay | 1",
                 "🇺🇸 US | 🔴 | vless | @connectshu | 14",
@@ -124,7 +125,7 @@
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇺🇸 US | 🔴 | vless | @custom_v2ray | 5",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
-                "🇺🇸 US | 🔴 | vless | @darkma3ter24 | 13",
+                "🇮🇷 IR | 🔴 | vless | @darkma3ter24 | 13",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇮🇷 IR | 🔴 | vless | @easy_free_vpn | 2",
                 "🇩🇪 DE | 🔴 | vless | @ehsawn8 | 6",
@@ -141,7 +142,6 @@
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
                 "❔ XX | 🟢 | vless | @garnet_free | 11",
                 "❔ XX | 🔴 | vless | @ge2ray | 4",
-                "🇺🇸 US | 🔴 | vless | @getconfigir | 18",
                 "❔ XX | 🟢 | vless | @god_server7 | 1",
                 "🇺🇸 US | 🔴 | vless | @goldenshiinevpn | 9",
                 "🇮🇷 IR | 🔴 | vless | @golf_vpn | 14",
@@ -183,7 +183,6 @@
                 "🇩🇪 DE | 🔴 | vless | @moon_ping | 0",
                 "❔ XX | 🟢 | vless | @mrvpn1403 | 4",
                 "❔ XX | 🟢 | vless | @mt_team_iran | 4",
-                "🇺🇸 US | 🔴 | vless | @mtproxy22_v2ray | 67",
                 "🇨🇦 CA | 🟢 | vless | @n2vpn | 9",
                 "🇺🇸 US | 🟢 | vless | @nepo_v2ray | 23",
                 "❔ XX | 🔴 | vless | @next_serverpanel | 4",
@@ -257,6 +256,7 @@
                 "❔ XX | 🔴 | vless | @ch_a2l | 5",
                 "🇺🇸 US | 🔴 | vless | @config_proxy_ir | 18",
                 "❔ XX | 🟢 | vless | @config_vip7 | 3",
+                "🇩🇪 DE | 🟢 | vless | @configasli | 7",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "❔ XX | 🔴 | vless | @confingv2raay | 1",
                 "🇺🇸 US | 🔴 | vless | @connectshu | 14",
@@ -264,7 +264,7 @@
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "🇺🇸 US | 🔴 | vless | @custom_v2ray | 5",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
-                "🇺🇸 US | 🔴 | vless | @darkma3ter24 | 13",
+                "🇮🇷 IR | 🔴 | vless | @darkma3ter24 | 13",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇮🇷 IR | 🔴 | vless | @easy_free_vpn | 2",
                 "🇩🇪 DE | 🔴 | vless | @ehsawn8 | 6",
@@ -281,7 +281,6 @@
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
                 "❔ XX | 🟢 | vless | @garnet_free | 11",
                 "❔ XX | 🔴 | vless | @ge2ray | 4",
-                "🇺🇸 US | 🔴 | vless | @getconfigir | 18",
                 "❔ XX | 🟢 | vless | @god_server7 | 1",
                 "🇺🇸 US | 🔴 | vless | @goldenshiinevpn | 9",
                 "🇮🇷 IR | 🔴 | vless | @golf_vpn | 14",
@@ -323,7 +322,6 @@
                 "🇩🇪 DE | 🔴 | vless | @moon_ping | 0",
                 "❔ XX | 🟢 | vless | @mrvpn1403 | 4",
                 "❔ XX | 🟢 | vless | @mt_team_iran | 4",
-                "🇺🇸 US | 🔴 | vless | @mtproxy22_v2ray | 67",
                 "🇨🇦 CA | 🟢 | vless | @n2vpn | 9",
                 "🇺🇸 US | 🟢 | vless | @nepo_v2ray | 23",
                 "❔ XX | 🔴 | vless | @next_serverpanel | 4",
@@ -600,6 +598,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🟢 | vless | @configasli | 7",
+            "type": "vless",
+            "server": "s1.aparat-movies-download.ir",
+            "server_port": 4450,
+            "uuid": "a19f4213-fcb8-4384-9c85-cb51cae8ab8b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "🇺🇸 US | 🔴 | vless | @configscenter | 2",
             "type": "vless",
             "server": "2sudo.winapp3.ir",
@@ -695,7 +716,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @darkma3ter24 | 13",
+            "tag": "🇮🇷 IR | 🔴 | vless | @darkma3ter24 | 13",
             "type": "vless",
             "server": "www.parspack.com",
             "server_port": 8080,
@@ -959,22 +980,6 @@
             "uuid": "b52a81f3-7167-4064-9d09-d54fccf273bd",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @getconfigir | 18",
-            "type": "vless",
-            "server": "OBEDiENT-detAiL.SEOTOOlSFOrYou.co.uk",
-            "server_port": 80,
-            "uuid": "1dd49fb8-6570-4a2a-a236-f410b63159cf",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "OBEDiENT-detAiL.SEOTOOlSFOrYou.co.uk"
-                }
-            }
         },
         {
             "tag": "❔ XX | 🟢 | vless | @god_server7 | 1",
@@ -1651,22 +1656,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "MT_TEAM_IRAN_MT_TEAM_IRAN_MT_TEAM_IRAN_MT_TEAM_IRAN_MT_TEAM_IRAN_MT_TEAM_IRAN_MT_TEAM_IRAN_MT_TEAM_IRAN"
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @mtproxy22_v2ray | 67",
-            "type": "vless",
-            "server": "jEALoUs-ComPetITioN.sEotOOlSFoRYoU.Co.Uk",
-            "server_port": 80,
-            "uuid": "7094df26-af60-41c4-afac-857060d1bab0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/?@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
-                "headers": {
-                    "Host": "jEALoUs-ComPetITioN.sEotOOlSFoRYoU.Co.Uk"
-                }
             }
         },
         {

@@ -105,7 +105,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷 FR | 🟢 | vless | @configasli | 6",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 26",
                 "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
                 "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
@@ -113,6 +112,7 @@
                 "🇫🇷 FR | 🟢 | vless | @ip_ramzi | 11",
                 "🇦🇪 AE | 🟢 | vless | @irv2rey | 6",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
+                "🇳🇱 NL | 🟢 | vless | @lranonline_new | 6",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
@@ -133,7 +133,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷 FR | 🟢 | vless | @configasli | 6",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 26",
                 "🇫🇮 FI | 🟢 | vless | @fastfreeconfig | 0",
                 "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
@@ -141,6 +140,7 @@
                 "🇫🇷 FR | 🟢 | vless | @ip_ramzi | 11",
                 "🇦🇪 AE | 🟢 | vless | @irv2rey | 6",
                 "🇩🇪 DE | 🟢 | vless | @jokerv2ray | 16",
+                "🇳🇱 NL | 🟢 | vless | @lranonline_new | 6",
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇩🇪 DE | 🟢 | vless | @speedconfig00 | 35",
@@ -175,29 +175,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇫🇷 FR | 🟢 | vless | @configasli | 6",
-            "type": "vless",
-            "server": "172.232.33.18",
-            "server_port": 443,
-            "uuid": "fe48773b-df06-409a-bc61-117cd8fb1eb7",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ftp.debian.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "PTlW40u-tHGDlObhSKFN4tntrfHLgNPlHqg1oYqyY1o",
-                    "short_id": "b5ecd44d"
-                }
-            }
         },
         {
             "tag": "🇩🇪 DE | 🟢 | vless | @customvpnserver | 26",
@@ -369,6 +346,29 @@
                     "enabled": true,
                     "public_key": "OItbKB3XzCXKysSNBIUZ7fDAfASACK_ucLrU6NAAFAU",
                     "short_id": "a98a22e2"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | vless | @lranonline_new | 6",
+            "type": "vless",
+            "server": "45.150.33.157",
+            "server_port": 50810,
+            "uuid": "88903270-dc79-4dc2-9ce8-3c230eca3cf6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "J0pRUeUHMS_olwz0xLOMJxIxe-DhsCZA3qnAMRC4zTg",
+                    "short_id": "aa60a00122200b76"
                 }
             }
         },
