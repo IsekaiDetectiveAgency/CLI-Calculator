@@ -105,14 +105,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🔴 | vless | @configscenter | 2",
-                "🇺🇸 US | 🔴 | vless | @dailytek | 13",
-                "❔ XX | 🔴 | vless | @dgkbza | 21",
-                "🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 9",
-                "🇺🇸 US | 🔴 | vless | @evay_vpn | 14",
-                "🇺🇸 US | 🔴 | vless | @fastshovpn | 7",
-                "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
-                "🇩🇪 DE | 🔴 | vless | @prrofile_purple | 122",
+                "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 26",
                 "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
@@ -120,21 +113,21 @@
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 11"
+                "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 11",
+                "🇺🇸 US | 🔴 | vless | @configscenter | 2",
+                "🇺🇸 US | 🔴 | vless | @dailytek | 13",
+                "❔ XX | 🔴 | vless | @dgkbza | 21",
+                "🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 9",
+                "🇺🇸 US | 🔴 | vless | @evay_vpn | 14",
+                "🇺🇸 US | 🔴 | vless | @fastshovpn | 7",
+                "🇩🇪 DE | 🔴 | vless | @iseqaro | 2"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vless | @configscenter | 2",
-                "🇺🇸 US | 🔴 | vless | @dailytek | 13",
-                "❔ XX | 🔴 | vless | @dgkbza | 21",
-                "🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 9",
-                "🇺🇸 US | 🔴 | vless | @evay_vpn | 14",
-                "🇺🇸 US | 🔴 | vless | @fastshovpn | 7",
-                "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
-                "🇩🇪 DE | 🔴 | vless | @prrofile_purple | 122",
+                "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 26",
                 "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
@@ -142,7 +135,14 @@
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
-                "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 11"
+                "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 11",
+                "🇺🇸 US | 🔴 | vless | @configscenter | 2",
+                "🇺🇸 US | 🔴 | vless | @dailytek | 13",
+                "❔ XX | 🔴 | vless | @dgkbza | 21",
+                "🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 9",
+                "🇺🇸 US | 🔴 | vless | @evay_vpn | 14",
+                "🇺🇸 US | 🔴 | vless | @fastshovpn | 7",
+                "🇩🇪 DE | 🔴 | vless | @iseqaro | 2"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -165,76 +165,27 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @configscenter | 2",
+            "tag": "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
             "type": "vless",
-            "server": "2sudo.winapp3.ir",
+            "server": "91.99.140.175",
             "server_port": 80,
-            "uuid": "5b0e1347-1e9b-4b83-a27b-468e3dafb69b",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @dailytek | 13",
-            "type": "vless",
-            "server": "Ip2.yw5jk.org",
-            "server_port": 80,
-            "uuid": "3d212218-5ee2-4df8-8bf8-9eaf2474bf6e",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "❔ XX | 🔴 | vless | @dgkbza | 21",
-            "type": "vless",
-            "server": "join.unlimiteddev.fastly80-3.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "2a800382-5878-4b1a-96a2-c5d8af844530",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 9",
-            "type": "vless",
-            "server": "germany.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @evay_vpn | 14",
-            "type": "vless",
-            "server": "Evay.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "bb57d265-b716-4092-bd0a-68f3988db63c",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @fastshovpn | 7",
-            "type": "vless",
-            "server": "FASTSHOVPNTELEGRAM.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "41f52408-143d-40ba-8e09-82df8b72a6d0",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
-            "type": "vless",
-            "server": "s5.1dnt.k-l.cloud",
-            "server_port": 80,
-            "uuid": "f353fbf3-b6a1-4524-b916-f65bc077511f",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | vless | @prrofile_purple | 122",
-            "type": "vless",
-            "server": "be.kimjo.ir",
-            "server_port": 8080,
-            "uuid": "3a95905b-0ee1-494b-bda8-79c20dc41be5",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "uuid": "bf9f0b0a-9ccd-457f-b039-a0d80fe4862e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "allthecooks.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "8JLXaAVzfzBxustA4rSIJYXfbwgnarMBUiWghUe610s",
+                    "short_id": "f58f"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🟢 | vless | @customvpnserver | 26",
@@ -358,6 +309,69 @@
                     "short_id": "54705fe6"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @configscenter | 2",
+            "type": "vless",
+            "server": "2sudo.winapp3.ir",
+            "server_port": 80,
+            "uuid": "5b0e1347-1e9b-4b83-a27b-468e3dafb69b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @dailytek | 13",
+            "type": "vless",
+            "server": "Ip2.yw5jk.org",
+            "server_port": 80,
+            "uuid": "3d212218-5ee2-4df8-8bf8-9eaf2474bf6e",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🔴 | vless | @dgkbza | 21",
+            "type": "vless",
+            "server": "join.unlimiteddev.fastly80-3.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "2a800382-5878-4b1a-96a2-c5d8af844530",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 9",
+            "type": "vless",
+            "server": "germany.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @evay_vpn | 14",
+            "type": "vless",
+            "server": "Evay.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "bb57d265-b716-4092-bd0a-68f3988db63c",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @fastshovpn | 7",
+            "type": "vless",
+            "server": "FASTSHOVPNTELEGRAM.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "41f52408-143d-40ba-8e09-82df8b72a6d0",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vless | @iseqaro | 2",
+            "type": "vless",
+            "server": "s5.1dnt.k-l.cloud",
+            "server_port": 80,
+            "uuid": "f353fbf3-b6a1-4524-b916-f65bc077511f",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
