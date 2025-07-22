@@ -9,6 +9,7 @@
     },
     "NamiraNet": {
         "types": [
+            "trojan",
             "vless"
         ],
         "title": "‌NamiraNet / نامیرا نت",
@@ -963,10 +964,10 @@
     },
     "ip_cf_config": {
         "types": [
-            "vmess",
             "vless",
-            "trojan",
-            "ss"
+            "vmess",
+            "ss",
+            "trojan"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
@@ -2554,7 +2555,7 @@
     "v2rayweb": {
         "types": [
             "vless",
-            "trojan"
+            "vmess"
         ],
         "title": "V2ray | VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"
