@@ -444,8 +444,8 @@
     },
     "dnsforyou": {
         "types": [
-            "vless",
             "ss",
+            "vless",
             "trojan"
         ],
         "title": "DNS and v2rayNG and wireguard",
@@ -775,8 +775,8 @@
     "freevpnatm": {
         "types": [
             "vless",
-            "trojan",
-            "vmess"
+            "vmess",
+            "trojan"
         ],
         "title": "科學上网 free configs",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/freevpnatm.jpg"
@@ -967,10 +967,10 @@
     },
     "ip_cf_config": {
         "types": [
-            "vmess",
             "ss",
-            "vless",
-            "trojan"
+            "vmess",
+            "trojan",
+            "vless"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
@@ -2383,8 +2383,8 @@
     },
     "v2raying": {
         "types": [
-            "ss",
             "vless",
+            "ss",
             "vmess"
         ],
         "title": "v2rayNG_VPN",
@@ -2571,7 +2571,8 @@
     },
     "v2rayweb": {
         "types": [
-            "vless"
+            "vless",
+            "vmess"
         ],
         "title": "V2ray | VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"
