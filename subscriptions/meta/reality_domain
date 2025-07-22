@@ -51,6 +51,7 @@ proxies:
   - {"name":"❔ XX | 🟢 | vless | @persian_proxy6 | 2","type":"vless","server":"iran.nikirani.sfree.persianmemberiranmember.shop","port":8881,"uuid":"bf9a82b2-00dc-45b6-8615-47d2a72c6c96","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"servername":"ghbi.ir","reality-opts":{"public-key":"-8EeqVrZ8S9R4yAoTrUx6F85-9bw7O-Hz_bYzcY0xBA","short-id":"64c204e5"}}
   - {"name":"❔ XX | 🟢 | vless | @persian_proxy6 | 3","type":"vless","server":"iran.nikirani.sfree.persianmemberiranmember.shop","port":8443,"uuid":"06f73c30-b767-492f-ad4f-50226053aa4f","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"tuyaeu.com","reality-opts":{"public-key":"g2n6BaJw9Wfs7PqXVkodEAeaCCXKgxtJ2N0qAzKDCgw","short-id":"c22ed49b"}}
   - {"name":"❔ XX | 🟢 | vless | @proxy_iranv2 | 3","type":"vless","server":"vpncustomize.cam","port":443,"uuid":"4fd0c05c-3d20-4512-9628-0eeade38d4c4","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"servername":"www.iranserver.com","grpc-opts":{"grpc-service-name":"@VPNCUSTOMIZE"},"reality-opts":{"public-key":"55xH-tqPd6c0VZpbwlxRxhmfvp9lVUtp45CDJLpcw2I","short-id":"6b0541cd"}}
+  - {"name":"🇳🇱 NL | 🟢 | vless | @proxy_mtproto_vpns_free | 19","type":"vless","server":"tg.fast2rayng.sbs","port":25150,"uuid":"a40ffc21-c65a-4b91-ae6d-f025df96bfcc","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"www.zula.ir","grpc-opts":{"grpc-service-name":"@Fast2RayNG_ViP"},"reality-opts":{"public-key":"fBW2wtjDNj9teo01a9sWRj13_T9wy9cbts0gNASzggM","short-id":"8a"}}
   - {"name":"🇩🇪 DE | 🟢 | vless | @proxystore11 | 6","type":"vless","server":"vip1.proxystore11.news","port":10358,"uuid":"92c7897a-6494-4719-aefd-aea8280314ce","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"zula.ir","reality-opts":{"public-key":"axD7U8DCmchSVZemN_DTRYdnNZ141CxTSkTabDdzNEk","short-id":"b373044d"}}
   - {"name":"🇩🇪 DE | 🟢 | vless | @proxystore11 | 9","type":"vless","server":"vip1.proxystore11.news","port":10358,"uuid":"ec76d7ac-f8dd-40f5-b28a-223bab8217ae","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"zula.ir","flow":"xtls-rprx-vision","reality-opts":{"public-key":"axD7U8DCmchSVZemN_DTRYdnNZ141CxTSkTabDdzNEk","short-id":"b373044d"}}
   - {"name":"❔ XX | 🟢 | vless | @proxysudo | 0","type":"vless","server":"proxysudochannel.ddns.net","port":8443,"uuid":"d2900c83-c946-4022-91cc-662b808ee186","tls":true,"network":"grpc","client-fingerprint":"safari","udp":true,"servername":"instructure.com","reality-opts":{"public-key":"QIYQ18dVZZ4H3sseAPw34I2glJNfXTwM9OHRUSm-Uxw","short-id":"b6b63505"}}
@@ -146,6 +147,7 @@ proxy-groups:
       - '❔ XX | 🟢 | vless | @persian_proxy6 | 2'
       - '❔ XX | 🟢 | vless | @persian_proxy6 | 3'
       - '❔ XX | 🟢 | vless | @proxy_iranv2 | 3'
+      - '🇳🇱 NL | 🟢 | vless | @proxy_mtproto_vpns_free | 19'
       - '🇩🇪 DE | 🟢 | vless | @proxystore11 | 6'
       - '🇩🇪 DE | 🟢 | vless | @proxystore11 | 9'
       - '❔ XX | 🟢 | vless | @proxysudo | 0'
@@ -217,6 +219,7 @@ proxy-groups:
       - '❔ XX | 🟢 | vless | @persian_proxy6 | 2'
       - '❔ XX | 🟢 | vless | @persian_proxy6 | 3'
       - '❔ XX | 🟢 | vless | @proxy_iranv2 | 3'
+      - '🇳🇱 NL | 🟢 | vless | @proxy_mtproto_vpns_free | 19'
       - '🇩🇪 DE | 🟢 | vless | @proxystore11 | 6'
       - '🇩🇪 DE | 🟢 | vless | @proxystore11 | 9'
       - '❔ XX | 🟢 | vless | @proxysudo | 0'
@@ -286,6 +289,7 @@ proxy-groups:
       - '❔ XX | 🟢 | vless | @persian_proxy6 | 2'
       - '❔ XX | 🟢 | vless | @persian_proxy6 | 3'
       - '❔ XX | 🟢 | vless | @proxy_iranv2 | 3'
+      - '🇳🇱 NL | 🟢 | vless | @proxy_mtproto_vpns_free | 19'
       - '🇩🇪 DE | 🟢 | vless | @proxystore11 | 6'
       - '🇩🇪 DE | 🟢 | vless | @proxystore11 | 9'
       - '❔ XX | 🟢 | vless | @proxysudo | 0'

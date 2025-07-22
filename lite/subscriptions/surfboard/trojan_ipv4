@@ -11,9 +11,8 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇫🇷 FR | 🟢 | trojan | @directvpn | 15 = trojan, 13.39.171.69, 22223, password = telegram-id-directvpn, skip-cert-verify = false
 🇺🇸 US | 🟢 | trojan | @freevpnatm | 15 = trojan, 104.21.78.243, 443, password = a94fafdb-10d6-46c2-be8a-5c2e8358fbb0, skip-cert-verify = false
-🇺🇸 US | 🟢 | trojan | @ip_cf_config | 17 = trojan, 104.25.165.81, 8443, password = 123456, skip-cert-verify = false
+🇷🇺 RU | 🟢 | trojan | @ip_cf_config | 14 = trojan, 176.32.39.29, 443, password = 8OXD5VVt8s, skip-cert-verify = false
 🇸🇬 SG | 🟢 | trojan | @mpmehi | 0 = trojan, 146.190.87.238, 443, password = oZAugtgF5T, skip-cert-verify = false
-🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15 = trojan, 176.32.39.29, 443, password = 8OXD5VVt8s, skip-cert-verify = false
 🇫🇷 FR | 🟢 | trojan | @privatevpns | 15 = trojan, 13.39.171.69, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
 🇫🇷 FR | 🟢 | trojan | @proxyfn | 18 = trojan, 51.91.11.29, 80, password = 598c19f3-a48e-47cd-8451-1ba04ea094d0, skip-cert-verify = false
 🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45 = trojan, 104.149.155.13, 443, password = 79c935c0-27dc-4383-b307-dcac1b8e5509, skip-cert-verify = false
@@ -21,9 +20,9 @@ DIRECT = direct
 🇺🇸 US | 🟢 | trojan | @webhube | 4 = trojan, 15.204.175.111, 2083, password = t2WqbIW2JE, skip-cert-verify = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇫🇷 FR | 🟢 | trojan | @directvpn | 15, 🇺🇸 US | 🟢 | trojan | @freevpnatm | 15, 🇺🇸 US | 🟢 | trojan | @ip_cf_config | 17, 🇸🇬 SG | 🟢 | trojan | @mpmehi | 0, 🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15, 🇫🇷 FR | 🟢 | trojan | @privatevpns | 15, 🇫🇷 FR | 🟢 | trojan | @proxyfn | 18, 🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45, 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 12, 🇺🇸 US | 🟢 | trojan | @webhube | 4
-PSG-AUTO = url-test, 🇫🇷 FR | 🟢 | trojan | @directvpn | 15, 🇺🇸 US | 🟢 | trojan | @freevpnatm | 15, 🇺🇸 US | 🟢 | trojan | @ip_cf_config | 17, 🇸🇬 SG | 🟢 | trojan | @mpmehi | 0, 🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15, 🇫🇷 FR | 🟢 | trojan | @privatevpns | 15, 🇫🇷 FR | 🟢 | trojan | @proxyfn | 18, 🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45, 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 12, 🇺🇸 US | 🟢 | trojan | @webhube | 4
-PSG-FALLBACK = fallback, 🇫🇷 FR | 🟢 | trojan | @directvpn | 15, 🇺🇸 US | 🟢 | trojan | @freevpnatm | 15, 🇺🇸 US | 🟢 | trojan | @ip_cf_config | 17, 🇸🇬 SG | 🟢 | trojan | @mpmehi | 0, 🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15, 🇫🇷 FR | 🟢 | trojan | @privatevpns | 15, 🇫🇷 FR | 🟢 | trojan | @proxyfn | 18, 🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45, 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 12, 🇺🇸 US | 🟢 | trojan | @webhube | 4
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇫🇷 FR | 🟢 | trojan | @directvpn | 15, 🇺🇸 US | 🟢 | trojan | @freevpnatm | 15, 🇷🇺 RU | 🟢 | trojan | @ip_cf_config | 14, 🇸🇬 SG | 🟢 | trojan | @mpmehi | 0, 🇫🇷 FR | 🟢 | trojan | @privatevpns | 15, 🇫🇷 FR | 🟢 | trojan | @proxyfn | 18, 🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45, 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 12, 🇺🇸 US | 🟢 | trojan | @webhube | 4
+PSG-AUTO = url-test, 🇫🇷 FR | 🟢 | trojan | @directvpn | 15, 🇺🇸 US | 🟢 | trojan | @freevpnatm | 15, 🇷🇺 RU | 🟢 | trojan | @ip_cf_config | 14, 🇸🇬 SG | 🟢 | trojan | @mpmehi | 0, 🇫🇷 FR | 🟢 | trojan | @privatevpns | 15, 🇫🇷 FR | 🟢 | trojan | @proxyfn | 18, 🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45, 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 12, 🇺🇸 US | 🟢 | trojan | @webhube | 4
+PSG-FALLBACK = fallback, 🇫🇷 FR | 🟢 | trojan | @directvpn | 15, 🇺🇸 US | 🟢 | trojan | @freevpnatm | 15, 🇷🇺 RU | 🟢 | trojan | @ip_cf_config | 14, 🇸🇬 SG | 🟢 | trojan | @mpmehi | 0, 🇫🇷 FR | 🟢 | trojan | @privatevpns | 15, 🇫🇷 FR | 🟢 | trojan | @proxyfn | 18, 🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45, 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 12, 🇺🇸 US | 🟢 | trojan | @webhube | 4
 
 [Rule]
 GEOIP,IR,DIRECT
