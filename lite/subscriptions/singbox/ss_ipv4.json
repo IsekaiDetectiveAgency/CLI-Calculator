@@ -105,7 +105,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇳🇱 NL | 🟢 | ss | @NamiraNet | 69",
                 "🇳🇱 NL | 🟢 | ss | @ai_duet | 8",
                 "🇨🇦 CA | 🟢 | ss | @argo_vpn1 | 13",
                 "🇦🇹 AT | 🟢 | ss | @arv2ra | 7",
@@ -115,10 +114,10 @@
                 "🇵🇹 PT | 🟢 | ss | @filtershekan_channel | 12",
                 "🇫🇷 FR | 🟢 | ss | @freevirgoolnet | 7",
                 "🇬🇧 GB | 🟢 | ss | @injectormconf | 39",
+                "🇺🇸 US | 🟢 | ss | @ip_cf_config | 15",
                 "🇳🇱 NL | 🟢 | ss | @jiedianf | 7",
                 "🇫🇷 FR | 🟢 | ss | @key_outline | 19",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 12",
-                "🇺🇸 US | 🟢 | ss | @mester_v2ray | 18",
                 "🇩🇪 DE | 🟢 | ss | @msv2flyng | 12",
                 "🇬🇧 GB | 🟢 | ss | @novinology | 16",
                 "🇵🇱 PL | 🟢 | ss | @outlineopenkey | 12",
@@ -135,7 +134,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇳🇱 NL | 🟢 | ss | @NamiraNet | 69",
                 "🇳🇱 NL | 🟢 | ss | @ai_duet | 8",
                 "🇨🇦 CA | 🟢 | ss | @argo_vpn1 | 13",
                 "🇦🇹 AT | 🟢 | ss | @arv2ra | 7",
@@ -145,10 +143,10 @@
                 "🇵🇹 PT | 🟢 | ss | @filtershekan_channel | 12",
                 "🇫🇷 FR | 🟢 | ss | @freevirgoolnet | 7",
                 "🇬🇧 GB | 🟢 | ss | @injectormconf | 39",
+                "🇺🇸 US | 🟢 | ss | @ip_cf_config | 15",
                 "🇳🇱 NL | 🟢 | ss | @jiedianf | 7",
                 "🇫🇷 FR | 🟢 | ss | @key_outline | 19",
                 "🇬🇧 GB | 🟢 | ss | @megavpn_link | 12",
-                "🇺🇸 US | 🟢 | ss | @mester_v2ray | 18",
                 "🇩🇪 DE | 🟢 | ss | @msv2flyng | 12",
                 "🇬🇧 GB | 🟢 | ss | @novinology | 16",
                 "🇵🇱 PL | 🟢 | ss | @outlineopenkey | 12",
@@ -179,14 +177,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇳🇱 NL | 🟢 | ss | @NamiraNet | 69",
-            "type": "shadowsocks",
-            "server": "193.29.139.141",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
         },
         {
             "tag": "🇳🇱 NL | 🟢 | ss | @ai_duet | 8",
@@ -261,6 +251,14 @@
             "password": "kTjlLxrncKx4i2HIjxfA3M"
         },
         {
+            "tag": "🇺🇸 US | 🟢 | ss | @ip_cf_config | 15",
+            "type": "shadowsocks",
+            "server": "45.87.175.192",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "4a2rfixophdjffa8KVA4Aa"
+        },
+        {
             "tag": "🇳🇱 NL | 🟢 | ss | @jiedianf | 7",
             "type": "shadowsocks",
             "server": "194.87.216.121",
@@ -283,14 +281,6 @@
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "Bog0ELmMM9DSxDdQ"
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | ss | @mester_v2ray | 18",
-            "type": "shadowsocks",
-            "server": "45.87.175.192",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "4a2rfixophdjffa8KVA4Aa"
         },
         {
             "tag": "🇩🇪 DE | 🟢 | ss | @msv2flyng | 12",

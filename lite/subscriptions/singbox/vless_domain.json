@@ -105,6 +105,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇩🇪 DE | 🔴 | vless | @NamiraNet | 69",
                 "🇺🇸 US | 🔴 | vless | @alo_v2rayng | 0",
                 "🇩🇪 DE | 🔴 | vless | @argotaz | 0",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
@@ -141,7 +142,6 @@
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
                 "❔ XX | 🟢 | vless | @garnet_free | 11",
                 "❔ XX | 🔴 | vless | @ge2ray | 4",
-                "🇺🇸 US | 🔴 | vless | @getconfigir | 17",
                 "❔ XX | 🟢 | vless | @god_server7 | 1",
                 "🇺🇸 US | 🔴 | vless | @goldenshiinevpn | 9",
                 "🇮🇷 IR | 🔴 | vless | @golf_vpn | 14",
@@ -214,7 +214,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2logy | 10",
                 "❔ XX | 🔴 | vless | @v2raxx | 9",
                 "❔ XX | 🔴 | vless | @v2ray03 | 3",
-                "🇨🇦 CA | 🟢 | vless | @v2ray_reality_new | 8",
+                "🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 8",
                 "🇺🇸 US | 🔴 | vless | @v2raying | 14",
                 "🇦🇲 AM | 🔴 | vless | @v2rayng3 | 8",
@@ -225,7 +225,6 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "❔ XX | 🔴 | vless | @v2rayturbo | 8",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
                 "🇺🇸 US | 🟢 | vless | @v2rayy_vpn13 | 12",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
@@ -246,6 +245,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇩🇪 DE | 🔴 | vless | @NamiraNet | 69",
                 "🇺🇸 US | 🔴 | vless | @alo_v2rayng | 0",
                 "🇩🇪 DE | 🔴 | vless | @argotaz | 0",
                 "🇺🇸 US | 🔴 | vless | @artemis_vpn_free | 1",
@@ -282,7 +282,6 @@
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
                 "❔ XX | 🟢 | vless | @garnet_free | 11",
                 "❔ XX | 🔴 | vless | @ge2ray | 4",
-                "🇺🇸 US | 🔴 | vless | @getconfigir | 17",
                 "❔ XX | 🟢 | vless | @god_server7 | 1",
                 "🇺🇸 US | 🔴 | vless | @goldenshiinevpn | 9",
                 "🇮🇷 IR | 🔴 | vless | @golf_vpn | 14",
@@ -355,7 +354,7 @@
                 "🇺🇸 US | 🟢 | vless | @v2logy | 10",
                 "❔ XX | 🔴 | vless | @v2raxx | 9",
                 "❔ XX | 🔴 | vless | @v2ray03 | 3",
-                "🇨🇦 CA | 🟢 | vless | @v2ray_reality_new | 8",
+                "🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8",
                 "❔ XX | 🟢 | vless | @v2raycollectordonate | 8",
                 "🇺🇸 US | 🔴 | vless | @v2raying | 14",
                 "🇦🇲 AM | 🔴 | vless | @v2rayng3 | 8",
@@ -366,7 +365,6 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "❔ XX | 🔴 | vless | @v2rayturbo | 8",
-                "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
                 "🇺🇸 US | 🟢 | vless | @v2rayy_vpn13 | 12",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
@@ -401,6 +399,22 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraNet | 69",
+            "type": "vless",
+            "server": "182910.www.11338899.servers801.ir",
+            "server_port": 2096,
+            "uuid": "09f1d928-05ab-4ba2-80c5-f33edc244024",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/fscsxfVgdzhrefjgsBgaa?ed=80",
+                "headers": {
+                    "Host": "182910.www.11338899.servers801.ir"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔴 | vless | @alo_v2rayng | 0",
@@ -961,22 +975,6 @@
             "uuid": "b52a81f3-7167-4064-9d09-d54fccf273bd",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @getconfigir | 17",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 8080,
-            "uuid": "a5b00f0a-4c83-4e76-9eaa-75a7c6451017",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7@V2RAYFAST_7?ed=2048",
-                "headers": {
-                    "Host": "www.speedtest.net"
-                }
-            }
         },
         {
             "tag": "❔ XX | 🟢 | vless | @god_server7 | 1",
@@ -2198,7 +2196,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇨🇦 CA | 🟢 | vless | @v2ray_reality_new | 8",
+            "tag": "🇺🇸 US | 🟢 | vless | @v2ray_reality_new | 8",
             "type": "vless",
             "server": "discord.com",
             "server_port": 2053,
@@ -2428,22 +2426,6 @@
             "uuid": "43330370-6687-48c3-ee7e-56c96853e07b",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @v2rayweb | 19",
-            "type": "vless",
-            "server": "www.speedtest.net.cdn.cloudflare.net",
-            "server_port": 80,
-            "uuid": "6b3b071f-096b-4e4c-8d70-0e0b53f27434",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2048",
-                "headers": {
-                    "Host": "www.speedtest.net.cdn.cloudflare.net"
-                }
-            }
         },
         {
             "tag": "🇺🇸 US | 🟢 | vless | @v2rayy_vpn13 | 12",
