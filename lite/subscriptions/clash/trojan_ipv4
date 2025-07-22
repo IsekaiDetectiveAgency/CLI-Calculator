@@ -17,6 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
+  - {"name":"🇺🇸 US | 🟢 | trojan | @NamiraNet | 69","type":"trojan","server":"172.67.188.77","port":443,"password":"1c5b4508-7f18-47bf-9bce-e7ec19fb31cb","skip-cert-verify":false}
   - {"name":"🇫🇷 FR | 🟢 | trojan | @directvpn | 13","type":"trojan","server":"13.36.14.125","port":22223,"password":"telegram-id-directvpn","skip-cert-verify":false}
   - {"name":"🇺🇸 US | 🟢 | trojan | @freevpnatm | 17","type":"trojan","server":"172.67.174.152","port":443,"password":"a94fafdb-10d6-46c2-be8a-5c2e8358fbb0","skip-cert-verify":false}
   - {"name":"🇸🇬 SG | 🟢 | trojan | @mpmehi | 0","type":"trojan","server":"146.190.87.238","port":443,"password":"oZAugtgF5T","skip-cert-verify":false}
@@ -56,6 +57,7 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
+      - '🇺🇸 US | 🟢 | trojan | @NamiraNet | 69'
       - '🇫🇷 FR | 🟢 | trojan | @directvpn | 13'
       - '🇺🇸 US | 🟢 | trojan | @freevpnatm | 17'
       - '🇸🇬 SG | 🟢 | trojan | @mpmehi | 0'
@@ -71,6 +73,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - '🇺🇸 US | 🟢 | trojan | @NamiraNet | 69'
       - '🇫🇷 FR | 🟢 | trojan | @directvpn | 13'
       - '🇺🇸 US | 🟢 | trojan | @freevpnatm | 17'
       - '🇸🇬 SG | 🟢 | trojan | @mpmehi | 0'
@@ -84,6 +87,7 @@ proxy-groups:
   - name: All-Proxies
     type: select
     proxies:
+      - '🇺🇸 US | 🟢 | trojan | @NamiraNet | 69'
       - '🇫🇷 FR | 🟢 | trojan | @directvpn | 13'
       - '🇺🇸 US | 🟢 | trojan | @freevpnatm | 17'
       - '🇸🇬 SG | 🟢 | trojan | @mpmehi | 0'
