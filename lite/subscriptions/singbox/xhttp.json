@@ -114,6 +114,7 @@
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 10",
+                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 18",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
@@ -136,6 +137,7 @@
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 10",
+                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 18",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
@@ -307,6 +309,29 @@
                     "enabled": true,
                     "public_key": "VaX6bp_MHNDUuqYS7vbyXiw-ptqGCTutnV6K_jYE-3A",
                     "short_id": "54705fe6"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayweb | 18",
+            "type": "vless",
+            "server": "138.199.168.187",
+            "server_port": 28153,
+            "uuid": "8611dbb2-fdd5-4ba3-b06f-bc10bb75deeb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "wIyC9CuOB33Hx1HbHnx_0JZXypmEink7icN0rWmzTlE",
+                    "short_id": "b6f9"
                 }
             }
         },

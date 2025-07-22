@@ -119,6 +119,7 @@
                 "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 10",
                 "🇳🇱 NL | 🟢 | vless | @v2rayngninja | 8",
                 "🇨🇿 CZ | 🟢 | vless | @v2rayopen | 8",
+                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 18",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇫🇮 FI | 🟢 | vless | @vpn_ioss | 18",
@@ -129,7 +130,6 @@
                 "🇩🇪 DE | 🟢 | vless | @configasli | 7",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
-                "🇩🇪 DE | 🟢 | vless | @getconfigir | 19",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "❔ XX | 🟢 | vless | @itv2ray | 29",
                 "🇩🇪 DE | 🟢 | vless | @kesslervpn | 2",
@@ -166,6 +166,7 @@
                 "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 10",
                 "🇳🇱 NL | 🟢 | vless | @v2rayngninja | 8",
                 "🇨🇿 CZ | 🟢 | vless | @v2rayopen | 8",
+                "🇩🇪 DE | 🟢 | vless | @v2rayweb | 18",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇫🇮 FI | 🟢 | vless | @vpn_ioss | 18",
@@ -176,7 +177,6 @@
                 "🇩🇪 DE | 🟢 | vless | @configasli | 7",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
-                "🇩🇪 DE | 🟢 | vless | @getconfigir | 19",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "❔ XX | 🟢 | vless | @itv2ray | 29",
                 "🇩🇪 DE | 🟢 | vless | @kesslervpn | 2",
@@ -564,6 +564,29 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🟢 | vless | @v2rayweb | 18",
+            "type": "vless",
+            "server": "138.199.168.187",
+            "server_port": 28153,
+            "uuid": "8611dbb2-fdd5-4ba3-b06f-bc10bb75deeb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "wIyC9CuOB33Hx1HbHnx_0JZXypmEink7icN0rWmzTlE",
+                    "short_id": "b6f9"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
             "type": "vless",
             "server": "128.140.35.236",
@@ -811,29 +834,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@FsV2ray"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @getconfigir | 19",
-            "type": "vless",
-            "server": "balanced-de.irancdngame.com",
-            "server_port": 2012,
-            "uuid": "ab513a36-abe6-46ff-a356-edb8c280e28d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.pcmag.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "I9RNJ9pJ1WzWsYnRFk7u1XWsFhWBS03iUDjQXwWsERY",
-                    "short_id": ""
-                }
             }
         },
         {

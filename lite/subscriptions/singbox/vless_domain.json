@@ -143,7 +143,6 @@
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
                 "❔ XX | 🟢 | vless | @garnet_free | 11",
                 "❔ XX | 🔴 | vless | @ge2ray | 4",
-                "🇩🇪 DE | 🟢 | vless | @getconfigir | 19",
                 "❔ XX | 🟢 | vless | @god_server7 | 1",
                 "🇺🇸 US | 🔴 | vless | @goldenshiinevpn | 9",
                 "🇮🇷 IR | 🔴 | vless | @golf_vpn | 14",
@@ -182,7 +181,6 @@
                 "❔ XX | 🔴 | vless | @miov2ray | 11",
                 "❔ XX | 🔴 | vless | @miyanbor_vpn | 0",
                 "🇩🇪 DE | 🔴 | vless | @moon_ping | 0",
-                "🇺🇸 US | 🔴 | vless | @mowjproxy | 4",
                 "❔ XX | 🟢 | vless | @mrvpn1403 | 4",
                 "❔ XX | 🟢 | vless | @mt_team_iran | 4",
                 "🇨🇦 CA | 🟢 | vless | @n2vpn | 9",
@@ -282,7 +280,6 @@
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
                 "❔ XX | 🟢 | vless | @garnet_free | 11",
                 "❔ XX | 🔴 | vless | @ge2ray | 4",
-                "🇩🇪 DE | 🟢 | vless | @getconfigir | 19",
                 "❔ XX | 🟢 | vless | @god_server7 | 1",
                 "🇺🇸 US | 🔴 | vless | @goldenshiinevpn | 9",
                 "🇮🇷 IR | 🔴 | vless | @golf_vpn | 14",
@@ -321,7 +318,6 @@
                 "❔ XX | 🔴 | vless | @miov2ray | 11",
                 "❔ XX | 🔴 | vless | @miyanbor_vpn | 0",
                 "🇩🇪 DE | 🔴 | vless | @moon_ping | 0",
-                "🇺🇸 US | 🔴 | vless | @mowjproxy | 4",
                 "❔ XX | 🟢 | vless | @mrvpn1403 | 4",
                 "❔ XX | 🟢 | vless | @mt_team_iran | 4",
                 "🇨🇦 CA | 🟢 | vless | @n2vpn | 9",
@@ -991,29 +987,6 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @getconfigir | 19",
-            "type": "vless",
-            "server": "balanced-de.irancdngame.com",
-            "server_port": 2012,
-            "uuid": "ab513a36-abe6-46ff-a356-edb8c280e28d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.pcmag.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "I9RNJ9pJ1WzWsYnRFk7u1XWsFhWBS03iUDjQXwWsERY",
-                    "short_id": ""
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🟢 | vless | @god_server7 | 1",
             "type": "vless",
             "server": "qio.gsvd.xyz",
@@ -1635,22 +1608,6 @@
             "uuid": "13b0c901-3fbe-bb19-c6b8-89b2c314e975",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @mowjproxy | 4",
-            "type": "vless",
-            "server": "practical-complaint.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "aadbf0d6-6a32-4473-8a87-5b17db90e035",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "practical-complaint.seotoolsforyou.co.uk"
-                }
-            }
         },
         {
             "tag": "❔ XX | 🟢 | vless | @mrvpn1403 | 4",

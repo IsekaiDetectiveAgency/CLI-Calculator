@@ -108,7 +108,6 @@
                 "🇩🇪 DE | 🟢 | vless | @configasli | 7",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
-                "🇩🇪 DE | 🟢 | vless | @getconfigir | 19",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "❔ XX | 🟢 | vless | @itv2ray | 29",
                 "🇩🇪 DE | 🟢 | vless | @kesslervpn | 2",
@@ -134,7 +133,6 @@
                 "🇩🇪 DE | 🟢 | vless | @configasli | 7",
                 "❔ XX | 🟢 | vless | @custom_14 | 7",
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
-                "🇩🇪 DE | 🟢 | vless | @getconfigir | 19",
                 "🇦🇪 AE | 🟢 | vless | @iran_access | 13",
                 "❔ XX | 🟢 | vless | @itv2ray | 29",
                 "🇩🇪 DE | 🟢 | vless | @kesslervpn | 2",
@@ -247,29 +245,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@FsV2ray"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @getconfigir | 19",
-            "type": "vless",
-            "server": "balanced-de.irancdngame.com",
-            "server_port": 2012,
-            "uuid": "ab513a36-abe6-46ff-a356-edb8c280e28d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.pcmag.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "I9RNJ9pJ1WzWsYnRFk7u1XWsFhWBS03iUDjQXwWsERY",
-                    "short_id": ""
-                }
             }
         },
         {
