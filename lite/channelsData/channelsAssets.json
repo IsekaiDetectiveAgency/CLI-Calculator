@@ -965,9 +965,9 @@
     },
     "ip_cf_config": {
         "types": [
-            "vless",
-            "ss",
             "trojan",
+            "ss",
+            "vless",
             "vmess"
         ],
         "title": "IP_CF | V2ray Config Pool",
@@ -2220,13 +2220,6 @@
         "title": "𝗧𝗢𝗥𝗔𝗡𝗚 | 𝗩𝗣𝗡 🍊",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/torang_vpn.jpg"
     },
-    "u7kll": {
-        "types": [
-            "vless"
-        ],
-        "title": "Channel",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/u7kll.jpg"
-    },
     "uvpn_org": {
         "types": [
             "vless"
@@ -2569,7 +2562,8 @@
     },
     "v2rayweb": {
         "types": [
-            "vless"
+            "vless",
+            "trojan"
         ],
         "title": "V2ray | VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"

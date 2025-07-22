@@ -119,7 +119,6 @@
                 "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 11",
                 "🇳🇱 NL | 🟢 | vless | @v2rayngninja | 8",
                 "🇨🇿 CZ | 🟢 | vless | @v2rayopen | 8",
-                "🇫🇮 FI | 🟢 | vless | @v2rayweb | 15",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇫🇮 FI | 🟢 | vless | @vpn_ioss | 18",
@@ -147,7 +146,6 @@
                 "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 11",
                 "🇳🇱 NL | 🟢 | vless | @v2rayngninja | 8",
                 "🇨🇿 CZ | 🟢 | vless | @v2rayopen | 8",
-                "🇫🇮 FI | 🟢 | vless | @v2rayweb | 15",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
                 "🇫🇮 FI | 🟢 | vless | @vpn_ioss | 18",
@@ -527,29 +525,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "Join-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🟢 | vless | @v2rayweb | 15",
-            "type": "vless",
-            "server": "5.181.20.219",
-            "server_port": 17422,
-            "uuid": "fe837fd0-840d-4cee-9334-0dc6c2b15c1c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "0r5rlmvACX09qUTPuxrbuKWSAn66NnNyHIfIMwalYAA",
-                    "short_id": "33"
-                }
             }
         },
         {
