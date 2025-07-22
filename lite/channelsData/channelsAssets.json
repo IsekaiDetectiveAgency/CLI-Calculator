@@ -9,7 +9,9 @@
     },
     "NamiraNet": {
         "types": [
-            "vless"
+            "ss",
+            "vless",
+            "vmess"
         ],
         "title": "‌NamiraNet / نامیرا نت",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/NamiraNet.jpg"
@@ -972,10 +974,10 @@
     },
     "ip_cf_config": {
         "types": [
-            "ss",
-            "vless",
             "trojan",
-            "vmess"
+            "vmess",
+            "vless",
+            "ss"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
@@ -1523,7 +1525,8 @@
     "mowjproxy": {
         "types": [
             "vmess",
-            "vless"
+            "vless",
+            "ss"
         ],
         "title": "Mowj Proxy",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/mowjproxy.jpg"
@@ -2594,7 +2597,6 @@
     "v2rayweb": {
         "types": [
             "vless",
-            "vmess",
             "trojan"
         ],
         "title": "V2ray | VPN",
@@ -2914,7 +2916,6 @@
     },
     "vpnv2raytop": {
         "types": [
-            "vmess",
             "vless"
         ],
         "title": "فیلتر شکن پر سرعت و ارزان",
