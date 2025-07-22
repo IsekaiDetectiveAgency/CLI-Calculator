@@ -143,12 +143,12 @@
                 "🇳🇱 NL | 🟢 | vmess | @tehranfreevpn | 7",
                 "🇩🇪 DE | 🔴 | vmess | @v2ray4win | 7",
                 "🇺🇸 US | 🟢 | vmess | @v2ray_fd | 0",
+                "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
                 "🇩🇪 DE | 🔴 | vmess | @v2rayng_v2_ray | 3",
                 "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 5",
                 "🇩🇪 DE | 🔴 | vmess | @v2rayngvpnn | 18",
-                "🇺🇸 US | 🟢 | vmess | @v2rayweb | 19",
                 "🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0",
-                "🇨🇦 CA | 🔴 | vmess | @vpnfail_v2ray | 18",
+                "🇨🇦 CA | 🟢 | vmess | @vpnfail_v2ray | 18",
                 "🇺🇸 US | 🔴 | vmess | @vpngate_config | 18",
                 "🇺🇸 US | 🟢 | vmess | @vpnv2rayonline | 10",
                 "🇩🇪 DE | 🔴 | vmess | @vpnzamin | 3"
@@ -196,12 +196,12 @@
                 "🇳🇱 NL | 🟢 | vmess | @tehranfreevpn | 7",
                 "🇩🇪 DE | 🔴 | vmess | @v2ray4win | 7",
                 "🇺🇸 US | 🟢 | vmess | @v2ray_fd | 0",
+                "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
                 "🇩🇪 DE | 🔴 | vmess | @v2rayng_v2_ray | 3",
                 "🇩🇪 DE | 🟢 | vmess | @v2rayngchannelll | 5",
                 "🇩🇪 DE | 🔴 | vmess | @v2rayngvpnn | 18",
-                "🇺🇸 US | 🟢 | vmess | @v2rayweb | 19",
                 "🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0",
-                "🇨🇦 CA | 🔴 | vmess | @vpnfail_v2ray | 18",
+                "🇨🇦 CA | 🟢 | vmess | @vpnfail_v2ray | 18",
                 "🇺🇸 US | 🔴 | vmess | @vpngate_config | 18",
                 "🇺🇸 US | 🟢 | vmess | @vpnv2rayonline | 10",
                 "🇩🇪 DE | 🔴 | vmess | @vpnzamin | 3"
@@ -791,6 +791,15 @@
             }
         },
         {
+            "tag": "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
+            "type": "vmess",
+            "server": "5.180.30.85",
+            "server_port": 18598,
+            "uuid": "bf26f2fb-9d2a-49b6-8527-82e8aba3a9a9",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
             "tag": "🇩🇪 DE | 🔴 | vmess | @v2rayng_v2_ray | 3",
             "type": "vmess",
             "server": "57.129.7.139",
@@ -832,31 +841,6 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vmess | @v2rayweb | 19",
-            "type": "vmess",
-            "server": "104.21.25.95",
-            "server_port": 443,
-            "uuid": "4b33b482-25bc-49e4-b866-878c914d945a",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "sSSSSSSsssseDe.890604.fiLeGeAr-sg.Me",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/OBkP0mS3yyQCjn8kmnN0ehd",
-                "headers": {
-                    "Host": "sSSSSSSsssseDe.890604.fiLeGeAr-sg.Me"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔴 | vmess | @vipv2rayvip | 0",
             "type": "vmess",
             "server": "176.120.17.67",
@@ -866,16 +850,16 @@
             "alter_id": 0
         },
         {
-            "tag": "🇨🇦 CA | 🔴 | vmess | @vpnfail_v2ray | 18",
+            "tag": "🇨🇦 CA | 🟢 | vmess | @vpnfail_v2ray | 18",
             "type": "vmess",
-            "server": "15.235.50.172",
+            "server": "15.235.83.227",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "",
+                "server_name": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -886,7 +870,7 @@
                 "type": "ws",
                 "path": "/linkvws",
                 "headers": {
-                    "Host": ""
+                    "Host": "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
                 }
             }
         },
