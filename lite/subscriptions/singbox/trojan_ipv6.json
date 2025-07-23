@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔ XX | 🟢 | trojan | @v2rayweb | 19"
+                "❔ XX | 🔴 | trojan | @freevpnatm | 12"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔ XX | 🟢 | trojan | @v2rayweb | 19"
+                "❔ XX | 🔴 | trojan | @freevpnatm | 12"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,14 +135,14 @@
             "type": "dns"
         },
         {
-            "tag": "❔ XX | 🟢 | trojan | @v2rayweb | 19",
+            "tag": "❔ XX | 🔴 | trojan | @freevpnatm | 12",
             "type": "trojan",
-            "server": "[2606:4700:3033::ac43:c768]",
+            "server": "[2606:4700:3030::6815:2001]",
             "server_port": 443,
-            "password": "03e92910-34b1-4245-ac63-04a865f43cd5",
+            "password": "b8992384-c118-43a7-97aa-8f8423f19169",
             "tls": {
                 "enabled": true,
-                "server_name": "eEeFr5T6.4444916.XYZ",
+                "server_name": "[2606:4700:3030::6815:2001]",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -151,9 +151,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/bi35bFWoRrnPhIJoo2wcE6Q",
+                "path": "/",
                 "headers": {
-                    "Host": "eEeFr5T6.4444916.XYZ"
+                    "Host": "[2606:4700:3030::6815:2001]"
                 }
             }
         }

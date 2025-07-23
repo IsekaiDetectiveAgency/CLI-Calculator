@@ -108,15 +108,14 @@
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 13",
-                "🇺🇸 US | 🟢 | trojan | @freevpnatm | 17",
-                "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 17",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
                 "🇫🇷 FR | 🟢 | trojan | @privatevpns | 13",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
-                "🇺🇸 US | 🟢 | trojan | @webhube | 4"
+                "🇺🇸 US | 🟢 | trojan | @webhube | 4",
+                "❔ XX | 🔴 | trojan | @freevpnatm | 12"
             ]
         },
         {
@@ -126,15 +125,14 @@
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
                 "🇫🇷 FR | 🟢 | trojan | @directvpn | 13",
-                "🇺🇸 US | 🟢 | trojan | @freevpnatm | 17",
-                "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 17",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
                 "🇫🇷 FR | 🟢 | trojan | @privatevpns | 13",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13",
-                "🇺🇸 US | 🟢 | trojan | @webhube | 4"
+                "🇺🇸 US | 🟢 | trojan | @webhube | 4",
+                "❔ XX | 🔴 | trojan | @freevpnatm | 12"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -212,52 +210,6 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | trojan | @freevpnatm | 17",
-            "type": "trojan",
-            "server": "172.67.174.152",
-            "server_port": 443,
-            "password": "a94fafdb-10d6-46c2-be8a-5c2e8358fbb0",
-            "tls": {
-                "enabled": true,
-                "server_name": "xXCDfR.007770777.xYz",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/xa846InEcmjyiKVby2Lp",
-                "headers": {
-                    "Host": "xXCDfR.007770777.xYz"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 17",
-            "type": "trojan",
-            "server": "104.25.165.81",
-            "server_port": 8443,
-            "password": "123456",
-            "tls": {
-                "enabled": true,
-                "server_name": "top-azx.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Az1.vpn.33.TOP/?ed=2560",
-                "headers": {
-                    "Host": "top-azx.pages.dev"
                 }
             }
         },
@@ -384,6 +336,29 @@
                 "path": "/linkvws",
                 "headers": {
                     "Host": "usa-vp-111.mETIkaPPs.cOm"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔴 | trojan | @freevpnatm | 12",
+            "type": "trojan",
+            "server": "[2606:4700:3030::6815:2001]",
+            "server_port": 443,
+            "password": "b8992384-c118-43a7-97aa-8f8423f19169",
+            "tls": {
+                "enabled": true,
+                "server_name": "[2606:4700:3030::6815:2001]",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "[2606:4700:3030::6815:2001]"
                 }
             }
         }
