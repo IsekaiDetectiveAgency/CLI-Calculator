@@ -18,6 +18,7 @@ dns:
 
 proxies:
   - {"name":"🇩🇪 DE | 🟢 | trojan | @directvpn | 13","type":"trojan","server":"18.153.120.71","port":22223,"password":"telegram-id-directvpn","skip-cert-verify":false}
+  - {"name":"🇺🇸 US | 🟢 | trojan | @ip_cf_config | 13","type":"trojan","server":"192.3.107.252","port":443,"password":"2ee85121-31de-4581-a492-eb00f606e392","skip-cert-verify":false}
   - {"name":"🇸🇬 SG | 🟢 | trojan | @mpmehi | 0","type":"trojan","server":"146.190.87.238","port":443,"password":"oZAugtgF5T","skip-cert-verify":false}
   - {"name":"🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15","type":"trojan","server":"176.32.39.29","port":443,"password":"8OXD5VVt8s","skip-cert-verify":false}
   - {"name":"🇩🇪 DE | 🟢 | trojan | @privatevpns | 13","type":"trojan","server":"18.153.120.71","port":22222,"password":"telegram-id-privatevpns","skip-cert-verify":false}
@@ -56,6 +57,7 @@ proxy-groups:
     tolerance: 50 
     proxies:
       - '🇩🇪 DE | 🟢 | trojan | @directvpn | 13'
+      - '🇺🇸 US | 🟢 | trojan | @ip_cf_config | 13'
       - '🇸🇬 SG | 🟢 | trojan | @mpmehi | 0'
       - '🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15'
       - '🇩🇪 DE | 🟢 | trojan | @privatevpns | 13'
@@ -70,6 +72,7 @@ proxy-groups:
     interval: 300
     proxies:
       - '🇩🇪 DE | 🟢 | trojan | @directvpn | 13'
+      - '🇺🇸 US | 🟢 | trojan | @ip_cf_config | 13'
       - '🇸🇬 SG | 🟢 | trojan | @mpmehi | 0'
       - '🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15'
       - '🇩🇪 DE | 🟢 | trojan | @privatevpns | 13'
@@ -82,6 +85,7 @@ proxy-groups:
     type: select
     proxies:
       - '🇩🇪 DE | 🟢 | trojan | @directvpn | 13'
+      - '🇺🇸 US | 🟢 | trojan | @ip_cf_config | 13'
       - '🇸🇬 SG | 🟢 | trojan | @mpmehi | 0'
       - '🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15'
       - '🇩🇪 DE | 🟢 | trojan | @privatevpns | 13'
