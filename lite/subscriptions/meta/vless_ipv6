@@ -19,6 +19,7 @@ dns:
 proxies:
   - {"name":"❔ XX | 🔴 | vless | @freevv2rayng | 10","type":"vless","server":"[2a12:5940:1527::2]","port":443,"uuid":"78d743e4-1519-4770-aa84-ca0d6de0cc80","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"❔ XX | 🔴 | vless | @internet_nor | 2","type":"vless","server":"[2a01:4f8:c010:13e4::1]","port":443,"uuid":"f9196fa1-ba9f-4f31-98a5-3565476caafe","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"❔ XX | 🟢 | vless | @v2rayweb | 15","type":"vless","server":"[2a0b:4140:659a:6::6]","port":6001,"uuid":"b9728f78-deca-4648-9855-9d656690cd46","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"www.speedtest.net","grpc-opts":{"grpc-service-name":"b"},"reality-opts":{"public-key":"zz29RrT6OUddlHqTawpBJddCVUUgiQAPulbWKVsyQXk","short-id":"8745788b"}}
   - {"name":"❔ XX | 🔴 | vless | @v2ryngfree | 10","type":"vless","server":"[2a05:f480:1000:0300:5400:04ff:fef0:6bd0]","port":2053,"uuid":"1c7f075c-0021-4f4b-8fbd-326672770d61","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/@v2ryngfree@v2ryngfree@v2ryngfree","headers":{"Host":"speedtest.net"}}}
   - {"name":"❔ XX | 🟢 | vless | @yekoyekvpn | 0","type":"vless","server":"[::ffff:3207:55dd]","port":443,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"tEstBp.fIBiDOB9775921.woRkeRS.DEV","ws-opts":{"path":"/xUnw05Z6MV3NG29U?ed=2560","headers":{"Host":"testbp.fibidob9775921.workers.dev"}}}
 
@@ -53,6 +54,7 @@ proxy-groups:
     proxies:
       - '❔ XX | 🔴 | vless | @freevv2rayng | 10'
       - '❔ XX | 🔴 | vless | @internet_nor | 2'
+      - '❔ XX | 🟢 | vless | @v2rayweb | 15'
       - '❔ XX | 🔴 | vless | @v2ryngfree | 10'
       - '❔ XX | 🟢 | vless | @yekoyekvpn | 0'
 
@@ -63,6 +65,7 @@ proxy-groups:
     proxies:
       - '❔ XX | 🔴 | vless | @freevv2rayng | 10'
       - '❔ XX | 🔴 | vless | @internet_nor | 2'
+      - '❔ XX | 🟢 | vless | @v2rayweb | 15'
       - '❔ XX | 🔴 | vless | @v2ryngfree | 10'
       - '❔ XX | 🟢 | vless | @yekoyekvpn | 0'
       
@@ -71,6 +74,7 @@ proxy-groups:
     proxies:
       - '❔ XX | 🔴 | vless | @freevv2rayng | 10'
       - '❔ XX | 🔴 | vless | @internet_nor | 2'
+      - '❔ XX | 🟢 | vless | @v2rayweb | 15'
       - '❔ XX | 🔴 | vless | @v2ryngfree | 10'
       - '❔ XX | 🟢 | vless | @yekoyekvpn | 0'
 
