@@ -18,6 +18,7 @@ dns:
 
 proxies:
   - {"name":"❔ XX | 🟢 | ss | @chestertm | 19","type":"ss","server":"freakconfig94.usecharge.ir","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇪 SE | 🟢 | ss | @ip_cf_config | 15","type":"ss","server":"azure-sto.edgeservers.org","port":48172,"password":"51yloQC8D9w1Wae7FHtI65","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 2","type":"ss","server":"series-a2-mec.varzesh360.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0","type":"ss","server":"admin.c2.webramz.co","port":443,"password":"WstuSnlu4ieA9M0L","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇳🇱 NL | 🟢 | ss | @outline_ir | 19","type":"ss","server":"switcher-nick-croquet.freesocks.work","port":443,"password":"9tqhMdIrTkgQ46PvhyAtMH","cipher":"chacha20-ietf-poly1305"}
@@ -58,6 +59,7 @@ proxy-groups:
     tolerance: 50 
     proxies:
       - '❔ XX | 🟢 | ss | @chestertm | 19'
+      - '🇸🇪 SE | 🟢 | ss | @ip_cf_config | 15'
       - '🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 2'
       - '🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0'
       - '🇳🇱 NL | 🟢 | ss | @outline_ir | 19'
@@ -74,6 +76,7 @@ proxy-groups:
     interval: 300
     proxies:
       - '❔ XX | 🟢 | ss | @chestertm | 19'
+      - '🇸🇪 SE | 🟢 | ss | @ip_cf_config | 15'
       - '🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 2'
       - '🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0'
       - '🇳🇱 NL | 🟢 | ss | @outline_ir | 19'
@@ -88,6 +91,7 @@ proxy-groups:
     type: select
     proxies:
       - '❔ XX | 🟢 | ss | @chestertm | 19'
+      - '🇸🇪 SE | 🟢 | ss | @ip_cf_config | 15'
       - '🇬🇧 GB | 🟢 | ss | @nationalproxytelegram | 2'
       - '🇬🇧 GB | 🟢 | ss | @ntgreenplus | 0'
       - '🇳🇱 NL | 🟢 | ss | @outline_ir | 19'
