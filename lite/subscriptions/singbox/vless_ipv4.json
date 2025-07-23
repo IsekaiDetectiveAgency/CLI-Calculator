@@ -137,7 +137,7 @@
                 "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
                 "🇮🇷 IR | 🔴 | vless | @freevpn3327 | 6",
                 "🇺🇸 US | 🟢 | vless | @gervpn | 0",
-                "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
+                "🇺🇸 US | 🔴 | vless | @getconfigir | 19",
                 "🇮🇷 IR | 🔴 | vless | @ghotb_scarf | 9",
                 "🇮🇷 IR | 🔴 | vless | @goldenvpn_v2rayy | 3",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
@@ -184,7 +184,6 @@
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇩🇪 DE | 🔴 | vless | @redfree8 | 6",
                 "🇺🇸 US | 🔴 | vless | @renetvpn | 10",
-                "🇺🇸 US | 🔴 | vless | @selinc | 6",
                 "🇦🇲 AM | 🔴 | vless | @server444 | 0",
                 "🇺🇸 US | 🟢 | vless | @server_housing03 | 2",
                 "🇺🇸 US | 🟢 | vless | @sobi_vpn | 9",
@@ -262,7 +261,7 @@
                 "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
                 "🇮🇷 IR | 🔴 | vless | @freevpn3327 | 6",
                 "🇺🇸 US | 🟢 | vless | @gervpn | 0",
-                "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
+                "🇺🇸 US | 🔴 | vless | @getconfigir | 19",
                 "🇮🇷 IR | 🔴 | vless | @ghotb_scarf | 9",
                 "🇮🇷 IR | 🔴 | vless | @goldenvpn_v2rayy | 3",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
@@ -309,7 +308,6 @@
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇩🇪 DE | 🔴 | vless | @redfree8 | 6",
                 "🇺🇸 US | 🔴 | vless | @renetvpn | 10",
-                "🇺🇸 US | 🔴 | vless | @selinc | 6",
                 "🇦🇲 AM | 🔴 | vless | @server444 | 0",
                 "🇺🇸 US | 🟢 | vless | @server_housing03 | 2",
                 "🇺🇸 US | 🟢 | vless | @sobi_vpn | 9",
@@ -922,27 +920,18 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
+            "tag": "🇺🇸 US | 🔴 | vless | @getconfigir | 19",
             "type": "vless",
-            "server": "172.66.47.61",
-            "server_port": 8443,
-            "uuid": "a396b860-11b7-4af3-9950-146caf79735e",
+            "server": "104.16.51.36",
+            "server_port": 80,
+            "uuid": "5459f68e-d914-4b31-93a3-ecdf638b7a5b",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "gghdfa.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/8WuhXm4QjK0L68Uf?ed=2560",
+                "path": "/?ed=2560",
                 "headers": {
-                    "Host": "gghdfa.pages.dev"
+                    "Host": "barayeiran-mahsang.taraneh.dpdns.org"
                 }
             }
         },
@@ -1562,7 +1551,7 @@
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 443,
-            "uuid": "13b5abce-df4b-4e08-8b38-5fbfa5a5a95a",
+            "uuid": "8ab49bb8-ea28-4107-8b2d-d6b1a5db141a",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
@@ -1670,22 +1659,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "173.245.58.31"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @selinc | 6",
-            "type": "vless",
-            "server": "104.16.86.73",
-            "server_port": 8880,
-            "uuid": "e9979910-79d1-4621-a93c-b2a579c44ba7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/J5aLQOY1R9ONWYCM?ed=2560",
-                "headers": {
-                    "Host": "104.16.86.73"
                 }
             }
         },
