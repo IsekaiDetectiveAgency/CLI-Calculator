@@ -107,20 +107,20 @@
                 "URL-TEST",
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 10",
+                "🇺🇸 US | 🟢 | vless | @getconfigir | 18",
                 "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 10",
-                "🇩🇪 DE | 🔴 | vless | @v2rayweb | 11",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 9",
                 "🇺🇸 US | 🔴 | vless | @evay_vpn | 13",
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 7",
-                "🇳🇱 NL | 🟢 | vless | @mowjproxy | 3"
+                "🇺🇸 US | 🟢 | vless | @noforcedheaven | 16"
             ]
         },
         {
@@ -129,20 +129,20 @@
             "outbounds": [
                 "🇩🇪 DE | 🟢 | vless | @club_profsor | 16",
                 "🇩🇪 DE | 🟢 | vless | @customvpnserver | 10",
+                "🇺🇸 US | 🟢 | vless | @getconfigir | 18",
                 "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
                 "🇺🇸 US | 🟢 | vless | @proxie | 15",
                 "🇺🇸 US | 🟢 | vless | @proxygrizzly | 0",
                 "🇺🇸 US | 🔴 | vless | @qeshmserver | 12",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 10",
-                "🇩🇪 DE | 🔴 | vless | @v2rayweb | 11",
                 "🇺🇸 US | 🔴 | vless | @configscenter | 2",
                 "🇺🇸 US | 🔴 | vless | @dailytek | 13",
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 9",
                 "🇺🇸 US | 🔴 | vless | @evay_vpn | 13",
                 "🇺🇸 US | 🔴 | vless | @fastshovpn | 7",
-                "🇳🇱 NL | 🟢 | vless | @mowjproxy | 3"
+                "🇺🇸 US | 🟢 | vless | @noforcedheaven | 16"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -207,6 +207,24 @@
                     "enabled": true,
                     "public_key": "4Xu_jqRD-mbhEwNyntlz_6zU4VhsE0-QWCxAbhEL_H4",
                     "short_id": "7ab467"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @getconfigir | 18",
+            "type": "vless",
+            "server": "104.21.48.1",
+            "server_port": 2083,
+            "uuid": "c4e6a6ef-d782-4a12-a38a-906a61ee5bc1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cho.chonon.sbs",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -302,15 +320,6 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @v2rayweb | 11",
-            "type": "vless",
-            "server": "91.99.98.90",
-            "server_port": 8443,
-            "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇺🇸 US | 🔴 | vless | @configscenter | 2",
             "type": "vless",
             "server": "2sudo.winapp3.ir",
@@ -365,16 +374,16 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @mowjproxy | 3",
+            "tag": "🇺🇸 US | 🟢 | vless | @noforcedheaven | 16",
             "type": "vless",
-            "server": "statue.lnmarketplace.net",
+            "server": "www.speedtest.net",
             "server_port": 443,
-            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
+            "uuid": "25cff889-0921-40a9-814b-15d3af3bbc58",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "statue.lnmarketplace.net",
+                "server_name": "ru2.asc-sam.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
