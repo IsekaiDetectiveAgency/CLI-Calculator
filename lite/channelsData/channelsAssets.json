@@ -486,7 +486,6 @@
     },
     "evay_vpn": {
         "types": [
-            "ss",
             "vless"
         ],
         "title": "Evay vpn | Free V2ray config",
@@ -954,10 +953,10 @@
     },
     "ip_cf_config": {
         "types": [
-            "ss",
             "vmess",
             "trojan",
-            "vless"
+            "vless",
+            "ss"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
@@ -2482,8 +2481,8 @@
     },
     "v2rayopen": {
         "types": [
-            "vless",
-            "vmess"
+            "vmess",
+            "vless"
         ],
         "title": "🛡️ اکانت های رایگان V2RAY",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayopen.jpg"
