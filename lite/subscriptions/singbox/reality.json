@@ -118,10 +118,9 @@
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 10",
                 "🇳🇱 NL | 🟢 | vless | @v2rayngninja | 8",
-                "🇨🇿 CZ | 🟢 | vless | @v2rayopen | 8",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
-                "🇫🇮 FI | 🟢 | vless | @vpn_ioss | 18",
+                "🇫🇮 FI | 🟢 | vless | @vpn_ioss | 17",
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
                 "🇩🇪 DE | 🟢 | vless | @vpnvg | 14",
                 "🇩🇪 DE | 🟢 | vless | @x4azadi | 14",
@@ -134,7 +133,6 @@
                 "🇮🇹 IT | 🟢 | vless | @khalaa_vpn | 1",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
                 "❔ XX | 🟢 | vless | @mt_team_iran | 4",
-                "🇩🇪 DE | 🟢 | vless | @netmellianti | 16",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @proxy_iranv2 | 3",
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
@@ -163,10 +161,9 @@
                 "🇩🇪 DE | 🟢 | vless | @v2ray_inter | 8",
                 "🇩🇪 DE | 🟢 | vless | @v2rayngcloud | 10",
                 "🇳🇱 NL | 🟢 | vless | @v2rayngninja | 8",
-                "🇨🇿 CZ | 🟢 | vless | @v2rayopen | 8",
                 "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
                 "🇩🇪 DE | 🟢 | vless | @vipv2rey | 39",
-                "🇫🇮 FI | 🟢 | vless | @vpn_ioss | 18",
+                "🇫🇮 FI | 🟢 | vless | @vpn_ioss | 17",
                 "🇩🇪 DE | 🟢 | vless | @vpnhouse_official | 0",
                 "🇩🇪 DE | 🟢 | vless | @vpnvg | 14",
                 "🇩🇪 DE | 🟢 | vless | @x4azadi | 14",
@@ -179,7 +176,6 @@
                 "🇮🇹 IT | 🟢 | vless | @khalaa_vpn | 1",
                 "🇩🇪 DE | 🟢 | vless | @lexernet | 11",
                 "❔ XX | 🟢 | vless | @mt_team_iran | 4",
-                "🇩🇪 DE | 🟢 | vless | @netmellianti | 16",
                 "🇳🇱 NL | 🟢 | vless | @nn_vpn | 3",
                 "❔ XX | 🟢 | vless | @proxy_iranv2 | 3",
                 "❔ XX | 🟢 | vless | @proxysudo | 2",
@@ -533,33 +529,6 @@
             }
         },
         {
-            "tag": "🇨🇿 CZ | 🟢 | vless | @v2rayopen | 8",
-            "type": "vless",
-            "server": "194.182.79.142",
-            "server_port": 11745,
-            "uuid": "f278037e-ce36-4634-9b4d-fca93e345a35",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "sourceforge.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "hgaeyKQWo1Cf0fDhXVD2AZKI6DfOhBhjsSSfccW7ADo",
-                    "short_id": "26a52325"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Join-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🟢 | vless | @vipnetmeli | 2",
             "type": "vless",
             "server": "128.140.35.236",
@@ -606,7 +575,7 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🟢 | vless | @vpn_ioss | 18",
+            "tag": "🇫🇮 FI | 🟢 | vless | @vpn_ioss | 17",
             "type": "vless",
             "server": "5.181.20.219",
             "server_port": 17422,
@@ -930,29 +899,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "MT_TEAM_IRAN_MT_TEAM_IRAN_MT_TEAM_IRAN_MT_TEAM_IRAN_MT_TEAM_IRAN_MT_TEAM_IRAN_MT_TEAM_IRAN_MT_TEAM_IRAN"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | vless | @netmellianti | 16",
-            "type": "vless",
-            "server": "balanced-de.irancdngame.com",
-            "server_port": 2012,
-            "uuid": "ab513a36-abe6-46ff-a356-edb8c280e28d",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.pcmag.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "I9RNJ9pJ1WzWsYnRFk7u1XWsFhWBS03iUDjQXwWsERY",
-                    "short_id": ""
-                }
             }
         },
         {
