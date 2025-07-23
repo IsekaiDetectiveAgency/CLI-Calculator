@@ -110,7 +110,8 @@
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 9",
                 "🇺🇸 US | 🔴 | vless | @evay_vpn | 13",
-                "🇺🇸 US | 🔴 | vless | @fastshovpn | 7"
+                "🇺🇸 US | 🔴 | vless | @fastshovpn | 7",
+                "🇳🇱 NL | 🟢 | vless | @mowjproxy | 5"
             ]
         },
         {
@@ -122,7 +123,8 @@
                 "❔ XX | 🔴 | vless | @dgkbza | 21",
                 "🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 9",
                 "🇺🇸 US | 🔴 | vless | @evay_vpn | 13",
-                "🇺🇸 US | 🔴 | vless | @fastshovpn | 7"
+                "🇺🇸 US | 🔴 | vless | @fastshovpn | 7",
+                "🇳🇱 NL | 🟢 | vless | @mowjproxy | 5"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -197,6 +199,24 @@
             "uuid": "41f52408-143d-40ba-8e09-82df8b72a6d0",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇳🇱 NL | 🟢 | vless | @mowjproxy | 5",
+            "type": "vless",
+            "server": "statue.lnmarketplace.net",
+            "server_port": 443,
+            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "statue.lnmarketplace.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         }
     ],
     "route": {
