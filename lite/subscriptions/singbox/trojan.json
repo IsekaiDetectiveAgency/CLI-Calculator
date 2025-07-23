@@ -106,12 +106,12 @@
             "outbounds": [
                 "URL-TEST",
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
+                "🇳🇱 NL | 🔴 | trojan | @ip_cf_config | 15",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇩🇪 DE | 🟢 | trojan | @directvpn | 13",
-                "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 13",
+                "🇩🇪 DE | 🟢 | trojan | @directvpn | 15",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
-                "🇩🇪 DE | 🟢 | trojan | @privatevpns | 13",
+                "🇩🇪 DE | 🟢 | trojan | @privatevpns | 15",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 13",
@@ -123,12 +123,12 @@
             "type": "urltest",
             "outbounds": [
                 "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
+                "🇳🇱 NL | 🔴 | trojan | @ip_cf_config | 15",
                 "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇩🇪 DE | 🟢 | trojan | @directvpn | 13",
-                "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 13",
+                "🇩🇪 DE | 🟢 | trojan | @directvpn | 15",
                 "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
                 "🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 15",
-                "🇩🇪 DE | 🟢 | trojan | @privatevpns | 13",
+                "🇩🇪 DE | 🟢 | trojan | @privatevpns | 15",
                 "🇫🇷 FR | 🟢 | trojan | @proxyfn | 18",
                 "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
                 "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 13",
@@ -178,6 +178,22 @@
             }
         },
         {
+            "tag": "🇳🇱 NL | 🔴 | trojan | @ip_cf_config | 15",
+            "type": "trojan",
+            "server": "stirring-parakeet.shiner427.skin",
+            "server_port": 443,
+            "password": "74260628090146500",
+            "tls": {
+                "enabled": true,
+                "server_name": "stirring-parakeet.shiner427.skin",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
             "type": "trojan",
             "server": "maradona_vpn.history-paint.art",
@@ -198,7 +214,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | trojan | @directvpn | 13",
+            "tag": "🇩🇪 DE | 🟢 | trojan | @directvpn | 15",
             "type": "trojan",
             "server": "18.153.120.71",
             "server_port": 22223,
@@ -206,22 +222,6 @@
             "tls": {
                 "enabled": true,
                 "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | trojan | @ip_cf_config | 13",
-            "type": "trojan",
-            "server": "192.3.107.252",
-            "server_port": 443,
-            "password": "2ee85121-31de-4581-a492-eb00f606e392",
-            "tls": {
-                "enabled": true,
-                "server_name": "rc8.freeguard.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -269,7 +269,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | trojan | @privatevpns | 13",
+            "tag": "🇩🇪 DE | 🟢 | trojan | @privatevpns | 15",
             "type": "trojan",
             "server": "18.153.120.71",
             "server_port": 22222,
