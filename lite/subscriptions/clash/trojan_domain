@@ -18,6 +18,7 @@ dns:
 
 proxies:
   - {"name":"🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2","type":"trojan","server":"production.tj.ojan.workers.dev","port":443,"password":"9yu6m5okr","skip-cert-verify":false}
+  - {"name":"🇯🇵 JP | 🟢 | trojan | @freevpnatm | 16","type":"trojan","server":"jp1.78b6f218-a566-9905-b660-cd30c9ea0e03.7adf211e.the-best-airport.com","port":443,"password":"e4c6d404-a5dd-4345-8dcf-6d071a2c4cf2","skip-cert-verify":true}
   - {"name":"❔ XX | 🟢 | trojan | @maradona_vpn | 8","type":"trojan","server":"maradona_vpn.history-paint.art","port":443,"password":"Maradona_vpn","skip-cert-verify":false}
 
 rule-providers:
@@ -50,6 +51,7 @@ proxy-groups:
     tolerance: 50 
     proxies:
       - '🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2'
+      - '🇯🇵 JP | 🟢 | trojan | @freevpnatm | 16'
       - '❔ XX | 🟢 | trojan | @maradona_vpn | 8'
 
   - name: 📉 Fallback
@@ -58,12 +60,14 @@ proxy-groups:
     interval: 300
     proxies:
       - '🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2'
+      - '🇯🇵 JP | 🟢 | trojan | @freevpnatm | 16'
       - '❔ XX | 🟢 | trojan | @maradona_vpn | 8'
       
   - name: All-Proxies
     type: select
     proxies:
       - '🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2'
+      - '🇯🇵 JP | 🟢 | trojan | @freevpnatm | 16'
       - '❔ XX | 🟢 | trojan | @maradona_vpn | 8'
 
 rules:

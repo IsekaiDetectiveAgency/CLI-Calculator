@@ -10,12 +10,13 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2 = trojan, production.tj.ojan.workers.dev, 443, password = 9yu6m5okr, skip-cert-verify = false
+🇯🇵 JP | 🟢 | trojan | @freevpnatm | 16 = trojan, jp1.78b6f218-a566-9905-b660-cd30c9ea0e03.7adf211e.the-best-airport.com, 443, password = e4c6d404-a5dd-4345-8dcf-6d071a2c4cf2, skip-cert-verify = true
 ❔ XX | 🟢 | trojan | @maradona_vpn | 8 = trojan, maradona_vpn.history-paint.art, 443, password = Maradona_vpn, skip-cert-verify = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2, ❔ XX | 🟢 | trojan | @maradona_vpn | 8
-PSG-AUTO = url-test, 🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2, ❔ XX | 🟢 | trojan | @maradona_vpn | 8
-PSG-FALLBACK = fallback, 🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2, ❔ XX | 🟢 | trojan | @maradona_vpn | 8
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2, 🇯🇵 JP | 🟢 | trojan | @freevpnatm | 16, ❔ XX | 🟢 | trojan | @maradona_vpn | 8
+PSG-AUTO = url-test, 🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2, 🇯🇵 JP | 🟢 | trojan | @freevpnatm | 16, ❔ XX | 🟢 | trojan | @maradona_vpn | 8
+PSG-FALLBACK = fallback, 🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2, 🇯🇵 JP | 🟢 | trojan | @freevpnatm | 16, ❔ XX | 🟢 | trojan | @maradona_vpn | 8
 
 [Rule]
 GEOIP,IR,DIRECT

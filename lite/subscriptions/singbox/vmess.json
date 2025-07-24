@@ -110,14 +110,12 @@
                 "❔ XX | 🔴 | vmess | @bluevpn111 | 2",
                 "❔ XX | 🔴 | vmess | @configforvpn | 9",
                 "❔ XX | 🔴 | vmess | @dailyv2ray | 30",
-                "🇺🇸 US | 🟢 | vmess | @darkfiilter | 1",
+                "🇨🇦 CA | 🟢 | vmess | @darkfiilter | 1",
                 "🇺🇸 US | 🔴 | vmess | @diamondproxytm | 2",
                 "🇨🇦 CA | 🔴 | vmess | @free4allvpn | 14",
                 "🇫🇮 FI | 🔴 | vmess | @freeshadowsock | 4",
                 "🇺🇸 US | 🔴 | vmess | @freev2rays | 19",
                 "🇩🇪 DE | 🔴 | vmess | @freevmess | 4",
-                "🇺🇸 US | 🔴 | vmess | @freevpnatm | 16",
-                "🇸🇬 SG | 🔴 | vmess | @ip_cf_config | 13",
                 "🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 13",
                 "🇺🇸 US | 🔴 | vmess | @iran_mehr_vpn | 17",
                 "🇺🇸 US | 🟢 | vmess | @iranvpnet | 0",
@@ -144,7 +142,7 @@
                 "🇺🇸 US | 🔴 | vmess | @tawanaclub | 2",
                 "🇳🇱 NL | 🟢 | vmess | @tehranfreevpn | 7",
                 "🇩🇪 DE | 🔴 | vmess | @v2ray4win | 7",
-                "🇺🇸 US | 🟢 | vmess | @v2ray_fd | 0",
+                "🇨🇦 CA | 🟢 | vmess | @v2ray_fd | 0",
                 "🇮🇷 IR | 🔴 | vmess | @v2ray_sub | 9",
                 "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
                 "🇩🇪 DE | 🔴 | vmess | @v2rayng_v2_ray | 3",
@@ -166,14 +164,12 @@
                 "❔ XX | 🔴 | vmess | @bluevpn111 | 2",
                 "❔ XX | 🔴 | vmess | @configforvpn | 9",
                 "❔ XX | 🔴 | vmess | @dailyv2ray | 30",
-                "🇺🇸 US | 🟢 | vmess | @darkfiilter | 1",
+                "🇨🇦 CA | 🟢 | vmess | @darkfiilter | 1",
                 "🇺🇸 US | 🔴 | vmess | @diamondproxytm | 2",
                 "🇨🇦 CA | 🔴 | vmess | @free4allvpn | 14",
                 "🇫🇮 FI | 🔴 | vmess | @freeshadowsock | 4",
                 "🇺🇸 US | 🔴 | vmess | @freev2rays | 19",
                 "🇩🇪 DE | 🔴 | vmess | @freevmess | 4",
-                "🇺🇸 US | 🔴 | vmess | @freevpnatm | 16",
-                "🇸🇬 SG | 🔴 | vmess | @ip_cf_config | 13",
                 "🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 13",
                 "🇺🇸 US | 🔴 | vmess | @iran_mehr_vpn | 17",
                 "🇺🇸 US | 🟢 | vmess | @iranvpnet | 0",
@@ -200,7 +196,7 @@
                 "🇺🇸 US | 🔴 | vmess | @tawanaclub | 2",
                 "🇳🇱 NL | 🟢 | vmess | @tehranfreevpn | 7",
                 "🇩🇪 DE | 🔴 | vmess | @v2ray4win | 7",
-                "🇺🇸 US | 🟢 | vmess | @v2ray_fd | 0",
+                "🇨🇦 CA | 🟢 | vmess | @v2ray_fd | 0",
                 "🇮🇷 IR | 🔴 | vmess | @v2ray_sub | 9",
                 "🇬🇧 GB | 🔴 | vmess | @v2rayng3 | 6",
                 "🇩🇪 DE | 🔴 | vmess | @v2rayng_v2_ray | 3",
@@ -301,7 +297,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vmess | @darkfiilter | 1",
+            "tag": "🇨🇦 CA | 🟢 | vmess | @darkfiilter | 1",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 443,
@@ -395,47 +391,6 @@
             "transport": {
                 "type": "ws",
                 "path": "/telegram-id-@privatevpns",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vmess | @freevpnatm | 16",
-            "type": "vmess",
-            "server": "172.67.174.152",
-            "server_port": 80,
-            "uuid": "e4cbe8b8-37db-4aaa-8469-b84f34c51ebc",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/Q0ixUtzXfkNeYr5hYXD",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇸🇬 SG | 🔴 | vmess | @ip_cf_config | 13",
-            "type": "vmess",
-            "server": "103.253.26.134",
-            "server_port": 443,
-            "uuid": "aba50dd4-5484-3b05-b14a-4661caf862d5",
-            "security": "auto",
-            "alter_id": 4,
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/ws",
                 "headers": {
                     "Host": ""
                 }
@@ -797,7 +752,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vmess | @v2ray_fd | 0",
+            "tag": "🇨🇦 CA | 🟢 | vmess | @v2ray_fd | 0",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 443,
