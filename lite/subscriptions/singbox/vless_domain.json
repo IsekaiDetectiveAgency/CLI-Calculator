@@ -143,6 +143,7 @@
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
                 "❔ XX | 🟢 | vless | @garnet_free | 11",
                 "❔ XX | 🔴 | vless | @ge2ray | 4",
+                "🇨🇭 CH | 🔴 | vless | @getconfigir | 19",
                 "❔ XX | 🟢 | vless | @god_server7 | 1",
                 "🇺🇸 US | 🔴 | vless | @goldenshiinevpn | 9",
                 "🇮🇷 IR | 🔴 | vless | @golf_vpn | 14",
@@ -179,6 +180,7 @@
                 "❔ XX | 🔴 | vless | @miov2ray | 11",
                 "❔ XX | 🔴 | vless | @miyanbor_vpn | 0",
                 "🇩🇪 DE | 🔴 | vless | @moon_ping | 0",
+                "🇨🇭 CH | 🔴 | vless | @mowjproxy | 5",
                 "❔ XX | 🟢 | vless | @mrvpn1403 | 4",
                 "❔ XX | 🟢 | vless | @mt_team_iran | 4",
                 "🇺🇸 US | 🔴 | vless | @mtproxy22_v2ray | 78",
@@ -224,7 +226,6 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "❔ XX | 🔴 | vless | @v2rayturbo | 8",
-                "🇩🇪 DE | 🔴 | vless | @v2rayweb | 18",
                 "🇺🇸 US | 🟢 | vless | @v2rayy_vpn13 | 12",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
@@ -282,6 +283,7 @@
                 "❔ XX | 🟢 | vless | @fsv2ray | 3",
                 "❔ XX | 🟢 | vless | @garnet_free | 11",
                 "❔ XX | 🔴 | vless | @ge2ray | 4",
+                "🇨🇭 CH | 🔴 | vless | @getconfigir | 19",
                 "❔ XX | 🟢 | vless | @god_server7 | 1",
                 "🇺🇸 US | 🔴 | vless | @goldenshiinevpn | 9",
                 "🇮🇷 IR | 🔴 | vless | @golf_vpn | 14",
@@ -318,6 +320,7 @@
                 "❔ XX | 🔴 | vless | @miov2ray | 11",
                 "❔ XX | 🔴 | vless | @miyanbor_vpn | 0",
                 "🇩🇪 DE | 🔴 | vless | @moon_ping | 0",
+                "🇨🇭 CH | 🔴 | vless | @mowjproxy | 5",
                 "❔ XX | 🟢 | vless | @mrvpn1403 | 4",
                 "❔ XX | 🟢 | vless | @mt_team_iran | 4",
                 "🇺🇸 US | 🔴 | vless | @mtproxy22_v2ray | 78",
@@ -363,7 +366,6 @@
                 "❔ XX | 🟢 | vless | @v2rayngconfings | 17",
                 "🇺🇸 US | 🟢 | vless | @v2rayservere | 8",
                 "❔ XX | 🔴 | vless | @v2rayturbo | 8",
-                "🇩🇪 DE | 🔴 | vless | @v2rayweb | 18",
                 "🇺🇸 US | 🟢 | vless | @v2rayy_vpn13 | 12",
                 "🇺🇸 US | 🔴 | vless | @v_2rayngvpn | 7",
                 "🇮🇷 IR | 🔴 | vless | @vezzevpn | 5",
@@ -991,6 +993,22 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇨🇭 CH | 🔴 | vless | @getconfigir | 19",
+            "type": "vless",
+            "server": "d270391091093100193938819293819w6.servers801.ir",
+            "server_port": 2096,
+            "uuid": "96457dda-f79a-4087-89d6-dc973fdf41cc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/fscsxfVgdzhrefjgsBgaa?ed=80",
+                "headers": {
+                    "Host": "d270391091093100193938819293819w6.servers801.ir"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🟢 | vless | @god_server7 | 1",
             "type": "vless",
             "server": "qio.gsvd.xyz",
@@ -1585,6 +1603,15 @@
             "server": "all61-vip.f-sub.com",
             "server_port": 9129,
             "uuid": "13b0c901-3fbe-bb19-c6b8-89b2c314e975",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇨🇭 CH | 🔴 | vless | @mowjproxy | 5",
+            "type": "vless",
+            "server": "s2.1dnt.k-l.cloud",
+            "server_port": 80,
+            "uuid": "f353fbf3-b6a1-4524-b916-f65bc077511f",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -2450,15 +2477,6 @@
             "server": "sw.mrchange.store",
             "server_port": 17081,
             "uuid": "43330370-6687-48c3-ee7e-56c96853e07b",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔴 | vless | @v2rayweb | 18",
-            "type": "vless",
-            "server": "meli_proxyy.vip-plan.org",
-            "server_port": 29947,
-            "uuid": "7ad891be-5fad-4cca-b6d6-d67a3a881590",
             "flow": "",
             "packet_encoding": "xudp"
         },
