@@ -136,7 +136,6 @@
                 "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
                 "🇮🇷 IR | 🔴 | vless | @freevpn3327 | 6",
                 "🇺🇸 US | 🟢 | vless | @gervpn | 0",
-                "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
                 "🇮🇷 IR | 🔴 | vless | @ghotb_scarf | 9",
                 "🇮🇷 IR | 🔴 | vless | @goldenvpn_v2rayy | 3",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
@@ -162,7 +161,7 @@
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
-                "🇬🇧 GB | 🔴 | vless | @mowjproxy | 5",
+                "🇬🇧 GB | 🔴 | vless | @mowjproxy | 2",
                 "🇺🇸 US | 🔴 | vless | @mpproxy | 13",
                 "🇺🇸 US | 🔴 | vless | @mr_vpn123 | 7",
                 "🇳🇱 NL | 🔴 | vless | @msv2flyng | 14",
@@ -200,7 +199,7 @@
                 "🇺🇸 US | 🔴 | vless | @v2rayopen | 7",
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
-                "🇺🇸 US | 🟢 | vless | @v2rayweb | 12",
+                "🇺🇸 US | 🟢 | vless | @v2rayweb | 17",
                 "🇺🇸 US | 🟢 | vless | @v2source | 19",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
@@ -258,7 +257,6 @@
                 "🇬🇧 GB | 🟢 | vless | @freevlessvpn | 0",
                 "🇮🇷 IR | 🔴 | vless | @freevpn3327 | 6",
                 "🇺🇸 US | 🟢 | vless | @gervpn | 0",
-                "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
                 "🇮🇷 IR | 🔴 | vless | @ghotb_scarf | 9",
                 "🇮🇷 IR | 🔴 | vless | @goldenvpn_v2rayy | 3",
                 "🇺🇸 US | 🟢 | vless | @happ_tm_official | 1",
@@ -284,7 +282,7 @@
                 "🇩🇪 DE | 🟢 | vless | @merdesert | 3",
                 "🇨🇭 CH | 🔴 | vless | @minovpnch | 14",
                 "🇺🇸 US | 🔴 | vless | @moiinmk | 2",
-                "🇬🇧 GB | 🔴 | vless | @mowjproxy | 5",
+                "🇬🇧 GB | 🔴 | vless | @mowjproxy | 2",
                 "🇺🇸 US | 🔴 | vless | @mpproxy | 13",
                 "🇺🇸 US | 🔴 | vless | @mr_vpn123 | 7",
                 "🇳🇱 NL | 🔴 | vless | @msv2flyng | 14",
@@ -322,7 +320,7 @@
                 "🇺🇸 US | 🔴 | vless | @v2rayopen | 7",
                 "🇳🇱 NL | 🔴 | vless | @v2rayprotocol | 11",
                 "🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17",
-                "🇺🇸 US | 🟢 | vless | @v2rayweb | 12",
+                "🇺🇸 US | 🟢 | vless | @v2rayweb | 17",
                 "🇺🇸 US | 🟢 | vless | @v2source | 19",
                 "🇺🇸 US | 🟢 | vless | @vaiking_vpn | 0",
                 "🇺🇸 US | 🔴 | vless | @vaslbemmonid | 5",
@@ -916,31 +914,6 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @getconfigir | 19",
-            "type": "vless",
-            "server": "104.18.36.24",
-            "server_port": 443,
-            "uuid": "30f2d443-af46-4dd6-83c9-b5e17299ebd2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "carlotta.shoorekeeper.cloudns.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/proxyip=zani.yaemiko.ggff.net/?JOKERRVPN_BIA_CHANEL@JOKERRVPN",
-                "headers": {
-                    "Host": "carlotta.shoorekeeper.cloudns.org"
-                }
-            }
-        },
-        {
             "tag": "🇮🇷 IR | 🔴 | vless | @ghotb_scarf | 9",
             "type": "vless",
             "server": "109.122.255.184",
@@ -1354,7 +1327,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇬🇧 GB | 🔴 | vless | @mowjproxy | 5",
+            "tag": "🇬🇧 GB | 🔴 | vless | @mowjproxy | 2",
             "type": "vless",
             "server": "54.38.214.56",
             "server_port": 37171,
@@ -1992,27 +1965,25 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @v2rayweb | 12",
+            "tag": "🇺🇸 US | 🟢 | vless | @v2rayweb | 17",
             "type": "vless",
-            "server": "199.232.125.59",
-            "server_port": 443,
-            "uuid": "338af65d-b2d5-4acb-ae72-bc79ba1c509e",
-            "flow": "",
+            "server": "172.233.185.119",
+            "server_port": 80,
+            "uuid": "ef27e62d-91bd-4676-b9ce-8743a73eda07",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "JOin--E-L-i-V-2-R-A-Y.coM",
+                "server_name": "zula.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Telegram,@ELiV2RAY-Telegram,@ELiV2RAY-Telegram,@ELiV2RAY-Telegram,@ELiV2RAY-Telegram,@ELiV2RAY-Telegram,@ELiV2RAY-Telegram,@ELiV2RAY-Telegram,@ELiV2RAY-Telegram,@ELiV2RAY-Telegram,@ELiV2RAY-?ed=2560",
-                "headers": {
-                    "Host": "JOin--E-L-i-V-2-R-A-Y.coM"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "BVimgXtKkQ2Q6EpG8uKYTpySrNxEeIqVhdsxi5U5qRU",
+                    "short_id": "94aa1bdc"
                 }
             }
         },
