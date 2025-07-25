@@ -17,9 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"❔ XX | 🔴 | trojan | @freevpnatm | 16","type":"trojan","server":"[2606:4700:3031::ac43:9ddc]","port":443,"password":"e4cbe8b8-37db-4aaa-8469-b84f34c51ebc","skip-cert-verify":false}
-  - {"name":"❔ XX | 🟢 | trojan | @freevpnatm | 17","type":"trojan","server":"[2606:4700:3031::ac43:9ddc]","port":443,"password":"e4cbe8b8-37db-4aaa-8469-b84f34c51ebc","skip-cert-verify":false}
-  - {"name":"❔ XX | 🔴 | trojan | @freevpnatm | 19","type":"trojan","server":"[2606:4700:3030::6815:6001]","port":443,"password":"e4cbe8b8-37db-4aaa-8469-b84f34c51ebc","skip-cert-verify":false}
+  - {"name":"❔ XX | 🔴 | trojan | @freevpnatm | 15","type":"trojan","server":"[2606:4700:3030::6815:6001]","port":443,"password":"e4cbe8b8-37db-4aaa-8469-b84f34c51ebc","skip-cert-verify":false}
 
 rule-providers:
   ir_domains:
@@ -50,25 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '❔ XX | 🔴 | trojan | @freevpnatm | 16'
-      - '❔ XX | 🟢 | trojan | @freevpnatm | 17'
-      - '❔ XX | 🔴 | trojan | @freevpnatm | 19'
+      - '❔ XX | 🔴 | trojan | @freevpnatm | 15'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '❔ XX | 🔴 | trojan | @freevpnatm | 16'
-      - '❔ XX | 🟢 | trojan | @freevpnatm | 17'
-      - '❔ XX | 🔴 | trojan | @freevpnatm | 19'
+      - '❔ XX | 🔴 | trojan | @freevpnatm | 15'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '❔ XX | 🔴 | trojan | @freevpnatm | 16'
-      - '❔ XX | 🟢 | trojan | @freevpnatm | 17'
-      - '❔ XX | 🔴 | trojan | @freevpnatm | 19'
+      - '❔ XX | 🔴 | trojan | @freevpnatm | 15'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
