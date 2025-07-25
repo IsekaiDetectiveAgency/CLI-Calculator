@@ -316,6 +316,7 @@
     },
     "configshubplus": {
         "types": [
+            "ss",
             "vless",
             "vmess"
         ],
@@ -537,8 +538,8 @@
     "entrynet": {
         "types": [
             "vless",
-            "ss",
-            "trojan"
+            "trojan",
+            "ss"
         ],
         "title": ".::entryNET::. Free v2ray vpn &amp; proxy | وی پی ان و پروکسی رایگان",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/entrynet.jpg"
@@ -864,8 +865,8 @@
     },
     "freevpnatm": {
         "types": [
-            "vmess",
             "vless",
+            "vmess",
             "trojan"
         ],
         "title": "科學上网 free configs",
@@ -1119,9 +1120,9 @@
     },
     "ip_cf_config": {
         "types": [
-            "vmess",
-            "trojan",
             "ss",
+            "trojan",
+            "vmess",
             "vless"
         ],
         "title": "IP_CF | V2ray Config Pool",
@@ -2615,10 +2616,10 @@
     },
     "v2ray_free_conf": {
         "types": [
-            "ss",
-            "vless",
             "vmess",
-            "trojan"
+            "ss",
+            "trojan",
+            "vless"
         ],
         "title": "🌍 V2Ray Free Config 🇮🇷",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2ray_free_conf.jpg"
@@ -2686,9 +2687,9 @@
     },
     "v2raych": {
         "types": [
-            "vless",
             "trojan",
             "vmess",
+            "vless",
             "ss"
         ],
         "title": "V2rayChallenge: V2RAY VPN Configs &amp; MTProto Proxies Free | پروکسی وی پی ان VPN رایگان وی تو ری چالش",
