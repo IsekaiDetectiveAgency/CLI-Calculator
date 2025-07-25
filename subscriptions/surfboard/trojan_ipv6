@@ -9,7 +9,7 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-❔ XX | 🟢 | trojan | @freevpnatm | 15 = trojan, [2606:4700:3030::6815:4001], 443, password = 2d068083-2cb0-4ae3-a44a-6fc82f3039cc, skip-cert-verify = false
+❔ XX | 🟢 | trojan | @freevpnatm | 15 = trojan, [2606:4700:3030::6815:6001], 443, password = c891d9fe-c4eb-4526-94e0-d9bf841c572a, skip-cert-verify = false
 
 [Proxy Group]
 PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🟢 | trojan | @freevpnatm | 15

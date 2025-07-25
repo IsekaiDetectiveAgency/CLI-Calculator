@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"❔ XX | 🟢 | trojan | @freevpnatm | 15","type":"trojan","server":"[2606:4700:3030::6815:4001]","port":443,"password":"2d068083-2cb0-4ae3-a44a-6fc82f3039cc","skip-cert-verify":false}
+  - {"name":"❔ XX | 🟢 | trojan | @freevpnatm | 15","type":"trojan","server":"[2606:4700:3030::6815:6001]","port":443,"password":"c891d9fe-c4eb-4526-94e0-d9bf841c572a","skip-cert-verify":false}
 
 rule-providers:
   ir_domains:
