@@ -747,8 +747,8 @@
     },
     "free_outline_keys": {
         "types": [
-            "ss",
-            "vless"
+            "vless",
+            "ss"
         ],
         "title": "FREE Outline VPN keys",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/free_outline_keys.jpg"
@@ -857,9 +857,10 @@
     },
     "freevpnatm": {
         "types": [
-            "trojan",
             "vmess",
-            "vless"
+            "vless",
+            "trojan",
+            "ss"
         ],
         "title": "科學上网 free configs",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/freevpnatm.jpg"
@@ -1113,10 +1114,10 @@
     },
     "ip_cf_config": {
         "types": [
-            "vless",
-            "ss",
             "trojan",
-            "vmess"
+            "vless",
+            "vmess",
+            "ss"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
@@ -2677,8 +2678,8 @@
     "v2raych": {
         "types": [
             "vless",
-            "trojan",
             "vmess",
+            "trojan",
             "ss"
         ],
         "title": "V2rayChallenge: V2RAY VPN Configs &amp; MTProto Proxies Free | پروکسی وی پی ان VPN رایگان وی تو ری چالش",
@@ -2883,7 +2884,6 @@
     "v2rayweb": {
         "types": [
             "vless",
-            "vmess",
             "trojan"
         ],
         "title": "V2ray | VPN",
