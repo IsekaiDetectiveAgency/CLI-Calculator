@@ -9,12 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-❔ XX | 🔴 | trojan | @freevpnatm | 10 = trojan, [2606:4700:3030::6815:4001], 443, password = ce921385-2b31-45fe-84c5-1843e8ae845b, skip-cert-verify = false
+❔ XX | 🔴 | trojan | @freevpnatm | 7 = trojan, [2606:4700:3030::6815:4001], 443, password = ce921385-2b31-45fe-84c5-1843e8ae845b, skip-cert-verify = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🔴 | trojan | @freevpnatm | 10
-PSG-AUTO = url-test, ❔ XX | 🔴 | trojan | @freevpnatm | 10
-PSG-FALLBACK = fallback, ❔ XX | 🔴 | trojan | @freevpnatm | 10
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🔴 | trojan | @freevpnatm | 7
+PSG-AUTO = url-test, ❔ XX | 🔴 | trojan | @freevpnatm | 7
+PSG-FALLBACK = fallback, ❔ XX | 🔴 | trojan | @freevpnatm | 7
 
 [Rule]
 GEOIP,IR,DIRECT
