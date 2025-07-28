@@ -18,7 +18,6 @@ dns:
 
 proxies:
   - {"name":"❔ XX | 🟢 | vless | @deli_servers | 1","type":"vless","server":"[2a01:4f8:c012:81c0::1]","port":1,"uuid":"d3927fcb-1dd4-4a84-af91-75196dcc0ee9","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"servername":"4dsply.com","grpc-opts":{"grpc-service-name":"/tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers"},"reality-opts":{"public-key":"L6AkyAVesPEg-yz5o4-2yeTCBYACZW5OWnPBVaS-OnQ","short-id":"bbcb1cf7"}}
-  - {"name":"❔ XX | 🔴 | vless | @freevpnatm | 14","type":"vless","server":"[2606:4700:3030::6815:6001]","port":443,"uuid":"9263f72d-87a7-4d06-b2e3-fac3dea1eefa","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":""}}}
   - {"name":"❔ XX | 🔴 | vless | @freevv2rayng | 6","type":"vless","server":"[2a12:5940:1527::2]","port":443,"uuid":"8bfbdbb1-9126-4372-96a1-5547d629559f","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"❔ XX | 🔴 | vless | @freevv2rayng | 9","type":"vless","server":"[2a12:5940:1527::2]","port":8880,"uuid":"baa10442-7622-4b96-bd86-9f72aaac9846","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"cdnndsszakanalaslitest.possiblesayt.xyz."}}}
   - {"name":"❔ XX | 🔴 | vless | @freevv2rayng | 10","type":"vless","server":"[2a12:5940:1527::2]","port":443,"uuid":"78d743e4-1519-4770-aa84-ca0d6de0cc80","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
@@ -59,7 +58,6 @@ proxy-groups:
     tolerance: 50 
     proxies:
       - '❔ XX | 🟢 | vless | @deli_servers | 1'
-      - '❔ XX | 🔴 | vless | @freevpnatm | 14'
       - '❔ XX | 🔴 | vless | @freevv2rayng | 6'
       - '❔ XX | 🔴 | vless | @freevv2rayng | 9'
       - '❔ XX | 🔴 | vless | @freevv2rayng | 10'
@@ -76,7 +74,6 @@ proxy-groups:
     interval: 300
     proxies:
       - '❔ XX | 🟢 | vless | @deli_servers | 1'
-      - '❔ XX | 🔴 | vless | @freevpnatm | 14'
       - '❔ XX | 🔴 | vless | @freevv2rayng | 6'
       - '❔ XX | 🔴 | vless | @freevv2rayng | 9'
       - '❔ XX | 🔴 | vless | @freevv2rayng | 10'
@@ -91,7 +88,6 @@ proxy-groups:
     type: select
     proxies:
       - '❔ XX | 🟢 | vless | @deli_servers | 1'
-      - '❔ XX | 🔴 | vless | @freevpnatm | 14'
       - '❔ XX | 🔴 | vless | @freevv2rayng | 6'
       - '❔ XX | 🔴 | vless | @freevv2rayng | 9'
       - '❔ XX | 🔴 | vless | @freevv2rayng | 10'
