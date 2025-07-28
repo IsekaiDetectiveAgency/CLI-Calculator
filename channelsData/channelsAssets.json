@@ -153,13 +153,6 @@
         "title": "دور زدن اینترنت ملی | کانفیگ پروکسی رایگان",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/befreewithus.jpg"
     },
-    "bermudavpn24": {
-        "types": [
-            "vless"
-        ],
-        "title": "Bermuda VpN | ارائه دهنده بهترین فیلتر شکن",
-        "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/bermudavpn24.jpg"
-    },
     "bislullproxy": {
         "types": [
             "vless",
@@ -295,8 +288,9 @@
     },
     "configshubplus": {
         "types": [
-            "ss",
-            "vless"
+            "vmess",
+            "vless",
+            "ss"
         ],
         "title": "𝘾𝙤𝙣𝙛𝙞𝙜𝙨𝙃𝙪𝙗🔮",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/configshubplus.jpg"
@@ -507,8 +501,7 @@
     "entrynet": {
         "types": [
             "vless",
-            "trojan",
-            "ss"
+            "vmess"
         ],
         "title": ".::entryNET::. Free v2ray vpn &amp; proxy | وی پی ان و پروکسی رایگان",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/entrynet.jpg"
@@ -732,8 +725,8 @@
     },
     "free_serverir": {
         "types": [
-            "trojan",
             "vless",
+            "trojan",
             "ss"
         ],
         "title": "Free SerVer",
@@ -1017,9 +1010,9 @@
     },
     "hope_net": {
         "types": [
-            "vless",
             "trojan",
             "ss",
+            "vless",
             "vmess"
         ],
         "title": "🕊 Hope Net",
@@ -1090,10 +1083,10 @@
     },
     "ip_cf_config": {
         "types": [
-            "vless",
-            "ss",
             "trojan",
-            "vmess"
+            "vmess",
+            "vless",
+            "ss"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
@@ -2531,6 +2524,7 @@
     "v2ray_extractor": {
         "types": [
             "vless",
+            "vmess",
             "ss"
         ],
         "title": "V2ray Extractor",
@@ -2546,8 +2540,8 @@
     },
     "v2ray_free_conf": {
         "types": [
-            "vmess",
             "trojan",
+            "vmess",
             "ss",
             "vless"
         ],
@@ -2815,7 +2809,8 @@
     },
     "v2rayweb": {
         "types": [
-            "vless"
+            "vless",
+            "vmess"
         ],
         "title": "V2ray | VPN",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/v2rayweb.jpg"
@@ -3074,8 +3069,8 @@
     },
     "vpnkanfik": {
         "types": [
-            "vless",
-            "ss"
+            "ss",
+            "vless"
         ],
         "title": "کانال پروکسی و کانفیگ سرعتی",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/vpnkanfik.jpg"
