@@ -30,7 +30,6 @@ proxies:
   - {"name":"🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 12","type":"trojan","server":"ru2.asc-sam.ir","port":443,"password":"IM4e0ZQNPU","skip-cert-verify":false}
   - {"name":"🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3","type":"trojan","server":"chatbuzzteambhm.chatbuzzt7150.workers.dev","port":443,"password":"c7f9b8f0-bfdb-11ee-a15c-1239d0255272","skip-cert-verify":false}
   - {"name":"🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6","type":"trojan","server":"de1.test3.net","port":443,"password":"b8841c50-c3ad-11ee-9be0-1239d0255272","skip-cert-verify":false}
-  - {"name":"🇩🇪 DE | 🔴 | trojan | @v2rayweb | 14","type":"trojan","server":"me.ariarate.ir","port":8080,"password":"0hb9BWVeXeB3AK4rEypBzQ","skip-cert-verify":false}
 
 rule-providers:
   ir_domains:
@@ -74,7 +73,6 @@ proxy-groups:
       - '🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 12'
       - '🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3'
       - '🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6'
-      - '🇩🇪 DE | 🔴 | trojan | @v2rayweb | 14'
 
   - name: 📉 Fallback
     type: fallback
@@ -94,7 +92,6 @@ proxy-groups:
       - '🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 12'
       - '🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3'
       - '🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6'
-      - '🇩🇪 DE | 🔴 | trojan | @v2rayweb | 14'
       
   - name: All-Proxies
     type: select
@@ -112,7 +109,6 @@ proxy-groups:
       - '🇷🇺 RU | 🟢 | trojan | @noforcedheaven | 12'
       - '🇺🇸 US | 🟢 | trojan | @teamvpnpro | 3'
       - '🇩🇪 DE | 🔴 | trojan | @teamvpnpro | 6'
-      - '🇩🇪 DE | 🔴 | trojan | @v2rayweb | 14'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
