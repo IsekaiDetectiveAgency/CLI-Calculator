@@ -26,7 +26,7 @@ proxies:
   - {"name":"🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 48","type":"vless","server":"usa.multiapvps.ir","port":4434,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"docker.com","reality-opts":{"public-key":"LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg"}}
   - {"name":"❔ XX | 🟢 | vless | @custom_14 | 7","type":"vless","server":"usa-join.outline-vpn.fun","port":443,"uuid":"fc6395b9-8060-41b2-82f1-a55419093fe9","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"grpc-opts":{"grpc-service-name":"Telegram:"},"reality-opts":{"public-key":"U79mwBYXYzaNs1L57EDyJNC5p8HSrQYx1GDnBdttgmw"}}
   - {"name":"🇩🇪 DE | 🟢 | vless | @kesslervpn | 2","type":"vless","server":"germansana.kesslershop.ir","port":8997,"uuid":"201c05a2-f76b-4088-bb1d-e4c8ee8909dd","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"refersion.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"UgwRcGmt9yqVzDac4KryRxQKvaVDi0eueJPPpmx7pW8","short-id":"f23d09"}}
-  - {"name":"🇮🇳 IN | 🟢 | vless | @manzariyeh_rasht | 37","type":"vless","server":"ind01-vlr01.tcp-reset-club.net","port":443,"uuid":"4a640781-f5c8-4d17-80db-a6b0a091ba05","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"hls-svod.itunes.apple.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg","short-id":"48720c"}}
+  - {"name":"🇮🇳 IN | 🟢 | vless | @manzariyeh_rasht | 28","type":"vless","server":"ind01-vlr01.tcp-reset-club.net","port":443,"uuid":"4a640781-f5c8-4d17-80db-a6b0a091ba05","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"hls-svod.itunes.apple.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg","short-id":"48720c"}}
   - {"name":"❔ XX | 🟢 | vless | @tc_v2ray | 1","type":"vless","server":"gr2.shahinpanel.site","port":26717,"uuid":"1385ed54-d251-48fb-801f-ee52663bcab2","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"blog.api.www.cloudflare.com","reality-opts":{"public-key":"bzqIqnE_o81ih-XahmftHAPn-X1Vh1LqbOzlY2SvPzg","short-id":"1364c780"}}
   - {"name":"❔ XX | 🟢 | vless | @torang_vpn | 16","type":"vless","server":"join.v2ryvip.csgopc.shop","port":4590,"uuid":"9850c8d9-bc16-489f-9a57-f19fb08999d7","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"refersion.com","reality-opts":{"public-key":"YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E","short-id":"ea1058117be12087"}}
   - {"name":"❔ XX | 🟢 | vless | @vp22ray | 6","type":"vless","server":"german.vp22ray.site","port":2087,"uuid":"05898b79-2bc1-4126-88ca-e8e081c19b5d","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"Ftp.debian.org","reality-opts":{"public-key":"54z0hCTglWDmCFnDBU4JmzqjJtFgbhM3x45l-B5If1I","short-id":"32c43ca1"}}
@@ -74,7 +74,7 @@ proxy-groups:
       - '🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 48'
       - '❔ XX | 🟢 | vless | @custom_14 | 7'
       - '🇩🇪 DE | 🟢 | vless | @kesslervpn | 2'
-      - '🇮🇳 IN | 🟢 | vless | @manzariyeh_rasht | 37'
+      - '🇮🇳 IN | 🟢 | vless | @manzariyeh_rasht | 28'
       - '❔ XX | 🟢 | vless | @tc_v2ray | 1'
       - '❔ XX | 🟢 | vless | @torang_vpn | 16'
       - '❔ XX | 🟢 | vless | @vp22ray | 6'
@@ -98,7 +98,7 @@ proxy-groups:
       - '🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 48'
       - '❔ XX | 🟢 | vless | @custom_14 | 7'
       - '🇩🇪 DE | 🟢 | vless | @kesslervpn | 2'
-      - '🇮🇳 IN | 🟢 | vless | @manzariyeh_rasht | 37'
+      - '🇮🇳 IN | 🟢 | vless | @manzariyeh_rasht | 28'
       - '❔ XX | 🟢 | vless | @tc_v2ray | 1'
       - '❔ XX | 🟢 | vless | @torang_vpn | 16'
       - '❔ XX | 🟢 | vless | @vp22ray | 6'
@@ -120,7 +120,7 @@ proxy-groups:
       - '🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 48'
       - '❔ XX | 🟢 | vless | @custom_14 | 7'
       - '🇩🇪 DE | 🟢 | vless | @kesslervpn | 2'
-      - '🇮🇳 IN | 🟢 | vless | @manzariyeh_rasht | 37'
+      - '🇮🇳 IN | 🟢 | vless | @manzariyeh_rasht | 28'
       - '❔ XX | 🟢 | vless | @tc_v2ray | 1'
       - '❔ XX | 🟢 | vless | @torang_vpn | 16'
       - '❔ XX | 🟢 | vless | @vp22ray | 6'
