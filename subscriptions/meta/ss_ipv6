@@ -18,8 +18,6 @@ dns:
 
 proxies:
   - {"name":"❔ XX | 🟢 | ss | @free_omega | 4","type":"ss","server":"[2a01:4f8:c012:42dc::1]","port":2060,"password":"DU7nmmEPs5eGoqrt_SwBEQ","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"❔ XX | 🟢 | ss | @freevv2rayng | 7","type":"ss","server":"[2a12:5940:1527::2]","port":80,"password":"SaV68PD8ace6lAZkvukLqX3G6xBJ/PwMCalr+h3uxSo=","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"❔ XX | 🟢 | ss | @freevv2rayng | 8","type":"ss","server":"[2a12:5940:1527::2]","port":80,"password":"T0fI0EdmSXqpdrFdsuW643yGO4MwlUBgQLfjhdRYWd4=","cipher":"chacha20-ietf-poly1305"}
 
 rule-providers:
   ir_domains:
@@ -51,8 +49,6 @@ proxy-groups:
     tolerance: 50 
     proxies:
       - '❔ XX | 🟢 | ss | @free_omega | 4'
-      - '❔ XX | 🟢 | ss | @freevv2rayng | 7'
-      - '❔ XX | 🟢 | ss | @freevv2rayng | 8'
 
   - name: 📉 Fallback
     type: fallback
@@ -60,15 +56,11 @@ proxy-groups:
     interval: 300
     proxies:
       - '❔ XX | 🟢 | ss | @free_omega | 4'
-      - '❔ XX | 🟢 | ss | @freevv2rayng | 7'
-      - '❔ XX | 🟢 | ss | @freevv2rayng | 8'
       
   - name: All-Proxies
     type: select
     proxies:
       - '❔ XX | 🟢 | ss | @free_omega | 4'
-      - '❔ XX | 🟢 | ss | @freevv2rayng | 7'
-      - '❔ XX | 🟢 | ss | @freevv2rayng | 8'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

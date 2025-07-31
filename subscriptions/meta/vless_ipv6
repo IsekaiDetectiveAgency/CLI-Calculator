@@ -17,11 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"❔ XX | 🔴 | vless | @freevv2rayng | 6","type":"vless","server":"[2a12:5940:1527::2]","port":443,"uuid":"8bfbdbb1-9126-4372-96a1-5547d629559f","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"❔ XX | 🔴 | vless | @freevv2rayng | 9","type":"vless","server":"[2a12:5940:1527::2]","port":8880,"uuid":"baa10442-7622-4b96-bd86-9f72aaac9846","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"cdnndsszakanalaslitest.possiblesayt.xyz."}}}
-  - {"name":"❔ XX | 🔴 | vless | @freevv2rayng | 10","type":"vless","server":"[2a12:5940:1527::2]","port":443,"uuid":"78d743e4-1519-4770-aa84-ca0d6de0cc80","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"❔ XX | 🟢 | vless | @kesslervpn | 1","type":"vless","server":"[2a03:b0c0:3:d0::10ad:7001]","port":29360,"uuid":"9e890db0-905d-41d2-8a69-0a35ff7d8ce3","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"reality-opts":{"public-key":"WeBcvXnjj4LbVsAT2lTbZ3JbvoqE4S_rON9h-7DjrHo"}}
-  - {"name":"❔ XX | 🟢 | vless | @vpnvg | 10","type":"vless","server":"[2a01:4f8:1c17:cadc::1]","port":2083,"uuid":"5a0beb93-56ae-4390-b5c2-8ed92f5f591d","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"servername":"www.speedtest.net","grpc-opts":{"grpc-service-name":"@Digiv2ray"},"reality-opts":{"public-key":"Qa9ePuwo1TY2uVN8143Sh3YAiVqdDj9VIZcQK20DTzc","short-id":"5654bc18"}}
 
 rule-providers:
   ir_domains:
@@ -52,31 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '❔ XX | 🔴 | vless | @freevv2rayng | 6'
-      - '❔ XX | 🔴 | vless | @freevv2rayng | 9'
-      - '❔ XX | 🔴 | vless | @freevv2rayng | 10'
       - '❔ XX | 🟢 | vless | @kesslervpn | 1'
-      - '❔ XX | 🟢 | vless | @vpnvg | 10'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '❔ XX | 🔴 | vless | @freevv2rayng | 6'
-      - '❔ XX | 🔴 | vless | @freevv2rayng | 9'
-      - '❔ XX | 🔴 | vless | @freevv2rayng | 10'
       - '❔ XX | 🟢 | vless | @kesslervpn | 1'
-      - '❔ XX | 🟢 | vless | @vpnvg | 10'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '❔ XX | 🔴 | vless | @freevv2rayng | 6'
-      - '❔ XX | 🔴 | vless | @freevv2rayng | 9'
-      - '❔ XX | 🔴 | vless | @freevv2rayng | 10'
       - '❔ XX | 🟢 | vless | @kesslervpn | 1'
-      - '❔ XX | 🟢 | vless | @vpnvg | 10'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
