@@ -9,7 +9,6 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇺🇸 US | 🟢 | trojan | @entrynet | 16 = trojan, ggbnhju.859885.xyz, 443, password = f69b7304-9bea-4740-a555-797514012a53, skip-cert-verify = false
 ❔ XX | 🟢 | trojan | @fati_ffx | 1 = trojan, t3.teslacdn2.live, 443, password = e1c12e6f-a555-4ff8-b071-1e09dd5d91e6, skip-cert-verify = false
 ❔ XX | 🟢 | trojan | @maradona_vpn | 4 = trojan, maradona_vpn.history-paint.art, 443, password = maradona_vpn, skip-cert-verify = false
 ❔ XX | 🟢 | trojan | @maradona_vpn | 6 = trojan, maradona_vpn14.history-paint.art, 443, password = maradona_vpn, skip-cert-verify = false
@@ -17,9 +16,9 @@ DIRECT = direct
 ❔ XX | 🟢 | trojan | @maradona_vpn | 8 = trojan, maradona_vpn.history-paint.art, 443, password = Maradona_vpn, skip-cert-verify = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🟢 | trojan | @entrynet | 16, ❔ XX | 🟢 | trojan | @fati_ffx | 1, ❔ XX | 🟢 | trojan | @maradona_vpn | 4, ❔ XX | 🟢 | trojan | @maradona_vpn | 6, ❔ XX | 🟢 | trojan | @maradona_vpn | 7, ❔ XX | 🟢 | trojan | @maradona_vpn | 8
-PSG-AUTO = url-test, 🇺🇸 US | 🟢 | trojan | @entrynet | 16, ❔ XX | 🟢 | trojan | @fati_ffx | 1, ❔ XX | 🟢 | trojan | @maradona_vpn | 4, ❔ XX | 🟢 | trojan | @maradona_vpn | 6, ❔ XX | 🟢 | trojan | @maradona_vpn | 7, ❔ XX | 🟢 | trojan | @maradona_vpn | 8
-PSG-FALLBACK = fallback, 🇺🇸 US | 🟢 | trojan | @entrynet | 16, ❔ XX | 🟢 | trojan | @fati_ffx | 1, ❔ XX | 🟢 | trojan | @maradona_vpn | 4, ❔ XX | 🟢 | trojan | @maradona_vpn | 6, ❔ XX | 🟢 | trojan | @maradona_vpn | 7, ❔ XX | 🟢 | trojan | @maradona_vpn | 8
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🟢 | trojan | @fati_ffx | 1, ❔ XX | 🟢 | trojan | @maradona_vpn | 4, ❔ XX | 🟢 | trojan | @maradona_vpn | 6, ❔ XX | 🟢 | trojan | @maradona_vpn | 7, ❔ XX | 🟢 | trojan | @maradona_vpn | 8
+PSG-AUTO = url-test, ❔ XX | 🟢 | trojan | @fati_ffx | 1, ❔ XX | 🟢 | trojan | @maradona_vpn | 4, ❔ XX | 🟢 | trojan | @maradona_vpn | 6, ❔ XX | 🟢 | trojan | @maradona_vpn | 7, ❔ XX | 🟢 | trojan | @maradona_vpn | 8
+PSG-FALLBACK = fallback, ❔ XX | 🟢 | trojan | @fati_ffx | 1, ❔ XX | 🟢 | trojan | @maradona_vpn | 4, ❔ XX | 🟢 | trojan | @maradona_vpn | 6, ❔ XX | 🟢 | trojan | @maradona_vpn | 7, ❔ XX | 🟢 | trojan | @maradona_vpn | 8
 
 [Rule]
 GEOIP,IR,DIRECT
