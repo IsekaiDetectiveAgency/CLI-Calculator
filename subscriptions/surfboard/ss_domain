@@ -10,18 +10,18 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇬🇧 GB | 🟢 | ss | @freakconfig | 14 = ss, series-a2-mec.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
-🇸🇪 SE | 🟢 | ss | @ip_cf_config | 15 = ss, azure-sto.edgeservers.org, 48172, encrypt-method = chacha20-ietf-poly1305, password = 51yloQC8D9w1Wae7FHtI65
+🇩🇪 DE | 🟢 | ss | @ip_cf_config | 13 = ss, fin.outlinebot1.ru, 5904, encrypt-method = chacha20-ietf-poly1305, password = 5TZnwPb23pQS39lIucspJw
 ❔ XX | 🟢 | ss | @public504 | 7 = ss, seoul.dodohee.info, 20976, encrypt-method = chacha20-ietf-poly1305, password = Gy1ddTFQcNrkyJMaoDl1da
 ❔ XX | 🟢 | ss | @public504 | 8 = ss, india.dodohee.info, 6980, encrypt-method = chacha20-ietf-poly1305, password = 4e9ufa1a2jeANAVebF0wqN
 🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 15 = ss, series-a2.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = mps3FwmDjLrWaOVg
 🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19 = ss, series-a2-me.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
-🇦🇪 AE | 🟢 | ss | @shadowsockskeys | 14 = ss, ae-1.stunnel.cc, 8444, encrypt-method = chacha20-ietf-poly1305, password = tunnel-astrovpn_official_ae
+🇦🇪 AE | 🟢 | ss | @shadowsockskeys | 13 = ss, ae-1.stunnel.cc, 8444, encrypt-method = chacha20-ietf-poly1305, password = tunnel-astrovpn_official_ae
 🇬🇧 GB | 🟢 | ss | @v2raybe | 6 = ss, series-a2-mec.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇬🇧 GB | 🟢 | ss | @freakconfig | 14, 🇸🇪 SE | 🟢 | ss | @ip_cf_config | 15, ❔ XX | 🟢 | ss | @public504 | 7, ❔ XX | 🟢 | ss | @public504 | 8, 🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 15, 🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19, 🇦🇪 AE | 🟢 | ss | @shadowsockskeys | 14, 🇬🇧 GB | 🟢 | ss | @v2raybe | 6
-PSG-AUTO = url-test, 🇬🇧 GB | 🟢 | ss | @freakconfig | 14, 🇸🇪 SE | 🟢 | ss | @ip_cf_config | 15, ❔ XX | 🟢 | ss | @public504 | 7, ❔ XX | 🟢 | ss | @public504 | 8, 🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 15, 🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19, 🇦🇪 AE | 🟢 | ss | @shadowsockskeys | 14, 🇬🇧 GB | 🟢 | ss | @v2raybe | 6
-PSG-FALLBACK = fallback, 🇬🇧 GB | 🟢 | ss | @freakconfig | 14, 🇸🇪 SE | 🟢 | ss | @ip_cf_config | 15, ❔ XX | 🟢 | ss | @public504 | 7, ❔ XX | 🟢 | ss | @public504 | 8, 🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 15, 🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19, 🇦🇪 AE | 🟢 | ss | @shadowsockskeys | 14, 🇬🇧 GB | 🟢 | ss | @v2raybe | 6
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇬🇧 GB | 🟢 | ss | @freakconfig | 14, 🇩🇪 DE | 🟢 | ss | @ip_cf_config | 13, ❔ XX | 🟢 | ss | @public504 | 7, ❔ XX | 🟢 | ss | @public504 | 8, 🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 15, 🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19, 🇦🇪 AE | 🟢 | ss | @shadowsockskeys | 13, 🇬🇧 GB | 🟢 | ss | @v2raybe | 6
+PSG-AUTO = url-test, 🇬🇧 GB | 🟢 | ss | @freakconfig | 14, 🇩🇪 DE | 🟢 | ss | @ip_cf_config | 13, ❔ XX | 🟢 | ss | @public504 | 7, ❔ XX | 🟢 | ss | @public504 | 8, 🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 15, 🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19, 🇦🇪 AE | 🟢 | ss | @shadowsockskeys | 13, 🇬🇧 GB | 🟢 | ss | @v2raybe | 6
+PSG-FALLBACK = fallback, 🇬🇧 GB | 🟢 | ss | @freakconfig | 14, 🇩🇪 DE | 🟢 | ss | @ip_cf_config | 13, ❔ XX | 🟢 | ss | @public504 | 7, ❔ XX | 🟢 | ss | @public504 | 8, 🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 15, 🇬🇧 GB | 🟢 | ss | @serverv2ray00 | 19, 🇦🇪 AE | 🟢 | ss | @shadowsockskeys | 13, 🇬🇧 GB | 🟢 | ss | @v2raybe | 6
 
 [Rule]
 GEOIP,IR,DIRECT
