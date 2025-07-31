@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 34","type":"vless","server":"81.12.32.135","port":32990,"uuid":"a804bb53-7504-4f06-96d8-ff56fb71539d","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49","type":"vless","server":"81.12.32.135","port":32990,"uuid":"a804bb53-7504-4f06-96d8-ff56fb71539d","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 34'
+      - '🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 34'
+      - '🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 34'
+      - '🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
