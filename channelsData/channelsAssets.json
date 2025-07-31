@@ -148,9 +148,9 @@
     },
     "entrynet": {
         "types": [
-            "trojan",
             "vless",
-            "vmess"
+            "trojan",
+            "ss"
         ],
         "title": ".::entryNET::. Free v2ray vpn &amp; proxy | وی پی ان و پروکسی رایگان",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/entrynet.jpg"
@@ -321,10 +321,10 @@
     },
     "ip_cf_config": {
         "types": [
-            "vmess",
+            "ss",
             "vless",
             "trojan",
-            "ss"
+            "vmess"
         ],
         "title": "IP_CF | V2ray Config Pool",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/ip_cf_config.jpg"
@@ -829,7 +829,6 @@
     "v2rayfree": {
         "types": [
             "vless",
-            "ss",
             "vmess"
         ],
         "title": "VPNs Proxy Mtproto",
