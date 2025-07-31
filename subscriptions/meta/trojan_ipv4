@@ -17,7 +17,6 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇲🇻 MV | 🔴 | trojan | @entrynet | 17","type":"trojan","server":"154.85.99.206","port":443,"password":"NISHIKUITAN111","skip-cert-verify":true}
   - {"name":"🇩🇪 DE | 🔴 | trojan | @freev2raym | 7","type":"trojan","server":"91.107.141.0","port":23825,"password":"ziIjOlyGbM","skip-cert-verify":false}
   - {"name":"🇫🇷 FR | 🟢 | trojan | @jiujied | 3","type":"trojan","server":"15.236.173.146","port":22222,"password":"telegram-id-privatevpns","skip-cert-verify":true}
   - {"name":"🇸🇬 SG | 🟢 | trojan | @mpmehi | 0","type":"trojan","server":"146.190.87.238","port":443,"password":"oZAugtgF5T","skip-cert-verify":false}
@@ -56,7 +55,6 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇲🇻 MV | 🔴 | trojan | @entrynet | 17'
       - '🇩🇪 DE | 🔴 | trojan | @freev2raym | 7'
       - '🇫🇷 FR | 🟢 | trojan | @jiujied | 3'
       - '🇸🇬 SG | 🟢 | trojan | @mpmehi | 0'
@@ -71,7 +69,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇲🇻 MV | 🔴 | trojan | @entrynet | 17'
       - '🇩🇪 DE | 🔴 | trojan | @freev2raym | 7'
       - '🇫🇷 FR | 🟢 | trojan | @jiujied | 3'
       - '🇸🇬 SG | 🟢 | trojan | @mpmehi | 0'
@@ -84,7 +81,6 @@ proxy-groups:
   - name: All-Proxies
     type: select
     proxies:
-      - '🇲🇻 MV | 🔴 | trojan | @entrynet | 17'
       - '🇩🇪 DE | 🔴 | trojan | @freev2raym | 7'
       - '🇫🇷 FR | 🟢 | trojan | @jiujied | 3'
       - '🇸🇬 SG | 🟢 | trojan | @mpmehi | 0'

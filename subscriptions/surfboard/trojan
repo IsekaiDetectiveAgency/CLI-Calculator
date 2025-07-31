@@ -9,7 +9,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇲🇻 MV | 🔴 | trojan | @entrynet | 17 = trojan, 154.85.99.206, 443, password = NISHIKUITAN111, skip-cert-verify = true
+❔ XX | 🟢 | trojan | @fati_ffx | 1 = trojan, t3.teslacdn2.live, 443, password = e1c12e6f-a555-4ff8-b071-1e09dd5d91e6, skip-cert-verify = false
+❔ XX | 🟢 | trojan | @maradona_vpn | 4 = trojan, maradona_vpn.history-paint.art, 443, password = maradona_vpn, skip-cert-verify = false
+❔ XX | 🟢 | trojan | @maradona_vpn | 6 = trojan, maradona_vpn14.history-paint.art, 443, password = maradona_vpn, skip-cert-verify = false
+❔ XX | 🟢 | trojan | @maradona_vpn | 7 = trojan, maradona_vpn10.history-paint.art, 443, password = maradona_vpn, skip-cert-verify = false
+❔ XX | 🟢 | trojan | @maradona_vpn | 8 = trojan, maradona_vpn.history-paint.art, 443, password = Maradona_vpn, skip-cert-verify = false
 🇩🇪 DE | 🔴 | trojan | @freev2raym | 7 = trojan, 91.107.141.0, 23825, password = ziIjOlyGbM, skip-cert-verify = false
 🇫🇷 FR | 🟢 | trojan | @jiujied | 3 = trojan, 15.236.173.146, 22222, password = telegram-id-privatevpns, skip-cert-verify = true
 🇸🇬 SG | 🟢 | trojan | @mpmehi | 0 = trojan, 146.190.87.238, 443, password = oZAugtgF5T, skip-cert-verify = false
@@ -18,16 +22,11 @@ DIRECT = direct
 🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 12 = trojan, 18.192.89.212, 22223, password = telegram-id-v2rayvpnchannel, skip-cert-verify = false
 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13 = trojan, 15.188.186.181, 22223, password = telegram-id-v2rayvpnchannel, skip-cert-verify = false
 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14 = trojan, 15.236.215.37, 22223, password = telegram-id-v2rayvpnchannel, skip-cert-verify = false
-❔ XX | 🟢 | trojan | @fati_ffx | 1 = trojan, t3.teslacdn2.live, 443, password = e1c12e6f-a555-4ff8-b071-1e09dd5d91e6, skip-cert-verify = false
-❔ XX | 🟢 | trojan | @maradona_vpn | 4 = trojan, maradona_vpn.history-paint.art, 443, password = maradona_vpn, skip-cert-verify = false
-❔ XX | 🟢 | trojan | @maradona_vpn | 6 = trojan, maradona_vpn14.history-paint.art, 443, password = maradona_vpn, skip-cert-verify = false
-❔ XX | 🟢 | trojan | @maradona_vpn | 7 = trojan, maradona_vpn10.history-paint.art, 443, password = maradona_vpn, skip-cert-verify = false
-❔ XX | 🟢 | trojan | @maradona_vpn | 8 = trojan, maradona_vpn.history-paint.art, 443, password = Maradona_vpn, skip-cert-verify = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇲🇻 MV | 🔴 | trojan | @entrynet | 17, 🇩🇪 DE | 🔴 | trojan | @freev2raym | 7, 🇫🇷 FR | 🟢 | trojan | @jiujied | 3, 🇸🇬 SG | 🟢 | trojan | @mpmehi | 0, 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 10, 🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 11, 🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 12, 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13, 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14, ❔ XX | 🟢 | trojan | @fati_ffx | 1, ❔ XX | 🟢 | trojan | @maradona_vpn | 4, ❔ XX | 🟢 | trojan | @maradona_vpn | 6, ❔ XX | 🟢 | trojan | @maradona_vpn | 7, ❔ XX | 🟢 | trojan | @maradona_vpn | 8
-PSG-AUTO = url-test, 🇲🇻 MV | 🔴 | trojan | @entrynet | 17, 🇩🇪 DE | 🔴 | trojan | @freev2raym | 7, 🇫🇷 FR | 🟢 | trojan | @jiujied | 3, 🇸🇬 SG | 🟢 | trojan | @mpmehi | 0, 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 10, 🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 11, 🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 12, 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13, 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14, ❔ XX | 🟢 | trojan | @fati_ffx | 1, ❔ XX | 🟢 | trojan | @maradona_vpn | 4, ❔ XX | 🟢 | trojan | @maradona_vpn | 6, ❔ XX | 🟢 | trojan | @maradona_vpn | 7, ❔ XX | 🟢 | trojan | @maradona_vpn | 8
-PSG-FALLBACK = fallback, 🇲🇻 MV | 🔴 | trojan | @entrynet | 17, 🇩🇪 DE | 🔴 | trojan | @freev2raym | 7, 🇫🇷 FR | 🟢 | trojan | @jiujied | 3, 🇸🇬 SG | 🟢 | trojan | @mpmehi | 0, 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 10, 🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 11, 🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 12, 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13, 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14, ❔ XX | 🟢 | trojan | @fati_ffx | 1, ❔ XX | 🟢 | trojan | @maradona_vpn | 4, ❔ XX | 🟢 | trojan | @maradona_vpn | 6, ❔ XX | 🟢 | trojan | @maradona_vpn | 7, ❔ XX | 🟢 | trojan | @maradona_vpn | 8
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🟢 | trojan | @fati_ffx | 1, ❔ XX | 🟢 | trojan | @maradona_vpn | 4, ❔ XX | 🟢 | trojan | @maradona_vpn | 6, ❔ XX | 🟢 | trojan | @maradona_vpn | 7, ❔ XX | 🟢 | trojan | @maradona_vpn | 8, 🇩🇪 DE | 🔴 | trojan | @freev2raym | 7, 🇫🇷 FR | 🟢 | trojan | @jiujied | 3, 🇸🇬 SG | 🟢 | trojan | @mpmehi | 0, 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 10, 🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 11, 🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 12, 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13, 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14
+PSG-AUTO = url-test, ❔ XX | 🟢 | trojan | @fati_ffx | 1, ❔ XX | 🟢 | trojan | @maradona_vpn | 4, ❔ XX | 🟢 | trojan | @maradona_vpn | 6, ❔ XX | 🟢 | trojan | @maradona_vpn | 7, ❔ XX | 🟢 | trojan | @maradona_vpn | 8, 🇩🇪 DE | 🔴 | trojan | @freev2raym | 7, 🇫🇷 FR | 🟢 | trojan | @jiujied | 3, 🇸🇬 SG | 🟢 | trojan | @mpmehi | 0, 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 10, 🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 11, 🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 12, 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13, 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14
+PSG-FALLBACK = fallback, ❔ XX | 🟢 | trojan | @fati_ffx | 1, ❔ XX | 🟢 | trojan | @maradona_vpn | 4, ❔ XX | 🟢 | trojan | @maradona_vpn | 6, ❔ XX | 🟢 | trojan | @maradona_vpn | 7, ❔ XX | 🟢 | trojan | @maradona_vpn | 8, 🇩🇪 DE | 🔴 | trojan | @freev2raym | 7, 🇫🇷 FR | 🟢 | trojan | @jiujied | 3, 🇸🇬 SG | 🟢 | trojan | @mpmehi | 0, 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 10, 🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 11, 🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 12, 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 13, 🇫🇷 FR | 🟢 | trojan | @v2rayvpnchannel | 14
 
 [Rule]
 GEOIP,IR,DIRECT
