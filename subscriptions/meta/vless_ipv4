@@ -49,8 +49,8 @@ proxies:
   - {"name":"🇺🇸 US | 🔴 | vless | @vmessorg | 24","type":"vless","server":"104.21.112.1","port":80,"uuid":"52428b83-b414-4321-8aea-1bd51d68b884","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/@vmessorg----@vmessorg-----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg?ed=2480","headers":{"Host":"join-to-Vmessorg.sabadyt.ir"}}}
   - {"name":"🇳🇱 NL | 🟢 | vless | @vpncostumer | 13","type":"vless","server":"45.150.33.157","port":50810,"uuid":"9d21a437-dbae-4995-949b-d9920f2613a9","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"zhaket.com","reality-opts":{"public-key":"J0pRUeUHMS_olwz0xLOMJxIxe-DhsCZA3qnAMRC4zTg","short-id":"aa60a00122200b76"}}
   - {"name":"🇳🇱 NL | 🟢 | vless | @vpncostumer | 15","type":"vless","server":"45.150.33.157","port":50810,"uuid":"ec62aa44-b9cd-417f-9adb-3a602922466d","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"zhaket.com","reality-opts":{"public-key":"J0pRUeUHMS_olwz0xLOMJxIxe-DhsCZA3qnAMRC4zTg","short-id":"aa60a00122200b76"}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @vpnv2raytop | 2","type":"vless","server":"104.18.36.24","port":443,"uuid":"30f2d443-af46-4dd6-83c9-b5e17299ebd2","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"carlotta.shoorekeeper.cloudns.org","ws-opts":{"path":"/proxyip","headers":{"Host":"carlotta.shoorekeeper.cloudns.org"}}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @vpnv2raytop | 3","type":"vless","server":"104.26.15.69","port":2096,"uuid":"30f2d443-af46-4dd6-83c9-b5e17299ebd2","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"carlotta.shoorekeeper.cloudns.org","ws-opts":{"path":"/?ed=2560","headers":{"Host":"carlotta.shoorekeeper.cloudns.org"}}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @vpnv2raytop | 1","type":"vless","server":"104.18.36.24","port":443,"uuid":"30f2d443-af46-4dd6-83c9-b5e17299ebd2","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"carlotta.shoorekeeper.cloudns.org","ws-opts":{"path":"/proxyip","headers":{"Host":"carlotta.shoorekeeper.cloudns.org"}}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @vpnv2raytop | 2","type":"vless","server":"104.26.15.69","port":2096,"uuid":"30f2d443-af46-4dd6-83c9-b5e17299ebd2","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"carlotta.shoorekeeper.cloudns.org","ws-opts":{"path":"/?ed=2560","headers":{"Host":"carlotta.shoorekeeper.cloudns.org"}}}
 
 rule-providers:
   ir_domains:
@@ -113,8 +113,8 @@ proxy-groups:
       - '🇺🇸 US | 🔴 | vless | @vmessorg | 24'
       - '🇳🇱 NL | 🟢 | vless | @vpncostumer | 13'
       - '🇳🇱 NL | 🟢 | vless | @vpncostumer | 15'
+      - '🇺🇸 US | 🟢 | vless | @vpnv2raytop | 1'
       - '🇺🇸 US | 🟢 | vless | @vpnv2raytop | 2'
-      - '🇺🇸 US | 🟢 | vless | @vpnv2raytop | 3'
 
   - name: 📉 Fallback
     type: fallback
@@ -153,8 +153,8 @@ proxy-groups:
       - '🇺🇸 US | 🔴 | vless | @vmessorg | 24'
       - '🇳🇱 NL | 🟢 | vless | @vpncostumer | 13'
       - '🇳🇱 NL | 🟢 | vless | @vpncostumer | 15'
+      - '🇺🇸 US | 🟢 | vless | @vpnv2raytop | 1'
       - '🇺🇸 US | 🟢 | vless | @vpnv2raytop | 2'
-      - '🇺🇸 US | 🟢 | vless | @vpnv2raytop | 3'
       
   - name: All-Proxies
     type: select
@@ -191,8 +191,8 @@ proxy-groups:
       - '🇺🇸 US | 🔴 | vless | @vmessorg | 24'
       - '🇳🇱 NL | 🟢 | vless | @vpncostumer | 13'
       - '🇳🇱 NL | 🟢 | vless | @vpncostumer | 15'
+      - '🇺🇸 US | 🟢 | vless | @vpnv2raytop | 1'
       - '🇺🇸 US | 🟢 | vless | @vpnv2raytop | 2'
-      - '🇺🇸 US | 🟢 | vless | @vpnv2raytop | 3'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
