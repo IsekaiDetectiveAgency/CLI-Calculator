@@ -17,7 +17,6 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪 DE | 🟢 | ss | @ip_cf_config | 9","type":"ss","server":"fin.outlinebot1.ru","port":5904,"password":"5TZnwPb23pQS39lIucspJw","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇦🇪 AE | 🟢 | ss | @shadowsockskeys | 13","type":"ss","server":"ae-1.stunnel.cc","port":8444,"password":"tunnel-astrovpn_official_ae","cipher":"chacha20-ietf-poly1305"}
 
 rule-providers:
@@ -49,7 +48,6 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇩🇪 DE | 🟢 | ss | @ip_cf_config | 9'
       - '🇦🇪 AE | 🟢 | ss | @shadowsockskeys | 13'
 
   - name: 📉 Fallback
@@ -57,13 +55,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇩🇪 DE | 🟢 | ss | @ip_cf_config | 9'
       - '🇦🇪 AE | 🟢 | ss | @shadowsockskeys | 13'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇩🇪 DE | 🟢 | ss | @ip_cf_config | 9'
       - '🇦🇪 AE | 🟢 | ss | @shadowsockskeys | 13'
 
 rules:
