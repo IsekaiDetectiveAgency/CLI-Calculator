@@ -17,8 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🟢 | trojan | @ip_cf_config | 12","type":"trojan","server":"192.3.107.252","port":443,"password":"2ee85121-31de-4581-a492-eb00f606e392","skip-cert-verify":false}
-  - {"name":"🇷🇺 RU | 🟢 | trojan | @ip_cf_config | 13","type":"trojan","server":"176.32.39.29","port":443,"password":"8OXD5VVt8s","skip-cert-verify":false}
+  - {"name":"🇫🇷 FR | 🟢 | trojan | @ip_cf_config | 12","type":"trojan","server":"51.91.11.29","port":80,"password":"598c19f3-a48e-47cd-8451-1ba04ea094d0","skip-cert-verify":false}
+  - {"name":"🇭🇰 HK | 🔴 | trojan | @ip_cf_config | 14","type":"trojan","server":"155.117.228.70","port":26193,"password":"7367d04e-4c59-4dff-a50e-12e730a09891","skip-cert-verify":true}
 
 rule-providers:
   ir_domains:
@@ -49,22 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🟢 | trojan | @ip_cf_config | 12'
-      - '🇷🇺 RU | 🟢 | trojan | @ip_cf_config | 13'
+      - '🇫🇷 FR | 🟢 | trojan | @ip_cf_config | 12'
+      - '🇭🇰 HK | 🔴 | trojan | @ip_cf_config | 14'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🟢 | trojan | @ip_cf_config | 12'
-      - '🇷🇺 RU | 🟢 | trojan | @ip_cf_config | 13'
+      - '🇫🇷 FR | 🟢 | trojan | @ip_cf_config | 12'
+      - '🇭🇰 HK | 🔴 | trojan | @ip_cf_config | 14'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🟢 | trojan | @ip_cf_config | 12'
-      - '🇷🇺 RU | 🟢 | trojan | @ip_cf_config | 13'
+      - '🇫🇷 FR | 🟢 | trojan | @ip_cf_config | 12'
+      - '🇭🇰 HK | 🔴 | trojan | @ip_cf_config | 14'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
