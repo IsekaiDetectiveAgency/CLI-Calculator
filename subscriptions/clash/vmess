@@ -18,6 +18,8 @@ dns:
 
 proxies:
   - {"name":"🇳🇱 NL | 🔴 | vmess | @custom_14 | 5","type":"vmess","server":"45.199.138.152","port":45886,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca4690dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 US | 🔴 | vmess | @ip_cf_config | 13","type":"vmess","server":"172.67.131.27","port":2053,"cipher":"auto","uuid":"350e2b01-d410-44a6-90ba-6483f1062972","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"rak2d4.89060004.xyz"}}}
+  - {"name":"🇨🇦 CA | 🔴 | vmess | @ip_cf_config | 14","type":"vmess","server":"51.79.102.253","port":80,"cipher":"auto","uuid":"58fe1542-5290-40ad-815a-77707a81afe5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/IOebhLMhl1CTbFHbL95myfRX2","headers":{"Host":"51.79.102.253"}}}
   - {"name":"🇺🇸 US | 🟢 | vmess | @ir_netproxy | 9","type":"vmess","server":"104.17.77.94","port":2053,"cipher":"auto","uuid":"72f76c36-3e3c-45b3-a61f-d8f017345958","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"b5.iraniancp.click"}}}
   - {"name":"🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 10","type":"vmess","server":"89.116.38.174","port":3456,"cipher":"auto","uuid":"32e49539-f569-403d-b4b6-a8978c040d5d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸 US | 🔴 | vmess | @ir_netproxy | 11","type":"vmess","server":"142.4.125.84","port":59614,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
@@ -56,6 +58,8 @@ proxy-groups:
     tolerance: 50 
     proxies:
       - '🇳🇱 NL | 🔴 | vmess | @custom_14 | 5'
+      - '🇺🇸 US | 🔴 | vmess | @ip_cf_config | 13'
+      - '🇨🇦 CA | 🔴 | vmess | @ip_cf_config | 14'
       - '🇺🇸 US | 🟢 | vmess | @ir_netproxy | 9'
       - '🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 10'
       - '🇺🇸 US | 🔴 | vmess | @ir_netproxy | 11'
@@ -70,6 +74,8 @@ proxy-groups:
     interval: 300
     proxies:
       - '🇳🇱 NL | 🔴 | vmess | @custom_14 | 5'
+      - '🇺🇸 US | 🔴 | vmess | @ip_cf_config | 13'
+      - '🇨🇦 CA | 🔴 | vmess | @ip_cf_config | 14'
       - '🇺🇸 US | 🟢 | vmess | @ir_netproxy | 9'
       - '🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 10'
       - '🇺🇸 US | 🔴 | vmess | @ir_netproxy | 11'
@@ -82,6 +88,8 @@ proxy-groups:
     type: select
     proxies:
       - '🇳🇱 NL | 🔴 | vmess | @custom_14 | 5'
+      - '🇺🇸 US | 🔴 | vmess | @ip_cf_config | 13'
+      - '🇨🇦 CA | 🔴 | vmess | @ip_cf_config | 14'
       - '🇺🇸 US | 🟢 | vmess | @ir_netproxy | 9'
       - '🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 10'
       - '🇺🇸 US | 🔴 | vmess | @ir_netproxy | 11'
