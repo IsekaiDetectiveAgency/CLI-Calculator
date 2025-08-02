@@ -9,12 +9,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇫🇷 FR | 🟢 | trojan | @ip_cf_config | 13 = trojan, 51.91.11.29, 80, password = 598c19f3-a48e-47cd-8451-1ba04ea094d0, skip-cert-verify = false
+🇫🇷 FR | 🟢 | trojan | @ip_cf_config | 11 = trojan, 51.91.11.29, 80, password = 598c19f3-a48e-47cd-8451-1ba04ea094d0, skip-cert-verify = false
+🇺🇸 US | 🟢 | trojan | @ip_cf_config | 13 = trojan, 198.23.229.250, 443, password = 2ee85121-31de-4581-a492-eb00f606e392, skip-cert-verify = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇫🇷 FR | 🟢 | trojan | @ip_cf_config | 13
-PSG-AUTO = url-test, 🇫🇷 FR | 🟢 | trojan | @ip_cf_config | 13
-PSG-FALLBACK = fallback, 🇫🇷 FR | 🟢 | trojan | @ip_cf_config | 13
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇫🇷 FR | 🟢 | trojan | @ip_cf_config | 11, 🇺🇸 US | 🟢 | trojan | @ip_cf_config | 13
+PSG-AUTO = url-test, 🇫🇷 FR | 🟢 | trojan | @ip_cf_config | 11, 🇺🇸 US | 🟢 | trojan | @ip_cf_config | 13
+PSG-FALLBACK = fallback, 🇫🇷 FR | 🟢 | trojan | @ip_cf_config | 11, 🇺🇸 US | 🟢 | trojan | @ip_cf_config | 13
 
 [Rule]
 GEOIP,IR,DIRECT
