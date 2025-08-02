@@ -26,8 +26,6 @@ proxies:
   - {"name":"🇵🇱 PL | 🟢 | ss | @gh_v2rayng | 15","type":"ss","server":"45.144.49.140","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸 US | 🟢 | ss | @gh_v2rayng | 16","type":"ss","server":"45.87.175.35","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇹🇷 TR | 🟢 | ss | @gh_v2rayng | 17","type":"ss","server":"193.46.56.185","port":6683,"password":"iw8GoN42dciNxDBd0RwAdL","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🟢 | ss | @ip_cf_config | 11","type":"ss","server":"45.87.175.171","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🟢 | ss | @ip_cf_config | 12","type":"ss","server":"45.87.175.192","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @ir_netproxy | 12","type":"ss","server":"51.105.36.101","port":13928,"password":"2gxDsKmZRuz4wRCKyXJdJl","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇭🇰 HK | 🟢 | ss | @manzariyeh_rasht | 25","type":"ss","server":"18.162.146.85","port":8316,"password":"ljqdalu13..","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @mrclud | 24","type":"ss","server":"51.142.171.150","port":49499,"password":"kTjlLxrncKx4i2HIjxfA3M","cipher":"chacha20-ietf-poly1305"}
@@ -46,7 +44,7 @@ proxies:
   - {"name":"🇫🇷 FR | 🟢 | ss | @shadowsockskeys | 15","type":"ss","server":"77.105.166.12","port":8594,"password":"3DpxGqxiET9cqEGy99UYYE","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇮 FI | 🟢 | ss | @v2graphy | 13","type":"ss","server":"83.147.216.70","port":64519,"password":"UlT89D0rvcr05tKft1NB5a","cipher":"chacha20-ietf-poly1305"}
   - {"name":"❔ XX | 🟢 | ss | @free_omega | 4","type":"ss","server":"[2a01:4f8:c012:42dc::1]","port":2060,"password":"DU7nmmEPs5eGoqrt_SwBEQ","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🟢 | ss | @ip_cf_config | 8","type":"ss","server":"beesyar.org","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇪 SE | 🟢 | ss | @ip_cf_config | 11","type":"ss","server":"azure-sto.edgeservers.org","port":48172,"password":"51yloQC8D9w1Wae7FHtI65","cipher":"chacha20-ietf-poly1305"}
 
 rule-providers:
   ir_domains:
@@ -86,8 +84,6 @@ proxy-groups:
       - '🇵🇱 PL | 🟢 | ss | @gh_v2rayng | 15'
       - '🇺🇸 US | 🟢 | ss | @gh_v2rayng | 16'
       - '🇹🇷 TR | 🟢 | ss | @gh_v2rayng | 17'
-      - '🇺🇸 US | 🟢 | ss | @ip_cf_config | 11'
-      - '🇺🇸 US | 🟢 | ss | @ip_cf_config | 12'
       - '🇬🇧 GB | 🟢 | ss | @ir_netproxy | 12'
       - '🇭🇰 HK | 🟢 | ss | @manzariyeh_rasht | 25'
       - '🇬🇧 GB | 🟢 | ss | @mrclud | 24'
@@ -106,7 +102,7 @@ proxy-groups:
       - '🇫🇷 FR | 🟢 | ss | @shadowsockskeys | 15'
       - '🇫🇮 FI | 🟢 | ss | @v2graphy | 13'
       - '❔ XX | 🟢 | ss | @free_omega | 4'
-      - '🇺🇸 US | 🟢 | ss | @ip_cf_config | 8'
+      - '🇸🇪 SE | 🟢 | ss | @ip_cf_config | 11'
 
   - name: 📉 Fallback
     type: fallback
@@ -122,8 +118,6 @@ proxy-groups:
       - '🇵🇱 PL | 🟢 | ss | @gh_v2rayng | 15'
       - '🇺🇸 US | 🟢 | ss | @gh_v2rayng | 16'
       - '🇹🇷 TR | 🟢 | ss | @gh_v2rayng | 17'
-      - '🇺🇸 US | 🟢 | ss | @ip_cf_config | 11'
-      - '🇺🇸 US | 🟢 | ss | @ip_cf_config | 12'
       - '🇬🇧 GB | 🟢 | ss | @ir_netproxy | 12'
       - '🇭🇰 HK | 🟢 | ss | @manzariyeh_rasht | 25'
       - '🇬🇧 GB | 🟢 | ss | @mrclud | 24'
@@ -142,7 +136,7 @@ proxy-groups:
       - '🇫🇷 FR | 🟢 | ss | @shadowsockskeys | 15'
       - '🇫🇮 FI | 🟢 | ss | @v2graphy | 13'
       - '❔ XX | 🟢 | ss | @free_omega | 4'
-      - '🇺🇸 US | 🟢 | ss | @ip_cf_config | 8'
+      - '🇸🇪 SE | 🟢 | ss | @ip_cf_config | 11'
       
   - name: All-Proxies
     type: select
@@ -156,8 +150,6 @@ proxy-groups:
       - '🇵🇱 PL | 🟢 | ss | @gh_v2rayng | 15'
       - '🇺🇸 US | 🟢 | ss | @gh_v2rayng | 16'
       - '🇹🇷 TR | 🟢 | ss | @gh_v2rayng | 17'
-      - '🇺🇸 US | 🟢 | ss | @ip_cf_config | 11'
-      - '🇺🇸 US | 🟢 | ss | @ip_cf_config | 12'
       - '🇬🇧 GB | 🟢 | ss | @ir_netproxy | 12'
       - '🇭🇰 HK | 🟢 | ss | @manzariyeh_rasht | 25'
       - '🇬🇧 GB | 🟢 | ss | @mrclud | 24'
@@ -176,7 +168,7 @@ proxy-groups:
       - '🇫🇷 FR | 🟢 | ss | @shadowsockskeys | 15'
       - '🇫🇮 FI | 🟢 | ss | @v2graphy | 13'
       - '❔ XX | 🟢 | ss | @free_omega | 4'
-      - '🇺🇸 US | 🟢 | ss | @ip_cf_config | 8'
+      - '🇸🇪 SE | 🟢 | ss | @ip_cf_config | 11'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
