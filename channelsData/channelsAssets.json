@@ -85,8 +85,8 @@
     "ip_cf_config": {
         "types": [
             "trojan",
-            "vmess",
             "ss",
+            "vmess",
             "vless"
         ],
         "title": "IP_CF | V2ray Config Pool",
@@ -130,7 +130,8 @@
     },
     "lranonline_new": {
         "types": [
-            "vless"
+            "vless",
+            "ss"
         ],
         "title": "Iran Online New",
         "logo": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/channelsData/logos/lranonline_new.jpg"
