@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇫🇷 FR | 🟢 | trojan | @ip_cf_config | 12","type":"trojan","server":"51.91.11.29","port":80,"password":"598c19f3-a48e-47cd-8451-1ba04ea094d0","skip-cert-verify":false}
+  - {"name":"🇫🇷 FR | 🟢 | trojan | @ip_cf_config | 13","type":"trojan","server":"51.91.11.29","port":80,"password":"598c19f3-a48e-47cd-8451-1ba04ea094d0","skip-cert-verify":false}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇫🇷 FR | 🟢 | trojan | @ip_cf_config | 12'
+      - '🇫🇷 FR | 🟢 | trojan | @ip_cf_config | 13'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇫🇷 FR | 🟢 | trojan | @ip_cf_config | 12'
+      - '🇫🇷 FR | 🟢 | trojan | @ip_cf_config | 13'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇫🇷 FR | 🟢 | trojan | @ip_cf_config | 12'
+      - '🇫🇷 FR | 🟢 | trojan | @ip_cf_config | 13'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
