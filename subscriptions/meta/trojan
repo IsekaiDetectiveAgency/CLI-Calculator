@@ -17,9 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"❔ XX | 🔴 | trojan | @ip_cf_config | 10","type":"trojan","server":"stirring-parakeet.shiner427.skin","port":443,"password":"74260628090146500","skip-cert-verify":false}
-  - {"name":"🇺🇸 US | 🟢 | trojan | @ip_cf_config | 12","type":"trojan","server":"104.25.165.81","port":8443,"password":"123456","skip-cert-verify":false}
-  - {"name":"🇭🇰 HK | 🔴 | trojan | @ip_cf_config | 13","type":"trojan","server":"155.117.228.70","port":26193,"password":"7367d04e-4c59-4dff-a50e-12e730a09891","skip-cert-verify":true}
+  - {"name":"🇭🇰 HK | 🔴 | trojan | @ip_cf_config | 9","type":"trojan","server":"155.117.228.70","port":26193,"password":"7367d04e-4c59-4dff-a50e-12e730a09891","skip-cert-verify":true}
+  - {"name":"❔ XX | 🔴 | trojan | @ip_cf_config | 12","type":"trojan","server":"13c2c931-swin40-swy6li-tni2.cu.plebai.net","port":15229,"password":"5e2f888c-68ef-11ef-96ca-f23c9164ca5d","skip-cert-verify":false}
 
 rule-providers:
   ir_domains:
@@ -50,25 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '❔ XX | 🔴 | trojan | @ip_cf_config | 10'
-      - '🇺🇸 US | 🟢 | trojan | @ip_cf_config | 12'
-      - '🇭🇰 HK | 🔴 | trojan | @ip_cf_config | 13'
+      - '🇭🇰 HK | 🔴 | trojan | @ip_cf_config | 9'
+      - '❔ XX | 🔴 | trojan | @ip_cf_config | 12'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '❔ XX | 🔴 | trojan | @ip_cf_config | 10'
-      - '🇺🇸 US | 🟢 | trojan | @ip_cf_config | 12'
-      - '🇭🇰 HK | 🔴 | trojan | @ip_cf_config | 13'
+      - '🇭🇰 HK | 🔴 | trojan | @ip_cf_config | 9'
+      - '❔ XX | 🔴 | trojan | @ip_cf_config | 12'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '❔ XX | 🔴 | trojan | @ip_cf_config | 10'
-      - '🇺🇸 US | 🟢 | trojan | @ip_cf_config | 12'
-      - '🇭🇰 HK | 🔴 | trojan | @ip_cf_config | 13'
+      - '🇭🇰 HK | 🔴 | trojan | @ip_cf_config | 9'
+      - '❔ XX | 🔴 | trojan | @ip_cf_config | 12'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
