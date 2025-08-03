@@ -18,19 +18,18 @@ dns:
 
 proxies:
   - {"name":"🇳🇱 NL | 🔴 | vmess | @custom_14 | 5","type":"vmess","server":"45.199.138.152","port":45886,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca4690dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇳🇱 NL | 🟢 | ss | @free1ss | 12","type":"ss","server":"147.45.114.160","port":45651,"password":"MEJQdCYC6CxOAD2ajg2lL1","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇮 FI | 🟢 | ss | @free1ss | 14","type":"ss","server":"38.244.136.196","port":5555,"password":"NKNdncCtn4BoodLy_VnZ9g","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪 DE | 🟢 | ss | @free1ss | 15","type":"ss","server":"85.208.139.203","port":443,"password":"0DY8zBjtxP3Y","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇳🇱 NL | 🟢 | ss | @free1ss | 16","type":"ss","server":"178.208.91.118","port":19805,"password":"0YtVN1K4M388qRRJwqG1uN","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬 SG | 🟢 | ss | @free1ss | 17","type":"ss","server":"68.183.226.95","port":52042,"password":"xMUVeKCBmgwJOjGtsbQ2JF","cipher":"chacha20-ietf-poly1305"}
   - {"name":"❔ XX | 🟢 | ss | @free_omega | 4","type":"ss","server":"[2a01:4f8:c012:42dc::1]","port":2060,"password":"DU7nmmEPs5eGoqrt_SwBEQ","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇷🇺 RU | 🟢 | ss | @gh_v2rayng | 13","type":"ss","server":"45.139.24.24","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇵🇱 PL | 🟢 | ss | @gh_v2rayng | 14","type":"ss","server":"45.144.49.140","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🟢 | ss | @gh_v2rayng | 15","type":"ss","server":"45.87.175.35","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇹🇷 TR | 🟢 | ss | @gh_v2rayng | 16","type":"ss","server":"193.46.56.185","port":6683,"password":"iw8GoN42dciNxDBd0RwAdL","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🔴 | vmess | @ip_cf_config | 9","type":"vmess","server":"172.67.131.27","port":2053,"cipher":"auto","uuid":"350e2b01-d410-44a6-90ba-6483f1062972","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"rak2d4.89060004.xyz"}}}
-  - {"name":"🇷🇺 RU | 🟢 | trojan | @ip_cf_config | 10","type":"trojan","server":"176.32.39.29","port":443,"password":"8OXD5VVt8s","skip-cert-verify":false}
-  - {"name":"🇺🇸 US | 🟢 | ss | @ip_cf_config | 11","type":"ss","server":"45.87.175.154","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰 HK | 🔴 | trojan | @ip_cf_config | 12","type":"trojan","server":"155.117.228.70","port":26193,"password":"7367d04e-4c59-4dff-a50e-12e730a09891","skip-cert-verify":true}
+  - {"name":"🇷🇺 RU | 🟢 | ss | @gh_v2rayng | 12","type":"ss","server":"45.139.24.24","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇵🇱 PL | 🟢 | ss | @gh_v2rayng | 13","type":"ss","server":"45.144.49.140","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🟢 | ss | @gh_v2rayng | 14","type":"ss","server":"45.87.175.35","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇷 TR | 🟢 | ss | @gh_v2rayng | 15","type":"ss","server":"193.46.56.185","port":6683,"password":"iw8GoN42dciNxDBd0RwAdL","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"❔ XX | 🔴 | trojan | @ip_cf_config | 8","type":"trojan","server":"391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net","port":15229,"password":"60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d","skip-cert-verify":false}
+  - {"name":"🇩🇪 DE | 🟢 | ss | @ip_cf_config | 9","type":"ss","server":"fin.outlinebot1.ru","port":5904,"password":"5TZnwPb23pQS39lIucspJw","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇷🇺 RU | 🟢 | trojan | @ip_cf_config | 11","type":"trojan","server":"176.32.39.29","port":443,"password":"8OXD5VVt8s","skip-cert-verify":false}
   - {"name":"🇺🇸 US | 🟢 | vmess | @ir_netproxy | 9","type":"vmess","server":"104.17.77.94","port":2053,"cipher":"auto","uuid":"72f76c36-3e3c-45b3-a61f-d8f017345958","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"b5.iraniancp.click"}}}
   - {"name":"🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 10","type":"vmess","server":"89.116.38.174","port":3456,"cipher":"auto","uuid":"32e49539-f569-403d-b4b6-a8978c040d5d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸 US | 🔴 | vmess | @ir_netproxy | 11","type":"vmess","server":"142.4.125.84","port":59614,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
@@ -82,19 +81,18 @@ proxy-groups:
     tolerance: 50 
     proxies:
       - '🇳🇱 NL | 🔴 | vmess | @custom_14 | 5'
-      - '🇳🇱 NL | 🟢 | ss | @free1ss | 12'
       - '🇫🇮 FI | 🟢 | ss | @free1ss | 14'
       - '🇩🇪 DE | 🟢 | ss | @free1ss | 15'
       - '🇳🇱 NL | 🟢 | ss | @free1ss | 16'
+      - '🇸🇬 SG | 🟢 | ss | @free1ss | 17'
       - '❔ XX | 🟢 | ss | @free_omega | 4'
-      - '🇷🇺 RU | 🟢 | ss | @gh_v2rayng | 13'
-      - '🇵🇱 PL | 🟢 | ss | @gh_v2rayng | 14'
-      - '🇺🇸 US | 🟢 | ss | @gh_v2rayng | 15'
-      - '🇹🇷 TR | 🟢 | ss | @gh_v2rayng | 16'
-      - '🇺🇸 US | 🔴 | vmess | @ip_cf_config | 9'
-      - '🇷🇺 RU | 🟢 | trojan | @ip_cf_config | 10'
-      - '🇺🇸 US | 🟢 | ss | @ip_cf_config | 11'
-      - '🇭🇰 HK | 🔴 | trojan | @ip_cf_config | 12'
+      - '🇷🇺 RU | 🟢 | ss | @gh_v2rayng | 12'
+      - '🇵🇱 PL | 🟢 | ss | @gh_v2rayng | 13'
+      - '🇺🇸 US | 🟢 | ss | @gh_v2rayng | 14'
+      - '🇹🇷 TR | 🟢 | ss | @gh_v2rayng | 15'
+      - '❔ XX | 🔴 | trojan | @ip_cf_config | 8'
+      - '🇩🇪 DE | 🟢 | ss | @ip_cf_config | 9'
+      - '🇷🇺 RU | 🟢 | trojan | @ip_cf_config | 11'
       - '🇺🇸 US | 🟢 | vmess | @ir_netproxy | 9'
       - '🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 10'
       - '🇺🇸 US | 🔴 | vmess | @ir_netproxy | 11'
@@ -122,19 +120,18 @@ proxy-groups:
     interval: 300
     proxies:
       - '🇳🇱 NL | 🔴 | vmess | @custom_14 | 5'
-      - '🇳🇱 NL | 🟢 | ss | @free1ss | 12'
       - '🇫🇮 FI | 🟢 | ss | @free1ss | 14'
       - '🇩🇪 DE | 🟢 | ss | @free1ss | 15'
       - '🇳🇱 NL | 🟢 | ss | @free1ss | 16'
+      - '🇸🇬 SG | 🟢 | ss | @free1ss | 17'
       - '❔ XX | 🟢 | ss | @free_omega | 4'
-      - '🇷🇺 RU | 🟢 | ss | @gh_v2rayng | 13'
-      - '🇵🇱 PL | 🟢 | ss | @gh_v2rayng | 14'
-      - '🇺🇸 US | 🟢 | ss | @gh_v2rayng | 15'
-      - '🇹🇷 TR | 🟢 | ss | @gh_v2rayng | 16'
-      - '🇺🇸 US | 🔴 | vmess | @ip_cf_config | 9'
-      - '🇷🇺 RU | 🟢 | trojan | @ip_cf_config | 10'
-      - '🇺🇸 US | 🟢 | ss | @ip_cf_config | 11'
-      - '🇭🇰 HK | 🔴 | trojan | @ip_cf_config | 12'
+      - '🇷🇺 RU | 🟢 | ss | @gh_v2rayng | 12'
+      - '🇵🇱 PL | 🟢 | ss | @gh_v2rayng | 13'
+      - '🇺🇸 US | 🟢 | ss | @gh_v2rayng | 14'
+      - '🇹🇷 TR | 🟢 | ss | @gh_v2rayng | 15'
+      - '❔ XX | 🔴 | trojan | @ip_cf_config | 8'
+      - '🇩🇪 DE | 🟢 | ss | @ip_cf_config | 9'
+      - '🇷🇺 RU | 🟢 | trojan | @ip_cf_config | 11'
       - '🇺🇸 US | 🟢 | vmess | @ir_netproxy | 9'
       - '🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 10'
       - '🇺🇸 US | 🔴 | vmess | @ir_netproxy | 11'
@@ -160,19 +157,18 @@ proxy-groups:
     type: select
     proxies:
       - '🇳🇱 NL | 🔴 | vmess | @custom_14 | 5'
-      - '🇳🇱 NL | 🟢 | ss | @free1ss | 12'
       - '🇫🇮 FI | 🟢 | ss | @free1ss | 14'
       - '🇩🇪 DE | 🟢 | ss | @free1ss | 15'
       - '🇳🇱 NL | 🟢 | ss | @free1ss | 16'
+      - '🇸🇬 SG | 🟢 | ss | @free1ss | 17'
       - '❔ XX | 🟢 | ss | @free_omega | 4'
-      - '🇷🇺 RU | 🟢 | ss | @gh_v2rayng | 13'
-      - '🇵🇱 PL | 🟢 | ss | @gh_v2rayng | 14'
-      - '🇺🇸 US | 🟢 | ss | @gh_v2rayng | 15'
-      - '🇹🇷 TR | 🟢 | ss | @gh_v2rayng | 16'
-      - '🇺🇸 US | 🔴 | vmess | @ip_cf_config | 9'
-      - '🇷🇺 RU | 🟢 | trojan | @ip_cf_config | 10'
-      - '🇺🇸 US | 🟢 | ss | @ip_cf_config | 11'
-      - '🇭🇰 HK | 🔴 | trojan | @ip_cf_config | 12'
+      - '🇷🇺 RU | 🟢 | ss | @gh_v2rayng | 12'
+      - '🇵🇱 PL | 🟢 | ss | @gh_v2rayng | 13'
+      - '🇺🇸 US | 🟢 | ss | @gh_v2rayng | 14'
+      - '🇹🇷 TR | 🟢 | ss | @gh_v2rayng | 15'
+      - '❔ XX | 🔴 | trojan | @ip_cf_config | 8'
+      - '🇩🇪 DE | 🟢 | ss | @ip_cf_config | 9'
+      - '🇷🇺 RU | 🟢 | trojan | @ip_cf_config | 11'
       - '🇺🇸 US | 🟢 | vmess | @ir_netproxy | 9'
       - '🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 10'
       - '🇺🇸 US | 🔴 | vmess | @ir_netproxy | 11'
