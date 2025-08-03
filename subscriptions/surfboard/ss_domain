@@ -9,12 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇩🇪 DE | 🟢 | ss | @ip_cf_config | 10 = ss, fin.outlinebot1.ru, 5904, encrypt-method = chacha20-ietf-poly1305, password = 5TZnwPb23pQS39lIucspJw
+🇳🇱 NL | 🟢 | ss | @ip_cf_config | 13 = ss, beesyar.org, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🟢 | ss | @ip_cf_config | 10
-PSG-AUTO = url-test, 🇩🇪 DE | 🟢 | ss | @ip_cf_config | 10
-PSG-FALLBACK = fallback, 🇩🇪 DE | 🟢 | ss | @ip_cf_config | 10
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇳🇱 NL | 🟢 | ss | @ip_cf_config | 13
+PSG-AUTO = url-test, 🇳🇱 NL | 🟢 | ss | @ip_cf_config | 13
+PSG-FALLBACK = fallback, 🇳🇱 NL | 🟢 | ss | @ip_cf_config | 13
 
 [Rule]
 GEOIP,IR,DIRECT

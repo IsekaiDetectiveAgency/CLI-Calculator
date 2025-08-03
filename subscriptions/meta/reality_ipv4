@@ -18,7 +18,6 @@ dns:
 
 proxies:
   - {"name":"🇦🇪 AE | 🟢 | vless | @Fr33C0nfig | 45","type":"vless","server":"5.253.31.129","port":17416,"uuid":"1c45c08c-1177-48e9-8f92-1186f7497d65","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"sourceforge.net","reality-opts":{"public-key":"FBeK7y7LfBjdFk79GzCUvhUgCWLaOUnN0bhkS_yEESw","short-id":"c427ac39e8"}}
-  - {"name":"🇩🇪 DE | 🟢 | vless | @ip_cf_config | 9","type":"vless","server":"116.203.75.81","port":36313,"uuid":"010ddaac-7bac-4dcc-a353-215d01feb06e","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"khor.sarezh.click","reality-opts":{"public-key":"UKw4crSzH0M3eceNPmo4bNs4NyIfhaCUEMi52k6J5DI","short-id":"c74cb910"}}
   - {"name":"🇩🇪 DE | 🟢 | vless | @kesslervpn | 0","type":"vless","server":"165.227.167.107","port":2020,"uuid":"e310b2f0-c3e3-4588-b0f1-1f61eca7183f","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"grpc-opts":{"grpc-service-name":"."},"reality-opts":{"public-key":"ioN06zzyjfpaFtOtnVrMgnzTjAyVGYyVYzRrfHjDiU8"}}
   - {"name":"🇫🇷 FR | 🟢 | vless | @mrclud | 21","type":"vless","server":"5.135.21.191","port":8880,"uuid":"e02208b6-2626-49ef-8b93-0d80ed33f4ac","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"canva.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"JYX6QCdjl0yIzfE_TMjJAnD0zyuroMhT2fj3oAzlTWc","short-id":"8b62ab46"}}
   - {"name":"🇳🇱 NL | 🟢 | vless | @vpncostumer | 12","type":"vless","server":"45.150.33.157","port":50810,"uuid":"9d21a437-dbae-4995-949b-d9920f2613a9","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"zhaket.com","reality-opts":{"public-key":"J0pRUeUHMS_olwz0xLOMJxIxe-DhsCZA3qnAMRC4zTg","short-id":"aa60a00122200b76"}}
@@ -54,7 +53,6 @@ proxy-groups:
     tolerance: 50 
     proxies:
       - '🇦🇪 AE | 🟢 | vless | @Fr33C0nfig | 45'
-      - '🇩🇪 DE | 🟢 | vless | @ip_cf_config | 9'
       - '🇩🇪 DE | 🟢 | vless | @kesslervpn | 0'
       - '🇫🇷 FR | 🟢 | vless | @mrclud | 21'
       - '🇳🇱 NL | 🟢 | vless | @vpncostumer | 12'
@@ -66,7 +64,6 @@ proxy-groups:
     interval: 300
     proxies:
       - '🇦🇪 AE | 🟢 | vless | @Fr33C0nfig | 45'
-      - '🇩🇪 DE | 🟢 | vless | @ip_cf_config | 9'
       - '🇩🇪 DE | 🟢 | vless | @kesslervpn | 0'
       - '🇫🇷 FR | 🟢 | vless | @mrclud | 21'
       - '🇳🇱 NL | 🟢 | vless | @vpncostumer | 12'
@@ -76,7 +73,6 @@ proxy-groups:
     type: select
     proxies:
       - '🇦🇪 AE | 🟢 | vless | @Fr33C0nfig | 45'
-      - '🇩🇪 DE | 🟢 | vless | @ip_cf_config | 9'
       - '🇩🇪 DE | 🟢 | vless | @kesslervpn | 0'
       - '🇫🇷 FR | 🟢 | vless | @mrclud | 21'
       - '🇳🇱 NL | 🟢 | vless | @vpncostumer | 12'
