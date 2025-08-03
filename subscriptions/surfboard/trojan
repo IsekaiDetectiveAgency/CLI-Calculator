@@ -9,13 +9,14 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇭🇰 HK | 🔴 | trojan | @ip_cf_config | 9 = trojan, 155.117.228.70, 26193, password = 7367d04e-4c59-4dff-a50e-12e730a09891, skip-cert-verify = true
-❔ XX | 🔴 | trojan | @ip_cf_config | 12 = trojan, 13c2c931-swin40-swy6li-tni2.cu.plebai.net, 15229, password = 5e2f888c-68ef-11ef-96ca-f23c9164ca5d, skip-cert-verify = false
+🇷🇺 RU | 🟢 | trojan | @ip_cf_config | 10 = trojan, 176.32.39.29, 443, password = 8OXD5VVt8s, skip-cert-verify = false
+🇫🇷 FR | 🟢 | trojan | @ip_cf_config | 13 = trojan, 51.91.11.29, 80, password = 598c19f3-a48e-47cd-8451-1ba04ea094d0, skip-cert-verify = false
+🇺🇸 US | 🟢 | trojan | @ip_cf_config | 14 = trojan, 198.23.229.250, 443, password = 2ee85121-31de-4581-a492-eb00f606e392, skip-cert-verify = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇭🇰 HK | 🔴 | trojan | @ip_cf_config | 9, ❔ XX | 🔴 | trojan | @ip_cf_config | 12
-PSG-AUTO = url-test, 🇭🇰 HK | 🔴 | trojan | @ip_cf_config | 9, ❔ XX | 🔴 | trojan | @ip_cf_config | 12
-PSG-FALLBACK = fallback, 🇭🇰 HK | 🔴 | trojan | @ip_cf_config | 9, ❔ XX | 🔴 | trojan | @ip_cf_config | 12
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇷🇺 RU | 🟢 | trojan | @ip_cf_config | 10, 🇫🇷 FR | 🟢 | trojan | @ip_cf_config | 13, 🇺🇸 US | 🟢 | trojan | @ip_cf_config | 14
+PSG-AUTO = url-test, 🇷🇺 RU | 🟢 | trojan | @ip_cf_config | 10, 🇫🇷 FR | 🟢 | trojan | @ip_cf_config | 13, 🇺🇸 US | 🟢 | trojan | @ip_cf_config | 14
+PSG-FALLBACK = fallback, 🇷🇺 RU | 🟢 | trojan | @ip_cf_config | 10, 🇫🇷 FR | 🟢 | trojan | @ip_cf_config | 13, 🇺🇸 US | 🟢 | trojan | @ip_cf_config | 14
 
 [Rule]
 GEOIP,IR,DIRECT

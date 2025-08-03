@@ -9,15 +9,14 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇬🇧 GB | 🟢 | ss | @lranonline_new | 4 = ss, admin.c2.webramz.co, 443, encrypt-method = chacha20-ietf-poly1305, password = WstuSnlu4ieA9M0L
-🇬🇧 GB | 🟢 | ss | @lranonline_new | 5 = ss, series-a2-mec.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
-🇺🇸 US | 🟢 | ss | @lranonline_new | 6 = ss, hackney-latest-strike.freesocks.work, 443, encrypt-method = chacha20-ietf-poly1305, password = XUMTygEM1jVYIvysXKqA5T
-🇬🇧 GB | 🟢 | ss | @lranonline_new | 7 = ss, series-a2-mec.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
+🇬🇧 GB | 🟢 | ss | @lranonline_new | 2 = ss, series-a2-mec.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
+🇺🇸 US | 🟢 | ss | @lranonline_new | 3 = ss, hackney-latest-strike.freesocks.work, 443, encrypt-method = chacha20-ietf-poly1305, password = XUMTygEM1jVYIvysXKqA5T
+🇬🇧 GB | 🟢 | ss | @lranonline_new | 4 = ss, series-a2-mec.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇬🇧 GB | 🟢 | ss | @lranonline_new | 4, 🇬🇧 GB | 🟢 | ss | @lranonline_new | 5, 🇺🇸 US | 🟢 | ss | @lranonline_new | 6, 🇬🇧 GB | 🟢 | ss | @lranonline_new | 7
-PSG-AUTO = url-test, 🇬🇧 GB | 🟢 | ss | @lranonline_new | 4, 🇬🇧 GB | 🟢 | ss | @lranonline_new | 5, 🇺🇸 US | 🟢 | ss | @lranonline_new | 6, 🇬🇧 GB | 🟢 | ss | @lranonline_new | 7
-PSG-FALLBACK = fallback, 🇬🇧 GB | 🟢 | ss | @lranonline_new | 4, 🇬🇧 GB | 🟢 | ss | @lranonline_new | 5, 🇺🇸 US | 🟢 | ss | @lranonline_new | 6, 🇬🇧 GB | 🟢 | ss | @lranonline_new | 7
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇬🇧 GB | 🟢 | ss | @lranonline_new | 2, 🇺🇸 US | 🟢 | ss | @lranonline_new | 3, 🇬🇧 GB | 🟢 | ss | @lranonline_new | 4
+PSG-AUTO = url-test, 🇬🇧 GB | 🟢 | ss | @lranonline_new | 2, 🇺🇸 US | 🟢 | ss | @lranonline_new | 3, 🇬🇧 GB | 🟢 | ss | @lranonline_new | 4
+PSG-FALLBACK = fallback, 🇬🇧 GB | 🟢 | ss | @lranonline_new | 2, 🇺🇸 US | 🟢 | ss | @lranonline_new | 3, 🇬🇧 GB | 🟢 | ss | @lranonline_new | 4
 
 [Rule]
 GEOIP,IR,DIRECT
