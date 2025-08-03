@@ -9,12 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-❔ XX | 🔴 | trojan | @ip_cf_config | 9 = trojan, stirring-parakeet.shiner427.skin, 443, password = 74260628090146500, skip-cert-verify = false
+❔ XX | 🔴 | trojan | @ip_cf_config | 15 = trojan, stirring-parakeet.shiner427.skin, 443, password = 74260628090146500, skip-cert-verify = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🔴 | trojan | @ip_cf_config | 9
-PSG-AUTO = url-test, ❔ XX | 🔴 | trojan | @ip_cf_config | 9
-PSG-FALLBACK = fallback, ❔ XX | 🔴 | trojan | @ip_cf_config | 9
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🔴 | trojan | @ip_cf_config | 15
+PSG-AUTO = url-test, ❔ XX | 🔴 | trojan | @ip_cf_config | 15
+PSG-FALLBACK = fallback, ❔ XX | 🔴 | trojan | @ip_cf_config | 15
 
 [Rule]
 GEOIP,IR,DIRECT
