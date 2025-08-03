@@ -9,13 +9,14 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇺🇸 US | 🟢 | trojan | @ip_cf_config | 10 = trojan, 192.3.107.252, 443, password = 2ee85121-31de-4581-a492-eb00f606e392, skip-cert-verify = false
-🇺🇸 US | 🟢 | trojan | @ip_cf_config | 13 = trojan, production.tj.ojan.workers.dev, 443, password = 9yu6m5okr, skip-cert-verify = false
+❔ XX | 🔴 | trojan | @ip_cf_config | 10 = trojan, stirring-parakeet.shiner427.skin, 443, password = 74260628090146500, skip-cert-verify = false
+🇺🇸 US | 🟢 | trojan | @ip_cf_config | 12 = trojan, 104.25.165.81, 8443, password = 123456, skip-cert-verify = false
+🇭🇰 HK | 🔴 | trojan | @ip_cf_config | 13 = trojan, 155.117.228.70, 26193, password = 7367d04e-4c59-4dff-a50e-12e730a09891, skip-cert-verify = true
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🟢 | trojan | @ip_cf_config | 10, 🇺🇸 US | 🟢 | trojan | @ip_cf_config | 13
-PSG-AUTO = url-test, 🇺🇸 US | 🟢 | trojan | @ip_cf_config | 10, 🇺🇸 US | 🟢 | trojan | @ip_cf_config | 13
-PSG-FALLBACK = fallback, 🇺🇸 US | 🟢 | trojan | @ip_cf_config | 10, 🇺🇸 US | 🟢 | trojan | @ip_cf_config | 13
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🔴 | trojan | @ip_cf_config | 10, 🇺🇸 US | 🟢 | trojan | @ip_cf_config | 12, 🇭🇰 HK | 🔴 | trojan | @ip_cf_config | 13
+PSG-AUTO = url-test, ❔ XX | 🔴 | trojan | @ip_cf_config | 10, 🇺🇸 US | 🟢 | trojan | @ip_cf_config | 12, 🇭🇰 HK | 🔴 | trojan | @ip_cf_config | 13
+PSG-FALLBACK = fallback, ❔ XX | 🔴 | trojan | @ip_cf_config | 10, 🇺🇸 US | 🟢 | trojan | @ip_cf_config | 12, 🇭🇰 HK | 🔴 | trojan | @ip_cf_config | 13
 
 [Rule]
 GEOIP,IR,DIRECT

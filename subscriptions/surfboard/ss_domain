@@ -9,12 +9,15 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇳🇱 NL | 🟢 | ss | @ip_cf_config | 13 = ss, beesyar.org, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
+🇬🇧 GB | 🟢 | ss | @lranonline_new | 5 = ss, admin.c2.webramz.co, 443, encrypt-method = chacha20-ietf-poly1305, password = WstuSnlu4ieA9M0L
+🇬🇧 GB | 🟢 | ss | @lranonline_new | 6 = ss, series-a2-mec.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
+🇺🇸 US | 🟢 | ss | @lranonline_new | 7 = ss, hackney-latest-strike.freesocks.work, 443, encrypt-method = chacha20-ietf-poly1305, password = XUMTygEM1jVYIvysXKqA5T
+🇬🇧 GB | 🟢 | ss | @lranonline_new | 8 = ss, series-a2-mec.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇳🇱 NL | 🟢 | ss | @ip_cf_config | 13
-PSG-AUTO = url-test, 🇳🇱 NL | 🟢 | ss | @ip_cf_config | 13
-PSG-FALLBACK = fallback, 🇳🇱 NL | 🟢 | ss | @ip_cf_config | 13
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇬🇧 GB | 🟢 | ss | @lranonline_new | 5, 🇬🇧 GB | 🟢 | ss | @lranonline_new | 6, 🇺🇸 US | 🟢 | ss | @lranonline_new | 7, 🇬🇧 GB | 🟢 | ss | @lranonline_new | 8
+PSG-AUTO = url-test, 🇬🇧 GB | 🟢 | ss | @lranonline_new | 5, 🇬🇧 GB | 🟢 | ss | @lranonline_new | 6, 🇺🇸 US | 🟢 | ss | @lranonline_new | 7, 🇬🇧 GB | 🟢 | ss | @lranonline_new | 8
+PSG-FALLBACK = fallback, 🇬🇧 GB | 🟢 | ss | @lranonline_new | 5, 🇬🇧 GB | 🟢 | ss | @lranonline_new | 6, 🇺🇸 US | 🟢 | ss | @lranonline_new | 7, 🇬🇧 GB | 🟢 | ss | @lranonline_new | 8
 
 [Rule]
 GEOIP,IR,DIRECT
