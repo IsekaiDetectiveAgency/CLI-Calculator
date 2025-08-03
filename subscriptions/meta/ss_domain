@@ -17,9 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇬🇧 GB | 🟢 | ss | @lranonline_new | 2","type":"ss","server":"series-a2-mec.varzesh360.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🟢 | ss | @lranonline_new | 3","type":"ss","server":"hackney-latest-strike.freesocks.work","port":443,"password":"XUMTygEM1jVYIvysXKqA5T","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧 GB | 🟢 | ss | @lranonline_new | 4","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇪 SE | 🟢 | ss | @ip_cf_config | 6","type":"ss","server":"azure-sto.edgeservers.org","port":48172,"password":"51yloQC8D9w1Wae7FHtI65","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🟢 | ss | @ip_cf_config | 10","type":"ss","server":"beesyar.org","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
 
 rule-providers:
   ir_domains:
@@ -50,25 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇬🇧 GB | 🟢 | ss | @lranonline_new | 2'
-      - '🇺🇸 US | 🟢 | ss | @lranonline_new | 3'
-      - '🇬🇧 GB | 🟢 | ss | @lranonline_new | 4'
+      - '🇸🇪 SE | 🟢 | ss | @ip_cf_config | 6'
+      - '🇺🇸 US | 🟢 | ss | @ip_cf_config | 10'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇬🇧 GB | 🟢 | ss | @lranonline_new | 2'
-      - '🇺🇸 US | 🟢 | ss | @lranonline_new | 3'
-      - '🇬🇧 GB | 🟢 | ss | @lranonline_new | 4'
+      - '🇸🇪 SE | 🟢 | ss | @ip_cf_config | 6'
+      - '🇺🇸 US | 🟢 | ss | @ip_cf_config | 10'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇬🇧 GB | 🟢 | ss | @lranonline_new | 2'
-      - '🇺🇸 US | 🟢 | ss | @lranonline_new | 3'
-      - '🇬🇧 GB | 🟢 | ss | @lranonline_new | 4'
+      - '🇸🇪 SE | 🟢 | ss | @ip_cf_config | 6'
+      - '🇺🇸 US | 🟢 | ss | @ip_cf_config | 10'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
