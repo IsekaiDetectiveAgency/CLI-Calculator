@@ -10,7 +10,7 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇳🇱 NL | 🔴 | vmess | @custom_14 | 5 = vmess, 45.199.138.152, 45886, username = 418048af-a293-4b99-9b0c-98ca4690dd24, ws = false, tls = false
-🇺🇸 US | 🔴 | vmess | @ip_cf_config | 12 = vmess, 104.18.149.76, 443, username = de94cc0a-0592-4969-b1fc-97ea8f0ea0b3, ws = true, tls = true, ws-path = /aa, ws-headers = Host:"us.kkp.me.eu.org"
+🇺🇸 US | 🔴 | vmess | @ip_cf_config | 13 = vmess, 172.67.131.27, 2053, username = 350e2b01-d410-44a6-90ba-6483f1062972, ws = true, tls = true, ws-path = /, ws-headers = Host:"rak2d4.89060004.xyz"
 🇺🇸 US | 🟢 | vmess | @ir_netproxy | 9 = vmess, 104.17.77.94, 2053, username = 72f76c36-3e3c-45b3-a61f-d8f017345958, ws = true, tls = true, ws-path = /, ws-headers = Host:"b5.iraniancp.click"
 🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 10 = vmess, 89.116.38.174, 3456, username = 32e49539-f569-403d-b4b6-a8978c040d5d, ws = false, tls = false
 🇺🇸 US | 🔴 | vmess | @ir_netproxy | 11 = vmess, 142.4.125.84, 59614, username = 418048af-a293-4b99-9b0c-98ca3580dd24, ws = false, tls = false
@@ -20,9 +20,9 @@ DIRECT = direct
 🇩🇪 DE | 🔴 | vmess | @vpnv2raytop | 0 = vmess, s3.ipyar.org, 12470, username = 5d291962-05ac-48f3-b9e5-ca6fead05966, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇳🇱 NL | 🔴 | vmess | @custom_14 | 5, 🇺🇸 US | 🔴 | vmess | @ip_cf_config | 12, 🇺🇸 US | 🟢 | vmess | @ir_netproxy | 9, 🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 10, 🇺🇸 US | 🔴 | vmess | @ir_netproxy | 11, 🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 13, 🇺🇸 US | 🔴 | vmess | @v2rayvmess | 13, ❔ XX | 🔴 | vmess | @v2rayvmess | 15, 🇩🇪 DE | 🔴 | vmess | @vpnv2raytop | 0
-PSG-AUTO = url-test, 🇳🇱 NL | 🔴 | vmess | @custom_14 | 5, 🇺🇸 US | 🔴 | vmess | @ip_cf_config | 12, 🇺🇸 US | 🟢 | vmess | @ir_netproxy | 9, 🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 10, 🇺🇸 US | 🔴 | vmess | @ir_netproxy | 11, 🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 13, 🇺🇸 US | 🔴 | vmess | @v2rayvmess | 13, ❔ XX | 🔴 | vmess | @v2rayvmess | 15, 🇩🇪 DE | 🔴 | vmess | @vpnv2raytop | 0
-PSG-FALLBACK = fallback, 🇳🇱 NL | 🔴 | vmess | @custom_14 | 5, 🇺🇸 US | 🔴 | vmess | @ip_cf_config | 12, 🇺🇸 US | 🟢 | vmess | @ir_netproxy | 9, 🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 10, 🇺🇸 US | 🔴 | vmess | @ir_netproxy | 11, 🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 13, 🇺🇸 US | 🔴 | vmess | @v2rayvmess | 13, ❔ XX | 🔴 | vmess | @v2rayvmess | 15, 🇩🇪 DE | 🔴 | vmess | @vpnv2raytop | 0
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇳🇱 NL | 🔴 | vmess | @custom_14 | 5, 🇺🇸 US | 🔴 | vmess | @ip_cf_config | 13, 🇺🇸 US | 🟢 | vmess | @ir_netproxy | 9, 🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 10, 🇺🇸 US | 🔴 | vmess | @ir_netproxy | 11, 🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 13, 🇺🇸 US | 🔴 | vmess | @v2rayvmess | 13, ❔ XX | 🔴 | vmess | @v2rayvmess | 15, 🇩🇪 DE | 🔴 | vmess | @vpnv2raytop | 0
+PSG-AUTO = url-test, 🇳🇱 NL | 🔴 | vmess | @custom_14 | 5, 🇺🇸 US | 🔴 | vmess | @ip_cf_config | 13, 🇺🇸 US | 🟢 | vmess | @ir_netproxy | 9, 🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 10, 🇺🇸 US | 🔴 | vmess | @ir_netproxy | 11, 🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 13, 🇺🇸 US | 🔴 | vmess | @v2rayvmess | 13, ❔ XX | 🔴 | vmess | @v2rayvmess | 15, 🇩🇪 DE | 🔴 | vmess | @vpnv2raytop | 0
+PSG-FALLBACK = fallback, 🇳🇱 NL | 🔴 | vmess | @custom_14 | 5, 🇺🇸 US | 🔴 | vmess | @ip_cf_config | 13, 🇺🇸 US | 🟢 | vmess | @ir_netproxy | 9, 🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 10, 🇺🇸 US | 🔴 | vmess | @ir_netproxy | 11, 🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 13, 🇺🇸 US | 🔴 | vmess | @v2rayvmess | 13, ❔ XX | 🔴 | vmess | @v2rayvmess | 15, 🇩🇪 DE | 🔴 | vmess | @vpnv2raytop | 0
 
 [Rule]
 GEOIP,IR,DIRECT
