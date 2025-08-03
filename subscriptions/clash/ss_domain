@@ -17,7 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪 DE | 🟢 | ss | @ip_cf_config | 12","type":"ss","server":"fin.outlinebot1.ru","port":5904,"password":"5TZnwPb23pQS39lIucspJw","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🟢 | ss | @ip_cf_config | 10","type":"ss","server":"beesyar.org","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇪 SE | 🟢 | ss | @ip_cf_config | 12","type":"ss","server":"azure-sto.edgeservers.org","port":48172,"password":"51yloQC8D9w1Wae7FHtI65","cipher":"chacha20-ietf-poly1305"}
 
 rule-providers:
   ir_domains:
@@ -48,19 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇩🇪 DE | 🟢 | ss | @ip_cf_config | 12'
+      - '🇺🇸 US | 🟢 | ss | @ip_cf_config | 10'
+      - '🇸🇪 SE | 🟢 | ss | @ip_cf_config | 12'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇩🇪 DE | 🟢 | ss | @ip_cf_config | 12'
+      - '🇺🇸 US | 🟢 | ss | @ip_cf_config | 10'
+      - '🇸🇪 SE | 🟢 | ss | @ip_cf_config | 12'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇩🇪 DE | 🟢 | ss | @ip_cf_config | 12'
+      - '🇺🇸 US | 🟢 | ss | @ip_cf_config | 10'
+      - '🇸🇪 SE | 🟢 | ss | @ip_cf_config | 12'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
