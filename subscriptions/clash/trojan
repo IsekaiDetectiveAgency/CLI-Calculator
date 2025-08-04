@@ -17,8 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"❔ XX | 🔴 | trojan | @ip_cf_config | 8","type":"trojan","server":"stirring-parakeet.shiner427.skin","port":443,"password":"74260628090146500","skip-cert-verify":false}
-  - {"name":"❔ XX | 🔴 | trojan | @ip_cf_config | 9","type":"trojan","server":"391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net","port":15229,"password":"60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d","skip-cert-verify":false}
+  - {"name":"🇺🇸 US | 🟢 | trojan | @ip_cf_config | 12","type":"trojan","server":"192.3.107.252","port":443,"password":"2ee85121-31de-4581-a492-eb00f606e392","skip-cert-verify":false}
+  - {"name":"❔ XX | 🔴 | trojan | @ip_cf_config | 13","type":"trojan","server":"391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net","port":15229,"password":"60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d","skip-cert-verify":false}
 
 rule-providers:
   ir_domains:
@@ -49,22 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '❔ XX | 🔴 | trojan | @ip_cf_config | 8'
-      - '❔ XX | 🔴 | trojan | @ip_cf_config | 9'
+      - '🇺🇸 US | 🟢 | trojan | @ip_cf_config | 12'
+      - '❔ XX | 🔴 | trojan | @ip_cf_config | 13'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '❔ XX | 🔴 | trojan | @ip_cf_config | 8'
-      - '❔ XX | 🔴 | trojan | @ip_cf_config | 9'
+      - '🇺🇸 US | 🟢 | trojan | @ip_cf_config | 12'
+      - '❔ XX | 🔴 | trojan | @ip_cf_config | 13'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '❔ XX | 🔴 | trojan | @ip_cf_config | 8'
-      - '❔ XX | 🔴 | trojan | @ip_cf_config | 9'
+      - '🇺🇸 US | 🟢 | trojan | @ip_cf_config | 12'
+      - '❔ XX | 🔴 | trojan | @ip_cf_config | 13'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
