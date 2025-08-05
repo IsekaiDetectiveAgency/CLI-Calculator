@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 48"
+                "🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 51"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 48"
+                "🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 51"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,13 +135,27 @@
             "type": "dns"
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 48",
+            "tag": "🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 51",
             "type": "vless",
-            "server": "81.12.32.135",
-            "server_port": 32990,
-            "uuid": "a804bb53-7504-4f06-96d8-ff56fb71539d",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "usa.multiapvps.ir",
+            "server_port": 4434,
+            "uuid": "32b67990-fb70-457f-8f02-c7c62e4156ca",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "docker.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg",
+                    "short_id": ""
+                }
+            }
         }
     ],
     "route": {

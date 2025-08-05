@@ -17,9 +17,9 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇦🇪 AE | 🟢 | vless | @Fr33C0nfig | 44","type":"vless","server":"5.253.31.129","port":17416,"uuid":"1c45c08c-1177-48e9-8f92-1186f7497d65","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"sourceforge.net","reality-opts":{"public-key":"FBeK7y7LfBjdFk79GzCUvhUgCWLaOUnN0bhkS_yEESw","short-id":"c427ac39e8"}}
-  - {"name":"🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 45","type":"vless","server":"94.182.142.28","port":2020,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 48","type":"vless","server":"81.12.32.135","port":32990,"uuid":"a804bb53-7504-4f06-96d8-ff56fb71539d","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 47","type":"vless","server":"91.99.199.137","port":443,"uuid":"7b6eca4c-44ae-40c6-973a-4e3b29d30803","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇦🇪 AE | 🟢 | vless | @Fr33C0nfig | 48","type":"vless","server":"5.253.31.129","port":17416,"uuid":"1c45c08c-1177-48e9-8f92-1186f7497d65","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"sourceforge.net","reality-opts":{"public-key":"FBeK7y7LfBjdFk79GzCUvhUgCWLaOUnN0bhkS_yEESw","short-id":"c427ac39e8"}}
+  - {"name":"🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49","type":"vless","server":"94.182.142.28","port":2020,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🇺🇸 US | 🟢 | vless | @bored_vpn | 16","type":"vless","server":"192.0.63.184","port":443,"uuid":"5879d109-8c92-448a-801b-3f3989019934","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"pages.dev","ws-opts":{"path":"/Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray?ed=2048","headers":{"Host":"hrtfwe.pages.dev"}}}
   - {"name":"🇺🇸 US | 🔴 | vless | @configx2ray | 3","type":"vless","server":"104.21.96.1","port":80,"uuid":"2036e2c3-18a5-4eed-9db4-f91a7f02c7d5","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/193.123.81.105=443","headers":{"Host":"zoomgov.vipren.biz.id"}}}
   - {"name":"🇺🇸 US | 🟢 | vless | @configx2ray | 4","type":"vless","server":"172.66.40.99","port":443,"uuid":"5879d109-8c92-448a-801b-3f3989019934","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"pages.dev","ws-opts":{"path":"/Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray?ed=2048","headers":{"Host":"hrtfwe.pages.dev"}}}
@@ -82,9 +82,9 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇦🇪 AE | 🟢 | vless | @Fr33C0nfig | 44'
-      - '🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 45'
-      - '🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 48'
+      - '🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 47'
+      - '🇦🇪 AE | 🟢 | vless | @Fr33C0nfig | 48'
+      - '🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49'
       - '🇺🇸 US | 🟢 | vless | @bored_vpn | 16'
       - '🇺🇸 US | 🔴 | vless | @configx2ray | 3'
       - '🇺🇸 US | 🟢 | vless | @configx2ray | 4'
@@ -123,9 +123,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇦🇪 AE | 🟢 | vless | @Fr33C0nfig | 44'
-      - '🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 45'
-      - '🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 48'
+      - '🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 47'
+      - '🇦🇪 AE | 🟢 | vless | @Fr33C0nfig | 48'
+      - '🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49'
       - '🇺🇸 US | 🟢 | vless | @bored_vpn | 16'
       - '🇺🇸 US | 🔴 | vless | @configx2ray | 3'
       - '🇺🇸 US | 🟢 | vless | @configx2ray | 4'
@@ -162,9 +162,9 @@ proxy-groups:
   - name: All-Proxies
     type: select
     proxies:
-      - '🇦🇪 AE | 🟢 | vless | @Fr33C0nfig | 44'
-      - '🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 45'
-      - '🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 48'
+      - '🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 47'
+      - '🇦🇪 AE | 🟢 | vless | @Fr33C0nfig | 48'
+      - '🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49'
       - '🇺🇸 US | 🟢 | vless | @bored_vpn | 16'
       - '🇺🇸 US | 🔴 | vless | @configx2ray | 3'
       - '🇺🇸 US | 🟢 | vless | @configx2ray | 4'
