@@ -68,7 +68,7 @@ proxies:
   - {"name":"❔ XX | 🟢 | vless | @vp22ray | 9","type":"vless","server":"german.vp22ray.site","port":2087,"uuid":"290719bc-bd21-4467-bdcd-33396fa88394","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"Ftp.debian.org","reality-opts":{"public-key":"54z0hCTglWDmCFnDBU4JmzqjJtFgbhM3x45l-B5If1I","short-id":"32c43ca1"}}
   - {"name":"❔ XX | 🟢 | vless | @vp22ray | 10","type":"vless","server":"German.vp22ray.site","port":40130,"uuid":"eb7f17f3-4715-4b2d-87e5-39d12b1c962c","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"Seed.cloudflare.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"XEpHiKs6YbcMrBR4YTRXLlIlO5RfGcVUUcbt4KZc7TY","short-id":"d90b293e"}}
   - {"name":"🇺🇸 US | 🟢 | vless | @vp_n1 | 2","type":"vless","server":"hajlab.ucdavis.edu","port":443,"uuid":"82409acf-abb1-4f97-b4b2-4ebf40e8b507","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"hajlab.ucdavis.edu","ws-opts":{"path":"/@VPNCUSTOMIZE-----@VPNCUSTOMIZE-----@VPNCUSTOMIZE---@VPNCUSTOMIZE---@VPNCUSTOMIZE---@VPNCUSTOMIZE---@VPNCUSTOMIZE?ed=2560","headers":{"Host":"JoinBedee--VPNCUSTOMIZE.ai"}}}
-  - {"name":"🇨🇦 CA | 🔴 | vless | @vpncostumer | 14","type":"vless","server":"kafshu.ir","port":8080,"uuid":"07e97b58-4e24-4c56-b3ce-3d65792b9602","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy","headers":{"Host":"inFo.laLezaRanegomaNandish.onlineshopbb.org."}}}
+  - {"name":"🇺🇸 US | 🔴 | vless | @vpncostumer | 14","type":"vless","server":"kafshu.ir","port":8080,"uuid":"07e97b58-4e24-4c56-b3ce-3d65792b9602","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy","headers":{"Host":"inFo.laLezaRanegomaNandish.onlineshopbb.org."}}}
 
 rule-providers:
   ir_domains:
@@ -150,7 +150,7 @@ proxy-groups:
       - '❔ XX | 🟢 | vless | @vp22ray | 9'
       - '❔ XX | 🟢 | vless | @vp22ray | 10'
       - '🇺🇸 US | 🟢 | vless | @vp_n1 | 2'
-      - '🇨🇦 CA | 🔴 | vless | @vpncostumer | 14'
+      - '🇺🇸 US | 🔴 | vless | @vpncostumer | 14'
 
   - name: 📉 Fallback
     type: fallback
@@ -208,7 +208,7 @@ proxy-groups:
       - '❔ XX | 🟢 | vless | @vp22ray | 9'
       - '❔ XX | 🟢 | vless | @vp22ray | 10'
       - '🇺🇸 US | 🟢 | vless | @vp_n1 | 2'
-      - '🇨🇦 CA | 🔴 | vless | @vpncostumer | 14'
+      - '🇺🇸 US | 🔴 | vless | @vpncostumer | 14'
       
   - name: All-Proxies
     type: select
@@ -264,7 +264,7 @@ proxy-groups:
       - '❔ XX | 🟢 | vless | @vp22ray | 9'
       - '❔ XX | 🟢 | vless | @vp22ray | 10'
       - '🇺🇸 US | 🟢 | vless | @vp_n1 | 2'
-      - '🇨🇦 CA | 🔴 | vless | @vpncostumer | 14'
+      - '🇺🇸 US | 🔴 | vless | @vpncostumer | 14'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
