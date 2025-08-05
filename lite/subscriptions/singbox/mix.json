@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49"
+                "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 48"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49"
+                "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 48"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,7 +135,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49",
+            "tag": "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 48",
             "type": "vless",
             "server": "81.12.32.135",
             "server_port": 32990,
