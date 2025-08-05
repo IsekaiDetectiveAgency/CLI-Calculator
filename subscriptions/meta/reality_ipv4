@@ -18,6 +18,7 @@ dns:
 
 proxies:
   - {"name":"🇦🇪 AE | 🟢 | vless | @Fr33C0nfig | 45","type":"vless","server":"5.253.31.129","port":17416,"uuid":"1c45c08c-1177-48e9-8f92-1186f7497d65","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"sourceforge.net","reality-opts":{"public-key":"FBeK7y7LfBjdFk79GzCUvhUgCWLaOUnN0bhkS_yEESw","short-id":"c427ac39e8"}}
+  - {"name":"🇩🇪 DE | 🟢 | vless | @ip_cf_config | 8","type":"vless","server":"116.203.75.81","port":36313,"uuid":"010ddaac-7bac-4dcc-a353-215d01feb06e","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"khor.sarezh.click","reality-opts":{"public-key":"UKw4crSzH0M3eceNPmo4bNs4NyIfhaCUEMi52k6J5DI","short-id":"c74cb910"}}
   - {"name":"🇩🇪 DE | 🟢 | vless | @kesslervpn | 0","type":"vless","server":"165.227.167.107","port":2020,"uuid":"e310b2f0-c3e3-4588-b0f1-1f61eca7183f","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"grpc-opts":{"grpc-service-name":"."},"reality-opts":{"public-key":"ioN06zzyjfpaFtOtnVrMgnzTjAyVGYyVYzRrfHjDiU8"}}
   - {"name":"🇳🇱 NL | 🟢 | vless | @manzariyeh_rasht | 17","type":"vless","server":"185.33.24.229","port":28495,"uuid":"7e296434-2d17-48d3-928d-19eaa34aecb1","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"dl.google.com","reality-opts":{"public-key":"KXMH8QzaRa66F6GxOR1CanBunO2uHdJvri2zCbar2RQ","short-id":"0ecc2c1392"}}
   - {"name":"🇫🇷 FR | 🟢 | vless | @mrclud | 21","type":"vless","server":"5.135.21.191","port":8880,"uuid":"e02208b6-2626-49ef-8b93-0d80ed33f4ac","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"canva.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"JYX6QCdjl0yIzfE_TMjJAnD0zyuroMhT2fj3oAzlTWc","short-id":"8b62ab46"}}
@@ -53,6 +54,7 @@ proxy-groups:
     tolerance: 50 
     proxies:
       - '🇦🇪 AE | 🟢 | vless | @Fr33C0nfig | 45'
+      - '🇩🇪 DE | 🟢 | vless | @ip_cf_config | 8'
       - '🇩🇪 DE | 🟢 | vless | @kesslervpn | 0'
       - '🇳🇱 NL | 🟢 | vless | @manzariyeh_rasht | 17'
       - '🇫🇷 FR | 🟢 | vless | @mrclud | 21'
@@ -64,6 +66,7 @@ proxy-groups:
     interval: 300
     proxies:
       - '🇦🇪 AE | 🟢 | vless | @Fr33C0nfig | 45'
+      - '🇩🇪 DE | 🟢 | vless | @ip_cf_config | 8'
       - '🇩🇪 DE | 🟢 | vless | @kesslervpn | 0'
       - '🇳🇱 NL | 🟢 | vless | @manzariyeh_rasht | 17'
       - '🇫🇷 FR | 🟢 | vless | @mrclud | 21'
@@ -73,6 +76,7 @@ proxy-groups:
     type: select
     proxies:
       - '🇦🇪 AE | 🟢 | vless | @Fr33C0nfig | 45'
+      - '🇩🇪 DE | 🟢 | vless | @ip_cf_config | 8'
       - '🇩🇪 DE | 🟢 | vless | @kesslervpn | 0'
       - '🇳🇱 NL | 🟢 | vless | @manzariyeh_rasht | 17'
       - '🇫🇷 FR | 🟢 | vless | @mrclud | 21'
