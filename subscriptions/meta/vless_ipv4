@@ -21,7 +21,7 @@ proxies:
   - {"name":"🇦🇪 AE | 🟢 | vless | @Fr33C0nfig | 48","type":"vless","server":"5.253.31.129","port":17416,"uuid":"1c45c08c-1177-48e9-8f92-1186f7497d65","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"sourceforge.net","reality-opts":{"public-key":"FBeK7y7LfBjdFk79GzCUvhUgCWLaOUnN0bhkS_yEESw","short-id":"c427ac39e8"}}
   - {"name":"🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49","type":"vless","server":"94.182.142.28","port":2020,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🇺🇸 US | 🟢 | vless | @bored_vpn | 15","type":"vless","server":"192.0.63.184","port":443,"uuid":"5879d109-8c92-448a-801b-3f3989019934","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"pages.dev","ws-opts":{"path":"/Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray?ed=2048","headers":{"Host":"hrtfwe.pages.dev"}}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @configx2ray | 6","type":"vless","server":"172.66.40.99","port":443,"uuid":"9a464637-7d90-4497-af4f-c5c8017a9b77","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"www.speedtest.net.google.com.bing.com.yahoo.com.pubgmobile.dns-dynamic.net","ws-opts":{"path":"/Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray?ed=2048","headers":{"Host":"www.speedtest.net.google.com.bing.com.yahoo.com.pubgmobile.dns-dynamic.net"}}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @configx2ray | 2","type":"vless","server":"172.66.40.99","port":443,"uuid":"9a464637-7d90-4497-af4f-c5c8017a9b77","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"www.speedtest.net.google.com.bing.com.yahoo.com.pubgmobile.dns-dynamic.net","ws-opts":{"path":"/Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray?ed=2048","headers":{"Host":"www.speedtest.net.google.com.bing.com.yahoo.com.pubgmobile.dns-dynamic.net"}}}
   - {"name":"🇺🇸 US | 🟢 | vless | @eliteproxyv2 | 5","type":"vless","server":"104.16.53.11","port":8443,"uuid":"7c9e3c1d-a360-4429-9189-e45a98de7fde","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"my.ski1plag.ir","ws-opts":{"path":"/","headers":{"Host":"my.ski1plag.ir"}}}
   - {"name":"🇫🇮 FI | 🔴 | vless | @iranbfilter | 5","type":"vless","server":"65.109.182.239","port":443,"uuid":"ae21b3e7-1694-4efe-bb21-69497843142f","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":""}}}
   - {"name":"🇩🇪 DE | 🟢 | vless | @kesslervpn | 0","type":"vless","server":"165.227.167.107","port":2020,"uuid":"e310b2f0-c3e3-4588-b0f1-1f61eca7183f","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"grpc-opts":{"grpc-service-name":"."},"reality-opts":{"public-key":"ioN06zzyjfpaFtOtnVrMgnzTjAyVGYyVYzRrfHjDiU8"}}
@@ -83,7 +83,7 @@ proxy-groups:
       - '🇦🇪 AE | 🟢 | vless | @Fr33C0nfig | 48'
       - '🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49'
       - '🇺🇸 US | 🟢 | vless | @bored_vpn | 15'
-      - '🇺🇸 US | 🟢 | vless | @configx2ray | 6'
+      - '🇺🇸 US | 🟢 | vless | @configx2ray | 2'
       - '🇺🇸 US | 🟢 | vless | @eliteproxyv2 | 5'
       - '🇫🇮 FI | 🔴 | vless | @iranbfilter | 5'
       - '🇩🇪 DE | 🟢 | vless | @kesslervpn | 0'
@@ -121,7 +121,7 @@ proxy-groups:
       - '🇦🇪 AE | 🟢 | vless | @Fr33C0nfig | 48'
       - '🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49'
       - '🇺🇸 US | 🟢 | vless | @bored_vpn | 15'
-      - '🇺🇸 US | 🟢 | vless | @configx2ray | 6'
+      - '🇺🇸 US | 🟢 | vless | @configx2ray | 2'
       - '🇺🇸 US | 🟢 | vless | @eliteproxyv2 | 5'
       - '🇫🇮 FI | 🔴 | vless | @iranbfilter | 5'
       - '🇩🇪 DE | 🟢 | vless | @kesslervpn | 0'
@@ -157,7 +157,7 @@ proxy-groups:
       - '🇦🇪 AE | 🟢 | vless | @Fr33C0nfig | 48'
       - '🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49'
       - '🇺🇸 US | 🟢 | vless | @bored_vpn | 15'
-      - '🇺🇸 US | 🟢 | vless | @configx2ray | 6'
+      - '🇺🇸 US | 🟢 | vless | @configx2ray | 2'
       - '🇺🇸 US | 🟢 | vless | @eliteproxyv2 | 5'
       - '🇫🇮 FI | 🔴 | vless | @iranbfilter | 5'
       - '🇩🇪 DE | 🟢 | vless | @kesslervpn | 0'
