@@ -17,11 +17,11 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇪🇸 ES | 🟢 | ss | @free1ss | 13","type":"ss","server":"194.87.45.189","port":443,"password":"MzR6Gar8xWcNjRRk2X9Dv0","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇳🇱 NL | 🟢 | ss | @free1ss | 14","type":"ss","server":"92.112.126.90","port":443,"password":"9tqhMdIrTkgQ46PvhyAtMH","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇻🇳 VN | 🟢 | ss | @free1ss | 15","type":"ss","server":"160.19.78.75","port":443,"password":"Nk9asglDzHzjktVzTkvhaA","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸 US | 🟢 | ss | @free1ss | 16","type":"ss","server":"159.223.135.183","port":48512,"password":"jcV7y4DgHxtD7qBySoMNoo","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇩🇪 DE | 🟢 | ss | @free1ss | 17","type":"ss","server":"46.101.245.131","port":44354,"password":"9RviNa4tscjcmCB408vLSg","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇹 AT | 🟢 | ss | @free1ss | 18","type":"ss","server":"152.53.2.128","port":34045,"password":"TG","cipher":"aes-256-gcm"}
   - {"name":"🇷🇺 RU | 🟢 | ss | @gh_v2rayng | 14","type":"ss","server":"45.139.24.24","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇵🇱 PL | 🟢 | ss | @gh_v2rayng | 15","type":"ss","server":"45.144.49.140","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸 US | 🟢 | ss | @gh_v2rayng | 16","type":"ss","server":"45.87.175.35","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
@@ -71,11 +71,11 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇪🇸 ES | 🟢 | ss | @free1ss | 13'
       - '🇳🇱 NL | 🟢 | ss | @free1ss | 14'
       - '🇻🇳 VN | 🟢 | ss | @free1ss | 15'
       - '🇺🇸 US | 🟢 | ss | @free1ss | 16'
       - '🇩🇪 DE | 🟢 | ss | @free1ss | 17'
+      - '🇦🇹 AT | 🟢 | ss | @free1ss | 18'
       - '🇷🇺 RU | 🟢 | ss | @gh_v2rayng | 14'
       - '🇵🇱 PL | 🟢 | ss | @gh_v2rayng | 15'
       - '🇺🇸 US | 🟢 | ss | @gh_v2rayng | 16'
@@ -101,11 +101,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇪🇸 ES | 🟢 | ss | @free1ss | 13'
       - '🇳🇱 NL | 🟢 | ss | @free1ss | 14'
       - '🇻🇳 VN | 🟢 | ss | @free1ss | 15'
       - '🇺🇸 US | 🟢 | ss | @free1ss | 16'
       - '🇩🇪 DE | 🟢 | ss | @free1ss | 17'
+      - '🇦🇹 AT | 🟢 | ss | @free1ss | 18'
       - '🇷🇺 RU | 🟢 | ss | @gh_v2rayng | 14'
       - '🇵🇱 PL | 🟢 | ss | @gh_v2rayng | 15'
       - '🇺🇸 US | 🟢 | ss | @gh_v2rayng | 16'
@@ -129,11 +129,11 @@ proxy-groups:
   - name: All-Proxies
     type: select
     proxies:
-      - '🇪🇸 ES | 🟢 | ss | @free1ss | 13'
       - '🇳🇱 NL | 🟢 | ss | @free1ss | 14'
       - '🇻🇳 VN | 🟢 | ss | @free1ss | 15'
       - '🇺🇸 US | 🟢 | ss | @free1ss | 16'
       - '🇩🇪 DE | 🟢 | ss | @free1ss | 17'
+      - '🇦🇹 AT | 🟢 | ss | @free1ss | 18'
       - '🇷🇺 RU | 🟢 | ss | @gh_v2rayng | 14'
       - '🇵🇱 PL | 🟢 | ss | @gh_v2rayng | 15'
       - '🇺🇸 US | 🟢 | ss | @gh_v2rayng | 16'
