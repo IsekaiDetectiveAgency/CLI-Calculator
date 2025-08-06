@@ -41,7 +41,7 @@ proxies:
   - {"name":"🇺🇸 US | 🔴 | vless | @torang_vpn | 13","type":"vless","server":"104.17.147.22","port":80,"uuid":"4e6bed59-1b49-4198-856d-97916b15e24c","tls":false,"network":"httpupgrade","client-fingerprint":"chrome","udp":true}
   - {"name":"🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17","type":"vless","server":"116.202.177.190","port":42067,"uuid":"4fb3e790-b115-47b8-982b-0973c00c0f9f","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"116.202.177.190"}}}
   - {"name":"🇬🇧 GB | 🔴 | vless | @vaynora | 5","type":"vless","server":"54.38.214.56","port":37171,"uuid":"19199927-fb46-4203-8872-672fd1daca14","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇺🇸 US | 🔴 | vless | @vmessorg | 21","type":"vless","server":"104.21.112.1","port":80,"uuid":"738bafc2-3c35-4191-871b-d8c3d9b6d1fd","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/@vmessorg----@vmessorg-----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg?ed=2480","headers":{"Host":"join-to-Vmessorg.sabadyt.ir"}}}
+  - {"name":"🇺🇸 US | 🔴 | vless | @vmessorg | 18","type":"vless","server":"104.21.112.1","port":80,"uuid":"738bafc2-3c35-4191-871b-d8c3d9b6d1fd","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/@vmessorg----@vmessorg-----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg?ed=2480","headers":{"Host":"join-to-Vmessorg.sabadyt.ir"}}}
   - {"name":"🇳🇱 NL | 🟢 | vless | @vpncostumer | 12","type":"vless","server":"45.150.33.157","port":50810,"uuid":"ec62aa44-b9cd-417f-9adb-3a602922466d","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"zhaket.com","reality-opts":{"public-key":"J0pRUeUHMS_olwz0xLOMJxIxe-DhsCZA3qnAMRC4zTg","short-id":"aa60a00122200b76"}}
   - {"name":"🇺🇸 US | 🟢 | vless | @vpnv2raytop | 0","type":"vless","server":"104.26.15.69","port":2096,"uuid":"30f2d443-af46-4dd6-83c9-b5e17299ebd2","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"carlotta.shoorekeeper.cloudns.org","ws-opts":{"path":"/?ed=2560","headers":{"Host":"carlotta.shoorekeeper.cloudns.org"}}}
 
@@ -98,7 +98,7 @@ proxy-groups:
       - '🇺🇸 US | 🔴 | vless | @torang_vpn | 13'
       - '🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17'
       - '🇬🇧 GB | 🔴 | vless | @vaynora | 5'
-      - '🇺🇸 US | 🔴 | vless | @vmessorg | 21'
+      - '🇺🇸 US | 🔴 | vless | @vmessorg | 18'
       - '🇳🇱 NL | 🟢 | vless | @vpncostumer | 12'
       - '🇺🇸 US | 🟢 | vless | @vpnv2raytop | 0'
 
@@ -131,7 +131,7 @@ proxy-groups:
       - '🇺🇸 US | 🔴 | vless | @torang_vpn | 13'
       - '🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17'
       - '🇬🇧 GB | 🔴 | vless | @vaynora | 5'
-      - '🇺🇸 US | 🔴 | vless | @vmessorg | 21'
+      - '🇺🇸 US | 🔴 | vless | @vmessorg | 18'
       - '🇳🇱 NL | 🟢 | vless | @vpncostumer | 12'
       - '🇺🇸 US | 🟢 | vless | @vpnv2raytop | 0'
       
@@ -162,7 +162,7 @@ proxy-groups:
       - '🇺🇸 US | 🔴 | vless | @torang_vpn | 13'
       - '🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17'
       - '🇬🇧 GB | 🔴 | vless | @vaynora | 5'
-      - '🇺🇸 US | 🔴 | vless | @vmessorg | 21'
+      - '🇺🇸 US | 🔴 | vless | @vmessorg | 18'
       - '🇳🇱 NL | 🟢 | vless | @vpncostumer | 12'
       - '🇺🇸 US | 🟢 | vless | @vpnv2raytop | 0'
 
