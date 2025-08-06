@@ -24,7 +24,8 @@ proxies:
   - {"name":"🇺🇸 US | 🟢 | vless | @eliteproxyv2 | 5","type":"vless","server":"104.16.53.11","port":8443,"uuid":"7c9e3c1d-a360-4429-9189-e45a98de7fde","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"my.ski1plag.ir","ws-opts":{"path":"/","headers":{"Host":"my.ski1plag.ir"}}}
   - {"name":"🇫🇮 FI | 🔴 | vless | @iranbfilter | 5","type":"vless","server":"65.109.182.239","port":443,"uuid":"ae21b3e7-1694-4efe-bb21-69497843142f","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":""}}}
   - {"name":"🇩🇪 DE | 🟢 | vless | @kesslervpn | 0","type":"vless","server":"165.227.167.107","port":2020,"uuid":"e310b2f0-c3e3-4588-b0f1-1f61eca7183f","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"grpc-opts":{"grpc-service-name":"."},"reality-opts":{"public-key":"ioN06zzyjfpaFtOtnVrMgnzTjAyVGYyVYzRrfHjDiU8"}}
-  - {"name":"🇺🇸 US | 🔴 | vless | @lranonline_new | 2","type":"vless","server":"104.16.191.195","port":80,"uuid":"f278037e-ce36-4634-9b4d-fca93e345a35","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"barayeiran.mahiozonboroon.qzz.io"}}}
+  - {"name":"🇫🇮 FI | 🟢 | vless | @lranonline_new | 5","type":"vless","server":"65.109.208.107","port":2083,"uuid":"7dce4e98-52a9-42d1-95e7-996403e310c5","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"servername":"khamenei.ir","grpc-opts":{"grpc-service-name":"melov2ray"},"reality-opts":{"public-key":"mDWXgatiJqUc4fmeDQqGusEBIhjFVrQ85y_ZUfNpFV8","short-id":"54602915a7"}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @lranonline_new | 9","type":"vless","server":"172.67.164.1","port":443,"uuid":"ec7de7e0-3f09-4ef4-8a34-e441917d65fa","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"verina.ccantarella.dns-dynamic.net","ws-opts":{"path":"/BIA_CHANEL@V2rayBaaz","headers":{"Host":"verina.ccantarella.dns-dynamic.net"}}}
   - {"name":"🇺🇸 US | 🔴 | vless | @manzariyeh_rasht | 24","type":"vless","server":"104.21.112.1","port":80,"uuid":"2036e2c3-18a5-4eed-9db4-f91a7f02c7d5","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/193.123.81.105=443","headers":{"Host":"zoomgov.vipren.biz.id"}}}
   - {"name":"🇺🇸 US | 🔴 | vless | @mrclud | 20","type":"vless","server":"104.31.16.98","port":80,"uuid":"e02208b6-2626-49ef-8b93-0d80ed33f4ac","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"lashashin.garayane.xbox.heydas.heydasgermany.name.ng"}}}
   - {"name":"🇫🇷 FR | 🟢 | vless | @mrclud | 21","type":"vless","server":"5.135.21.191","port":8880,"uuid":"e02208b6-2626-49ef-8b93-0d80ed33f4ac","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"canva.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"JYX6QCdjl0yIzfE_TMjJAnD0zyuroMhT2fj3oAzlTWc","short-id":"8b62ab46"}}
@@ -80,7 +81,8 @@ proxy-groups:
       - '🇺🇸 US | 🟢 | vless | @eliteproxyv2 | 5'
       - '🇫🇮 FI | 🔴 | vless | @iranbfilter | 5'
       - '🇩🇪 DE | 🟢 | vless | @kesslervpn | 0'
-      - '🇺🇸 US | 🔴 | vless | @lranonline_new | 2'
+      - '🇫🇮 FI | 🟢 | vless | @lranonline_new | 5'
+      - '🇺🇸 US | 🟢 | vless | @lranonline_new | 9'
       - '🇺🇸 US | 🔴 | vless | @manzariyeh_rasht | 24'
       - '🇺🇸 US | 🔴 | vless | @mrclud | 20'
       - '🇫🇷 FR | 🟢 | vless | @mrclud | 21'
@@ -112,7 +114,8 @@ proxy-groups:
       - '🇺🇸 US | 🟢 | vless | @eliteproxyv2 | 5'
       - '🇫🇮 FI | 🔴 | vless | @iranbfilter | 5'
       - '🇩🇪 DE | 🟢 | vless | @kesslervpn | 0'
-      - '🇺🇸 US | 🔴 | vless | @lranonline_new | 2'
+      - '🇫🇮 FI | 🟢 | vless | @lranonline_new | 5'
+      - '🇺🇸 US | 🟢 | vless | @lranonline_new | 9'
       - '🇺🇸 US | 🔴 | vless | @manzariyeh_rasht | 24'
       - '🇺🇸 US | 🔴 | vless | @mrclud | 20'
       - '🇫🇷 FR | 🟢 | vless | @mrclud | 21'
@@ -142,7 +145,8 @@ proxy-groups:
       - '🇺🇸 US | 🟢 | vless | @eliteproxyv2 | 5'
       - '🇫🇮 FI | 🔴 | vless | @iranbfilter | 5'
       - '🇩🇪 DE | 🟢 | vless | @kesslervpn | 0'
-      - '🇺🇸 US | 🔴 | vless | @lranonline_new | 2'
+      - '🇫🇮 FI | 🟢 | vless | @lranonline_new | 5'
+      - '🇺🇸 US | 🟢 | vless | @lranonline_new | 9'
       - '🇺🇸 US | 🔴 | vless | @manzariyeh_rasht | 24'
       - '🇺🇸 US | 🔴 | vless | @mrclud | 20'
       - '🇫🇷 FR | 🟢 | vless | @mrclud | 21'
