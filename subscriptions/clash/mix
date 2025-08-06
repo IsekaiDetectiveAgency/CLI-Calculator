@@ -18,11 +18,11 @@ dns:
 
 proxies:
   - {"name":"🇹🇼 TW | 🔴 | vmess | @custom_14 | 5","type":"vmess","server":"45.199.138.152","port":45886,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca4690dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇻🇳 VN | 🟢 | ss | @free1ss | 14","type":"ss","server":"160.19.78.75","port":443,"password":"Nk9asglDzHzjktVzTkvhaA","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🟢 | ss | @free1ss | 15","type":"ss","server":"159.223.135.183","port":48512,"password":"jcV7y4DgHxtD7qBySoMNoo","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪 DE | 🟢 | ss | @free1ss | 16","type":"ss","server":"46.101.245.131","port":44354,"password":"9RviNa4tscjcmCB408vLSg","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇹 AT | 🟢 | ss | @free1ss | 17","type":"ss","server":"152.53.2.128","port":34045,"password":"TG","cipher":"aes-256-gcm"}
-  - {"name":"🇩🇪 DE | 🟢 | ss | @free1ss | 18","type":"ss","server":"147.45.178.200","port":57456,"password":"c40641c1f89e7acb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🟢 | ss | @free1ss | 14","type":"ss","server":"159.223.135.183","port":48512,"password":"jcV7y4DgHxtD7qBySoMNoo","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 DE | 🟢 | ss | @free1ss | 15","type":"ss","server":"46.101.245.131","port":44354,"password":"9RviNa4tscjcmCB408vLSg","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇹 AT | 🟢 | ss | @free1ss | 16","type":"ss","server":"152.53.2.128","port":34045,"password":"TG","cipher":"aes-256-gcm"}
+  - {"name":"🇩🇪 DE | 🟢 | ss | @free1ss | 17","type":"ss","server":"147.45.178.200","port":57456,"password":"c40641c1f89e7acb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇷 FR | 🟢 | ss | @free1ss | 18","type":"ss","server":"62.210.88.22","port":443,"password":"dozGvrrcO9JdotXzFuWYFr","cipher":"chacha20-ietf-poly1305"}
   - {"name":"❔ XX | 🟢 | ss | @free_omega | 4","type":"ss","server":"[2a01:4f8:c012:42dc::1]","port":2060,"password":"DU7nmmEPs5eGoqrt_SwBEQ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇷🇺 RU | 🟢 | ss | @gh_v2rayng | 14","type":"ss","server":"45.139.24.24","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇵🇱 PL | 🟢 | ss | @gh_v2rayng | 15","type":"ss","server":"45.144.49.140","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
@@ -84,11 +84,11 @@ proxy-groups:
     tolerance: 50 
     proxies:
       - '🇹🇼 TW | 🔴 | vmess | @custom_14 | 5'
-      - '🇻🇳 VN | 🟢 | ss | @free1ss | 14'
-      - '🇺🇸 US | 🟢 | ss | @free1ss | 15'
-      - '🇩🇪 DE | 🟢 | ss | @free1ss | 16'
-      - '🇦🇹 AT | 🟢 | ss | @free1ss | 17'
-      - '🇩🇪 DE | 🟢 | ss | @free1ss | 18'
+      - '🇺🇸 US | 🟢 | ss | @free1ss | 14'
+      - '🇩🇪 DE | 🟢 | ss | @free1ss | 15'
+      - '🇦🇹 AT | 🟢 | ss | @free1ss | 16'
+      - '🇩🇪 DE | 🟢 | ss | @free1ss | 17'
+      - '🇫🇷 FR | 🟢 | ss | @free1ss | 18'
       - '❔ XX | 🟢 | ss | @free_omega | 4'
       - '🇷🇺 RU | 🟢 | ss | @gh_v2rayng | 14'
       - '🇵🇱 PL | 🟢 | ss | @gh_v2rayng | 15'
@@ -126,11 +126,11 @@ proxy-groups:
     interval: 300
     proxies:
       - '🇹🇼 TW | 🔴 | vmess | @custom_14 | 5'
-      - '🇻🇳 VN | 🟢 | ss | @free1ss | 14'
-      - '🇺🇸 US | 🟢 | ss | @free1ss | 15'
-      - '🇩🇪 DE | 🟢 | ss | @free1ss | 16'
-      - '🇦🇹 AT | 🟢 | ss | @free1ss | 17'
-      - '🇩🇪 DE | 🟢 | ss | @free1ss | 18'
+      - '🇺🇸 US | 🟢 | ss | @free1ss | 14'
+      - '🇩🇪 DE | 🟢 | ss | @free1ss | 15'
+      - '🇦🇹 AT | 🟢 | ss | @free1ss | 16'
+      - '🇩🇪 DE | 🟢 | ss | @free1ss | 17'
+      - '🇫🇷 FR | 🟢 | ss | @free1ss | 18'
       - '❔ XX | 🟢 | ss | @free_omega | 4'
       - '🇷🇺 RU | 🟢 | ss | @gh_v2rayng | 14'
       - '🇵🇱 PL | 🟢 | ss | @gh_v2rayng | 15'
@@ -166,11 +166,11 @@ proxy-groups:
     type: select
     proxies:
       - '🇹🇼 TW | 🔴 | vmess | @custom_14 | 5'
-      - '🇻🇳 VN | 🟢 | ss | @free1ss | 14'
-      - '🇺🇸 US | 🟢 | ss | @free1ss | 15'
-      - '🇩🇪 DE | 🟢 | ss | @free1ss | 16'
-      - '🇦🇹 AT | 🟢 | ss | @free1ss | 17'
-      - '🇩🇪 DE | 🟢 | ss | @free1ss | 18'
+      - '🇺🇸 US | 🟢 | ss | @free1ss | 14'
+      - '🇩🇪 DE | 🟢 | ss | @free1ss | 15'
+      - '🇦🇹 AT | 🟢 | ss | @free1ss | 16'
+      - '🇩🇪 DE | 🟢 | ss | @free1ss | 17'
+      - '🇫🇷 FR | 🟢 | ss | @free1ss | 18'
       - '❔ XX | 🟢 | ss | @free_omega | 4'
       - '🇷🇺 RU | 🟢 | ss | @gh_v2rayng | 14'
       - '🇵🇱 PL | 🟢 | ss | @gh_v2rayng | 15'
