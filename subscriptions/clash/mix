@@ -18,11 +18,11 @@ dns:
 
 proxies:
   - {"name":"🇹🇼 TW | 🔴 | vmess | @custom_14 | 5","type":"vmess","server":"45.199.138.152","port":45886,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca4690dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇸🇬 SG | 🟢 | ss | @free1ss | 12","type":"ss","server":"165.154.199.10","port":42559,"password":"4jT30eXdhNBLfx4tfA3RwxlGNobPR60cD3/emQ5bhiY=","cipher":"aes-256-gcm"}
-  - {"name":"🇳🇱 NL | 🟢 | ss | @free1ss | 13","type":"ss","server":"193.29.181.38","port":8444,"password":"tunnel-astrovpn_offcial-nl","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧 GB | 🟢 | ss | @free1ss | 14","type":"ss","server":"89.185.84.185","port":443,"password":"8xw9vHiGOc4Q6BpQYmnvsB","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰 HK | 🟢 | ss | @free1ss | 15","type":"ss","server":"18.162.146.85","port":8319,"password":"ljqdalu13..","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱 NL | 🟢 | ss | @free1ss | 16","type":"ss","server":"193.29.139.160","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱 NL | 🟢 | ss | @free1ss | 12","type":"ss","server":"193.29.181.38","port":8444,"password":"tunnel-astrovpn_offcial-nl","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧 GB | 🟢 | ss | @free1ss | 13","type":"ss","server":"89.185.84.185","port":443,"password":"8xw9vHiGOc4Q6BpQYmnvsB","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰 HK | 🟢 | ss | @free1ss | 14","type":"ss","server":"18.162.146.85","port":8319,"password":"ljqdalu13..","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱 NL | 🟢 | ss | @free1ss | 15","type":"ss","server":"193.29.139.160","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱 NL | 🟢 | ss | @free1ss | 16","type":"ss","server":"193.29.139.144","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
   - {"name":"❔ XX | 🟢 | ss | @free_omega | 4","type":"ss","server":"[2a01:4f8:c012:42dc::1]","port":2060,"password":"DU7nmmEPs5eGoqrt_SwBEQ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇵🇱 PL | 🟢 | ss | @gh_v2rayng | 14","type":"ss","server":"45.144.49.140","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸 US | 🟢 | ss | @gh_v2rayng | 15","type":"ss","server":"45.87.175.35","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
@@ -84,10 +84,10 @@ proxy-groups:
     tolerance: 50 
     proxies:
       - '🇹🇼 TW | 🔴 | vmess | @custom_14 | 5'
-      - '🇸🇬 SG | 🟢 | ss | @free1ss | 12'
-      - '🇳🇱 NL | 🟢 | ss | @free1ss | 13'
-      - '🇬🇧 GB | 🟢 | ss | @free1ss | 14'
-      - '🇭🇰 HK | 🟢 | ss | @free1ss | 15'
+      - '🇳🇱 NL | 🟢 | ss | @free1ss | 12'
+      - '🇬🇧 GB | 🟢 | ss | @free1ss | 13'
+      - '🇭🇰 HK | 🟢 | ss | @free1ss | 14'
+      - '🇳🇱 NL | 🟢 | ss | @free1ss | 15'
       - '🇳🇱 NL | 🟢 | ss | @free1ss | 16'
       - '❔ XX | 🟢 | ss | @free_omega | 4'
       - '🇵🇱 PL | 🟢 | ss | @gh_v2rayng | 14'
@@ -126,10 +126,10 @@ proxy-groups:
     interval: 300
     proxies:
       - '🇹🇼 TW | 🔴 | vmess | @custom_14 | 5'
-      - '🇸🇬 SG | 🟢 | ss | @free1ss | 12'
-      - '🇳🇱 NL | 🟢 | ss | @free1ss | 13'
-      - '🇬🇧 GB | 🟢 | ss | @free1ss | 14'
-      - '🇭🇰 HK | 🟢 | ss | @free1ss | 15'
+      - '🇳🇱 NL | 🟢 | ss | @free1ss | 12'
+      - '🇬🇧 GB | 🟢 | ss | @free1ss | 13'
+      - '🇭🇰 HK | 🟢 | ss | @free1ss | 14'
+      - '🇳🇱 NL | 🟢 | ss | @free1ss | 15'
       - '🇳🇱 NL | 🟢 | ss | @free1ss | 16'
       - '❔ XX | 🟢 | ss | @free_omega | 4'
       - '🇵🇱 PL | 🟢 | ss | @gh_v2rayng | 14'
@@ -166,10 +166,10 @@ proxy-groups:
     type: select
     proxies:
       - '🇹🇼 TW | 🔴 | vmess | @custom_14 | 5'
-      - '🇸🇬 SG | 🟢 | ss | @free1ss | 12'
-      - '🇳🇱 NL | 🟢 | ss | @free1ss | 13'
-      - '🇬🇧 GB | 🟢 | ss | @free1ss | 14'
-      - '🇭🇰 HK | 🟢 | ss | @free1ss | 15'
+      - '🇳🇱 NL | 🟢 | ss | @free1ss | 12'
+      - '🇬🇧 GB | 🟢 | ss | @free1ss | 13'
+      - '🇭🇰 HK | 🟢 | ss | @free1ss | 14'
+      - '🇳🇱 NL | 🟢 | ss | @free1ss | 15'
       - '🇳🇱 NL | 🟢 | ss | @free1ss | 16'
       - '❔ XX | 🟢 | ss | @free_omega | 4'
       - '🇵🇱 PL | 🟢 | ss | @gh_v2rayng | 14'
