@@ -35,11 +35,10 @@ proxies:
   - {"name":"❔ XX | 🔴 | vless | @eliteproxyv2 | 6","type":"vless","server":"mtn.venzo.com.tr","port":2095,"uuid":"dc44076c-fb1a-48ba-8e79-ec913f345576","tls":false,"network":"httpupgrade","client-fingerprint":"chrome","udp":true}
   - {"name":"🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 7","type":"vless","server":"add.ski1plag.ir","port":80,"uuid":"7c9e3c1d-a360-4429-9189-e45a98de7fde","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/upload","headers":{"Host":"my.ski1plag.ir"}}}
   - {"name":"🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 9","type":"vless","server":"germany.fast.hosting-ip.com","port":80,"uuid":"55d7c587-7d65-4cd2-a51a-0a7fb6a63285","tls":false,"network":"xhttp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇺🇸 US | 🟢 | ss | @free1ss | 14","type":"ss","server":"159.223.135.183","port":48512,"password":"jcV7y4DgHxtD7qBySoMNoo","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪 DE | 🟢 | ss | @free1ss | 15","type":"ss","server":"46.101.245.131","port":44354,"password":"9RviNa4tscjcmCB408vLSg","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇹 AT | 🟢 | ss | @free1ss | 16","type":"ss","server":"152.53.2.128","port":34045,"password":"TG","cipher":"aes-256-gcm"}
-  - {"name":"🇩🇪 DE | 🟢 | ss | @free1ss | 17","type":"ss","server":"147.45.178.200","port":57456,"password":"c40641c1f89e7acb","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇫🇷 FR | 🟢 | ss | @free1ss | 18","type":"ss","server":"62.210.88.22","port":443,"password":"dozGvrrcO9JdotXzFuWYFr","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 DE | 🟢 | ss | @free1ss | 14","type":"ss","server":"46.101.245.131","port":44354,"password":"9RviNa4tscjcmCB408vLSg","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇹 AT | 🟢 | ss | @free1ss | 15","type":"ss","server":"152.53.2.128","port":34045,"password":"TG","cipher":"aes-256-gcm"}
+  - {"name":"🇩🇪 DE | 🟢 | ss | @free1ss | 16","type":"ss","server":"147.45.178.200","port":57456,"password":"c40641c1f89e7acb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇷 FR | 🟢 | ss | @free1ss | 17","type":"ss","server":"62.210.88.22","port":443,"password":"dozGvrrcO9JdotXzFuWYFr","cipher":"chacha20-ietf-poly1305"}
   - {"name":"❔ XX | 🟢 | vless | @free_omega | 3","type":"vless","server":"all.richscale.io","port":443,"uuid":"52199cb4-6715-49ec-a120-c314be6acf58","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"pro.richscale.io","grpc-opts":{"grpc-service-name":"omegapro"}}
   - {"name":"❔ XX | 🟢 | ss | @free_omega | 4","type":"ss","server":"[2a01:4f8:c012:42dc::1]","port":2060,"password":"DU7nmmEPs5eGoqrt_SwBEQ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇷🇺 RU | 🟢 | ss | @gh_v2rayng | 14","type":"ss","server":"45.139.24.24","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
@@ -180,11 +179,10 @@ proxy-groups:
       - '❔ XX | 🔴 | vless | @eliteproxyv2 | 6'
       - '🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 7'
       - '🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 9'
-      - '🇺🇸 US | 🟢 | ss | @free1ss | 14'
-      - '🇩🇪 DE | 🟢 | ss | @free1ss | 15'
-      - '🇦🇹 AT | 🟢 | ss | @free1ss | 16'
-      - '🇩🇪 DE | 🟢 | ss | @free1ss | 17'
-      - '🇫🇷 FR | 🟢 | ss | @free1ss | 18'
+      - '🇩🇪 DE | 🟢 | ss | @free1ss | 14'
+      - '🇦🇹 AT | 🟢 | ss | @free1ss | 15'
+      - '🇩🇪 DE | 🟢 | ss | @free1ss | 16'
+      - '🇫🇷 FR | 🟢 | ss | @free1ss | 17'
       - '❔ XX | 🟢 | vless | @free_omega | 3'
       - '❔ XX | 🟢 | ss | @free_omega | 4'
       - '🇷🇺 RU | 🟢 | ss | @gh_v2rayng | 14'
@@ -301,11 +299,10 @@ proxy-groups:
       - '❔ XX | 🔴 | vless | @eliteproxyv2 | 6'
       - '🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 7'
       - '🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 9'
-      - '🇺🇸 US | 🟢 | ss | @free1ss | 14'
-      - '🇩🇪 DE | 🟢 | ss | @free1ss | 15'
-      - '🇦🇹 AT | 🟢 | ss | @free1ss | 16'
-      - '🇩🇪 DE | 🟢 | ss | @free1ss | 17'
-      - '🇫🇷 FR | 🟢 | ss | @free1ss | 18'
+      - '🇩🇪 DE | 🟢 | ss | @free1ss | 14'
+      - '🇦🇹 AT | 🟢 | ss | @free1ss | 15'
+      - '🇩🇪 DE | 🟢 | ss | @free1ss | 16'
+      - '🇫🇷 FR | 🟢 | ss | @free1ss | 17'
       - '❔ XX | 🟢 | vless | @free_omega | 3'
       - '❔ XX | 🟢 | ss | @free_omega | 4'
       - '🇷🇺 RU | 🟢 | ss | @gh_v2rayng | 14'
@@ -420,11 +417,10 @@ proxy-groups:
       - '❔ XX | 🔴 | vless | @eliteproxyv2 | 6'
       - '🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 7'
       - '🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 9'
-      - '🇺🇸 US | 🟢 | ss | @free1ss | 14'
-      - '🇩🇪 DE | 🟢 | ss | @free1ss | 15'
-      - '🇦🇹 AT | 🟢 | ss | @free1ss | 16'
-      - '🇩🇪 DE | 🟢 | ss | @free1ss | 17'
-      - '🇫🇷 FR | 🟢 | ss | @free1ss | 18'
+      - '🇩🇪 DE | 🟢 | ss | @free1ss | 14'
+      - '🇦🇹 AT | 🟢 | ss | @free1ss | 15'
+      - '🇩🇪 DE | 🟢 | ss | @free1ss | 16'
+      - '🇫🇷 FR | 🟢 | ss | @free1ss | 17'
       - '❔ XX | 🟢 | vless | @free_omega | 3'
       - '❔ XX | 🟢 | ss | @free_omega | 4'
       - '🇷🇺 RU | 🟢 | ss | @gh_v2rayng | 14'
