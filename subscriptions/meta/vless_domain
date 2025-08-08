@@ -37,9 +37,11 @@ proxies:
   - {"name":"🇮🇷 IR | 🔴 | vless | @irlast | 0","type":"vless","server":"irlast.adkoino.com","port":443,"uuid":"e4c339d7-cbdc-41a6-98ab-a0ca04bac5ab","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"❔ XX | 🟢 | vless | @kesslervpn | 2","type":"vless","server":"germansana.kesslershop.ir","port":8997,"uuid":"201c05a2-f76b-4088-bb1d-e4c8ee8909dd","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"refersion.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"UgwRcGmt9yqVzDac4KryRxQKvaVDi0eueJPPpmx7pW8","short-id":"f23d09"}}
   - {"name":"🇮🇷 IR | 🟢 | vless | @lax_vpn | 0","type":"vless","server":"s19.speedyconnect.pro","port":443,"uuid":"97dce074-7db1-4d59-99ca-0ef8311e2425","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"s19.speedyconnect.pro","ws-opts":{"path":"/downloader/10005?ed=2048","headers":{"Host":"s19.speedyconnect.pro"}}}
+  - {"name":"🇺🇸 US | 🔴 | vless | @lranonline_new | 6","type":"vless","server":"www.speedtest.net","port":80,"uuid":"4a8cf62f-998f-413e-8301-cc3d06e805e2","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/@CUSTOMIZEROBOT---@CUSTOMIZEROBOT---@CUSTOMIZEROBOT---@CUSTOMIZEROBOT/www.speedtest.net?ed=2080","headers":{"Host":"s1.VPNCUSTOMIZE.dNs-dynamic.neT."}}}
   - {"name":"🇳🇱 NL | 🔴 | vless | @luckyvpn | 0","type":"vless","server":"paris.get.raskolnikov.ir","port":24262,"uuid":"46c2465a-d99b-43f5-a127-a529cd3838b7","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇺🇸 US | 🔴 | vless | @manzariyeh_rasht | 22","type":"vless","server":"www.speedtest.net","port":80,"uuid":"cb12aa10-1831-42a0-a489-bc459885187d","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"s1.VPNCUSTOMIZE.dNs-dynamic.neT."}}}
-  - {"name":"🇺🇸 US | 🔴 | vless | @manzariyeh_rasht | 26","type":"vless","server":"beLoveD-faILure.SeOtOOLsForyOu.Co.uk","port":80,"uuid":"3cad733b-3526-476b-adf5-b7cbdd33dc6c","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"beLoveD-faILure.SeOtOOLsForyOu.Co.uk"}}}
+  - {"name":"🇺🇸 US | 🔴 | vless | @manzariyeh_rasht | 23","type":"vless","server":"beLoveD-faILure.SeOtOOLsForyOu.Co.uk","port":80,"uuid":"3cad733b-3526-476b-adf5-b7cbdd33dc6c","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"beLoveD-faILure.SeOtOOLsForyOu.Co.uk"}}}
+  - {"name":"🇺🇸 US | 🔴 | vless | @manzariyeh_rasht | 24","type":"vless","server":"speedtest.net","port":80,"uuid":"a7343619-6181-4e26-b31b-6bcf21b9e0be","tls":false,"network":"xhttp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🟢 | vless | @manzariyeh_rasht | 26","type":"vless","server":"www.speedtest.net","port":8443,"uuid":"ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"lease-20.access.name.ng","ws-opts":{"path":"/","headers":{"Host":"lease-20.access.name.ng"}}}
   - {"name":"🇱🇹 LT | 🟢 | vless | @netazadchannel | 3","type":"vless","server":"mtn.reallyrich.space","port":443,"uuid":"3f7e0b9a-0288-4040-b386-5d7805b24f2c","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"sv.reallyrich.space","grpc-opts":{"grpc-service-name":"mtn.reallyrich.space"}}
   - {"name":"❔ XX | 🔴 | vless | @pusyvpn | 6","type":"vless","server":"omslavetrr.goofy.boats","port":9304,"uuid":"8206019b-0b2c-440e-a12e-6f7003d3e79f","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"❔ XX | 🔴 | vless | @pusyvpn | 8","type":"vless","server":"gr1.asc-sam.ir","port":80,"uuid":"65115d6d-7c5b-45e5-929f-f50a86138f51","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/swgsth","headers":{"Host":"gr1.asc-sam.ir"}}}
@@ -117,9 +119,11 @@ proxy-groups:
       - '🇮🇷 IR | 🔴 | vless | @irlast | 0'
       - '❔ XX | 🟢 | vless | @kesslervpn | 2'
       - '🇮🇷 IR | 🟢 | vless | @lax_vpn | 0'
+      - '🇺🇸 US | 🔴 | vless | @lranonline_new | 6'
       - '🇳🇱 NL | 🔴 | vless | @luckyvpn | 0'
-      - '🇺🇸 US | 🔴 | vless | @manzariyeh_rasht | 22'
-      - '🇺🇸 US | 🔴 | vless | @manzariyeh_rasht | 26'
+      - '🇺🇸 US | 🔴 | vless | @manzariyeh_rasht | 23'
+      - '🇺🇸 US | 🔴 | vless | @manzariyeh_rasht | 24'
+      - '🇺🇸 US | 🟢 | vless | @manzariyeh_rasht | 26'
       - '🇱🇹 LT | 🟢 | vless | @netazadchannel | 3'
       - '❔ XX | 🔴 | vless | @pusyvpn | 6'
       - '❔ XX | 🔴 | vless | @pusyvpn | 8'
@@ -173,9 +177,11 @@ proxy-groups:
       - '🇮🇷 IR | 🔴 | vless | @irlast | 0'
       - '❔ XX | 🟢 | vless | @kesslervpn | 2'
       - '🇮🇷 IR | 🟢 | vless | @lax_vpn | 0'
+      - '🇺🇸 US | 🔴 | vless | @lranonline_new | 6'
       - '🇳🇱 NL | 🔴 | vless | @luckyvpn | 0'
-      - '🇺🇸 US | 🔴 | vless | @manzariyeh_rasht | 22'
-      - '🇺🇸 US | 🔴 | vless | @manzariyeh_rasht | 26'
+      - '🇺🇸 US | 🔴 | vless | @manzariyeh_rasht | 23'
+      - '🇺🇸 US | 🔴 | vless | @manzariyeh_rasht | 24'
+      - '🇺🇸 US | 🟢 | vless | @manzariyeh_rasht | 26'
       - '🇱🇹 LT | 🟢 | vless | @netazadchannel | 3'
       - '❔ XX | 🔴 | vless | @pusyvpn | 6'
       - '❔ XX | 🔴 | vless | @pusyvpn | 8'
@@ -227,9 +233,11 @@ proxy-groups:
       - '🇮🇷 IR | 🔴 | vless | @irlast | 0'
       - '❔ XX | 🟢 | vless | @kesslervpn | 2'
       - '🇮🇷 IR | 🟢 | vless | @lax_vpn | 0'
+      - '🇺🇸 US | 🔴 | vless | @lranonline_new | 6'
       - '🇳🇱 NL | 🔴 | vless | @luckyvpn | 0'
-      - '🇺🇸 US | 🔴 | vless | @manzariyeh_rasht | 22'
-      - '🇺🇸 US | 🔴 | vless | @manzariyeh_rasht | 26'
+      - '🇺🇸 US | 🔴 | vless | @manzariyeh_rasht | 23'
+      - '🇺🇸 US | 🔴 | vless | @manzariyeh_rasht | 24'
+      - '🇺🇸 US | 🟢 | vless | @manzariyeh_rasht | 26'
       - '🇱🇹 LT | 🟢 | vless | @netazadchannel | 3'
       - '❔ XX | 🔴 | vless | @pusyvpn | 6'
       - '❔ XX | 🔴 | vless | @pusyvpn | 8'
