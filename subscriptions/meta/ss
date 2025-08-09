@@ -17,10 +17,9 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇵🇱 PL | 🟢 | ss | @gh_v2rayng | 14","type":"ss","server":"45.144.49.140","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🟢 | ss | @gh_v2rayng | 15","type":"ss","server":"45.87.175.35","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇹🇷 TR | 🟢 | ss | @gh_v2rayng | 16","type":"ss","server":"193.46.56.185","port":6683,"password":"iw8GoN42dciNxDBd0RwAdL","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇸🇬 SG | 🟢 | ss | @gh_v2rayng | 18","type":"ss","server":"188.166.220.70","port":37708,"password":"24Wk2NSszrfHn22zem1lYV","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🟢 | ss | @gh_v2rayng | 14","type":"ss","server":"45.87.175.35","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇷 TR | 🟢 | ss | @gh_v2rayng | 15","type":"ss","server":"193.46.56.185","port":6683,"password":"iw8GoN42dciNxDBd0RwAdL","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬 SG | 🟢 | ss | @gh_v2rayng | 17","type":"ss","server":"188.166.220.70","port":37708,"password":"24Wk2NSszrfHn22zem1lYV","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @ir_netproxy | 12","type":"ss","server":"51.105.36.101","port":13928,"password":"2gxDsKmZRuz4wRCKyXJdJl","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @mrclud | 24","type":"ss","server":"51.142.171.150","port":49499,"password":"kTjlLxrncKx4i2HIjxfA3M","cipher":"chacha20-ietf-poly1305"}
 
@@ -53,10 +52,9 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇵🇱 PL | 🟢 | ss | @gh_v2rayng | 14'
-      - '🇺🇸 US | 🟢 | ss | @gh_v2rayng | 15'
-      - '🇹🇷 TR | 🟢 | ss | @gh_v2rayng | 16'
-      - '🇸🇬 SG | 🟢 | ss | @gh_v2rayng | 18'
+      - '🇺🇸 US | 🟢 | ss | @gh_v2rayng | 14'
+      - '🇹🇷 TR | 🟢 | ss | @gh_v2rayng | 15'
+      - '🇸🇬 SG | 🟢 | ss | @gh_v2rayng | 17'
       - '🇬🇧 GB | 🟢 | ss | @ir_netproxy | 12'
       - '🇬🇧 GB | 🟢 | ss | @mrclud | 24'
 
@@ -65,20 +63,18 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇵🇱 PL | 🟢 | ss | @gh_v2rayng | 14'
-      - '🇺🇸 US | 🟢 | ss | @gh_v2rayng | 15'
-      - '🇹🇷 TR | 🟢 | ss | @gh_v2rayng | 16'
-      - '🇸🇬 SG | 🟢 | ss | @gh_v2rayng | 18'
+      - '🇺🇸 US | 🟢 | ss | @gh_v2rayng | 14'
+      - '🇹🇷 TR | 🟢 | ss | @gh_v2rayng | 15'
+      - '🇸🇬 SG | 🟢 | ss | @gh_v2rayng | 17'
       - '🇬🇧 GB | 🟢 | ss | @ir_netproxy | 12'
       - '🇬🇧 GB | 🟢 | ss | @mrclud | 24'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇵🇱 PL | 🟢 | ss | @gh_v2rayng | 14'
-      - '🇺🇸 US | 🟢 | ss | @gh_v2rayng | 15'
-      - '🇹🇷 TR | 🟢 | ss | @gh_v2rayng | 16'
-      - '🇸🇬 SG | 🟢 | ss | @gh_v2rayng | 18'
+      - '🇺🇸 US | 🟢 | ss | @gh_v2rayng | 14'
+      - '🇹🇷 TR | 🟢 | ss | @gh_v2rayng | 15'
+      - '🇸🇬 SG | 🟢 | ss | @gh_v2rayng | 17'
       - '🇬🇧 GB | 🟢 | ss | @ir_netproxy | 12'
       - '🇬🇧 GB | 🟢 | ss | @mrclud | 24'
 
