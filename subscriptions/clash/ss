@@ -18,7 +18,7 @@ dns:
 
 proxies:
   - {"name":"🇹🇷 TR | 🟢 | ss | @gh_v2rayng | 13","type":"ss","server":"193.46.56.185","port":6683,"password":"iw8GoN42dciNxDBd0RwAdL","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇸🇬 SG | 🟢 | ss | @gh_v2rayng | 15","type":"ss","server":"188.166.220.70","port":37708,"password":"24Wk2NSszrfHn22zem1lYV","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬 SG | 🟢 | ss | @gh_v2rayng | 14","type":"ss","server":"188.166.220.70","port":37708,"password":"24Wk2NSszrfHn22zem1lYV","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @ir_netproxy | 12","type":"ss","server":"51.105.36.101","port":13928,"password":"2gxDsKmZRuz4wRCKyXJdJl","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧 GB | 🟢 | ss | @mrclud | 24","type":"ss","server":"51.142.171.150","port":49499,"password":"kTjlLxrncKx4i2HIjxfA3M","cipher":"chacha20-ietf-poly1305"}
 
@@ -52,7 +52,7 @@ proxy-groups:
     tolerance: 50 
     proxies:
       - '🇹🇷 TR | 🟢 | ss | @gh_v2rayng | 13'
-      - '🇸🇬 SG | 🟢 | ss | @gh_v2rayng | 15'
+      - '🇸🇬 SG | 🟢 | ss | @gh_v2rayng | 14'
       - '🇬🇧 GB | 🟢 | ss | @ir_netproxy | 12'
       - '🇬🇧 GB | 🟢 | ss | @mrclud | 24'
 
@@ -62,7 +62,7 @@ proxy-groups:
     interval: 300
     proxies:
       - '🇹🇷 TR | 🟢 | ss | @gh_v2rayng | 13'
-      - '🇸🇬 SG | 🟢 | ss | @gh_v2rayng | 15'
+      - '🇸🇬 SG | 🟢 | ss | @gh_v2rayng | 14'
       - '🇬🇧 GB | 🟢 | ss | @ir_netproxy | 12'
       - '🇬🇧 GB | 🟢 | ss | @mrclud | 24'
       
@@ -70,7 +70,7 @@ proxy-groups:
     type: select
     proxies:
       - '🇹🇷 TR | 🟢 | ss | @gh_v2rayng | 13'
-      - '🇸🇬 SG | 🟢 | ss | @gh_v2rayng | 15'
+      - '🇸🇬 SG | 🟢 | ss | @gh_v2rayng | 14'
       - '🇬🇧 GB | 🟢 | ss | @ir_netproxy | 12'
       - '🇬🇧 GB | 🟢 | ss | @mrclud | 24'
 
