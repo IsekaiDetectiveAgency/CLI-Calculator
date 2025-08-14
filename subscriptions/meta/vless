@@ -28,8 +28,8 @@ proxies:
   - {"name":"🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17","type":"vless","server":"116.202.177.190","port":42067,"uuid":"4fb3e790-b115-47b8-982b-0973c00c0f9f","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"116.202.177.190"}}}
   - {"name":"❔ XX | 🟢 | vless | @Fr33C0nfig | 50","type":"vless","server":"de.multiapvps.ir","port":4433,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"docker.com","reality-opts":{"public-key":"LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg"}}
   - {"name":"🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 51","type":"vless","server":"usa.multiapvps.ir","port":4434,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"docker.com","reality-opts":{"public-key":"LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg"}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @bored_vpn | 11","type":"vless","server":"www.speedtest.net","port":443,"uuid":"5879d109-8c92-448a-801b-3f3989019934","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"pages.dev","ws-opts":{"path":"/Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray?ed=2048","headers":{"Host":"tz-8bu.pages.dev"}}}
-  - {"name":"🇺🇸 US | 🔴 | vless | @gh_v2rayng | 12","type":"vless","server":"www.speedtest.net","port":80,"uuid":"7e049ef3-3b80-46e4-be51-ce53d2034c1b","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/@CUSTOMIZEROBOT---@CUSTOMIZEROBOT---@CUSTOMIZEROBOT---@CUSTOMIZEROBOT/www.speedtest.net?ed=2080","headers":{"Host":"s1.VPNCUSTOMIZE.dNs-dynamic.neT."}}}
+  - {"name":"🇨🇦 CA | 🟢 | vless | @bored_vpn | 11","type":"vless","server":"www.speedtest.net","port":443,"uuid":"5879d109-8c92-448a-801b-3f3989019934","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"pages.dev","ws-opts":{"path":"/Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray---Telegram-XV2ray?ed=2048","headers":{"Host":"tz-8bu.pages.dev"}}}
+  - {"name":"🇨🇦 CA | 🔴 | vless | @gh_v2rayng | 12","type":"vless","server":"www.speedtest.net","port":80,"uuid":"7e049ef3-3b80-46e4-be51-ce53d2034c1b","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/@CUSTOMIZEROBOT---@CUSTOMIZEROBOT---@CUSTOMIZEROBOT---@CUSTOMIZEROBOT/www.speedtest.net?ed=2080","headers":{"Host":"s1.VPNCUSTOMIZE.dNs-dynamic.neT."}}}
   - {"name":"🇱🇹 LT | 🟢 | vless | @netazadchannel | 3","type":"vless","server":"mtn.reallyrich.space","port":443,"uuid":"3f7e0b9a-0288-4040-b386-5d7805b24f2c","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"sv.reallyrich.space","grpc-opts":{"grpc-service-name":"mtn.reallyrich.space"}}
 
 rule-providers:
@@ -72,8 +72,8 @@ proxy-groups:
       - '🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17'
       - '❔ XX | 🟢 | vless | @Fr33C0nfig | 50'
       - '🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 51'
-      - '🇺🇸 US | 🟢 | vless | @bored_vpn | 11'
-      - '🇺🇸 US | 🔴 | vless | @gh_v2rayng | 12'
+      - '🇨🇦 CA | 🟢 | vless | @bored_vpn | 11'
+      - '🇨🇦 CA | 🔴 | vless | @gh_v2rayng | 12'
       - '🇱🇹 LT | 🟢 | vless | @netazadchannel | 3'
 
   - name: 📉 Fallback
@@ -92,8 +92,8 @@ proxy-groups:
       - '🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17'
       - '❔ XX | 🟢 | vless | @Fr33C0nfig | 50'
       - '🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 51'
-      - '🇺🇸 US | 🟢 | vless | @bored_vpn | 11'
-      - '🇺🇸 US | 🔴 | vless | @gh_v2rayng | 12'
+      - '🇨🇦 CA | 🟢 | vless | @bored_vpn | 11'
+      - '🇨🇦 CA | 🔴 | vless | @gh_v2rayng | 12'
       - '🇱🇹 LT | 🟢 | vless | @netazadchannel | 3'
       
   - name: All-Proxies
@@ -110,8 +110,8 @@ proxy-groups:
       - '🇩🇪 DE | 🔴 | vless | @v2rayvmess | 17'
       - '❔ XX | 🟢 | vless | @Fr33C0nfig | 50'
       - '🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 51'
-      - '🇺🇸 US | 🟢 | vless | @bored_vpn | 11'
-      - '🇺🇸 US | 🔴 | vless | @gh_v2rayng | 12'
+      - '🇨🇦 CA | 🟢 | vless | @bored_vpn | 11'
+      - '🇨🇦 CA | 🔴 | vless | @gh_v2rayng | 12'
       - '🇱🇹 LT | 🟢 | vless | @netazadchannel | 3'
 
 rules:
