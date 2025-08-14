@@ -9,7 +9,7 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇫🇮 FI | 🔴 | vmess | @gh_v2rayng | 14 = vmess, 65.109.188.195, 32017, username = c0ccdeb9-784c-4d67-b904-20dcaac9902a, ws = false, tls = false
+🇫🇮 FI | 🔴 | vmess | @gh_v2rayng | 13 = vmess, 65.109.188.195, 32017, username = c0ccdeb9-784c-4d67-b904-20dcaac9902a, ws = false, tls = false
 🇺🇸 US | 🟢 | vmess | @ir_netproxy | 9 = vmess, 104.17.77.94, 2053, username = 72f76c36-3e3c-45b3-a61f-d8f017345958, ws = true, tls = true, ws-path = /, ws-headers = Host:"b5.iraniancp.click"
 🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 10 = vmess, 89.116.38.174, 3456, username = 32e49539-f569-403d-b4b6-a8978c040d5d, ws = false, tls = false
 🇺🇸 US | 🔴 | vmess | @ir_netproxy | 11 = vmess, 142.4.125.84, 59614, username = 418048af-a293-4b99-9b0c-98ca3580dd24, ws = false, tls = false
@@ -18,9 +18,9 @@ DIRECT = direct
 ❔ XX | 🔴 | vmess | @v2rayvmess | 15 = vmess, id-lb.vhax.net, 80, username = 6fea1649-425b-4092-bf53-29792152c925, ws = true, tls = false, ws-path = /sshkit/Arsham85231/6347d08022b91/, ws-headers = Host:"zoom.us"
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇫🇮 FI | 🔴 | vmess | @gh_v2rayng | 14, 🇺🇸 US | 🟢 | vmess | @ir_netproxy | 9, 🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 10, 🇺🇸 US | 🔴 | vmess | @ir_netproxy | 11, 🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 13, 🇺🇸 US | 🔴 | vmess | @v2rayvmess | 13, ❔ XX | 🔴 | vmess | @v2rayvmess | 15
-PSG-AUTO = url-test, 🇫🇮 FI | 🔴 | vmess | @gh_v2rayng | 14, 🇺🇸 US | 🟢 | vmess | @ir_netproxy | 9, 🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 10, 🇺🇸 US | 🔴 | vmess | @ir_netproxy | 11, 🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 13, 🇺🇸 US | 🔴 | vmess | @v2rayvmess | 13, ❔ XX | 🔴 | vmess | @v2rayvmess | 15
-PSG-FALLBACK = fallback, 🇫🇮 FI | 🔴 | vmess | @gh_v2rayng | 14, 🇺🇸 US | 🟢 | vmess | @ir_netproxy | 9, 🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 10, 🇺🇸 US | 🔴 | vmess | @ir_netproxy | 11, 🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 13, 🇺🇸 US | 🔴 | vmess | @v2rayvmess | 13, ❔ XX | 🔴 | vmess | @v2rayvmess | 15
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇫🇮 FI | 🔴 | vmess | @gh_v2rayng | 13, 🇺🇸 US | 🟢 | vmess | @ir_netproxy | 9, 🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 10, 🇺🇸 US | 🔴 | vmess | @ir_netproxy | 11, 🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 13, 🇺🇸 US | 🔴 | vmess | @v2rayvmess | 13, ❔ XX | 🔴 | vmess | @v2rayvmess | 15
+PSG-AUTO = url-test, 🇫🇮 FI | 🔴 | vmess | @gh_v2rayng | 13, 🇺🇸 US | 🟢 | vmess | @ir_netproxy | 9, 🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 10, 🇺🇸 US | 🔴 | vmess | @ir_netproxy | 11, 🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 13, 🇺🇸 US | 🔴 | vmess | @v2rayvmess | 13, ❔ XX | 🔴 | vmess | @v2rayvmess | 15
+PSG-FALLBACK = fallback, 🇫🇮 FI | 🔴 | vmess | @gh_v2rayng | 13, 🇺🇸 US | 🟢 | vmess | @ir_netproxy | 9, 🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 10, 🇺🇸 US | 🔴 | vmess | @ir_netproxy | 11, 🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 13, 🇺🇸 US | 🔴 | vmess | @v2rayvmess | 13, ❔ XX | 🔴 | vmess | @v2rayvmess | 15
 
 [Rule]
 GEOIP,IR,DIRECT
