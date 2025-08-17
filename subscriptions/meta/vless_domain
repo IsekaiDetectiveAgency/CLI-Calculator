@@ -17,9 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"❔ XX | 🟢 | vless | @Fr33C0nfig | 50","type":"vless","server":"de.multiapvps.ir","port":4433,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"docker.com","reality-opts":{"public-key":"LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg"}}
-  - {"name":"🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 51","type":"vless","server":"usa.multiapvps.ir","port":4434,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"docker.com","reality-opts":{"public-key":"LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg"}}
-  - {"name":"🇱🇹 LT | 🟢 | vless | @netazadchannel | 3","type":"vless","server":"mtn.reallyrich.space","port":443,"uuid":"3f7e0b9a-0288-4040-b386-5d7805b24f2c","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"sv.reallyrich.space","grpc-opts":{"grpc-service-name":"mtn.reallyrich.space"}}
+  - {"name":"❔ XX | 🟢 | vless | @Fr33C0nfig | 36","type":"vless","server":"de.multiapvps.ir","port":4433,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"docker.com","reality-opts":{"public-key":"LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg"}}
+  - {"name":"🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 37","type":"vless","server":"usa.multiapvps.ir","port":4434,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"docker.com","reality-opts":{"public-key":"LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg"}}
 
 rule-providers:
   ir_domains:
@@ -50,25 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '❔ XX | 🟢 | vless | @Fr33C0nfig | 50'
-      - '🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 51'
-      - '🇱🇹 LT | 🟢 | vless | @netazadchannel | 3'
+      - '❔ XX | 🟢 | vless | @Fr33C0nfig | 36'
+      - '🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 37'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '❔ XX | 🟢 | vless | @Fr33C0nfig | 50'
-      - '🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 51'
-      - '🇱🇹 LT | 🟢 | vless | @netazadchannel | 3'
+      - '❔ XX | 🟢 | vless | @Fr33C0nfig | 36'
+      - '🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 37'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '❔ XX | 🟢 | vless | @Fr33C0nfig | 50'
-      - '🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 51'
-      - '🇱🇹 LT | 🟢 | vless | @netazadchannel | 3'
+      - '❔ XX | 🟢 | vless | @Fr33C0nfig | 36'
+      - '🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 37'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

@@ -17,15 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇫🇮 FI | 🔴 | vmess | @gh_v2rayng | 13","type":"vmess","server":"65.109.188.195","port":32017,"cipher":"auto","uuid":"c0ccdeb9-784c-4d67-b904-20dcaac9902a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 US | 🟢 | vmess | @ir_netproxy | 9","type":"vmess","server":"104.17.77.94","port":2053,"cipher":"auto","uuid":"72f76c36-3e3c-45b3-a61f-d8f017345958","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"b5.iraniancp.click"}}}
-  - {"name":"🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 10","type":"vmess","server":"89.116.38.174","port":3456,"cipher":"auto","uuid":"32e49539-f569-403d-b4b6-a8978c040d5d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 US | 🔴 | vmess | @ir_netproxy | 11","type":"vmess","server":"142.4.125.84","port":59614,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇬🇧 GB | 🟢 | ss | @ir_netproxy | 12","type":"ss","server":"51.105.36.101","port":13928,"password":"2gxDsKmZRuz4wRCKyXJdJl","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 13","type":"vmess","server":"89.116.38.184","port":3456,"cipher":"auto","uuid":"32e49539-f569-403d-b4b6-a8978c040d5d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇬🇧 GB | 🟢 | ss | @mrclud | 24","type":"ss","server":"51.142.171.150","port":49499,"password":"kTjlLxrncKx4i2HIjxfA3M","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🔴 | vmess | @v2rayvmess | 13","type":"vmess","server":"sg2-ctb.v2rayserv.com","port":80,"cipher":"auto","uuid":"4733ee4d-c0c6-46f9-9b01-7c7850a3d19b","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/sshocean","headers":{"Host":"sg2-ctb.v2rayserv.com"}}}
-  - {"name":"❔ XX | 🔴 | vmess | @v2rayvmess | 15","type":"vmess","server":"id-lb.vhax.net","port":80,"cipher":"auto","uuid":"6fea1649-425b-4092-bf53-29792152c925","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/sshkit/Arsham85231/6347d08022b91/","headers":{"Host":"zoom.us"}}}
+
 
 rule-providers:
   ir_domains:
@@ -56,43 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇫🇮 FI | 🔴 | vmess | @gh_v2rayng | 13'
-      - '🇺🇸 US | 🟢 | vmess | @ir_netproxy | 9'
-      - '🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 10'
-      - '🇺🇸 US | 🔴 | vmess | @ir_netproxy | 11'
-      - '🇬🇧 GB | 🟢 | ss | @ir_netproxy | 12'
-      - '🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 13'
-      - '🇬🇧 GB | 🟢 | ss | @mrclud | 24'
-      - '🇺🇸 US | 🔴 | vmess | @v2rayvmess | 13'
-      - '❔ XX | 🔴 | vmess | @v2rayvmess | 15'
+
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇫🇮 FI | 🔴 | vmess | @gh_v2rayng | 13'
-      - '🇺🇸 US | 🟢 | vmess | @ir_netproxy | 9'
-      - '🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 10'
-      - '🇺🇸 US | 🔴 | vmess | @ir_netproxy | 11'
-      - '🇬🇧 GB | 🟢 | ss | @ir_netproxy | 12'
-      - '🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 13'
-      - '🇬🇧 GB | 🟢 | ss | @mrclud | 24'
-      - '🇺🇸 US | 🔴 | vmess | @v2rayvmess | 13'
-      - '❔ XX | 🔴 | vmess | @v2rayvmess | 15'
+
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇫🇮 FI | 🔴 | vmess | @gh_v2rayng | 13'
-      - '🇺🇸 US | 🟢 | vmess | @ir_netproxy | 9'
-      - '🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 10'
-      - '🇺🇸 US | 🔴 | vmess | @ir_netproxy | 11'
-      - '🇬🇧 GB | 🟢 | ss | @ir_netproxy | 12'
-      - '🇫🇷 FR | 🔴 | vmess | @ir_netproxy | 13'
-      - '🇬🇧 GB | 🟢 | ss | @mrclud | 24'
-      - '🇺🇸 US | 🔴 | vmess | @v2rayvmess | 13'
-      - '❔ XX | 🔴 | vmess | @v2rayvmess | 15'
+
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
