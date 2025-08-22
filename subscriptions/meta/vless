@@ -18,7 +18,7 @@ dns:
 
 proxies:
   - {"name":"🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 47","type":"vless","server":"91.99.199.137","port":443,"uuid":"7b6eca4c-44ae-40c6-973a-4e3b29d30803","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇦🇪 AE | 🟢 | vless | @Fr33C0nfig | 48","type":"vless","server":"5.253.31.129","port":17416,"uuid":"1c45c08c-1177-48e9-8f92-1186f7497d65","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"sourceforge.net","reality-opts":{"public-key":"FBeK7y7LfBjdFk79GzCUvhUgCWLaOUnN0bhkS_yEESw","short-id":"c427ac39e8"}}
+  - {"name":"🇳🇱 NL | 🟢 | vless | @Fr33C0nfig | 48","type":"vless","server":"5.253.31.129","port":17416,"uuid":"1c45c08c-1177-48e9-8f92-1186f7497d65","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"sourceforge.net","reality-opts":{"public-key":"FBeK7y7LfBjdFk79GzCUvhUgCWLaOUnN0bhkS_yEESw","short-id":"c427ac39e8"}}
   - {"name":"🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49","type":"vless","server":"94.182.142.28","port":2020,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"❔ XX | 🟢 | vless | @Fr33C0nfig | 50","type":"vless","server":"de.multiapvps.ir","port":4433,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"docker.com","reality-opts":{"public-key":"LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg"}}
   - {"name":"🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 51","type":"vless","server":"usa.multiapvps.ir","port":4434,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"docker.com","reality-opts":{"public-key":"LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg"}}
@@ -53,7 +53,7 @@ proxy-groups:
     tolerance: 50 
     proxies:
       - '🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 47'
-      - '🇦🇪 AE | 🟢 | vless | @Fr33C0nfig | 48'
+      - '🇳🇱 NL | 🟢 | vless | @Fr33C0nfig | 48'
       - '🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49'
       - '❔ XX | 🟢 | vless | @Fr33C0nfig | 50'
       - '🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 51'
@@ -64,7 +64,7 @@ proxy-groups:
     interval: 300
     proxies:
       - '🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 47'
-      - '🇦🇪 AE | 🟢 | vless | @Fr33C0nfig | 48'
+      - '🇳🇱 NL | 🟢 | vless | @Fr33C0nfig | 48'
       - '🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49'
       - '❔ XX | 🟢 | vless | @Fr33C0nfig | 50'
       - '🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 51'
@@ -73,7 +73,7 @@ proxy-groups:
     type: select
     proxies:
       - '🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 47'
-      - '🇦🇪 AE | 🟢 | vless | @Fr33C0nfig | 48'
+      - '🇳🇱 NL | 🟢 | vless | @Fr33C0nfig | 48'
       - '🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49'
       - '❔ XX | 🟢 | vless | @Fr33C0nfig | 50'
       - '🇫🇮 FI | 🟢 | vless | @Fr33C0nfig | 51'
