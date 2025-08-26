@@ -105,14 +105,16 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51"
+                "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 49"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51"
+                "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 49"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -154,6 +156,22 @@
                     "enabled": true,
                     "public_key": "LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 49",
+            "type": "vless",
+            "server": "GRumpY-bUIldinG.seOToOLSfoRYou.cO.Uk",
+            "server_port": 80,
+            "uuid": "935c990a-9bcc-484b-86a2-2a402f9ad1d4",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "GRumpY-bUIldinG.seOToOLSfoRYou.cO.Uk"
                 }
             }
         }
