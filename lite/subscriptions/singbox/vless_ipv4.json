@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 48"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 69"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 48"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 69"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,13 +135,29 @@
             "type": "dns"
         },
         {
-            "tag": "🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 48",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 69",
             "type": "vless",
-            "server": "81.12.32.135",
-            "server_port": 32990,
-            "uuid": "a804bb53-7504-4f06-96d8-ff56fb71539d",
+            "server": "188.114.96.6",
+            "server_port": 443,
+            "uuid": "8df60790-c903-4661-b85d-64c0009378e5",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "F1.paRsa.fiLegEar-Sg.Me",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "F1.paRsa.fiLegEar-Sg.Me"
+                }
+            }
         }
     ],
     "route": {

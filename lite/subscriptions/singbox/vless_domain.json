@@ -105,16 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
+                "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
+                "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -156,22 +154,6 @@
                     "enabled": true,
                     "public_key": "LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69",
-            "type": "vless",
-            "server": "fierce-data.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "c313c27c-97ff-45ed-ab5c-64641af5debc",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN",
-                "headers": {
-                    "Host": "fierce-data.seotoolsforyou.co.uk"
                 }
             }
         }
