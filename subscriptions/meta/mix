@@ -22,8 +22,10 @@ proxies:
   - {"name":"🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49","type":"vless","server":"94.182.142.28","port":2020,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"❔ XX | 🟢 | vless | @Fr33C0nfig | 50","type":"vless","server":"de.multiapvps.ir","port":4433,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"docker.com","reality-opts":{"public-key":"LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg"}}
   - {"name":"🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51","type":"vless","server":"usa.multiapvps.ir","port":4434,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"docker.com","reality-opts":{"public-key":"LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg"}}
-  - {"name":"🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 65","type":"vmess","server":"15.204.234.200","port":41100,"cipher":"auto","uuid":"c7f169a3-2e9a-4894-ba53-7b2fa6fd08b4","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 66","type":"ss","server":"45.87.175.157","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇱🇻 LV | 🟢 | ss | @NamiraConfigs | 65","type":"ss","server":"216.173.70.187","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬 SG | 🟢 | ss | @NamiraConfigs | 66","type":"ss","server":"64.176.85.73","port":1866,"password":"oXGp1+ihlfKg826H","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇳 IN | 🟢 | ss | @NamiraConfigs | 67","type":"ss","server":"103.111.114.29","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇲🇹 MT | 🟢 | ss | @NamiraConfigs | 68","type":"ss","server":"171.22.254.17","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
 
 rule-providers:
   ir_domains:
@@ -59,8 +61,10 @@ proxy-groups:
       - '🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49'
       - '❔ XX | 🟢 | vless | @Fr33C0nfig | 50'
       - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51'
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 65'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 66'
+      - '🇱🇻 LV | 🟢 | ss | @NamiraConfigs | 65'
+      - '🇸🇬 SG | 🟢 | ss | @NamiraConfigs | 66'
+      - '🇮🇳 IN | 🟢 | ss | @NamiraConfigs | 67'
+      - '🇲🇹 MT | 🟢 | ss | @NamiraConfigs | 68'
 
   - name: 📉 Fallback
     type: fallback
@@ -72,8 +76,10 @@ proxy-groups:
       - '🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49'
       - '❔ XX | 🟢 | vless | @Fr33C0nfig | 50'
       - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51'
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 65'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 66'
+      - '🇱🇻 LV | 🟢 | ss | @NamiraConfigs | 65'
+      - '🇸🇬 SG | 🟢 | ss | @NamiraConfigs | 66'
+      - '🇮🇳 IN | 🟢 | ss | @NamiraConfigs | 67'
+      - '🇲🇹 MT | 🟢 | ss | @NamiraConfigs | 68'
       
   - name: All-Proxies
     type: select
@@ -83,8 +89,10 @@ proxy-groups:
       - '🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49'
       - '❔ XX | 🟢 | vless | @Fr33C0nfig | 50'
       - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51'
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 65'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 66'
+      - '🇱🇻 LV | 🟢 | ss | @NamiraConfigs | 65'
+      - '🇸🇬 SG | 🟢 | ss | @NamiraConfigs | 66'
+      - '🇮🇳 IN | 🟢 | ss | @NamiraConfigs | 67'
+      - '🇲🇹 MT | 🟢 | ss | @NamiraConfigs | 68'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
