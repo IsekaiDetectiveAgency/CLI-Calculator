@@ -17,8 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇮🇳 IN | 🔴 | vless | @NamiraConfigs | 49","type":"vless","server":"45.88.183.158","port":44629,"uuid":"d3daa900-0377-4575-9ebc-c4d88cb8486c","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 37","type":"vless","server":"usa.multiapvps.ir","port":4434,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"docker.com","reality-opts":{"public-key":"LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg"}}
+  - {"name":"🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51","type":"vless","server":"usa.multiapvps.ir","port":4434,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"docker.com","reality-opts":{"public-key":"LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg"}}
+  - {"name":"🇸🇬 SG | 🔴 | vmess | @NamiraConfigs | 69","type":"vmess","server":"62.146.235.193","port":28011,"cipher":"auto","uuid":"cfc5a87f-3c13-4e25-b556-176cdd6b5c6a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 
 rule-providers:
   ir_domains:
@@ -49,22 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇮🇳 IN | 🔴 | vless | @NamiraConfigs | 49'
-      - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 37'
+      - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51'
+      - '🇸🇬 SG | 🔴 | vmess | @NamiraConfigs | 69'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇮🇳 IN | 🔴 | vless | @NamiraConfigs | 49'
-      - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 37'
+      - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51'
+      - '🇸🇬 SG | 🔴 | vmess | @NamiraConfigs | 69'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇮🇳 IN | 🔴 | vless | @NamiraConfigs | 49'
-      - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 37'
+      - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51'
+      - '🇸🇬 SG | 🔴 | vmess | @NamiraConfigs | 69'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

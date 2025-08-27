@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 69","type":"vmess","server":"195.211.99.143","port":8443,"cipher":"auto","uuid":"2e514a36-7ae8-4b6a-9e36-9c20e7228824","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":""}}}
+  - {"name":"🇸🇬 SG | 🔴 | vmess | @NamiraConfigs | 69","type":"vmess","server":"62.146.235.193","port":28011,"cipher":"auto","uuid":"cfc5a87f-3c13-4e25-b556-176cdd6b5c6a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 69'
+      - '🇸🇬 SG | 🔴 | vmess | @NamiraConfigs | 69'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 69'
+      - '🇸🇬 SG | 🔴 | vmess | @NamiraConfigs | 69'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 69'
+      - '🇸🇬 SG | 🔴 | vmess | @NamiraConfigs | 69'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
