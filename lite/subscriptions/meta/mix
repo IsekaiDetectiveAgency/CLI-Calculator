@@ -18,7 +18,7 @@ dns:
 
 proxies:
   - {"name":"🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51","type":"vless","server":"usa.multiapvps.ir","port":4434,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"docker.com","reality-opts":{"public-key":"LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg"}}
-  - {"name":"🇵🇪 PE | 🟢 | ss | @NamiraConfigs | 69","type":"ss","server":"185.47.252.251","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇳 IN | 🔴 | vless | @NamiraConfigs | 69","type":"vless","server":"45.88.183.164","port":49355,"uuid":"ef246c6f-6e7d-4286-af33-5485544b0ba8","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -50,7 +50,7 @@ proxy-groups:
     tolerance: 50 
     proxies:
       - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51'
-      - '🇵🇪 PE | 🟢 | ss | @NamiraConfigs | 69'
+      - '🇮🇳 IN | 🔴 | vless | @NamiraConfigs | 69'
 
   - name: 📉 Fallback
     type: fallback
@@ -58,13 +58,13 @@ proxy-groups:
     interval: 300
     proxies:
       - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51'
-      - '🇵🇪 PE | 🟢 | ss | @NamiraConfigs | 69'
+      - '🇮🇳 IN | 🔴 | vless | @NamiraConfigs | 69'
       
   - name: All-Proxies
     type: select
     proxies:
       - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51'
-      - '🇵🇪 PE | 🟢 | ss | @NamiraConfigs | 69'
+      - '🇮🇳 IN | 🔴 | vless | @NamiraConfigs | 69'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
