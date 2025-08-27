@@ -19,10 +19,8 @@ dns:
 proxies:
   - {"name":"❔ XX | 🟢 | vless | @Fr33C0nfig | 50","type":"vless","server":"de.multiapvps.ir","port":4433,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"docker.com","reality-opts":{"public-key":"LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg"}}
   - {"name":"🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51","type":"vless","server":"usa.multiapvps.ir","port":4434,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"docker.com","reality-opts":{"public-key":"LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg"}}
-  - {"name":"🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 65","type":"vless","server":"freexxx.xhamster.biz.id","port":443,"uuid":"aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"freexxx.xhamster.biz.id","ws-opts":{"path":"/Free-CF-Proxy-AE19","headers":{"Host":"freexxx.xhamster.biz.id"}}}
-  - {"name":"🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66","type":"vless","server":"wild-bird.seotoolsforyou.co.uk","port":80,"uuid":"1d0dfde1-9f18-4557-9af8-4f3124ee5dcd","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"wild-bird.seotoolsforyou.co.uk"}}}
-  - {"name":"🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 68","type":"vless","server":"magical-fish.seotoolsforyou.co.uk","port":80,"uuid":"edb4c373-ac92-4430-8f42-94439ca829b9","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"magical-fish.seotoolsforyou.co.uk"}}}
-  - {"name":"🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69","type":"vless","server":"dedicated-development.seotoolsforyou.co.uk","port":80,"uuid":"2054405e-70ff-40a2-ae27-16b63d72390a","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"dedicated-development.seotoolsforyou.co.uk"}}}
+  - {"name":"🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 67","type":"vless","server":"OBEDiENT-detAiL.SEOTOOlSFOrYou.co.uk","port":80,"uuid":"1dd49fb8-6570-4a2a-a236-f410b63159cf","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"OBEDiENT-detAiL.SEOTOOlSFOrYou.co.uk"}}}
+  - {"name":"🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 68","type":"vless","server":"beLoveD-faILure.SeOtOOLsForyOu.Co.uk","port":80,"uuid":"3cad733b-3526-476b-adf5-b7cbdd33dc6c","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"beLoveD-faILure.SeOtOOLsForyOu.Co.uk"}}}
 
 rule-providers:
   ir_domains:
@@ -55,10 +53,8 @@ proxy-groups:
     proxies:
       - '❔ XX | 🟢 | vless | @Fr33C0nfig | 50'
       - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51'
-      - '🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 65'
-      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66'
+      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 67'
       - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 68'
-      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69'
 
   - name: 📉 Fallback
     type: fallback
@@ -67,20 +63,16 @@ proxy-groups:
     proxies:
       - '❔ XX | 🟢 | vless | @Fr33C0nfig | 50'
       - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51'
-      - '🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 65'
-      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66'
+      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 67'
       - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 68'
-      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69'
       
   - name: All-Proxies
     type: select
     proxies:
       - '❔ XX | 🟢 | vless | @Fr33C0nfig | 50'
       - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51'
-      - '🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 65'
-      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 66'
+      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 67'
       - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 68'
-      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
