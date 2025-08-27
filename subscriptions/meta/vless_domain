@@ -19,8 +19,9 @@ dns:
 proxies:
   - {"name":"❔ XX | 🟢 | vless | @Fr33C0nfig | 50","type":"vless","server":"de.multiapvps.ir","port":4433,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"docker.com","reality-opts":{"public-key":"LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg"}}
   - {"name":"🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51","type":"vless","server":"usa.multiapvps.ir","port":4434,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"docker.com","reality-opts":{"public-key":"LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg"}}
-  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68","type":"vless","server":"OBEDiENT-detAiL.SEOTOOlSFOrYou.co.uk","port":80,"uuid":"1dd49fb8-6570-4a2a-a236-f410b63159cf","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"OBEDiENT-detAiL.SEOTOOlSFOrYou.co.uk"}}}
-  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69","type":"vless","server":"beLoveD-faILure.SeOtOOLsForyOu.Co.uk","port":80,"uuid":"3cad733b-3526-476b-adf5-b7cbdd33dc6c","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"beLoveD-faILure.SeOtOOLsForyOu.Co.uk"}}}
+  - {"name":"🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65","type":"vless","server":"COnFIDeNt-CLUb.SeoTooLsforYoU.CO.uK","port":80,"uuid":"9926ee97-4398-48dd-b263-2863c62f5c41","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"COnFIDeNt-CLUb.SeoTooLsforYoU.CO.uK"}}}
+  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68","type":"vless","server":"communal-loss.oneeat.co","port":80,"uuid":"a2af50d9-09c7-4a44-90d0-42da35923e9e","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"communal-loss.oneeat.co"}}}
+  - {"name":"🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 69","type":"vless","server":"ssl1.komanserver.ir","port":443,"uuid":"7c64f248-eeea-4d74-8851-39aee486e287","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"am.komanserver.ir."}
 
 rule-providers:
   ir_domains:
@@ -53,8 +54,9 @@ proxy-groups:
     proxies:
       - '❔ XX | 🟢 | vless | @Fr33C0nfig | 50'
       - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51'
+      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65'
       - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69'
+      - '🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 69'
 
   - name: 📉 Fallback
     type: fallback
@@ -63,16 +65,18 @@ proxy-groups:
     proxies:
       - '❔ XX | 🟢 | vless | @Fr33C0nfig | 50'
       - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51'
+      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65'
       - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69'
+      - '🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 69'
       
   - name: All-Proxies
     type: select
     proxies:
       - '❔ XX | 🟢 | vless | @Fr33C0nfig | 50'
       - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51'
+      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65'
       - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69'
+      - '🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 69'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
