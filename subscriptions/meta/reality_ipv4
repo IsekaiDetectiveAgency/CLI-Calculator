@@ -18,6 +18,7 @@ dns:
 
 proxies:
   - {"name":"🇦🇪 AE | 🟢 | vless | @Fr33C0nfig | 48","type":"vless","server":"5.253.31.129","port":17416,"uuid":"1c45c08c-1177-48e9-8f92-1186f7497d65","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"sourceforge.net","reality-opts":{"public-key":"FBeK7y7LfBjdFk79GzCUvhUgCWLaOUnN0bhkS_yEESw","short-id":"c427ac39e8"}}
+  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 65","type":"vless","server":"157.245.24.38","port":2087,"uuid":"f475c570-eba2-4a74-9948-d22ce8492aff","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"ame.spsvps.com","reality-opts":{"public-key":"HQdpA2sAkxUHghPtT8EUA1zPqkq_tz8ncwQM2zNkCS4","short-id":"b359bc5c70c21d55"}}
 
 rule-providers:
   ir_domains:
@@ -49,6 +50,7 @@ proxy-groups:
     tolerance: 50 
     proxies:
       - '🇦🇪 AE | 🟢 | vless | @Fr33C0nfig | 48'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 65'
 
   - name: 📉 Fallback
     type: fallback
@@ -56,11 +58,13 @@ proxy-groups:
     interval: 300
     proxies:
       - '🇦🇪 AE | 🟢 | vless | @Fr33C0nfig | 48'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 65'
       
   - name: All-Proxies
     type: select
     proxies:
       - '🇦🇪 AE | 🟢 | vless | @Fr33C0nfig | 48'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 65'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
