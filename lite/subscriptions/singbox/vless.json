@@ -104,13 +104,16 @@
             "tag": "proxy",
             "type": "selector",
             "outbounds": [
-                "URL-TEST"
+                "URL-TEST",
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
-            "outbounds": [],
+            "outbounds": [
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
+            ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
             "tolerance": 50
@@ -130,6 +133,22 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69",
+            "type": "vless",
+            "server": "OBEDiENT-detAiL.SEOTOOlSFOrYou.co.uk",
+            "server_port": 80,
+            "uuid": "1dd49fb8-6570-4a2a-a236-f410b63159cf",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "OBEDiENT-detAiL.SEOTOOlSFOrYou.co.uk"
+                }
+            }
         }
     ],
     "route": {
