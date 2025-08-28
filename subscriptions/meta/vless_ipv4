@@ -19,8 +19,6 @@ dns:
 proxies:
   - {"name":"🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 10","type":"vless","server":"91.99.190.38","port":51615,"uuid":"2eaef053-5fd6-4def-b234-d760690355ff","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12","type":"vless","server":"104.18.26.90","port":80,"uuid":"6f690965-3be3-43bb-9331-3ead6efb20aa","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/?ed=2560/?JOKERRVPNBIA_CHANEL@JOKERRVPN","headers":{"Host":"sib.sibzamini.dpdns.org"}}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67","type":"vless","server":"104.21.36.57","port":443,"uuid":"6c11247b-6078-461a-93d5-22e4df284e6d","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"mirror.fullmargintraders.com","ws-opts":{"path":"/wsv/6c11247b-6078-461a-93d5-22e4df284e6d","headers":{"Host":"mirror.fullmargintraders.com"}}}
-  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68","type":"vless","server":"159.246.55.251","port":8880,"uuid":"0132166f-e702-48ed-a9e7-b07af768faf8","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"Telegram-channel-WangCai2","ws-opts":{"path":"/Telegram","headers":{"Host":"cf.d3z.net"}}}
 
 rule-providers:
   ir_domains:
@@ -53,8 +51,6 @@ proxy-groups:
     proxies:
       - '🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 10'
       - '🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68'
 
   - name: 📉 Fallback
     type: fallback
@@ -63,16 +59,12 @@ proxy-groups:
     proxies:
       - '🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 10'
       - '🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68'
       
   - name: All-Proxies
     type: select
     proxies:
       - '🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 10'
       - '🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
