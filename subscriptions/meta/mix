@@ -22,11 +22,11 @@ proxies:
   - {"name":"🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49","type":"vless","server":"94.182.142.28","port":2020,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"❔ XX | 🟢 | vless | @Fr33C0nfig | 50","type":"vless","server":"de.multiapvps.ir","port":4433,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"docker.com","reality-opts":{"public-key":"LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg"}}
   - {"name":"🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51","type":"vless","server":"usa.multiapvps.ir","port":4434,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"docker.com","reality-opts":{"public-key":"LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg"}}
-  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 65","type":"ss","server":"81.19.141.45","port":443,"password":"3TnQdgm2mVJQbuSCXmR5Vc","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇦 UA | 🟢 | ss | @NamiraConfigs | 66","type":"ss","server":"147.78.3.93","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 67","type":"ss","server":"45.87.175.183","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 68","type":"ss","server":"45.87.175.167","port":8080,"password":"QCXDxuDlTTMD7jtgHUjIoj","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇫🇷 FR | 🟢 | ss | @NamiraConfigs | 69","type":"ss","server":"77.105.166.12","port":8594,"password":"TRtfV6ruBpDRxAUyijftvD","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇦 CA | 🟢 | trojan | @NamiraConfigs | 65","type":"trojan","server":"ca-full.privateip.net","port":443,"password":"99c63d3a-4499-4a5b-aad6-826a6851f304","skip-cert-verify":false}
+  - {"name":"🇩🇪 DE | 🟢 | trojan | @NamiraConfigs | 66","type":"trojan","server":"on-roughy.shiner427.skin","port":443,"password":"74260704627805900","skip-cert-verify":false}
+  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 67","type":"ss","server":"45.87.175.92","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 68","type":"ss","server":"45.87.175.166","port":8080,"password":"QCXDxuDlTTMD7jtgHUjIoj","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 69","type":"ss","server":"103.104.247.47","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
 
 rule-providers:
   ir_domains:
@@ -62,11 +62,11 @@ proxy-groups:
       - '🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49'
       - '❔ XX | 🟢 | vless | @Fr33C0nfig | 50'
       - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51'
-      - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 65'
-      - '🇺🇦 UA | 🟢 | ss | @NamiraConfigs | 66'
+      - '🇨🇦 CA | 🟢 | trojan | @NamiraConfigs | 65'
+      - '🇩🇪 DE | 🟢 | trojan | @NamiraConfigs | 66'
       - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 67'
       - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 68'
-      - '🇫🇷 FR | 🟢 | ss | @NamiraConfigs | 69'
+      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 69'
 
   - name: 📉 Fallback
     type: fallback
@@ -78,11 +78,11 @@ proxy-groups:
       - '🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49'
       - '❔ XX | 🟢 | vless | @Fr33C0nfig | 50'
       - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51'
-      - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 65'
-      - '🇺🇦 UA | 🟢 | ss | @NamiraConfigs | 66'
+      - '🇨🇦 CA | 🟢 | trojan | @NamiraConfigs | 65'
+      - '🇩🇪 DE | 🟢 | trojan | @NamiraConfigs | 66'
       - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 67'
       - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 68'
-      - '🇫🇷 FR | 🟢 | ss | @NamiraConfigs | 69'
+      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 69'
       
   - name: All-Proxies
     type: select
@@ -92,11 +92,11 @@ proxy-groups:
       - '🇮🇷 IR | 🔴 | vless | @Fr33C0nfig | 49'
       - '❔ XX | 🟢 | vless | @Fr33C0nfig | 50'
       - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51'
-      - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 65'
-      - '🇺🇦 UA | 🟢 | ss | @NamiraConfigs | 66'
+      - '🇨🇦 CA | 🟢 | trojan | @NamiraConfigs | 65'
+      - '🇩🇪 DE | 🟢 | trojan | @NamiraConfigs | 66'
       - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 67'
       - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 68'
-      - '🇫🇷 FR | 🟢 | ss | @NamiraConfigs | 69'
+      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 69'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

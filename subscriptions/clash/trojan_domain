@@ -17,7 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"❔ XX | 🔴 | trojan | @ip_cf_config | 9","type":"trojan","server":"391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net","port":15229,"password":"60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d","skip-cert-verify":false}
+  - {"name":"🇨🇦 CA | 🟢 | trojan | @NamiraConfigs | 65","type":"trojan","server":"ca-full.privateip.net","port":443,"password":"99c63d3a-4499-4a5b-aad6-826a6851f304","skip-cert-verify":false}
+  - {"name":"🇩🇪 DE | 🟢 | trojan | @NamiraConfigs | 66","type":"trojan","server":"on-roughy.shiner427.skin","port":443,"password":"74260704627805900","skip-cert-verify":false}
 
 rule-providers:
   ir_domains:
@@ -48,19 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '❔ XX | 🔴 | trojan | @ip_cf_config | 9'
+      - '🇨🇦 CA | 🟢 | trojan | @NamiraConfigs | 65'
+      - '🇩🇪 DE | 🟢 | trojan | @NamiraConfigs | 66'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '❔ XX | 🔴 | trojan | @ip_cf_config | 9'
+      - '🇨🇦 CA | 🟢 | trojan | @NamiraConfigs | 65'
+      - '🇩🇪 DE | 🟢 | trojan | @NamiraConfigs | 66'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '❔ XX | 🔴 | trojan | @ip_cf_config | 9'
+      - '🇨🇦 CA | 🟢 | trojan | @NamiraConfigs | 65'
+      - '🇩🇪 DE | 🟢 | trojan | @NamiraConfigs | 66'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
