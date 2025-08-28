@@ -104,16 +104,13 @@
             "tag": "proxy",
             "type": "selector",
             "outbounds": [
-                "URL-TEST",
-                "🇧🇬 BG | 🔴 | vless | @NamiraConfigs | 69"
+                "URL-TEST"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
-            "outbounds": [
-                "🇧🇬 BG | 🔴 | vless | @NamiraConfigs | 69"
-            ],
+            "outbounds": [],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
             "tolerance": 50
@@ -133,22 +130,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇧🇬 BG | 🔴 | vless | @NamiraConfigs | 69",
-            "type": "vless",
-            "server": "89.44.197.77",
-            "server_port": 15946,
-            "uuid": "8672bdcd-e331-464d-9ed8-93a242ca7d2e",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "89.44.197.77"
-                }
-            }
         }
     ],
     "route": {
