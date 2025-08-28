@@ -17,8 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51","type":"vless","server":"usa.multiapvps.ir","port":4434,"uuid":"32b67990-fb70-457f-8f02-c7c62e4156ca","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"docker.com","reality-opts":{"public-key":"LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg"}}
-  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69","type":"vless","server":"172.234.221.94","port":56224,"uuid":"e3d0de50-7673-4d13-be7b-e508632ed430","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13","type":"vmess","server":"customers.tele-shop-too.studio","port":33203,"cipher":"auto","uuid":"eaae52d7-bc1a-4979-bd66-b6b428107173","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69","type":"ss","server":"38.102.7.181","port":59719,"password":"SxCyrPsofR","cipher":"aes-256-gcm"}
 
 rule-providers:
   ir_domains:
@@ -49,22 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69'
+      - '🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13'
+      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69'
+      - '🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13'
+      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69'
+      - '🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13'
+      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
