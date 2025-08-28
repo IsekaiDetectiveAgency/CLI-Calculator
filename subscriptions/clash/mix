@@ -17,11 +17,9 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇨🇦 CA | 🟢 | trojan | @NamiraConfigs | 65","type":"trojan","server":"ca-full.privateip.net","port":443,"password":"99c63d3a-4499-4a5b-aad6-826a6851f304","skip-cert-verify":false}
-  - {"name":"🇩🇪 DE | 🟢 | trojan | @NamiraConfigs | 66","type":"trojan","server":"on-roughy.shiner427.skin","port":443,"password":"74260704627805900","skip-cert-verify":false}
-  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 67","type":"ss","server":"45.87.175.92","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 68","type":"ss","server":"45.87.175.166","port":8080,"password":"QCXDxuDlTTMD7jtgHUjIoj","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 69","type":"ss","server":"103.104.247.47","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬 SG | 🔴 | vmess | @NamiraConfigs | 67","type":"vmess","server":"62.146.235.193","port":28011,"cipher":"auto","uuid":"cfc5a87f-3c13-4e25-b556-176cdd6b5c6a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 68","type":"vmess","server":"195.211.99.143","port":8443,"cipher":"auto","uuid":"2e514a36-7ae8-4b6a-9e36-9c20e7228824","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":""}}}
+  - {"name":"🇷🇺 RU | 🔴 | vmess | @NamiraConfigs | 69","type":"vmess","server":"45.67.230.79","port":11052,"cipher":"auto","uuid":"314185f7-931d-4656-922d-0857e7afd224","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 
 rule-providers:
   ir_domains:
@@ -52,31 +50,25 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇨🇦 CA | 🟢 | trojan | @NamiraConfigs | 65'
-      - '🇩🇪 DE | 🟢 | trojan | @NamiraConfigs | 66'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 67'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 68'
-      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 69'
+      - '🇸🇬 SG | 🔴 | vmess | @NamiraConfigs | 67'
+      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 68'
+      - '🇷🇺 RU | 🔴 | vmess | @NamiraConfigs | 69'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇨🇦 CA | 🟢 | trojan | @NamiraConfigs | 65'
-      - '🇩🇪 DE | 🟢 | trojan | @NamiraConfigs | 66'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 67'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 68'
-      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 69'
+      - '🇸🇬 SG | 🔴 | vmess | @NamiraConfigs | 67'
+      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 68'
+      - '🇷🇺 RU | 🔴 | vmess | @NamiraConfigs | 69'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇨🇦 CA | 🟢 | trojan | @NamiraConfigs | 65'
-      - '🇩🇪 DE | 🟢 | trojan | @NamiraConfigs | 66'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 67'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 68'
-      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 69'
+      - '🇸🇬 SG | 🔴 | vmess | @NamiraConfigs | 67'
+      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 68'
+      - '🇷🇺 RU | 🔴 | vmess | @NamiraConfigs | 69'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
