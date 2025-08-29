@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-
+  - {"name":"🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69","type":"vless","server":"COnFIDeNt-CLUb.SeoTooLsforYoU.CO.uK","port":80,"uuid":"9926ee97-4398-48dd-b263-2863c62f5c41","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"COnFIDeNt-CLUb.SeoTooLsforYoU.CO.uK"}}}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-
+      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-
+      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69'
       
   - name: All-Proxies
     type: select
     proxies:
-
+      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
