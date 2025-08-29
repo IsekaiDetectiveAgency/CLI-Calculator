@@ -18,9 +18,7 @@ dns:
 
 proxies:
   - {"name":"🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13","type":"vmess","server":"customers.tele-shop-too.studio","port":33203,"cipher":"auto","uuid":"eaae52d7-bc1a-4979-bd66-b6b428107173","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 65","type":"ss","server":"164.92.156.41","port":24206,"password":"zI7kiNZ0UfV9cXB73a4nRD","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇿 CZ | 🟢 | ss | @NamiraConfigs | 66","type":"ss","server":"195.181.160.6","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69","type":"ss","server":"45.87.175.65","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 68","type":"ss","server":"185.193.102.7","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
 
 rule-providers:
   ir_domains:
@@ -52,9 +50,7 @@ proxy-groups:
     tolerance: 50 
     proxies:
       - '🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13'
-      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 65'
-      - '🇨🇿 CZ | 🟢 | ss | @NamiraConfigs | 66'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69'
+      - '🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 68'
 
   - name: 📉 Fallback
     type: fallback
@@ -62,17 +58,13 @@ proxy-groups:
     interval: 300
     proxies:
       - '🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13'
-      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 65'
-      - '🇨🇿 CZ | 🟢 | ss | @NamiraConfigs | 66'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69'
+      - '🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 68'
       
   - name: All-Proxies
     type: select
     proxies:
       - '🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13'
-      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 65'
-      - '🇨🇿 CZ | 🟢 | ss | @NamiraConfigs | 66'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69'
+      - '🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 68'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
