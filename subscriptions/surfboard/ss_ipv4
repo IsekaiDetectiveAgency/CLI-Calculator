@@ -9,14 +9,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇺🇸 US | 🟢 | ss | @NamiraConfigs | 66 = ss, 45.87.175.171, 8080, encrypt-method = chacha20-ietf-poly1305, password = 1RWwXhwfAB5gAEozU4G2Pg
-🇺🇸 US | 🟢 | ss | @NamiraConfigs | 67 = ss, 45.87.175.164, 8080, encrypt-method = chacha20-ietf-poly1305, password = 1RWwXhwfAB5gAEozU4G2Pg
-🇨🇿 CZ | 🟢 | ss | @NamiraConfigs | 69 = ss, 195.181.160.6, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
+🇺🇸 US | 🟢 | ss | @NamiraConfigs | 68 = ss, 45.87.175.154, 8080, encrypt-method = chacha20-ietf-poly1305, password = cvII85TrW6n0OGyfpHVS1u
+🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 69 = ss, 185.193.102.7, 57456, encrypt-method = chacha20-ietf-poly1305, password = 360e21d21977dc11
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🟢 | ss | @NamiraConfigs | 66, 🇺🇸 US | 🟢 | ss | @NamiraConfigs | 67, 🇨🇿 CZ | 🟢 | ss | @NamiraConfigs | 69
-PSG-AUTO = url-test, 🇺🇸 US | 🟢 | ss | @NamiraConfigs | 66, 🇺🇸 US | 🟢 | ss | @NamiraConfigs | 67, 🇨🇿 CZ | 🟢 | ss | @NamiraConfigs | 69
-PSG-FALLBACK = fallback, 🇺🇸 US | 🟢 | ss | @NamiraConfigs | 66, 🇺🇸 US | 🟢 | ss | @NamiraConfigs | 67, 🇨🇿 CZ | 🟢 | ss | @NamiraConfigs | 69
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🟢 | ss | @NamiraConfigs | 68, 🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 69
+PSG-AUTO = url-test, 🇺🇸 US | 🟢 | ss | @NamiraConfigs | 68, 🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 69
+PSG-FALLBACK = fallback, 🇺🇸 US | 🟢 | ss | @NamiraConfigs | 68, 🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 69
 
 [Rule]
 GEOIP,IR,DIRECT
