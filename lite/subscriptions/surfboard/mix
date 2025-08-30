@@ -10,12 +10,12 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13 = vmess, customers.tele-shop-too.studio, 33203, username = eaae52d7-bc1a-4979-bd66-b6b428107173, ws = false, tls = false
-🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69 = ss, 45.87.175.35, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
+🇨🇿 CZ | 🟢 | ss | @NamiraConfigs | 69 = ss, 195.181.160.6, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13, 🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69
-PSG-AUTO = url-test, 🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13, 🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69
-PSG-FALLBACK = fallback, 🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13, 🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13, 🇨🇿 CZ | 🟢 | ss | @NamiraConfigs | 69
+PSG-AUTO = url-test, 🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13, 🇨🇿 CZ | 🟢 | ss | @NamiraConfigs | 69
+PSG-FALLBACK = fallback, 🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13, 🇨🇿 CZ | 🟢 | ss | @NamiraConfigs | 69
 
 [Rule]
 GEOIP,IR,DIRECT
