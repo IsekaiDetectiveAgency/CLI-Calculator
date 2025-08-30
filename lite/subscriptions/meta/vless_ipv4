@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 69","type":"vless","server":"104.21.36.57","port":443,"uuid":"6c11247b-6078-461a-93d5-22e4df284e6d","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"mirror.fullmargintraders.com","ws-opts":{"path":"/wsv/6c11247b-6078-461a-93d5-22e4df284e6d","headers":{"Host":"mirror.fullmargintraders.com"}}}
+  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69","type":"vless","server":"104.18.32.69","port":2095,"uuid":"33039dbe-8889-42f1-9aeb-ecfbfa2a1640","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/?ed=2560","headers":{"Host":"21tg.459tj345.workers.dev"}}}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 69'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 69'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 69'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

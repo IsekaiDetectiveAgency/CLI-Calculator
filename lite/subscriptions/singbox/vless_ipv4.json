@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 69"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 69"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,27 +135,18 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 69",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69",
             "type": "vless",
-            "server": "104.21.36.57",
-            "server_port": 443,
-            "uuid": "6c11247b-6078-461a-93d5-22e4df284e6d",
+            "server": "104.18.32.69",
+            "server_port": 2095,
+            "uuid": "33039dbe-8889-42f1-9aeb-ecfbfa2a1640",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "mirror.fullmargintraders.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/wsv/6c11247b-6078-461a-93d5-22e4df284e6d",
+                "path": "/?ed=2560",
                 "headers": {
-                    "Host": "mirror.fullmargintraders.com"
+                    "Host": "104.18.32.69"
                 }
             }
         }
