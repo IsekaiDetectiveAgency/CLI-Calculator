@@ -17,11 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 65","type":"ss","server":"45.87.175.157","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 66","type":"ss","server":"193.29.139.202","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 67","type":"ss","server":"45.87.175.166","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 68","type":"ss","server":"45.87.175.157","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69","type":"ss","server":"45.87.175.10","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69","type":"ss","server":"45.87.175.178","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
 
 rule-providers:
   ir_domains:
@@ -52,10 +48,6 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 65'
-      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 66'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 67'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 68'
       - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69'
 
   - name: 📉 Fallback
@@ -63,19 +55,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 65'
-      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 66'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 67'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 68'
       - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 65'
-      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 66'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 67'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 68'
       - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69'
 
 rules:
