@@ -18,7 +18,6 @@ dns:
 
 proxies:
   - {"name":"🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9","type":"vless","server":"all32-vip.f-sub.com","port":2434,"uuid":"738c5a04-817a-4f50-b327-893595010155","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"chess.com","reality-opts":{"public-key":"yGgU4VVwpWk3sY54VgDxYVg77n5i-4jduHegq6PqPyA"}}
-  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 67","type":"vless","server":"157.245.24.38","port":2087,"uuid":"f475c570-eba2-4a74-9948-d22ce8492aff","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"ame.spsvps.com","reality-opts":{"public-key":"HQdpA2sAkxUHghPtT8EUA1zPqkq_tz8ncwQM2zNkCS4","short-id":"b359bc5c70c21d55"}}
 
 rule-providers:
   ir_domains:
@@ -50,7 +49,6 @@ proxy-groups:
     tolerance: 50 
     proxies:
       - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9'
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 67'
 
   - name: 📉 Fallback
     type: fallback
@@ -58,13 +56,11 @@ proxy-groups:
     interval: 300
     proxies:
       - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9'
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 67'
       
   - name: All-Proxies
     type: select
     proxies:
       - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9'
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 67'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
