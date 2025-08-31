@@ -18,7 +18,7 @@ dns:
 
 proxies:
   - {"name":"🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13","type":"vmess","server":"customers.tele-shop-too.studio","port":33203,"cipher":"auto","uuid":"eaae52d7-bc1a-4979-bd66-b6b428107173","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69","type":"vless","server":"172.64.88.159","port":80,"uuid":"63d7714a-2ac5-46ac-93be-96cea00300f8","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/Telegram@V2ray_Alpha/?ed=2560","headers":{"Host":"winter-unit-b41d-ppal03.daxesac157.workers.dev"}}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 69","type":"vless","server":"104.26.0.73","port":443,"uuid":"c93b1359-c570-4703-894a-ce18883faac3","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"bsw8xmeczkaqznfcbu7sdx39baabahluzcnr9xyifcgpnzls6jsodqndaygtww3.yju9y2x.workers.Dev","ws-opts":{"path":"/","headers":{"Host":"bsw8xmeczkaqznfcbu7sdx39baabahluzcnr9xyifcgpnzls6jsodqndaygtww3.yju9y2x.workers.Dev"}}}
 
 rule-providers:
   ir_domains:
@@ -50,7 +50,7 @@ proxy-groups:
     tolerance: 50 
     proxies:
       - '🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 69'
 
   - name: 📉 Fallback
     type: fallback
@@ -58,13 +58,13 @@ proxy-groups:
     interval: 300
     proxies:
       - '🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 69'
       
   - name: All-Proxies
     type: select
     proxies:
       - '🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 69'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
