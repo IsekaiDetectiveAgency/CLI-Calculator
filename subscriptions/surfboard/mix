@@ -10,11 +10,16 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13 = vmess, customers.tele-shop-too.studio, 33203, username = eaae52d7-bc1a-4979-bd66-b6b428107173, ws = false, tls = false
+🇲🇹 MT | 🟢 | ss | @NamiraConfigs | 65 = ss, 171.22.254.17, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
+🇦🇹 AT | 🟢 | ss | @NamiraConfigs | 66 = ss, 77.110.110.240, 443, encrypt-method = aes-256-gcm, password = 0a914e9a-3e3b-470f-a267-7ea7083c45bb
+🇦🇹 AT | 🟢 | ss | @NamiraConfigs | 67 = ss, 77.110.110.240, 443, encrypt-method = aes-256-gcm, password = 102ad3da-2d55-49d6-b8c8-2d7e04df33ca
+🇦🇹 AT | 🟢 | ss | @NamiraConfigs | 68 = ss, 77.110.110.240, 443, encrypt-method = aes-256-gcm, password = a7f082c1-0d12-4609-b6bf-e760b668cf23
+🇬🇷 GR | 🟢 | ss | @NamiraConfigs | 69 = ss, 192.71.166.102, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13
-PSG-AUTO = url-test, 🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13
-PSG-FALLBACK = fallback, 🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13, 🇲🇹 MT | 🟢 | ss | @NamiraConfigs | 65, 🇦🇹 AT | 🟢 | ss | @NamiraConfigs | 66, 🇦🇹 AT | 🟢 | ss | @NamiraConfigs | 67, 🇦🇹 AT | 🟢 | ss | @NamiraConfigs | 68, 🇬🇷 GR | 🟢 | ss | @NamiraConfigs | 69
+PSG-AUTO = url-test, 🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13, 🇲🇹 MT | 🟢 | ss | @NamiraConfigs | 65, 🇦🇹 AT | 🟢 | ss | @NamiraConfigs | 66, 🇦🇹 AT | 🟢 | ss | @NamiraConfigs | 67, 🇦🇹 AT | 🟢 | ss | @NamiraConfigs | 68, 🇬🇷 GR | 🟢 | ss | @NamiraConfigs | 69
+PSG-FALLBACK = fallback, 🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13, 🇲🇹 MT | 🟢 | ss | @NamiraConfigs | 65, 🇦🇹 AT | 🟢 | ss | @NamiraConfigs | 66, 🇦🇹 AT | 🟢 | ss | @NamiraConfigs | 67, 🇦🇹 AT | 🟢 | ss | @NamiraConfigs | 68, 🇬🇷 GR | 🟢 | ss | @NamiraConfigs | 69
 
 [Rule]
 GEOIP,IR,DIRECT
