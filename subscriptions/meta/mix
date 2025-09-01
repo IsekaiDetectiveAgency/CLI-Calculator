@@ -22,8 +22,10 @@ proxies:
   - {"name":"🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11","type":"vless","server":"c51.aminzing.lol","port":443,"uuid":"2de98c6e-319d-4fd1-81ba-82237c44ed36","tls":true,"network":"httpupgrade","client-fingerprint":"chrome","udp":true,"servername":"c51.aminzing.lol"}
   - {"name":"🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12","type":"vless","server":"104.18.26.90","port":80,"uuid":"6f690965-3be3-43bb-9331-3ead6efb20aa","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/?ed=2560/?JOKERRVPNBIA_CHANEL@JOKERRVPN","headers":{"Host":"sib.sibzamini.dpdns.org"}}}
   - {"name":"🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13","type":"vmess","server":"customers.tele-shop-too.studio","port":33203,"cipher":"auto","uuid":"eaae52d7-bc1a-4979-bd66-b6b428107173","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 65","type":"vless","server":"ov-germany6.09vpn.com","port":8443,"uuid":"1ff9dc4a-4853-4790-a81c-13e195c957e8","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/vless/","headers":{"Host":"ov-germany6.09vpn.com"}}}
-  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67","type":"vless","server":"light-presence.oneeat.co","port":80,"uuid":"7e74ff43-3a90-48b3-8372-7d92a045c2d4","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"light-presence.oneeat.co"}}}
+  - {"name":"🇺🇸 US | 🔴 | trojan | @NamiraConfigs | 63","type":"trojan","server":"108.162.196.69","port":443,"password":"4b040268-f3a5-4136-b1a9-506012e8e3d9","skip-cert-verify":false}
+  - {"name":"🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 64","type":"vless","server":"109.120.132.142","port":40617,"uuid":"d8d05386-e381-40a4-bb63-715c208b3ed3","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 65","type":"vless","server":"pq-unitedstates3.09vpn.com","port":80,"uuid":"b6d6dcc2-640b-411f-8003-620830fbf183","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/vless/","headers":{"Host":"pq-unitedstates3.09vpn.com"}}}
+  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66","type":"vless","server":"elegant-corporation.seotoolsforyou.co.uk","port":80,"uuid":"d03d8815-a06f-408f-a62f-6c84869b96a9","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"elegant-corporation.seotoolsforyou.co.uk"}}}
 
 rule-providers:
   ir_domains:
@@ -59,8 +61,10 @@ proxy-groups:
       - '🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11'
       - '🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12'
       - '🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13'
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 65'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67'
+      - '🇺🇸 US | 🔴 | trojan | @NamiraConfigs | 63'
+      - '🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 64'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 65'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66'
 
   - name: 📉 Fallback
     type: fallback
@@ -72,8 +76,10 @@ proxy-groups:
       - '🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11'
       - '🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12'
       - '🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13'
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 65'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67'
+      - '🇺🇸 US | 🔴 | trojan | @NamiraConfigs | 63'
+      - '🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 64'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 65'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66'
       
   - name: All-Proxies
     type: select
@@ -83,8 +89,10 @@ proxy-groups:
       - '🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11'
       - '🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12'
       - '🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13'
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 65'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67'
+      - '🇺🇸 US | 🔴 | trojan | @NamiraConfigs | 63'
+      - '🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 64'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 65'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
