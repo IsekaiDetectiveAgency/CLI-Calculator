@@ -105,14 +105,16 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13"
+                "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13",
+                "🇨🇦 CA | 🟢 | ss | @NamiraConfigs | 69"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13"
+                "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13",
+                "🇨🇦 CA | 🟢 | ss | @NamiraConfigs | 69"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -142,6 +144,14 @@
             "uuid": "eaae52d7-bc1a-4979-bd66-b6b428107173",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🇨🇦 CA | 🟢 | ss | @NamiraConfigs | 69",
+            "type": "shadowsocks",
+            "server": "38.180.211.126",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Kuiqk2cP0BMWrgme9IfEvp"
         }
     ],
     "route": {
