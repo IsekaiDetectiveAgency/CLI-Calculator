@@ -9,12 +9,14 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇺🇸 US | 🔴 | trojan | @NamiraConfigs | 63 = trojan, 108.162.196.69, 443, password = 4b040268-f3a5-4136-b1a9-506012e8e3d9, skip-cert-verify = false
+🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 63 = trojan, 94.131.20.3, 443, password = 3482c71a-d01c-4ae5-b454-fa8cb3785f66, skip-cert-verify = false
+🇺🇸 US | 🔴 | trojan | @NamiraConfigs | 64 = trojan, 108.162.196.69, 443, password = 4b040268-f3a5-4136-b1a9-506012e8e3d9, skip-cert-verify = false
+🇺🇸 US | 🔴 | trojan | @NamiraConfigs | 65 = trojan, 141.101.120.10, 443, password = 4b040268-f3a5-4136-b1a9-506012e8e3d9, skip-cert-verify = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🔴 | trojan | @NamiraConfigs | 63
-PSG-AUTO = url-test, 🇺🇸 US | 🔴 | trojan | @NamiraConfigs | 63
-PSG-FALLBACK = fallback, 🇺🇸 US | 🔴 | trojan | @NamiraConfigs | 63
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 63, 🇺🇸 US | 🔴 | trojan | @NamiraConfigs | 64, 🇺🇸 US | 🔴 | trojan | @NamiraConfigs | 65
+PSG-AUTO = url-test, 🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 63, 🇺🇸 US | 🔴 | trojan | @NamiraConfigs | 64, 🇺🇸 US | 🔴 | trojan | @NamiraConfigs | 65
+PSG-FALLBACK = fallback, 🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 63, 🇺🇸 US | 🔴 | trojan | @NamiraConfigs | 64, 🇺🇸 US | 🔴 | trojan | @NamiraConfigs | 65
 
 [Rule]
 GEOIP,IR,DIRECT
