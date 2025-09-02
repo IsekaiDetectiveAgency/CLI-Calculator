@@ -23,7 +23,7 @@ proxies:
   - {"name":"🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12","type":"vless","server":"104.18.26.90","port":80,"uuid":"6f690965-3be3-43bb-9331-3ead6efb20aa","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/?ed=2560/?JOKERRVPNBIA_CHANEL@JOKERRVPN","headers":{"Host":"sib.sibzamini.dpdns.org"}}}
   - {"name":"🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13","type":"vmess","server":"customers.tele-shop-too.studio","port":33203,"cipher":"auto","uuid":"eaae52d7-bc1a-4979-bd66-b6b428107173","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 55","type":"vmess","server":"15.204.234.200","port":41100,"cipher":"auto","uuid":"c7f169a3-2e9a-4894-ba53-7b2fa6fd08b4","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 56","type":"vless","server":"beLoveD-faILure.SeOtOOLsForyOu.Co.uk","port":80,"uuid":"3cad733b-3526-476b-adf5-b7cbdd33dc6c","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"beLoveD-faILure.SeOtOOLsForyOu.Co.uk"}}}
+  - {"name":"🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 56","type":"vless","server":"beLoveD-faILure.SeOtOOLsForyOu.Co.uk","port":80,"uuid":"3cad733b-3526-476b-adf5-b7cbdd33dc6c","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"beLoveD-faILure.SeOtOOLsForyOu.Co.uk"}}}
   - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 58","type":"vless","server":"172.234.221.94","port":56224,"uuid":"e3d0de50-7673-4d13-be7b-e508632ed430","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
@@ -61,7 +61,7 @@ proxy-groups:
       - '🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12'
       - '🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13'
       - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 55'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 56'
+      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 56'
       - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 58'
 
   - name: 📉 Fallback
@@ -75,7 +75,7 @@ proxy-groups:
       - '🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12'
       - '🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13'
       - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 55'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 56'
+      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 56'
       - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 58'
       
   - name: All-Proxies
@@ -87,7 +87,7 @@ proxy-groups:
       - '🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12'
       - '🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13'
       - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 55'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 56'
+      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 56'
       - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 58'
 
 rules:
