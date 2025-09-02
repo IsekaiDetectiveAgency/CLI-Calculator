@@ -105,14 +105,16 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13"
+                "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13",
+                "🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 69"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13"
+                "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13",
+                "🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 69"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -142,6 +144,22 @@
             "uuid": "eaae52d7-bc1a-4979-bd66-b6b428107173",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 69",
+            "type": "vmess",
+            "server": "51.79.102.253",
+            "server_port": 80,
+            "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/IOebhLMhl1CTbFHbL95myfRX2",
+                "headers": {
+                    "Host": ""
+                }
+            }
         }
     ],
     "route": {
