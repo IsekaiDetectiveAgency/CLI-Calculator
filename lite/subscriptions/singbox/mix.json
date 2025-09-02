@@ -106,7 +106,7 @@
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
+                "🇭🇰 HK | 🟢 | vless | @NamiraConfigs | 69"
             ]
         },
         {
@@ -114,7 +114,7 @@
             "type": "urltest",
             "outbounds": [
                 "🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
+                "🇭🇰 HK | 🟢 | vless | @NamiraConfigs | 69"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -146,18 +146,27 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69",
+            "tag": "🇭🇰 HK | 🟢 | vless | @NamiraConfigs | 69",
             "type": "vless",
-            "server": "magical-fish.seotoolsforyou.co.uk",
-            "server_port": 80,
-            "uuid": "edb4c373-ac92-4430-8f42-94439ca829b9",
+            "server": "103.160.204.50",
+            "server_port": 443,
+            "uuid": "c98a16e4-0dc5-42f0-b3db-30f04525c123",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "vless8-ekh.pages.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "magical-fish.seotoolsforyou.co.uk"
+                    "Host": "vless8-ekh.pages.dev"
                 }
             }
         }

@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-
+  - {"name":"🇭🇰 HK | 🟢 | vless | @NamiraConfigs | 69","type":"vless","server":"103.160.204.50","port":443,"uuid":"c98a16e4-0dc5-42f0-b3db-30f04525c123","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"vless8-ekh.pages.dev","ws-opts":{"path":"/","headers":{"Host":"vless8-ekh.pages.dev"}}}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-
+      - '🇭🇰 HK | 🟢 | vless | @NamiraConfigs | 69'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-
+      - '🇭🇰 HK | 🟢 | vless | @NamiraConfigs | 69'
       
   - name: All-Proxies
     type: select
     proxies:
-
+      - '🇭🇰 HK | 🟢 | vless | @NamiraConfigs | 69'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
