@@ -104,16 +104,13 @@
             "tag": "proxy",
             "type": "selector",
             "outbounds": [
-                "URL-TEST",
-                "🇭🇰 HK | 🟢 | vless | @NamiraConfigs | 69"
+                "URL-TEST"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
-            "outbounds": [
-                "🇭🇰 HK | 🟢 | vless | @NamiraConfigs | 69"
-            ],
+            "outbounds": [],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
             "tolerance": 50
@@ -133,31 +130,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇭🇰 HK | 🟢 | vless | @NamiraConfigs | 69",
-            "type": "vless",
-            "server": "103.160.204.50",
-            "server_port": 443,
-            "uuid": "c98a16e4-0dc5-42f0-b3db-30f04525c123",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vless8-ekh.pages.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "vless8-ekh.pages.dev"
-                }
-            }
         }
     ],
     "route": {
