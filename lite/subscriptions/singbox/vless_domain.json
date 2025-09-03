@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,18 +135,18 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69",
             "type": "vless",
-            "server": "handSoME-dEvice.ONEeAt.CO",
+            "server": "beLoveD-faILure.SeOtOOLsForyOu.Co.uk",
             "server_port": 80,
-            "uuid": "2ad87f95-7a0b-4018-8497-5ecaac2f0ddf",
+            "uuid": "3cad733b-3526-476b-adf5-b7cbdd33dc6c",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "handSoME-dEvice.ONEeAt.CO"
+                    "Host": "beLoveD-faILure.SeOtOOLsForyOu.Co.uk"
                 }
             }
         }
