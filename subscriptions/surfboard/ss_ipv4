@@ -9,15 +9,16 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 63 = ss, 83.147.216.70, 64519, encrypt-method = chacha20-ietf-poly1305, password = YXgS8ComTam7qoesPlzlMo
-🇵🇪 PE | 🟢 | ss | @NamiraConfigs | 64 = ss, 185.47.252.251, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
-🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 65 = ss, 193.29.139.235, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
-🇨🇴 CO | 🟢 | ss | @NamiraConfigs | 66 = ss, 181.119.30.20, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
+🇺🇸 US | 🟢 | ss | @NamiraConfigs | 65 = ss, 104.167.197.25, 57456, encrypt-method = chacha20-ietf-poly1305, password = 360e21d21977dc11
+🇺🇸 US | 🟢 | ss | @NamiraConfigs | 66 = ss, 154.44.15.133, 44642, encrypt-method = aes-256-gcm, password = iHapGY8XoW
+🇺🇸 US | 🟢 | ss | @NamiraConfigs | 67 = ss, 45.87.175.199, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
+🇺🇸 US | 🟢 | ss | @NamiraConfigs | 68 = ss, 45.87.175.166, 8080, encrypt-method = chacha20-ietf-poly1305, password = cvII85TrW6n0OGyfpHVS1u
+🇪🇸 ES | 🟢 | ss | @NamiraConfigs | 69 = ss, 45.154.206.192, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 63, 🇵🇪 PE | 🟢 | ss | @NamiraConfigs | 64, 🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 65, 🇨🇴 CO | 🟢 | ss | @NamiraConfigs | 66
-PSG-AUTO = url-test, 🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 63, 🇵🇪 PE | 🟢 | ss | @NamiraConfigs | 64, 🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 65, 🇨🇴 CO | 🟢 | ss | @NamiraConfigs | 66
-PSG-FALLBACK = fallback, 🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 63, 🇵🇪 PE | 🟢 | ss | @NamiraConfigs | 64, 🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 65, 🇨🇴 CO | 🟢 | ss | @NamiraConfigs | 66
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🟢 | ss | @NamiraConfigs | 65, 🇺🇸 US | 🟢 | ss | @NamiraConfigs | 66, 🇺🇸 US | 🟢 | ss | @NamiraConfigs | 67, 🇺🇸 US | 🟢 | ss | @NamiraConfigs | 68, 🇪🇸 ES | 🟢 | ss | @NamiraConfigs | 69
+PSG-AUTO = url-test, 🇺🇸 US | 🟢 | ss | @NamiraConfigs | 65, 🇺🇸 US | 🟢 | ss | @NamiraConfigs | 66, 🇺🇸 US | 🟢 | ss | @NamiraConfigs | 67, 🇺🇸 US | 🟢 | ss | @NamiraConfigs | 68, 🇪🇸 ES | 🟢 | ss | @NamiraConfigs | 69
+PSG-FALLBACK = fallback, 🇺🇸 US | 🟢 | ss | @NamiraConfigs | 65, 🇺🇸 US | 🟢 | ss | @NamiraConfigs | 66, 🇺🇸 US | 🟢 | ss | @NamiraConfigs | 67, 🇺🇸 US | 🟢 | ss | @NamiraConfigs | 68, 🇪🇸 ES | 🟢 | ss | @NamiraConfigs | 69
 
 [Rule]
 GEOIP,IR,DIRECT
