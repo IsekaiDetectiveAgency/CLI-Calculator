@@ -17,11 +17,9 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 61","type":"ss","server":"45.87.175.92","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 62","type":"ss","server":"45.87.175.192","port":8080,"password":"1RWwXhwfAB5gAEozU4G2Pg","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 63","type":"ss","server":"45.87.175.166","port":8080,"password":"QCXDxuDlTTMD7jtgHUjIoj","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 64","type":"ss","server":"103.104.247.47","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 65","type":"ss","server":"45.87.175.164","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 65","type":"ss","server":"beesyar.org","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 66","type":"ss","server":"51.195.119.47","port":1080,"password":"qXvO7zYU7KeaB0Md7DQLow","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 69","type":"ss","server":"83.147.216.70","port":64519,"password":"F3nY73di5onWV3gotbpI0Q","cipher":"chacha20-ietf-poly1305"}
 
 rule-providers:
   ir_domains:
@@ -52,31 +50,25 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 61'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 62'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 63'
-      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 64'
       - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 65'
+      - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 66'
+      - '🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 69'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 61'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 62'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 63'
-      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 64'
       - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 65'
+      - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 66'
+      - '🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 69'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 61'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 62'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 63'
-      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 64'
       - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 65'
+      - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 66'
+      - '🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 69'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
