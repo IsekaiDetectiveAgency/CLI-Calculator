@@ -104,13 +104,16 @@
             "tag": "proxy",
             "type": "selector",
             "outbounds": [
-                "URL-TEST"
+                "URL-TEST",
+                "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 69"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
-            "outbounds": [],
+            "outbounds": [
+                "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 69"
+            ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
             "tolerance": 50
@@ -130,6 +133,14 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 69",
+            "type": "shadowsocks",
+            "server": "81.19.141.45",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "3TnQdgm2mVJQbuSCXmR5Vc"
         }
     ],
     "route": {
