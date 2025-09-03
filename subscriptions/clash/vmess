@@ -18,9 +18,6 @@ dns:
 
 proxies:
   - {"name":"🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13","type":"vmess","server":"customers.tele-shop-too.studio","port":33203,"cipher":"auto","uuid":"eaae52d7-bc1a-4979-bd66-b6b428107173","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 65","type":"vmess","server":"103.61.139.137","port":20521,"cipher":"auto","uuid":"f8d93cfb-3d5d-447c-a697-16496dd74697","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN","headers":{"Host":""}}}
-  - {"name":"🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 66","type":"vmess","server":"104.18.149.76","port":443,"cipher":"auto","uuid":"de94cc0a-0592-4969-b1fc-97ea8f0ea0b3","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/aa","headers":{"Host":"us.kkp.me.eu.org"}}}
-  - {"name":"🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 67","type":"vmess","server":"51.79.102.253","port":80,"cipher":"auto","uuid":"58fe1542-5290-40ad-815a-77707a81afe5","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/IOebhLMhl1CTbFHbL95myfRX2","headers":{"Host":""}}}
 
 rule-providers:
   ir_domains:
@@ -52,9 +49,6 @@ proxy-groups:
     tolerance: 50 
     proxies:
       - '🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13'
-      - '🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 65'
-      - '🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 66'
-      - '🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 67'
 
   - name: 📉 Fallback
     type: fallback
@@ -62,17 +56,11 @@ proxy-groups:
     interval: 300
     proxies:
       - '🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13'
-      - '🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 65'
-      - '🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 66'
-      - '🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 67'
       
   - name: All-Proxies
     type: select
     proxies:
       - '🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13'
-      - '🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 65'
-      - '🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 66'
-      - '🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 67'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
