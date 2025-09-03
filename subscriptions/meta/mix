@@ -22,11 +22,9 @@ proxies:
   - {"name":"🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11","type":"vless","server":"c51.aminzing.lol","port":443,"uuid":"2de98c6e-319d-4fd1-81ba-82237c44ed36","tls":true,"network":"httpupgrade","client-fingerprint":"chrome","udp":true,"servername":"c51.aminzing.lol"}
   - {"name":"🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12","type":"vless","server":"104.18.26.90","port":80,"uuid":"6f690965-3be3-43bb-9331-3ead6efb20aa","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/?ed=2560/?JOKERRVPNBIA_CHANEL@JOKERRVPN","headers":{"Host":"sib.sibzamini.dpdns.org"}}}
   - {"name":"🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13","type":"vmess","server":"customers.tele-shop-too.studio","port":33203,"cipher":"auto","uuid":"eaae52d7-bc1a-4979-bd66-b6b428107173","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 65","type":"ss","server":"104.167.197.25","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 66","type":"ss","server":"154.44.15.133","port":44642,"password":"iHapGY8XoW","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 67","type":"ss","server":"45.87.175.199","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 68","type":"ss","server":"45.87.175.166","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇪🇸 ES | 🟢 | ss | @NamiraConfigs | 69","type":"ss","server":"45.154.206.192","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65","type":"vless","server":"160.153.0.11","port":2083,"uuid":"5e802e1a-3c82-41ec-aaca-f6371b8b86a5","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"fraG2.MAhSAAmINI.cC","ws-opts":{"path":"/CPI","headers":{"Host":"fraG2.MAhSAAmINI.cC"}}}
+  - {"name":"🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 67","type":"vless","server":"famous-danger.oneeat.co","port":80,"uuid":"ddc27bd6-6efa-47cf-8bfc-acaf973ba6b3","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"famous-danger.oneeat.co"}}}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 69","type":"vless","server":"162.19.228.119","port":80,"uuid":"dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/http","headers":{"Host":"google.com"}}}
 
 rule-providers:
   ir_domains:
@@ -62,11 +60,9 @@ proxy-groups:
       - '🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11'
       - '🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12'
       - '🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 65'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 66'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 67'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 68'
-      - '🇪🇸 ES | 🟢 | ss | @NamiraConfigs | 69'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65'
+      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 67'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 69'
 
   - name: 📉 Fallback
     type: fallback
@@ -78,11 +74,9 @@ proxy-groups:
       - '🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11'
       - '🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12'
       - '🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 65'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 66'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 67'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 68'
-      - '🇪🇸 ES | 🟢 | ss | @NamiraConfigs | 69'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65'
+      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 67'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 69'
       
   - name: All-Proxies
     type: select
@@ -92,11 +86,9 @@ proxy-groups:
       - '🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11'
       - '🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12'
       - '🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 65'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 66'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 67'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 68'
-      - '🇪🇸 ES | 🟢 | ss | @NamiraConfigs | 69'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65'
+      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 67'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 69'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
