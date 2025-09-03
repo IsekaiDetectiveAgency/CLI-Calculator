@@ -22,10 +22,8 @@ proxies:
   - {"name":"🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11","type":"vless","server":"c51.aminzing.lol","port":443,"uuid":"2de98c6e-319d-4fd1-81ba-82237c44ed36","tls":true,"network":"httpupgrade","client-fingerprint":"chrome","udp":true,"servername":"c51.aminzing.lol"}
   - {"name":"🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12","type":"vless","server":"104.18.26.90","port":80,"uuid":"6f690965-3be3-43bb-9331-3ead6efb20aa","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/?ed=2560/?JOKERRVPNBIA_CHANEL@JOKERRVPN","headers":{"Host":"sib.sibzamini.dpdns.org"}}}
   - {"name":"🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13","type":"vmess","server":"customers.tele-shop-too.studio","port":33203,"cipher":"auto","uuid":"eaae52d7-bc1a-4979-bd66-b6b428107173","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65","type":"vless","server":"fierce-data.seotoolsforyou.co.uk","port":80,"uuid":"c313c27c-97ff-45ed-ab5c-64641af5debc","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"fierce-data.seotoolsforyou.co.uk"}}}
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66","type":"vless","server":"162.19.228.119","port":80,"uuid":"dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/http","headers":{"Host":"google.com"}}}
-  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67","type":"vless","server":"beLoveD-faILure.SeOtOOLsForyOu.Co.uk","port":80,"uuid":"3cad733b-3526-476b-adf5-b7cbdd33dc6c","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"beLoveD-faILure.SeOtOOLsForyOu.Co.uk"}}}
-  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69","type":"vless","server":"172.234.221.94","port":56224,"uuid":"e3d0de50-7673-4d13-be7b-e508632ed430","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67","type":"vless","server":"pq-unitedstates3.09vpn.com","port":80,"uuid":"b6d6dcc2-640b-411f-8003-620830fbf183","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/vless/","headers":{"Host":"pq-unitedstates3.09vpn.com"}}}
+  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68","type":"vless","server":"fierce-data.seotoolsforyou.co.uk","port":80,"uuid":"c313c27c-97ff-45ed-ab5c-64641af5debc","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"fierce-data.seotoolsforyou.co.uk"}}}
 
 rule-providers:
   ir_domains:
@@ -61,10 +59,8 @@ proxy-groups:
       - '🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11'
       - '🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12'
       - '🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13'
-      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66'
       - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68'
 
   - name: 📉 Fallback
     type: fallback
@@ -76,10 +72,8 @@ proxy-groups:
       - '🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11'
       - '🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12'
       - '🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13'
-      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66'
       - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68'
       
   - name: All-Proxies
     type: select
@@ -89,10 +83,8 @@ proxy-groups:
       - '🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11'
       - '🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12'
       - '🇩🇪 DE | 🔴 | vmess | @Fr33C0nfig | 13'
-      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66'
       - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
