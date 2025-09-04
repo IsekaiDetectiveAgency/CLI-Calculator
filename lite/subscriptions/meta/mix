@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69","type":"vless","server":"famous-danger.oneeat.co","port":80,"uuid":"ddc27bd6-6efa-47cf-8bfc-acaf973ba6b3","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"famous-danger.oneeat.co"}}}
+  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69","type":"ss","server":"45.87.175.157","port":8080,"password":"1RWwXhwfAB5gAEozU4G2Pg","cipher":"chacha20-ietf-poly1305"}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69'
+      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69'
+      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69'
+      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 69'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
