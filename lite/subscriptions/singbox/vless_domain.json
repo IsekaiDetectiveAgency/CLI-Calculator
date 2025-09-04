@@ -104,16 +104,13 @@
             "tag": "proxy",
             "type": "selector",
             "outbounds": [
-                "URL-TEST",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69"
+                "URL-TEST"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
-            "outbounds": [
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69"
-            ],
+            "outbounds": [],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
             "tolerance": 50
@@ -133,22 +130,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69",
-            "type": "vless",
-            "server": "famous-danger.oneeat.co",
-            "server_port": 80,
-            "uuid": "ddc27bd6-6efa-47cf-8bfc-acaf973ba6b3",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "famous-danger.oneeat.co"
-                }
-            }
         }
     ],
     "route": {
