@@ -19,8 +19,7 @@ dns:
 proxies:
   - {"name":"🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9","type":"vless","server":"all32-vip.f-sub.com","port":2434,"uuid":"738c5a04-817a-4f50-b327-893595010155","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"chess.com","reality-opts":{"public-key":"yGgU4VVwpWk3sY54VgDxYVg77n5i-4jduHegq6PqPyA"}}
   - {"name":"🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11","type":"vless","server":"c51.aminzing.lol","port":443,"uuid":"2de98c6e-319d-4fd1-81ba-82237c44ed36","tls":true,"network":"httpupgrade","client-fingerprint":"chrome","udp":true,"servername":"c51.aminzing.lol"}
-  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 66","type":"vless","server":"ov-germany6.09vpn.com","port":8443,"uuid":"1ff9dc4a-4853-4790-a81c-13e195c957e8","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/vless/","headers":{"Host":"ov-germany6.09vpn.com"}}}
-  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67","type":"vless","server":"handSoME-dEvice.ONEeAt.CO","port":80,"uuid":"2ad87f95-7a0b-4018-8497-5ecaac2f0ddf","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"handSoME-dEvice.ONEeAt.CO"}}}
+  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69","type":"vless","server":"fierce-data.seotoolsforyou.co.uk","port":80,"uuid":"c313c27c-97ff-45ed-ab5c-64641af5debc","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"fierce-data.seotoolsforyou.co.uk"}}}
 
 rule-providers:
   ir_domains:
@@ -53,8 +52,7 @@ proxy-groups:
     proxies:
       - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9'
       - '🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11'
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 66'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69'
 
   - name: 📉 Fallback
     type: fallback
@@ -63,16 +61,14 @@ proxy-groups:
     proxies:
       - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9'
       - '🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11'
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 66'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69'
       
   - name: All-Proxies
     type: select
     proxies:
       - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9'
       - '🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11'
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 66'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 69'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
