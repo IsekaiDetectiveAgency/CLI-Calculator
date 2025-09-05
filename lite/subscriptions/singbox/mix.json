@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇿 CZ | 🟢 | ss | @NamiraConfigs | 69"
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇿 CZ | 🟢 | ss | @NamiraConfigs | 69"
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,12 +135,20 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇿 CZ | 🟢 | ss | @NamiraConfigs | 69",
-            "type": "shadowsocks",
-            "server": "195.181.160.6",
-            "server_port": 990,
-            "method": "chacha20-ietf-poly1305",
-            "password": "f8f7aCzcPKbsF8p3"
+            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 69",
+            "type": "vless",
+            "server": "elegant-corporation.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "d03d8815-a06f-408f-a62f-6c84869b96a9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "elegant-corporation.seotoolsforyou.co.uk"
+                }
+            }
         }
     ],
     "route": {
