@@ -17,7 +17,6 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇨🇦 CA | 🟢 | trojan | @NamiraConfigs | 65","type":"trojan","server":"ca-full.privateip.net","port":443,"password":"99c63d3a-4499-4a5b-aad6-826a6851f304","skip-cert-verify":false}
   - {"name":"🇩🇪 DE | 🟢 | trojan | @NamiraConfigs | 66","type":"trojan","server":"on-roughy.shiner427.skin","port":443,"password":"74260704627805900","skip-cert-verify":false}
 
 rule-providers:
@@ -49,7 +48,6 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇨🇦 CA | 🟢 | trojan | @NamiraConfigs | 65'
       - '🇩🇪 DE | 🟢 | trojan | @NamiraConfigs | 66'
 
   - name: 📉 Fallback
@@ -57,13 +55,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇨🇦 CA | 🟢 | trojan | @NamiraConfigs | 65'
       - '🇩🇪 DE | 🟢 | trojan | @NamiraConfigs | 66'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇨🇦 CA | 🟢 | trojan | @NamiraConfigs | 65'
       - '🇩🇪 DE | 🟢 | trojan | @NamiraConfigs | 66'
 
 rules:
