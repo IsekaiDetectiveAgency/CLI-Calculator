@@ -18,7 +18,7 @@ dns:
 
 proxies:
   - {"name":"🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9","type":"vless","server":"all32-vip.f-sub.com","port":2434,"uuid":"738c5a04-817a-4f50-b327-893595010155","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"chess.com","reality-opts":{"public-key":"yGgU4VVwpWk3sY54VgDxYVg77n5i-4jduHegq6PqPyA"}}
-  - {"name":"🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11","type":"vless","server":"c51.aminzing.lol","port":443,"uuid":"2de98c6e-319d-4fd1-81ba-82237c44ed36","tls":true,"network":"httpupgrade","client-fingerprint":"chrome","udp":true,"servername":"c51.aminzing.lol"}
+  - {"name":"🇺🇸 US | 🟢 | vless | @Fr33C0nfig | 11","type":"vless","server":"c51.aminzing.lol","port":443,"uuid":"2de98c6e-319d-4fd1-81ba-82237c44ed36","tls":true,"network":"httpupgrade","client-fingerprint":"chrome","udp":true,"servername":"c51.aminzing.lol"}
   - {"name":"🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 10","type":"vless","server":"91.99.190.38","port":51615,"uuid":"2eaef053-5fd6-4def-b234-d760690355ff","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12","type":"vless","server":"104.18.26.90","port":80,"uuid":"6f690965-3be3-43bb-9331-3ead6efb20aa","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/?ed=2560/?JOKERRVPNBIA_CHANEL@JOKERRVPN","headers":{"Host":"sib.sibzamini.dpdns.org"}}}
   - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66","type":"vless","server":"212.192.31.146","port":443,"uuid":"199a78a5-b4d4-4064-a0db-bb37c5839134","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/panika","headers":{"Host":"212.192.31.146"}}}
@@ -53,7 +53,7 @@ proxy-groups:
     tolerance: 50 
     proxies:
       - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9'
-      - '🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11'
+      - '🇺🇸 US | 🟢 | vless | @Fr33C0nfig | 11'
       - '🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 10'
       - '🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12'
       - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66'
@@ -64,7 +64,7 @@ proxy-groups:
     interval: 300
     proxies:
       - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9'
-      - '🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11'
+      - '🇺🇸 US | 🟢 | vless | @Fr33C0nfig | 11'
       - '🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 10'
       - '🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12'
       - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66'
@@ -73,7 +73,7 @@ proxy-groups:
     type: select
     proxies:
       - '🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 9'
-      - '🇨🇦 CA | 🟢 | vless | @Fr33C0nfig | 11'
+      - '🇺🇸 US | 🟢 | vless | @Fr33C0nfig | 11'
       - '🇩🇪 DE | 🔴 | vless | @Fr33C0nfig | 10'
       - '🇺🇸 US | 🔴 | vless | @Fr33C0nfig | 12'
       - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66'
