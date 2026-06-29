@@ -9,12 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-❔ XX | 🟢 | ss | @NamiraConfigs | 55 = ss, beesyar.org, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
+❔ XX | 🟢 | ss | @NamiraConfigs | 57 = ss, beesyar.org, 8080, encrypt-method = chacha20-ietf-poly1305, password = cvII85TrW6n0OGyfpHVS1u
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🟢 | ss | @NamiraConfigs | 55
-PSG-AUTO = url-test, ❔ XX | 🟢 | ss | @NamiraConfigs | 55
-PSG-FALLBACK = fallback, ❔ XX | 🟢 | ss | @NamiraConfigs | 55
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🟢 | ss | @NamiraConfigs | 57
+PSG-AUTO = url-test, ❔ XX | 🟢 | ss | @NamiraConfigs | 57
+PSG-FALLBACK = fallback, ❔ XX | 🟢 | ss | @NamiraConfigs | 57
 
 [Rule]
 GEOIP,IR,DIRECT
