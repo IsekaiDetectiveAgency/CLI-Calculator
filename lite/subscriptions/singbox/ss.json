@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦 CA | 🟢 | ss | @NamiraConfigs | 61"
+                "🇨🇦 CA | 🟢 | ss | @NamiraConfigs | 60"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦 CA | 🟢 | ss | @NamiraConfigs | 61"
+                "🇨🇦 CA | 🟢 | ss | @NamiraConfigs | 60"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,7 +135,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦 CA | 🟢 | ss | @NamiraConfigs | 61",
+            "tag": "🇨🇦 CA | 🟢 | ss | @NamiraConfigs | 60",
             "type": "shadowsocks",
             "server": "142.4.216.225",
             "server_port": 80,
