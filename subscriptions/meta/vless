@@ -17,7 +17,9 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66","type":"vless","server":"212.192.31.146","port":443,"uuid":"199a78a5-b4d4-4064-a0db-bb37c5839134","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/panika","headers":{"Host":"212.192.31.146"}}}
+  - {"name":"❔ XX | 🔴 | vless | @NamiraConfigs | 65","type":"vless","server":"elegant-corporation.seotoolsforyou.co.uk","port":80,"uuid":"d03d8815-a06f-408f-a62f-6c84869b96a9","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"elegant-corporation.seotoolsforyou.co.uk"}}}
+  - {"name":"❔ XX | 🔴 | vless | @NamiraConfigs | 67","type":"vless","server":"pq-unitedstates3.09vpn.com","port":80,"uuid":"b6d6dcc2-640b-411f-8003-620830fbf183","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/vless/","headers":{"Host":"pq-unitedstates3.09vpn.com"}}}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 69","type":"vless","server":"178.162.245.230","port":2052,"uuid":"70b6b341-b859-443a-baf0-08ceabe9d1a4","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"178.162.245.230"}}}
 
 rule-providers:
   ir_domains:
@@ -48,19 +50,25 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66'
+      - '❔ XX | 🔴 | vless | @NamiraConfigs | 65'
+      - '❔ XX | 🔴 | vless | @NamiraConfigs | 67'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 69'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66'
+      - '❔ XX | 🔴 | vless | @NamiraConfigs | 65'
+      - '❔ XX | 🔴 | vless | @NamiraConfigs | 67'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 69'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66'
+      - '❔ XX | 🔴 | vless | @NamiraConfigs | 65'
+      - '❔ XX | 🔴 | vless | @NamiraConfigs | 67'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 69'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

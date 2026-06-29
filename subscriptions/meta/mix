@@ -17,9 +17,9 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66","type":"vless","server":"212.192.31.146","port":443,"uuid":"199a78a5-b4d4-4064-a0db-bb37c5839134","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/panika","headers":{"Host":"212.192.31.146"}}}
-  - {"name":"🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 68","type":"vmess","server":"51.79.102.253","port":80,"cipher":"auto","uuid":"58fe1542-5290-40ad-815a-77707a81afe5","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/IOebhLMhl1CTbFHbL95myfRX2","headers":{"Host":""}}}
-  - {"name":"🇷🇺 RU | 🔴 | vmess | @NamiraConfigs | 69","type":"vmess","server":"45.67.230.79","port":11052,"cipher":"auto","uuid":"314185f7-931d-4656-922d-0857e7afd224","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"❔ XX | 🔴 | vless | @NamiraConfigs | 65","type":"vless","server":"elegant-corporation.seotoolsforyou.co.uk","port":80,"uuid":"d03d8815-a06f-408f-a62f-6c84869b96a9","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"elegant-corporation.seotoolsforyou.co.uk"}}}
+  - {"name":"❔ XX | 🔴 | vless | @NamiraConfigs | 67","type":"vless","server":"pq-unitedstates3.09vpn.com","port":80,"uuid":"b6d6dcc2-640b-411f-8003-620830fbf183","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/vless/","headers":{"Host":"pq-unitedstates3.09vpn.com"}}}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 69","type":"vless","server":"178.162.245.230","port":2052,"uuid":"70b6b341-b859-443a-baf0-08ceabe9d1a4","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"178.162.245.230"}}}
 
 rule-providers:
   ir_domains:
@@ -50,25 +50,25 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66'
-      - '🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 68'
-      - '🇷🇺 RU | 🔴 | vmess | @NamiraConfigs | 69'
+      - '❔ XX | 🔴 | vless | @NamiraConfigs | 65'
+      - '❔ XX | 🔴 | vless | @NamiraConfigs | 67'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 69'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66'
-      - '🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 68'
-      - '🇷🇺 RU | 🔴 | vmess | @NamiraConfigs | 69'
+      - '❔ XX | 🔴 | vless | @NamiraConfigs | 65'
+      - '❔ XX | 🔴 | vless | @NamiraConfigs | 67'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 69'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66'
-      - '🇨🇦 CA | 🔴 | vmess | @NamiraConfigs | 68'
-      - '🇷🇺 RU | 🔴 | vmess | @NamiraConfigs | 69'
+      - '❔ XX | 🔴 | vless | @NamiraConfigs | 65'
+      - '❔ XX | 🔴 | vless | @NamiraConfigs | 67'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 69'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
