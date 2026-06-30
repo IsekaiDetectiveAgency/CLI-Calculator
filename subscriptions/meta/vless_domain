@@ -17,8 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"❔ XX | 🔴 | vless | @NamiraConfigs | 64","type":"vless","server":"elegant-corporation.seotoolsforyou.co.uk","port":80,"uuid":"d03d8815-a06f-408f-a62f-6c84869b96a9","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"elegant-corporation.seotoolsforyou.co.uk"}}}
-  - {"name":"❔ XX | 🔴 | vless | @NamiraConfigs | 66","type":"vless","server":"pq-unitedstates3.09vpn.com","port":80,"uuid":"b6d6dcc2-640b-411f-8003-620830fbf183","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/vless/","headers":{"Host":"pq-unitedstates3.09vpn.com"}}}
+  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 54","type":"vless","server":"www.npmjs.com","port":2095,"uuid":"86c50e3a-5b87-49dd-bd20-03c7f2735e40","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"fuckingfangbinxing.cnmfangbinxing-n.workers.dev","ws-opts":{"path":"/fp","headers":{"Host":"fuckingfangbinxing.cnmfangbinxing-n.workers.dev"}}}
 
 rule-providers:
   ir_domains:
@@ -49,22 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '❔ XX | 🔴 | vless | @NamiraConfigs | 64'
-      - '❔ XX | 🔴 | vless | @NamiraConfigs | 66'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 54'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '❔ XX | 🔴 | vless | @NamiraConfigs | 64'
-      - '❔ XX | 🔴 | vless | @NamiraConfigs | 66'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 54'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '❔ XX | 🔴 | vless | @NamiraConfigs | 64'
-      - '❔ XX | 🔴 | vless | @NamiraConfigs | 66'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 54'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

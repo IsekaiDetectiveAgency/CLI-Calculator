@@ -17,11 +17,11 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇻🇪 VE | 🟢 | ss | @NamiraConfigs | 58","type":"ss","server":"45.158.171.60","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 59","type":"ss","server":"71.19.148.74","port":443,"password":"XUMTygEM1jVYIvysXKqA5T","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 60","type":"ss","server":"71.19.148.74","port":443,"password":"gqkUCvmeOTghYJXF1YIuk5","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 61","type":"ss","server":"45.87.175.22","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 62","type":"ss","server":"103.104.247.49","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 54","type":"vless","server":"www.npmjs.com","port":2095,"uuid":"86c50e3a-5b87-49dd-bd20-03c7f2735e40","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"fuckingfangbinxing.cnmfangbinxing-n.workers.dev","ws-opts":{"path":"/fp","headers":{"Host":"fuckingfangbinxing.cnmfangbinxing-n.workers.dev"}}}
+  - {"name":"🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 55","type":"vless","server":"196.196.35.37","port":443,"uuid":"7b241232-208d-4d36-857e-913f91b044f4","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"api-6a20f558.noooo.win","flow":"xtls-rprx-vision"}
+  - {"name":"🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 56","type":"vless","server":"5.157.51.171","port":443,"uuid":"7b241232-208d-4d36-857e-913f91b044f4","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"api-6a20f558.noooo.win","flow":"xtls-rprx-vision"}
+  - {"name":"🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 57","type":"ss","server":"82.38.31.10","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 58","type":"ss","server":"82.38.31.179","port":8080,"password":"k1dBOmOB4oqi7Ump37a1bQ","cipher":"chacha20-ietf-poly1305"}
 
 rule-providers:
   ir_domains:
@@ -52,31 +52,31 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇻🇪 VE | 🟢 | ss | @NamiraConfigs | 58'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 59'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 60'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 61'
-      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 62'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 54'
+      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 55'
+      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 56'
+      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 57'
+      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 58'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇻🇪 VE | 🟢 | ss | @NamiraConfigs | 58'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 59'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 60'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 61'
-      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 62'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 54'
+      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 55'
+      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 56'
+      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 57'
+      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 58'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇻🇪 VE | 🟢 | ss | @NamiraConfigs | 58'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 59'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 60'
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 61'
-      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 62'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 54'
+      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 55'
+      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 56'
+      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 57'
+      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 58'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
