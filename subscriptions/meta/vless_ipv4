@@ -17,8 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 55","type":"vless","server":"196.196.35.37","port":443,"uuid":"7b241232-208d-4d36-857e-913f91b044f4","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"api-6a20f558.noooo.win","flow":"xtls-rprx-vision"}
-  - {"name":"🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 56","type":"vless","server":"5.157.51.171","port":443,"uuid":"7b241232-208d-4d36-857e-913f91b044f4","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"api-6a20f558.noooo.win","flow":"xtls-rprx-vision"}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62","type":"vless","server":"104.16.75.214","port":443,"uuid":"b3bd8d0e-3cbe-4241-a4f1-e3dd0a9e432c","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"server-ir-3.ariyuz.org","ws-opts":{"path":"/page=2","headers":{"Host":"104.16.75.214"}}}
 
 rule-providers:
   ir_domains:
@@ -49,22 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 55'
-      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 56'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 55'
-      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 56'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 55'
-      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 56'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
