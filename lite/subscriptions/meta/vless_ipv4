@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63","type":"vless","server":"104.25.146.77","port":443,"uuid":"e6cc4788-3c45-4df1-94f3-8303504a65bf","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"khoda.ak-khoda.workers.dev","ws-opts":{"path":"/sync","headers":{"Host":"khoda.ak-khoda.workers.dev"}}}
+  - {"name":"🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 60","type":"vless","server":"13.40.188.81","port":443,"uuid":"7e6a38f4-7150-4eff-ae68-579852357ddb","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63'
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 60'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63'
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 60'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63'
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 60'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
