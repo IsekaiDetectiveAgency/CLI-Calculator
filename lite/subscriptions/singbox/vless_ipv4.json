@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55"
+                "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 55"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55"
+                "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 55"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,13 +135,22 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55",
+            "tag": "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 55",
             "type": "vless",
-            "server": "91.107.158.132",
-            "server_port": 16267,
-            "uuid": "5387ee06-08d9-4d46-9831-e7891851cf66",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "85.234.114.53",
+            "server_port": 443,
+            "uuid": "afcac633-0e1a-46c3-bef2-cc01cc0097c8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "r1.mizulina.top",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         }
     ],
     "route": {
