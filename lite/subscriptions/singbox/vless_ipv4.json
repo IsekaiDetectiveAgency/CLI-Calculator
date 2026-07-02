@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 67"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 68"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 67"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 68"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,16 +135,16 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 67",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 68",
             "type": "vless",
-            "server": "161.35.217.79",
-            "server_port": 2087,
-            "uuid": "0970324b-8c61-4ae7-8c3f-385a6f1e17e4",
+            "server": "104.25.123.12",
+            "server_port": 443,
+            "uuid": "3a8aa3ad-d125-4285-8542-3a1832187f5d",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "vpn47.cc.cd",
+                "server_name": "alireza10.karamzade546alireza.workers.dev",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -155,7 +155,7 @@
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "vpn47.cc.cd"
+                    "Host": "alireza10.karamzade546alireza.workers.dev"
                 }
             }
         }
