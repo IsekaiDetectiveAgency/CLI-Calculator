@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54","type":"vless","server":"octopusss5.info","port":443,"uuid":"c35050ce-01ab-45a9-91b8-54cec637d0a8","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"octopusss5.info","ws-opts":{"path":"/udfyfws","headers":{"Host":"octopusss5.info"}}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57","type":"vless","server":"nahan-core.fatitelegram.workers.dev","port":443,"uuid":"73796e63-0000-4000-8000-000000000000","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"nahan-core.fatitelegram.workers.dev","ws-opts":{"path":"/sync","headers":{"Host":"nahan-core.fatitelegram.workers.dev"}}}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

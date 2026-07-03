@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 51"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 51"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,13 +135,29 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 51",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57",
             "type": "vless",
-            "server": "it.fifapes.monster",
-            "server_port": 29148,
-            "uuid": "eab915bc-d2df-73d1-47d0-6eb240497055",
+            "server": "nahan-core.fatitelegram.workers.dev",
+            "server_port": 443,
+            "uuid": "73796e63-0000-4000-8000-000000000000",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "nahan-core.fatitelegram.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/sync",
+                "headers": {
+                    "Host": "nahan-core.fatitelegram.workers.dev"
+                }
+            }
         }
     ],
     "route": {

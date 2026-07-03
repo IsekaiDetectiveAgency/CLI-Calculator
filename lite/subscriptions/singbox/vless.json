@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 56"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 56"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,16 +135,16 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 56",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57",
             "type": "vless",
-            "server": "104.248.23.56",
+            "server": "nahan-core.fatitelegram.workers.dev",
             "server_port": 443,
-            "uuid": "0970324b-8c61-4ae7-8c3f-385a6f1e17e4",
+            "uuid": "73796e63-0000-4000-8000-000000000000",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "vpn47.cc.cd",
+                "server_name": "nahan-core.fatitelegram.workers.dev",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -153,9 +153,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/sync",
                 "headers": {
-                    "Host": "vpn47.cc.cd"
+                    "Host": "nahan-core.fatitelegram.workers.dev"
                 }
             }
         }
