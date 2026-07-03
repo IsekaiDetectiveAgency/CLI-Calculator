@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 53"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 51"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 53"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 51"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,10 +135,10 @@
             "type": "dns"
         },
         {
-            "tag": "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 53",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 51",
             "type": "vless",
-            "server": "niga.mohammadaz2sub.ir",
-            "server_port": 62803,
+            "server": "usa.mohammadaz2.shop",
+            "server_port": 42348,
             "uuid": "e286cebe-7473-44e9-8c30-273ac36ac83b",
             "flow": "",
             "packet_encoding": "xudp"

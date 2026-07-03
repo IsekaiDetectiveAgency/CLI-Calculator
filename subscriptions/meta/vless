@@ -17,8 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 52","type":"vless","server":"usa.mohammadaz2.shop","port":42348,"uuid":"e286cebe-7473-44e9-8c30-273ac36ac83b","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 53","type":"vless","server":"niga.mohammadaz2sub.ir","port":62803,"uuid":"e286cebe-7473-44e9-8c30-273ac36ac83b","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 51","type":"vless","server":"usa.mohammadaz2.shop","port":42348,"uuid":"e286cebe-7473-44e9-8c30-273ac36ac83b","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -49,22 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 52'
-      - '🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 53'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 51'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 52'
-      - '🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 53'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 51'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 52'
-      - '🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 53'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 51'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
