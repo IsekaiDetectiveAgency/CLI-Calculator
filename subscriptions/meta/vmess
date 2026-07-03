@@ -17,7 +17,9 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇰🇷 KR | 🔴 | vmess | @NamiraConfigs | 53","type":"vmess","server":"140.238.2.250","port":443,"cipher":"auto","uuid":"41a7089a-040b-4538-8b8d-010902405bde","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 49","type":"vmess","server":"82.198.246.250","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 50","type":"vmess","server":"69.84.182.49","port":80,"cipher":"auto","uuid":"f8975871-a7a0-4906-8835-a23c1258ca1e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir."}}}
+  - {"name":"🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 51","type":"vmess","server":"69.84.182.49","port":80,"cipher":"auto","uuid":"f8975871-a7a0-4906-8835-a23c1258ca1e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir."}}}
 
 rule-providers:
   ir_domains:
@@ -48,19 +50,25 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇰🇷 KR | 🔴 | vmess | @NamiraConfigs | 53'
+      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 49'
+      - '🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 50'
+      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 51'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇰🇷 KR | 🔴 | vmess | @NamiraConfigs | 53'
+      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 49'
+      - '🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 50'
+      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 51'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇰🇷 KR | 🔴 | vmess | @NamiraConfigs | 53'
+      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 49'
+      - '🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 50'
+      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 51'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
