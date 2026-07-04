@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 58"
+                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 55"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 58"
+                "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 55"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,18 +135,27 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 58",
+            "tag": "🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 55",
             "type": "vmess",
-            "server": "69.84.182.49",
-            "server_port": 80,
-            "uuid": "f8975871-a7a0-4906-8835-a23c1258ca1e",
+            "server": "hl112.cowjump.site",
+            "server_port": 443,
+            "uuid": "0bf1cead-bdd4-4692-b3d4-6866ccb9f37a",
             "security": "auto",
             "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "hl112.cowjump.site",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": ""
+                    "Host": "hl112.cowjump.site"
                 }
             }
         }

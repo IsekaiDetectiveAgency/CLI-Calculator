@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 58","type":"vmess","server":"69.84.182.49","port":80,"cipher":"auto","uuid":"f8975871-a7a0-4906-8835-a23c1258ca1e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir."}}}
+  - {"name":"🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 55","type":"vmess","server":"hl112.cowjump.site","port":443,"cipher":"auto","uuid":"0bf1cead-bdd4-4692-b3d4-6866ccb9f37a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":"hl112.cowjump.site"}}}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 58'
+      - '🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 55'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 58'
+      - '🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 55'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 58'
+      - '🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 55'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

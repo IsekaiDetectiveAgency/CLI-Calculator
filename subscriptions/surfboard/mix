@@ -9,13 +9,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 54 = vmess, hl112.cowjump.site, 443, username = 0bf1cead-bdd4-4692-b3d4-6866ccb9f37a, ws = true, tls = true, ws-path = /, ws-headers = Host:"hl112.cowjump.site"
-🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 56 = ss, 98.71.81.64, 443, encrypt-method = chacha20-ietf-poly1305, password = 7kxYV8faLKFy8q1S
+🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 51 = ss, 82.38.31.193, 8080, encrypt-method = chacha20-ietf-poly1305, password = k1dBOmOB4oqi7Ump37a1bQ
+🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 55 = vmess, hl112.cowjump.site, 443, username = 0bf1cead-bdd4-4692-b3d4-6866ccb9f37a, ws = true, tls = true, ws-path = /, ws-headers = Host:"hl112.cowjump.site"
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 54, 🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 56
-PSG-AUTO = url-test, 🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 54, 🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 56
-PSG-FALLBACK = fallback, 🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 54, 🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 56
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 51, 🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 55
+PSG-AUTO = url-test, 🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 51, 🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 55
+PSG-FALLBACK = fallback, 🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 51, 🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 55
 
 [Rule]
 GEOIP,IR,DIRECT
