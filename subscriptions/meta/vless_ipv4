@@ -17,11 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 52","type":"vless","server":"45.85.118.50","port":8880,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"vms.lifetime55.workers.dev"}}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53","type":"vless","server":"104.17.146.18","port":8443,"uuid":"a039c938-0792-424a-8a8a-d0508c7fcab1","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"sweet-art-a13d.5ejrdnfcv.workers.dev","ws-opts":{"path":"/","headers":{"Host":"sweet-art-a13d.5ejrdnfcv.workers.dev"}}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54","type":"vless","server":"8.39.125.216","port":8443,"uuid":"da806925-524d-46e2-a48d-154c19e73288","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"ez-cdcc99.hamidreza908327.workers.dev","ws-opts":{"path":"/?u=f10d2ec2b8","headers":{"Host":"ez-cdcc99.hamidreza908327.workers.dev"}}}
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55","type":"vless","server":"45.95.0.219","port":46292,"uuid":"ef5e8ad2-9f17-4337-b4b3-9a91ea96f115","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 56","type":"vless","server":"104.248.23.56","port":443,"uuid":"0970324b-8c61-4ae7-8c3f-385a6f1e17e4","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"vpn47.cc.cd","ws-opts":{"path":"/","headers":{"Host":"vpn47.cc.cd"}}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52","type":"vless","server":"104.16.72.2","port":443,"uuid":"7e544a9d-7667-413b-bbb0-b3bb1aac6d77","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"shegeftihaaa.net","ws-opts":{"path":"/rsedgws","headers":{"Host":"shegeftihaaa.net"}}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53","type":"vless","server":"104.16.72.41","port":443,"uuid":"7e544a9d-7667-413b-bbb0-b3bb1aac6d77","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"shegeftihaaa.net","ws-opts":{"path":"/rsedgws","headers":{"Host":"shegeftihaaa.net"}}}
 
 rule-providers:
   ir_domains:
@@ -52,31 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 52'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55'
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 56'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 52'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55'
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 56'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 52'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55'
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 56'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
