@@ -18,7 +18,6 @@ dns:
 
 proxies:
   - {"name":"🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 56","type":"vmess","server":"82.198.246.9","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 57","type":"vmess","server":"57.151.100.27","port":10086,"cipher":"auto","uuid":"550e8400-e29b-41d4-a716-446655440000","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 
 rule-providers:
   ir_domains:
@@ -50,7 +49,6 @@ proxy-groups:
     tolerance: 50 
     proxies:
       - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 56'
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 57'
 
   - name: 📉 Fallback
     type: fallback
@@ -58,13 +56,11 @@ proxy-groups:
     interval: 300
     proxies:
       - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 56'
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 57'
       
   - name: All-Proxies
     type: select
     proxies:
       - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 56'
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 57'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
