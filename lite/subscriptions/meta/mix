@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 56","type":"vless","server":"tekno.fusetea.ir","port":555,"uuid":"3ffd3381-b733-4f39-a7e5-516018b4b4d6","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 57","type":"vmess","server":"57.151.100.27","port":10086,"cipher":"auto","uuid":"550e8400-e29b-41d4-a716-446655440000","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 56'
+      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 57'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 56'
+      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 57'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 56'
+      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 57'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
