@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 54"
+                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 53"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 54"
+                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 53"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,7 +135,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 54",
+            "tag": "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 53",
             "type": "vless",
             "server": "a.samrayan.ir",
             "server_port": 443,
