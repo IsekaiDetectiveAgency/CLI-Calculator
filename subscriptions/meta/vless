@@ -17,7 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 52","type":"vless","server":"a.samrayan.ir","port":443,"uuid":"23d6295f-0337-438f-be52-388bbe321ae4","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"a.samrayan.ir","flow":"xtls-rprx-vision"}
+  - {"name":"🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 50","type":"vless","server":"5.157.51.172","port":443,"uuid":"7b241232-208d-4d36-857e-913f91b044f4","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"api-6a20f558.noooo.win","flow":"xtls-rprx-vision"}
+  - {"name":"🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 54","type":"vless","server":"a.samrayan.ir","port":443,"uuid":"23d6295f-0337-438f-be52-388bbe321ae4","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"a.samrayan.ir","flow":"xtls-rprx-vision"}
 
 rule-providers:
   ir_domains:
@@ -48,19 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 52'
+      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 50'
+      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 54'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 52'
+      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 50'
+      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 54'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 52'
+      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 50'
+      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 54'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
