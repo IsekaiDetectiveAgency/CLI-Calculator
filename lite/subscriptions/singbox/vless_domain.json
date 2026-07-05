@@ -104,16 +104,13 @@
             "tag": "proxy",
             "type": "selector",
             "outbounds": [
-                "URL-TEST",
-                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 56"
+                "URL-TEST"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
-            "outbounds": [
-                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 56"
-            ],
+            "outbounds": [],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
             "tolerance": 50
@@ -133,15 +130,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 56",
-            "type": "vless",
-            "server": "tekno.fusetea.ir",
-            "server_port": 555,
-            "uuid": "3ffd3381-b733-4f39-a7e5-516018b4b4d6",
-            "flow": "",
-            "packet_encoding": "xudp"
         }
     ],
     "route": {
