@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 55"
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 54"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 55"
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 54"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,21 +135,16 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 55",
+            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 54",
             "type": "vless",
-            "server": "5.157.51.172",
-            "server_port": 443,
-            "uuid": "7b241232-208d-4d36-857e-913f91b044f4",
-            "flow": "xtls-rprx-vision",
+            "server": "45.86.159.134",
+            "server_port": 2085,
+            "uuid": "1ea1b30b-4114-4a5c-bd3a-9637bdae1948",
+            "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "api-6a20f558.noooo.win",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
+            "transport": {
+                "type": "grpc",
+                "service_name": "vless"
             }
         }
     ],
