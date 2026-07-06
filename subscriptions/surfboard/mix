@@ -9,12 +9,14 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-
+🇮🇹 IT | 🟢 | vmess | @NamiraConfigs | 52 = vmess, 57.131.32.191, 8443, username = 848af33c-81f2-40c9-93b2-4681d056936b, ws = true, tls = true, ws-path = /vmess/, ws-headers = Host:"OV-Italy1.09vpn.com"
+🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 53 = ss, 213.226.68.8, 31348, encrypt-method = chacha20-ietf-poly1305, password = hkasb5cVrs4jE18jCEJxB4Gr55hVGW24y35gU9GIIeyT31Fw
+🇨🇦 CA | 🟢 | vmess | @NamiraConfigs | 55 = vmess, 23.162.200.198, 18000, username = f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 
-PSG-AUTO = url-test, 
-PSG-FALLBACK = fallback, 
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇮🇹 IT | 🟢 | vmess | @NamiraConfigs | 52, 🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 53, 🇨🇦 CA | 🟢 | vmess | @NamiraConfigs | 55
+PSG-AUTO = url-test, 🇮🇹 IT | 🟢 | vmess | @NamiraConfigs | 52, 🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 53, 🇨🇦 CA | 🟢 | vmess | @NamiraConfigs | 55
+PSG-FALLBACK = fallback, 🇮🇹 IT | 🟢 | vmess | @NamiraConfigs | 52, 🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 53, 🇨🇦 CA | 🟢 | vmess | @NamiraConfigs | 55
 
 [Rule]
 GEOIP,IR,DIRECT
