@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 54","type":"ss","server":"bot.sobhanpor.ir","port":1080,"password":"B3mkXKgRCibW_mgNFWqW7Qpgiwm_I5yB","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 58","type":"ss","server":"bot.sobhanpor.ir","port":1080,"password":"B3mkXKgRCibW_mgNFWqW7Qpgiwm_I5yB","cipher":"chacha20-ietf-poly1305"}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 54'
+      - '🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 58'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 54'
+      - '🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 58'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 54'
+      - '🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 58'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
