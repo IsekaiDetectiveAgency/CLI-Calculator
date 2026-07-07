@@ -17,7 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇹🇷 TR | 🟢 | ss | @NamiraConfigs | 66","type":"ss","server":"turkey.losthonor.ir","port":1080,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 63","type":"ss","server":"pasarguard.losthonor.ir","port":3035,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 64","type":"ss","server":"pasarguard.losthonor.ir","port":1080,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
 
 rule-providers:
   ir_domains:
@@ -48,19 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇹🇷 TR | 🟢 | ss | @NamiraConfigs | 66'
+      - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 63'
+      - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 64'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇹🇷 TR | 🟢 | ss | @NamiraConfigs | 66'
+      - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 63'
+      - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 64'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇹🇷 TR | 🟢 | ss | @NamiraConfigs | 66'
+      - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 63'
+      - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 64'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
