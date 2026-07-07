@@ -9,15 +9,16 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 59 = ss, pasarguard.losthonor.ir, 3033, encrypt-method = chacha20-ietf-poly1305, password = 4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo
-🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 60 = ss, pasarguard.losthonor.ir, 3037, encrypt-method = chacha20-ietf-poly1305, password = 4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo
-🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 61 = ss, pasarguard.losthonor.ir, 3046, encrypt-method = chacha20-ietf-poly1305, password = 4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo
-🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 62 = ss, pasarguard.losthonor.ir, 3038, encrypt-method = chacha20-ietf-poly1305, password = 4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo
+🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 59 = ss, pasarguard.losthonor.ir, 3047, encrypt-method = chacha20-ietf-poly1305, password = 4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo
+🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 60 = ss, pasarguard.losthonor.ir, 3061, encrypt-method = chacha20-ietf-poly1305, password = 4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo
+🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 61 = ss, pasarguard.losthonor.ir, 3040, encrypt-method = chacha20-ietf-poly1305, password = 4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo
+🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 62 = ss, pasarguard.losthonor.ir, 3055, encrypt-method = chacha20-ietf-poly1305, password = 4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo
+🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 63 = ss, pasarguard.losthonor.ir, 3033, encrypt-method = chacha20-ietf-poly1305, password = 4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 59, 🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 60, 🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 61, 🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 62
-PSG-AUTO = url-test, 🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 59, 🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 60, 🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 61, 🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 62
-PSG-FALLBACK = fallback, 🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 59, 🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 60, 🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 61, 🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 62
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 59, 🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 60, 🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 61, 🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 62, 🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 63
+PSG-AUTO = url-test, 🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 59, 🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 60, 🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 61, 🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 62, 🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 63
+PSG-FALLBACK = fallback, 🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 59, 🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 60, 🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 61, 🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 62, 🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 63
 
 [Rule]
 GEOIP,IR,DIRECT

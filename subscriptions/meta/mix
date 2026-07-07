@@ -17,11 +17,11 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 59","type":"ss","server":"pasarguard.losthonor.ir","port":3033,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 60","type":"ss","server":"pasarguard.losthonor.ir","port":3037,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 61","type":"ss","server":"pasarguard.losthonor.ir","port":3046,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 62","type":"ss","server":"pasarguard.losthonor.ir","port":3038,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63","type":"vless","server":"store.ubi.com","port":443,"uuid":"eeb6823c-b926-4ea2-866a-5542edd26e59","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"t1s1.rittbo.kdns.fr","ws-opts":{"path":"/","headers":{"Host":"t1s1.rittbo.kdns.fr"}}}
+  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 59","type":"ss","server":"pasarguard.losthonor.ir","port":3047,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 60","type":"ss","server":"pasarguard.losthonor.ir","port":3061,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 61","type":"ss","server":"pasarguard.losthonor.ir","port":3040,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 62","type":"ss","server":"pasarguard.losthonor.ir","port":3055,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 63","type":"ss","server":"pasarguard.losthonor.ir","port":3033,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
 
 rule-providers:
   ir_domains:
@@ -56,7 +56,7 @@ proxy-groups:
       - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 60'
       - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 61'
       - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 62'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63'
+      - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 63'
 
   - name: 📉 Fallback
     type: fallback
@@ -67,7 +67,7 @@ proxy-groups:
       - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 60'
       - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 61'
       - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 62'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63'
+      - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 63'
       
   - name: All-Proxies
     type: select
@@ -76,7 +76,7 @@ proxy-groups:
       - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 60'
       - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 61'
       - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 62'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63'
+      - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 63'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
