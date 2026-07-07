@@ -17,11 +17,11 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 61","type":"ss","server":"pasarguard.losthonor.ir","port":3049,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 62","type":"ss","server":"pasarguard.losthonor.ir","port":3044,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 63","type":"vless","server":"pasarguard.losthonor.ir","port":16453,"uuid":"afbfce18-0317-4209-b2ba-76b7f3fd9046","tls":false,"network":"grpc","client-fingerprint":"chrome","udp":true,"grpc-opts":{"grpc-service-name":"grpc"}}
-  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 64","type":"ss","server":"pasarguard.losthonor.ir","port":3035,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 65","type":"ss","server":"pasarguard.losthonor.ir","port":1080,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 61","type":"ss","server":"pasarguard.losthonor.ir","port":3043,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 62","type":"ss","server":"pasarguard.losthonor.ir","port":3041,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 63","type":"ss","server":"pasarguard.losthonor.ir","port":3034,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 64","type":"ss","server":"pasarguard.losthonor.ir","port":3048,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 65","type":"ss","server":"pasarguard.losthonor.ir","port":3042,"password":"4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo","cipher":"chacha20-ietf-poly1305"}
 
 rule-providers:
   ir_domains:
@@ -54,7 +54,7 @@ proxy-groups:
     proxies:
       - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 61'
       - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 62'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 63'
+      - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 63'
       - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 64'
       - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 65'
 
@@ -65,7 +65,7 @@ proxy-groups:
     proxies:
       - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 61'
       - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 62'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 63'
+      - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 63'
       - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 64'
       - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 65'
       
@@ -74,7 +74,7 @@ proxy-groups:
     proxies:
       - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 61'
       - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 62'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 63'
+      - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 63'
       - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 64'
       - '🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 65'
 
