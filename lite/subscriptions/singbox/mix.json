@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 63"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 63"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,12 +135,29 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 63",
-            "type": "shadowsocks",
-            "server": "pasarguard.losthonor.ir",
-            "server_port": 3033,
-            "method": "chacha20-ietf-poly1305",
-            "password": "4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo"
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58",
+            "type": "vless",
+            "server": "assets.fiverr.com",
+            "server_port": 443,
+            "uuid": "cee8c30c-fb13-4a89-abb4-5a32cf716c97",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "api.mozestan.dpdns.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/api-api",
+                "headers": {
+                    "Host": "api.mozestan.dpdns.org"
+                }
+            }
         }
     ],
     "route": {
