@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 55"
+                "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 65"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 55"
+                "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 65"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,12 +135,12 @@
             "type": "dns"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 55",
+            "tag": "🇩🇪 DE | 🟢 | ss | @NamiraConfigs | 65",
             "type": "shadowsocks",
-            "server": "82.38.31.11",
-            "server_port": 8080,
+            "server": "pasarguard.losthonor.ir",
+            "server_port": 1080,
             "method": "chacha20-ietf-poly1305",
-            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            "password": "4Px-Gc_R7FiXUf4Ty3jMdwIQZo49DMYo"
         }
     ],
     "route": {
