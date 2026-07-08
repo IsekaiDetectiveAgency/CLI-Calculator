@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇮🇷 IR | 🟢 | vmess | @NamiraConfigs | 62","type":"vmess","server":"nlt.reata.ir","port":1020,"cipher":"auto","uuid":"6244c41a-f4c1-4733-a654-c38f7729b13c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇮🇷 IR | 🟢 | vmess | @NamiraConfigs | 61","type":"vmess","server":"nlt.reata.ir","port":1020,"cipher":"auto","uuid":"6244c41a-f4c1-4733-a654-c38f7729b13c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇮🇷 IR | 🟢 | vmess | @NamiraConfigs | 62'
+      - '🇮🇷 IR | 🟢 | vmess | @NamiraConfigs | 61'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇮🇷 IR | 🟢 | vmess | @NamiraConfigs | 62'
+      - '🇮🇷 IR | 🟢 | vmess | @NamiraConfigs | 61'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇮🇷 IR | 🟢 | vmess | @NamiraConfigs | 62'
+      - '🇮🇷 IR | 🟢 | vmess | @NamiraConfigs | 61'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
