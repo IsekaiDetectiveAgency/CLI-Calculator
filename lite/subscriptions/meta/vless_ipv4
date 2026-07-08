@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 69","type":"vless","server":"87.107.193.242","port":8443,"uuid":"bb7850af-10de-406d-a847-cf5deee939d7","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"f2iooen.tron2tron.ir"}
+  - {"name":"🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 54","type":"vless","server":"45.131.6.5","port":443,"uuid":"14b59caf-a196-4ec2-8c70-c7b388062f5b","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"vangoghhh.info","ws-opts":{"path":"/rdfgtws","headers":{"Host":"vangoghhh.info"}}}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 69'
+      - '🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 54'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 69'
+      - '🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 54'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 69'
+      - '🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 54'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

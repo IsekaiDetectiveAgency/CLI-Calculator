@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 69"
+                "🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 54"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 69"
+                "🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 54"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,20 +135,27 @@
             "type": "dns"
         },
         {
-            "tag": "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 69",
+            "tag": "🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 54",
             "type": "vless",
-            "server": "87.107.193.242",
-            "server_port": 8443,
-            "uuid": "bb7850af-10de-406d-a847-cf5deee939d7",
+            "server": "45.131.6.5",
+            "server_port": 443,
+            "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "f2iooen.tron2tron.ir",
+                "server_name": "vangoghhh.info",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/rdfgtws",
+                "headers": {
+                    "Host": "vangoghhh.info"
                 }
             }
         }
