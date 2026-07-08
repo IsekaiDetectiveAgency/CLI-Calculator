@@ -17,11 +17,11 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
+  - {"name":"🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 56","type":"ss","server":"mmd.radanjami.org","port":37309,"password":"b4jq8kdzbfpt7ipf","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 57","type":"vless","server":"TurkGame.soltankabos.ir","port":22337,"uuid":"fdebd2b4-4c8f-474a-851a-981082195643","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58","type":"vless","server":"172.64.40.79","port":2083,"uuid":"eeb6823c-b926-4ea2-866a-5542edd26e59","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"t1s1.rittbo.kdns.fr","ws-opts":{"path":"/","headers":{"Host":"t1s1.rittbo.kdns.fr"}}}
   - {"name":"🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 59","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 60","type":"vmess","server":"ir.masterlord.ir","port":1900,"cipher":"auto","uuid":"a5ae0167-b947-4394-a5b8-23a87b63c158","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇮🇷 IR | 🟢 | vmess | @NamiraConfigs | 61","type":"vmess","server":"nlt.reata.ir","port":1020,"cipher":"auto","uuid":"6244c41a-f4c1-4733-a654-c38f7729b13c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 
 rule-providers:
   ir_domains:
@@ -52,31 +52,31 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
+      - '🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 56'
       - '🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 57'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58'
       - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 59'
       - '🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 60'
-      - '🇮🇷 IR | 🟢 | vmess | @NamiraConfigs | 61'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - '🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 56'
       - '🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 57'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58'
       - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 59'
       - '🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 60'
-      - '🇮🇷 IR | 🟢 | vmess | @NamiraConfigs | 61'
       
   - name: All-Proxies
     type: select
     proxies:
+      - '🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 56'
       - '🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 57'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58'
       - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 59'
       - '🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 60'
-      - '🇮🇷 IR | 🟢 | vmess | @NamiraConfigs | 61'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

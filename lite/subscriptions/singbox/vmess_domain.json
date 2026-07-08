@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇷 IR | 🟢 | vmess | @NamiraConfigs | 61"
+                "🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 60"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇷 IR | 🟢 | vmess | @NamiraConfigs | 61"
+                "🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 60"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,11 +135,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇮🇷 IR | 🟢 | vmess | @NamiraConfigs | 61",
+            "tag": "🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 60",
             "type": "vmess",
-            "server": "nlt.reata.ir",
-            "server_port": 1020,
-            "uuid": "6244c41a-f4c1-4733-a654-c38f7729b13c",
+            "server": "ir.masterlord.ir",
+            "server_port": 1900,
+            "uuid": "a5ae0167-b947-4394-a5b8-23a87b63c158",
             "security": "auto",
             "alter_id": 0
         }
