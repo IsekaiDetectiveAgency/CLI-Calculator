@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 54"
+                "🇮🇷 IR | 🟢 | vmess | @NamiraConfigs | 62"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 54"
+                "🇮🇷 IR | 🟢 | vmess | @NamiraConfigs | 62"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,29 +135,13 @@
             "type": "dns"
         },
         {
-            "tag": "🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 54",
-            "type": "vless",
-            "server": "45.131.6.5",
-            "server_port": 443,
-            "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vangoghhh.info",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/rdfgtws",
-                "headers": {
-                    "Host": "vangoghhh.info"
-                }
-            }
+            "tag": "🇮🇷 IR | 🟢 | vmess | @NamiraConfigs | 62",
+            "type": "vmess",
+            "server": "nlt.reata.ir",
+            "server_port": 1020,
+            "uuid": "6244c41a-f4c1-4733-a654-c38f7729b13c",
+            "security": "auto",
+            "alter_id": 0
         }
     ],
     "route": {
