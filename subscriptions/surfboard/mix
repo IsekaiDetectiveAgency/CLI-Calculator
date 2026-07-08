@@ -9,14 +9,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 56 = ss, mmd.radanjami.org, 37309, encrypt-method = chacha20-ietf-poly1305, password = b4jq8kdzbfpt7ipf
-🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 59 = vmess, 82.198.246.97, 180, username = d13fc2f5-3e05-4795-81eb-44143a09e552, ws = false, tls = false
-🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 60 = vmess, ir.masterlord.ir, 1900, username = a5ae0167-b947-4394-a5b8-23a87b63c158, ws = false, tls = false
+🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 57 = ss, mmd.radanjami.org, 37309, encrypt-method = chacha20-ietf-poly1305, password = b4jq8kdzbfpt7ipf
+🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 60 = vmess, 82.198.246.97, 180, username = d13fc2f5-3e05-4795-81eb-44143a09e552, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 56, 🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 59, 🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 60
-PSG-AUTO = url-test, 🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 56, 🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 59, 🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 60
-PSG-FALLBACK = fallback, 🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 56, 🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 59, 🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 60
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 57, 🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 60
+PSG-AUTO = url-test, 🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 57, 🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 60
+PSG-FALLBACK = fallback, 🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 57, 🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 60
 
 [Rule]
 GEOIP,IR,DIRECT
