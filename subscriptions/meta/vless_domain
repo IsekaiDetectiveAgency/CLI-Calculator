@@ -17,8 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51","type":"vless","server":"xn--sont23oo-mk75gi8a.netbazshop.ir","port":2035,"uuid":"96f5436d-6496-4473-b4ca-ae37f170387c","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇮🇹 IT | 🔴 | vless | @NamiraConfigs | 55","type":"vless","server":"sca38.speedmeter.shop","port":8880,"uuid":"8dc7722c-2767-4eea-a28b-2f8daacc07e3","tls":false,"network":"grpc","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 50","type":"vless","server":"xn--sont23oo-mk75gi8a.netbazshop.ir","port":2035,"uuid":"96f5436d-6496-4473-b4ca-ae37f170387c","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇮🇹 IT | 🔴 | vless | @NamiraConfigs | 54","type":"vless","server":"sca38.speedmeter.shop","port":8880,"uuid":"8dc7722c-2767-4eea-a28b-2f8daacc07e3","tls":false,"network":"grpc","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -49,22 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51'
-      - '🇮🇹 IT | 🔴 | vless | @NamiraConfigs | 55'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 50'
+      - '🇮🇹 IT | 🔴 | vless | @NamiraConfigs | 54'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51'
-      - '🇮🇹 IT | 🔴 | vless | @NamiraConfigs | 55'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 50'
+      - '🇮🇹 IT | 🔴 | vless | @NamiraConfigs | 54'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51'
-      - '🇮🇹 IT | 🔴 | vless | @NamiraConfigs | 55'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 50'
+      - '🇮🇹 IT | 🔴 | vless | @NamiraConfigs | 54'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

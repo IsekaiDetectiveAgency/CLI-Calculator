@@ -17,9 +17,9 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 52","type":"vless","server":"104.25.122.72","port":80,"uuid":"6cd78ec7-b715-471c-92b4-0c3842caea4b","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/eyJqdW5rIjoiVXRIT2UwaDUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=","headers":{"Host":"billowing-cloud-d339.sospanel.workers.dev"}}}
-  - {"name":"🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 53","type":"vless","server":"45.131.6.5","port":443,"uuid":"14b59caf-a196-4ec2-8c70-c7b388062f5b","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"vangoghhh.info","ws-opts":{"path":"/rdfgtws","headers":{"Host":"vangoghhh.info"}}}
-  - {"name":"🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 54","type":"vless","server":"37.139.24.45","port":443,"uuid":"bbbde6b4-eb72-4018-b702-1c782c528927","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"etppnyfi.j84lb8cxseup4s2nb3if.workers.dev","ws-opts":{"path":"/","headers":{"Host":"etppnyfi.j84lb8cxseup4s2nb3if.workers.dev"}}}
+  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 51","type":"vless","server":"104.25.122.72","port":80,"uuid":"6cd78ec7-b715-471c-92b4-0c3842caea4b","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/eyJqdW5rIjoiVXRIT2UwaDUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=","headers":{"Host":"billowing-cloud-d339.sospanel.workers.dev"}}}
+  - {"name":"🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 52","type":"vless","server":"45.131.6.5","port":443,"uuid":"14b59caf-a196-4ec2-8c70-c7b388062f5b","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"vangoghhh.info","ws-opts":{"path":"/rdfgtws","headers":{"Host":"vangoghhh.info"}}}
+  - {"name":"🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 53","type":"vless","server":"37.139.24.45","port":443,"uuid":"bbbde6b4-eb72-4018-b702-1c782c528927","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"etppnyfi.j84lb8cxseup4s2nb3if.workers.dev","ws-opts":{"path":"/","headers":{"Host":"etppnyfi.j84lb8cxseup4s2nb3if.workers.dev"}}}
 
 rule-providers:
   ir_domains:
@@ -50,25 +50,25 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 52'
-      - '🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 53'
-      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 54'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 51'
+      - '🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 52'
+      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 53'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 52'
-      - '🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 53'
-      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 54'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 51'
+      - '🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 52'
+      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 53'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 52'
-      - '🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 53'
-      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 54'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 51'
+      - '🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 52'
+      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 53'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
