@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 54"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 61"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 54"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 61"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,16 +135,16 @@
             "type": "dns"
         },
         {
-            "tag": "🇧🇿 BZ | 🟢 | vless | @NamiraConfigs | 54",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 61",
             "type": "vless",
-            "server": "45.131.6.5",
+            "server": "104.21.74.63",
             "server_port": 443,
-            "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
+            "uuid": "72d1797c-cef8-410a-b8fd-db9104dc3cb0",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "vangoghhh.info",
+                "server_name": "amooaliii.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -153,9 +153,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/rdfgtws",
+                "path": "/jdhfyws",
                 "headers": {
-                    "Host": "vangoghhh.info"
+                    "Host": "amooaliii.net"
                 }
             }
         }
