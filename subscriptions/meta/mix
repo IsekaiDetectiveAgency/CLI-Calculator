@@ -17,11 +17,10 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 57","type":"vless","server":"185.226.93.88","port":443,"uuid":"9b8a334b-e4e1-424c-99b4-4fd203ffb571","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 58","type":"vless","server":"65.109.209.71","port":8441,"uuid":"9b8a334b-e4e1-424c-99b4-4fd203ffb571","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇪🇪 EE | 🟢 | ss | @NamiraConfigs | 59","type":"ss","server":"45.83.181.155","port":14475,"password":"j1HaUANVRdB5ltSqhLYPWm","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 60","type":"vless","server":"185.204.170.178","port":443,"uuid":"2fe162f8-6659-45d2-9192-383b0af11364","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 61","type":"vless","server":"104.21.74.63","port":443,"uuid":"72d1797c-cef8-410a-b8fd-db9104dc3cb0","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"amooaliii.net","ws-opts":{"path":"/jdhfyws","headers":{"Host":"amooaliii.net"}}}
+  - {"name":"🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 58","type":"ss","server":"168.63.66.81","port":443,"password":"qkRNNhsIrzU6qnkL","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 59","type":"ss","server":"82.38.31.164","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 61","type":"vless","server":"89.39.121.54","port":110,"uuid":"9e1671d2-4092-4ae4-93b3-1d2db0f1a071","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62","type":"vless","server":"108.162.192.75","port":443,"uuid":"7e544a9d-7667-413b-bbb0-b3bb1aac6d77","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"shegeftihaaa.net","ws-opts":{"path":"/rsedgws","headers":{"Host":"shegeftihaaa.net"}}}
 
 rule-providers:
   ir_domains:
@@ -52,31 +51,28 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 57'
-      - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 58'
-      - '🇪🇪 EE | 🟢 | ss | @NamiraConfigs | 59'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 60'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 61'
+      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 58'
+      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 59'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 61'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 57'
-      - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 58'
-      - '🇪🇪 EE | 🟢 | ss | @NamiraConfigs | 59'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 60'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 61'
+      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 58'
+      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 59'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 61'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 57'
-      - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 58'
-      - '🇪🇪 EE | 🟢 | ss | @NamiraConfigs | 59'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 60'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 61'
+      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 58'
+      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 59'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 61'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

@@ -17,7 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇪🇪 EE | 🟢 | ss | @NamiraConfigs | 59","type":"ss","server":"45.83.181.155","port":14475,"password":"j1HaUANVRdB5ltSqhLYPWm","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 58","type":"ss","server":"168.63.66.81","port":443,"password":"qkRNNhsIrzU6qnkL","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 59","type":"ss","server":"82.38.31.164","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
 
 rule-providers:
   ir_domains:
@@ -48,19 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇪🇪 EE | 🟢 | ss | @NamiraConfigs | 59'
+      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 58'
+      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 59'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇪🇪 EE | 🟢 | ss | @NamiraConfigs | 59'
+      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 58'
+      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 59'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇪🇪 EE | 🟢 | ss | @NamiraConfigs | 59'
+      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 58'
+      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 59'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
