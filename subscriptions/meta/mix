@@ -20,7 +20,6 @@ proxies:
   - {"name":"🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 44","type":"vless","server":"a.samrayan.ir","port":443,"uuid":"23d6295f-0337-438f-be52-388bbe321ae4","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"a.samrayan.ir","flow":"xtls-rprx-vision"}
   - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 46","type":"vless","server":"46.4.230.210","port":443,"uuid":"c2876487-c0f5-4cb5-95d0-c764920f0636","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 47","type":"vless","server":"turki.gelqino.ir","port":17830,"uuid":"e1c7f7ce-5bf8-41a8-87d5-896d2659f08a","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/vless","headers":{"Host":"turki.gelqino.ir"}}}
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 48","type":"vless","server":"146.75.119.82","port":80,"uuid":"e9c56342-e57b-47f0-8da0-b79bc04d8305","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048","headers":{"Host":"rb24.ir"}}}
 
 rule-providers:
   ir_domains:
@@ -54,7 +53,6 @@ proxy-groups:
       - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 44'
       - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 46'
       - '🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 47'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 48'
 
   - name: 📉 Fallback
     type: fallback
@@ -64,7 +62,6 @@ proxy-groups:
       - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 44'
       - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 46'
       - '🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 47'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 48'
       
   - name: All-Proxies
     type: select
@@ -72,7 +69,6 @@ proxy-groups:
       - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 44'
       - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 46'
       - '🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 47'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 48'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
