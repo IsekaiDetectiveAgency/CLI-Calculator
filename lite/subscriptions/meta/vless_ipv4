@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-
+  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49","type":"vless","server":"185.249.199.100","port":8585,"uuid":"c9f992e1-e838-4130-a2cd-81997b62f65e","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/spammers","headers":{"Host":"Telegram-NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP---NitruVIP"}}}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49'
       
   - name: All-Proxies
     type: select
     proxies:
-
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
