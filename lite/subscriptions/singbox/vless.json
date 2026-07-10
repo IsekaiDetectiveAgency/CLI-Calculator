@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 47"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 48"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 47"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 48"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,18 +135,18 @@
             "type": "dns"
         },
         {
-            "tag": "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 47",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 48",
             "type": "vless",
-            "server": "turki.gelqino.ir",
-            "server_port": 17830,
-            "uuid": "e1c7f7ce-5bf8-41a8-87d5-896d2659f08a",
+            "server": "104.27.2.172",
+            "server_port": 80,
+            "uuid": "234c52f2-0d7b-dc4a-0d6b-b0b300000025",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/vless",
+                "path": "/sync",
                 "headers": {
-                    "Host": "turki.gelqino.ir"
+                    "Host": "billowing-surf-d251.netizo06.workers.dev"
                 }
             }
         }
