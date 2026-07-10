@@ -17,6 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
+  - {"name":"🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 44","type":"vless","server":"a.samrayan.ir","port":443,"uuid":"23d6295f-0337-438f-be52-388bbe321ae4","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"a.samrayan.ir","flow":"xtls-rprx-vision"}
   - {"name":"🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 47","type":"vless","server":"turki.gelqino.ir","port":17830,"uuid":"e1c7f7ce-5bf8-41a8-87d5-896d2659f08a","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/vless","headers":{"Host":"turki.gelqino.ir"}}}
 
 rule-providers:
@@ -48,6 +49,7 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
+      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 44'
       - '🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 47'
 
   - name: 📉 Fallback
@@ -55,11 +57,13 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 44'
       - '🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 47'
       
   - name: All-Proxies
     type: select
     proxies:
+      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 44'
       - '🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 47'
 
 rules:
