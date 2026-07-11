@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 45","type":"vless","server":"s2.cnavippanel.com","port":4568,"uuid":"4d712194-6765-4f4a-863b-97cc53c3260a","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 47","type":"vless","server":"s2.cnavippanel.com","port":4568,"uuid":"4d712194-6765-4f4a-863b-97cc53c3260a","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 45'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 47'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 45'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 47'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 45'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 47'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
