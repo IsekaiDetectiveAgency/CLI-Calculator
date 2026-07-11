@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 50"
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 50"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 50"
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 50"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,7 +135,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 50",
+            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 50",
             "type": "vless",
             "server": "fn.fifapes.monster",
             "server_port": 2090,
