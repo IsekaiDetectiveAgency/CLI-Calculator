@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,13 +135,29 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 52",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52",
             "type": "vless",
-            "server": "germany-de-1.appcodes.ir",
-            "server_port": 8080,
-            "uuid": "f8cae104-2eaa-4b16-b258-65be28281b70",
+            "server": "rare-creation-production.up.railway.app",
+            "server_port": 443,
+            "uuid": "39dfd8b4-47a8-158c-80e9-e80a747828fc",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "rare-creation-production.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/39dfd8b4-47a8-158c-80e9-e80a747828fc",
+                "headers": {
+                    "Host": "rare-creation-production.up.railway.app"
+                }
+            }
         }
     ],
     "route": {
