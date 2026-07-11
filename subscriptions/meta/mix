@@ -17,10 +17,11 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 47","type":"vmess","server":"173.249.209.146","port":20086,"cipher":"auto","uuid":"3935c2dc-dbb0-43f7-b367-fe89abe87fdf","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":""}}}
-  - {"name":"🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 48","type":"vmess","server":"31.77.149.99","port":110,"cipher":"auto","uuid":"f0841ef6-a703-4248-9c69-efed21a38e65","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇲🇾 MY | 🔴 | vmess | @NamiraConfigs | 49","type":"vmess","server":"47.250.45.234","port":43063,"cipher":"auto","uuid":"c77f48f5-4be3-4461-b52b-49998e7b897b","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/arki","headers":{"Host":"47.250.45.234"}}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50","type":"vless","server":"104.16.72.101","port":443,"uuid":"14b59caf-a196-4ec2-8c70-c7b388062f5b","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"vangoghhh.info","ws-opts":{"path":"/rdfgtws","headers":{"Host":"vangoghhh.info"}}}
+  - {"name":"🇧🇬 BG | 🔴 | vless | @NamiraConfigs | 53","type":"vless","server":"89.117.112.4","port":80,"uuid":"424fa201-3f94-479e-b533-d5257cf9a207","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/pyip=Telegram🇨🇳+@WangCai2","headers":{"Host":"floral-thunder-10d3.82-67d.workers.dev"}}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54","type":"vless","server":"104.16.72.50","port":443,"uuid":"7e544a9d-7667-413b-bbb0-b3bb1aac6d77","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"shegeftihaaa.net","ws-opts":{"path":"/rsedgws","headers":{"Host":"shegeftihaaa.net"}}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55","type":"vless","server":"104.16.75.207","port":443,"uuid":"b26ec0f4-6c92-45f7-b287-2a664abf1963","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"main-2.ariyuz.org","ws-opts":{"path":"/","headers":{"Host":"104.16.75.207"}}}
+  - {"name":"🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 56","type":"vmess","server":"173.249.209.146","port":20086,"cipher":"auto","uuid":"3935c2dc-dbb0-43f7-b367-fe89abe87fdf","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":""}}}
+  - {"name":"🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 57","type":"vmess","server":"31.77.149.99","port":110,"cipher":"auto","uuid":"f0841ef6-a703-4248-9c69-efed21a38e65","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
 
 rule-providers:
   ir_domains:
@@ -51,28 +52,31 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 47'
-      - '🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 48'
-      - '🇲🇾 MY | 🔴 | vmess | @NamiraConfigs | 49'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50'
+      - '🇧🇬 BG | 🔴 | vless | @NamiraConfigs | 53'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55'
+      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 56'
+      - '🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 57'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 47'
-      - '🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 48'
-      - '🇲🇾 MY | 🔴 | vmess | @NamiraConfigs | 49'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50'
+      - '🇧🇬 BG | 🔴 | vless | @NamiraConfigs | 53'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55'
+      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 56'
+      - '🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 57'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 47'
-      - '🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 48'
-      - '🇲🇾 MY | 🔴 | vmess | @NamiraConfigs | 49'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50'
+      - '🇧🇬 BG | 🔴 | vless | @NamiraConfigs | 53'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55'
+      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 56'
+      - '🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 57'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
