@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,18 +135,27 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 67",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67",
             "type": "vless",
-            "server": "www.npmjs.com",
-            "server_port": 2095,
-            "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
+            "server": "cf2.danesh-bonyan.com",
+            "server_port": 8443,
+            "uuid": "b916e241-4be3-4a9c-81ca-70b92a0be6c4",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "b99d8b2aa44534e4504c377660d67a7b.danesh-bonyan.Store",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/fp",
+                "path": "/",
                 "headers": {
-                    "Host": "fuckingfangbinxing.cnmfangbinxing-n.workers.dev"
+                    "Host": "b99d8b2aa44534e4504c377660d67a7b.danesh-bonyan.Store"
                 }
             }
         }
