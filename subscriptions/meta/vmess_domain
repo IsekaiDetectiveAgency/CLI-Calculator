@@ -17,10 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 63","type":"vmess","server":"31.77.149.99","port":110,"cipher":"auto","uuid":"f0841ef6-a703-4248-9c69-efed21a38e65","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 64","type":"vmess","server":"kiri2.dlweb.info","port":23793,"cipher":"auto","uuid":"17483fa4-f518-4886-b85e-a5abd76f7314","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 65","type":"vmess","server":"jazzghost.com","port":8998,"cipher":"auto","uuid":"45e6cc1d-fc2e-4c97-8633-b33caa28e130","alterId":"0","tls":true,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 66","type":"vmess","server":"165.140.216.141","port":443,"cipher":"auto","uuid":"e7d72a8d-26f2-4b54-b366-0c43e0bcba7d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇳🇱 NL | 🔴 | vmess | @NamiraConfigs | 62","type":"vmess","server":"31.76.78.98","port":110,"cipher":"auto","uuid":"c4caf231-bf6c-4603-98d8-f4518bfc52af","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 
 rule-providers:
   ir_domains:
@@ -51,28 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 63'
-      - '🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 64'
-      - '🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 65'
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 66'
+      - '🇳🇱 NL | 🔴 | vmess | @NamiraConfigs | 62'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 63'
-      - '🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 64'
-      - '🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 65'
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 66'
+      - '🇳🇱 NL | 🔴 | vmess | @NamiraConfigs | 62'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 63'
-      - '🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 64'
-      - '🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 65'
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 66'
+      - '🇳🇱 NL | 🔴 | vmess | @NamiraConfigs | 62'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

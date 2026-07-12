@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67","type":"vless","server":"cf2.danesh-bonyan.com","port":8443,"uuid":"b916e241-4be3-4a9c-81ca-70b92a0be6c4","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"b99d8b2aa44534e4504c377660d67a7b.danesh-bonyan.Store","ws-opts":{"path":"/","headers":{"Host":"server-2.danesh-bonyan.Store"}}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66","type":"vless","server":"free7.playon.ir","port":443,"uuid":"886a6c96-1d82-4b85-a792-dc9cbc1ecaf2","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"free7.playon.ir","ws-opts":{"path":"/fc-AOCnNa8dtvagXE1yfODtBNY1","headers":{"Host":"free7.playon.ir"}}}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

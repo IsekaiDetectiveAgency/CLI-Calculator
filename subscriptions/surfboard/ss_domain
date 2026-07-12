@@ -9,12 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 57 = ss, mmd.radanjami.org, 37309, encrypt-method = chacha20-ietf-poly1305, password = b4jq8kdzbfpt7ipf
+🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 64 = ss, france.radanjami.org, 33577, encrypt-method = chacha20-ietf-poly1305, password = ybkqmchl3zpjoise
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 57
-PSG-AUTO = url-test, 🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 57
-PSG-FALLBACK = fallback, 🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 57
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 64
+PSG-AUTO = url-test, 🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 64
+PSG-FALLBACK = fallback, 🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 64
 
 [Rule]
 GEOIP,IR,DIRECT

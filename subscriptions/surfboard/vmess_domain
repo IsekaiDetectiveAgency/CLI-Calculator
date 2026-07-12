@@ -9,15 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 63 = vmess, 31.77.149.99, 110, username = f0841ef6-a703-4248-9c69-efed21a38e65, ws = false, tls = false
-🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 64 = vmess, kiri2.dlweb.info, 23793, username = 17483fa4-f518-4886-b85e-a5abd76f7314, ws = false, tls = false
-🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 65 = vmess, jazzghost.com, 8998, username = 45e6cc1d-fc2e-4c97-8633-b33caa28e130, ws = false, tls = true
-🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 66 = vmess, 165.140.216.141, 443, username = e7d72a8d-26f2-4b54-b366-0c43e0bcba7d, ws = false, tls = false
+🇳🇱 NL | 🔴 | vmess | @NamiraConfigs | 62 = vmess, 31.76.78.98, 110, username = c4caf231-bf6c-4603-98d8-f4518bfc52af, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 63, 🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 64, 🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 65, 🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 66
-PSG-AUTO = url-test, 🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 63, 🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 64, 🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 65, 🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 66
-PSG-FALLBACK = fallback, 🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 63, 🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 64, 🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 65, 🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 66
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇳🇱 NL | 🔴 | vmess | @NamiraConfigs | 62
+PSG-AUTO = url-test, 🇳🇱 NL | 🔴 | vmess | @NamiraConfigs | 62
+PSG-FALLBACK = fallback, 🇳🇱 NL | 🔴 | vmess | @NamiraConfigs | 62
 
 [Rule]
 GEOIP,IR,DIRECT

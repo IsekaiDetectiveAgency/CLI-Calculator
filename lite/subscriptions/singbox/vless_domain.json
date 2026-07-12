@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,16 +135,16 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66",
             "type": "vless",
-            "server": "cf2.danesh-bonyan.com",
-            "server_port": 8443,
-            "uuid": "b916e241-4be3-4a9c-81ca-70b92a0be6c4",
+            "server": "free7.playon.ir",
+            "server_port": 443,
+            "uuid": "886a6c96-1d82-4b85-a792-dc9cbc1ecaf2",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "b99d8b2aa44534e4504c377660d67a7b.danesh-bonyan.Store",
+                "server_name": "free7.playon.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -153,9 +153,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/fc-AOCnNa8dtvagXE1yfODtBNY1",
                 "headers": {
-                    "Host": "b99d8b2aa44534e4504c377660d67a7b.danesh-bonyan.Store"
+                    "Host": "free7.playon.ir"
                 }
             }
         }

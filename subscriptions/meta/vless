@@ -17,8 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 67","type":"vless","server":"13.40.188.81","port":443,"uuid":"7e6a38f4-7150-4eff-ae68-579852357ddb","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇮🇹 IT | 🔴 | vless | @NamiraConfigs | 68","type":"vless","server":"151.115.167.6","port":8880,"uuid":"8dc7722c-2767-4eea-a28b-2f8daacc07e3","tls":false,"network":"grpc","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 63","type":"vless","server":"13.36.204.235","port":22224,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66","type":"vless","server":"free7.playon.ir","port":443,"uuid":"886a6c96-1d82-4b85-a792-dc9cbc1ecaf2","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"free7.playon.ir","ws-opts":{"path":"/fc-AOCnNa8dtvagXE1yfODtBNY1","headers":{"Host":"free7.playon.ir"}}}
 
 rule-providers:
   ir_domains:
@@ -49,22 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 67'
-      - '🇮🇹 IT | 🔴 | vless | @NamiraConfigs | 68'
+      - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 63'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 67'
-      - '🇮🇹 IT | 🔴 | vless | @NamiraConfigs | 68'
+      - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 63'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 67'
-      - '🇮🇹 IT | 🔴 | vless | @NamiraConfigs | 68'
+      - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 63'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
