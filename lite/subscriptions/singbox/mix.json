@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65"
+                "🇧🇬 BG | 🔴 | vless | @NamiraConfigs | 65"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65"
+                "🇧🇬 BG | 🔴 | vless | @NamiraConfigs | 65"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,27 +135,18 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65",
+            "tag": "🇧🇬 BG | 🔴 | vless | @NamiraConfigs | 65",
             "type": "vless",
-            "server": "104.16.72.50",
-            "server_port": 443,
-            "uuid": "7e544a9d-7667-413b-bbb0-b3bb1aac6d77",
+            "server": "89.117.112.4",
+            "server_port": 80,
+            "uuid": "424fa201-3f94-479e-b533-d5257cf9a207",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "shegeftihaaa.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/rsedgws",
+                "path": "/pyip=Telegram🇨🇳+@WangCai2",
                 "headers": {
-                    "Host": "shegeftihaaa.net"
+                    "Host": "89.117.112.4"
                 }
             }
         }
