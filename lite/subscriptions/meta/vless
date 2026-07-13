@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 68","type":"vless","server":"13.36.204.235","port":22223,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68","type":"vless","server":"zeus-panel-g75bgi.zeus-1e8zqa.workers.dev","port":2082,"uuid":"febc7c0d-1c70-4fb6-9326-51da52efc483","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"zeus-panel-g75bgi.zeus-1e8zqa.workers.dev"}}}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 68'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 68'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 68'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 68'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

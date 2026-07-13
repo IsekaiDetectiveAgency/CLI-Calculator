@@ -9,12 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇳🇱 NL | 🔴 | vmess | @NamiraConfigs | 62 = vmess, 31.76.78.98, 110, username = c4caf231-bf6c-4603-98d8-f4518bfc52af, ws = false, tls = false
+🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 64 = vmess, dn.torontomovie.com, 8080, username = a020b5fa-fa21-4f08-9bcd-95f4de69484c, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇳🇱 NL | 🔴 | vmess | @NamiraConfigs | 62
-PSG-AUTO = url-test, 🇳🇱 NL | 🔴 | vmess | @NamiraConfigs | 62
-PSG-FALLBACK = fallback, 🇳🇱 NL | 🔴 | vmess | @NamiraConfigs | 62
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 64
+PSG-AUTO = url-test, 🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 64
+PSG-FALLBACK = fallback, 🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 64
 
 [Rule]
 GEOIP,IR,DIRECT
