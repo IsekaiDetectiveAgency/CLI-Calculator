@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66"
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 68"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66"
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 68"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,29 +135,13 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66",
+            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 68",
             "type": "vless",
-            "server": "free7.playon.ir",
-            "server_port": 443,
-            "uuid": "886a6c96-1d82-4b85-a792-dc9cbc1ecaf2",
+            "server": "13.36.204.235",
+            "server_port": 22223,
+            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "free7.playon.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/fc-AOCnNa8dtvagXE1yfODtBNY1",
-                "headers": {
-                    "Host": "free7.playon.ir"
-                }
-            }
+            "packet_encoding": "xudp"
         }
     ],
     "route": {

@@ -17,8 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇳🇱 NL | 🔴 | vmess | @NamiraConfigs | 62","type":"vmess","server":"31.76.78.98","port":110,"cipher":"auto","uuid":"c4caf231-bf6c-4603-98d8-f4518bfc52af","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 64","type":"ss","server":"france.radanjami.org","port":33577,"password":"ybkqmchl3zpjoise","cipher":"chacha20-ietf-poly1305"}
+
 
 rule-providers:
   ir_domains:
@@ -49,22 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇳🇱 NL | 🔴 | vmess | @NamiraConfigs | 62'
-      - '🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 64'
+
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇳🇱 NL | 🔴 | vmess | @NamiraConfigs | 62'
-      - '🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 64'
+
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇳🇱 NL | 🔴 | vmess | @NamiraConfigs | 62'
-      - '🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 64'
+
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

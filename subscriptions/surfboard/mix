@@ -9,13 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇳🇱 NL | 🔴 | vmess | @NamiraConfigs | 62 = vmess, 31.76.78.98, 110, username = c4caf231-bf6c-4603-98d8-f4518bfc52af, ws = false, tls = false
-🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 64 = ss, france.radanjami.org, 33577, encrypt-method = chacha20-ietf-poly1305, password = ybkqmchl3zpjoise
+
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇳🇱 NL | 🔴 | vmess | @NamiraConfigs | 62, 🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 64
-PSG-AUTO = url-test, 🇳🇱 NL | 🔴 | vmess | @NamiraConfigs | 62, 🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 64
-PSG-FALLBACK = fallback, 🇳🇱 NL | 🔴 | vmess | @NamiraConfigs | 62, 🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 64
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 
+PSG-AUTO = url-test, 
+PSG-FALLBACK = fallback, 
 
 [Rule]
 GEOIP,IR,DIRECT
