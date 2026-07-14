@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49"
+                "🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 67"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49"
+                "🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 67"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,11 +135,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49",
+            "tag": "🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 67",
             "type": "vless",
-            "server": "91.99.173.29",
-            "server_port": 12767,
-            "uuid": "7ff3f986-f72c-4ebd-9eaa-bba121399cd2",
+            "server": "s---w.pagess.ir",
+            "server_port": 3389,
+            "uuid": "e6e2eec6-dcd0-4b65-a75b-6945fb827dec",
             "flow": "",
             "packet_encoding": "xudp"
         }

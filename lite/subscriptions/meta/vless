@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49","type":"vless","server":"91.99.173.29","port":12767,"uuid":"7ff3f986-f72c-4ebd-9eaa-bba121399cd2","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 67","type":"vless","server":"s---w.pagess.ir","port":3389,"uuid":"e6e2eec6-dcd0-4b65-a75b-6945fb827dec","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49'
+      - '🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 67'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49'
+      - '🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 67'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49'
+      - '🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 67'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
