@@ -17,8 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 64","type":"vless","server":"media.frdmhere.com","port":443,"uuid":"83ddf81d-fffe-49ce-af73-5e71361ce719","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"media.frdmhere.com","ws-opts":{"path":"/mp3/all","headers":{"Host":"media.frdmhere.com"}}}
-  - {"name":"🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 65","type":"vless","server":"sos.oakcup.ir","port":2052,"uuid":"83f61e10-2242-4e33-82fe-045a3e58e3d2","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/api","headers":{"Host":"test.naicoacademy.ir"}}}
+  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 65","type":"vless","server":"media.frdmhere.com","port":443,"uuid":"83ddf81d-fffe-49ce-af73-5e71361ce719","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"media.frdmhere.com","ws-opts":{"path":"/mp3/all","headers":{"Host":"media.frdmhere.com"}}}
+  - {"name":"🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 66","type":"vless","server":"sos.oakcup.ir","port":2052,"uuid":"83f61e10-2242-4e33-82fe-045a3e58e3d2","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/api","headers":{"Host":"test.naicoacademy.ir"}}}
 
 rule-providers:
   ir_domains:
@@ -49,22 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 64'
-      - '🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 65'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 65'
+      - '🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 66'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 64'
-      - '🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 65'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 65'
+      - '🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 66'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 64'
-      - '🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 65'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 65'
+      - '🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 66'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
