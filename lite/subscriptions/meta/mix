@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇦🇹 AT | 🔴 | vless | @NamiraConfigs | 65","type":"vless","server":"212.183.88.30","port":8880,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"212.183.88.30","ws-opts":{"path":"/?ed=2560","headers":{"Host":"vms.lifetime23.workers.dev"}}}
+  - {"name":"🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 65","type":"ss","server":"82.38.31.211","port":8080,"password":"k1dBOmOB4oqi7Ump37a1bQ","cipher":"chacha20-ietf-poly1305"}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇦🇹 AT | 🔴 | vless | @NamiraConfigs | 65'
+      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 65'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇦🇹 AT | 🔴 | vless | @NamiraConfigs | 65'
+      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 65'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇦🇹 AT | 🔴 | vless | @NamiraConfigs | 65'
+      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 65'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
