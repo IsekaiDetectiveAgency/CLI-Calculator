@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 67"
+                "🇭🇰 HK | 🟢 | vmess | @NamiraConfigs | 66"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 67"
+                "🇭🇰 HK | 🟢 | vmess | @NamiraConfigs | 66"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,22 +135,13 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 67",
+            "tag": "🇭🇰 HK | 🟢 | vmess | @NamiraConfigs | 66",
             "type": "vmess",
-            "server": "165.140.216.142",
-            "server_port": 443,
-            "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
+            "server": "31.77.149.131",
+            "server_port": 110,
+            "uuid": "958f5940-de3d-4466-bb30-b605993db27e",
             "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "165.140.216.142",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "alter_id": 0
         }
     ],
     "route": {
