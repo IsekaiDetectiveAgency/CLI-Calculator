@@ -17,9 +17,11 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 65","type":"vless","server":"portal.support.panel.console.admin.developer.iranvatanam.com","port":800,"uuid":"58556539-5e64-4864-8dba-c1c0f9acd1d2","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66","type":"vless","server":"nlj.maqror.ir","port":3389,"uuid":"e6e2eec6-dcd0-4b65-a75b-6945fb827dec","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 67","type":"vless","server":"s---w.pagess.ir","port":3389,"uuid":"e6e2eec6-dcd0-4b65-a75b-6945fb827dec","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 63","type":"vless","server":"104.18.23.4","port":2095,"uuid":"86c50e3a-5b87-49dd-bd20-03c7f2735e40","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/fp=randomized","headers":{"Host":"cnmfangbinxing.cnmfangbinxing.workers.dev"}}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66","type":"vless","server":"69.46.46.0","port":443,"uuid":"c61aeb7d-f7bb-47ab-8ca2-b532dc728f86","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"x4g-production-951c.up.railway.app","ws-opts":{"path":"/ws/c61aeb7d-f7bb-47ab-8ca2-b532dc728f86","headers":{"Host":"x4g-production-951c.up.railway.app"}}}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 67","type":"vless","server":"52.28.107.75","port":22222,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 64","type":"vless","server":"media.frdmhere.com","port":443,"uuid":"83ddf81d-fffe-49ce-af73-5e71361ce719","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"media.frdmhere.com","ws-opts":{"path":"/mp3/all","headers":{"Host":"media.frdmhere.com"}}}
+  - {"name":"🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 65","type":"vless","server":"sos.oakcup.ir","port":2052,"uuid":"83f61e10-2242-4e33-82fe-045a3e58e3d2","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/api","headers":{"Host":"test.naicoacademy.ir"}}}
 
 rule-providers:
   ir_domains:
@@ -50,25 +52,31 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 65'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66'
-      - '🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 67'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 63'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 67'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 64'
+      - '🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 65'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 65'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66'
-      - '🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 67'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 63'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 67'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 64'
+      - '🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 65'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 65'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66'
-      - '🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 67'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 63'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 67'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 64'
+      - '🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 65'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
