@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 67","type":"vmess","server":"69.46.46.71","port":443,"cipher":"auto","uuid":"63d7e870-e195-47b9-abc1-8f21f999a0ea","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"Host":"3x-ui-upgrade-production-4817.up.railway.app"}}}
+  - {"name":"🇭🇰 HK | 🟢 | vmess | @NamiraConfigs | 63","type":"vmess","server":"31.77.149.131","port":110,"cipher":"auto","uuid":"5ed7206a-cd8d-4b02-add1-4f7b787178c9","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 67'
+      - '🇭🇰 HK | 🟢 | vmess | @NamiraConfigs | 63'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 67'
+      - '🇭🇰 HK | 🟢 | vmess | @NamiraConfigs | 63'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 67'
+      - '🇭🇰 HK | 🟢 | vmess | @NamiraConfigs | 63'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
