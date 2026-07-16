@@ -17,8 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"❔ XX | 🔴 | vless | @NamiraConfigs | 66","type":"vless","server":"juso5.pastilbastani.ir","port":443,"uuid":"799843c2-ebb5-4376-b402-a8f479c029b9","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"❔ XX | 🔴 | vless | @NamiraConfigs | 67","type":"vless","server":"036o7.pastilbastani.ir","port":443,"uuid":"22a5e89c-24ff-414a-afd2-100463194a06","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"❔ XX | 🔴 | vless | @NamiraConfigs | 68","type":"vless","server":"juso5.pastilbastani.ir","port":443,"uuid":"799843c2-ebb5-4376-b402-a8f479c029b9","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"❔ XX | 🔴 | vless | @NamiraConfigs | 69","type":"vless","server":"036o7.pastilbastani.ir","port":443,"uuid":"22a5e89c-24ff-414a-afd2-100463194a06","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -49,22 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '❔ XX | 🔴 | vless | @NamiraConfigs | 66'
-      - '❔ XX | 🔴 | vless | @NamiraConfigs | 67'
+      - '❔ XX | 🔴 | vless | @NamiraConfigs | 68'
+      - '❔ XX | 🔴 | vless | @NamiraConfigs | 69'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '❔ XX | 🔴 | vless | @NamiraConfigs | 66'
-      - '❔ XX | 🔴 | vless | @NamiraConfigs | 67'
+      - '❔ XX | 🔴 | vless | @NamiraConfigs | 68'
+      - '❔ XX | 🔴 | vless | @NamiraConfigs | 69'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '❔ XX | 🔴 | vless | @NamiraConfigs | 66'
-      - '❔ XX | 🔴 | vless | @NamiraConfigs | 67'
+      - '❔ XX | 🔴 | vless | @NamiraConfigs | 68'
+      - '❔ XX | 🔴 | vless | @NamiraConfigs | 69'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

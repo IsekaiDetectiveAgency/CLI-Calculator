@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 69"
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 69"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 69"
+                "❔ XX | 🔴 | vless | @NamiraConfigs | 69"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,16 +135,16 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 69",
+            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 69",
             "type": "vless",
-            "server": "62.238.41.102",
+            "server": "036o7.pastilbastani.ir",
             "server_port": 443,
-            "uuid": "154c18ae-f5eb-4cfd-8429-1f582c93913b",
+            "uuid": "22a5e89c-24ff-414a-afd2-100463194a06",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "bot.sobhanpor.ir",
+                "server_name": "036o7.pastilbastani.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
