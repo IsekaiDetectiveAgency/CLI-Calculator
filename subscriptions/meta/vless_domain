@@ -17,7 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 62","type":"vless","server":"dl2.ilooo.ir","port":8080,"uuid":"c5d32f27-dded-4b63-8d01-1693471fb044","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 60","type":"vless","server":"runner.app20.ir","port":8080,"uuid":"c5d32f27-dded-4b63-8d01-1693471fb044","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 61","type":"vless","server":"dl2.ilooo.ir","port":8080,"uuid":"c5d32f27-dded-4b63-8d01-1693471fb044","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -48,19 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 62'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 60'
+      - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 61'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 62'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 60'
+      - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 61'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 62'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 60'
+      - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 61'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

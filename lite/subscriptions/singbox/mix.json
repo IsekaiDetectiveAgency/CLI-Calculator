@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇭🇰 HK | 🟢 | vmess | @NamiraConfigs | 66"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 64"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇭🇰 HK | 🟢 | vmess | @NamiraConfigs | 66"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 64"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,13 +135,29 @@
             "type": "dns"
         },
         {
-            "tag": "🇭🇰 HK | 🟢 | vmess | @NamiraConfigs | 66",
-            "type": "vmess",
-            "server": "31.77.149.131",
-            "server_port": 110,
-            "uuid": "958f5940-de3d-4466-bb30-b605993db27e",
-            "security": "auto",
-            "alter_id": 0
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 64",
+            "type": "vless",
+            "server": "104.21.47.19",
+            "server_port": 443,
+            "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "t1s1.rittbo.kdns.fr",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "t1s1.rittbo.kdns.fr"
+                }
+            }
         }
     ],
     "route": {
