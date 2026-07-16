@@ -9,12 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 65 = vmess, 69.46.46.71, 443, username = 63d7e870-e195-47b9-abc1-8f21f999a0ea, ws = true, tls = true, ws-path = /ws, ws-headers = Host:"3x-ui-upgrade-production-4817.up.railway.app"
+🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 67 = vmess, 69.46.46.71, 443, username = 63d7e870-e195-47b9-abc1-8f21f999a0ea, ws = true, tls = true, ws-path = /ws, ws-headers = Host:"3x-ui-upgrade-production-4817.up.railway.app"
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 65
-PSG-AUTO = url-test, 🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 65
-PSG-FALLBACK = fallback, 🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 65
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 67
+PSG-AUTO = url-test, 🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 67
+PSG-FALLBACK = fallback, 🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 67
 
 [Rule]
 GEOIP,IR,DIRECT

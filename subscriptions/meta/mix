@@ -17,11 +17,11 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 63","type":"vless","server":"15.188.249.140","port":22223,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 64","type":"vless","server":"www.ntu.edu.sg","port":443,"uuid":"eeb6823c-b926-4ea2-866a-5542edd26e59","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"t1s1.rittbo.kdns.fr","ws-opts":{"path":"/","headers":{"Host":"t1s1.rittbo.kdns.fr"}}}
-  - {"name":"🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 65","type":"vmess","server":"69.46.46.71","port":443,"cipher":"auto","uuid":"63d7e870-e195-47b9-abc1-8f21f999a0ea","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"Host":"3x-ui-upgrade-production-4817.up.railway.app"}}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66","type":"vless","server":"yx.cloudflare.182682.xyz","port":443,"uuid":"eeb6823c-b926-4ea2-866a-5542edd26e59","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"t1s1.rittbo.kdns.fr","ws-opts":{"path":"/","headers":{"Host":"t1s1.rittbo.kdns.fr"}}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67","type":"vless","server":"104.26.5.60","port":443,"uuid":"eeb6823c-b926-4ea2-866a-5542edd26e59","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"t1s1.rittbo.kdns.fr","ws-opts":{"path":"/","headers":{"Host":"t1s1.rittbo.kdns.fr"}}}
+  - {"name":"🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 63","type":"vless","server":"15.188.249.140","port":22222,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 64","type":"vless","server":"193.84.255.91","port":26072,"uuid":"91c053b5-2682-4ec6-93ad-307a17ce5139","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 65","type":"vless","server":"15.188.249.140","port":22223,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66","type":"vless","server":"www.ntu.edu.sg","port":443,"uuid":"eeb6823c-b926-4ea2-866a-5542edd26e59","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"t1s1.rittbo.kdns.fr","ws-opts":{"path":"/","headers":{"Host":"t1s1.rittbo.kdns.fr"}}}
+  - {"name":"🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 67","type":"vmess","server":"69.46.46.71","port":443,"cipher":"auto","uuid":"63d7e870-e195-47b9-abc1-8f21f999a0ea","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"Host":"3x-ui-upgrade-production-4817.up.railway.app"}}}
 
 rule-providers:
   ir_domains:
@@ -53,10 +53,10 @@ proxy-groups:
     tolerance: 50 
     proxies:
       - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 63'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 64'
-      - '🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 65'
+      - '🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 64'
+      - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 65'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67'
+      - '🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 67'
 
   - name: 📉 Fallback
     type: fallback
@@ -64,19 +64,19 @@ proxy-groups:
     interval: 300
     proxies:
       - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 63'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 64'
-      - '🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 65'
+      - '🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 64'
+      - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 65'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67'
+      - '🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 67'
       
   - name: All-Proxies
     type: select
     proxies:
       - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 63'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 64'
-      - '🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 65'
+      - '🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 64'
+      - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 65'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67'
+      - '🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 67'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
