@@ -17,9 +17,9 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 62","type":"vless","server":"45.144.55.242","port":2082,"uuid":"67987ef9-513f-46c8-a7a3-e9c079fd220b","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"www.yahoo.com","reality-opts":{"public-key":"6MDFX0qhhDPj0AMWrWvPt4O_96o2um_tcwx-tvZO0j0","short-id":"a515f3864f836e6a"}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63","type":"vless","server":"172.64.150.130","port":443,"uuid":"eeb6823c-b926-4ea2-866a-5542edd26e59","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"t1s1.rittbo.kdns.fr","ws-opts":{"path":"/","headers":{"Host":"t1s1.rittbo.kdns.fr"}}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 64","type":"vless","server":"104.21.47.19","port":443,"uuid":"eeb6823c-b926-4ea2-866a-5542edd26e59","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"t1s1.rittbo.kdns.fr","ws-opts":{"path":"/","headers":{"Host":"t1s1.rittbo.kdns.fr"}}}
+  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 63","type":"vless","server":"45.144.55.242","port":2082,"uuid":"67987ef9-513f-46c8-a7a3-e9c079fd220b","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"www.yahoo.com","reality-opts":{"public-key":"6MDFX0qhhDPj0AMWrWvPt4O_96o2um_tcwx-tvZO0j0","short-id":"a515f3864f836e6a"}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 64","type":"vless","server":"172.64.150.130","port":443,"uuid":"eeb6823c-b926-4ea2-866a-5542edd26e59","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"t1s1.rittbo.kdns.fr","ws-opts":{"path":"/","headers":{"Host":"t1s1.rittbo.kdns.fr"}}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65","type":"vless","server":"104.21.47.19","port":443,"uuid":"eeb6823c-b926-4ea2-866a-5542edd26e59","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"t1s1.rittbo.kdns.fr","ws-opts":{"path":"/","headers":{"Host":"t1s1.rittbo.kdns.fr"}}}
 
 rule-providers:
   ir_domains:
@@ -50,25 +50,25 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 62'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 63'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 64'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 62'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 63'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 64'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 62'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 63'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 64'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
