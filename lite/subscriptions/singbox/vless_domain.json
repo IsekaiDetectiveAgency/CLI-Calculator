@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔ XX | 🔴 | vless | @NamiraConfigs | 69"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔ XX | 🔴 | vless | @NamiraConfigs | 69"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,20 +135,27 @@
             "type": "dns"
         },
         {
-            "tag": "❔ XX | 🔴 | vless | @NamiraConfigs | 69",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67",
             "type": "vless",
-            "server": "juso5.pastilbastani.ir",
+            "server": "x4g-production-ed65.up.railway.app",
             "server_port": 443,
-            "uuid": "799843c2-ebb5-4376-b402-a8f479c029b9",
+            "uuid": "37966092-f71c-8f7a-484f-d68c68f01ab7",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "juso5.pastilbastani.ir",
+                "server_name": "x4g-production-ed65.up.railway.app",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/37966092-f71c-8f7a-484f-d68c68f01ab7",
+                "headers": {
+                    "Host": "x4g-production-ed65.up.railway.app"
                 }
             }
         }
