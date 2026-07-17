@@ -17,7 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-
+  - {"name":"🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 62","type":"vless","server":"dash1.dequa.ir","port":443,"uuid":"26c5d167-03ae-42f9-81a2-b9d57b3409a7","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"dash1.dequa.ir"}}}
+  - {"name":"🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 61","type":"vless","server":"195.63.137.251","port":8090,"uuid":"ef14c532-b69a-4f46-ae29-272f2fdaf673","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/ws","headers":{"Host":"rukr.speedload.ru"}}}
 
 rule-providers:
   ir_domains:
@@ -48,19 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-
+      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 62'
+      - '🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 61'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-
+      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 62'
+      - '🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 61'
       
   - name: All-Proxies
     type: select
     proxies:
-
+      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 62'
+      - '🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 61'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
