@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 69"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 65"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 69"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 65"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,22 +135,13 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 69",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 65",
             "type": "vless",
-            "server": "62.238.41.102",
-            "server_port": 443,
-            "uuid": "154c18ae-f5eb-4cfd-8429-1f582c93913b",
+            "server": "3.127.97.180",
+            "server_port": 22223,
+            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "bot.sobhanpor.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
