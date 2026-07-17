@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-
+  - {"name":"🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 65","type":"vmess","server":"2cdn.njkrpl.com","port":443,"cipher":"auto","uuid":"a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":""}}}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-
+      - '🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 65'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-
+      - '🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 65'
       
   - name: All-Proxies
     type: select
     proxies:
-
+      - '🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 65'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
