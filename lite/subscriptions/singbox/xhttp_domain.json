@@ -105,26 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🔴 | vless | @configscenter | 2",
-                "🇺🇸 US | 🔴 | vless | @dailytek | 13",
-                "❔ XX | 🔴 | vless | @dgkbza | 21",
-                "🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 9",
-                "🇺🇸 US | 🔴 | vless | @evay_vpn | 13",
-                "🇺🇸 US | 🔴 | vless | @fastshovpn | 8",
-                "🇺🇸 US | 🟢 | vless | @noforcedheaven | 16"
+                "🇧🇪 BE | 🟢 | vless | @NamiraConfigs | 65"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vless | @configscenter | 2",
-                "🇺🇸 US | 🔴 | vless | @dailytek | 13",
-                "❔ XX | 🔴 | vless | @dgkbza | 21",
-                "🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 9",
-                "🇺🇸 US | 🔴 | vless | @evay_vpn | 13",
-                "🇺🇸 US | 🔴 | vless | @fastshovpn | 8",
-                "🇺🇸 US | 🟢 | vless | @noforcedheaven | 16"
+                "🇧🇪 BE | 🟢 | vless | @NamiraConfigs | 65"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -147,70 +135,16 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @configscenter | 2",
+            "tag": "🇧🇪 BE | 🟢 | vless | @NamiraConfigs | 65",
             "type": "vless",
-            "server": "2sudo.winapp3.ir",
-            "server_port": 80,
-            "uuid": "5b0e1347-1e9b-4b83-a27b-468e3dafb69b",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @dailytek | 13",
-            "type": "vless",
-            "server": "Ip2.yw5jk.org",
-            "server_port": 80,
-            "uuid": "3d212218-5ee2-4df8-8bf8-9eaf2474bf6e",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "❔ XX | 🔴 | vless | @dgkbza | 21",
-            "type": "vless",
-            "server": "join.unlimiteddev.fastly80-3.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "2a800382-5878-4b1a-96a2-c5d8af844530",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @eliteproxyv2 | 9",
-            "type": "vless",
-            "server": "germany.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @evay_vpn | 13",
-            "type": "vless",
-            "server": "Evay.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "bb57d265-b716-4092-bd0a-68f3988db63c",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔴 | vless | @fastshovpn | 8",
-            "type": "vless",
-            "server": "FASTSHOVPNTELEGRAM.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "41f52408-143d-40ba-8e09-82df8b72a6d0",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @noforcedheaven | 16",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "25cff889-0921-40a9-814b-15d3af3bbc58",
+            "server": "cdn1.portalcode.ir",
+            "server_port": 8443,
+            "uuid": "df0e61f6-dd51-49d6-bee7-6d5ff06ae44b",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "ru2.asc-sam.ir",
+                "server_name": "434df2a384e0a10f.rainzone.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
