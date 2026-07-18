@@ -17,9 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 63","type":"vless","server":"nin9.gd.sanaiehdasti.com","port":1418,"uuid":"81b8aac5-e22e-46aa-91f4-bdf6a686be51","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 64","type":"vless","server":"datacloud.sorvexrt.ir","port":2096,"uuid":"afeb3ce0-73db-48f3-949e-8bcfe68e7e45","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"gold.apimusicvip.ir","ws-opts":{"path":"/","headers":{"Host":"gold.apimusicvip.ir"}}}
-  - {"name":"🇧🇪 BE | 🟢 | vless | @NamiraConfigs | 65","type":"vless","server":"cdn1.portalcode.ir","port":8443,"uuid":"df0e61f6-dd51-49d6-bee7-6d5ff06ae44b","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"434df2a384e0a10f.rainzone.ir"}
+  - {"name":"🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 66","type":"vless","server":"d.socialxxmedia.com","port":200,"uuid":"6bc19aa1-d94b-488c-9b25-47214d371851","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -50,25 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 63'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 64'
-      - '🇧🇪 BE | 🟢 | vless | @NamiraConfigs | 65'
+      - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 66'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 63'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 64'
-      - '🇧🇪 BE | 🟢 | vless | @NamiraConfigs | 65'
+      - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 66'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 63'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 64'
-      - '🇧🇪 BE | 🟢 | vless | @NamiraConfigs | 65'
+      - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 66'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
