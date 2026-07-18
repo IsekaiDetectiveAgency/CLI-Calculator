@@ -17,7 +17,9 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-
+  - {"name":"🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 65","type":"vless","server":"52.47.123.79","port":22223,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66","type":"vless","server":"172.67.161.104","port":8880,"uuid":"11046a7c-fa1b-4653-ab87-400feb465540","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"nameless-poetry-12fb.8-0a2.workers.dev"}}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67","type":"vless","server":"104.16.72.50","port":443,"uuid":"7e544a9d-7667-413b-bbb0-b3bb1aac6d77","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"shegeftihaaa.net","ws-opts":{"path":"/rsedgws","headers":{"Host":"shegeftihaaa.net"}}}
 
 rule-providers:
   ir_domains:
@@ -48,19 +50,25 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-
+      - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 65'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-
+      - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 65'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67'
       
   - name: All-Proxies
     type: select
     proxies:
-
+      - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 65'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 66'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
