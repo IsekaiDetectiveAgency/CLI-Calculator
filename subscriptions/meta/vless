@@ -17,9 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 63","type":"vless","server":"81.31.211.120","port":2085,"uuid":"cebf31b3-a467-4b84-9dce-62bed1c26719","tls":false,"network":"grpc","client-fingerprint":"chrome","udp":true,"grpc-opts":{"grpc-service-name":"vless"}}
-  - {"name":"🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 64","type":"vless","server":"45.86.159.140","port":2085,"uuid":"e6b8004d-2b34-487a-9cd2-d080c4eecf5d","tls":false,"network":"grpc","client-fingerprint":"chrome","udp":true,"grpc-opts":{"grpc-service-name":"vless"}}
-  - {"name":"🇸🇨 SC | 🔴 | vless | @NamiraConfigs | 67","type":"vless","server":"45.130.125.207","port":80,"uuid":"dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/http","headers":{"Host":"de.vpnbase.net"}}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 68","type":"vless","server":"speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir","port":443,"uuid":"01839038-ddc0-484f-957a-879b6e6e2116","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir","ws-opts":{"path":"/mehdi","headers":{"Host":"speedtestgoogleyahoobingyandexgmailappleaol.xbx24.ir"}}}
 
 rule-providers:
   ir_domains:
@@ -50,25 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 63'
-      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 64'
-      - '🇸🇨 SC | 🔴 | vless | @NamiraConfigs | 67'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 68'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 63'
-      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 64'
-      - '🇸🇨 SC | 🔴 | vless | @NamiraConfigs | 67'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 68'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 63'
-      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 64'
-      - '🇸🇨 SC | 🔴 | vless | @NamiraConfigs | 67'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 68'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
