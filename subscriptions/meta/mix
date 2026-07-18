@@ -17,11 +17,9 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇦🇹 AT | 🔴 | vless | @NamiraConfigs | 62","type":"vless","server":"212.183.88.30","port":8880,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"212.183.88.30","ws-opts":{"path":"/?ed=2560","headers":{"Host":"vms.lifetime23.workers.dev"}}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63","type":"vless","server":"199.232.29.204","port":443,"uuid":"891710f4-45f3-41b1-99a6-6f1510f83c10","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"ssl.fastly.com","ws-opts":{"path":"/TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed","headers":{"Host":"pan21.global.ssl.fastly.net"}}}
-  - {"name":"🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 64","type":"vless","server":"185.247.16.3","port":2200,"uuid":"155e8dd4-a559-407a-9ea8-13a5e829f066","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/v1","headers":{"Host":"rzd.ru"}}}
-  - {"name":"🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 65","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66","type":"vless","server":"162.159.44.180","port":443,"uuid":"eeb6823c-b926-4ea2-866a-5542edd26e59","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"t1s1.rittbo.kdns.fr","ws-opts":{"path":"/fp=chrome","headers":{"Host":"t1s1.rittbo.kdns.fr"}}}
+  - {"name":"🇸🇨 SC | 🔴 | vless | @NamiraConfigs | 65","type":"vless","server":"45.130.125.207","port":80,"uuid":"dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/http","headers":{"Host":"de.vpnbase.net"}}}
+  - {"name":"🇦🇹 AT | 🔴 | vless | @NamiraConfigs | 66","type":"vless","server":"212.183.88.30","port":8880,"uuid":"6202b230-417c-4d8e-b624-0f71afa9c75d","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"212.183.88.30","ws-opts":{"path":"/?ed=2560","headers":{"Host":"vms.lifetime23.workers.dev"}}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67","type":"vless","server":"199.232.29.204","port":443,"uuid":"891710f4-45f3-41b1-99a6-6f1510f83c10","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"ssl.fastly.com","ws-opts":{"path":"/TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed","headers":{"Host":"pan21.global.ssl.fastly.net"}}}
 
 rule-providers:
   ir_domains:
@@ -52,31 +50,25 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇦🇹 AT | 🔴 | vless | @NamiraConfigs | 62'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63'
-      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 64'
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 65'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66'
+      - '🇸🇨 SC | 🔴 | vless | @NamiraConfigs | 65'
+      - '🇦🇹 AT | 🔴 | vless | @NamiraConfigs | 66'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇦🇹 AT | 🔴 | vless | @NamiraConfigs | 62'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63'
-      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 64'
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 65'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66'
+      - '🇸🇨 SC | 🔴 | vless | @NamiraConfigs | 65'
+      - '🇦🇹 AT | 🔴 | vless | @NamiraConfigs | 66'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇦🇹 AT | 🔴 | vless | @NamiraConfigs | 62'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63'
-      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 64'
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 65'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 66'
+      - '🇸🇨 SC | 🔴 | vless | @NamiraConfigs | 65'
+      - '🇦🇹 AT | 🔴 | vless | @NamiraConfigs | 66'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 67'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
