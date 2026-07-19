@@ -17,7 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 62","type":"vless","server":"de.vpnbase.net","port":80,"uuid":"dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/http","headers":{"Host":"de.vpnbase.net"}}}
+  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 58","type":"vless","server":"eventloophub.org","port":8443,"uuid":"aa28b265-baff-42e4-927e-7a8dee0ef623","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"eventloophub.org","grpc-opts":{"grpc-service-name":"grpc"}}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 59","type":"vless","server":"YaMaL.Sav-savteAm.iR","port":6985,"uuid":"e39ac861-974c-4c7d-8300-97c7bbca512a","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -48,19 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 62'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 58'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 59'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 62'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 58'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 59'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 62'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 58'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 59'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
