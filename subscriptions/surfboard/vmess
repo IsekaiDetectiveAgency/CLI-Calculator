@@ -9,13 +9,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇮🇳 IN | 🔴 | vmess | @NamiraConfigs | 63 = vmess, 152.67.8.205, 80, username = 9db4c708-aef8-4359-821b-38e47990be0d, ws = true, tls = false, ws-path = /, ws-headers = Host:""
-🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 64 = vmess, 65.109.219.124, 52525, username = 358f44f0-2686-46c8-9cc6-ec52abd66df4, ws = false, tls = false
+🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 61 = vmess, tg.hrmp.kdns.fr, 8443, username = af1ccd89-b66b-44e8-99b8-0d945078c04b, ws = true, tls = true, ws-path = /tirexvmess, ws-headers = Host:"tg.hrmp.kdns.fr"
+🇮🇳 IN | 🔴 | vmess | @NamiraConfigs | 65 = vmess, 152.67.8.205, 80, username = 9db4c708-aef8-4359-821b-38e47990be0d, ws = true, tls = false, ws-path = /, ws-headers = Host:""
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇮🇳 IN | 🔴 | vmess | @NamiraConfigs | 63, 🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 64
-PSG-AUTO = url-test, 🇮🇳 IN | 🔴 | vmess | @NamiraConfigs | 63, 🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 64
-PSG-FALLBACK = fallback, 🇮🇳 IN | 🔴 | vmess | @NamiraConfigs | 63, 🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 64
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 61, 🇮🇳 IN | 🔴 | vmess | @NamiraConfigs | 65
+PSG-AUTO = url-test, 🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 61, 🇮🇳 IN | 🔴 | vmess | @NamiraConfigs | 65
+PSG-FALLBACK = fallback, 🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 61, 🇮🇳 IN | 🔴 | vmess | @NamiraConfigs | 65
 
 [Rule]
 GEOIP,IR,DIRECT

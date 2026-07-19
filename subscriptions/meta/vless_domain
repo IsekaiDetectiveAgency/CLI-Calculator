@@ -17,8 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 58","type":"vless","server":"eventloophub.org","port":8443,"uuid":"aa28b265-baff-42e4-927e-7a8dee0ef623","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"eventloophub.org","grpc-opts":{"grpc-service-name":"grpc"}}
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 59","type":"vless","server":"YaMaL.Sav-savteAm.iR","port":6985,"uuid":"e39ac861-974c-4c7d-8300-97c7bbca512a","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 62","type":"vless","server":"yamal.sav-savteam.ir","port":6985,"uuid":"882516d7-aa11-4dbd-962c-e72cd3c49c0b","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -49,22 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 58'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 59'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 62'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 58'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 59'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 62'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 58'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 59'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 62'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

@@ -17,8 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇮🇳 IN | 🔴 | vmess | @NamiraConfigs | 63","type":"vmess","server":"152.67.8.205","port":80,"cipher":"auto","uuid":"9db4c708-aef8-4359-821b-38e47990be0d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":""}}}
-  - {"name":"🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 64","type":"vmess","server":"65.109.219.124","port":52525,"cipher":"auto","uuid":"358f44f0-2686-46c8-9cc6-ec52abd66df4","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 61","type":"vmess","server":"tg.hrmp.kdns.fr","port":8443,"cipher":"auto","uuid":"af1ccd89-b66b-44e8-99b8-0d945078c04b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/tirexvmess","headers":{"Host":"tg.hrmp.kdns.fr"}}}
+  - {"name":"🇮🇳 IN | 🔴 | vmess | @NamiraConfigs | 65","type":"vmess","server":"152.67.8.205","port":80,"cipher":"auto","uuid":"9db4c708-aef8-4359-821b-38e47990be0d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"Host":""}}}
 
 rule-providers:
   ir_domains:
@@ -49,22 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇮🇳 IN | 🔴 | vmess | @NamiraConfigs | 63'
-      - '🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 64'
+      - '🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 61'
+      - '🇮🇳 IN | 🔴 | vmess | @NamiraConfigs | 65'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇮🇳 IN | 🔴 | vmess | @NamiraConfigs | 63'
-      - '🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 64'
+      - '🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 61'
+      - '🇮🇳 IN | 🔴 | vmess | @NamiraConfigs | 65'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇮🇳 IN | 🔴 | vmess | @NamiraConfigs | 63'
-      - '🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 64'
+      - '🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 61'
+      - '🇮🇳 IN | 🔴 | vmess | @NamiraConfigs | 65'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
