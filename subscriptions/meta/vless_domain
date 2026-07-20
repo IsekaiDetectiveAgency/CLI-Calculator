@@ -17,9 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 54","type":"vless","server":"uk-een-tswe.horlutr.ir","port":2087,"uuid":"25049cf9-47e9-4057-93a7-d3d53d32bb77","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 55","type":"vless","server":"UE.horlutr.ir","port":2087,"uuid":"25049cf9-47e9-4057-93a7-d3d53d32bb77","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 56","type":"vless","server":"finland9011-tswe.horlutr.ir","port":2087,"uuid":"25049cf9-47e9-4057-93a7-d3d53d32bb77","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 51","type":"vless","server":"uk-een-tswe.horlutr.ir","port":2087,"uuid":"25049cf9-47e9-4057-93a7-d3d53d32bb77","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 52","type":"vless","server":"UE.horlutr.ir","port":2087,"uuid":"25049cf9-47e9-4057-93a7-d3d53d32bb77","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -50,25 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 54'
-      - '🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 55'
-      - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 56'
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 51'
+      - '🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 52'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 54'
-      - '🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 55'
-      - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 56'
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 51'
+      - '🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 52'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 54'
-      - '🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 55'
-      - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 56'
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 51'
+      - '🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 52'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

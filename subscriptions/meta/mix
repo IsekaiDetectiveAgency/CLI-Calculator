@@ -17,10 +17,10 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 54","type":"vless","server":"uk-een-tswe.horlutr.ir","port":2087,"uuid":"25049cf9-47e9-4057-93a7-d3d53d32bb77","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 55","type":"vless","server":"UE.horlutr.ir","port":2087,"uuid":"25049cf9-47e9-4057-93a7-d3d53d32bb77","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 56","type":"vless","server":"finland9011-tswe.horlutr.ir","port":2087,"uuid":"25049cf9-47e9-4057-93a7-d3d53d32bb77","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57","type":"vless","server":"199.232.22.39","port":443,"uuid":"891710f4-45f3-41b1-99a6-6f1510f83c10","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"ssl.fastly.com","ws-opts":{"path":"/TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed","headers":{"Host":"pan21.global.ssl.fastly.net"}}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48","type":"vless","server":"108.162.194.119","port":443,"uuid":"8ad6f598-cd8d-4fca-848e-05fc9be15ff3","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"deicl.redstone-vex.sbs","ws-opts":{"path":"/sea","headers":{"Host":"deicl.redstone-vex.sbs"}}}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49","type":"vless","server":"108.61.210.223","port":55867,"uuid":"399f7f1b-0f5e-43a1-b0b5-6f255367d778","tls":false,"network":"httpupgrade","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 51","type":"vless","server":"uk-een-tswe.horlutr.ir","port":2087,"uuid":"25049cf9-47e9-4057-93a7-d3d53d32bb77","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 52","type":"vless","server":"UE.horlutr.ir","port":2087,"uuid":"25049cf9-47e9-4057-93a7-d3d53d32bb77","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -51,28 +51,28 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 54'
-      - '🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 55'
-      - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 56'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49'
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 51'
+      - '🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 52'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 54'
-      - '🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 55'
-      - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 56'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49'
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 51'
+      - '🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 52'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 54'
-      - '🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 55'
-      - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 56'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49'
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 51'
+      - '🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 52'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

@@ -104,13 +104,16 @@
             "tag": "proxy",
             "type": "selector",
             "outbounds": [
-                "URL-TEST"
+                "URL-TEST",
+                "🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 37"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
-            "outbounds": [],
+            "outbounds": [
+                "🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 37"
+            ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
             "tolerance": 50
@@ -130,6 +133,15 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇦🇪 AE | 🔴 | vless | @NamiraConfigs | 37",
+            "type": "vless",
+            "server": "UE.horlutr.ir",
+            "server_port": 2087,
+            "uuid": "25049cf9-47e9-4057-93a7-d3d53d32bb77",
+            "flow": "",
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
