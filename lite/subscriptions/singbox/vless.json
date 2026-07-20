@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 61"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 59"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 61"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 59"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,18 +135,27 @@
             "type": "dns"
         },
         {
-            "tag": "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 61",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 59",
             "type": "vless",
-            "server": "mabar130.mobail1010.ir",
-            "server_port": 2082,
-            "uuid": "a9e937d6-6df5-42ef-9b14-3e1165d56c22",
+            "server": "Time.is",
+            "server_port": 2096,
+            "uuid": "1a0509ce-31e5-c439-40d8-c8050000000c",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "a.testiam13.workers.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/v2box",
                 "headers": {
-                    "Host": "mabar130.mobail1010.ir"
+                    "Host": "a.testiam13.workers.dev"
                 }
             }
         }
