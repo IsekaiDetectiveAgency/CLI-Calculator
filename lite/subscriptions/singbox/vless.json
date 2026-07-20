@@ -137,14 +137,14 @@
         {
             "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 59",
             "type": "vless",
-            "server": "Time.is",
-            "server_port": 2096,
-            "uuid": "1a0509ce-31e5-c439-40d8-c8050000000c",
+            "server": "x4g-production-c124.up.railway.app",
+            "server_port": 443,
+            "uuid": "34d473ff-7f1f-d596-e64d-1a27ab988054",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "a.testiam13.workers.dev",
+                "server_name": "x4g-production-c124.up.railway.app",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -153,9 +153,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/v2box",
+                "path": "/ws/34d473ff-7f1f-d596-e64d-1a27ab988054",
                 "headers": {
-                    "Host": "a.testiam13.workers.dev"
+                    "Host": "x4g-production-c124.up.railway.app"
                 }
             }
         }
