@@ -17,8 +17,9 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48","type":"vless","server":"108.162.194.119","port":443,"uuid":"8ad6f598-cd8d-4fca-848e-05fc9be15ff3","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"deicl.redstone-vex.sbs","ws-opts":{"path":"/sea","headers":{"Host":"deicl.redstone-vex.sbs"}}}
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49","type":"vless","server":"108.61.210.223","port":55867,"uuid":"399f7f1b-0f5e-43a1-b0b5-6f255367d778","tls":false,"network":"httpupgrade","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49","type":"vless","server":"104.18.35.13","port":443,"uuid":"eeb6823c-b926-4ea2-866a-5542edd26e59","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"t1s1.rittbo.kdns.fr","ws-opts":{"path":"/","headers":{"Host":"t1s1.rittbo.kdns.fr"}}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50","type":"vless","server":"108.162.194.119","port":443,"uuid":"8ad6f598-cd8d-4fca-848e-05fc9be15ff3","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"deicl.redstone-vex.sbs","ws-opts":{"path":"/sea","headers":{"Host":"deicl.redstone-vex.sbs"}}}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51","type":"vless","server":"108.61.210.223","port":55867,"uuid":"399f7f1b-0f5e-43a1-b0b5-6f255367d778","tls":false,"network":"httpupgrade","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -49,22 +50,25 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
