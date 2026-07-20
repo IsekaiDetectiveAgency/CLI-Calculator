@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 61"
+                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 61"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 61"
+                "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 61"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,13 +135,20 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 61",
+            "tag": "🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 61",
             "type": "vless",
-            "server": "jdhdjdjdjm.belamona.ir",
-            "server_port": 1323,
-            "uuid": "f67b7960-d5a1-4108-80c4-2adbcff716e8",
+            "server": "mabar130.mobail1010.ir",
+            "server_port": 2082,
+            "uuid": "a9e937d6-6df5-42ef-9b14-3e1165d56c22",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "mabar130.mobail1010.ir"
+                }
+            }
         }
     ],
     "route": {
