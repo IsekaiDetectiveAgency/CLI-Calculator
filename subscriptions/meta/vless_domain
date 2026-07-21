@@ -17,9 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 49","type":"vless","server":"cdn2.beshdash.ir","port":61224,"uuid":"9d564717-cee2-482f-a841-f7a3af7a08d3","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 50","type":"vless","server":"cdn1.beshdash.ir","port":21972,"uuid":"9d564717-cee2-482f-a841-f7a3af7a08d3","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51","type":"vless","server":"MelineT4.Sav-savteAm.iR","port":6985,"uuid":"e044297a-304f-40a9-a9fb-d17b744fa781","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 48","type":"vless","server":"a.samrayan.ir","port":443,"uuid":"23d6295f-0337-438f-be52-388bbe321ae4","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"a.samrayan.ir","flow":"xtls-rprx-vision"}
 
 rule-providers:
   ir_domains:
@@ -50,25 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 49'
-      - '🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 50'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51'
+      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 48'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 49'
-      - '🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 50'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51'
+      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 48'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 49'
-      - '🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 50'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 51'
+      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 48'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

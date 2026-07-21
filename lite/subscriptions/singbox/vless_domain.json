@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 53"
+                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 48"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 53"
+                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 48"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,13 +135,22 @@
             "type": "dns"
         },
         {
-            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 53",
+            "tag": "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 48",
             "type": "vless",
-            "server": "uk-een-tswe.horlutr.ir",
-            "server_port": 2087,
-            "uuid": "25049cf9-47e9-4057-93a7-d3d53d32bb77",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "a.samrayan.ir",
+            "server_port": 443,
+            "uuid": "23d6295f-0337-438f-be52-388bbe321ae4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "a.samrayan.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         }
     ],
     "route": {
