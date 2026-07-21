@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇳 IN | 🔴 | vmess | @NamiraConfigs | 48"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇳 IN | 🔴 | vmess | @NamiraConfigs | 48"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,18 +135,27 @@
             "type": "dns"
         },
         {
-            "tag": "🇮🇳 IN | 🔴 | vmess | @NamiraConfigs | 48",
-            "type": "vmess",
-            "server": "152.67.8.205",
-            "server_port": 80,
-            "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
-            "security": "auto",
-            "alter_id": 0,
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
+            "type": "vless",
+            "server": "104.26.15.137",
+            "server_port": 443,
+            "uuid": "7e544a9d-7667-413b-bbb0-b3bb1aac6d77",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "shegeftihaaa.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/rsedgws",
                 "headers": {
-                    "Host": "152.67.8.205"
+                    "Host": "shegeftihaaa.net"
                 }
             }
         }
