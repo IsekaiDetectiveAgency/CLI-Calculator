@@ -17,8 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 51","type":"vmess","server":"65.109.219.124","port":52525,"cipher":"auto","uuid":"bf973a3b-b285-4369-8c01-1f1e50024a38","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 52","type":"vmess","server":"65.109.219.124","port":52525,"cipher":"auto","uuid":"358f44f0-2686-46c8-9cc6-ec52abd66df4","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 49","type":"vmess","server":"65.109.219.124","port":52525,"cipher":"auto","uuid":"bf973a3b-b285-4369-8c01-1f1e50024a38","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 50","type":"vmess","server":"65.109.219.124","port":52525,"cipher":"auto","uuid":"358f44f0-2686-46c8-9cc6-ec52abd66df4","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
 
 rule-providers:
   ir_domains:
@@ -49,22 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 51'
-      - '🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 52'
+      - '🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 49'
+      - '🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 50'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 51'
-      - '🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 52'
+      - '🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 49'
+      - '🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 50'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 51'
-      - '🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 52'
+      - '🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 49'
+      - '🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 50'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
