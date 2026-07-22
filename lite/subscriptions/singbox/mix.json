@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 45"
+                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 44"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 45"
+                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 44"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,7 +135,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 45",
+            "tag": "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 44",
             "type": "shadowsocks",
             "server": "82.38.31.217",
             "server_port": 8080,
