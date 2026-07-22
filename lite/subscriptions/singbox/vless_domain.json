@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 50"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 43"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 50"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 43"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,20 +135,27 @@
             "type": "dns"
         },
         {
-            "tag": "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 50",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 43",
             "type": "vless",
-            "server": "a.samrayan.ir",
+            "server": "betty.ns.cloudflare.com",
             "server_port": 443,
-            "uuid": "23d6295f-0337-438f-be52-388bbe321ae4",
-            "flow": "xtls-rprx-vision",
+            "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "a.samrayan.ir",
+                "server_name": "vangoghhh.info",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/rdfgtws",
+                "headers": {
+                    "Host": "vangoghhh.info"
                 }
             }
         }
