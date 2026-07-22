@@ -17,10 +17,11 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 43","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 45","type":"vmess","server":"165.154.195.38","port":35034,"cipher":"auto","uuid":"959a8caf-4cea-43d0-a548-3628e7ddfafc","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 46","type":"vless","server":"ger.wafer.fun","port":443,"uuid":"5a4ea216-9597-4df7-a119-02949a3b6b82","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"ger.wafer.fun","grpc-opts":{"grpc-service-name":"Ts7kIzm7a8mYEa7OOaBF"}}
-  - {"name":"🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 47","type":"ss","server":"0721-syah.kovira2.ir","port":25026,"password":"r2v53aul8lsaweki","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 40","type":"ss","server":"switcher-nick-croquet.freesocks.work","port":443,"password":"9tqhMdIrTkgQ46PvhyAtMH","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇳 IN | 🟢 | ss | @NamiraConfigs | 41","type":"ss","server":"103.111.114.61","port":28061,"password":"WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇳 IN | 🟢 | ss | @NamiraConfigs | 42","type":"ss","server":"103.111.114.71","port":28061,"password":"WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 43","type":"ss","server":"82.38.31.195","port":8080,"password":"k1dBOmOB4oqi7Ump37a1bQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇵🇭 PH | 🟢 | ss | @NamiraConfigs | 44","type":"ss","server":"38.54.80.160","port":16292,"password":"r_NRe-+WRq2zVqMpCnJtTESlT8WyffHyFy","cipher":"chacha20-ietf-poly1305"}
 
 rule-providers:
   ir_domains:
@@ -51,28 +52,31 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 43'
-      - '🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 45'
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 46'
-      - '🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 47'
+      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 40'
+      - '🇮🇳 IN | 🟢 | ss | @NamiraConfigs | 41'
+      - '🇮🇳 IN | 🟢 | ss | @NamiraConfigs | 42'
+      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 43'
+      - '🇵🇭 PH | 🟢 | ss | @NamiraConfigs | 44'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 43'
-      - '🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 45'
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 46'
-      - '🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 47'
+      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 40'
+      - '🇮🇳 IN | 🟢 | ss | @NamiraConfigs | 41'
+      - '🇮🇳 IN | 🟢 | ss | @NamiraConfigs | 42'
+      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 43'
+      - '🇵🇭 PH | 🟢 | ss | @NamiraConfigs | 44'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 43'
-      - '🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 45'
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 46'
-      - '🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 47'
+      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 40'
+      - '🇮🇳 IN | 🟢 | ss | @NamiraConfigs | 41'
+      - '🇮🇳 IN | 🟢 | ss | @NamiraConfigs | 42'
+      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 43'
+      - '🇵🇭 PH | 🟢 | ss | @NamiraConfigs | 44'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
