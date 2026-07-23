@@ -104,13 +104,16 @@
             "tag": "proxy",
             "type": "selector",
             "outbounds": [
-                "URL-TEST"
+                "URL-TEST",
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
-            "outbounds": [],
+            "outbounds": [
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48"
+            ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
             "tolerance": 50
@@ -130,6 +133,31 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48",
+            "type": "vless",
+            "server": "104.21.5.137",
+            "server_port": 443,
+            "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "vangoghhh.info",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/rdfgtws",
+                "headers": {
+                    "Host": "vangoghhh.info"
+                }
+            }
         }
     ],
     "route": {
