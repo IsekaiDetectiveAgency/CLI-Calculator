@@ -17,7 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 41","type":"vless","server":"mci.pictureiran.ir","port":2087,"uuid":"412d7fbe-7474-4f1d-86c6-7eebdc628f72","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"norway.alfather.ir"}
+  - {"name":"🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 44","type":"vless","server":"cdn1.beshdash.ir","port":21972,"uuid":"9d564717-cee2-482f-a841-f7a3af7a08d3","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 45","type":"vless","server":"mci.pictureiran.ir","port":2087,"uuid":"412d7fbe-7474-4f1d-86c6-7eebdc628f72","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"norway.alfather.ir"}
 
 rule-providers:
   ir_domains:
@@ -48,19 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 41'
+      - '🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 44'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 45'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 41'
+      - '🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 44'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 45'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 41'
+      - '🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 44'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 45'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
