@@ -17,10 +17,10 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42","type":"vless","server":"66.81.247.91","port":443,"uuid":"14b59caf-a196-4ec2-8c70-c7b388062f5b","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"vangoghhh.info","ws-opts":{"path":"/rdfgtws","headers":{"Host":"vangoghhh.info"}}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 43","type":"vless","server":"104.18.0.0","port":443,"uuid":"eeb6823c-b926-4ea2-866a-5542edd26e59","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"t1s1.rittbo.kdns.fr","ws-opts":{"path":"/fp=chrome","headers":{"Host":"t1s1.rittbo.kdns.fr"}}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 44","type":"vless","server":"8.47.69.0","port":443,"uuid":"7e544a9d-7667-413b-bbb0-b3bb1aac6d77","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"shegeftihaaa.net","ws-opts":{"path":"/rsedgws#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512","headers":{"Host":"shegeftihaaa.net"}}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 45","type":"vless","server":"172.64.53.65","port":443,"uuid":"eeb6823c-b926-4ea2-866a-5542edd26e59","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"t1s1.rittbo.kdns.fr","ws-opts":{"path":"/","headers":{"Host":"t1s1.rittbo.kdns.fr"}}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 44","type":"vless","server":"66.81.247.91","port":443,"uuid":"14b59caf-a196-4ec2-8c70-c7b388062f5b","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"vangoghhh.info","ws-opts":{"path":"/rdfgtws","headers":{"Host":"vangoghhh.info"}}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 45","type":"vless","server":"104.18.0.0","port":443,"uuid":"eeb6823c-b926-4ea2-866a-5542edd26e59","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"t1s1.rittbo.kdns.fr","ws-opts":{"path":"/fp=chrome","headers":{"Host":"t1s1.rittbo.kdns.fr"}}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46","type":"vless","server":"8.47.69.0","port":443,"uuid":"7e544a9d-7667-413b-bbb0-b3bb1aac6d77","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"shegeftihaaa.net","ws-opts":{"path":"/rsedgws#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512","headers":{"Host":"shegeftihaaa.net"}}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 47","type":"vless","server":"172.64.53.65","port":443,"uuid":"eeb6823c-b926-4ea2-866a-5542edd26e59","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"t1s1.rittbo.kdns.fr","ws-opts":{"path":"/","headers":{"Host":"t1s1.rittbo.kdns.fr"}}}
 
 rule-providers:
   ir_domains:
@@ -51,28 +51,28 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 43'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 44'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 45'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 47'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 43'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 44'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 45'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 47'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 43'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 44'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 45'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 47'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
