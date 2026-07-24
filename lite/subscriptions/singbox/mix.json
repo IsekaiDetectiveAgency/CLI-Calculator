@@ -104,16 +104,13 @@
             "tag": "proxy",
             "type": "selector",
             "outbounds": [
-                "URL-TEST",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53"
+                "URL-TEST"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
-            "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53"
-            ],
+            "outbounds": [],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
             "tolerance": 50
@@ -133,31 +130,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53",
-            "type": "vless",
-            "server": "summer-meadow-af5b.woowoorrrkk.workers.dev",
-            "server_port": 443,
-            "uuid": "a8890c1b-3622-3106-c4be-d8671be32d2b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "summer-meadow-af5b.woowoorrrkk.workers.dev",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/sync",
-                "headers": {
-                    "Host": "summer-meadow-af5b.woowoorrrkk.workers.dev"
-                }
-            }
         }
     ],
     "route": {
