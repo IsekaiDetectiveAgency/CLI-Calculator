@@ -17,7 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52","type":"vless","server":"celestara.biz","port":443,"uuid":"eeb6823c-b926-4ea2-866a-5542edd26e59","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"t1s1.rittbo.kdns.fr","ws-opts":{"path":"/","headers":{"Host":"t1s1.rittbo.kdns.fr"}}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51","type":"vless","server":"ip.kickfarsi.com","port":8443,"uuid":"412d7fbe-7474-4f1d-86c6-7eebdc628f72","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"ger2.kickfarsi.com"}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52","type":"vless","server":"restless-base-fe24.alirezahabibi20009.workers.dev","port":443,"uuid":"4908acbe-485f-4e1c-bb11-5dd04b9f7e88","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"restless-base-fe24.alirezahabibi20009.workers.dev","ws-opts":{"path":"/eyJqdW5rIjoiRjhycEV5WUpJTGZpQSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=","headers":{"Host":"restless-base-fe24.alirezahabibi20009.workers.dev"}}}
 
 rule-providers:
   ir_domains:
@@ -48,6 +49,7 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52'
 
   - name: 📉 Fallback
@@ -55,11 +57,13 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52'
       
   - name: All-Proxies
     type: select
     proxies:
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52'
 
 rules:
