@@ -17,8 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 51","type":"vless","server":"perplexity.ai","port":2052,"uuid":"74038e5c-ed59-485d-a2fb-2eb9d9891ef5","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"gerdooai.cafebario.ir"}}}
-  - {"name":"🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 53","type":"vless","server":"zxcvbnm1.roozaraa.ir","port":8880,"uuid":"899a5fb4-c142-4707-9199-69808f1f71e3","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"zxcvbnm1.roozaraa.ir","ws-opts":{"path":"/","headers":{"Host":"zxcvbnm1.roozaraa.ir"}}}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 53","type":"vless","server":"de.vpnbase.net","port":80,"uuid":"dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/http","headers":{"Host":"de.vpnbase.net"}}}
 
 rule-providers:
   ir_domains:
@@ -49,22 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 51'
-      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 53'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 53'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 51'
-      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 53'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 53'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 51'
-      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 53'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 53'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

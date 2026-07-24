@@ -17,8 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 54","type":"vless","server":"95.181.167.171","port":9090,"uuid":"d3aebc17-a731-40fb-a755-aac1a4cf80f2","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 55","type":"vless","server":"13.39.58.127","port":22223,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51","type":"vless","server":"104.18.1.1","port":2053,"uuid":"e7961655-9674-4cbd-a36f-ec0d5d7d660c","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"po.fastbrokencompony.com","ws-opts":{"path":"/","headers":{"Host":"po.fastbrokencompony.com"}}}
+  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 52","type":"vless","server":"59.152.127.76","port":50863,"uuid":"cbc1b9e7-c393-4053-a338-6ed714daf4eb","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -49,22 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 54'
-      - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 55'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 52'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 54'
-      - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 55'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 52'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 54'
-      - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 55'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 52'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
