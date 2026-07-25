@@ -17,9 +17,9 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 44","type":"vless","server":"80.74.29.157","port":443,"uuid":"7b102311-43fd-4e8f-877e-8090623c101d","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"vp58.cc.cd","ws-opts":{"path":"/Telegram🇨🇳 @VPNine1","headers":{"Host":"vp58.cc.cd"}}}
-  - {"name":"TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&insecure=0&host=shegeftihaaa.net&type=ws&allowInsecure=0&sni=shegeftihaaa.net#🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46","type":"vless","server":"104.26.15.137","port":443,"uuid":"7e544a9d-7667-413b-bbb0-b3bb1aac6d77","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&insecure=0&host=octopusss.net&fp=chrome&type=ws&allowInsecure=0&sni=octopusss.net#🇺🇸 US | 🟢 | vless | @NamiraConfigs | 47","type":"vless","server":"104.17.148.22","port":443,"uuid":"073d1d50-8478-47bf-a828-7a1b381931d5","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 47","type":"vless","server":"80.74.29.157","port":443,"uuid":"7b102311-43fd-4e8f-877e-8090623c101d","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"vp58.cc.cd","ws-opts":{"path":"/Telegram🇨🇳 @VPNine1","headers":{"Host":"vp58.cc.cd"}}}
+  - {"name":"TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&insecure=0&host=shegeftihaaa.net&type=ws&allowInsecure=0&sni=shegeftihaaa.net#🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49","type":"vless","server":"104.26.15.137","port":443,"uuid":"7e544a9d-7667-413b-bbb0-b3bb1aac6d77","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&insecure=0&host=octopusss.net&fp=chrome&type=ws&allowInsecure=0&sni=octopusss.net#🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50","type":"vless","server":"104.17.148.22","port":443,"uuid":"073d1d50-8478-47bf-a828-7a1b381931d5","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -50,25 +50,25 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 44'
-      - 'TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&insecure=0&host=shegeftihaaa.net&type=ws&allowInsecure=0&sni=shegeftihaaa.net#🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46'
-      - 'TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&insecure=0&host=octopusss.net&fp=chrome&type=ws&allowInsecure=0&sni=octopusss.net#🇺🇸 US | 🟢 | vless | @NamiraConfigs | 47'
+      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 47'
+      - 'TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&insecure=0&host=shegeftihaaa.net&type=ws&allowInsecure=0&sni=shegeftihaaa.net#🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49'
+      - 'TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&insecure=0&host=octopusss.net&fp=chrome&type=ws&allowInsecure=0&sni=octopusss.net#🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 44'
-      - 'TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&insecure=0&host=shegeftihaaa.net&type=ws&allowInsecure=0&sni=shegeftihaaa.net#🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46'
-      - 'TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&insecure=0&host=octopusss.net&fp=chrome&type=ws&allowInsecure=0&sni=octopusss.net#🇺🇸 US | 🟢 | vless | @NamiraConfigs | 47'
+      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 47'
+      - 'TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&insecure=0&host=shegeftihaaa.net&type=ws&allowInsecure=0&sni=shegeftihaaa.net#🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49'
+      - 'TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&insecure=0&host=octopusss.net&fp=chrome&type=ws&allowInsecure=0&sni=octopusss.net#🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 44'
-      - 'TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&insecure=0&host=shegeftihaaa.net&type=ws&allowInsecure=0&sni=shegeftihaaa.net#🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46'
-      - 'TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&insecure=0&host=octopusss.net&fp=chrome&type=ws&allowInsecure=0&sni=octopusss.net#🇺🇸 US | 🟢 | vless | @NamiraConfigs | 47'
+      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 47'
+      - 'TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&insecure=0&host=shegeftihaaa.net&type=ws&allowInsecure=0&sni=shegeftihaaa.net#🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49'
+      - 'TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512&security=tls&encryption=none&insecure=0&host=octopusss.net&fp=chrome&type=ws&allowInsecure=0&sni=octopusss.net#🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
