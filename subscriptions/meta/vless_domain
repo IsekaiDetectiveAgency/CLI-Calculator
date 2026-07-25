@@ -17,8 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 41","type":"vless","server":"ad-004.vector2llqn.info","port":8443,"uuid":"901fc0c9-ae4c-4d06-9fed-253b25b68a0e","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"ad-004.vector2llqn.info","ws-opts":{"path":"/","headers":{"Host":"ad-004.vector2llqn.info"}}}
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44","type":"vless","server":"ara.public.lat","port":58748,"uuid":"21e22226-0b96-4b4e-9a91-5c7f9e3f1760","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46","type":"vless","server":"ad-004.vector2llqn.info","port":8443,"uuid":"901fc0c9-ae4c-4d06-9fed-253b25b68a0e","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"ad-004.vector2llqn.info","ws-opts":{"path":"/","headers":{"Host":"ad-004.vector2llqn.info"}}}
 
 rule-providers:
   ir_domains:
@@ -49,22 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 41'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 41'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 41'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
