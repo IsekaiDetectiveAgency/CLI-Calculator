@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 55"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 55"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,27 +135,18 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 55",
             "type": "vless",
-            "server": "104.26.15.137",
-            "server_port": 443,
-            "uuid": "7e544a9d-7667-413b-bbb0-b3bb1aac6d77",
+            "server": "172.67.215.44",
+            "server_port": 2052,
+            "uuid": "86442a2b-417d-426d-9b42-955573b5c6e4",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "shegeftihaaa.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/rsedgws#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512",
+                "path": "/eyJqdW5rIjoiaUhoWE5FbWloZWY1MGxobSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjE2OS4zNC45OSJdfQ==",
                 "headers": {
-                    "Host": "shegeftihaaa.net"
+                    "Host": "172.67.215.44"
                 }
             }
         }
