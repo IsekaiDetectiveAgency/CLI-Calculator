@@ -17,11 +17,11 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 47","type":"vless","server":"80.74.29.157","port":443,"uuid":"7b102311-43fd-4e8f-877e-8090623c101d","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"vp58.cc.cd","ws-opts":{"path":"/Telegram🇨🇳 @VPNine1","headers":{"Host":"vp58.cc.cd"}}}
-  - {"name":"🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 48","type":"vmess","server":"165.154.195.38","port":35034,"cipher":"auto","uuid":"959a8caf-4cea-43d0-a548-3628e7ddfafc","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49","type":"vless","server":"104.26.15.137","port":443,"uuid":"7e544a9d-7667-413b-bbb0-b3bb1aac6d77","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"shegeftihaaa.net","ws-opts":{"path":"/rsedgws#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512","headers":{"Host":"shegeftihaaa.net"}}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50","type":"vless","server":"104.17.148.22","port":443,"uuid":"073d1d50-8478-47bf-a828-7a1b381931d5","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"octopusss.net","ws-opts":{"path":"/odiyfws#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512","headers":{"Host":"octopusss.net"}}}
-  - {"name":"🇲🇾 MY | 🔴 | vmess | @NamiraConfigs | 51","type":"vmess","server":"47.250.135.244","port":10000,"cipher":"auto","uuid":"aedc66b8-99d7-4a21-8310-61870e7f870d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51","type":"vless","server":"104.25.123.12","port":443,"uuid":"3a8aa3ad-d125-4285-8542-3a1832187f5d","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"alireza10.karamzade546alireza.workers.dev","ws-opts":{"path":"/","headers":{"Host":"alireza10.karamzade546alireza.workers.dev"}}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52","type":"vless","server":"104.18.1.1","port":2053,"uuid":"e7961655-9674-4cbd-a36f-ec0d5d7d660c","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"po.fastbrokencompony.com","ws-opts":{"path":"/","headers":{"Host":"po.fastbrokencompony.com"}}}
+  - {"name":"🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 53","type":"vless","server":"80.74.29.157","port":443,"uuid":"7b102311-43fd-4e8f-877e-8090623c101d","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"vp58.cc.cd","ws-opts":{"path":"/Telegram🇨🇳 @VPNine1","headers":{"Host":"vp58.cc.cd"}}}
+  - {"name":"🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 54","type":"vmess","server":"165.154.195.38","port":35034,"cipher":"auto","uuid":"959a8caf-4cea-43d0-a548-3628e7ddfafc","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55","type":"vless","server":"104.26.15.137","port":443,"uuid":"7e544a9d-7667-413b-bbb0-b3bb1aac6d77","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"shegeftihaaa.net","ws-opts":{"path":"/rsedgws#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512","headers":{"Host":"shegeftihaaa.net"}}}
 
 rule-providers:
   ir_domains:
@@ -52,31 +52,31 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 47'
-      - '🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 48'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50'
-      - '🇲🇾 MY | 🔴 | vmess | @NamiraConfigs | 51'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52'
+      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 53'
+      - '🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 54'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 47'
-      - '🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 48'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50'
-      - '🇲🇾 MY | 🔴 | vmess | @NamiraConfigs | 51'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52'
+      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 53'
+      - '🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 54'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 47'
-      - '🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 48'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50'
-      - '🇲🇾 MY | 🔴 | vmess | @NamiraConfigs | 51'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52'
+      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 53'
+      - '🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 54'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
