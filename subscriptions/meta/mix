@@ -20,7 +20,6 @@ proxies:
   - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 41","type":"vless","server":"ad-004.vector2llqn.info","port":8443,"uuid":"901fc0c9-ae4c-4d06-9fed-253b25b68a0e","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"ad-004.vector2llqn.info","ws-opts":{"path":"/","headers":{"Host":"ad-004.vector2llqn.info"}}}
   - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 42","type":"vless","server":"104.17.58.113","port":8880,"uuid":"f77a1ad9-5ffa-4684-ba91-82f0df247eef","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/pyip","headers":{"Host":"weathered-hat-64c5.50-47f.workers.dev"}}}
   - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44","type":"vless","server":"ara.public.lat","port":58748,"uuid":"21e22226-0b96-4b4e-9a91-5c7f9e3f1760","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 45","type":"vless","server":"185.128.139.11","port":18244,"uuid":"0d543aed-4e30-4553-b5ac-211419bb0961","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -54,7 +53,6 @@ proxy-groups:
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 41'
       - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 42'
       - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44'
-      - '🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 45'
 
   - name: 📉 Fallback
     type: fallback
@@ -64,7 +62,6 @@ proxy-groups:
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 41'
       - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 42'
       - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44'
-      - '🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 45'
       
   - name: All-Proxies
     type: select
@@ -72,7 +69,6 @@ proxy-groups:
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 41'
       - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 42'
       - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44'
-      - '🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 45'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

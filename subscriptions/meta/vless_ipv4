@@ -18,7 +18,6 @@ dns:
 
 proxies:
   - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 42","type":"vless","server":"104.17.58.113","port":8880,"uuid":"f77a1ad9-5ffa-4684-ba91-82f0df247eef","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/pyip","headers":{"Host":"weathered-hat-64c5.50-47f.workers.dev"}}}
-  - {"name":"🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 45","type":"vless","server":"185.128.139.11","port":18244,"uuid":"0d543aed-4e30-4553-b5ac-211419bb0961","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -50,7 +49,6 @@ proxy-groups:
     tolerance: 50 
     proxies:
       - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 42'
-      - '🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 45'
 
   - name: 📉 Fallback
     type: fallback
@@ -58,13 +56,11 @@ proxy-groups:
     interval: 300
     proxies:
       - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 42'
-      - '🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 45'
       
   - name: All-Proxies
     type: select
     proxies:
       - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 42'
-      - '🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 45'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
