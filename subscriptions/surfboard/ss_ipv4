@@ -9,12 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 51 = ss, 20.107.187.192, 443, encrypt-method = chacha20-ietf-poly1305, password = vWcimUSiT1rfVM1v
+🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 50 = ss, 20.107.187.192, 443, encrypt-method = chacha20-ietf-poly1305, password = vWcimUSiT1rfVM1v
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 51
-PSG-AUTO = url-test, 🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 51
-PSG-FALLBACK = fallback, 🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 51
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 50
+PSG-AUTO = url-test, 🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 50
+PSG-FALLBACK = fallback, 🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 50
 
 [Rule]
 GEOIP,IR,DIRECT
