@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 50"
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 56"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 50"
+                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 56"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,12 +135,22 @@
             "type": "dns"
         },
         {
-            "tag": "🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 50",
-            "type": "shadowsocks",
-            "server": "coco2.farajet.net",
-            "server_port": 2020,
-            "method": "chacha20-ietf-poly1305",
-            "password": "0u47xJvp2_pGbA5c13ASHK87DxDwk5zm"
+            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 56",
+            "type": "vmess",
+            "server": "165.140.216.142",
+            "server_port": 443,
+            "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "165.140.216.142",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         }
     ],
     "route": {
