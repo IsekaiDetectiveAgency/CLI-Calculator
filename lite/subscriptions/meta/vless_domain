@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46","type":"vless","server":"ad-004.vector2llqn.info","port":8443,"uuid":"901fc0c9-ae4c-4d06-9fed-253b25b68a0e","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"ad-004.vector2llqn.info","ws-opts":{"path":"/","headers":{"Host":"ad-004.vector2llqn.info"}}}
+  - {"name":"🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 57","type":"vless","server":"a.samrayan.ir","port":443,"uuid":"23d6295f-0337-438f-be52-388bbe321ae4","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"a.samrayan.ir","flow":"xtls-rprx-vision"}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46'
+      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 57'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46'
+      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 57'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46'
+      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 57'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 56"
+                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 57"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 56"
+                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 57"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,16 +135,16 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 56",
-            "type": "vmess",
-            "server": "165.140.216.142",
+            "tag": "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 57",
+            "type": "vless",
+            "server": "a.samrayan.ir",
             "server_port": 443,
-            "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
-            "security": "auto",
-            "alter_id": 0,
+            "uuid": "23d6295f-0337-438f-be52-388bbe321ae4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "165.140.216.142",
+                "server_name": "a.samrayan.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,

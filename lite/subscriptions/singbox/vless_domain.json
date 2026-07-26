@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46"
+                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 57"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46"
+                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 57"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,27 +135,20 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 46",
+            "tag": "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 57",
             "type": "vless",
-            "server": "ad-004.vector2llqn.info",
-            "server_port": 8443,
-            "uuid": "901fc0c9-ae4c-4d06-9fed-253b25b68a0e",
-            "flow": "",
+            "server": "a.samrayan.ir",
+            "server_port": 443,
+            "uuid": "23d6295f-0337-438f-be52-388bbe321ae4",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "ad-004.vector2llqn.info",
+                "server_name": "a.samrayan.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "ad-004.vector2llqn.info"
                 }
             }
         }
