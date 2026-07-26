@@ -17,8 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 51","type":"ss","server":"coco1.farajet.net","port":1010,"password":"0u47xJvp2_pGbA5c13ASHK87DxDwk5zm","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 54","type":"ss","server":"20.107.187.192","port":443,"password":"vWcimUSiT1rfVM1v","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 49","type":"ss","server":"coco1.farajet.net","port":1010,"password":"0u47xJvp2_pGbA5c13ASHK87DxDwk5zm","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 52","type":"ss","server":"20.107.187.192","port":443,"password":"vWcimUSiT1rfVM1v","cipher":"chacha20-ietf-poly1305"}
 
 rule-providers:
   ir_domains:
@@ -49,22 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 51'
-      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 54'
+      - '🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 49'
+      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 52'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 51'
-      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 54'
+      - '🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 49'
+      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 52'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 51'
-      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 54'
+      - '🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 49'
+      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 52'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
