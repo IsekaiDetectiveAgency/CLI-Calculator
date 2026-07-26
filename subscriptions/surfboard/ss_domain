@@ -9,12 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 40 = ss, switcher-nick-croquet.freesocks.work, 443, encrypt-method = chacha20-ietf-poly1305, password = 9tqhMdIrTkgQ46PvhyAtMH
+🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 51 = ss, coco1.farajet.net, 1010, encrypt-method = chacha20-ietf-poly1305, password = 0u47xJvp2_pGbA5c13ASHK87DxDwk5zm
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 40
-PSG-AUTO = url-test, 🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 40
-PSG-FALLBACK = fallback, 🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 40
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 51
+PSG-AUTO = url-test, 🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 51
+PSG-FALLBACK = fallback, 🇮🇷 IR | 🟢 | ss | @NamiraConfigs | 51
 
 [Rule]
 GEOIP,IR,DIRECT
