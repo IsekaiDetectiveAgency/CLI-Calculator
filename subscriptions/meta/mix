@@ -17,11 +17,11 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
+  - {"name":"🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 47","type":"vless","server":"167.172.59.180","port":26698,"uuid":"17e30aac-9958-4ae2-b96c-989852d0c0af","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 48","type":"vless","server":"78.154.108.136","port":2552,"uuid":"d8b42cd5-a149-4356-9e61-000000000000","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🇮🇹 IT | 🔴 | vless | @NamiraConfigs | 49","type":"vless","server":"151.115.167.6","port":8880,"uuid":"8dc7722c-2767-4eea-a28b-2f8daacc07e3","tls":false,"network":"grpc","client-fingerprint":"chrome","udp":true}
   - {"name":"🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 50","type":"vmess","server":"165.140.216.141","port":443,"cipher":"auto","uuid":"e7d72a8d-26f2-4b54-b366-0c43e0bcba7d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 51","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52","type":"vless","server":"66.81.247.91","port":443,"uuid":"14b59caf-a196-4ec2-8c70-c7b388062f5b","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"vangoghhh.info","ws-opts":{"path":"/rdfgtws","headers":{"Host":"vangoghhh.info"}}}
 
 rule-providers:
   ir_domains:
@@ -52,31 +52,31 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 47'
       - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 48'
       - '🇮🇹 IT | 🔴 | vless | @NamiraConfigs | 49'
       - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 50'
       - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 51'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 47'
       - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 48'
       - '🇮🇹 IT | 🔴 | vless | @NamiraConfigs | 49'
       - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 50'
       - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 51'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52'
       
   - name: All-Proxies
     type: select
     proxies:
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 47'
       - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 48'
       - '🇮🇹 IT | 🔴 | vless | @NamiraConfigs | 49'
       - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 50'
       - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 51'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
