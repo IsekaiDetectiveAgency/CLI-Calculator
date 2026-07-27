@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 47"
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 44"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 47"
+                "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 44"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,29 +135,13 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 47",
+            "tag": "🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 44",
             "type": "vless",
-            "server": "ipv4-address.iranvatanam.com",
-            "server_port": 8443,
-            "uuid": "35abc17e-82b8-4bb1-baa0-299dc2f8ea12",
+            "server": "167.99.203.130",
+            "server_port": 41941,
+            "uuid": "81f9b6e0-638a-4e94-9119-f93909b6bebd",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "email-page6.iranvatanam.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/?ed",
-                "headers": {
-                    "Host": "email-page6.iranvatanam.com"
-                }
-            }
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
