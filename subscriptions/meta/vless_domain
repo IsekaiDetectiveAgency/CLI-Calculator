@@ -17,8 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 46","type":"vless","server":"uspanel.unixzone.us","port":30016,"uuid":"03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/usserver","headers":{"Host":"uspanel.unixzone.us"}}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49","type":"vless","server":"ipv4-address.iranvatanam.com","port":8443,"uuid":"35abc17e-82b8-4bb1-baa0-299dc2f8ea12","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"email-page6.iranvatanam.com","ws-opts":{"path":"/?ed","headers":{"Host":"ipv4-address.iranvatanam.com"}}}
+  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 44","type":"vless","server":"uspanel.unixzone.us","port":30016,"uuid":"03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/usserver","headers":{"Host":"uspanel.unixzone.us"}}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 47","type":"vless","server":"ipv4-address.iranvatanam.com","port":8443,"uuid":"35abc17e-82b8-4bb1-baa0-299dc2f8ea12","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"email-page6.iranvatanam.com","ws-opts":{"path":"/?ed","headers":{"Host":"ipv4-address.iranvatanam.com"}}}
 
 rule-providers:
   ir_domains:
@@ -49,22 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 46'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 44'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 47'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 46'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 44'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 47'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 46'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 44'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 47'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
