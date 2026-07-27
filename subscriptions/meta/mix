@@ -17,11 +17,11 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 47","type":"vless","server":"206.189.25.29","port":18795,"uuid":"b01b34a5-bceb-4f06-8055-ab1a28902eb1","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 48","type":"vless","server":"178.128.41.28","port":26698,"uuid":"17e30aac-9958-4ae2-b96c-989852d0c0af","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 49","type":"vless","server":"178.62.26.14","port":15518,"uuid":"54daf35c-dcd6-42d9-9568-b0914f5537c1","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 50","type":"vless","server":"165.232.97.126","port":26698,"uuid":"17e30aac-9958-4ae2-b96c-989852d0c0af","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 51","type":"vless","server":"167.172.59.180","port":26698,"uuid":"17e30aac-9958-4ae2-b96c-989852d0c0af","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 44","type":"vless","server":"134.209.31.206","port":26698,"uuid":"17e30aac-9958-4ae2-b96c-989852d0c0af","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 45","type":"vless","server":"167.71.131.60","port":41089,"uuid":"3b522f6b-1b18-470f-99ee-6e99dcf73525","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 46","type":"vless","server":"167.172.56.34","port":26698,"uuid":"17e30aac-9958-4ae2-b96c-989852d0c0af","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 47","type":"vless","server":"46.101.39.245","port":41089,"uuid":"3b522f6b-1b18-470f-99ee-6e99dcf73525","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 48","type":"vless","server":"206.189.25.29","port":18795,"uuid":"b01b34a5-bceb-4f06-8055-ab1a28902eb1","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -52,31 +52,31 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 44'
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 45'
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 46'
       - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 47'
       - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 48'
-      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 49'
-      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 50'
-      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 51'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 44'
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 45'
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 46'
       - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 47'
       - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 48'
-      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 49'
-      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 50'
-      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 51'
       
   - name: All-Proxies
     type: select
     proxies:
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 44'
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 45'
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 46'
       - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 47'
       - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 48'
-      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 49'
-      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 50'
-      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 51'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
