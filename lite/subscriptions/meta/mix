@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 51","type":"vless","server":"165.22.119.251","port":59421,"uuid":"aeaa2919-cec1-4d04-a752-594aa6b8b75f","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49","type":"vless","server":"ipv4-address.iranvatanam.com","port":8443,"uuid":"35abc17e-82b8-4bb1-baa0-299dc2f8ea12","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"email-page6.iranvatanam.com","ws-opts":{"path":"/?ed","headers":{"Host":"ipv4-address.iranvatanam.com"}}}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 51'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 51'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 51'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
