@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 44","type":"vless","server":"167.99.203.130","port":41941,"uuid":"81f9b6e0-638a-4e94-9119-f93909b6bebd","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 40","type":"vless","server":"159.65.27.185","port":36096,"uuid":"b97695e2-4295-45fb-8238-78a8bc9f82e0","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 44'
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 40'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 44'
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 40'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 44'
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 40'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
