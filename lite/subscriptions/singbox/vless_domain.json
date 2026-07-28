@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 47"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 47"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,16 +135,16 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 47",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55",
             "type": "vless",
-            "server": "ipv4-address.iranvatanam.com",
-            "server_port": 8443,
-            "uuid": "35abc17e-82b8-4bb1-baa0-299dc2f8ea12",
+            "server": "www.speedtest.org",
+            "server_port": 443,
+            "uuid": "7e544a9d-7667-413b-bbb0-b3bb1aac6d77",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "email-page6.iranvatanam.com",
+                "server_name": "shegeftihaaa.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -153,9 +153,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/?ed",
+                "path": "/rsedgws",
                 "headers": {
-                    "Host": "email-page6.iranvatanam.com"
+                    "Host": "shegeftihaaa.net"
                 }
             }
         }

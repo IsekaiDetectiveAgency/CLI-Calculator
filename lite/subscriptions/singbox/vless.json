@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,16 +135,16 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55",
             "type": "vless",
-            "server": "173.245.58.76",
+            "server": "www.speedtest.org",
             "server_port": 443,
-            "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
+            "uuid": "7e544a9d-7667-413b-bbb0-b3bb1aac6d77",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "t1s1.rittbo.kdns.fr",
+                "server_name": "shegeftihaaa.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -153,9 +153,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/fp",
+                "path": "/rsedgws",
                 "headers": {
-                    "Host": "t1s1.rittbo.kdns.fr"
+                    "Host": "shegeftihaaa.net"
                 }
             }
         }
