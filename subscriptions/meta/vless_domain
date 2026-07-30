@@ -18,7 +18,7 @@ dns:
 
 proxies:
   - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 39","type":"vless","server":"www.iplocation.net","port":8880,"uuid":"05e7abc2-46e1-4a23-9cdc-173ce17eb0d4","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/pyip=ProxyIP.SG.CMLiussss.net","headers":{"Host":"round-term-947c.41-332.workers.dev"}}}
-  - {"name":"🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 40","type":"vless","server":"d.socialxxmedia.com","port":200,"uuid":"6bc19aa1-d94b-488c-9b25-47214d371851","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"❔ XX | 🔴 | vless | @NamiraConfigs | 40","type":"vless","server":"d.socialxxmedia.com","port":200,"uuid":"6bc19aa1-d94b-488c-9b25-47214d371851","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 41","type":"vless","server":"utera.temas-fars.ir","port":60231,"uuid":"3557dcfe-4b3c-46e9-b98f-810d959a188f","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
@@ -51,7 +51,7 @@ proxy-groups:
     tolerance: 50 
     proxies:
       - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 39'
-      - '🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 40'
+      - '❔ XX | 🔴 | vless | @NamiraConfigs | 40'
       - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 41'
 
   - name: 📉 Fallback
@@ -60,14 +60,14 @@ proxy-groups:
     interval: 300
     proxies:
       - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 39'
-      - '🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 40'
+      - '❔ XX | 🔴 | vless | @NamiraConfigs | 40'
       - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 41'
       
   - name: All-Proxies
     type: select
     proxies:
       - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 39'
-      - '🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 40'
+      - '❔ XX | 🔴 | vless | @NamiraConfigs | 40'
       - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 41'
 
 rules:
