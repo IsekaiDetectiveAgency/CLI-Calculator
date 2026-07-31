@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🏳️  | 🔴 | vless | @NamiraConfigs | 41","type":"vless","server":"utera.temas-fars.ir","port":60231,"uuid":"3557dcfe-4b3c-46e9-b98f-810d959a188f","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 41","type":"vless","server":"utera.temas-fars.ir","port":60231,"uuid":"3557dcfe-4b3c-46e9-b98f-810d959a188f","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🏳️  | 🔴 | vless | @NamiraConfigs | 41'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 41'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🏳️  | 🔴 | vless | @NamiraConfigs | 41'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 41'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🏳️  | 🔴 | vless | @NamiraConfigs | 41'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 41'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
