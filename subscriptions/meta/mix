@@ -21,7 +21,7 @@ proxies:
   - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 38","type":"vless","server":"66.81.247.91","port":443,"uuid":"14b59caf-a196-4ec2-8c70-c7b388062f5b","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"vangoghhh.info","ws-opts":{"path":"/rdfgtws","headers":{"Host":"vangoghhh.info"}}}
   - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 39","type":"vless","server":"www.iplocation.net","port":8880,"uuid":"05e7abc2-46e1-4a23-9cdc-173ce17eb0d4","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/pyip=ProxyIP.SG.CMLiussss.net","headers":{"Host":"round-term-947c.41-332.workers.dev"}}}
   - {"name":"🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 40","type":"vless","server":"d.socialxxmedia.com","port":200,"uuid":"6bc19aa1-d94b-488c-9b25-47214d371851","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 41","type":"vless","server":"utera.temas-fars.ir","port":60231,"uuid":"3557dcfe-4b3c-46e9-b98f-810d959a188f","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🏳️  | 🔴 | vless | @NamiraConfigs | 41","type":"vless","server":"utera.temas-fars.ir","port":60231,"uuid":"3557dcfe-4b3c-46e9-b98f-810d959a188f","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -56,7 +56,7 @@ proxy-groups:
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 38'
       - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 39'
       - '🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 40'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 41'
+      - '🏳️  | 🔴 | vless | @NamiraConfigs | 41'
 
   - name: 📉 Fallback
     type: fallback
@@ -67,7 +67,7 @@ proxy-groups:
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 38'
       - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 39'
       - '🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 40'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 41'
+      - '🏳️  | 🔴 | vless | @NamiraConfigs | 41'
       
   - name: All-Proxies
     type: select
@@ -76,7 +76,7 @@ proxy-groups:
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 38'
       - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 39'
       - '🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 40'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 41'
+      - '🏳️  | 🔴 | vless | @NamiraConfigs | 41'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
