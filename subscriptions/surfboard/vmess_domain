@@ -9,12 +9,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 54 = vmess, tun1.wizardx1.com, 2078, username = 8c207682-e007-4a0d-88a3-68b8638b3d10, ws = false, tls = false
+🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 43 = vmess, 165.140.216.141, 443, username = e7d72a8d-26f2-4b54-b366-0c43e0bcba7d, ws = false, tls = false
+🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 44 = vmess, 165.154.195.38, 35034, username = 959a8caf-4cea-43d0-a548-3628e7ddfafc, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 54
-PSG-AUTO = url-test, 🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 54
-PSG-FALLBACK = fallback, 🇮🇷 IR | 🔴 | vmess | @NamiraConfigs | 54
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 43, 🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 44
+PSG-AUTO = url-test, 🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 43, 🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 44
+PSG-FALLBACK = fallback, 🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 43, 🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 44
 
 [Rule]
 GEOIP,IR,DIRECT
