@@ -17,8 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
+  - {"name":"🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 51","type":"vless","server":"p01.parsi.sbs","port":2086,"uuid":"1ee1f28d-4975-4d7c-95c7-76172c20eed5","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"parsi.parsi.sbs"}}}
   - {"name":"🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55","type":"vless","server":"ddc-chr.astralweb.tech","port":443,"uuid":"3ad1d277-5715-4ca1-84db-5baea72f822d","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"ddc-chr.astralweb.tech"}
-  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57","type":"vless","server":"uspanel.unixzone.us","port":30016,"uuid":"03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/usserver","headers":{"Host":"uspanel.unixzone.us"}}}
 
 rule-providers:
   ir_domains:
@@ -49,22 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
+      - '🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 51'
       - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - '🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 51'
       - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57'
       
   - name: All-Proxies
     type: select
     proxies:
+      - '🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 51'
       - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

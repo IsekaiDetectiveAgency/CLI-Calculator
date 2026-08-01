@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 41"
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 41"
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,18 +135,20 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 41",
+            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55",
             "type": "vless",
-            "server": "www.iplocation.net",
-            "server_port": 8880,
-            "uuid": "05e7abc2-46e1-4a23-9cdc-173ce17eb0d4",
+            "server": "ddc-chr.astralweb.tech",
+            "server_port": 443,
+            "uuid": "3ad1d277-5715-4ca1-84db-5baea72f822d",
             "flow": "",
             "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/pyip=ProxyIP.SG.CMLiussss.net",
-                "headers": {
-                    "Host": "www.iplocation.net"
+            "tls": {
+                "enabled": true,
+                "server_name": "ddc-chr.astralweb.tech",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         }
