@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇭 CH | 🟢 | vless | @NamiraConfigs | 59"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 59"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇭 CH | 🟢 | vless | @NamiraConfigs | 59"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 59"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,29 +135,13 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇭 CH | 🟢 | vless | @NamiraConfigs | 59",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 59",
             "type": "vless",
-            "server": "185.195.69.119",
-            "server_port": 2053,
-            "uuid": "c7e9c591-2764-423a-afca-efbd010fd396",
+            "server": "178.104.53.175",
+            "server_port": 3031,
+            "uuid": "1b73f053-2709-4698-bbec-cb20e8a5f288",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "forfreeuse.sub-flow.online",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "forfreeuse.sub-flow.online"
-                }
-            }
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
