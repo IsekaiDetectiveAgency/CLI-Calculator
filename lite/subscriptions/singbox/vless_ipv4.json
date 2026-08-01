@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 45"
+                "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 44"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 45"
+                "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 44"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,28 +135,16 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 45",
+            "tag": "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 44",
             "type": "vless",
-            "server": "104.18.37.237",
+            "server": "95.85.224.3",
             "server_port": 8443,
-            "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
+            "uuid": "1f29762d-3f23-4207-9e39-f774de5d49ba",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "t1s1.rittbo.kdns.fr",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "ws",
-                "path": "/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2560",
-                "headers": {
-                    "Host": "t1s1.rittbo.kdns.fr"
-                }
+                "type": "grpc",
+                "service_name": "grpc"
             }
         }
     ],

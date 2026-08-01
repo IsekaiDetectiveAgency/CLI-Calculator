@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 41"
+                "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 44"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 41"
+                "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 44"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,19 +135,16 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 41",
+            "tag": "🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 44",
             "type": "vless",
-            "server": "www.iplocation.net",
-            "server_port": 8880,
-            "uuid": "05e7abc2-46e1-4a23-9cdc-173ce17eb0d4",
+            "server": "95.85.224.3",
+            "server_port": 8443,
+            "uuid": "1f29762d-3f23-4207-9e39-f774de5d49ba",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
-                "type": "ws",
-                "path": "/pyip=ProxyIP.SG.CMLiussss.net",
-                "headers": {
-                    "Host": "www.iplocation.net"
-                }
+                "type": "grpc",
+                "service_name": "grpc"
             }
         }
     ],
