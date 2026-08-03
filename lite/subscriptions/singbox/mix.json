@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 54"
+                "🇩🇰 DK | 🔴 | vless | @NamiraConfigs | 62"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 54"
+                "🇩🇰 DK | 🔴 | vless | @NamiraConfigs | 62"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,11 +135,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 54",
+            "tag": "🇩🇰 DK | 🔴 | vless | @NamiraConfigs | 62",
             "type": "vless",
-            "server": "167.233.47.127",
-            "server_port": 1234,
-            "uuid": "957797d5-1710-4e4a-bf41-9f5b641503e3",
+            "server": "learngerman.torexa.ir",
+            "server_port": 2090,
+            "uuid": "0103cdc9-3927-44f0-88aa-e1162b7fedaf",
             "flow": "",
             "packet_encoding": "xudp"
         }
