@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇩🇰 DK | 🔴 | vless | @NamiraConfigs | 63","type":"vless","server":"learngerman.torexa.ir","port":2090,"uuid":"0103cdc9-3927-44f0-88aa-e1162b7fedaf","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65","type":"vless","server":"restless-base-fe24.alirezahabibi20009.workers.dev","port":443,"uuid":"4908acbe-485f-4e1c-bb11-5dd04b9f7e88","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"restless-base-fe24.alirezahabibi20009.workers.dev","ws-opts":{"path":"/eyJqdW5rIjoiRjhycEV5WUpJTGZpQSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=","headers":{"Host":"restless-base-fe24.alirezahabibi20009.workers.dev"}}}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇩🇰 DK | 🔴 | vless | @NamiraConfigs | 63'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇩🇰 DK | 🔴 | vless | @NamiraConfigs | 63'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇩🇰 DK | 🔴 | vless | @NamiraConfigs | 63'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 65'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
