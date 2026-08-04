@@ -17,8 +17,9 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55","type":"vless","server":"myip.montago-shop.ir","port":42542,"uuid":"dc780e62-11b3-4360-9401-56d3326acc2f","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 56","type":"vless","server":"deplay.montago-shop.ir","port":42542,"uuid":"dc780e62-11b3-4360-9401-56d3326acc2f","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 54","type":"vless","server":"mahdipok.paydar.site","port":80,"uuid":"116f860d-c67a-4443-b478-18e11d193592","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 56","type":"vless","server":"myip.montago-shop.ir","port":42542,"uuid":"dc780e62-11b3-4360-9401-56d3326acc2f","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 57","type":"vless","server":"deplay.montago-shop.ir","port":42542,"uuid":"dc780e62-11b3-4360-9401-56d3326acc2f","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -49,22 +50,25 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55'
+      - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 54'
       - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 56'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 57'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55'
+      - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 54'
       - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 56'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 57'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55'
+      - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 54'
       - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 56'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 57'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
