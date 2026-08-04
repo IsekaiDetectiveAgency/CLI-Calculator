@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇰 DK | 🔴 | vless | @NamiraConfigs | 62"
+                "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 61"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇰 DK | 🔴 | vless | @NamiraConfigs | 62"
+                "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 61"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,13 +135,29 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇰 DK | 🔴 | vless | @NamiraConfigs | 62",
+            "tag": "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 61",
             "type": "vless",
-            "server": "learngerman.torexa.ir",
-            "server_port": 2090,
-            "uuid": "0103cdc9-3927-44f0-88aa-e1162b7fedaf",
+            "server": "po.fastbrokencompony.com",
+            "server_port": 2053,
+            "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "po.fastbrokencompony.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "po.fastbrokencompony.com"
+                }
+            }
         }
     ],
     "route": {
