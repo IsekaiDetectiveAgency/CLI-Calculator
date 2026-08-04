@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 58","type":"vless","server":"104.17.90.38","port":80,"uuid":"dd53235d-06c2-4120-9278-b93ddc969d0d","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/secure-vpn/","headers":{"Host":"ppp.19bot.ir"}}}
+  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 58","type":"vless","server":"162.159.147.159","port":80,"uuid":"dd53235d-06c2-4120-9278-b93ddc969d0d","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/secure-vpn/","headers":{"Host":"ppp.19bot.ir"}}}
 
 rule-providers:
   ir_domains:
