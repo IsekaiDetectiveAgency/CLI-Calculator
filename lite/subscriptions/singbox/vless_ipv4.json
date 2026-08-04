@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 59"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 58"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 59"
+                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 58"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,13 +135,20 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 59",
+            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 58",
             "type": "vless",
-            "server": "15.237.234.170",
-            "server_port": 22224,
-            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+            "server": "104.17.90.38",
+            "server_port": 80,
+            "uuid": "dd53235d-06c2-4120-9278-b93ddc969d0d",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/secure-vpn/",
+                "headers": {
+                    "Host": "104.17.90.38"
+                }
+            }
         }
     ],
     "route": {
