@@ -17,9 +17,9 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 46","type":"vless","server":"iran-tehran.co.uk","port":443,"uuid":"509c0aa6-f98b-4f57-b73c-c707129f556e","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"iran-tehran.co.uk"}
-  - {"name":"🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 47","type":"vless","server":"nl-bl-nl.karmatel.ir","port":20828,"uuid":"35a6946a-2003-448f-9c1b-911efaa8c9a7","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"nl-bl-nl.karmatel.ir"}}}
-  - {"name":"🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 49","type":"vless","server":"nobitex.ir","port":2086,"uuid":"9ec0f053-4dd2-4511-b5f8-00257ead90d4","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"iranpars.yeksancloud.ir"}}}
+  - {"name":"🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 48","type":"vless","server":"farhang.athforce.ir","port":38778,"uuid":"7a74bb65-e652-4c0e-a1a7-d0bc0d963352","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 51","type":"vless","server":"iran-tehran.co.uk","port":443,"uuid":"509c0aa6-f98b-4f57-b73c-c707129f556e","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"iran-tehran.co.uk"}
+  - {"name":"🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 52","type":"vless","server":"nl-bl-nl.karmatel.ir","port":20828,"uuid":"35a6946a-2003-448f-9c1b-911efaa8c9a7","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"nl-bl-nl.karmatel.ir"}}}
 
 rule-providers:
   ir_domains:
@@ -50,25 +50,25 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 46'
-      - '🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 47'
-      - '🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 49'
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 48'
+      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 51'
+      - '🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 52'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 46'
-      - '🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 47'
-      - '🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 49'
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 48'
+      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 51'
+      - '🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 52'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 46'
-      - '🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 47'
-      - '🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 49'
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 48'
+      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 51'
+      - '🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 52'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
