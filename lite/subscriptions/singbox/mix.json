@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇯🇵 JP | 🔴 | vmess | @NamiraConfigs | 57"
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 57"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇯🇵 JP | 🔴 | vmess | @NamiraConfigs | 57"
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 57"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,13 +135,20 @@
             "type": "dns"
         },
         {
-            "tag": "🇯🇵 JP | 🔴 | vmess | @NamiraConfigs | 57",
-            "type": "vmess",
-            "server": "140.235.37.128",
-            "server_port": 32203,
-            "uuid": "0e288730-2200-4578-8e70-bc2b562bef7f",
-            "security": "auto",
-            "alter_id": 0
+            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 57",
+            "type": "vless",
+            "server": "104.26.3.125",
+            "server_port": 2052,
+            "uuid": "e8d06b09-acd9-448c-9874-3c36151d36ee",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "104.26.3.125"
+                }
+            }
         }
     ],
     "route": {

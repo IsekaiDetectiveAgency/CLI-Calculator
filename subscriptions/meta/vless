@@ -17,9 +17,10 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53","type":"vless","server":"104.16.239.120","port":443,"uuid":"4d10c997-4781-4cd9-82c3-15453523e12c","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"support.zoom.us.yxls.eu.cc","ws-opts":{"path":"/sg-melbi","headers":{"Host":"support.zoom.us.yxls.eu.cc"}}}
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 54","type":"vless","server":"18.194.146.225","port":22224,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 56","type":"vless","server":"104.26.3.125","port":2052,"uuid":"e8d06b09-acd9-448c-9874-3c36151d36ee","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"icy-wildflower-2590.lihuifeng595.workers.dev"}}}
+  - {"name":"🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 53","type":"vless","server":"iran-tehran.co.uk","port":443,"uuid":"509c0aa6-f98b-4f57-b73c-c707129f556e","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"iran-tehran.co.uk"}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54","type":"vless","server":"104.16.239.120","port":443,"uuid":"4d10c997-4781-4cd9-82c3-15453523e12c","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"support.zoom.us.yxls.eu.cc","ws-opts":{"path":"/sg-melbi","headers":{"Host":"support.zoom.us.yxls.eu.cc"}}}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55","type":"vless","server":"18.194.146.225","port":22224,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57","type":"vless","server":"104.26.3.125","port":2052,"uuid":"e8d06b09-acd9-448c-9874-3c36151d36ee","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"icy-wildflower-2590.lihuifeng595.workers.dev"}}}
 
 rule-providers:
   ir_domains:
@@ -50,25 +51,28 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 54'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 56'
+      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 53'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 54'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 56'
+      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 53'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 54'
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 56'
+      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 53'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

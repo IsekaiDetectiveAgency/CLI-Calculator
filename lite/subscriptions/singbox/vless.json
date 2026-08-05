@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 52"
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 57"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 52"
+                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 57"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,18 +135,18 @@
             "type": "dns"
         },
         {
-            "tag": "🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 52",
+            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 57",
             "type": "vless",
-            "server": "nl-bl-nl.karmatel.ir",
-            "server_port": 20828,
-            "uuid": "35a6946a-2003-448f-9c1b-911efaa8c9a7",
+            "server": "104.26.3.125",
+            "server_port": 2052,
+            "uuid": "e8d06b09-acd9-448c-9874-3c36151d36ee",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "nl-bl-nl.karmatel.ir"
+                    "Host": "104.26.3.125"
                 }
             }
         }
