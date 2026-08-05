@@ -17,11 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 43","type":"vless","server":"206.81.21.46","port":23519,"uuid":"d1e3c253-7d5e-4bd5-9f16-52787a63bb65","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44","type":"vless","server":"178.128.202.10","port":54034,"uuid":"fabbb79a-013a-4c50-a0bb-ad8dd14149b8","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 45","type":"vless","server":"164.92.206.40","port":25619,"uuid":"9432b345-529f-4236-b0b8-4b57aece9a82","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 46","type":"vless","server":"165.232.111.141","port":42593,"uuid":"79b80d30-6837-48cf-8259-f284f9ec306b","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 47","type":"vless","server":"157.230.109.99","port":18319,"uuid":"6d238427-e07d-4820-9782-bfe47ecf05c9","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 47","type":"vless","server":"116.202.13.37","port":50399,"uuid":"bede50f5-3674-426a-9088-cffd1fd1f2b9","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -52,10 +48,6 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 43'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 45'
-      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 46'
       - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 47'
 
   - name: 📉 Fallback
@@ -63,19 +55,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 43'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 45'
-      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 46'
       - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 47'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 43'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 45'
-      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 46'
       - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 47'
 
 rules:
