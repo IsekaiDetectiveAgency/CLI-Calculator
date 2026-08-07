@@ -104,16 +104,13 @@
             "tag": "proxy",
             "type": "selector",
             "outbounds": [
-                "URL-TEST",
-                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 51"
+                "URL-TEST"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
-            "outbounds": [
-                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 51"
-            ],
+            "outbounds": [],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
             "tolerance": 50
@@ -133,24 +130,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 51",
-            "type": "vless",
-            "server": "78.159.245.32",
-            "server_port": 28474,
-            "uuid": "2c634977-584e-4e1f-b501-1b70c77a6743",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "secure.furrycdn.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         }
     ],
     "route": {
