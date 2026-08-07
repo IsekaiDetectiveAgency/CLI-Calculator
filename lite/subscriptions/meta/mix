@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 54","type":"vless","server":"178.236.255.234","port":654,"uuid":"6d3f20bc-0993-422e-b0cd-be6bcfc645be","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 52","type":"ss","server":"92.112.126.90","port":443,"password":"RFK38Cg7APneSB5cWDcpbm","cipher":"chacha20-ietf-poly1305"}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 54'
+      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 52'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 54'
+      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 52'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 54'
+      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 52'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
