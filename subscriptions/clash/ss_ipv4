@@ -17,9 +17,9 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 48","type":"ss","server":"104.46.88.136","port":443,"password":"mffAKRtk8wJi8fFu","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 50","type":"ss","server":"20.123.9.48","port":443,"password":"o917uvp3jWIMky5u","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 52","type":"ss","server":"92.112.126.90","port":443,"password":"RFK38Cg7APneSB5cWDcpbm","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 46","type":"ss","server":"104.46.88.136","port":443,"password":"BLenXy8jlIgSbafc","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 47","type":"ss","server":"104.46.88.136","port":443,"password":"mffAKRtk8wJi8fFu","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 49","type":"ss","server":"20.123.9.48","port":443,"password":"o917uvp3jWIMky5u","cipher":"chacha20-ietf-poly1305"}
 
 rule-providers:
   ir_domains:
@@ -50,25 +50,25 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 48'
-      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 50'
-      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 52'
+      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 46'
+      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 47'
+      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 49'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 48'
-      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 50'
-      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 52'
+      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 46'
+      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 47'
+      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 49'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 48'
-      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 50'
-      - '🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 52'
+      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 46'
+      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 47'
+      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 49'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
