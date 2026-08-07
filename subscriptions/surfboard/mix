@@ -9,15 +9,15 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 46 = ss, 104.46.88.136, 443, encrypt-method = chacha20-ietf-poly1305, password = BLenXy8jlIgSbafc
-🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 47 = ss, 104.46.88.136, 443, encrypt-method = chacha20-ietf-poly1305, password = mffAKRtk8wJi8fFu
-🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 49 = ss, 20.123.9.48, 443, encrypt-method = chacha20-ietf-poly1305, password = o917uvp3jWIMky5u
-🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 50 = vmess, 91.107.157.137, 18003, username = e41f1455-24f5-4d28-9588-a2cba790171c, ws = false, tls = false
+🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 47 = ss, 104.46.88.136, 443, encrypt-method = chacha20-ietf-poly1305, password = Gml2e6zluIa8WSpN
+🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 48 = ss, 20.123.9.48, 443, encrypt-method = chacha20-ietf-poly1305, password = bX297As31bQMRsLP
+🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 49 = ss, 104.46.88.136, 443, encrypt-method = chacha20-ietf-poly1305, password = BLenXy8jlIgSbafc
+🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 50 = ss, 104.46.88.136, 443, encrypt-method = chacha20-ietf-poly1305, password = mffAKRtk8wJi8fFu
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 46, 🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 47, 🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 49, 🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 50
-PSG-AUTO = url-test, 🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 46, 🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 47, 🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 49, 🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 50
-PSG-FALLBACK = fallback, 🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 46, 🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 47, 🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 49, 🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 50
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 47, 🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 48, 🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 49, 🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 50
+PSG-AUTO = url-test, 🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 47, 🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 48, 🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 49, 🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 50
+PSG-FALLBACK = fallback, 🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 47, 🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 48, 🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 49, 🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 50
 
 [Rule]
 GEOIP,IR,DIRECT

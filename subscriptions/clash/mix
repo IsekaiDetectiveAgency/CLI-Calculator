@@ -17,10 +17,10 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 46","type":"ss","server":"104.46.88.136","port":443,"password":"BLenXy8jlIgSbafc","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 47","type":"ss","server":"104.46.88.136","port":443,"password":"mffAKRtk8wJi8fFu","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 49","type":"ss","server":"20.123.9.48","port":443,"password":"o917uvp3jWIMky5u","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 50","type":"vmess","server":"91.107.157.137","port":18003,"cipher":"auto","uuid":"e41f1455-24f5-4d28-9588-a2cba790171c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 47","type":"ss","server":"104.46.88.136","port":443,"password":"Gml2e6zluIa8WSpN","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 48","type":"ss","server":"20.123.9.48","port":443,"password":"bX297As31bQMRsLP","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 49","type":"ss","server":"104.46.88.136","port":443,"password":"BLenXy8jlIgSbafc","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 50","type":"ss","server":"104.46.88.136","port":443,"password":"mffAKRtk8wJi8fFu","cipher":"chacha20-ietf-poly1305"}
 
 rule-providers:
   ir_domains:
@@ -51,28 +51,28 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 46'
       - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 47'
+      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 48'
       - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 49'
-      - '🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 50'
+      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 50'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 46'
       - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 47'
+      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 48'
       - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 49'
-      - '🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 50'
+      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 50'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 46'
       - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 47'
+      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 48'
       - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 49'
-      - '🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 50'
+      - '🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 50'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
