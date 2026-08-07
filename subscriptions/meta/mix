@@ -17,11 +17,11 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 50","type":"vless","server":"13.36.85.22","port":22224,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 51","type":"vless","server":"13.36.85.22","port":22223,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 52","type":"vless","server":"201.34.135.13","port":1293,"uuid":"d0961a50-1306-49a6-b71e-6f0dc183ffb7","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 53","type":"vless","server":"178.236.255.234","port":654,"uuid":"6d3f20bc-0993-422e-b0cd-be6bcfc645be","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 54","type":"vless","server":"89.208.113.16","port":443,"uuid":"adce7c2a-3191-49ae-b61c-9b8258ea1b0e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 50","type":"vmess","server":"fj260403.freechatup.com","port":27726,"cipher":"auto","uuid":"98e2be3c-8f84-4b85-996b-b68dcc2fbcb6","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 51","type":"vless","server":"13.36.85.22","port":22224,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 52","type":"vless","server":"13.36.85.22","port":22223,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 53","type":"vless","server":"201.34.135.13","port":1293,"uuid":"d0961a50-1306-49a6-b71e-6f0dc183ffb7","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 54","type":"vless","server":"178.236.255.234","port":654,"uuid":"6d3f20bc-0993-422e-b0cd-be6bcfc645be","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -52,31 +52,31 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 50'
+      - '🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 50'
       - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 51'
-      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 52'
-      - '🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 53'
-      - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 54'
+      - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 52'
+      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 53'
+      - '🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 54'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 50'
+      - '🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 50'
       - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 51'
-      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 52'
-      - '🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 53'
-      - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 54'
+      - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 52'
+      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 53'
+      - '🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 54'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 50'
+      - '🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 50'
       - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 51'
-      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 52'
-      - '🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 53'
-      - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 54'
+      - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 52'
+      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 53'
+      - '🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 54'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
