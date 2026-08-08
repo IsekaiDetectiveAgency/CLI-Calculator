@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇪🇸 ES | 🟢 | ss | @NamiraConfigs | 59"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 60"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇪🇸 ES | 🟢 | ss | @NamiraConfigs | 59"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 60"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,12 +135,20 @@
             "type": "dns"
         },
         {
-            "tag": "🇪🇸 ES | 🟢 | ss | @NamiraConfigs | 59",
-            "type": "shadowsocks",
-            "server": "140.174.184.5",
-            "server_port": 8388,
-            "method": "chacha20-ietf-poly1305",
-            "password": "qItG8SueYQcP"
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 60",
+            "type": "vless",
+            "server": "146.75.119.82",
+            "server_port": 80,
+            "uuid": "e245d6f1-d99c-47cb-b3f4-edf12f0c73b8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048",
+                "headers": {
+                    "Host": "146.75.119.82"
+                }
+            }
         }
     ],
     "route": {
