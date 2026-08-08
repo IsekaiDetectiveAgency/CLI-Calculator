@@ -18,7 +18,6 @@ dns:
 
 proxies:
   - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58","type":"vless","server":"104.17.66.0","port":8443,"uuid":"8581742d-6ec6-47be-b4f5-a6d3032d6e74","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"subsanaei.pannelman.ir","ws-opts":{"path":"/","headers":{"Host":"subsanaei.pannelman.ir"}}}
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 59","type":"vless","server":"146.75.119.82","port":80,"uuid":"e245d6f1-d99c-47cb-b3f4-edf12f0c73b8","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048","headers":{"Host":"rb24.ir"}}}
 
 rule-providers:
   ir_domains:
@@ -50,7 +49,6 @@ proxy-groups:
     tolerance: 50 
     proxies:
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 59'
 
   - name: 📉 Fallback
     type: fallback
@@ -58,13 +56,11 @@ proxy-groups:
     interval: 300
     proxies:
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 59'
       
   - name: All-Proxies
     type: select
     proxies:
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 59'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
