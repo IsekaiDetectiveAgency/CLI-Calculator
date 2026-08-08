@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 48","type":"ss","server":"193.42.38.209","port":1080,"password":"XF0klw7870vXn3uQIxe19Q","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸 US | 🟢 | ss | @NamiraConfigs | 52","type":"ss","server":"193.42.38.209","port":1080,"password":"XF0klw7870vXn3uQIxe19Q","cipher":"chacha20-ietf-poly1305"}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 48'
+      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 52'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 48'
+      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 52'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 48'
+      - '🇺🇸 US | 🟢 | ss | @NamiraConfigs | 52'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
