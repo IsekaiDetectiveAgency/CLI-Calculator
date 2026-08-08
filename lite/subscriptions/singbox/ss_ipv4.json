@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 52"
+                "🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 52"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 52"
+                "🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 52"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,12 +135,12 @@
             "type": "dns"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | ss | @NamiraConfigs | 52",
+            "tag": "🇮🇪 IE | 🟢 | ss | @NamiraConfigs | 52",
             "type": "shadowsocks",
-            "server": "92.112.126.90",
+            "server": "104.46.88.136",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
-            "password": "RFK38Cg7APneSB5cWDcpbm"
+            "password": "BLenXy8jlIgSbafc"
         }
     ],
     "route": {
