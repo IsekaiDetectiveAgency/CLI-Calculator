@@ -17,7 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58","type":"vless","server":"104.17.66.0","port":8443,"uuid":"8581742d-6ec6-47be-b4f5-a6d3032d6e74","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"subsanaei.pannelman.ir","ws-opts":{"path":"/","headers":{"Host":"subsanaei.pannelman.ir"}}}
+  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 56","type":"vless","server":"172.67.207.26","port":8880,"uuid":"65aed3c1-1999-46a1-a3f3-2e5eb119ec64","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/pyip=ProxyIP.KR.CMLiussss.net","headers":{"Host":"weathered-hat-76a5.380-d00.workers.dev"}}}
+  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57","type":"vless","server":"172.67.215.44","port":2052,"uuid":"86442a2b-417d-426d-9b42-955573b5c6e4","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/eyJqdW5rIjoiaUhoWE5FbWloZWY1MGxobSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjg5LjE2OS4zNC45OSJdfQ==","headers":{"Host":"ez-bfa272.ezaccess1d90628.workers.dev"}}}
 
 rule-providers:
   ir_domains:
@@ -48,19 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 56'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 56'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 56'
+      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

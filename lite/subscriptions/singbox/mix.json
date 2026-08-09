@@ -104,16 +104,13 @@
             "tag": "proxy",
             "type": "selector",
             "outbounds": [
-                "URL-TEST",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58"
+                "URL-TEST"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
-            "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58"
-            ],
+            "outbounds": [],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
             "tolerance": 50
@@ -133,31 +130,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58",
-            "type": "vless",
-            "server": "104.17.66.0",
-            "server_port": 8443,
-            "uuid": "8581742d-6ec6-47be-b4f5-a6d3032d6e74",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "subsanaei.pannelman.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "subsanaei.pannelman.ir"
-                }
-            }
         }
     ],
     "route": {
