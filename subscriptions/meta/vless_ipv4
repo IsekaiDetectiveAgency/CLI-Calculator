@@ -17,8 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 56","type":"vless","server":"65.109.208.236","port":26795,"uuid":"c896406b-ccc4-4c37-8b8c-15964f32a9a2","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 59","type":"vless","server":"194.87.30.161","port":22647,"uuid":"ffa289e7-a058-493a-b234-3db1f26378d7","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"194.87.30.161"}}}
+  - {"name":"🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 57","type":"vless","server":"65.109.208.236","port":26795,"uuid":"c896406b-ccc4-4c37-8b8c-15964f32a9a2","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 60","type":"vless","server":"194.87.30.161","port":22647,"uuid":"ffa289e7-a058-493a-b234-3db1f26378d7","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"194.87.30.161"}}}
 
 rule-providers:
   ir_domains:
@@ -49,22 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 56'
-      - '🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 59'
+      - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 57'
+      - '🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 60'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 56'
-      - '🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 59'
+      - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 57'
+      - '🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 60'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 56'
-      - '🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 59'
+      - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 57'
+      - '🇸🇪 SE | 🔴 | vless | @NamiraConfigs | 60'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
