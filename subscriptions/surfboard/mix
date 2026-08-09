@@ -9,12 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 62 = vmess, 65.109.208.236, 46962, username = c896406b-ccc4-4c37-8b8c-15964f32a9a2, ws = false, tls = false
+
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 62
-PSG-AUTO = url-test, 🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 62
-PSG-FALLBACK = fallback, 🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 62
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 
+PSG-AUTO = url-test, 
+PSG-FALLBACK = fallback, 
 
 [Rule]
 GEOIP,IR,DIRECT
