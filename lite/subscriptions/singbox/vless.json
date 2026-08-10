@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58"
+                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 55"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58"
+                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 55"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,27 +135,18 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58",
+            "tag": "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 55",
             "type": "vless",
-            "server": "69.46.46.12",
-            "server_port": 443,
-            "uuid": "b191c8c6-5715-fda9-0a41-9a9a1de55de1",
+            "server": "87.228.122.108",
+            "server_port": 4100,
+            "uuid": "155e8dd4-a559-407a-9ea8-13a5e829f066",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ppp-production-okil.up.railway.app",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/ws/b191c8c6-5715-fda9-0a41-9a9a1de55de1",
+                "path": "/v1",
                 "headers": {
-                    "Host": "ppp-production-okil.up.railway.app"
+                    "Host": "87.228.122.108"
                 }
             }
         }
