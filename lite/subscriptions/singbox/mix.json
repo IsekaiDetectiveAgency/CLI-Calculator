@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 55"
+                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 54"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 55"
+                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 54"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,7 +135,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 55",
+            "tag": "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 54",
             "type": "vless",
             "server": "87.228.122.108",
             "server_port": 4100,
