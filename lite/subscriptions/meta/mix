@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 46","type":"vless","server":"31.56.185.20","port":443,"uuid":"5dc56757-458e-4df2-9e71-2a14ce47e8af","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"nl2-akn.astralweb.tech"}
+  - {"name":"🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 45","type":"vless","server":"169.197.113.179","port":20190,"uuid":"ad4dd89a-2e4b-4f33-bb96-7e9c4eb85d0b","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 46'
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 45'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 46'
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 45'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 46'
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 45'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
