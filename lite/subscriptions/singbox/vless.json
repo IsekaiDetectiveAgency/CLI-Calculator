@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 46"
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 46"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 46"
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 46"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,13 +135,22 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 46",
+            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 46",
             "type": "vless",
-            "server": "18.197.75.14",
-            "server_port": 22222,
-            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+            "server": "31.56.185.20",
+            "server_port": 443,
+            "uuid": "5dc56757-458e-4df2-9e71-2a14ce47e8af",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "nl2-akn.astralweb.tech",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         }
     ],
     "route": {
