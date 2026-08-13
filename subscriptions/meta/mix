@@ -21,7 +21,7 @@ proxies:
   - {"name":"🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 52","type":"ss","server":"93.123.13.7","port":25783,"password":"8cmuvza9gyetx0z8","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 53","type":"vless","server":"93.123.13.7","port":15755,"uuid":"c863c8f0-cda1-429c-be76-cbefc8a418a1","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🇦🇺 AU | 🟢 | ss | @NamiraConfigs | 54","type":"ss","server":"au1.levikogjgfdd.ir","port":27116,"password":"bIOoi5TuImG2KccxV7-jcA7Cez+vun-c_E","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱 NL | 🟢 | vmess | @NamiraConfigs | 55","type":"vmess","server":"176.120.17.21","port":1016,"cipher":"auto","uuid":"40de0de7-0edc-4959-9ec2-86d938b50f0c","alterId":"0","tls":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇩🇪 DE | 🟢 | vmess | @NamiraConfigs | 55","type":"vmess","server":"176.120.17.21","port":1016,"cipher":"auto","uuid":"40de0de7-0edc-4959-9ec2-86d938b50f0c","alterId":"0","tls":true,"skip-cert-verify":true,"network":"tcp"}
 
 rule-providers:
   ir_domains:
@@ -56,7 +56,7 @@ proxy-groups:
       - '🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 52'
       - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 53'
       - '🇦🇺 AU | 🟢 | ss | @NamiraConfigs | 54'
-      - '🇳🇱 NL | 🟢 | vmess | @NamiraConfigs | 55'
+      - '🇩🇪 DE | 🟢 | vmess | @NamiraConfigs | 55'
 
   - name: 📉 Fallback
     type: fallback
@@ -67,7 +67,7 @@ proxy-groups:
       - '🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 52'
       - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 53'
       - '🇦🇺 AU | 🟢 | ss | @NamiraConfigs | 54'
-      - '🇳🇱 NL | 🟢 | vmess | @NamiraConfigs | 55'
+      - '🇩🇪 DE | 🟢 | vmess | @NamiraConfigs | 55'
       
   - name: All-Proxies
     type: select
@@ -76,7 +76,7 @@ proxy-groups:
       - '🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 52'
       - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 53'
       - '🇦🇺 AU | 🟢 | ss | @NamiraConfigs | 54'
-      - '🇳🇱 NL | 🟢 | vmess | @NamiraConfigs | 55'
+      - '🇩🇪 DE | 🟢 | vmess | @NamiraConfigs | 55'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
