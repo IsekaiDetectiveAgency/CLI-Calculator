@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 47","type":"vmess","server":"165.154.195.38","port":35034,"cipher":"auto","uuid":"959a8caf-4cea-43d0-a548-3628e7ddfafc","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇳🇱 NL | 🟢 | vmess | @NamiraConfigs | 54","type":"vmess","server":"176.120.17.21","port":1016,"cipher":"auto","uuid":"40de0de7-0edc-4959-9ec2-86d938b50f0c","alterId":"0","tls":true,"skip-cert-verify":true,"network":"tcp"}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 47'
+      - '🇳🇱 NL | 🟢 | vmess | @NamiraConfigs | 54'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 47'
+      - '🇳🇱 NL | 🟢 | vmess | @NamiraConfigs | 54'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 47'
+      - '🇳🇱 NL | 🟢 | vmess | @NamiraConfigs | 54'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
