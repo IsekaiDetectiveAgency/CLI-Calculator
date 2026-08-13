@@ -17,7 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 52","type":"vless","server":"tuntr.supros.ir","port":2095,"uuid":"bf58f3cd-7c8c-4650-bd7a-028df18b3ba0","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52","type":"vless","server":"c2.nyanners.ir","port":443,"uuid":"956d6917-0f67-4515-aafa-d6210312648d","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"ilia1.ironmouse.ir","ws-opts":{"path":"/ws","headers":{"Host":"c2.nyanners.ir"}}}
+  - {"name":"🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 54","type":"vless","server":"tuntr.supros.ir","port":2095,"uuid":"bf58f3cd-7c8c-4650-bd7a-028df18b3ba0","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -48,19 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 52'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52'
+      - '🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 54'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 52'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52'
+      - '🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 54'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 52'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52'
+      - '🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 54'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
