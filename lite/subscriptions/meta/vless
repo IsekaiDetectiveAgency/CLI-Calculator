@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 54","type":"vless","server":"cdn-cloudflare455.korvexe.ir","port":2095,"uuid":"74a025dd-c287-4acf-a5fb-e573e10feef9","tls":false,"network":"httpupgrade","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48","type":"vless","server":"69.46.46.195","port":443,"uuid":"33462eea-6519-4126-ba17-5eba4bb8c2ee","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"api-90c343-bedd79-production.up.railway.app","ws-opts":{"path":"/ws/vless/33462eea-6519-4126-ba17-5eba4bb8c2ee?ed=2048","headers":{"Host":"api-90c343-bedd79-production.up.railway.app"}}}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 54'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 54'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 54'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

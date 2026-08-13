@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇹🇷 TR | 🔴 | vmess | @NamiraConfigs | 50"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇹🇷 TR | 🔴 | vmess | @NamiraConfigs | 50"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,13 +135,29 @@
             "type": "dns"
         },
         {
-            "tag": "🇹🇷 TR | 🔴 | vmess | @NamiraConfigs | 50",
-            "type": "vmess",
-            "server": "5.188.190.252",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-            "security": "auto",
-            "alter_id": 0
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 48",
+            "type": "vless",
+            "server": "69.46.46.195",
+            "server_port": 443,
+            "uuid": "33462eea-6519-4126-ba17-5eba4bb8c2ee",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "api-90c343-bedd79-production.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/vless/33462eea-6519-4126-ba17-5eba4bb8c2ee?ed=2048",
+                "headers": {
+                    "Host": "api-90c343-bedd79-production.up.railway.app"
+                }
+            }
         }
     ],
     "route": {
