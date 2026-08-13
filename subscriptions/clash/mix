@@ -17,9 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 52","type":"ss","server":"93.123.13.7","port":25783,"password":"8cmuvza9gyetx0z8","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇺 AU | 🟢 | ss | @NamiraConfigs | 54","type":"ss","server":"au1.levikogjgfdd.ir","port":27116,"password":"bIOoi5TuImG2KccxV7-jcA7Cez+vun-c_E","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪 DE | 🟢 | vmess | @NamiraConfigs | 55","type":"vmess","server":"176.120.17.21","port":1016,"cipher":"auto","uuid":"40de0de7-0edc-4959-9ec2-86d938b50f0c","alterId":"0","tls":true,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 51","type":"ss","server":"93.123.13.7","port":16460,"password":"8yezd40lr2w4zz08","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 54","type":"ss","server":"93.123.13.7","port":25783,"password":"8cmuvza9gyetx0z8","cipher":"chacha20-ietf-poly1305"}
 
 rule-providers:
   ir_domains:
@@ -50,25 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 52'
-      - '🇦🇺 AU | 🟢 | ss | @NamiraConfigs | 54'
-      - '🇩🇪 DE | 🟢 | vmess | @NamiraConfigs | 55'
+      - '🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 51'
+      - '🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 54'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 52'
-      - '🇦🇺 AU | 🟢 | ss | @NamiraConfigs | 54'
-      - '🇩🇪 DE | 🟢 | vmess | @NamiraConfigs | 55'
+      - '🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 51'
+      - '🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 54'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 52'
-      - '🇦🇺 AU | 🟢 | ss | @NamiraConfigs | 54'
-      - '🇩🇪 DE | 🟢 | vmess | @NamiraConfigs | 55'
+      - '🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 51'
+      - '🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 54'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪 DE | 🟢 | vmess | @NamiraConfigs | 55"
+                "🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 54"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vmess | @NamiraConfigs | 55"
+                "🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 54"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,22 +135,12 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vmess | @NamiraConfigs | 55",
-            "type": "vmess",
-            "server": "176.120.17.21",
-            "server_port": 1016,
-            "uuid": "40de0de7-0edc-4959-9ec2-86d938b50f0c",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "astra.iraniangamersclub.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
+            "tag": "🇫🇮 FI | 🟢 | ss | @NamiraConfigs | 54",
+            "type": "shadowsocks",
+            "server": "93.123.13.7",
+            "server_port": 25783,
+            "method": "chacha20-ietf-poly1305",
+            "password": "8cmuvza9gyetx0z8"
         }
     ],
     "route": {
