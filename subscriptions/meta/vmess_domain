@@ -17,9 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 56","type":"vmess","server":"82.198.246.233","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 57","type":"vmess","server":"165.154.195.38","port":35034,"cipher":"auto","uuid":"959a8caf-4cea-43d0-a548-3628e7ddfafc","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 58","type":"vmess","server":"82.198.246.37","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 54","type":"vmess","server":"57.129.132.223","port":80,"cipher":"auto","uuid":"a25cbf11-2908-4a1b-a3a8-9a571777dca3","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess/","headers":{"Host":"google.com"}}}
 
 rule-providers:
   ir_domains:
@@ -50,25 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 56'
-      - '🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 57'
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 58'
+      - '🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 54'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 56'
-      - '🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 57'
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 58'
+      - '🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 54'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 56'
-      - '🇹🇼 TW | 🔴 | vmess | @NamiraConfigs | 57'
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 58'
+      - '🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 54'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
