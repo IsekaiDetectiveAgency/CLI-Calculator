@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 58","type":"vless","server":"95.85.224.3","port":8443,"uuid":"7e8f7489-e65f-4be6-93ed-867a74ec6759","tls":false,"network":"grpc","client-fingerprint":"chrome","udp":true,"grpc-opts":{"grpc-service-name":"grpc"}}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 41","type":"vless","server":"91.107.242.82","port":995,"uuid":"e6148e57-3b7f-4043-80f2-b0075ad41c73","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 58'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 41'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 58'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 41'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇪🇪 EE | 🔴 | vless | @NamiraConfigs | 58'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 41'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
