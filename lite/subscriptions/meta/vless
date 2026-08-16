@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 56","type":"vless","server":"93.123.13.7","port":15755,"uuid":"c863c8f0-cda1-429c-be76-cbefc8a418a1","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 57","type":"vless","server":"iribnewreport.watch-out.ir","port":443,"uuid":"b4e9234c-4517-400b-ac85-4e4b37657838","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/j/47164","headers":{"Host":"iribnewreport.watch-out.ir"}}}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 56'
+      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 57'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 56'
+      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 57'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 56'
+      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 57'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

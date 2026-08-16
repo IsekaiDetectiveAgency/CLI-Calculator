@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 61"
+                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 57"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 61"
+                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 57"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,16 +135,16 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 61",
+            "tag": "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 57",
             "type": "vless",
-            "server": "po.fastbrokencompony.com",
-            "server_port": 2053,
-            "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
+            "server": "iribnewreport.watch-out.ir",
+            "server_port": 443,
+            "uuid": "b4e9234c-4517-400b-ac85-4e4b37657838",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "po.fastbrokencompony.com",
+                "server_name": "iribnewreport.watch-out.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -153,9 +153,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/j/47164",
                 "headers": {
-                    "Host": "po.fastbrokencompony.com"
+                    "Host": "iribnewreport.watch-out.ir"
                 }
             }
         }
