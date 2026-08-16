@@ -17,10 +17,10 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53","type":"vless","server":"104.16.75.99","port":443,"uuid":"03707fb7-0990-440f-88f6-b0e0f7242a38","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"germany-2.ariyuz.org","ws-opts":{"path":"/","headers":{"Host":"germany-2.ariyuz.org"}}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54","type":"vless","server":"104.21.35.235","port":2053,"uuid":"da4747a6-be0d-4c1b-90f4-d82ec3012be2","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"music1000.melobitmusic1.ir","ws-opts":{"path":"/","headers":{"Host":"music1000.melobitmusic1.ir"}}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55","type":"vless","server":"172.67.180.173","port":2053,"uuid":"da4747a6-be0d-4c1b-90f4-d82ec3012be2","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"music1000.melobitmusic1.ir","ws-opts":{"path":"/","headers":{"Host":"172.67.180.173"}}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56","type":"vless","server":"104.16.75.42","port":443,"uuid":"03707fb7-0990-440f-88f6-b0e0f7242a38","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"de-new-1.ariyuz.org","ws-opts":{"path":"/","headers":{"Host":"104.16.75.42"}}}
+  - {"name":"🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 54","type":"vless","server":"93.123.13.7","port":15139,"uuid":"ab16b404-1d3a-4ba6-a37c-67bed61e3b5d","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56","type":"vless","server":"104.16.75.99","port":443,"uuid":"03707fb7-0990-440f-88f6-b0e0f7242a38","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"germany-2.ariyuz.org","ws-opts":{"path":"/","headers":{"Host":"germany-2.ariyuz.org"}}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57","type":"vless","server":"104.21.35.235","port":2053,"uuid":"da4747a6-be0d-4c1b-90f4-d82ec3012be2","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"music1000.melobitmusic1.ir","ws-opts":{"path":"/","headers":{"Host":"music1000.melobitmusic1.ir"}}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58","type":"vless","server":"172.67.180.173","port":2053,"uuid":"da4747a6-be0d-4c1b-90f4-d82ec3012be2","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"music1000.melobitmusic1.ir","ws-opts":{"path":"/","headers":{"Host":"172.67.180.173"}}}
 
 rule-providers:
   ir_domains:
@@ -51,28 +51,28 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55'
+      - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 54'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55'
+      - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 54'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 55'
+      - '🇫🇮 FI | 🔴 | vless | @NamiraConfigs | 54'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

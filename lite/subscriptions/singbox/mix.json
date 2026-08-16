@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 57"
+                "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 58"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 57"
+                "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 58"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,16 +135,16 @@
             "type": "dns"
         },
         {
-            "tag": "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 57",
+            "tag": "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 58",
             "type": "vless",
-            "server": "iribnewreport.watch-out.ir",
-            "server_port": 443,
-            "uuid": "b4e9234c-4517-400b-ac85-4e4b37657838",
+            "server": "172.67.180.173",
+            "server_port": 2053,
+            "uuid": "da4747a6-be0d-4c1b-90f4-d82ec3012be2",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "iribnewreport.watch-out.ir",
+                "server_name": "music1000.melobitmusic1.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -153,9 +153,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/j/47164",
+                "path": "/",
                 "headers": {
-                    "Host": "iribnewreport.watch-out.ir"
+                    "Host": "music1000.melobitmusic1.ir"
                 }
             }
         }

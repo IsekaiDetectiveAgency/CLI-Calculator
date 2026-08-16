@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 57","type":"vless","server":"iribnewreport.watch-out.ir","port":443,"uuid":"b4e9234c-4517-400b-ac85-4e4b37657838","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/j/47164","headers":{"Host":"iribnewreport.watch-out.ir"}}}
+  - {"name":"🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 58","type":"vless","server":"172.67.180.173","port":2053,"uuid":"da4747a6-be0d-4c1b-90f4-d82ec3012be2","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"music1000.melobitmusic1.ir","ws-opts":{"path":"/","headers":{"Host":"172.67.180.173"}}}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 57'
+      - '🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 58'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 57'
+      - '🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 58'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 57'
+      - '🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 58'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
