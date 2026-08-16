@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 54","type":"vless","server":"31.129.96.186","port":2200,"uuid":"112912a9-cedf-485d-b8ed-d8f8d4774437","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/v1","headers":{"Host":"31.129.96.186"}}}
+  - {"name":"🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 54","type":"vless","server":"72.56.246.91","port":4100,"uuid":"a484645e-59df-4980-b649-92b71250ec60","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/v1","headers":{"Host":"72.56.246.91"}}}
 
 rule-providers:
   ir_domains:
