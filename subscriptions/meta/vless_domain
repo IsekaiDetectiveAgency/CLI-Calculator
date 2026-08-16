@@ -17,8 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 60","type":"vless","server":"france.io-com-de-dev.org","port":8443,"uuid":"05cf7b0e-ad1a-42bb-80e7-73ae45b1019a","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"france.io-com-de-dev.org","ws-opts":{"path":"/api/voip/updates/static/x9i2","headers":{"Host":"france.io-com-de-dev.org"}}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 61","type":"vless","server":"po.fastbrokencompony.com","port":2053,"uuid":"e7961655-9674-4cbd-a36f-ec0d5d7d660c","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"po.fastbrokencompony.com","ws-opts":{"path":"/","headers":{"Host":"po.fastbrokencompony.com"}}}
+  - {"name":"🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 54","type":"vless","server":"iribnewreport.watch-out.ir","port":443,"uuid":"b4e9234c-4517-400b-ac85-4e4b37657838","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/j/47164","headers":{"Host":"iribnewreport.watch-out.ir"}}}
 
 rule-providers:
   ir_domains:
@@ -49,22 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 60'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 61'
+      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 54'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 60'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 61'
+      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 54'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 60'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 61'
+      - '🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 54'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
