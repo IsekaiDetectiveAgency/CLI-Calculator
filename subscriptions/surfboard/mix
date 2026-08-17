@@ -9,14 +9,15 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 44 = vmess, 65.109.178.10, 2086, username = f6361af8-bb8f-4609-bf5d-3fc0f688f47b, ws = false, tls = false
-🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 45 = vmess, cdn-cloudflare455.korvexe.ir, 2095, username = 8000e374-6b7f-4bbf-b45f-2272657ed5f9, ws = false, tls = false
-🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 46 = vmess, cdn-cloudflare455.korvexe.ir, 2095, username = 8000e374-6b7f-4bbf-b45f-2272657ed5f9, ws = false, tls = false
+🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 51 = vmess, 82.198.246.233, 180, username = d13fc2f5-3e05-4795-81eb-44143a09e552, ws = false, tls = false
+🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 52 = vmess, 82.198.246.250, 180, username = d13fc2f5-3e05-4795-81eb-44143a09e552, ws = false, tls = false
+🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 54 = vmess, 82.198.246.97, 180, username = d13fc2f5-3e05-4795-81eb-44143a09e552, ws = false, tls = false
+🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 55 = vmess, 57.129.132.223, 80, username = a25cbf11-2908-4a1b-a3a8-9a571777dca3, ws = true, tls = false, ws-path = /vmess/, ws-headers = Host:"google.com"
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 44, 🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 45, 🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 46
-PSG-AUTO = url-test, 🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 44, 🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 45, 🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 46
-PSG-FALLBACK = fallback, 🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 44, 🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 45, 🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 46
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 51, 🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 52, 🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 54, 🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 55
+PSG-AUTO = url-test, 🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 51, 🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 52, 🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 54, 🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 55
+PSG-FALLBACK = fallback, 🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 51, 🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 52, 🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 54, 🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 55
 
 [Rule]
 GEOIP,IR,DIRECT
