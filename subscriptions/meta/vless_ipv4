@@ -17,8 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 44","type":"vless","server":"185.247.16.117","port":2200,"uuid":"b79c54f3-68e9-4e9d-8b57-22cbbe978730","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/v1","headers":{"Host":"rzd.ru"}}}
-  - {"name":"🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 45","type":"vless","server":"77.222.37.89","port":2200,"uuid":"b79c54f3-68e9-4e9d-8b57-22cbbe978730","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/v1","headers":{"Host":"rzd.ru"}}}
+  - {"name":"🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 47","type":"vless","server":"185.247.16.117","port":2200,"uuid":"b79c54f3-68e9-4e9d-8b57-22cbbe978730","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/v1","headers":{"Host":"rzd.ru"}}}
+  - {"name":"🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 48","type":"vless","server":"77.222.37.89","port":2200,"uuid":"b79c54f3-68e9-4e9d-8b57-22cbbe978730","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/v1","headers":{"Host":"rzd.ru"}}}
 
 rule-providers:
   ir_domains:
@@ -49,22 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 44'
-      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 45'
+      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 47'
+      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 48'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 44'
-      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 45'
+      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 47'
+      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 48'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 44'
-      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 45'
+      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 47'
+      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 48'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
