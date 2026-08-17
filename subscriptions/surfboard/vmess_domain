@@ -9,12 +9,14 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 41 = vmess, cdn-cloudflare455.korvexe.ir, 2095, username = 8000e374-6b7f-4bbf-b45f-2272657ed5f9, ws = false, tls = false
+🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 41 = vmess, 65.109.178.10, 2086, username = f6361af8-bb8f-4609-bf5d-3fc0f688f47b, ws = false, tls = false
+🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 42 = vmess, cdn-cloudflare455.korvexe.ir, 2095, username = 8000e374-6b7f-4bbf-b45f-2272657ed5f9, ws = false, tls = false
+🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 43 = vmess, cdn-cloudflare455.korvexe.ir, 2095, username = 8000e374-6b7f-4bbf-b45f-2272657ed5f9, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 41
-PSG-AUTO = url-test, 🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 41
-PSG-FALLBACK = fallback, 🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 41
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 41, 🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 42, 🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 43
+PSG-AUTO = url-test, 🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 41, 🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 42, 🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 43
+PSG-FALLBACK = fallback, 🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 41, 🇺🇸 US | 🟢 | vmess | @NamiraConfigs | 42, 🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 43
 
 [Rule]
 GEOIP,IR,DIRECT
