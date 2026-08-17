@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 48"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 48"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,18 +135,27 @@
             "type": "dns"
         },
         {
-            "tag": "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 48",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57",
             "type": "vless",
-            "server": "77.222.37.89",
-            "server_port": 2200,
-            "uuid": "b79c54f3-68e9-4e9d-8b57-22cbbe978730",
+            "server": "104.19.44.174",
+            "server_port": 2083,
+            "uuid": "56e4896e-90a9-4fe0-8480-90d3d68b9928",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "go.iranfree.de5.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/v1",
+                "path": "/",
                 "headers": {
-                    "Host": "77.222.37.89"
+                    "Host": "go.iranfree.de5.net"
                 }
             }
         }
