@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54","type":"vless","server":"104.21.41.140","port":2053,"uuid":"e7961655-9674-4cbd-a36f-ec0d5d7d660c","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"po.fastbrokencompony.com","ws-opts":{"path":"/","headers":{"Host":"po.fastbrokencompony.com"}}}
+  - {"name":"🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 54","type":"vless","server":"104.21.41.140","port":2053,"uuid":"e7961655-9674-4cbd-a36f-ec0d5d7d660c","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"po.fastbrokencompony.com","ws-opts":{"path":"/","headers":{"Host":"po.fastbrokencompony.com"}}}
   - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57","type":"vless","server":"104.19.44.174","port":2083,"uuid":"56e4896e-90a9-4fe0-8480-90d3d68b9928","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"go.iranfree.de5.net","ws-opts":{"path":"/","headers":{"Host":"go.iranfree.de5.net"}}}
 
 rule-providers:
@@ -49,7 +49,7 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54'
+      - '🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 54'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57'
 
   - name: 📉 Fallback
@@ -57,13 +57,13 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54'
+      - '🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 54'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 54'
+      - '🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 54'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57'
 
 rules:
