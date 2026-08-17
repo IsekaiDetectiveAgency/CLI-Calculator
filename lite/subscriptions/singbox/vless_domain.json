@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 57"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 57"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,16 +135,16 @@
             "type": "dns"
         },
         {
-            "tag": "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 57",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 51",
             "type": "vless",
-            "server": "iribnewreport.watch-out.ir",
-            "server_port": 443,
-            "uuid": "b4e9234c-4517-400b-ac85-4e4b37657838",
+            "server": "dash.zeneco.ir",
+            "server_port": 8443,
+            "uuid": "fdf4a9b1-3471-41a4-9a18-c1986917fe57",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "iribnewreport.watch-out.ir",
+                "server_name": "dash.zeneco.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -153,9 +153,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/j/47164",
+                "path": "/",
                 "headers": {
-                    "Host": "iribnewreport.watch-out.ir"
+                    "Host": "dash.zeneco.ir"
                 }
             }
         }
