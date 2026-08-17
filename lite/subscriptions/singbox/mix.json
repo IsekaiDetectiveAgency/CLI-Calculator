@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,29 +135,13 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49",
             "type": "vless",
-            "server": "dash.zeneco.ir",
-            "server_port": 8443,
-            "uuid": "fdf4a9b1-3471-41a4-9a18-c1986917fe57",
+            "server": "18.157.224.206",
+            "server_port": 22224,
+            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "dash.zeneco.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "dash.zeneco.ir"
-                }
-            }
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
