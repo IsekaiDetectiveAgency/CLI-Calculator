@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇬 SG | 🟢 | vless | @NamiraConfigs | 59"
+                "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 60"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇬 SG | 🟢 | vless | @NamiraConfigs | 59"
+                "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 60"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,16 +135,16 @@
             "type": "dns"
         },
         {
-            "tag": "🇸🇬 SG | 🟢 | vless | @NamiraConfigs | 59",
+            "tag": "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 60",
             "type": "vless",
-            "server": "45.8.211.57",
-            "server_port": 443,
-            "uuid": "03707fb7-0990-440f-88f6-b0e0f7242a38",
+            "server": "172.67.191.52",
+            "server_port": 2053,
+            "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "de-new-1.ariyuz.org",
+                "server_name": "po.fastbrokencompony.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -155,7 +155,7 @@
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "de-new-1.ariyuz.org"
+                    "Host": "po.fastbrokencompony.com"
                 }
             }
         }

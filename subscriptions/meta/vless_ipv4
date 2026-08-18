@@ -17,10 +17,10 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 56","type":"vless","server":"82.117.87.199","port":4100,"uuid":"2a88091e-e3f8-4478-9751-6ce0557a7f2e","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/v1","headers":{"Host":"live.ok.ru"}}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57","type":"vless","server":"172.67.191.52","port":2053,"uuid":"e7961655-9674-4cbd-a36f-ec0d5d7d660c","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"po.fastbrokencompony.com","ws-opts":{"path":"/","headers":{"Host":"po.fastbrokencompony.com"}}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58","type":"vless","server":"104.16.62.25","port":443,"uuid":"03707fb7-0990-440f-88f6-b0e0f7242a38","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"de-new-1.ariyuz.org","ws-opts":{"path":"/","headers":{"Host":"104.16.62.25"}}}
-  - {"name":"🇸🇬 SG | 🟢 | vless | @NamiraConfigs | 59","type":"vless","server":"45.8.211.57","port":443,"uuid":"03707fb7-0990-440f-88f6-b0e0f7242a38","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"de-new-1.ariyuz.org","ws-opts":{"path":"/","headers":{"Host":"45.8.211.57"}}}
+  - {"name":"🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 56","type":"vless","server":"65.109.12.58","port":2053,"uuid":"c7e9c591-2764-423a-afca-efbd010fd396","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"forfreeuse.rtqa.ru","ws-opts":{"path":"/","headers":{"Host":"forfreeuse.rtqa.ru"}}}
+  - {"name":"🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 57","type":"vless","server":"104.18.11.118","port":8880,"uuid":"17b2ed22-5fd0-47ad-b5f0-658379379ced","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/pyip=ProxyIP.KR.CMLiussss.net","headers":{"Host":"black-wildflower-dd92.72-1e8.workers.dev"}}}
+  - {"name":"🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 59","type":"vless","server":"82.117.87.199","port":4100,"uuid":"2a88091e-e3f8-4478-9751-6ce0557a7f2e","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/v1","headers":{"Host":"live.ok.ru"}}}
+  - {"name":"🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 60","type":"vless","server":"172.67.191.52","port":2053,"uuid":"e7961655-9674-4cbd-a36f-ec0d5d7d660c","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"po.fastbrokencompony.com","ws-opts":{"path":"/","headers":{"Host":"po.fastbrokencompony.com"}}}
 
 rule-providers:
   ir_domains:
@@ -51,28 +51,28 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 56'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58'
-      - '🇸🇬 SG | 🟢 | vless | @NamiraConfigs | 59'
+      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 56'
+      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 57'
+      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 59'
+      - '🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 60'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 56'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58'
-      - '🇸🇬 SG | 🟢 | vless | @NamiraConfigs | 59'
+      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 56'
+      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 57'
+      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 59'
+      - '🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 60'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 56'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58'
-      - '🇸🇬 SG | 🟢 | vless | @NamiraConfigs | 59'
+      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 56'
+      - '🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 57'
+      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 59'
+      - '🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 60'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

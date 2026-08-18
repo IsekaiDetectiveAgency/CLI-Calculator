@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇸🇬 SG | 🟢 | vless | @NamiraConfigs | 59","type":"vless","server":"45.8.211.57","port":443,"uuid":"03707fb7-0990-440f-88f6-b0e0f7242a38","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"de-new-1.ariyuz.org","ws-opts":{"path":"/","headers":{"Host":"45.8.211.57"}}}
+  - {"name":"🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 60","type":"vless","server":"172.67.191.52","port":2053,"uuid":"e7961655-9674-4cbd-a36f-ec0d5d7d660c","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"po.fastbrokencompony.com","ws-opts":{"path":"/","headers":{"Host":"po.fastbrokencompony.com"}}}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇸🇬 SG | 🟢 | vless | @NamiraConfigs | 59'
+      - '🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 60'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇸🇬 SG | 🟢 | vless | @NamiraConfigs | 59'
+      - '🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 60'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇸🇬 SG | 🟢 | vless | @NamiraConfigs | 59'
+      - '🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 60'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
