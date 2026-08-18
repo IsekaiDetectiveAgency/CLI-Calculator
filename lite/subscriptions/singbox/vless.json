@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 60"
+                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 59"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 60"
+                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 59"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,27 +135,18 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 60",
+            "tag": "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 59",
             "type": "vless",
-            "server": "172.67.191.52",
-            "server_port": 2053,
-            "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c",
+            "server": "82.117.87.199",
+            "server_port": 4100,
+            "uuid": "2a88091e-e3f8-4478-9751-6ce0557a7f2e",
             "flow": "",
             "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "po.fastbrokencompony.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/v1",
                 "headers": {
-                    "Host": "po.fastbrokencompony.com"
+                    "Host": "82.117.87.199"
                 }
             }
         }

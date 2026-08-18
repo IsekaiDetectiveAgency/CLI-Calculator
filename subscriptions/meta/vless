@@ -17,10 +17,10 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
+  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 55","type":"vless","server":"188.241.241.37","port":2053,"uuid":"c7e9c591-2764-423a-afca-efbd010fd396","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"forfreeuse.rtqa.ru","ws-opts":{"path":"/","headers":{"Host":"forfreeuse.rtqa.ru"}}}
   - {"name":"🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 56","type":"vless","server":"65.109.12.58","port":2053,"uuid":"c7e9c591-2764-423a-afca-efbd010fd396","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"forfreeuse.rtqa.ru","ws-opts":{"path":"/","headers":{"Host":"forfreeuse.rtqa.ru"}}}
   - {"name":"🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57","type":"vless","server":"104.18.11.118","port":8880,"uuid":"17b2ed22-5fd0-47ad-b5f0-658379379ced","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/pyip=ProxyIP.KR.CMLiussss.net","headers":{"Host":"black-wildflower-dd92.72-1e8.workers.dev"}}}
   - {"name":"🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 59","type":"vless","server":"82.117.87.199","port":4100,"uuid":"2a88091e-e3f8-4478-9751-6ce0557a7f2e","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/v1","headers":{"Host":"live.ok.ru"}}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 60","type":"vless","server":"172.67.191.52","port":2053,"uuid":"e7961655-9674-4cbd-a36f-ec0d5d7d660c","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"po.fastbrokencompony.com","ws-opts":{"path":"/","headers":{"Host":"po.fastbrokencompony.com"}}}
   - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58","type":"vless","server":"purple-butterfly-8496.erfannull36.workers.dev","port":443,"uuid":"29fb68bb-ff05-4fd4-8393-cc6c05d81a79","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/","headers":{"Host":"purple-butterfly-8496.erfannull36.workers.dev"}}}
 
 rule-providers:
@@ -52,10 +52,10 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 55'
       - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 56'
       - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57'
       - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 59'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 60'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58'
 
   - name: 📉 Fallback
@@ -63,19 +63,19 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 55'
       - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 56'
       - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57'
       - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 59'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 60'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58'
       
   - name: All-Proxies
     type: select
     proxies:
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 55'
       - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 56'
       - '🇺🇸 US | 🔴 | vless | @NamiraConfigs | 57'
       - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 59'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 60'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58'
 
 rules:
