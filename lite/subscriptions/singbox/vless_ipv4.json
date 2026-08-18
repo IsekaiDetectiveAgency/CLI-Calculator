@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 54"
+                "🇸🇬 SG | 🟢 | vless | @NamiraConfigs | 54"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 54"
+                "🇸🇬 SG | 🟢 | vless | @NamiraConfigs | 54"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,13 +135,29 @@
             "type": "dns"
         },
         {
-            "tag": "🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 54",
+            "tag": "🇸🇬 SG | 🟢 | vless | @NamiraConfigs | 54",
             "type": "vless",
-            "server": "94.237.124.107",
-            "server_port": 3389,
-            "uuid": "d024662a-397e-4fac-9643-8b7939e6bf33",
+            "server": "45.8.211.57",
+            "server_port": 443,
+            "uuid": "03707fb7-0990-440f-88f6-b0e0f7242a38",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "de-new-1.ariyuz.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "de-new-1.ariyuz.org"
+                }
+            }
         }
     ],
     "route": {
