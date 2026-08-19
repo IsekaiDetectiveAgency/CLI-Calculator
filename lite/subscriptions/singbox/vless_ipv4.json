@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 58"
+                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 56"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 58"
+                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 56"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,18 +135,20 @@
             "type": "dns"
         },
         {
-            "tag": "🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 58",
+            "tag": "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 56",
             "type": "vless",
-            "server": "82.117.87.199",
-            "server_port": 4100,
-            "uuid": "2a88091e-e3f8-4478-9751-6ce0557a7f2e",
-            "flow": "",
+            "server": "162.19.10.99",
+            "server_port": 443,
+            "uuid": "e8b1500b-e9e8-5492-8312-f4eadf7d0767",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/v1",
-                "headers": {
-                    "Host": "82.117.87.199"
+            "tls": {
+                "enabled": true,
+                "server_name": "nasnet-162191099-direct.mbghalibaf.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         }

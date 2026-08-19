@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 58","type":"vless","server":"82.117.87.199","port":4100,"uuid":"2a88091e-e3f8-4478-9751-6ce0557a7f2e","tls":false,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/v1","headers":{"Host":"live.ok.ru"}}}
+
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 58'
+
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 58'
+
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 58'
+
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
