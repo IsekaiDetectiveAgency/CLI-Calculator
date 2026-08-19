@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 58"
+                "🇵🇱 PL | 🔴 | vless | @NamiraConfigs | 58"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 58"
+                "🇵🇱 PL | 🔴 | vless | @NamiraConfigs | 58"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,29 +135,13 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦 CA | 🟢 | vless | @NamiraConfigs | 58",
+            "tag": "🇵🇱 PL | 🔴 | vless | @NamiraConfigs | 58",
             "type": "vless",
-            "server": "172.67.161.109",
-            "server_port": 443,
-            "uuid": "13da3f61-36bc-4f4f-9b49-4152de570bd3",
+            "server": "168.222.49.215",
+            "server_port": 16089,
+            "uuid": "9a85fe34-213a-43ef-acbd-bb84552302f3",
             "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "1-m14.aYUTTHAYa-1.KdNs.Fr",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/awsDCktnglce5OhBQMBK8JLBwh2V",
-                "headers": {
-                    "Host": "1-m14.aYUTTHAYa-1.KdNs.Fr"
-                }
-            }
+            "packet_encoding": "xudp"
         }
     ],
     "route": {
