@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65"
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 66"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65"
+                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 66"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,18 +135,18 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦 CA | 🔴 | vless | @NamiraConfigs | 65",
+            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 66",
             "type": "vless",
-            "server": "millionaire.levikogjgfdd.ir",
-            "server_port": 8880,
-            "uuid": "7db9bcc1-78f1-455d-944b-3363b867e670",
+            "server": "usejh2.neobo-tooth.ru",
+            "server_port": 2096,
+            "uuid": "70e20b2e-3b1f-4c25-9a3d-9240570391bb",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/pyip=ProxyIP.SG.CMLiussss.net",
+                "path": "/",
                 "headers": {
-                    "Host": "millionaire.levikogjgfdd.ir"
+                    "Host": "usejh2.neobo-tooth.ru"
                 }
             }
         }
