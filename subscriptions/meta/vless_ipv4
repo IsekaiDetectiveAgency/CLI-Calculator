@@ -17,8 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 55","type":"vless","server":"129.121.95.159","port":443,"uuid":"f6190ff2-864c-46cf-ac16-93908c069b75","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/connect","headers":{"Host":"129.121.95.159"}}}
-  - {"name":"🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 56","type":"vless","server":"177.3.212.127","port":8443,"uuid":"14da77da-4fb3-4e49-ac4f-7881ea19b267","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"neth6.lckdwn.ru"}
+  - {"name":"🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 56","type":"vless","server":"129.121.95.159","port":443,"uuid":"f6190ff2-864c-46cf-ac16-93908c069b75","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"ws-opts":{"path":"/connect","headers":{"Host":"129.121.95.159"}}}
+  - {"name":"🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 57","type":"vless","server":"177.3.212.127","port":8443,"uuid":"14da77da-4fb3-4e49-ac4f-7881ea19b267","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"neth6.lckdwn.ru"}
 
 rule-providers:
   ir_domains:
@@ -49,22 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 55'
-      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 56'
+      - '🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 56'
+      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 57'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 55'
-      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 56'
+      - '🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 56'
+      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 57'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 55'
-      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 56'
+      - '🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 56'
+      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 57'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

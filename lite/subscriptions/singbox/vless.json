@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 58"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 59"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 58"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 59"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,13 +135,22 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 58",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 59",
             "type": "vless",
-            "server": "94.237.93.20",
-            "server_port": 33651,
-            "uuid": "99d6bdee-1d04-455e-8ad9-43fc14b544b4",
+            "server": "react.dev",
+            "server_port": 443,
+            "uuid": "c0899a53-cc3b-4066-a3b4-d6d07b4853ee",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "react.dev",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         }
     ],
     "route": {
