@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 66","type":"vless","server":"finite-node.rtxconfigz.com","port":443,"uuid":"25f3beef-a4b6-40bc-aa74-17a0f89f683c","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"finite-node.rtxconfigz.com","ws-opts":{"path":"/","headers":{"Host":"telegram.us"}}}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66","type":"vless","server":"xn-de.dbsll.ir","port":20017,"uuid":"d2733ae6-44e7-4b14-8c2d-3f5bef74cdec","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 66'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 66'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 66'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
