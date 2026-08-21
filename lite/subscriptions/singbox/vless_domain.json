@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 66"
+                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 66"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 66"
+                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 66"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,18 +135,27 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 66",
+            "tag": "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 66",
             "type": "vless",
-            "server": "usejh2.neobo-tooth.ru",
-            "server_port": 2096,
-            "uuid": "70e20b2e-3b1f-4c25-9a3d-9240570391bb",
+            "server": "finite-node.rtxconfigz.com",
+            "server_port": 443,
+            "uuid": "25f3beef-a4b6-40bc-aa74-17a0f89f683c",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "finite-node.rtxconfigz.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
                 "path": "/",
                 "headers": {
-                    "Host": "usejh2.neobo-tooth.ru"
+                    "Host": "finite-node.rtxconfigz.com"
                 }
             }
         }
