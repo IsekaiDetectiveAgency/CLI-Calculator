@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 57","type":"vless","server":"cpanel.linux-panel.com","port":2044,"uuid":"bf885c93-bec5-4175-a17f-3b038a92f2e3","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 57","type":"vless","server":"cpanel.linux-panel.com","port":2044,"uuid":"bf885c93-bec5-4175-a17f-3b038a92f2e3","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
   - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58","type":"vless","server":"k2.cloud--vpn.site","port":443,"uuid":"b4b3b4e3-5b3c-48f7-800a-ce69aeb25c51","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"ssl.fastly.com","ws-opts":{"path":"/","headers":{"Host":"c12.com"}}}
   - {"name":"🇮🇹 IT | 🟢 | vless | @NamiraConfigs | 59","type":"vless","server":"it2ws.wba-pn.ru","port":443,"uuid":"2b622609-bb92-49e8-9631-4ada00324f47","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"it2ws.wba-pn.ru","ws-opts":{"path":"/","headers":{"Host":"it2ws.wba-pn.ru"}}}
   - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 61","type":"vless","server":"172.67.191.52","port":2053,"uuid":"e7961655-9674-4cbd-a36f-ec0d5d7d660c","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"po.fastbrokencompony.com","ws-opts":{"path":"/","headers":{"Host":"po.fastbrokencompony.com"}}}
@@ -51,7 +51,7 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 57'
+      - '🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 57'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58'
       - '🇮🇹 IT | 🟢 | vless | @NamiraConfigs | 59'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 61'
@@ -61,7 +61,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 57'
+      - '🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 57'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58'
       - '🇮🇹 IT | 🟢 | vless | @NamiraConfigs | 59'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 61'
@@ -69,7 +69,7 @@ proxy-groups:
   - name: All-Proxies
     type: select
     proxies:
-      - '🇹🇷 TR | 🔴 | vless | @NamiraConfigs | 57'
+      - '🇱🇻 LV | 🔴 | vless | @NamiraConfigs | 57'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58'
       - '🇮🇹 IT | 🟢 | vless | @NamiraConfigs | 59'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 61'
