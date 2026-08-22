@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,13 +135,29 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 66",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62",
             "type": "vless",
-            "server": "xn-de.dbsll.ir",
-            "server_port": 20017,
-            "uuid": "d2733ae6-44e7-4b14-8c2d-3f5bef74cdec",
+            "server": "irhub-production.up.railway.app",
+            "server_port": 443,
+            "uuid": "5502dc8c-1939-aa92-9436-9b8d28bb48ee",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "irhub-production.up.railway.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/ws/5502dc8c-1939-aa92-9436-9b8d28bb48ee",
+                "headers": {
+                    "Host": "irhub-production.up.railway.app"
+                }
+            }
         }
     ],
     "route": {
