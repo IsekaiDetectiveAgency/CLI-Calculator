@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,7 +135,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 62",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 63",
             "type": "vless",
             "server": "irhub-production.up.railway.app",
             "server_port": 443,
