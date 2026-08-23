@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51"
+                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 64"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51"
+                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 64"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,25 +135,25 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @Fr33C0nfig | 51",
+            "tag": "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 64",
             "type": "vless",
-            "server": "usa.multiapvps.ir",
-            "server_port": 4434,
-            "uuid": "32b67990-fb70-457f-8f02-c7c62e4156ca",
+            "server": "sos2.speedit.ir",
+            "server_port": 443,
+            "uuid": "bb65d1fa-f051-4e59-834c-92476bfb5e76",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "docker.com",
+                "server_name": "www.cloudflare.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "LXS3vBxlhdHViwhW3PRdxxF8yB6FJhghGElRW9wkQRg",
-                    "short_id": ""
+                    "public_key": "cAxXNYa_hg_WJxa5jRWupnQf9J-OfShX0tqXvpWeZVc",
+                    "short_id": "203afac07a"
                 }
             }
         }

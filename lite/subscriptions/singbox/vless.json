@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 64"
+                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 64"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 64"
+                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 64"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,13 +135,27 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 64",
+            "tag": "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 64",
             "type": "vless",
-            "server": "63.183.163.238",
-            "server_port": 22222,
-            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "sos2.speedit.ir",
+            "server_port": 443,
+            "uuid": "bb65d1fa-f051-4e59-834c-92476bfb5e76",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cAxXNYa_hg_WJxa5jRWupnQf9J-OfShX0tqXvpWeZVc",
+                    "short_id": "203afac07a"
+                }
+            }
         }
     ],
     "route": {
