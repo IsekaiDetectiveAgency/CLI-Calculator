@@ -18,7 +18,7 @@ dns:
 
 proxies:
   - {"name":"🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 59","type":"vless","server":"tapsi-mall.topdigit.ir","port":34769,"uuid":"81a5be1e-aa3c-4c50-83c1-885050d8b880","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🏳️  | 🟢 | vless | @NamiraConfigs | 61","type":"vless","server":"gr2.levikogjgfdd.ir","port":443,"uuid":"25f3beef-a4b6-40bc-aa74-17a0f89f683c","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"finite-node.rtxconfigz.com","ws-opts":{"path":"/","headers":{"Host":"telegram.us"}}}
+  - {"name":"🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 61","type":"vless","server":"gr2.levikogjgfdd.ir","port":443,"uuid":"25f3beef-a4b6-40bc-aa74-17a0f89f683c","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"finite-node.rtxconfigz.com","ws-opts":{"path":"/","headers":{"Host":"telegram.us"}}}
 
 rule-providers:
   ir_domains:
@@ -50,7 +50,7 @@ proxy-groups:
     tolerance: 50 
     proxies:
       - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 59'
-      - '🏳️  | 🟢 | vless | @NamiraConfigs | 61'
+      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 61'
 
   - name: 📉 Fallback
     type: fallback
@@ -58,13 +58,13 @@ proxy-groups:
     interval: 300
     proxies:
       - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 59'
-      - '🏳️  | 🟢 | vless | @NamiraConfigs | 61'
+      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 61'
       
   - name: All-Proxies
     type: select
     proxies:
       - '🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 59'
-      - '🏳️  | 🟢 | vless | @NamiraConfigs | 61'
+      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 61'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
