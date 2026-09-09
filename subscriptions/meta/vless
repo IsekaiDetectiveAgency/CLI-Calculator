@@ -17,11 +17,11 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58","type":"vless","server":"hphphphph-production.up.railway.app","port":443,"uuid":"869a7792-7f60-43fb-bfaf-1510ec7bb719","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"hphphphph-production.up.railway.app","ws-opts":{"path":"/ws/vless/869a7792-7f60-43fb-bfaf-1510ec7bb719?ed=2048","headers":{"Host":"hphphphph-production.up.railway.app"}}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 59","type":"vless","server":"69.46.46.4","port":443,"uuid":"869a7792-7f60-43fb-bfaf-1510ec7bb719","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"hphphphph-production.up.railway.app","ws-opts":{"path":"/ws/vless/869a7792-7f60-43fb-bfaf-1510ec7bb719?ed=2048","headers":{"Host":"hphphphph-production.up.railway.app"}}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 60","type":"vless","server":"69.46.46.5","port":443,"uuid":"f5507df1-ba48-4dea-aba1-d3770aac4e1d","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"web-production-7bd3d.up.railway.app","ws-opts":{"path":"/ws/vless/f5507df1-ba48-4dea-aba1-d3770aac4e1d?ed=2048","headers":{"Host":"web-production-7bd3d.up.railway.app"}}}
-  - {"name":"🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 61","type":"vless","server":"89.19.223.136","port":443,"uuid":"22419260-5475-49d8-a29c-01905c54d1b8","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 62","type":"vless","server":"5.160.132.5","port":47686,"uuid":"b7a70451-ea5e-43c4-af92-11075a950dca","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56","type":"vless","server":"hphphphph-production.up.railway.app","port":443,"uuid":"869a7792-7f60-43fb-bfaf-1510ec7bb719","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"hphphphph-production.up.railway.app","ws-opts":{"path":"/ws/vless/869a7792-7f60-43fb-bfaf-1510ec7bb719?ed=2048","headers":{"Host":"hphphphph-production.up.railway.app"}}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57","type":"vless","server":"69.46.46.4","port":443,"uuid":"869a7792-7f60-43fb-bfaf-1510ec7bb719","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"hphphphph-production.up.railway.app","ws-opts":{"path":"/ws/vless/869a7792-7f60-43fb-bfaf-1510ec7bb719?ed=2048","headers":{"Host":"hphphphph-production.up.railway.app"}}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58","type":"vless","server":"69.46.46.5","port":443,"uuid":"f5507df1-ba48-4dea-aba1-d3770aac4e1d","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"web-production-7bd3d.up.railway.app","ws-opts":{"path":"/ws/vless/f5507df1-ba48-4dea-aba1-d3770aac4e1d?ed=2048","headers":{"Host":"web-production-7bd3d.up.railway.app"}}}
+  - {"name":"🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 59","type":"vless","server":"89.19.223.136","port":443,"uuid":"22419260-5475-49d8-a29c-01905c54d1b8","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 60","type":"vless","server":"5.160.132.5","port":47686,"uuid":"b7a70451-ea5e-43c4-af92-11075a950dca","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -52,31 +52,31 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 59'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 60'
-      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 61'
-      - '🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 62'
+      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 59'
+      - '🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 60'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 59'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 60'
-      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 61'
-      - '🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 62'
+      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 59'
+      - '🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 60'
       
   - name: All-Proxies
     type: select
     proxies:
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 56'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 57'
       - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 58'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 59'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 60'
-      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 61'
-      - '🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 62'
+      - '🇷🇺 RU | 🔴 | vless | @NamiraConfigs | 59'
+      - '🇮🇷 IR | 🔴 | vless | @NamiraConfigs | 60'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
