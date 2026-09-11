@@ -9,12 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-❔ XX | 🔴 | vmess | @NamiraConfigs | 41 = vmess, tun-1.veraspeed.ir, 1003, username = 8605b8dd-5b4c-4f2f-96c1-a01495cbc37e, ws = false, tls = false
+🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 39 = vmess, 57.129.132.223, 80, username = a25cbf11-2908-4a1b-a3a8-9a571777dca3, ws = true, tls = false, ws-path = /vmess/, ws-headers = Host:"google.com"
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🔴 | vmess | @NamiraConfigs | 41
-PSG-AUTO = url-test, ❔ XX | 🔴 | vmess | @NamiraConfigs | 41
-PSG-FALLBACK = fallback, ❔ XX | 🔴 | vmess | @NamiraConfigs | 41
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 39
+PSG-AUTO = url-test, 🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 39
+PSG-FALLBACK = fallback, 🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 39
 
 [Rule]
 GEOIP,IR,DIRECT
