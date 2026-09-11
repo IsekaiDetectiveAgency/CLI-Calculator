@@ -17,8 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 54","type":"vmess","server":"82.198.246.97","port":180,"cipher":"auto","uuid":"d13fc2f5-3e05-4795-81eb-44143a09e552","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 55","type":"vmess","server":"74.211.102.179","port":20001,"cipher":"auto","uuid":"7f5f0705-3dfb-4f56-9657-c95cade2ba83","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇹🇷 TR | 🔴 | vmess | @NamiraConfigs | 38","type":"vmess","server":"188.132.232.85","port":2086,"cipher":"auto","uuid":"f6361af8-bb8f-4609-bf5d-3fc0f688f47b","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 40","type":"vmess","server":"snnsjsowowiwueieyeye.sobu.ir","port":40864,"cipher":"auto","uuid":"4a9a2ec3-91f4-46ed-a647-0a092bf4b6a3","alterId":"0","tls":false,"skip-cert-verify":true,"network":"xhttp"}
 
 rule-providers:
   ir_domains:
@@ -49,22 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 54'
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 55'
+      - '🇹🇷 TR | 🔴 | vmess | @NamiraConfigs | 38'
+      - '🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 40'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 54'
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 55'
+      - '🇹🇷 TR | 🔴 | vmess | @NamiraConfigs | 38'
+      - '🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 40'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 54'
-      - '🇺🇸 US | 🔴 | vmess | @NamiraConfigs | 55'
+      - '🇹🇷 TR | 🔴 | vmess | @NamiraConfigs | 38'
+      - '🇫🇮 FI | 🔴 | vmess | @NamiraConfigs | 40'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

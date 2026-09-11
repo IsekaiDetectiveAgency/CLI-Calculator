@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 46"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 46"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,13 +135,29 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇷 FR | 🔴 | vless | @NamiraConfigs | 46",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42",
             "type": "vless",
-            "server": "15.188.69.42",
-            "server_port": 22222,
-            "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+            "server": "172.67.217.10",
+            "server_port": 443,
+            "uuid": "bfea31b5-371b-48d9-a9fa-4767ed6a5973",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "bluerocketway-bcc.lat",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/jetiona",
+                "headers": {
+                    "Host": "bluerocketway-bcc.lat"
+                }
+            }
         }
     ],
     "route": {
