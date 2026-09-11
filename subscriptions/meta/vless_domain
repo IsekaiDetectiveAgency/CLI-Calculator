@@ -17,8 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"❔ XX | 🔴 | vless | @NamiraConfigs | 54","type":"vless","server":"turk.mamadhpbot.ir","port":50118,"uuid":"93ee032f-b67f-4cac-a239-da1295aec528","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55","type":"vless","server":"germanndnew.mamadhpbot.ir","port":50118,"uuid":"93ee032f-b67f-4cac-a239-da1295aec528","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42","type":"vless","server":"spiderpanel-production-aedc.up.railway.app","port":443,"uuid":"b9724ecb-a72d-41e6-be9d-86d64fed9204","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"spiderpanel-production-aedc.up.railway.app","ws-opts":{"path":"/ws/b9724ecb-a72d-41e6-be9d-86d64fed9204","headers":{"Host":"spiderpanel-production-aedc.up.railway.app"}}}
 
 rule-providers:
   ir_domains:
@@ -49,22 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '❔ XX | 🔴 | vless | @NamiraConfigs | 54'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '❔ XX | 🔴 | vless | @NamiraConfigs | 54'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '❔ XX | 🔴 | vless | @NamiraConfigs | 54'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
