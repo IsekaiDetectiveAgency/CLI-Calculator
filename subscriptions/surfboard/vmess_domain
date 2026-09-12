@@ -10,11 +10,12 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 42 = vmess, 47.244.120.197, 23026, username = b9de1bc9-baa7-41ac-86f7-ccd59695cb21, ws = true, tls = false, ws-path = /arki, ws-headers = Host:""
+🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 43 = vmess, 47.244.120.197, 23026, username = b9de1bc9-baa7-41ac-86f7-ccd59695cb21, ws = true, tls = false, ws-path = /arki, ws-headers = Host:""
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 42
-PSG-AUTO = url-test, 🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 42
-PSG-FALLBACK = fallback, 🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 42
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 42, 🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 43
+PSG-AUTO = url-test, 🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 42, 🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 43
+PSG-FALLBACK = fallback, 🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 42, 🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 43
 
 [Rule]
 GEOIP,IR,DIRECT

@@ -18,7 +18,8 @@ dns:
 
 proxies:
   - {"name":"🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 42","type":"vmess","server":"47.244.120.197","port":23026,"cipher":"auto","uuid":"b9de1bc9-baa7-41ac-86f7-ccd59695cb21","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/arki","headers":{"Host":""}}}
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44","type":"vless","server":"91.107.179.8","port":15003,"uuid":"69d8dc73-20ff-4241-bdd8-a9d6d07553b6","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 43","type":"vmess","server":"47.244.120.197","port":23026,"cipher":"auto","uuid":"b9de1bc9-baa7-41ac-86f7-ccd59695cb21","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/arki","headers":{"Host":""}}}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 45","type":"vless","server":"91.107.179.8","port":15003,"uuid":"69d8dc73-20ff-4241-bdd8-a9d6d07553b6","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -50,7 +51,8 @@ proxy-groups:
     tolerance: 50 
     proxies:
       - '🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 42'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44'
+      - '🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 43'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 45'
 
   - name: 📉 Fallback
     type: fallback
@@ -58,13 +60,15 @@ proxy-groups:
     interval: 300
     proxies:
       - '🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 42'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44'
+      - '🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 43'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 45'
       
   - name: All-Proxies
     type: select
     proxies:
       - '🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 42'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44'
+      - '🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 43'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 45'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
