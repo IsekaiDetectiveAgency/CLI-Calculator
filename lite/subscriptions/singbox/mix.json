@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 43"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 43"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,7 +135,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 43",
             "type": "vless",
             "server": "1.spotify24.ir",
             "server_port": 8080,

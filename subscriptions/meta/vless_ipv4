@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇬🇷 GR | 🔴 | vless | @NamiraConfigs | 43","type":"vless","server":"185.126.238.87","port":2083,"uuid":"7668f678-faee-40cc-9b56-9c39dc773388","tls":false,"network":"grpc","client-fingerprint":"chrome","udp":true,"grpc-opts":{"grpc-service-name":"security.debian.org"}}
+  - {"name":"🇬🇷 GR | 🔴 | vless | @NamiraConfigs | 42","type":"vless","server":"185.126.238.87","port":2083,"uuid":"7668f678-faee-40cc-9b56-9c39dc773388","tls":false,"network":"grpc","client-fingerprint":"chrome","udp":true,"grpc-opts":{"grpc-service-name":"security.debian.org"}}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇬🇷 GR | 🔴 | vless | @NamiraConfigs | 43'
+      - '🇬🇷 GR | 🔴 | vless | @NamiraConfigs | 42'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇬🇷 GR | 🔴 | vless | @NamiraConfigs | 43'
+      - '🇬🇷 GR | 🔴 | vless | @NamiraConfigs | 42'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇬🇷 GR | 🔴 | vless | @NamiraConfigs | 43'
+      - '🇬🇷 GR | 🔴 | vless | @NamiraConfigs | 42'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
