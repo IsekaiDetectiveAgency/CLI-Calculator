@@ -9,12 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 39 = vmess, 57.129.132.223, 80, username = a25cbf11-2908-4a1b-a3a8-9a571777dca3, ws = true, tls = false, ws-path = /vmess/, ws-headers = Host:"google.com"
+🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 40 = vmess, newrelax.relaxedboy.online, 110, username = 8e9687fc-a3a7-414a-8676-8e2136797cfe, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 39
-PSG-AUTO = url-test, 🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 39
-PSG-FALLBACK = fallback, 🇬🇧 GB | 🔴 | vmess | @NamiraConfigs | 39
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 40
+PSG-AUTO = url-test, 🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 40
+PSG-FALLBACK = fallback, 🇩🇪 DE | 🔴 | vmess | @NamiraConfigs | 40
 
 [Rule]
 GEOIP,IR,DIRECT
