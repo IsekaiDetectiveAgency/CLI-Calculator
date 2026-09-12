@@ -17,9 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 41","type":"vless","server":"ww6.levikogjgfdd.ir","port":443,"uuid":"cf990ae8-ee77-4436-aa3a-bbc2fb040c53","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 43","type":"vless","server":"1.spotify24.ir","port":8080,"uuid":"034be838-d28a-4bdb-9116-cedfc244359b","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
-  - {"name":"🇬🇷 GR | 🔴 | vless | @NamiraConfigs | 42","type":"vless","server":"185.126.238.87","port":2083,"uuid":"7668f678-faee-40cc-9b56-9c39dc773388","tls":false,"network":"grpc","client-fingerprint":"chrome","udp":true,"grpc-opts":{"grpc-service-name":"security.debian.org"}}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44","type":"vless","server":"91.107.179.8","port":15003,"uuid":"69d8dc73-20ff-4241-bdd8-a9d6d07553b6","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -50,25 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 41'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 43'
-      - '🇬🇷 GR | 🔴 | vless | @NamiraConfigs | 42'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 41'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 43'
-      - '🇬🇷 GR | 🔴 | vless | @NamiraConfigs | 42'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 41'
-      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 43'
-      - '🇬🇷 GR | 🔴 | vless | @NamiraConfigs | 42'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
