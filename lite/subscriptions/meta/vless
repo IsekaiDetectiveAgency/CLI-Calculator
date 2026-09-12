@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42","type":"vless","server":"172.67.217.10","port":443,"uuid":"bfea31b5-371b-48d9-a9fa-4767ed6a5973","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"bluerocketway-bcc.lat","ws-opts":{"path":"/jetiona","headers":{"Host":"bluerocketway-bcc.lat"}}}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44","type":"vless","server":"1.spotify24.ir","port":8080,"uuid":"034be838-d28a-4bdb-9116-cedfc244359b","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 42'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

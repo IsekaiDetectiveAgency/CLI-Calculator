@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55"
+                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,11 +135,11 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55",
+            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 44",
             "type": "vless",
-            "server": "germanndnew.mamadhpbot.ir",
-            "server_port": 50118,
-            "uuid": "93ee032f-b67f-4cac-a239-da1295aec528",
+            "server": "1.spotify24.ir",
+            "server_port": 8080,
+            "uuid": "034be838-d28a-4bdb-9116-cedfc244359b",
             "flow": "",
             "packet_encoding": "xudp"
         }
