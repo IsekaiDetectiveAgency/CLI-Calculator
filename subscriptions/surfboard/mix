@@ -9,13 +9,14 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇩🇪 DE | 🟢 | vmess | @NamiraConfigs | 42 = vmess, 212.95.34.195, 443, username = db50a20e-7ff5-4e70-948f-17cc9ca7c154, ws = true, tls = true, ws-path = /api/v1/gpu-stream/socket, ws-headers = Host:"renderer-stream-2-62.mirra.now"
+🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 43 = vmess, 47.244.120.197, 23026, username = b9de1bc9-baa7-41ac-86f7-ccd59695cb21, ws = true, tls = false, ws-path = /arki, ws-headers = Host:""
 🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 44 = vmess, 47.244.120.197, 23026, username = b9de1bc9-baa7-41ac-86f7-ccd59695cb21, ws = true, tls = false, ws-path = /arki, ws-headers = Host:""
-🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 45 = vmess, 47.244.120.197, 23026, username = b9de1bc9-baa7-41ac-86f7-ccd59695cb21, ws = true, tls = false, ws-path = /arki, ws-headers = Host:""
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 44, 🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 45
-PSG-AUTO = url-test, 🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 44, 🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 45
-PSG-FALLBACK = fallback, 🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 44, 🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 45
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🟢 | vmess | @NamiraConfigs | 42, 🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 43, 🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 44
+PSG-AUTO = url-test, 🇩🇪 DE | 🟢 | vmess | @NamiraConfigs | 42, 🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 43, 🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 44
+PSG-FALLBACK = fallback, 🇩🇪 DE | 🟢 | vmess | @NamiraConfigs | 42, 🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 43, 🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 44
 
 [Rule]
 GEOIP,IR,DIRECT
