@@ -17,7 +17,9 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 46","type":"vless","server":"91.107.179.8","port":15003,"uuid":"69d8dc73-20ff-4241-bdd8-a9d6d07553b6","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 46","type":"vless","server":"138.197.190.97","port":443,"uuid":"18f1b94e-35f1-4c7f-953c-7b4681c52339","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 47","type":"vless","server":"161.35.170.229","port":443,"uuid":"18f1b94e-35f1-4c7f-953c-7b4681c52339","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 48","type":"vless","server":"18.169.214.185","port":22222,"uuid":"e4514801-0d5a-42ba-869f-39bd605aef9e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -49,6 +51,8 @@ proxy-groups:
     tolerance: 50 
     proxies:
       - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 46'
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 47'
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 48'
 
   - name: 📉 Fallback
     type: fallback
@@ -56,11 +60,15 @@ proxy-groups:
     interval: 300
     proxies:
       - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 46'
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 47'
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 48'
       
   - name: All-Proxies
     type: select
     proxies:
       - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 46'
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 47'
+      - '🇬🇧 GB | 🔴 | vless | @NamiraConfigs | 48'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
