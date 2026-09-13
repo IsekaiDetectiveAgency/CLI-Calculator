@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 46"
+                "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 49"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 46"
+                "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 49"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,13 +135,20 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 46",
-            "type": "vless",
-            "server": "91.107.179.8",
-            "server_port": 15003,
-            "uuid": "69d8dc73-20ff-4241-bdd8-a9d6d07553b6",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "tag": "🇭🇰 HK | 🔴 | vmess | @NamiraConfigs | 49",
+            "type": "vmess",
+            "server": "47.244.120.197",
+            "server_port": 23026,
+            "uuid": "b9de1bc9-baa7-41ac-86f7-ccd59695cb21",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/arki",
+                "headers": {
+                    "Host": ""
+                }
+            }
         }
     ],
     "route": {
