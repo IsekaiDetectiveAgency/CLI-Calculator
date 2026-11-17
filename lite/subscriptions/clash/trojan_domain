@@ -17,8 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2","type":"trojan","server":"production.tj.ojan.workers.dev","port":443,"password":"9yu6m5okr","skip-cert-verify":false}
-  - {"name":"❔ XX | 🟢 | trojan | @maradona_vpn | 8","type":"trojan","server":"maradona_vpn.history-paint.art","port":443,"password":"Maradona_vpn","skip-cert-verify":false}
+  - {"name":"🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 54","type":"trojan","server":"pationgfdder-production.up.railway.app","port":443,"password":"5rHKGD3yFVHXNW6L","skip-cert-verify":false}
 
 rule-providers:
   ir_domains:
@@ -49,22 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2'
-      - '❔ XX | 🟢 | trojan | @maradona_vpn | 8'
+      - '🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 54'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2'
-      - '❔ XX | 🟢 | trojan | @maradona_vpn | 8'
+      - '🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 54'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2'
-      - '❔ XX | 🟢 | trojan | @maradona_vpn | 8'
+      - '🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 54'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

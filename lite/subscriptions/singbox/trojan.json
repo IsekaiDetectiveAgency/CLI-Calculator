@@ -105,34 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
-                "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇩🇪 DE | 🟢 | trojan | @directvpn | 13",
-                "🇺🇸 US | 🟢 | trojan | @freevpnatm | 17",
-                "🇫🇷 FR | 🟢 | trojan | @ip_cf_config | 13",
-                "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
-                "🇺🇸 US | 🟢 | trojan | @orange_vpns | 17",
-                "🇩🇪 DE | 🟢 | trojan | @privatevpns | 13",
-                "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
-                "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14",
-                "🇺🇸 US | 🟢 | trojan | @webhube | 4"
+                "🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 54"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
-                "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-                "🇩🇪 DE | 🟢 | trojan | @directvpn | 13",
-                "🇺🇸 US | 🟢 | trojan | @freevpnatm | 17",
-                "🇫🇷 FR | 🟢 | trojan | @ip_cf_config | 13",
-                "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
-                "🇺🇸 US | 🟢 | trojan | @orange_vpns | 17",
-                "🇩🇪 DE | 🟢 | trojan | @privatevpns | 13",
-                "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
-                "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14",
-                "🇺🇸 US | 🟢 | trojan | @webhube | 4"
+                "🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 54"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -155,14 +135,14 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
+            "tag": "🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 54",
             "type": "trojan",
-            "server": "production.tj.ojan.workers.dev",
+            "server": "pationgfdder-production.up.railway.app",
             "server_port": 443,
-            "password": "9yu6m5okr",
+            "password": "5rHKGD3yFVHXNW6L",
             "tls": {
                 "enabled": true,
-                "server_name": "production.tj.ojan.workers.dev",
+                "server_name": "pationgfdder-production.up.railway.app",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -171,198 +151,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/api/uBwwBj",
                 "headers": {
-                    "Host": "production.tj.ojan.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-            "type": "trojan",
-            "server": "maradona_vpn.history-paint.art",
-            "server_port": 443,
-            "password": "Maradona_vpn",
-            "tls": {
-                "enabled": true,
-                "server_name": "teo.history-paint.art",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "grpc20337"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | trojan | @directvpn | 13",
-            "type": "trojan",
-            "server": "63.178.189.3",
-            "server_port": 22223,
-            "password": "telegram-id-directvpn",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | trojan | @freevpnatm | 17",
-            "type": "trojan",
-            "server": "104.21.77.79",
-            "server_port": 443,
-            "password": "288124da-0d68-42f4-9f48-70dc4dcc55a6",
-            "tls": {
-                "enabled": true,
-                "server_name": "XCdvFgt.986986.sHOP",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "raChT39pjLFYRAO6JLn303d"
-            }
-        },
-        {
-            "tag": "🇫🇷 FR | 🟢 | trojan | @ip_cf_config | 13",
-            "type": "trojan",
-            "server": "51.91.11.29",
-            "server_port": 80,
-            "password": "598c19f3-a48e-47cd-8451-1ba04ea094d0",
-            "tls": {
-                "enabled": true,
-                "server_name": "speedtest.net",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇬 SG | 🟢 | trojan | @mpmehi | 0",
-            "type": "trojan",
-            "server": "146.190.87.238",
-            "server_port": 443,
-            "password": "oZAugtgF5T",
-            "tls": {
-                "enabled": true,
-                "server_name": "aka.ms",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "aka.ms"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | trojan | @orange_vpns | 17",
-            "type": "trojan",
-            "server": "172.67.181.173",
-            "server_port": 443,
-            "password": "f282b878-8711-45a1-8c69-5564172123c1",
-            "tls": {
-                "enabled": true,
-                "server_name": "vpn.stupidworld.web.id",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Stupid-World/103.106.228.126-2053",
-                "headers": {
-                    "Host": "vpn.stupidworld.web.id"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | trojan | @privatevpns | 13",
-            "type": "trojan",
-            "server": "63.178.189.3",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | trojan | @v2rayngconfig | 45",
-            "type": "trojan",
-            "server": "104.149.155.13",
-            "server_port": 443,
-            "password": "79c935c0-27dc-4383-b307-dcac1b8e5509",
-            "tls": {
-                "enabled": true,
-                "server_name": "vzwzasc.cn",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🟢 | trojan | @v2rayvpnchannel | 14",
-            "type": "trojan",
-            "server": "63.178.189.3",
-            "server_port": 22223,
-            "password": "telegram-id-v2rayvpnchannel",
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🟢 | trojan | @webhube | 4",
-            "type": "trojan",
-            "server": "15.204.175.111",
-            "server_port": 2083,
-            "password": "t2WqbIW2JE",
-            "tls": {
-                "enabled": true,
-                "server_name": "usa-vp-111.mETIkaPPs.cOm",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/linkvws",
-                "headers": {
-                    "Host": "usa-vp-111.mETIkaPPs.cOm"
+                    "Host": "pationgfdder-production.up.railway.app"
                 }
             }
         }

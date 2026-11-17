@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52"
+                "🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 54"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52"
+                "🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 54"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,16 +135,14 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52",
-            "type": "vless",
-            "server": "fr-free.fastestrelay.com",
+            "tag": "🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 54",
+            "type": "trojan",
+            "server": "pationgfdder-production.up.railway.app",
             "server_port": 443,
-            "uuid": "364D2D52-E61E-4E52-80EC-2BC6BDF15349",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "password": "5rHKGD3yFVHXNW6L",
             "tls": {
                 "enabled": true,
-                "server_name": "fr-free.fastestrelay.com",
+                "server_name": "pationgfdder-production.up.railway.app",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -153,9 +151,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/700gvl",
+                "path": "/api/uBwwBj",
                 "headers": {
-                    "Host": "fr-free.fastestrelay.com"
+                    "Host": "pationgfdder-production.up.railway.app"
                 }
             }
         }

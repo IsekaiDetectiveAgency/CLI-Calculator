@@ -105,16 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
-                "❔ XX | 🟢 | trojan | @maradona_vpn | 8"
+                "🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 54"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
-                "❔ XX | 🟢 | trojan | @maradona_vpn | 8"
+                "🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 54"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -137,14 +135,14 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | trojan | @cryptoguardvpn | 2",
+            "tag": "🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 54",
             "type": "trojan",
-            "server": "production.tj.ojan.workers.dev",
+            "server": "pationgfdder-production.up.railway.app",
             "server_port": 443,
-            "password": "9yu6m5okr",
+            "password": "5rHKGD3yFVHXNW6L",
             "tls": {
                 "enabled": true,
-                "server_name": "production.tj.ojan.workers.dev",
+                "server_name": "pationgfdder-production.up.railway.app",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -153,30 +151,10 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/api/uBwwBj",
                 "headers": {
-                    "Host": "production.tj.ojan.workers.dev"
+                    "Host": "pationgfdder-production.up.railway.app"
                 }
-            }
-        },
-        {
-            "tag": "❔ XX | 🟢 | trojan | @maradona_vpn | 8",
-            "type": "trojan",
-            "server": "maradona_vpn.history-paint.art",
-            "server_port": 443,
-            "password": "Maradona_vpn",
-            "tls": {
-                "enabled": true,
-                "server_name": "teo.history-paint.art",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "grpc20337"
             }
         }
     ],
