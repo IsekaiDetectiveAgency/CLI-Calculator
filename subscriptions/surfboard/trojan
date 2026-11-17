@@ -9,12 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇩🇪 DE | 🟢 | trojan | @NamiraConfigs | 66 = trojan, on-roughy.shiner427.skin, 443, password = 74260704627805900, skip-cert-verify = false
+🇳🇱 NL | 🟢 | trojan | @NamiraConfigs | 46 = trojan, nexianetwork.anymor.org, 6565, password = og7z59up8iv4afom, skip-cert-verify = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | 🟢 | trojan | @NamiraConfigs | 66
-PSG-AUTO = url-test, 🇩🇪 DE | 🟢 | trojan | @NamiraConfigs | 66
-PSG-FALLBACK = fallback, 🇩🇪 DE | 🟢 | trojan | @NamiraConfigs | 66
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇳🇱 NL | 🟢 | trojan | @NamiraConfigs | 46
+PSG-AUTO = url-test, 🇳🇱 NL | 🟢 | trojan | @NamiraConfigs | 46
+PSG-FALLBACK = fallback, 🇳🇱 NL | 🟢 | trojan | @NamiraConfigs | 46
 
 [Rule]
 GEOIP,IR,DIRECT

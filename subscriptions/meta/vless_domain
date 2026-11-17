@@ -17,7 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49","type":"vless","server":"de.dataroom.cfd","port":2083,"uuid":"3ac26062-7999-4fd5-bd68-447af8f19fe1","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"de.dataroom.cfd","ws-opts":{"path":"/vless","headers":{"Host":"de.dataroom.cfd"}}}
+  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 47","type":"vless","server":"afshin.daltoonserver.ir","port":8989,"uuid":"36079649-5841-485b-ba94-0f7b427db146","tls":true,"network":"xhttp","client-fingerprint":"firefox","udp":true,"servername":"s6-sms-cdn.ecom-stg.samsung.con","reality-opts":{"public-key":"5DVeaUVfUfD6bRT6pMDiRa70i6m1NrNp8tFNS9xf4yo","short-id":"4210c5901a6ba9da"}}
+  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 49","type":"vless","server":"chs.luna-nodes.com","port":443,"uuid":"f0cd939d-966a-4dc9-9454-ea0b4907f3ca","tls":true,"network":"tcp","client-fingerprint":"edge","udp":true,"servername":"www.zalando.de","flow":"xtls-rprx-vision","reality-opts":{"public-key":"GpLubTQ3oydi4lmzzkG14GQLVFZbt8rdSTDy684rkn8","short-id":"5d710a72f5"}}
 
 rule-providers:
   ir_domains:
@@ -48,19 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 47'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 49'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 47'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 49'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 47'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 49'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
