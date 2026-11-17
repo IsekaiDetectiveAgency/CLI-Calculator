@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 48","type":"vless","server":"195.72.62.7","port":443,"uuid":"8197b9b9-8945-460f-99c9-325ef8a8a7c3","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"fexzoo.net","flow":"xtls-rprx-vision","reality-opts":{"public-key":"GQC47B2ZbBygpgJap7Em9lZmCZZkzlckiadXWXlVxGU","short-id":"2a67748b0d641e16"}}
+
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 48'
+
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 48'
+
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 48'
+
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
