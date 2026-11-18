@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50"
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50"
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,25 +135,25 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
+            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55",
             "type": "vless",
-            "server": "alb1.angelsleep9.com",
+            "server": "191.217.254.109",
             "server_port": 443,
-            "uuid": "df97ce68-477f-4484-94c7-79eccab7319d",
+            "uuid": "955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "alb1.angelsleep9.com",
+                "server_name": "timeml.wey-land.net",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "edge"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "tXhsg663V1Ia_YWMtQMWQRaZouyONXknQ16OLMAdFXs",
-                    "short_id": "28ffd89d510a739b"
+                    "public_key": "EoEAz1uDO0SptP_zf4KBh7HyfgbTwBpOidZiNgyQF1M",
+                    "short_id": "05f37a191ec7a2ad"
                 }
             }
         }
