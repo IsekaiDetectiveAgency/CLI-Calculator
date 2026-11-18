@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 63"
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 50"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 63"
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 50"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,16 +135,16 @@
             "type": "dns"
         },
         {
-            "tag": "🇮🇷 IR | 🟢 | vless | @NamiraConfigs | 63",
+            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 50",
             "type": "vless",
-            "server": "sos2.speedit.ir",
-            "server_port": 443,
-            "uuid": "bb65d1fa-f051-4e59-834c-92476bfb5e76",
+            "server": "panel.jorvexo.ir",
+            "server_port": 1152,
+            "uuid": "ef500b05-a5e8-4446-bbe3-cb836cc4fc46",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.cloudflare.com",
+                "server_name": "in.tradingview.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -152,8 +152,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "cAxXNYa_hg_WJxa5jRWupnQf9J-OfShX0tqXvpWeZVc",
-                    "short_id": "203afac07a"
+                    "public_key": "Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE",
+                    "short_id": "ead6bdba606219a2"
                 }
             }
         }

@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52"
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 50"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52"
+                "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 50"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,27 +135,25 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52",
+            "tag": "🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 50",
             "type": "vless",
-            "server": "fr-free.fastestrelay.com",
-            "server_port": 443,
-            "uuid": "364D2D52-E61E-4E52-80EC-2BC6BDF15349",
-            "flow": "",
+            "server": "panel.jorvexo.ir",
+            "server_port": 1152,
+            "uuid": "ef500b05-a5e8-4446-bbe3-cb836cc4fc46",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "fr-free.fastestrelay.com",
+                "server_name": "in.tradingview.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/700gvl",
-                "headers": {
-                    "Host": "fr-free.fastestrelay.com"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE",
+                    "short_id": "ead6bdba606219a2"
                 }
             }
         }

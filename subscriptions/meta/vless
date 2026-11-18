@@ -17,9 +17,10 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 50","type":"vless","server":"static.107.217.233.167.clients.your-server.de","port":8443,"uuid":"fb5a900b-9678-4182-8972-fe8a095ec157","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"static.107.217.233.167.clients.your-server.de","flow":"xtls-rprx-vision"}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52","type":"vless","server":"karemddert-production.up.railway.app","port":443,"uuid":"5ce30b34-b2ca-4651-8600-ad217f62e866","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"karemddert-production.up.railway.app","ws-opts":{"path":"/api/mVNPPb","headers":{"Host":"karemddert-production.up.railway.app"}}}
-  - {"name":"🇱🇺 LU | 🟢 | vless | @NamiraConfigs | 53","type":"vless","server":"subgift.gcorecdn.com","port":443,"uuid":"740b2630-b42d-425c-bacd-37e7e30d78f1","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"subgift.gcorecdn.com","ws-opts":{"path":"/t.me-SubGift","headers":{"Host":"subgift.gcorecdn.com"}}}
+  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48","type":"vless","server":"77.90.47.14","port":8443,"uuid":"483c6187-3c8d-436b-8413-536c2c87b70c","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"badewelt-sinsheim.de","flow":"xtls-rprx-vision","reality-opts":{"public-key":"uWoKxXeFb0l5-mZnpGpoW9lCY4KmOeayGklp2WUNgxA","short-id":"1d151a49"}}
+  - {"name":"🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 47","type":"vless","server":"panel.jorvexo.ir","port":1152,"uuid":"42455d33-3ca0-48f4-afee-1b1b7621adb1","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"in.tradingview.com","reality-opts":{"public-key":"Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE","short-id":"ead6bdba606219a2"}}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49","type":"vless","server":"fb73e849da5c3163.bluebleu.ir","port":48007,"uuid":"9ccaa02e-508c-4175-91a2-17a1e512bb6e","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 50","type":"vless","server":"panel.jorvexo.ir","port":1152,"uuid":"ef500b05-a5e8-4446-bbe3-cb836cc4fc46","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"in.tradingview.com","reality-opts":{"public-key":"Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE","short-id":"ead6bdba606219a2"}}
 
 rule-providers:
   ir_domains:
@@ -50,25 +51,28 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 50'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52'
-      - '🇱🇺 LU | 🟢 | vless | @NamiraConfigs | 53'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48'
+      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 47'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49'
+      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 50'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 50'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52'
-      - '🇱🇺 LU | 🟢 | vless | @NamiraConfigs | 53'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48'
+      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 47'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49'
+      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 50'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 50'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52'
-      - '🇱🇺 LU | 🟢 | vless | @NamiraConfigs | 53'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48'
+      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 47'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49'
+      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 50'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-
+  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48","type":"vless","server":"77.90.47.14","port":8443,"uuid":"483c6187-3c8d-436b-8413-536c2c87b70c","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"badewelt-sinsheim.de","flow":"xtls-rprx-vision","reality-opts":{"public-key":"uWoKxXeFb0l5-mZnpGpoW9lCY4KmOeayGklp2WUNgxA","short-id":"1d151a49"}}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48'
       
   - name: All-Proxies
     type: select
     proxies:
-
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 48'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
