@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55"
+                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 51"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55"
+                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 51"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,26 +135,25 @@
             "type": "dns"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55",
+            "tag": "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 51",
             "type": "vless",
-            "server": "191.217.254.109",
-            "server_port": 443,
-            "uuid": "955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6",
-            "flow": "xtls-rprx-vision",
+            "server": "144.31.214.68",
+            "server_port": 8443,
+            "uuid": "12910384-1ef8-40a3-818a-57277063ea66",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "timeml.wey-land.net",
+                "server_name": "kk-fr2-21468.testkknegr.online",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "edge"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "EoEAz1uDO0SptP_zf4KBh7HyfgbTwBpOidZiNgyQF1M",
-                    "short_id": "05f37a191ec7a2ad"
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "vlgrpc"
             }
         }
     ],
