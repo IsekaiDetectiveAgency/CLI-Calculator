@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 53"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 53"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,25 +135,25 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50",
+            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 53",
             "type": "vless",
-            "server": "alb1.angelsleep9.com",
+            "server": "slot1.ipoxxo.online",
             "server_port": 443,
-            "uuid": "df97ce68-477f-4484-94c7-79eccab7319d",
+            "uuid": "140ae4d4-9b80-41b5-9667-289cb4053aaa",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "alb1.angelsleep9.com",
+                "server_name": "github.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "tXhsg663V1Ia_YWMtQMWQRaZouyONXknQ16OLMAdFXs",
-                    "short_id": "28ffd89d510a739b"
+                    "public_key": "YkTUb7KQOf2ELpRn7aWygbbj6RDAaKBAP8IUsTcP3zs",
+                    "short_id": "f150baf0f97c7aed"
                 }
             }
         }

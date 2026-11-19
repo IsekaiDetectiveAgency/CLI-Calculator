@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 48","type":"trojan","server":"208.69.78.208","port":443,"password":"0ab6c98dae3b48e8b9c4a776b6c9c19a","skip-cert-verify":false}
+  - {"name":"🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 51","type":"trojan","server":"66.163.122.26","port":443,"password":"0ab6c98dae3b48e8b9c4a776b6c9c19a","skip-cert-verify":false}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 48'
+      - '🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 51'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 48'
+      - '🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 51'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 48'
+      - '🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 51'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

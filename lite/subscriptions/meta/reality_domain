@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50","type":"vless","server":"alb1.angelsleep9.com","port":443,"uuid":"df97ce68-477f-4484-94c7-79eccab7319d","tls":true,"network":"raw","client-fingerprint":"firefox","udp":true,"servername":"alb1.angelsleep9.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"tXhsg663V1Ia_YWMtQMWQRaZouyONXknQ16OLMAdFXs","short-id":"28ffd89d510a739b"}}
+  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 53","type":"vless","server":"slot1.ipoxxo.online","port":443,"uuid":"140ae4d4-9b80-41b5-9667-289cb4053aaa","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"github.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"YkTUb7KQOf2ELpRn7aWygbbj6RDAaKBAP8IUsTcP3zs","short-id":"f150baf0f97c7aed"}}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 53'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 53'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 53'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
