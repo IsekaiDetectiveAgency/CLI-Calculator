@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 53"
+                "🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 56"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 53"
+                "🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 56"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,25 +135,27 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 53",
+            "tag": "🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 56",
             "type": "vless",
-            "server": "slot1.ipoxxo.online",
+            "server": "94.72.100.12",
             "server_port": 443,
-            "uuid": "140ae4d4-9b80-41b5-9667-289cb4053aaa",
-            "flow": "xtls-rprx-vision",
+            "uuid": "b004e898-f6cf-54a5-d281-f063d741ad53",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "github.com",
+                "server_name": "xray-ckc68nno-swift-harbor-8.cloady.io",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "YkTUb7KQOf2ELpRn7aWygbbj6RDAaKBAP8IUsTcP3zs",
-                    "short_id": "f150baf0f97c7aed"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/3e0261245277336d",
+                "headers": {
+                    "Host": "xray-ckc68nno-swift-harbor-8.cloady.io"
                 }
             }
         }

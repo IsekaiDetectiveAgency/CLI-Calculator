@@ -17,11 +17,10 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 49","type":"vless","server":"s1.berluno.ir","port":1155,"uuid":"ab8fedf7-6228-41a1-ae2c-c861625ad6ce","tls":true,"network":"tcp","client-fingerprint":"edge","udp":true,"servername":"tgju.org","reality-opts":{"public-key":"o6UTWdONnTOvDOWmhfxXUoeOEtlw7VUkoAWkmOk_FWI","short-id":"4e4aaad65cc07da8"}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50","type":"vless","server":"sidejcddrewfd-production.up.railway.app","port":443,"uuid":"cba7a413-bf3e-4386-a8f0-66a390598844","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"sidejcddrewfd-production.up.railway.app","ws-opts":{"path":"/api/nDwta1","headers":{"Host":"sidejcddrewfd-production.up.railway.app"}}}
-  - {"name":"🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 51","type":"trojan","server":"66.163.122.26","port":443,"password":"0ab6c98dae3b48e8b9c4a776b6c9c19a","skip-cert-verify":false}
-  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 52","type":"vless","server":"aws.pishigaman.sbs","port":443,"uuid":"b57f25ad-1f6c-45c6-a28f-b7e6baff23dc","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"d1rr98pcpt2gf8.cloudfront.net","ws-opts":{"path":"/wss?ed=2560","headers":{"Host":"d1rr98pcpt2gf8.cloudfront.net"}}}
-  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 53","type":"vless","server":"slot1.ipoxxo.online","port":443,"uuid":"140ae4d4-9b80-41b5-9667-289cb4053aaa","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"github.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"YkTUb7KQOf2ELpRn7aWygbbj6RDAaKBAP8IUsTcP3zs","short-id":"f150baf0f97c7aed"}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52","type":"vless","server":"golf-production-a1757e78.up.railway.app","port":443,"uuid":"a82f191d-401f-4ca7-ae1b-f7c656d671aa","tls":true,"network":"httpupgrade","client-fingerprint":"chrome","udp":true,"servername":"golf-production-a1757e78.up.railway.app"}
+  - {"name":"🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 53","type":"trojan","server":"ldjfrfhvdvfg-production.up.railway.app","port":443,"password":"J312MA7LbSkAk--8","skip-cert-verify":false}
+  - {"name":"🇨🇭 CH | 🟢 | vless | @NamiraConfigs | 54","type":"vless","server":"ch.outforyou.ir","port":46280,"uuid":"6f82218b-ab3d-4ff2-b3c9-4547c43cf531","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"amp-api-edge.apps.apple.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"3xEvhIbjIvO9bJSqHEF3D91YZEYaA3fWzb2JpxW0XmQ","short-id":"e53690af52736850"}}
+  - {"name":"🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 55","type":"vless","server":"panel.jorvexo.ir","port":1152,"uuid":"6cc3b8a3-e359-4bd3-a6f0-bf97ef87e4b1","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"in.tradingview.com","reality-opts":{"public-key":"Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE","short-id":"ead6bdba606219a2"}}
 
 rule-providers:
   ir_domains:
@@ -52,31 +51,28 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 49'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50'
-      - '🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 51'
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 52'
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 53'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52'
+      - '🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 53'
+      - '🇨🇭 CH | 🟢 | vless | @NamiraConfigs | 54'
+      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 55'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 49'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50'
-      - '🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 51'
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 52'
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 53'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52'
+      - '🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 53'
+      - '🇨🇭 CH | 🟢 | vless | @NamiraConfigs | 54'
+      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 55'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 49'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 50'
-      - '🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 51'
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 52'
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 53'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 52'
+      - '🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 53'
+      - '🇨🇭 CH | 🟢 | vless | @NamiraConfigs | 54'
+      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 55'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

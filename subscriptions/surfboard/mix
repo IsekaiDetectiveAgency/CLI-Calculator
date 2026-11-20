@@ -9,12 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 51 = trojan, 66.163.122.26, 443, password = 0ab6c98dae3b48e8b9c4a776b6c9c19a, skip-cert-verify = false
+🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 53 = trojan, ldjfrfhvdvfg-production.up.railway.app, 443, password = J312MA7LbSkAk--8, skip-cert-verify = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 51
-PSG-AUTO = url-test, 🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 51
-PSG-FALLBACK = fallback, 🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 51
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 53
+PSG-AUTO = url-test, 🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 53
+PSG-FALLBACK = fallback, 🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 53
 
 [Rule]
 GEOIP,IR,DIRECT
