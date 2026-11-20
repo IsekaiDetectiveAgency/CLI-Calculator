@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 53"
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 54"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 53"
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 54"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,25 +135,25 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 53",
+            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 54",
             "type": "vless",
-            "server": "slot1.ipoxxo.online",
+            "server": "71b840t.de7.h1clayd.click",
             "server_port": 443,
-            "uuid": "140ae4d4-9b80-41b5-9667-289cb4053aaa",
+            "uuid": "26843758-24de-4f76-b5d0-624038e353c4",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "github.com",
+                "server_name": "71b840t.de7.h1clayd.click",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": null
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "YkTUb7KQOf2ELpRn7aWygbbj6RDAaKBAP8IUsTcP3zs",
-                    "short_id": "f150baf0f97c7aed"
+                    "public_key": "3wFF83gtIA0sXj-6GGCAa--oQbSr0MVUj0FBc-0QmiE",
+                    "short_id": "e572b6579ea525d4"
                 }
             }
         }

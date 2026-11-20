@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 56"
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 54"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 56"
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 54"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,27 +135,25 @@
             "type": "dns"
         },
         {
-            "tag": "🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 56",
+            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 54",
             "type": "vless",
-            "server": "94.72.100.12",
+            "server": "71b840t.de7.h1clayd.click",
             "server_port": 443,
-            "uuid": "b004e898-f6cf-54a5-d281-f063d741ad53",
-            "flow": "",
+            "uuid": "26843758-24de-4f76-b5d0-624038e353c4",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "xray-ckc68nno-swift-harbor-8.cloady.io",
+                "server_name": "71b840t.de7.h1clayd.click",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/3e0261245277336d",
-                "headers": {
-                    "Host": "xray-ckc68nno-swift-harbor-8.cloady.io"
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "3wFF83gtIA0sXj-6GGCAa--oQbSr0MVUj0FBc-0QmiE",
+                    "short_id": "e572b6579ea525d4"
                 }
             }
         }
