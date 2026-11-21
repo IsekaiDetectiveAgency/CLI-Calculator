@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 54","type":"vless","server":"panel.jorvexo.ir","port":1152,"uuid":"5952962f-6a85-4ff2-9d45-c51de43fa843","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"in.tradingview.com","reality-opts":{"public-key":"Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE","short-id":"ead6bdba606219a2"}}
+  - {"name":"🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 47","type":"vless","server":"static.58.252.109.65.clients.your-server.de","port":443,"uuid":"2b696acb-1311-4ab7-b832-b376d29dca27","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"static.170.55.238.62.clients.your-server.de","flow":"xtls-rprx-vision"}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 54'
+      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 47'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 54'
+      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 47'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 54'
+      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 47'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
