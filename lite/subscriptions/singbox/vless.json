@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 50"
+                "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 54"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 50"
+                "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 54"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,26 +135,30 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 50",
+            "tag": "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 54",
             "type": "vless",
-            "server": "n4.topingr.ir",
-            "server_port": 8080,
-            "uuid": "0eaa8ce1-f041-4831-9e52-ffe2dae154ab",
+            "server": "138.16.206.147",
+            "server_port": 9114,
+            "uuid": "d81db550-4787-467e-b98a-579ee9d41999",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.tgju.org",
+                "server_name": "www.cloudflare.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "ios"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "SAW3BGJNg72vtXHswOafte0QqaIEjM1dD1vZahkwJlk",
-                    "short_id": "433e30cfbff1b1da"
+                    "public_key": "4q4qXs-E4wzxXyV4TrOC-mEzx2S6h_LjQ_t_gc4wQEs",
+                    "short_id": "6ba85179e30d4fc2"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "inetgrpc"
             }
         }
     ],

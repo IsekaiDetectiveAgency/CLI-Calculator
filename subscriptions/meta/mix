@@ -17,8 +17,11 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 48","type":"vless","server":"144.31.90.235","port":443,"uuid":"6ab79fec-ca02-447b-b7be-5945f6e6ea8f","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"blog-asia.livemusic.ac","flow":"xtls-rprx-vision","reality-opts":{"public-key":"DfbGULX0lQ6_3ZrSW3NBHlh6Bz6ORxonjptCcNObC0w","short-id":"adff113498e0f7fc"}}
-  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 49","type":"vless","server":"92.223.124.62","port":443,"uuid":"10e60745-9685-4b7e-8539-a1fd06ce0d4e","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"api.gcore.com"}
+  - {"name":"🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 50","type":"vless","server":"fdn4.gmax12.ir","port":8080,"uuid":"e34e3a48-bdde-4fd0-ac17-c60c00d7000b","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"tgju.org","flow":"xtls-rprx-vision","reality-opts":{"public-key":"tIQQp41fRrliguh9hOjPdKHkR5P_tFHqfhpHU_SKazc","short-id":"eb11f7630faaaf60"}}
+  - {"name":"🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 51","type":"vless","server":"vip.xoamrz.ir","port":35464,"uuid":"e848d0b5-ef9a-4f04-8085-38a432f7151b","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"au2-images.shop.samsung.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"IV5mtlwbCtW7uS0_v6dfoCRVzEeKmB0d9V4wIK2K-UQ","short-id":"c3ab7073b6fed589"}}
+  - {"name":"🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 52","type":"vless","server":"45.154.96.24","port":443,"uuid":"9fc65c1f-f7e2-44dd-be6f-a9270732b97a","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"firmwaresign.partners.nvidia.com","reality-opts":{"public-key":"o2KcQK-yk3JFACI2IuGoYLa23sClJ2_Az_mKzIj2PhY","short-id":"40c55f20dfbf097c"}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53","type":"vless","server":"t1.g-boot.ir","port":443,"uuid":"cb961f67-2428-442f-8ba8-a9a960d11f5a","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"t1.g-boot.ir"}
+  - {"name":"🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 54","type":"vless","server":"138.16.206.147","port":9114,"uuid":"d81db550-4787-467e-b98a-579ee9d41999","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"servername":"www.cloudflare.com","grpc-opts":{"grpc-service-name":"inetgrpc"},"reality-opts":{"public-key":"4q4qXs-E4wzxXyV4TrOC-mEzx2S6h_LjQ_t_gc4wQEs","short-id":"6ba85179e30d4fc2"}}
 
 rule-providers:
   ir_domains:
@@ -49,22 +52,31 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 48'
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 49'
+      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 50'
+      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 51'
+      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 52'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53'
+      - '🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 54'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 48'
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 49'
+      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 50'
+      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 51'
+      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 52'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53'
+      - '🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 54'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 48'
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 49'
+      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 50'
+      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 51'
+      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 52'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 53'
+      - '🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 54'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

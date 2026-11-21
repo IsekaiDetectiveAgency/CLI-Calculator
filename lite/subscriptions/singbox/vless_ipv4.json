@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49"
+                "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 54"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49"
+                "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 54"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,21 +135,30 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49",
+            "tag": "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 54",
             "type": "vless",
-            "server": "167.235.108.33",
-            "server_port": 443,
-            "uuid": "2929b620-54e1-4236-8740-8a7a2e399d39",
-            "flow": "",
+            "server": "138.16.206.147",
+            "server_port": 9114,
+            "uuid": "d81db550-4787-467e-b98a-579ee9d41999",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "167.235.108.33",
+                "server_name": "www.cloudflare.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4q4qXs-E4wzxXyV4TrOC-mEzx2S6h_LjQ_t_gc4wQEs",
+                    "short_id": "6ba85179e30d4fc2"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "inetgrpc"
             }
         }
     ],

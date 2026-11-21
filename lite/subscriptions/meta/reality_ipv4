@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55","type":"vless","server":"191.217.254.109","port":443,"uuid":"955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6","tls":true,"network":"xhttp","client-fingerprint":"edge","udp":true,"servername":"timeml.wey-land.net","reality-opts":{"public-key":"EoEAz1uDO0SptP_zf4KBh7HyfgbTwBpOidZiNgyQF1M","short-id":"05f37a191ec7a2ad"}}
+  - {"name":"🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 54","type":"vless","server":"138.16.206.147","port":9114,"uuid":"d81db550-4787-467e-b98a-579ee9d41999","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"servername":"www.cloudflare.com","grpc-opts":{"grpc-service-name":"inetgrpc"},"reality-opts":{"public-key":"4q4qXs-E4wzxXyV4TrOC-mEzx2S6h_LjQ_t_gc4wQEs","short-id":"6ba85179e30d4fc2"}}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55'
+      - '🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 54'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55'
+      - '🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 54'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55'
+      - '🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 54'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
