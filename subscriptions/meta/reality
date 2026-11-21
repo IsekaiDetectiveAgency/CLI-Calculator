@@ -17,9 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 43","type":"vless","server":"185.88.101.105","port":443,"uuid":"f2341274-8dd8-4b80-95fd-780641f6f2da","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"servername":"fl13.svinka.pro","grpc-opts":{"grpc-service-name":"fl13svinkapro-grpc"},"reality-opts":{"public-key":"aFsY-EZjSNTomlAFShKwQIQMJ5pHiZQXXJpWvcz8WkQ","short-id":"0858af97f4e7324d"}}
-  - {"name":"🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 44","type":"vless","server":"fdn3.gmax12.ir","port":8080,"uuid":"61838e4b-243a-4e5f-9be7-a22f3edfec37","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"tgju.org","flow":"xtls-rprx-vision","reality-opts":{"public-key":"tIQQp41fRrliguh9hOjPdKHkR5P_tFHqfhpHU_SKazc","short-id":"eb11f7630faaaf60"}}
-  - {"name":"🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 45","type":"vless","server":"sshwug.g44mozgh.ir","port":5894,"uuid":"60ec0bb0-6ec1-4062-9246-66a6f8270c7e","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"play.google.com","reality-opts":{"public-key":"KXLDswKQcUewxqcVc4G69vA1wQ3dr45AjOQFZ9pNEnw","short-id":"007f3473438a5f2a"}}
+
 
 rule-providers:
   ir_domains:
@@ -50,25 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 43'
-      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 44'
-      - '🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 45'
+
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 43'
-      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 44'
-      - '🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 45'
+
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 43'
-      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 44'
-      - '🇬🇧 GB | 🟢 | vless | @NamiraConfigs | 45'
+
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

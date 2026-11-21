@@ -17,8 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 43","type":"vless","server":"185.88.101.105","port":443,"uuid":"f2341274-8dd8-4b80-95fd-780641f6f2da","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"servername":"fl13.svinka.pro","grpc-opts":{"grpc-service-name":"fl13svinkapro-grpc"},"reality-opts":{"public-key":"aFsY-EZjSNTomlAFShKwQIQMJ5pHiZQXXJpWvcz8WkQ","short-id":"0858af97f4e7324d"}}
-  - {"name":"🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 46","type":"vless","server":"46.8.69.218","port":8080,"uuid":"cda4db41-d347-4b9e-9519-7408d81f3416","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49","type":"vless","server":"167.235.108.33","port":443,"uuid":"2929b620-54e1-4236-8740-8a7a2e399d39","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true}
 
 rule-providers:
   ir_domains:
@@ -49,22 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 43'
-      - '🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 46'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 43'
-      - '🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 46'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 43'
-      - '🇳🇱 NL | 🔴 | vless | @NamiraConfigs | 46'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 49'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
