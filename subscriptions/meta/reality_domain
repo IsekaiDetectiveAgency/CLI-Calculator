@@ -17,8 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 50","type":"vless","server":"fdn4.gmax12.ir","port":8080,"uuid":"e34e3a48-bdde-4fd0-ac17-c60c00d7000b","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"tgju.org","flow":"xtls-rprx-vision","reality-opts":{"public-key":"tIQQp41fRrliguh9hOjPdKHkR5P_tFHqfhpHU_SKazc","short-id":"eb11f7630faaaf60"}}
-  - {"name":"🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 51","type":"vless","server":"vip.xoamrz.ir","port":35464,"uuid":"e848d0b5-ef9a-4f04-8085-38a432f7151b","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"au2-images.shop.samsung.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"IV5mtlwbCtW7uS0_v6dfoCRVzEeKmB0d9V4wIK2K-UQ","short-id":"c3ab7073b6fed589"}}
+  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 43","type":"vless","server":"welovefoxy.ir","port":27418,"uuid":"88cf0e4f-b329-48ad-848e-452a2fb29f10","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"www.sony.com.sg","flow":"xtls-rprx-vision","reality-opts":{"public-key":"K4WYWOj2q4513ku5iJ5d-2qjnWmmiCBMfw4ThkQEVmA","short-id":"0112935d"}}
 
 rule-providers:
   ir_domains:
@@ -49,22 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 50'
-      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 51'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 43'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 50'
-      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 51'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 43'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇫🇮 FI | 🟢 | vless | @NamiraConfigs | 50'
-      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 51'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 43'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
