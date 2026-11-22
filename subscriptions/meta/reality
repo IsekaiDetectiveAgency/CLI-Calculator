@@ -17,8 +17,10 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 43","type":"vless","server":"welovefoxy.ir","port":27418,"uuid":"88cf0e4f-b329-48ad-848e-452a2fb29f10","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"www.sony.com.sg","flow":"xtls-rprx-vision","reality-opts":{"public-key":"K4WYWOj2q4513ku5iJ5d-2qjnWmmiCBMfw4ThkQEVmA","short-id":"0112935d"}}
-  - {"name":"🇪🇸 ES | 🟢 | vless | @NamiraConfigs | 45","type":"vless","server":"195.216.168.101","port":9543,"uuid":"920b3cd9-4f82-4669-bbd2-d4a28b9052c6","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"storage.yandexcloud.net","flow":"xtls-rprx-vision","reality-opts":{"public-key":"M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc","short-id":"123abcdf"}}
+  - {"name":"🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 48","type":"vless","server":"213.199.57.127","port":2087,"uuid":"0f82d566-1273-43c5-a73c-229997b3b4b0","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"blog.api.www.cloudflare.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"Y8U3PhV0K8jT4PBHq-rhCA4eUtOXa1CNB9waCvZbZSc","short-id":"42"}}
+  - {"name":"🇹🇷 TR | 🟢 | vless | @NamiraConfigs | 52","type":"vless","server":"153.56.229.218","port":443,"uuid":"26843758-24de-4f76-b5d0-624038e353c4","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"71b840t.de7.h1clayd.click","reality-opts":{"public-key":"3wFF83gtIA0sXj-6GGCAa--oQbSr0MVUj0FBc-0QmiE","short-id":"e572b6579ea525d4"}}
+  - {"name":"🇵🇱 PL | 🟢 | vless | @NamiraConfigs | 49","type":"vless","server":"poland.biznes.lol","port":443,"uuid":"7d43670b-6b08-45b9-8a24-8f3971abc132","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"poland.biznes.lol","flow":"xtls-rprx-vision","reality-opts":{"public-key":"j4Uc6ljg9by_VKYywo5h2N-eh3kpUbFL5Bsp8-AX4Qk"}}
+  - {"name":"🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 50","type":"vless","server":"rt.velnix-services.ir","port":17550,"uuid":"4690521d-18a6-47de-bdef-85fd353e270e","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"play.google.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"11H0rw_I2vLcxhem8CTZMIuVwi3_0RPzJ5xM6Ue-XDI","short-id":"9ab3bfdd8ec94f3f"}}
 
 rule-providers:
   ir_domains:
@@ -49,22 +51,28 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 43'
-      - '🇪🇸 ES | 🟢 | vless | @NamiraConfigs | 45'
+      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 48'
+      - '🇹🇷 TR | 🟢 | vless | @NamiraConfigs | 52'
+      - '🇵🇱 PL | 🟢 | vless | @NamiraConfigs | 49'
+      - '🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 50'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 43'
-      - '🇪🇸 ES | 🟢 | vless | @NamiraConfigs | 45'
+      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 48'
+      - '🇹🇷 TR | 🟢 | vless | @NamiraConfigs | 52'
+      - '🇵🇱 PL | 🟢 | vless | @NamiraConfigs | 49'
+      - '🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 50'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 43'
-      - '🇪🇸 ES | 🟢 | vless | @NamiraConfigs | 45'
+      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 48'
+      - '🇹🇷 TR | 🟢 | vless | @NamiraConfigs | 52'
+      - '🇵🇱 PL | 🟢 | vless | @NamiraConfigs | 49'
+      - '🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 50'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

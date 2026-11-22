@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 54"
+                "🇹🇷 TR | 🟢 | vless | @NamiraConfigs | 52"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 54"
+                "🇹🇷 TR | 🟢 | vless | @NamiraConfigs | 52"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,30 +135,26 @@
             "type": "dns"
         },
         {
-            "tag": "🇷🇺 RU | 🟢 | vless | @NamiraConfigs | 54",
+            "tag": "🇹🇷 TR | 🟢 | vless | @NamiraConfigs | 52",
             "type": "vless",
-            "server": "138.16.206.147",
-            "server_port": 9114,
-            "uuid": "d81db550-4787-467e-b98a-579ee9d41999",
+            "server": "153.56.229.218",
+            "server_port": 443,
+            "uuid": "26843758-24de-4f76-b5d0-624038e353c4",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.cloudflare.com",
+                "server_name": "71b840t.de7.h1clayd.click",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "4q4qXs-E4wzxXyV4TrOC-mEzx2S6h_LjQ_t_gc4wQEs",
-                    "short_id": "6ba85179e30d4fc2"
+                    "public_key": "3wFF83gtIA0sXj-6GGCAa--oQbSr0MVUj0FBc-0QmiE",
+                    "short_id": "e572b6579ea525d4"
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "inetgrpc"
             }
         }
     ],
