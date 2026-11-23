@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 53"
+                "🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 54"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 53"
+                "🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 54"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,25 +135,18 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 53",
-            "type": "vless",
-            "server": "Ge5.mamad.web.tr",
-            "server_port": 8080,
-            "uuid": "6e1606a7-6206-46ee-b787-7fbb73ae19c9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
+            "tag": "🇺🇸 US | 🟢 | trojan | @NamiraConfigs | 54",
+            "type": "trojan",
+            "server": "170.101.101.19",
+            "server_port": 443,
+            "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
             "tls": {
                 "enabled": true,
-                "server_name": "tgju.org",
+                "server_name": "learn.explorecreativejobsandenhanceyourcareerportfolio.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "UJPYLuFqLE71fNdm4iZBpDGRYDkCB0u3f-RA_goSMlI",
-                    "short_id": "306dd0965746924a"
+                    "fingerprint": "chrome"
                 }
             }
         }

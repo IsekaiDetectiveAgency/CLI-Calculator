@@ -17,9 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 50","type":"vless","server":"media.fernstatic.com","port":2100,"uuid":"43add026-128a-47d3-a403-b3875b4638db","tls":true,"network":"xhttp","client-fingerprint":null,"udp":true,"servername":"yastatic.net","reality-opts":{"public-key":"Tij8e75rOzDtbTSciMvmEqE26h78VEIt7B_NK4QumCk","short-id":"10806885b6614f73"}}
-  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 53","type":"vless","server":"Ge5.mamad.web.tr","port":8080,"uuid":"6e1606a7-6206-46ee-b787-7fbb73ae19c9","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"tgju.org","flow":"xtls-rprx-vision","reality-opts":{"public-key":"UJPYLuFqLE71fNdm4iZBpDGRYDkCB0u3f-RA_goSMlI","short-id":"306dd0965746924a"}}
-  - {"name":"🇵🇱 PL | 🟢 | vless | @NamiraConfigs | 52","type":"vless","server":"191.217.244.190","port":443,"uuid":"a086c8e2-7a2f-4265-9518-6d7529106b80","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"ertgmb.wey-land.net","flow":"xtls-rprx-vision","reality-opts":{"public-key":"l6dfeSmhGc7dGLU_PqhPtMbj4_eONm2Sz_S9D8ePFxY"}}
+  - {"name":"🇹🇷 TR | 🟢 | vless | @NamiraConfigs | 50","type":"vless","server":"homestead-walloping.sports-streams.org","port":443,"uuid":"f579e279-cdff-4175-a92d-350374fc14dc","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"blog.worldoftanks.eu","reality-opts":{"public-key":"iQCvXMQZR-eT2MVmXP7c99cvcle22mVWuKem_345BWM"}}
+  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 51","type":"vless","server":"assets.fernstatic.com","port":8444,"uuid":"43add026-128a-47d3-a403-b3875b4638db","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"servername":"yastatic.net","grpc-opts":{"grpc-service-name":"grpc"},"reality-opts":{"public-key":"1hJPKCOTjPXm93o2JEeb-dOuFSkCvHj41uKM6yrP32Q","short-id":"bcefc042d39188e0"}}
 
 rule-providers:
   ir_domains:
@@ -50,25 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 50'
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 53'
-      - '🇵🇱 PL | 🟢 | vless | @NamiraConfigs | 52'
+      - '🇹🇷 TR | 🟢 | vless | @NamiraConfigs | 50'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 51'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 50'
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 53'
-      - '🇵🇱 PL | 🟢 | vless | @NamiraConfigs | 52'
+      - '🇹🇷 TR | 🟢 | vless | @NamiraConfigs | 50'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 51'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 50'
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 53'
-      - '🇵🇱 PL | 🟢 | vless | @NamiraConfigs | 52'
+      - '🇹🇷 TR | 🟢 | vless | @NamiraConfigs | 50'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 51'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
