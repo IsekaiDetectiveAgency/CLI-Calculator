@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 47"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 53"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 47"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 53"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,25 +135,25 @@
             "type": "dns"
         },
         {
-            "tag": "🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 47",
+            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 53",
             "type": "vless",
-            "server": "frn3.mobileemdad.top",
-            "server_port": 443,
-            "uuid": "d01a1295-f5c1-4aa1-a595-06e68f77c157",
+            "server": "Ge5.mamad.web.tr",
+            "server_port": 8080,
+            "uuid": "6e1606a7-6206-46ee-b787-7fbb73ae19c9",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "delivery.mp.microsoft.com",
+                "server_name": "tgju.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "ios"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ",
-                    "short_id": "070a23aed243"
+                    "public_key": "UJPYLuFqLE71fNdm4iZBpDGRYDkCB0u3f-RA_goSMlI",
+                    "short_id": "306dd0965746924a"
                 }
             }
         }

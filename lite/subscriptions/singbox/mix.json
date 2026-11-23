@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 50"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 53"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 50"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 53"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,20 +135,25 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 50",
+            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 53",
             "type": "vless",
-            "server": "uqrxjbu.arvono.ir",
-            "server_port": 2096,
-            "uuid": "ccb4f3c0-3ac6-0001-9bf9-a12e86e0cc07",
+            "server": "Ge5.mamad.web.tr",
+            "server_port": 8080,
+            "uuid": "6e1606a7-6206-46ee-b787-7fbb73ae19c9",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "2d8b4d198c830fe2.moeinconsert.ir",
+                "server_name": "tgju.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UJPYLuFqLE71fNdm4iZBpDGRYDkCB0u3f-RA_goSMlI",
+                    "short_id": "306dd0965746924a"
                 }
             }
         }
