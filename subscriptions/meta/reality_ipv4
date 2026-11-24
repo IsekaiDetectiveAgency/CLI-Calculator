@@ -17,7 +17,8 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇦🇹 AT | 🟢 | vless | @NamiraConfigs | 57","type":"vless","server":"193.106.221.121","port":777,"uuid":"5fa77250-c3c3-48a2-b432-1f9c6e718571","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"it.nvidia.com","reality-opts":{"public-key":"5Cf3coHU6y-v8Sn3avXr7v5fw4s5AdPMu1_RNITmqTQ","short-id":"14"}}
+  - {"name":"🇧🇾 BY | 🟢 | vless | @NamiraConfigs | 48","type":"vless","server":"178.172.227.124","port":10444,"uuid":"1af36694-b548-4b18-89a0-bc076eab4ed7","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"ads.x5.ru","flow":"xtls-rprx-vision","reality-opts":{"public-key":"0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo","short-id":"8debcf36f1cc69ff"}}
+  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 51","type":"vless","server":"93.123.101.198","port":443,"uuid":"a346c521-7a7f-452b-9356-a4893feb5982","tls":true,"network":"tcp","client-fingerprint":null,"udp":true,"servername":"de14-r.bankai.party","flow":"xtls-rprx-vision","reality-opts":{"public-key":"FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0"}}
 
 rule-providers:
   ir_domains:
@@ -48,19 +49,22 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇦🇹 AT | 🟢 | vless | @NamiraConfigs | 57'
+      - '🇧🇾 BY | 🟢 | vless | @NamiraConfigs | 48'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 51'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇦🇹 AT | 🟢 | vless | @NamiraConfigs | 57'
+      - '🇧🇾 BY | 🟢 | vless | @NamiraConfigs | 48'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 51'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇦🇹 AT | 🟢 | vless | @NamiraConfigs | 57'
+      - '🇧🇾 BY | 🟢 | vless | @NamiraConfigs | 48'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 51'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
