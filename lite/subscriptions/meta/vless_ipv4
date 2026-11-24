@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇵🇸 PS | 🟢 | vless | @NamiraConfigs | 52","type":"vless","server":"212.192.3.63","port":9543,"uuid":"920b3cd9-4f82-4669-bbd2-d4a28b9052c6","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"storage.yandexcloud.net","flow":"xtls-rprx-vision","reality-opts":{"public-key":"M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc","short-id":"123abcdf"}}
+  - {"name":"🇦🇹 AT | 🟢 | vless | @NamiraConfigs | 57","type":"vless","server":"193.106.221.121","port":777,"uuid":"5fa77250-c3c3-48a2-b432-1f9c6e718571","tls":true,"network":"grpc","client-fingerprint":"chrome","udp":true,"servername":"it.nvidia.com","reality-opts":{"public-key":"5Cf3coHU6y-v8Sn3avXr7v5fw4s5AdPMu1_RNITmqTQ","short-id":"14"}}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇵🇸 PS | 🟢 | vless | @NamiraConfigs | 52'
+      - '🇦🇹 AT | 🟢 | vless | @NamiraConfigs | 57'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇵🇸 PS | 🟢 | vless | @NamiraConfigs | 52'
+      - '🇦🇹 AT | 🟢 | vless | @NamiraConfigs | 57'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇵🇸 PS | 🟢 | vless | @NamiraConfigs | 52'
+      - '🇦🇹 AT | 🟢 | vless | @NamiraConfigs | 57'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

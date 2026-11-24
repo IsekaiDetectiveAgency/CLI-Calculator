@@ -17,8 +17,10 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇹🇷 TR | 🟢 | vless | @NamiraConfigs | 50","type":"vless","server":"homestead-walloping.sports-streams.org","port":443,"uuid":"f579e279-cdff-4175-a92d-350374fc14dc","tls":true,"network":"xhttp","client-fingerprint":"chrome","udp":true,"servername":"blog.worldoftanks.eu","reality-opts":{"public-key":"iQCvXMQZR-eT2MVmXP7c99cvcle22mVWuKem_345BWM"}}
-  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 51","type":"vless","server":"assets.fernstatic.com","port":8444,"uuid":"43add026-128a-47d3-a403-b3875b4638db","tls":true,"network":"grpc","client-fingerprint":"firefox","udp":true,"servername":"yastatic.net","grpc-opts":{"grpc-service-name":"grpc"},"reality-opts":{"public-key":"1hJPKCOTjPXm93o2JEeb-dOuFSkCvHj41uKM6yrP32Q","short-id":"bcefc042d39188e0"}}
+  - {"name":"🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 53","type":"vless","server":"frlj.milkabebar.ir","port":46122,"uuid":"c95e2504-749f-43e2-a4e6-58d9bed2b1ba","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"play.google.com","reality-opts":{"public-key":"NpgXDQ6jl_HGPdHAHFeiBl5Ym7bywxmw_EYovmFjVQs","short-id":"9b98825681aba023"}}
+  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 54","type":"vless","server":"rial-gee3.torshikhoone.ir","port":443,"uuid":"af65ec7a-1de2-4ef4-afc1-733ddde252a0","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"www.hetzner.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"eCt1lJtFXHID16IAEA4nw3xFcMejrnauZqIE_Jf5qEw","short-id":"b1c9c3d3cc3b662b"}}
+  - {"name":"🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55","type":"vless","server":"Ge5.mamad.web.tr","port":20829,"uuid":"9e816222-31ca-47b6-82c7-c086215a9cef","tls":false,"network":"tcp","client-fingerprint":"chrome","udp":true,"flow":"xtls-rprx-vision"}
+  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 56","type":"vless","server":"rial-ge1.torshikhoone.ir","port":443,"uuid":"af65ec7a-1de2-4ef4-afc1-733ddde252a0","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"www.hetzner.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"eCt1lJtFXHID16IAEA4nw3xFcMejrnauZqIE_Jf5qEw","short-id":"b1c9c3d3cc3b662b"}}
 
 rule-providers:
   ir_domains:
@@ -49,22 +51,28 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇹🇷 TR | 🟢 | vless | @NamiraConfigs | 50'
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 51'
+      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 53'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 54'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 56'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇹🇷 TR | 🟢 | vless | @NamiraConfigs | 50'
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 51'
+      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 53'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 54'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 56'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇹🇷 TR | 🟢 | vless | @NamiraConfigs | 50'
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 51'
+      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 53'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 54'
+      - '🇩🇪 DE | 🔴 | vless | @NamiraConfigs | 55'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 56'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
