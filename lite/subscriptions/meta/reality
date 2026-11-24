@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 51","type":"vless","server":"93.123.101.198","port":443,"uuid":"a346c521-7a7f-452b-9356-a4893feb5982","tls":true,"network":"tcp","client-fingerprint":null,"udp":true,"servername":"de14-r.bankai.party","flow":"xtls-rprx-vision","reality-opts":{"public-key":"FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0"}}
+  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 52","type":"vless","server":"y2wh6v.salamatradio.net","port":443,"uuid":"36019976-8d8c-451c-a1d4-cb412d6fbcc9","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"www.mozilla.org","flow":"xtls-rprx-vision","reality-opts":{"public-key":"Um2DEwDkZRQboYGov-IChhlWbKRmQ1P8B2FVEcTrzUE","short-id":"e8d7e3da0692598d"}}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 51'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 52'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 51'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 52'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 51'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 52'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve

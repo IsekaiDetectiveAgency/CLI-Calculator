@@ -17,9 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 53","type":"vless","server":"frlj.milkabebar.ir","port":46122,"uuid":"c95e2504-749f-43e2-a4e6-58d9bed2b1ba","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"play.google.com","reality-opts":{"public-key":"NpgXDQ6jl_HGPdHAHFeiBl5Ym7bywxmw_EYovmFjVQs","short-id":"9b98825681aba023"}}
-  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 54","type":"vless","server":"rial-gee3.torshikhoone.ir","port":443,"uuid":"af65ec7a-1de2-4ef4-afc1-733ddde252a0","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"www.hetzner.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"eCt1lJtFXHID16IAEA4nw3xFcMejrnauZqIE_Jf5qEw","short-id":"b1c9c3d3cc3b662b"}}
-  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 56","type":"vless","server":"rial-ge1.torshikhoone.ir","port":443,"uuid":"af65ec7a-1de2-4ef4-afc1-733ddde252a0","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"www.hetzner.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"eCt1lJtFXHID16IAEA4nw3xFcMejrnauZqIE_Jf5qEw","short-id":"b1c9c3d3cc3b662b"}}
+  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 52","type":"vless","server":"y2wh6v.salamatradio.net","port":443,"uuid":"36019976-8d8c-451c-a1d4-cb412d6fbcc9","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"www.mozilla.org","flow":"xtls-rprx-vision","reality-opts":{"public-key":"Um2DEwDkZRQboYGov-IChhlWbKRmQ1P8B2FVEcTrzUE","short-id":"e8d7e3da0692598d"}}
 
 rule-providers:
   ir_domains:
@@ -50,25 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 53'
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 54'
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 56'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 52'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 53'
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 54'
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 56'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 52'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇫🇷 FR | 🟢 | vless | @NamiraConfigs | 53'
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 54'
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 56'
+      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 52'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
