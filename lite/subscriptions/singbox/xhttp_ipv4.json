@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55"
+                "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 55"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55"
+                "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 55"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,25 +135,25 @@
             "type": "dns"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 55",
+            "tag": "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 55",
             "type": "vless",
-            "server": "191.217.254.109",
-            "server_port": 443,
-            "uuid": "955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6",
+            "server": "187.54.12.146",
+            "server_port": 10455,
+            "uuid": "d27390ea-4177-4ee3-a3fe-2cf513f33f7d",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "timeml.wey-land.net",
+                "server_name": "addons.mozilla.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "edge"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "EoEAz1uDO0SptP_zf4KBh7HyfgbTwBpOidZiNgyQF1M",
-                    "short_id": "05f37a191ec7a2ad"
+                    "public_key": "NoLIbCssob6T9HvprXBoNoYsZyDN650OViyAMePwp1c",
+                    "short_id": "54cd1667f48828f9"
                 }
             }
         }

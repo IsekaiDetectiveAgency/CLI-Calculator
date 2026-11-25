@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 51"
+                "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 55"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 51"
+                "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 55"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,13 +135,27 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 51",
+            "tag": "🇸🇪 SE | 🟢 | vless | @NamiraConfigs | 55",
             "type": "vless",
-            "server": "c0ab1e52bc0e3321.ultradns.space",
-            "server_port": 8880,
-            "uuid": "6e3e3312-b3b8-4551-823c-adc3134a4d19",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "187.54.12.146",
+            "server_port": 10455,
+            "uuid": "d27390ea-4177-4ee3-a3fe-2cf513f33f7d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "addons.mozilla.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "NoLIbCssob6T9HvprXBoNoYsZyDN650OViyAMePwp1c",
+                    "short_id": "54cd1667f48828f9"
+                }
+            }
         }
     ],
     "route": {
