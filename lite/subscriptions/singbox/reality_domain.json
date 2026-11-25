@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 52"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 50"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 52"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 50"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,25 +135,25 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 52",
+            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 50",
             "type": "vless",
-            "server": "y2wh6v.salamatradio.net",
-            "server_port": 443,
-            "uuid": "36019976-8d8c-451c-a1d4-cb412d6fbcc9",
+            "server": "host_1.tufqav.ir",
+            "server_port": 8880,
+            "uuid": "63b5bce1-07a2-d76b-1310-a50569d360b8",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "www.mozilla.org",
+                "server_name": "gtv1.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "firefox"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "Um2DEwDkZRQboYGov-IChhlWbKRmQ1P8B2FVEcTrzUE",
-                    "short_id": "e8d7e3da0692598d"
+                    "public_key": "IUofyoxI7Pf_Wv6t_3deR86qPTBDdmfwKmXGeIhNXmY",
+                    "short_id": "b41b340d"
                 }
             }
         }

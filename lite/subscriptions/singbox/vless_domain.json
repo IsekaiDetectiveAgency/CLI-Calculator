@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 51"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 50"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 51"
+                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 50"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,13 +135,27 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸 US | 🔴 | vless | @NamiraConfigs | 51",
+            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 50",
             "type": "vless",
-            "server": "c0ab1e52bc0e3321.ultradns.space",
+            "server": "host_1.tufqav.ir",
             "server_port": 8880,
-            "uuid": "6e3e3312-b3b8-4551-823c-adc3134a4d19",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "uuid": "63b5bce1-07a2-d76b-1310-a50569d360b8",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "gtv1.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "IUofyoxI7Pf_Wv6t_3deR86qPTBDdmfwKmXGeIhNXmY",
+                    "short_id": "b41b340d"
+                }
+            }
         }
     ],
     "route": {

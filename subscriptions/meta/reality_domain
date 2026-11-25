@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 51","type":"vless","server":"de2.fusetea.ir","port":5050,"uuid":"09c439fd-489e-4ae3-9264-ee9f08996c53","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"app.stiga.com","reality-opts":{"public-key":"hgshDDK6SMiUnehNsuzhP5vQA0kDgCfW2LIw1zLft20","short-id":"3a774e5fbeb5d406"}}
+  - {"name":"🇵🇱 PL | 🟢 | vless | @NamiraConfigs | 48","type":"vless","server":"tpii.sublinkplas.ir","port":12190,"uuid":"4828eb4e-cdf1-40a7-a540-950487c9b794","tls":true,"network":"tcp","client-fingerprint":"safari","udp":true,"servername":"delivery.mp.microsoft.com","reality-opts":{"public-key":"33hVTwP-1rQYG0F92oXJ-o1zPo4Cc8n2Uml_i9tv6XM","short-id":"8101b9ba16eb77c7"}}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 51'
+      - '🇵🇱 PL | 🟢 | vless | @NamiraConfigs | 48'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 51'
+      - '🇵🇱 PL | 🟢 | vless | @NamiraConfigs | 48'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 51'
+      - '🇵🇱 PL | 🟢 | vless | @NamiraConfigs | 48'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
