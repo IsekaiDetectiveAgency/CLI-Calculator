@@ -9,12 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇵🇱 PL | 🟢 | trojan | @NamiraConfigs | 49 = trojan, 78.17.171.140, 2053, password = t5ZTZ0bYgRLNmJKv-Wg2wmsMx21s6RhX, skip-cert-verify = false
+
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇵🇱 PL | 🟢 | trojan | @NamiraConfigs | 49
-PSG-AUTO = url-test, 🇵🇱 PL | 🟢 | trojan | @NamiraConfigs | 49
-PSG-FALLBACK = fallback, 🇵🇱 PL | 🟢 | trojan | @NamiraConfigs | 49
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 
+PSG-AUTO = url-test, 
+PSG-FALLBACK = fallback, 
 
 [Rule]
 GEOIP,IR,DIRECT
