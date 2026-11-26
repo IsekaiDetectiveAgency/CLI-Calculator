@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 49"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 49"
+                "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,25 +135,27 @@
             "type": "dns"
         },
         {
-            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 49",
+            "tag": "🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49",
             "type": "vless",
-            "server": "nl3ww.sublinkplas.ir",
-            "server_port": 12190,
-            "uuid": "b28e9267-bb15-4e09-b126-a49aad8a52a2",
-            "flow": "xtls-rprx-vision",
+            "server": "104.21.62.113",
+            "server_port": 8443,
+            "uuid": "cbfdab46-e183-4cc3-bab9-df954c8c601e",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "delivery.mp.microsoft.com",
+                "server_name": "cdn.memegift.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "33hVTwP-1rQYG0F92oXJ-o1zPo4Cc8n2Uml_i9tv6XM",
-                    "short_id": "aa74a7a98e86f2ed"
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/vless-ws",
+                "headers": {
+                    "Host": "cdn.memegift.ir"
                 }
             }
         }

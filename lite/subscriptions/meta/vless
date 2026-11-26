@@ -17,7 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 49","type":"vless","server":"nl3ww.sublinkplas.ir","port":12190,"uuid":"b28e9267-bb15-4e09-b126-a49aad8a52a2","tls":true,"network":"tcp","client-fingerprint":"firefox","udp":true,"servername":"delivery.mp.microsoft.com","reality-opts":{"public-key":"33hVTwP-1rQYG0F92oXJ-o1zPo4Cc8n2Uml_i9tv6XM","short-id":"aa74a7a98e86f2ed"}}
+  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49","type":"vless","server":"104.21.62.113","port":8443,"uuid":"cbfdab46-e183-4cc3-bab9-df954c8c601e","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"cdn.memegift.ir","ws-opts":{"path":"/vless-ws","headers":{"Host":"cdn.memegift.ir"}}}
 
 rule-providers:
   ir_domains:
@@ -48,19 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 49'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 49'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 49'
+      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
