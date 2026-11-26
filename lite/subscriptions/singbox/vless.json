@@ -105,14 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 50"
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 49"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 50"
+                "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 49"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "3m",
@@ -135,16 +135,16 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪 DE | 🟢 | vless | @NamiraConfigs | 50",
+            "tag": "🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 49",
             "type": "vless",
-            "server": "host_1.tufqav.ir",
-            "server_port": 8880,
-            "uuid": "63b5bce1-07a2-d76b-1310-a50569d360b8",
+            "server": "nl3ww.sublinkplas.ir",
+            "server_port": 12190,
+            "uuid": "b28e9267-bb15-4e09-b126-a49aad8a52a2",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "gtv1.com",
+                "server_name": "delivery.mp.microsoft.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -152,8 +152,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "IUofyoxI7Pf_Wv6t_3deR86qPTBDdmfwKmXGeIhNXmY",
-                    "short_id": "b41b340d"
+                    "public_key": "33hVTwP-1rQYG0F92oXJ-o1zPo4Cc8n2Uml_i9tv6XM",
+                    "short_id": "aa74a7a98e86f2ed"
                 }
             }
         }

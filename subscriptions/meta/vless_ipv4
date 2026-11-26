@@ -17,8 +17,7 @@ dns:
   nameserver: [8.8.4.4, 1.0.0.1, "https://1.0.0.1/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 47","type":"vless","server":"104.27.127.133","port":2083,"uuid":"d21d1bf2-206a-41c6-a40c-49bdd1f6f3be","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"net-bridge-c9d0c4-gw.prod-relay-3c3937.workers.dev","ws-opts":{"path":"/c216a10ece89acba?ed=2560","headers":{"Host":"net-bridge-c9d0c4-gw.prod-relay-3c3937.workers.dev"}}}
-  - {"name":"🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49","type":"vless","server":"104.27.25.196","port":443,"uuid":"d21d1bf2-206a-41c6-a40c-49bdd1f6f3be","tls":true,"network":"ws","client-fingerprint":"chrome","udp":true,"servername":"net-bridge-c9d0c4-gw.prod-relay-3c3937.workers.dev","ws-opts":{"path":"/c216a10ece89acba?ed=2560","headers":{"Host":"net-bridge-c9d0c4-gw.prod-relay-3c3937.workers.dev"}}}
+  - {"name":"🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 48","type":"vless","server":"31.57.201.8","port":443,"uuid":"2fe2ce08-4c91-4a60-9c1d-ba4964e758ab","tls":true,"network":"tcp","client-fingerprint":"chrome","udp":true,"servername":"www.ipxo.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"D0XU_vaxhJewIPzWLbXIVHfoq68Jcu48HUp9I4r30xU","short-id":"d211e464747fdf2c"}}
 
 rule-providers:
   ir_domains:
@@ -49,22 +48,19 @@ proxy-groups:
     interval: 300
     tolerance: 50 
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 47'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49'
+      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 48'
 
   - name: 📉 Fallback
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 47'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49'
+      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 48'
       
   - name: All-Proxies
     type: select
     proxies:
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 47'
-      - '🇺🇸 US | 🟢 | vless | @NamiraConfigs | 49'
+      - '🇳🇱 NL | 🟢 | vless | @NamiraConfigs | 48'
 
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
